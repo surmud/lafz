@@ -1,401 +1,254 @@
-# Lafz — MVP Spec
+# Lafz — Product Spec (v2)
 
-> **Lafz** (لفظ, "word"). An Urdu app for heritage learners: people who understand some Urdu but
-> can't speak or read it well, and want to talk with family. Complete beginners come second.
+> **Lafz** (لفظ, "word"). An Urdu course from zero to conversational, built for heritage learners
+> (diaspora kids who understand some Urdu but can't speak or read it) and usable by complete beginners.
 >
-> Status: Milestone 1 (research + spec). Last updated 2026-11-15.
+> v2, 2026-11-15. Replaces v1 (Milestone 1 research). The v1 research (competitors, TTS comparison) is
+> summarised in §12. Working rules for the build agent are in [CLAUDE.md](CLAUDE.md).
 
 ---
 
-## 1. Problem and positioning
+## 1. What we're building
 
-Duolingo has no Urdu course for English speakers. A June 2026 Duolingo course goes the other way
-(English for Urdu speakers), so it doesn't help this audience. People are asking for one: there are
-Change.org petitions, and r/Urdu threads keep asking for "Duolingo but Urdu." The usual workaround is
-Duolingo's **Hindi** course. It gets the spoken grammar right but teaches Sanskritised vocabulary and
-the wrong script, and nothing in it is built around Pakistani or diaspora family life.
+A **free, installable, offline-capable web app** (PWA) with:
 
-**Lafz in one line:** useful family phrases first, free to make mistakes, with progress measured by
-what you can *do*.
+- A **Speaking track**: 12 situational units, about 70 lessons, from "Salaam" to telling a story about the wedding.
+- A **Reading track**: about 10 units of Nastaliq, from letters to a Ghalib couplet.
+- **Scripted branching conversations** (no LLM) as unit "boss fights".
+- **Prep packs** for real upcoming events.
+- **Speaking practice** with speech recognition.
+- **Ask Ammi**: share phrases with family to check and practise.
+- **Family voice**: a relative records the audio, and it replaces the TTS for that learner.
+- **Kinship and respect** tools: a family tree, plus when to use aap, tum or tu.
+- A **placement check**, **XP**, a **streak that never punishes**, and a **can-do progress** screen.
 
-## 2. Competitor teardown
+No backend, no accounts, no ads, no paywall, no LLM, no paid APIs. Everything runs on the device.
 
-| App | Model | What works | Where it falls short for heritage learners |
+## 2. Core identity (the Duolingo pain points we fix)
+
+1. **Useful phrases first, organised by situation.** Test for every lesson: *could you use it tonight?*
+2. **Make mistakes for free.** No hearts, no energy, no lockouts. Wrong answers come back later in the
+   lesson, and getting them right then earns a *comeback bonus*.
+3. **Fluency, not streaks.** Progress is "You can now survive a dawat," not just XP.
+4. **Trustworthy content.** All Urdu is cross-checked against reputable references (§6) and the source is recorded.
+5. **Meet people where they are.** Placement lets heritage speakers skip what they already know. Nothing is ever locked.
+6. **Respect.** No ads, no guilt-trip notifications, streaks pause instead of breaking, core is free forever.
+
+## 3. Learner insights that shape the design
+
+- **Heritage speakers understand far more than they can produce.** Bias exercises toward *producing*
+  answers ("Khala says X. What do you say back?") over recognising them.
+- **Diaspora families code-switch.** "Beta, homework ho gaya?" is real Urdu at home. Accept and teach
+  natural Urdu–English mixing where natives would use it, and label it as casual.
+- **Respect grammar is a social minefield.** aap, tum and tu, kinship terms (khala, phuppo, chachi,
+  mami), and honorifics (ji, sahab) get dedicated teaching and are repeated throughout.
+- **Real speech is fast.** Every phrase has normal and slow audio, and listening drills include
+  "aunty speed".
+- **The goal is family.** Features that bring the family in (Ask Ammi, family voice) are core, not extras.
+
+## 4. Tone and humor
+
+Playful, sharp, very desi. **No limit on humor.** Roast-level jokes about khalas, rishta aunties,
+competitive cousins, desi parents, wedding chaos, chai snobbery, "beta, you've gotten fat/thin", and
+engineer/doctor pressure are all in. Recurring characters give the course continuity (Fable can
+expand the cast):
+
+- **Shabnam Khala**: nosy, loving, calls at 6am Pakistan time, asks about rishtas within 30 seconds.
+- **Nani**: says little, judges everything, secretly the funniest.
+- **Bilal (cousin)**: insufferable, a doctor, mentioned constantly by your parents.
+- **Rishta Aunty (Mrs. Butt)**: has a spreadsheet.
+- **Ammi / Abbu**: the classic lines ("Hum tumhari umar mein…").
+- **Rickshaw-wala Pervez**: haggling nemesis.
+
+The jokes target situations and relatives, never the learner's mistakes. The learner should laugh
+*with* the app.
+
+## 5. Curriculum
+
+### 5.1 Speaking track (Roman Urdu first, Nastaliq toggle on every screen)
+
+Each unit has 5–7 lessons (2–4 minutes each), then a **boss conversation**, then a can-do unlocked.
+
+| # | Unit | Situations | Grammar introduced |
 |---|---|---|---|
-| **Duolingo** (Hindi as proxy) | Freemium, energy/hearts | Habit loop, polish, short lessons | No Urdu. Hindi vocab and Devanagari. Random-word-first ordering. Energy system punishes mistakes. Streak anxiety. |
-| **Ling** | Subscription | Gamified, covers script, broad vocabulary | Generic topics. Light on grammar. Reviewers call it disorganised. Paywall arrives early. Starts everyone at zero. |
-| **Mondly** | Subscription (~$10/mo) | Short, fun lessons | Same template across 40+ languages, so lessons aren't built around Urdu culture. Synthetic audio. No placement. |
-| **UrduPod101** | Subscription, podcast-style | Native-speaker audio, good culture and grammar notes | Passive listening, not practice. English support drops off at higher levels. Upsells heavily. Clunky on mobile. |
-| **Talkpal** | Subscription, AI chat | Open-ended conversation | AI-generated Urdu with no verification, so quality varies. Chat gets repetitive. No curriculum. |
-| **uTalk** | Paid per language | Real recorded voices, many languages | Words and phrases only, mostly nouns. Not much you could use in a real conversation. |
-| **Pimsleur / Mango** | Subscription | Audio-first spoken method (Pimsleur), structured (Mango) | Expensive (Pimsleur). Formal register. No family or desi situations. |
+| 1 | Salaam & Respect | greeting elders, "how are you", goodbyes, ji | hai/hain, main/aap/tum/tu |
+| 2 | The Family Tree | who's who, introducing relatives, khala vs phuppo | possessives ka/ki/ke, mera/meri |
+| 3 | Dawat Survival | eating, "bas bas!", praising food, chai | chahiye, pasand, nouns' gender |
+| 4 | Calls to Pakistan | bad line, voice notes, "awaz aa rahi hai?" | questions (kya/kab/kahan/kaun), present continuous |
+| 5 | Numbers, Time & Money | prices, age, time, dates | numbers 1–100, baje |
+| 6 | Out & About | rickshaw, bazaar haggling, dhaba, directions | imperatives (aap/tum forms), postpositions |
+| 7 | Shaadi Season | mehndi, baraat, rishta aunties, dancing pressure | future tense, ga/gi/ge |
+| 8 | Body, Health & Nazar | sick, tired, desi remedies, nazar | feelings, sakna, lagna |
+| 9 | All About You | job, studies, hobbies, "when are you settling down?" | simple past (non-ne verbs) |
+| 10 | Eid, Ramadan & Occasions | Eid Mubarak, iftar, condolences, congrats | ne-construction |
+| 11 | Taunts, Banter & Desi Parent Lines | sarcasm, comebacks, classic parent lines | compound verbs (ja/le/de), subjunctive |
+| 12 | Tell a Story | recounting the wedding, gossip | putting the tenses together, connectors |
 
-**What nobody does:**
-1. Curriculum built around the situations heritage learners actually face: khala on the phone, a
-   dawat, a wedding.
-2. A placement check that lets someone who already understands Urdu skip "aap kaise hain."
-3. Forgiving **Roman Urdu** typing. Everyone spells it differently (`kya`/`kia`, `hai`/`hey`,
-   `nahi`/`nahin`), and exact-match apps mark correct answers wrong.
-4. Free core lessons with no hearts or energy.
+### 5.2 Reading track (Nastaliq), unlocked from day 1, independent of speaking
 
-Sources: see §11.
+| # | Unit |
+|---|---|
+| R1 | How Urdu script works (right to left, joining, Nastaliq slant) |
+| R2–R5 | Letters in shape families (ب پ ت ٹ ث / ج چ ح خ / د ڈ ذ ر ڑ ز ژ / س ش ص ض ط ظ ع غ …) with joining forms |
+| R6 | Short vowels, zer/zabar/pesh, do-chashmi he, nun ghunna, choti/bari ye |
+| R7 | Reading words you already know from the speaking track |
+| R8 | Signs, menus, shop boards |
+| R9 | WhatsApp messages from family (mixed script, emojis) |
+| R10 | Final test: read a famous Ghalib or Faiz couplet, with meaning |
 
-## 3. Product principles (what we hold every decision to)
+Reading exercises: letter recognition, which form is this (initial/medial/final/isolated), tracing
+(pointer/touch canvas, scored loosely), word build, read-and-select-meaning, read aloud
+(speech-recognition check).
 
-1. **Could you use it tonight?** Every lesson opens with phrases, not single words. No "the apple is red."
-2. **Make mistakes for free.** No hearts, no energy, no ads, no lockouts. A wrong answer gets a gentle
-   correction and the question comes back later in the lesson.
-3. **Can-do over XP.** XP and streaks exist, but the main progress screen says things like
-   "You can greet elders respectfully."
-4. **Native-verified content.** Every Urdu string has a `verified` flag. Anything an AI or a non-native
-   speaker wrote ships as `verified: false` and goes into the founder's review queue (PROGRESS.md
-   plus a script, §5.4).
-5. **Meet people where they are.** A ~5-question placement check routes heritage speakers past the basics.
-6. **Roman Urdu first.** Nastaliq can be toggled on per lesson and is phased in gradually.
-7. **Respect the user.** No guilt-trip notifications. Streaks pause instead of breaking. Pricing stays
-   honest: core lessons are free forever, and only AI conversation and voice will be paid.
-8. **Desi humor, real tone.** Khala, chai, rickshaws, rishta aunties, wedding chaos. Warm, never
-   making fun of the learner.
+### 5.3 Prep packs
+Short playlists (3–5 lessons, mixing review and new material) for a real event, picked on the home screen:
+"Shaadi in 5 days", "Eid next week", "Nani is visiting", "First call with Khala", "Trip to Pakistan".
+They reuse lesson content, and each has its own can-do.
 
-## 4. Urdu TTS comparison and recommendation
+### 5.4 Kinship and respect tools
+- **Family tree**: interactive. Tap a relative to get their term (maternal vs paternal), how to address
+  them, and audio.
+- **Respect meter**: some exercises ask you to pick the right register for the listener (nani vs
+  cousin vs rickshaw-wala). Feedback explains the social effect ("Tu to nani?? Bold choice.").
 
-### Candidates
+## 6. Content and verification
 
-| Provider | Urdu voices | Accent | Price (list, per 1M chars) | Free tier | Learner-relevant controls | Notes |
-|---|---|---|---|---|---|---|
-| **Azure AI Speech** | `ur-PK-UzmaNeural` (F), `ur-PK-AsadNeural` (M); also `ur-IN-GulNeural`, `ur-IN-SalmanNeural` | **Pakistani** (ur-PK) + Indian | ~$15–16 neural | 0.5M chars/mo (F0) | Full SSML: `prosody rate` for slow mode, `<phoneme>`, `<break>`, per-word timing via word-boundary events | GA since 2021. Mature SDK and REST. |
-| **Google Cloud TTS** | Chirp 3 HD + Standard/WaveNet for **ur-IN only**; Gemini-TTS has ur-PK in *preview* | Indian (ur-IN) | $30 Chirp 3 HD; $4 Standard/WaveNet | 1M chars/mo Chirp HD, 4M Standard | Chirp 3 HD has limited SSML. Gemini-TTS can be steered with prompts but is preview-only. | Chirp HD is very natural in general, but the accent is Indian. Gemini-TTS can drift, repeat itself or go silent, per community reports. |
-| **ElevenLabs** | Multilingual v2/v3 voices, Urdu supported | Mixed, not consistently Pakistani | Much higher (credit-based) | Small | Voice cloning (could clone a native-speaker founder-approved voice later) | Best emotional range. Developers report weaker Urdu specifically. Cost doesn't fit "free forever." |
-| **OpenAI gpt-4o-mini-tts** | Multilingual, Urdu not specifically benchmarked | Varies by voice | Cheap per minute | — | Prompt-steerable tone | No Urdu-specific evaluation found. Accent and pronunciation of loanwords unknown. |
-| **Uplift AI** (YC S25) | Urdu, Sindhi, Balochi ("Orator") | **Pakistani**, Urdu-first | Not public | Unknown | WAV output, API key | Built specifically for Pakistani languages. Young company, so vendor risk. Worth a listening test. |
+- All lesson content is JSON in `content/`, validated by Zod in CI.
+- **No human approval step.** Every phrase is checked against at least one reputable reference before
+  it ships:
+  - Rekhta Dictionary (rekhtadictionary.com): spelling, Nastaliq, meaning
+  - Urdu Lughat, Urdu Dictionary Board (udb.gov.pk / urdulughat.pk)
+  - Platts, *A Dictionary of Urdu, Classical Hindi and English* (dsal.uchicago.edu)
+  - Wiktionary (Urdu entries) as a secondary source
+  - For grammar: established Urdu grammar references (e.g. Schmidt, *Urdu: An Essential Grammar*)
+- Each phrase records `sources: [{ ref, url?, checked: "2026-11-15" }]` and `confidence: "high" | "medium"`.
+  Idioms and casual code-switched lines that dictionaries don't cover are marked `confidence: "medium"`
+  and listed in PROGRESS.md so a native speaker can look later. They are **not** blocked.
+- Nastaliq text is required on every phrase. TTS is generated from it, and the reading track uses it.
 
-### Key technical finding
-**Generate audio from the Nastaliq (Urdu script) text, not from Roman Urdu.** Every engine above was
-trained on Urdu script. Roman Urdu input gets read with English phonetics ("kya" said like "kai-a").
-So every phrase in our content has to carry Urdu-script text even when the UI shows only Roman Urdu.
-The schema in §5 requires it.
+## 7. Exercise types
 
-### Recommendation: **Azure `ur-PK-UzmaNeural` (primary) + `ur-PK-AsadNeural` (second voice)**
+| Type | Notes |
+|---|---|
+| Multiple choice | en→ur, ur→en, situation→reply |
+| Match pairs | tap pairs, including audio↔text |
+| Type the answer | forgiving Roman Urdu matching (§8) |
+| Listen & select | normal or aunty speed |
+| Build the sentence | word tiles, so learners see word order |
+| Respect pick | choose the register for this listener |
+| Speak it | speech recognition, forgiving (§9) |
+| Fill the gap | one-word cloze with a word bank |
+| Reading types | §5.2 |
+| Conversation | branching scripted dialogue: choose, type, or speak a reply |
 
-Why:
-1. **Pakistani accent.** It's the only major cloud provider with GA ur-PK voices. Our first audience is
-   mostly Pakistani diaspora, and an Indian ur-IN accent would sound "off" to their parents.
-2. **SSML control.** We need a slow mode (`<prosody rate="-30%">`) and pronunciation fixes
-   (`<phoneme>`, or substituting text) for words the model mispronounces.
-3. **Cost.** At ~$16/1M chars, the whole MVP (5 lessons, about 150 phrases at roughly 30 chars each,
-   times 2 speeds and 2 voices, ≈ 18k chars) costs **pennies** and fits inside the free tier.
-4. **Two voices** make dialogue lessons work: khala (Uzma), chacha (Asad).
+### Scripted conversations (boss fights)
+A directed graph of turns. Each learner turn accepts several valid replies (choice, typed or spoken),
+and different replies can lead to different branches ("You told Khala you're single. She has
+*someone* in mind.") Gentle in-character correction, hints on tap, and no failing: Khala just repeats
+or rephrases. The format is the same one a future LLM tier would plug into.
 
-**Caveats and next steps:**
-- I can't listen to audio. The founder should do a 10-minute blind listening test before Milestone 3:
-  `scripts/tts-compare.ts` (to be added) renders the same 10 phrases with Azure ur-PK, Google
-  Chirp 3 HD ur-IN, and Uplift. If Uplift clearly sounds more natural, swap it in. The TTS layer
-  is pluggable (§6.4), so swapping is a config change.
-- Long term, the best audio is **real native recordings** (a parent recording session). The schema
-  allows `audio.source: "human"` to override TTS for any phrase.
+## 8. Forgiving Roman Urdu matching
 
-### Cost control
-- Audio is **pre-generated at build/content time** by `scripts/generate-audio.ts`, not at runtime.
-- Cache key: `sha256(provider + voice + rate + ssml_text)`. Output goes to `public/audio/<hash>.mp3`
-  (or Supabase Storage if size becomes a problem). Unchanged text never gets re-synthesised.
-- The script enforces `TTS_MAX_CHARS_PER_RUN` (default 50k) and refuses to run over it.
-- Runtime TTS (AI khala chat replies) is server-side only, rate-limited per user, cached by hash,
-  and capped by `TTS_DAILY_CHAR_BUDGET`.
+1. Normalise: lowercase, strip punctuation and diacritics, treat `-` and `'` as spaces, collapse whitespace.
+2. Phonetic folding, applied to both sides:
+   - collapse doubled letters (`aa`→`a`, `ee`→`i`, `oo`→`u`)
+   - `w`↔`v`, `q`→`k`, `z`/`zh`/`dh`→`z`
+   - optional nasal `n` after a vowel at the end of a word (`nahin`≈`nahi`, `hain`≈`hai`)
+   - `ai`/`ae`/`ay`/`ey`→`e`, `ia`/`ya`→`ya`
+   - a short-word lexicon (`h`=`hai`, `k`=`ke`, `mai`/`main`/`mein`)
+3. Per token, compare with Damerau-Levenshtein, with a tolerance that scales with word length. Also
+   require a whole-answer similarity threshold.
+4. Results are `correct`, `almost` (show the canonical spelling, counts as correct) or `incorrect`.
+5. Per-exercise `accept` and `reject` lists. `reject` catches near-misses that mean something else
+   (khana "food" vs kahna "to say").
+6. Code-switching: English words in an answer are accepted where the exercise allows mixing.
 
-## 5. Lesson content schema
+This needs a large unit-test table of real-world spelling variants.
 
-Content lives in the repo as JSON under `content/`, validated by a **Zod** schema
-(`src/content/schema.ts`) in CI. TypeScript types are inferred from Zod.
+## 9. Speech
 
-### 5.1 Types
+### TTS (decided: open-source, generated offline)
+- **Meta MMS-TTS** `facebook/mms-tts-urd-script_arabic`, run locally with Python and `transformers`.
+  `scripts/generate_audio.py` reads the content JSON and synthesises from the **Nastaliq** text. Slow
+  audio is made by time-stretching (pitch preserved) or a lower speaking rate.
+- Output: `public/audio/<sha256(voice+rate+text)>.mp3` (or opus), small bitrate, committed to the repo.
+  The cache is keyed by hash, so unchanged text is never re-synthesised.
+- **Licence: CC-BY-NC 4.0 (non-commercial).** That's fine for the free MVP. It **must be replaced
+  before any paid tier** (planned: Azure `ur-PK-UzmaNeural`/`AsadNeural`). Keep TTS behind an adapter
+  (`mms` | `azure` | `browser`). Credit MMS in an About/credits screen.
+- If MMS output for a phrase is bad (Fable listens via metrics and heuristics, plus speech recognition
+  round-trips, §11), fall back to the browser's `speechSynthesis` (ur-PK/ur-IN voice if the device
+  has one) and log it.
+- **Family voice** recordings (§10) always win over TTS.
 
-```ts
-type Register = "respectful" | "casual" | "intimate";   // aap / tum / tu
+### Speech recognition ("Speak it")
+- Primary: Web Speech API `SpeechRecognition` with `lang="ur-PK"` (Chrome/Edge/Android).
+- Fallback: an in-browser Whisper model via transformers.js (lazy-loaded, cached), or hide the
+  exercise gracefully if it's unsupported. Speaking is never required to finish a lesson.
+- Matching: transcripts may come back in Nastaliq or Roman. Compare against both forms using the
+  forgiving matcher (transliterate Nastaliq→Roman for comparison).
 
-interface UrduText {
-  roman: string;            // primary display, canonical spelling, e.g. "Assalam o alaikum"
-  urdu: string;             // Nastaliq, required (used for TTS + script toggle), e.g. "السلام علیکم"
-  romanVariants?: string[]; // accepted alternate spellings beyond the fuzzy matcher
-  literal?: string;         // word-by-word gloss, e.g. "peace be upon you"
-  verified: boolean;        // true only after native-speaker review
-  verifiedBy?: string;      // reviewer initials
-  notes?: string;           // reviewer notes / cultural context
-}
+## 10. Family features (no backend)
 
-interface Phrase {
-  id: string;               // stable, e.g. "greet.salaam"
-  text: UrduText;
-  english: string;          // natural meaning, e.g. "Hello (peace be upon you)"
-  register?: Register;
-  speaker?: "khala" | "chacha" | "ammi" | "abbu" | "cousin" | "waiter" | "you";
-  audio?: {                 // filled by generate-audio script
-    normal: string;         // "/audio/<hash>.mp3"
-    slow: string;
-    source: "tts" | "human";
-    voice?: string;         // e.g. "ur-PK-UzmaNeural"
-  };
-  tip?: string;             // playful cultural note
-}
+- **Ask Ammi**: on any phrase, a "Did I say this right?" button. It uses the Web Share API, or a
+  WhatsApp `wa.me/?text=` link with the Roman text, the Nastaliq text, and optionally the learner's
+  recording. Light gamification: "Asked family 5 times" is a can-do badge.
+- **Family voice**: hand the phone to a parent. They record phrases for a lesson (MediaRecorder,
+  stored in IndexedDB), and those recordings replace TTS for this learner. An export/import file
+  allows moving to a new device.
+- **Practice with family** mode: a print/share card of "5 phrases to try at dinner tonight".
 
-type Exercise =
-  | { id: string; type: "multiple_choice"; prompt: Prompt; choices: string[]; answerIndex: number; }
-  | { id: string; type: "match_pairs"; pairs: { left: string; right: string }[]; } // left = phraseId
-  | { id: string; type: "type_answer"; prompt: Prompt; answers: string[]; }        // phraseIds or roman strings
-  | { id: string; type: "listen_select"; phraseId: string; choices: string[]; answerIndex: number; }; // stretch
+## 11. Architecture
 
-interface Prompt {
-  kind: "en_to_ur" | "ur_to_en" | "audio_to_en" | "situation"; // "situation": "Khala asks if you've eaten. Say yes."
-  text?: string;
-  phraseId?: string;
-}
+- **Next.js (App Router) + TypeScript + Tailwind**, built with `output: "export"` as a fully static
+  site. `basePath: "/lafz"` for GitHub Pages.
+- **PWA**: manifest, icons, a service worker (Serwist or hand-rolled). Precache the app shell and the
+  content JSON; cache audio on use, and per unit on request ("download unit for offline").
+- **State**: all on the device. IndexedDB (via `idb` or Dexie) for progress, XP, streak and
+  recordings; localStorage for small preferences. A data export/import screen.
+- **Pure engine** in `src/engine/` (no React), unit tested: lesson state machine, matching, exercise
+  checkers, placement, XP, streak, can-do derivation, spaced review queue.
+- **Spaced review**: items you got wrong or haven't seen in a while come back in "Review" sessions
+  (a simple Leitner scheme).
+- **Future hooks** (interfaces only, no implementation): `SyncProvider` (accounts), `ConversationEngine`
+  (scripted now, LLM later), `TtsProvider` (azure), `Entitlements` (paid AI tier).
 
-interface Lesson {
-  id: string;               // "l1-greetings-elders"
-  order: number;
-  title: string;            // "Salaam to the elders"
-  situation: string;        // one-line scene: "Your nani just walked in."
-  canDo: string;            // "You can greet elders respectfully and ask how they are."
-  estMinutes: number;       // 2–4
-  level: "foundation" | "heritage"; // placement can skip "foundation"
-  scriptDefault: "roman" | "roman+urdu";
-  phrases: Phrase[];        // 5–8 per lesson
-  exercises: Exercise[];    // 8–12 per lesson
-}
-```
+### Streak that never punishes
+The streak counts days with any practice. You get 2 automatic pause days per week. Once those run
+out, the streak *rests*: it doesn't reset, and it resumes when you're back. Best streak is kept
+forever. No notifications.
 
-### 5.2 Example (abbreviated)
+### Placement
+About 5–8 adaptive questions (listening, picking a reply, register, typing, reading). Placement
+*suggests* a starting unit, marks earlier units as "skipped, review anytime", and offers a reading
+placement too. "Total beginner" skips the check. Nothing is locked.
 
-```json
-{
-  "id": "l1-greetings-elders",
-  "order": 1,
-  "title": "Salaam to the elders",
-  "situation": "Nani just walked into the living room. Everyone is looking at you.",
-  "canDo": "You can greet elders respectfully and ask how they are.",
-  "estMinutes": 3,
-  "level": "foundation",
-  "scriptDefault": "roman",
-  "phrases": [
-    {
-      "id": "greet.salaam",
-      "text": { "roman": "Assalam o alaikum", "urdu": "السلام علیکم",
-                "romanVariants": ["asalamualaikum", "salam alaikum"], "verified": false },
-      "english": "Hello (peace be upon you)",
-      "register": "respectful",
-      "tip": "Say it first. Elders notice who greets whom."
-    }
-  ],
-  "exercises": [
-    { "id": "e1", "type": "type_answer",
-      "prompt": { "kind": "situation", "text": "Nani walks in. Greet her." },
-      "answers": ["greet.salaam"] }
-  ]
-}
-```
+### Can-do screen
+A checklist of situations ("✓ You can greet elders respectfully"), units and reading level, XP, the
+streak with pause days, minutes practised, the family badge, and the next can-do teaser.
 
-### 5.3 Forgiving Roman Urdu matching (`src/engine/romanMatch.ts`)
+## 12. Quality bar and testing
 
-Roman Urdu has no standard spelling, so we normalise both strings and then fuzzy-compare:
+- **Vitest**: engine, matcher (variant table), placement, XP/streak (including time zones and DST),
+  the content schema for every JSON file, and a content linter (every phrase has Nastaliq, audio,
+  sources; every exercise references existing phrases).
+- **Playwright**: mobile projects (iPhone and Pixel viewports). Persona-driven E2E runs with a
+  screenshot at each step (see [docs/EVALS.md](docs/EVALS.md)). Required: placement, then Unit 1
+  Lesson 1, end to end.
+- **Accessibility**: tap targets ≥44px, contrast, screen-reader labels, `lang="ur"` and `dir="rtl"`
+  on Urdu text, a Nastaliq web font (Noto Nastaliq Urdu, self-hosted).
+- **CI** (GitHub Actions) on every push: lint → typecheck → unit → content validate → build → e2e →
+  deploy to GitHub Pages (main only).
+- **Lighthouse** PWA/performance check on the deployed site.
 
-1. Lowercase, strip punctuation and diacritics, collapse whitespace, treat `-` and `'` as spaces.
-2. Phonetic folding rules (ordered, applied to both sides):
-   - doubled vowels/consonants → single (`aa`→`a`, `ee`→`i`, `oo`→`u`, `kk`→`k`)
-   - `w`↔`v`, `q`→`k`, `z`/`zh`/`dh`→`z`, `ph`→`f` (where unambiguous), `kh`/`gh` preserved
-   - nasal endings: trailing `n` after a vowel optional (`nahin`≈`nahi`, `hain`≈`hai`)
-   - `ai`/`ae`/`ay`/`ey`→`e`; `ia`/`ya`→`ya` (`kia`=`kya`); `o`/`u` interchangeable in unstressed positions
-   - common words lexicon: `h`→`hai`, `k`→`kay/ke`, `mai`/`main`/`mein`→`me`
-3. Compare token-by-token with **Damerau-Levenshtein**. Accept if every token is within
-   `max(1, floor(len/4))` edits **and** total normalised distance ≤ 15%.
-4. Results: `correct` | `almost` (typo tolerated, show canonical spelling) | `incorrect`.
-   `almost` counts as correct. We never punish spelling.
-5. Explicit `romanVariants` always match. Explicit "wrong-meaning" near-misses can be listed to
-   block false positives (e.g. `khana` (food) vs `kahna` (to say)).
+## 13. Out of scope for now
+LLM chat, cloud TTS, accounts and sync, payments, push notifications, native apps, leaderboards.
 
-This module gets the heaviest unit testing (a table of ~100 real spelling variants).
-
-### 5.4 Verification workflow
-- `npm run content:unverified` prints every `verified: false` string, grouped by lesson. PROGRESS.md
-  embeds the same list.
-- The founder (or a parent) reviews, fixes, and sets `verified: true, verifiedBy: "SJ"`.
-- CI **warns** (doesn't fail) on unverified content. The UI shows a small "beta" dot on unverified
-  phrases in dev builds only.
-
-## 6. Architecture
-
-```
-Next.js (App Router, TS, Tailwind) — installable PWA on Vercel
-│
-├── app/
-│   ├── (marketing)/page.tsx          landing: "Make mistakes for free"
-│   ├── onboarding/placement/         5-question placement check
-│   ├── learn/                        lesson path (map of situations)
-│   ├── learn/[lessonId]/             lesson player (client component, engine-driven)
-│   ├── progress/                     can-do screen + XP + streak
-│   ├── chat/khala/                   AI khala scenario
-│   └── api/
-│       ├── chat/route.ts             LLM proxy (server-only key, streaming, rate-limited)
-│       ├── tts/route.ts              runtime TTS for chat replies (cached, budgeted)
-│       └── progress/route.ts         (optional) server writes; default is client → Supabase w/ RLS
-│
-├── src/engine/                       PURE TypeScript, no React — unit tested with Vitest
-│   ├── lessonEngine.ts               state machine: queue, answer, retry-later, complete
-│   ├── romanMatch.ts                 forgiving matching
-│   ├── exercises/*.ts                checkers per exercise type
-│   ├── placement.ts                  scoring → starting lesson
-│   ├── xp.ts / streak.ts             rules (incl. streak pause)
-│   └── canDo.ts                      derive can-do list from completed lessons
-├── src/content/                      schema.ts (Zod), loader.ts
-├── content/lessons/*.json            the 5 lessons
-├── content/placement.json
-├── content/scenarios/khala.json      persona + goals + guardrails for AI chat
-├── public/audio/                     pre-generated, hashed mp3s
-├── scripts/                          generate-audio.ts, tts-compare.ts, list-unverified.ts
-└── e2e/                              Playwright specs + screenshots
-```
-
-### 6.1 Lesson engine (state machine)
-`idle → presenting(phrase intro cards) → exercising → feedback → (next | requeue) → complete`
-- A wrong answer shows feedback with the correct answer and audio, and the exercise is **requeued** two
-  or three items later. No lives lost.
-- Lesson completes when every exercise has been answered correctly once.
-- XP: +10 per lesson, +1 per first-try correct, +5 "comeback" bonus for getting a requeued item right
-  (mistakes earn a reward instead of a penalty).
-- The engine is pure (`reduce(state, action) → state`), which makes it easy to test and replay.
-
-### 6.2 Data and auth (Supabase)
-- **Anonymous-first:** users start learning right away. Progress lives in `localStorage` plus an
-  anonymous Supabase session. Signing up (magic link / Google) links the anonymous user. No signup wall.
-- Tables (RLS: `user_id = auth.uid()`):
-  - `profiles(user_id pk, display_name, placement_level, script_pref, created_at)`
-  - `lesson_progress(user_id, lesson_id, completed_at, best_accuracy, xp_earned, pk(user_id, lesson_id))`
-  - `daily_activity(user_id, day date, xp, pk(user_id, day))` → streak is derived, not stored
-  - `streak_pauses(user_id, day date)` → freeze days
-  - `entitlements(user_id, tier text default 'free', ai_messages_used int, period_start)` ← **paid-tier hook**
-  - `chat_sessions(id, user_id, scenario, created_at)`; `chat_messages(session_id, role, content, created_at)`
-- Without Supabase env vars, the app falls back to local-only storage, so it works offline and for
-  E2E tests.
-
-### 6.3 Streak that doesn't punish
-- The streak counts days with ≥1 completed lesson or chat.
-- **Free pauses:** 2 auto-applied pause days per week. Missing a day uses a pause silently.
-- After pauses run out, the streak doesn't reset to 0. It shows "Welcome back — your 12-day streak is
-  resting" and **resumes** from 12 when you return. "Best streak" is kept forever.
-- No push notifications in the MVP. Later, opt-in only, one per day at most, never guilt-based.
-
-### 6.4 TTS adapter
-```ts
-interface TtsProvider { synthesize(ssml: string, voice: string): Promise<Buffer>; name: string }
-```
-Implementations: `azure` (default), `google`, `uplift`. Chosen with `TTS_PROVIDER`. Key: `TTS_API_KEY`
-(+ `TTS_REGION` for Azure). The build-time script and the runtime chat route share the adapter and
-the hash cache.
-
-### 6.5 AI khala chat
-- Persona: **Shabnam Khala**, a loving, nosy aunt on a phone call. She asks about food, studies or job,
-  marriage ("koi larki/larka pasand hai?"), and when you're visiting.
-- `/api/chat` streams from the LLM (`LLM_API_KEY`, server-only). It sends the full session history
-  (context within the session), a system prompt, and a scenario-goal checklist.
-- Response contract (JSON mode / tool call):
-  `{ reply: {roman, urdu, english}, correction?: {youSaid, better, why}, goalsMet: string[] }`
-- **Gentle correction:** at most one correction per turn, phrased kindly ("Khala smiles: you can also
-  say…"), never interrupting the flow. Hints are available on tap. The user can answer in English,
-  Roman Urdu or a mix, and khala still replies.
-- **Anti-repetition:** the prompt tracks which topics have been covered, and khala moves on. A
-  temperature/presence penalty helps too.
-- Guardrails: stays in persona, keeps content family-friendly, refuses off-topic requests, and caps
-  each session at 30 turns.
-- AI output is shown with a small "AI" label (it isn't verified content). Corrections link back to
-  the verified phrases in lessons where possible.
-- **Paid-tier hook:** every call to `/api/chat` goes through `checkEntitlement(user, "ai_chat")`. In the
-  MVP everyone gets a generous free quota (e.g. 20 messages/day), enforced server-side. Later, Stripe
-  updates `entitlements.tier`. No payment code in the MVP.
-
-### 6.6 PWA
-- `app/manifest.ts`, icons, theme color. Service worker via **Serwist** (`@serwist/next`).
-- Offline: app shell, lesson JSON and lesson audio are precached after first visit, so lessons work
-  offline. Chat needs a network connection.
-
-### 6.7 Testing and CI
-- **Vitest:** engine, romanMatch (variant table), placement scoring, XP/streak (including pause and
-  resume edge cases and timezones), content schema validation for all JSON.
-- **Playwright** (mobile viewport, iPhone 13 + Pixel 7 projects): placement check → lesson 1
-  end-to-end, with screenshots at each step saved as CI artifacts. The chat test uses a mocked LLM
-  route.
-- **GitHub Actions** on every PR: `lint → typecheck → vitest → content validate → build → playwright`.
-- **Vercel** preview deploy per PR. Secrets live in Vercel and GitHub env settings only.
-  `.env.example` documents them, and `.env*` is gitignored.
-
-### 6.8 Secrets and spend
-- `LLM_API_KEY`, `TTS_API_KEY`, `TTS_REGION`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`,
-  `SUPABASE_SERVICE_ROLE_KEY` (server only, ideally unused).
-- Spend caps: `TTS_MAX_CHARS_PER_RUN`, `TTS_DAILY_CHAR_BUDGET`, `AI_FREE_MESSAGES_PER_DAY`,
-  `LLM_MAX_OUTPUT_TOKENS`. Also set hard budget alerts in the Azure and LLM consoles (founder action).
-
-## 7. MVP content plan
-
-| # | Lesson | Situation | Can-do | Level |
-|---|---|---|---|---|
-| 1 | **Salaam to the elders** | Nani walks in | Greet elders respectfully, ask how they are, say you're fine | foundation |
-| 2 | **Phone call with Khala** | Khala calls on WhatsApp, the connection is bad | Answer the phone, say who you are, ask "can you hear me?", say goodbye | foundation |
-| 3 | **At the dawat** | A big family dinner and the aunties keep serving | Say you're full, praise the food, politely refuse a third helping (and fail) | heritage |
-| 4 | **Ordering food** | A dhaba / desi restaurant | Order chai and food, ask for less spice, ask for the bill | heritage |
-| 5 | **Wedding small talk** | The mehndi, cornered by a rishta aunty | Introduce yourself, say what you do, deflect "when is *your* shaadi?" | heritage |
-
-Each lesson has 5–8 phrases, 8–12 exercises (a mix of all 3 types) and about 3 minutes of practice.
-All Urdu is drafted by Claude and marked `verified: false` until reviewed.
-
-## 8. Placement check
-- 5 questions of increasing difficulty: (1) recognise a greeting, (2) understand a phone line from
-  audio, (3) choose the respectful form (aap vs tum), (4) type a dawat reply, (5) understand a
-  wedding question.
-- Score 0–2 → start at Lesson 1. 3–4 → Lesson 3, with 1–2 marked "skipped, review anytime".
-  5 → all unlocked.
-- Nothing is ever locked. Placement only decides where we *suggest* you start. "I'm a total beginner"
-  skips the check.
-
-## 9. Can-do progress screen
-- A list of situations with ✓, built from completed lessons: "✓ You can greet elders respectfully."
-- Below that: XP total, current/best streak with pause days shown, and minutes practised.
-- A teaser for the next can-do ("Next: survive the dawat").
-
-## 10. Milestones (a PR at each checkpoint)
-
-1. **Research + SPEC.md** ← *this PR*
-2. **Lesson engine + exercise types + tests.** Next.js scaffold, Tailwind, Zod schema, pure engine,
-   romanMatch with variant table, 3 exercise UIs, Vitest, CI workflow (lint/typecheck/test/build).
-3. **Content.** 5 lessons as JSON, Azure TTS adapter, `generate-audio` with hash cache and spend cap,
-   `tts-compare` script for the founder's listening test, audio playback with slow mode.
-4. **Placement + XP/streak + can-do.** Supabase schema and RLS migrations, anonymous-first auth,
-   local fallback, progress screen.
-5. **AI khala chat.** `/api/chat` streaming, persona and correction contract, entitlement hook, rate
-   limit, mocked-LLM test.
-6. **PWA polish + deploy.** Manifest, Serwist offline, mobile polish, Vercel preview, full Playwright
-   run with screenshots, PROGRESS.md.
-
-**Definition of done:** CI green. A Playwright test completes placement and Lesson 1. The preview URL
-works on mobile. PROGRESS.md lists what's built, the unverified Urdu, known issues and next steps.
-
-### Open questions for the founder
-1. Run the TTS listening test (Azure ur-PK vs Google ur-IN vs Uplift) before Milestone 3. ~10 min.
-2. Is the khala persona name and tone OK, and are any topics off-limits (e.g. rishta jokes)?
-3. Which LLM provider sits behind `LLM_API_KEY`? The adapter will be provider-agnostic, defaulting to
-   Anthropic Claude (`claude-sonnet-5-5` for chat quality, `claude-haiku-5-5` for cheap turns).
-4. Supabase project: create one now, or keep local-only storage until Milestone 4?
-
-## 11. Sources
-- Azure ur-PK neural voices announcement: https://techcommunity.microsoft.com/t5/azure-ai-services-blog/eleven-more-languages-are-generally-available-for-azure-neural/ba-p/2236871
-- Azure low-resource TTS update (MOS > 4.3 across low-resource voices): https://techcommunity.microsoft.com:443/t5/ai-azure-ai-services-blog/low-resource-technology-updates-for-azure-neural-text-to-speech/ba-p/3716922
-- Azure Speech pricing: https://azure.microsoft.com/en-in/pricing/details/speech
-- Google Chirp 3 HD (ur-IN supported): https://docs.cloud.google.com/text-to-speech/docs/chirp3-hd
-- Google Gemini-TTS (ur-PK preview): https://cloud.google.com/text-to-speech/docs/gemini-tts
-- Google TTS pricing: https://cloud.google.com/text-to-speech/pricing
-- Gemini TTS Urdu field notes: https://www.positioniseverything.net/why-does-an-urdu-ai-voice-break-in-gemini-tts-wav-or-whatsapp/
-- ElevenLabs Urdu: https://elevenlabs.io/text-to-speech/urdu
-- Uplift AI (YC S25) launch: https://hn-3iuih7f1s-svelte.vercel.app/item/44950661 · https://www.ycombinator.com/companies/uplift-ai · https://www.dawn.com/news/amp/1969895 · https://docs.pipecat.ai/api-reference/server/services/tts/upliftai
-- Duolingo has no Urdu course: https://duolingoguides.com/does-duolingo-have-urdu/
-- Petitions: https://www.change.org/p/make-urdu-a-duolingo-course
-- r/Urdu "app like Duolingo" thread: https://redlib.hyperreal.coffee/r/Urdu/comments/1hn5805/is_there_any_app_like_duolingo_where_i_can_learn
-- App reviews: https://preply.com/en/blog/apps-to-learn-urdu/ · https://www.alllanguageresources.com/learn-urdu-app/ · https://www.alllanguageresources.com/urdupod101/ · https://www.langoly.com/urdu-learning-apps/ · https://mezzoguild.com/online-urdu-courses
-
-*Competitor rows for Talkpal, uTalk and Pimsleur/Mango come from general product knowledge, not
-from sources fetched for this spec. Check them before using them in any public pitch.*
+## 14. Research summary (from v1)
+- No Duolingo Urdu course for English speakers. Competitors (Ling, Mondly, UrduPod101, Talkpal, uTalk,
+  Pimsleur/Mango) are paid, generic, or passive, with no placement and no heritage focus. Exact-match
+  Roman Urdu checking marks real spellings as wrong.
+- TTS: Azure ur-PK neural voices are the best paid option (Pakistani accent, SSML, ~$16/1M chars).
+  Google offers ur-IN Chirp 3 HD and ur-PK Gemini-TTS in preview. Uplift AI (YC S25) is Urdu-first and
+  worth a listen later. **Always synthesise from Nastaliq, not Roman.**
+- Full v1 sources: git history of this file (commit 6ae425b).
