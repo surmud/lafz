@@ -39,8 +39,9 @@ describe("scripted conversation engine", () => {
   });
 
   test("no failing: an unmatched reply just counts a miss and stays put", () => {
-    let { state, matched } = engine.reply(engine.start(), "pizza please");
-    expect(matched).toBe(false);
+    const first = engine.reply(engine.start(), "pizza please");
+    let state = first.state;
+    expect(first.matched).toBe(false);
     expect(state).toMatchObject({ nodeId: "n2", misses: 1, totalMisses: 1, done: false });
     ({ state } = engine.reply(state, "???"));
     expect(state.misses).toBe(2);
