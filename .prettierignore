@@ -1,0 +1,7 @@
+.next
+out
+coverage
+.venv
+public
+content
+package-lock.json
