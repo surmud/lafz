@@ -1,0 +1,832 @@
+{
+  "id": "r07",
+  "track": "reading",
+  "order": 7,
+  "title": "Words you already say",
+  "emoji": "💬",
+  "tagline": "Read the Urdu you've been speaking all along.",
+  "canDo": "You can read common family words you already know how to say",
+  "grammar": [
+    {
+      "title": "Tip",
+      "body": "When a word looks unfamiliar, read it letter by letter right to left, then say it out loud: your ears often know it before your eyes do."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "r07.w-salaam",
+      "roman": "salaam",
+      "urdu": "سلام",
+      "en": "hello",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%84%D8%A7%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-shukriya",
+      "roman": "shukriya",
+      "urdu": "شکریہ",
+      "en": "thank you",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "شکریہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%DA%A9%D8%B1%D9%8A%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "شکریہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D8%B1%DB%8C%DB%81#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-ji",
+      "roman": "ji",
+      "urdu": "جی",
+      "en": "yes (polite)",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "جی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "جی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AC%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-nahin",
+      "roman": "nahin",
+      "urdu": "نہیں",
+      "en": "no",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-khuda-hafiz",
+      "roman": "khuda-hafiz",
+      "urdu": "خدا حافظ",
+      "en": "goodbye",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خدا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%AF%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خدا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%AF%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "حافظ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AD%D8%A7%D9%81%D8%B8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "حافظ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D9%81%D8%B8#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-ammi",
+      "roman": "ammi",
+      "urdu": "امی",
+      "en": "Mum",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%85%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-abbu",
+      "roman": "abbu",
+      "urdu": "ابو",
+      "en": "Dad",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%88#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-khala",
+      "roman": "khala",
+      "urdu": "خالہ",
+      "en": "Mum's sister",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%DB%81#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-phuppo",
+      "roman": "phuppo",
+      "urdu": "پھپھو",
+      "en": "Dad's sister",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پھپھو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%BE%D9%87%D9%88&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-dadi",
+      "roman": "dadi",
+      "urdu": "دادی",
+      "en": "Dad's mum",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دادی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D8%A7%D8%AF%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دادی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D8%AF%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-chai",
+      "roman": "chai",
+      "urdu": "چائے",
+      "en": "tea",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "چائے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%86%D8%A7%D8%A6%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-roti",
+      "roman": "roti",
+      "urdu": "روٹی",
+      "en": "flatbread",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "روٹی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%88%D9%B9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "روٹی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D9%B9%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-biryani",
+      "roman": "biryani",
+      "urdu": "بریانی",
+      "en": "biryani",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بریانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%B1%D9%8A%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بریانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%DB%8C%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-daal",
+      "roman": "daal",
+      "urdu": "دال",
+      "en": "lentils",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دال",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D8%A7%D9%84&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دال",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D9%84#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r07.w-paani",
+      "roman": "paani",
+      "urdu": "پانی",
+      "en": "water",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "r07-l1",
+      "title": "Greetings in script",
+      "blurb": "Salaam, shukriya, and friends.",
+      "canDo": "You can read greetings and thanks",
+      "teach": [
+        {
+          "title": "You know these already",
+          "info": "Every word in this lesson came up in the speaking course. Now you'll recognise them on a screen, a card or a wedding invitation.",
+          "glyph": "سلام"
+        },
+        {
+          "phrase": "r07.w-salaam"
+        },
+        {
+          "phrase": "r07.w-shukriya"
+        },
+        {
+          "phrase": "r07.w-ji"
+        },
+        {
+          "phrase": "r07.w-nahin"
+        },
+        {
+          "phrase": "r07.w-khuda-hafiz"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "سلام",
+          "options": [
+            {
+              "text": "salaam (hello)"
+            },
+            {
+              "text": "shukriya (thank you)"
+            },
+            {
+              "text": "ji (yes (polite))"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "شکریہ",
+          "options": [
+            {
+              "text": "shukriya (thank you)"
+            },
+            {
+              "text": "ji (yes (polite))"
+            },
+            {
+              "text": "nahin (no)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "جی",
+          "options": [
+            {
+              "text": "ji (yes (polite))"
+            },
+            {
+              "text": "nahin (no)"
+            },
+            {
+              "text": "khuda-hafiz (goodbye)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "نہیں",
+          "options": [
+            {
+              "text": "nahin (no)"
+            },
+            {
+              "text": "khuda-hafiz (goodbye)"
+            },
+            {
+              "text": "salaam (hello)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "خدا حافظ",
+          "options": [
+            {
+              "text": "khuda-hafiz (goodbye)"
+            },
+            {
+              "text": "salaam (hello)"
+            },
+            {
+              "text": "shukriya (thank you)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “hello”",
+          "audio": "r07.w-salaam",
+          "options": [
+            {
+              "glyph": "سلام"
+            },
+            {
+              "glyph": "شکریہ"
+            },
+            {
+              "glyph": "جی"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “thank you”",
+          "audio": "r07.w-shukriya",
+          "options": [
+            {
+              "glyph": "شکریہ"
+            },
+            {
+              "glyph": "سلام"
+            },
+            {
+              "glyph": "جی"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “yes (polite)”",
+          "audio": "r07.w-ji",
+          "options": [
+            {
+              "glyph": "جی"
+            },
+            {
+              "glyph": "سلام"
+            },
+            {
+              "glyph": "شکریہ"
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "r07-l2",
+      "title": "Family in script",
+      "blurb": "Ammi, Abbu, Khala, Phuppo.",
+      "canDo": "You can read the names for family members",
+      "teach": [
+        {
+          "title": "Family words",
+          "info": "Look for the shapes you know: the alif in امی, the khe in خالہ, the two-eyed he in پھپھو.",
+          "glyph": "امی ابو"
+        },
+        {
+          "phrase": "r07.w-ammi"
+        },
+        {
+          "phrase": "r07.w-abbu"
+        },
+        {
+          "phrase": "r07.w-khala"
+        },
+        {
+          "phrase": "r07.w-phuppo"
+        },
+        {
+          "phrase": "r07.w-dadi"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "امی",
+          "options": [
+            {
+              "text": "ammi (Mum)"
+            },
+            {
+              "text": "abbu (Dad)"
+            },
+            {
+              "text": "khala (Mum's sister)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "ابو",
+          "options": [
+            {
+              "text": "abbu (Dad)"
+            },
+            {
+              "text": "khala (Mum's sister)"
+            },
+            {
+              "text": "phuppo (Dad's sister)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "خالہ",
+          "options": [
+            {
+              "text": "khala (Mum's sister)"
+            },
+            {
+              "text": "phuppo (Dad's sister)"
+            },
+            {
+              "text": "dadi (Dad's mum)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "پھپھو",
+          "options": [
+            {
+              "text": "phuppo (Dad's sister)"
+            },
+            {
+              "text": "dadi (Dad's mum)"
+            },
+            {
+              "text": "ammi (Mum)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "دادی",
+          "options": [
+            {
+              "text": "dadi (Dad's mum)"
+            },
+            {
+              "text": "ammi (Mum)"
+            },
+            {
+              "text": "abbu (Dad)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “Mum”",
+          "audio": "r07.w-ammi",
+          "options": [
+            {
+              "glyph": "امی"
+            },
+            {
+              "glyph": "ابو"
+            },
+            {
+              "glyph": "خالہ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “Dad”",
+          "audio": "r07.w-abbu",
+          "options": [
+            {
+              "glyph": "ابو"
+            },
+            {
+              "glyph": "امی"
+            },
+            {
+              "glyph": "خالہ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “Mum's sister”",
+          "audio": "r07.w-khala",
+          "options": [
+            {
+              "glyph": "خالہ"
+            },
+            {
+              "glyph": "امی"
+            },
+            {
+              "glyph": "ابو"
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "r07-l3",
+      "title": "Food in script",
+      "blurb": "Chai, roti, biryani.",
+      "canDo": "You can read the names of everyday food",
+      "teach": [
+        {
+          "title": "Food words",
+          "info": "Menus, recipe videos, Nani's handwritten notes: food is the best reason to read Urdu.",
+          "glyph": "چائے"
+        },
+        {
+          "phrase": "r07.w-chai"
+        },
+        {
+          "phrase": "r07.w-roti"
+        },
+        {
+          "phrase": "r07.w-biryani"
+        },
+        {
+          "phrase": "r07.w-daal"
+        },
+        {
+          "phrase": "r07.w-paani"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "چائے",
+          "options": [
+            {
+              "text": "chai (tea)"
+            },
+            {
+              "text": "roti (flatbread)"
+            },
+            {
+              "text": "biryani (biryani)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "روٹی",
+          "options": [
+            {
+              "text": "roti (flatbread)"
+            },
+            {
+              "text": "biryani (biryani)"
+            },
+            {
+              "text": "daal (lentils)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "بریانی",
+          "options": [
+            {
+              "text": "biryani (biryani)"
+            },
+            {
+              "text": "daal (lentils)"
+            },
+            {
+              "text": "paani (water)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "دال",
+          "options": [
+            {
+              "text": "daal (lentils)"
+            },
+            {
+              "text": "paani (water)"
+            },
+            {
+              "text": "chai (tea)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "پانی",
+          "options": [
+            {
+              "text": "paani (water)"
+            },
+            {
+              "text": "chai (tea)"
+            },
+            {
+              "text": "roti (flatbread)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “tea”",
+          "audio": "r07.w-chai",
+          "options": [
+            {
+              "glyph": "چائے"
+            },
+            {
+              "glyph": "روٹی"
+            },
+            {
+              "glyph": "بریانی"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “flatbread”",
+          "audio": "r07.w-roti",
+          "options": [
+            {
+              "glyph": "روٹی"
+            },
+            {
+              "glyph": "چائے"
+            },
+            {
+              "glyph": "بریانی"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “biryani”",
+          "audio": "r07.w-biryani",
+          "options": [
+            {
+              "glyph": "بریانی"
+            },
+            {
+              "glyph": "چائے"
+            },
+            {
+              "glyph": "روٹی"
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

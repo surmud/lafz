@@ -1,0 +1,844 @@
+{
+  "id": "r08",
+  "track": "reading",
+  "order": 8,
+  "title": "Signs, menus and shop boards",
+  "emoji": "🪧",
+  "tagline": "Read the street: open, closed, welcome, price, no smoking.",
+  "canDo": "You can read common signs and a simple menu",
+  "grammar": [
+    {
+      "title": "Tip",
+      "body": "Signs often drop the verb: 'دکان بند' = shop closed. Read the nouns first."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "r08.w-khush-aamdeed",
+      "roman": "khush-aamdeed",
+      "urdu": "خوش آمدید",
+      "en": "welcome",
+      "confidence": "medium",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خوش",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D9%88%D8%B4&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خوش",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%B4#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خوش آمدید",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%B4%20%D8%A2%D9%85%D8%AF%DB%8C%D8%AF#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-dukaan",
+      "roman": "dukaan",
+      "urdu": "دکان",
+      "en": "shop",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دکان",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%DA%A9%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دکان",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%DA%A9%D8%A7%D9%86#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-band",
+      "roman": "band",
+      "urdu": "بند",
+      "en": "closed",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بند",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بند",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D8%AF#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-khula",
+      "roman": "khula",
+      "urdu": "کھلا",
+      "en": "open",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "کھلا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D9%84%D8%A7&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-masjid",
+      "roman": "masjid",
+      "urdu": "مسجد",
+      "en": "mosque",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "مسجد",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%B3%D8%AC%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مسجد",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%AC%D8%AF#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-samosa",
+      "roman": "samosa",
+      "urdu": "سموسہ",
+      "en": "samosa",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سموسہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%85%D9%88%D8%B3%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سموسہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%85%D9%88%D8%B3%DB%81#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-pakora",
+      "roman": "pakora",
+      "urdu": "پکوڑا",
+      "en": "pakora",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پکوڑا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%DA%A9%D9%88%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-thanda-paani",
+      "roman": "thanda-paani",
+      "urdu": "ٹھنڈا پانی",
+      "en": "cold water",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "ٹھنڈا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%B9%DA%BE%D9%86%DA%88%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-qeemat",
+      "roman": "qeemat",
+      "urdu": "قیمت",
+      "en": "price",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "قیمت",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%82%D9%8A%D9%85%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "قیمت",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%82%DB%8C%D9%85%D8%AA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-rupay",
+      "roman": "rupay",
+      "urdu": "روپے",
+      "en": "rupees",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "روپے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%88%D9%BE%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "روپے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D9%BE%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-mana-hai",
+      "roman": "mana-hai",
+      "urdu": "منع ہے",
+      "en": "is forbidden",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "منع",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%86%D8%B9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "منع",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D9%86%D8%B9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-khatra",
+      "roman": "khatra",
+      "urdu": "خطرہ",
+      "en": "danger",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خطرہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%B7%D8%B1%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خطرہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%B7%D8%B1%DB%81#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-rasta",
+      "roman": "rasta",
+      "urdu": "راستہ",
+      "en": "way / route",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "راستہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D8%A7%D8%B3%D8%AA%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "راستہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D8%B3%D8%AA%DB%81#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-aahista",
+      "roman": "aahista",
+      "urdu": "آہستہ",
+      "en": "slowly",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "آہستہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%87%D8%B3%D8%AA%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آہستہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%DB%81%D8%B3%D8%AA%DB%81#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.w-rukiye",
+      "roman": "rukiye",
+      "urdu": "رکیے",
+      "en": "stop (please)",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "رکنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%DA%A9%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "رکنا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%DA%A9%D9%86%D8%A7#Urdu"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "r08-l1",
+      "title": "On the street",
+      "blurb": "Open, closed, welcome, shop.",
+      "canDo": "You can read basic street and shop signs",
+      "teach": [
+        {
+          "title": "Street Urdu",
+          "info": "Shop boards in Pakistan mix Urdu and English. The Urdu half usually says the same thing, so you can check yourself.",
+          "glyph": "خوش آمدید"
+        },
+        {
+          "phrase": "r08.w-khush-aamdeed"
+        },
+        {
+          "phrase": "r08.w-dukaan"
+        },
+        {
+          "phrase": "r08.w-band"
+        },
+        {
+          "phrase": "r08.w-khula"
+        },
+        {
+          "phrase": "r08.w-masjid"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "خوش آمدید",
+          "options": [
+            {
+              "text": "khush-aamdeed (welcome)"
+            },
+            {
+              "text": "dukaan (shop)"
+            },
+            {
+              "text": "band (closed)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "دکان",
+          "options": [
+            {
+              "text": "dukaan (shop)"
+            },
+            {
+              "text": "band (closed)"
+            },
+            {
+              "text": "khula (open)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "بند",
+          "options": [
+            {
+              "text": "band (closed)"
+            },
+            {
+              "text": "khula (open)"
+            },
+            {
+              "text": "masjid (mosque)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "کھلا",
+          "options": [
+            {
+              "text": "khula (open)"
+            },
+            {
+              "text": "masjid (mosque)"
+            },
+            {
+              "text": "khush-aamdeed (welcome)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "مسجد",
+          "options": [
+            {
+              "text": "masjid (mosque)"
+            },
+            {
+              "text": "khush-aamdeed (welcome)"
+            },
+            {
+              "text": "dukaan (shop)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “welcome”",
+          "audio": "r08.w-khush-aamdeed",
+          "options": [
+            {
+              "glyph": "خوش آمدید"
+            },
+            {
+              "glyph": "دکان"
+            },
+            {
+              "glyph": "بند"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “shop”",
+          "audio": "r08.w-dukaan",
+          "options": [
+            {
+              "glyph": "دکان"
+            },
+            {
+              "glyph": "خوش آمدید"
+            },
+            {
+              "glyph": "بند"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “closed”",
+          "audio": "r08.w-band",
+          "options": [
+            {
+              "glyph": "بند"
+            },
+            {
+              "glyph": "خوش آمدید"
+            },
+            {
+              "glyph": "دکان"
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "r08-l2",
+      "title": "On the menu",
+      "blurb": "Order without pointing.",
+      "canDo": "You can read a dhaba menu",
+      "teach": [
+        {
+          "title": "Dhaba menus",
+          "info": "Menus are short and handwritten. Look for the prices in rupees: روپے.",
+          "glyph": "مینو"
+        },
+        {
+          "phrase": "r08.w-samosa"
+        },
+        {
+          "phrase": "r08.w-pakora"
+        },
+        {
+          "phrase": "r08.w-thanda-paani"
+        },
+        {
+          "phrase": "r08.w-qeemat"
+        },
+        {
+          "phrase": "r08.w-rupay"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "سموسہ",
+          "options": [
+            {
+              "text": "samosa (samosa)"
+            },
+            {
+              "text": "pakora (pakora)"
+            },
+            {
+              "text": "thanda-paani (cold water)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "پکوڑا",
+          "options": [
+            {
+              "text": "pakora (pakora)"
+            },
+            {
+              "text": "thanda-paani (cold water)"
+            },
+            {
+              "text": "qeemat (price)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "ٹھنڈا پانی",
+          "options": [
+            {
+              "text": "thanda-paani (cold water)"
+            },
+            {
+              "text": "qeemat (price)"
+            },
+            {
+              "text": "rupay (rupees)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "قیمت",
+          "options": [
+            {
+              "text": "qeemat (price)"
+            },
+            {
+              "text": "rupay (rupees)"
+            },
+            {
+              "text": "samosa (samosa)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "روپے",
+          "options": [
+            {
+              "text": "rupay (rupees)"
+            },
+            {
+              "text": "samosa (samosa)"
+            },
+            {
+              "text": "pakora (pakora)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “samosa”",
+          "audio": "r08.w-samosa",
+          "options": [
+            {
+              "glyph": "سموسہ"
+            },
+            {
+              "glyph": "پکوڑا"
+            },
+            {
+              "glyph": "ٹھنڈا پانی"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “pakora”",
+          "audio": "r08.w-pakora",
+          "options": [
+            {
+              "glyph": "پکوڑا"
+            },
+            {
+              "glyph": "سموسہ"
+            },
+            {
+              "glyph": "ٹھنڈا پانی"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “cold water”",
+          "audio": "r08.w-thanda-paani",
+          "options": [
+            {
+              "glyph": "ٹھنڈا پانی"
+            },
+            {
+              "glyph": "سموسہ"
+            },
+            {
+              "glyph": "پکوڑا"
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "r08-l3",
+      "title": "Rules and warnings",
+      "blurb": "The signs you're meant to obey.",
+      "canDo": "You can read common warnings and instructions",
+      "teach": [
+        {
+          "title": "Warnings",
+          "info": "Signs that tell you what not to do usually end in منع ہے (is forbidden).",
+          "glyph": "منع ہے"
+        },
+        {
+          "phrase": "r08.w-mana-hai"
+        },
+        {
+          "phrase": "r08.w-khatra"
+        },
+        {
+          "phrase": "r08.w-rasta"
+        },
+        {
+          "phrase": "r08.w-aahista"
+        },
+        {
+          "phrase": "r08.w-rukiye"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "منع ہے",
+          "options": [
+            {
+              "text": "mana-hai (is forbidden)"
+            },
+            {
+              "text": "khatra (danger)"
+            },
+            {
+              "text": "rasta (way / route)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "خطرہ",
+          "options": [
+            {
+              "text": "khatra (danger)"
+            },
+            {
+              "text": "rasta (way / route)"
+            },
+            {
+              "text": "aahista (slowly)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "راستہ",
+          "options": [
+            {
+              "text": "rasta (way / route)"
+            },
+            {
+              "text": "aahista (slowly)"
+            },
+            {
+              "text": "rukiye (stop (please))"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "آہستہ",
+          "options": [
+            {
+              "text": "aahista (slowly)"
+            },
+            {
+              "text": "rukiye (stop (please))"
+            },
+            {
+              "text": "mana-hai (is forbidden)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "رکیے",
+          "options": [
+            {
+              "text": "rukiye (stop (please))"
+            },
+            {
+              "text": "mana-hai (is forbidden)"
+            },
+            {
+              "text": "khatra (danger)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “is forbidden”",
+          "audio": "r08.w-mana-hai",
+          "options": [
+            {
+              "glyph": "منع ہے"
+            },
+            {
+              "glyph": "خطرہ"
+            },
+            {
+              "glyph": "راستہ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “danger”",
+          "audio": "r08.w-khatra",
+          "options": [
+            {
+              "glyph": "خطرہ"
+            },
+            {
+              "glyph": "منع ہے"
+            },
+            {
+              "glyph": "راستہ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “way / route”",
+          "audio": "r08.w-rasta",
+          "options": [
+            {
+              "glyph": "راستہ"
+            },
+            {
+              "glyph": "منع ہے"
+            },
+            {
+              "glyph": "خطرہ"
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

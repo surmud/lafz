@@ -1,0 +1,709 @@
+{
+  "id": "r06",
+  "track": "reading",
+  "order": 6,
+  "title": "Vowels, ھ, ں and the two ye's",
+  "emoji": "🔤",
+  "tagline": "The little marks and special letters that make Urdu Urdu.",
+  "canDo": "You can read short-vowel marks, do-chashmi he, nun ghunna and both ye's",
+  "grammar": [
+    {
+      "title": "Cheat sheet",
+      "body": "zabar َ = a · zer ِ = i · pesh ُ = u · ھ adds a puff of air (bh, ph, kh) · ں nasalises (main, hain) · ی = ee/y · ے = e/ai at the end of a word."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "r06.w-bas",
+      "roman": "bas",
+      "urdu": "بَس",
+      "en": "enough / bus",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B3#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-dil",
+      "roman": "dil",
+      "urdu": "دِل",
+      "en": "heart",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دل",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%84&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دل",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%84#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-gul",
+      "roman": "gul",
+      "urdu": "گُل",
+      "en": "flower (poetic)",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "گل",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%D9%84&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گل",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%D9%84#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-kal",
+      "roman": "kal",
+      "urdu": "کَل",
+      "en": "yesterday / tomorrow",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "کل",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%84&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کل",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%84#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-bhai",
+      "roman": "bhai",
+      "urdu": "بھائی",
+      "en": "brother",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-phool",
+      "roman": "phool",
+      "urdu": "پھول",
+      "en": "flower",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پھول",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%88%D9%84&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پھول",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%DA%BE%D9%88%D9%84#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-khana",
+      "roman": "khana",
+      "urdu": "کھانا",
+      "en": "food",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "کھانا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کھانا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%D8%A7%D9%86%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-ghar",
+      "roman": "ghar",
+      "urdu": "گھر",
+      "en": "house",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "گھر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%D9%87%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گھر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DA%BE%D8%B1#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-main",
+      "roman": "main",
+      "urdu": "میں",
+      "en": "I",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-maan",
+      "roman": "maan",
+      "urdu": "ماں",
+      "en": "mother",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ماں",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%A7%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ماں",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%A7%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-nani",
+      "roman": "nani",
+      "urdu": "نانی",
+      "en": "Nani",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r06.w-hai",
+      "roman": "hai",
+      "urdu": "ہے",
+      "en": "is",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "r06-l1",
+      "title": "Zabar, zer, pesh",
+      "blurb": "Three tiny marks for short vowels (usually left out!)",
+      "canDo": "You can read the three short-vowel marks",
+      "teach": [
+        {
+          "title": "Short vowels are (mostly) invisible",
+          "info": "Urdu writes long vowels as letters (ا و ی) but short vowels as tiny marks, and usually skips them. Zabar (a line above) = a, zer (a line below) = i, pesh (a little و above) = u. Beginners' books show them; WhatsApp never does.",
+          "glyph": "بَ  بِ  بُ"
+        },
+        {
+          "phrase": "r06.w-bas"
+        },
+        {
+          "phrase": "r06.w-dil"
+        },
+        {
+          "phrase": "r06.w-gul"
+        },
+        {
+          "phrase": "r06.w-kal"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "بَس",
+          "options": [
+            {
+              "text": "bas (enough / bus)"
+            },
+            {
+              "text": "dil (heart)"
+            },
+            {
+              "text": "gul (flower (poetic))"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "دِل",
+          "options": [
+            {
+              "text": "dil (heart)"
+            },
+            {
+              "text": "gul (flower (poetic))"
+            },
+            {
+              "text": "kal (yesterday / tomorrow)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "گُل",
+          "options": [
+            {
+              "text": "gul (flower (poetic))"
+            },
+            {
+              "text": "kal (yesterday / tomorrow)"
+            },
+            {
+              "text": "bas (enough / bus)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "کَل",
+          "options": [
+            {
+              "text": "kal (yesterday / tomorrow)"
+            },
+            {
+              "text": "bas (enough / bus)"
+            },
+            {
+              "text": "dil (heart)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “enough / bus”",
+          "audio": "r06.w-bas",
+          "options": [
+            {
+              "glyph": "بَس"
+            },
+            {
+              "glyph": "دِل"
+            },
+            {
+              "glyph": "گُل"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “heart”",
+          "audio": "r06.w-dil",
+          "options": [
+            {
+              "glyph": "دِل"
+            },
+            {
+              "glyph": "بَس"
+            },
+            {
+              "glyph": "گُل"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “flower (poetic)”",
+          "audio": "r06.w-gul",
+          "options": [
+            {
+              "glyph": "گُل"
+            },
+            {
+              "glyph": "بَس"
+            },
+            {
+              "glyph": "دِل"
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "r06-l2",
+      "title": "Do-chashmi he",
+      "blurb": "The 'two-eyed h' that makes bh, ph, kh, gh, chh.",
+      "canDo": "You can read aspirated sounds like bh, ph, kh",
+      "teach": [
+        {
+          "title": "The two-eyed h",
+          "info": "ھ (do-chashmi he, 'two-eyed he') never stands alone. It sits after a letter and adds a puff of air: ب + ھ = بھ (bh), پ + ھ = پھ (ph), ک + ھ = کھ (kh as in khana).",
+          "glyph": "بھ  پھ  کھ  گھ  چھ"
+        },
+        {
+          "phrase": "r06.w-bhai"
+        },
+        {
+          "phrase": "r06.w-phool"
+        },
+        {
+          "phrase": "r06.w-khana"
+        },
+        {
+          "phrase": "r06.w-ghar"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "بھائی",
+          "options": [
+            {
+              "text": "bhai (brother)"
+            },
+            {
+              "text": "phool (flower)"
+            },
+            {
+              "text": "khana (food)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "پھول",
+          "options": [
+            {
+              "text": "phool (flower)"
+            },
+            {
+              "text": "khana (food)"
+            },
+            {
+              "text": "ghar (house)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "کھانا",
+          "options": [
+            {
+              "text": "khana (food)"
+            },
+            {
+              "text": "ghar (house)"
+            },
+            {
+              "text": "bhai (brother)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "گھر",
+          "options": [
+            {
+              "text": "ghar (house)"
+            },
+            {
+              "text": "bhai (brother)"
+            },
+            {
+              "text": "phool (flower)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “brother”",
+          "audio": "r06.w-bhai",
+          "options": [
+            {
+              "glyph": "بھائی"
+            },
+            {
+              "glyph": "پھول"
+            },
+            {
+              "glyph": "کھانا"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “flower”",
+          "audio": "r06.w-phool",
+          "options": [
+            {
+              "glyph": "پھول"
+            },
+            {
+              "glyph": "بھائی"
+            },
+            {
+              "glyph": "کھانا"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “food”",
+          "audio": "r06.w-khana",
+          "options": [
+            {
+              "glyph": "کھانا"
+            },
+            {
+              "glyph": "بھائی"
+            },
+            {
+              "glyph": "پھول"
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "r06-l3",
+      "title": "Nun ghunna and the ye's",
+      "blurb": "The nasal n, choti ye and bari ye.",
+      "canDo": "You can read nasal endings and tell choti ye from bari ye",
+      "teach": [
+        {
+          "title": "ں, ی and ے",
+          "info": "ں (nun ghunna) has no dot: it just nasalises the vowel before it, as in main (میں), hain (ہیں). ی (choti ye) is 'ee' at the end (Nani نانی). ے (bari ye) swings back right and is 'e' or 'ai' at the end (hai ہے, kaise کیسے).",
+          "glyph": "ں  ی  ے"
+        },
+        {
+          "phrase": "r06.w-main"
+        },
+        {
+          "phrase": "r06.w-maan"
+        },
+        {
+          "phrase": "r06.w-nani"
+        },
+        {
+          "phrase": "r06.w-hai"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "میں",
+          "options": [
+            {
+              "text": "main (I)"
+            },
+            {
+              "text": "maan (mother)"
+            },
+            {
+              "text": "nani (Nani)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "ماں",
+          "options": [
+            {
+              "text": "maan (mother)"
+            },
+            {
+              "text": "nani (Nani)"
+            },
+            {
+              "text": "hai (is)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "نانی",
+          "options": [
+            {
+              "text": "nani (Nani)"
+            },
+            {
+              "text": "hai (is)"
+            },
+            {
+              "text": "main (I)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "ہے",
+          "options": [
+            {
+              "text": "hai (is)"
+            },
+            {
+              "text": "main (I)"
+            },
+            {
+              "text": "maan (mother)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “I”",
+          "audio": "r06.w-main",
+          "options": [
+            {
+              "glyph": "میں"
+            },
+            {
+              "glyph": "ماں"
+            },
+            {
+              "glyph": "نانی"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “mother”",
+          "audio": "r06.w-maan",
+          "options": [
+            {
+              "glyph": "ماں"
+            },
+            {
+              "glyph": "میں"
+            },
+            {
+              "glyph": "نانی"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find: “Nani”",
+          "audio": "r06.w-nani",
+          "options": [
+            {
+              "glyph": "نانی"
+            },
+            {
+              "glyph": "میں"
+            },
+            {
+              "glyph": "ماں"
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

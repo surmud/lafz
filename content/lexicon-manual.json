@@ -64,7 +64,9 @@
     "چلاتا": "چلانا",
     "چلایا": "چلانا",
     "بتاؤ": "بتانا",
-    "چھوڑو": "چھوڑنا"
+    "چھوڑو": "چھوڑنا",
+    "آمدید": "خوش آمدید",
+    "نکلے": "نکلنا"
   },
   "words": {
     "علیکم": {
@@ -107,6 +109,22 @@
         "item": "vaalaikum assalaam",
         "url": "https://rekhtadictionary.com/meaning-of-vaalaikum-assalaam",
         "checked": "2026-11-15"
+      }
+    ],
+    "r10.line1": [
+      {
+        "ref": "rekhta",
+        "item": "Mirza Ghalib, 'hazaaron khwahishen aisi…' (couplet)",
+        "url": "https://rekhta.org/couplets/hazaaron-khvaahishen-aisii-ki-har-khvaahish-par-dam-nikle-mirza-ghalib-couplets",
+        "checked": "2026-11-16"
+      }
+    ],
+    "r10.line2": [
+      {
+        "ref": "rekhta",
+        "item": "Mirza Ghalib, 'hazaaron khwahishen aisi…' (couplet)",
+        "url": "https://rekhta.org/couplets/hazaaron-khvaahishen-aisii-ki-har-khvaahish-par-dam-nikle-mirza-ghalib-couplets",
+        "checked": "2026-11-16"
       }
     ]
   },

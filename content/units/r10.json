@@ -1,0 +1,563 @@
+{
+  "id": "r10",
+  "track": "reading",
+  "order": 10,
+  "title": "Final test: a Ghalib couplet",
+  "emoji": "🪶",
+  "tagline": "Read two lines of Mirza Ghalib in the original. You've earned it.",
+  "canDo": "You can read a classic Urdu couplet in Nastaliq",
+  "grammar": [
+    {
+      "title": "Poetic spellings",
+      "body": "Poetry bends spelling for the metre: مرے (mire) is a poetic short form of میرے (mere, my). پہ (pe) is a short form of پر (par, on)."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "r10.line1",
+      "roman": "Hazaaron khwahishen aisi ke har khwahish pe dam nikle",
+      "urdu": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے",
+      "en": "Thousands of desires, each one worth dying for",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ہزاروں",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D8%B2%D8%A7%D8%B1%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہزار",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D8%B2%D8%A7%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "خواہش",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D9%88%D8%A7%D9%87%D8%B4&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خواہشیں",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A7%DB%81%D8%B4%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ایسا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%8A%D8%B3%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "کہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D8%B1#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خواہش",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A7%DB%81%D8%B4#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "دم",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دم",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%85#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نکلنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%DA%A9%D9%84%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "rekhta",
+          "item": "Mirza Ghalib, 'hazaaron khwahishen aisi…' (couplet)",
+          "checked": "2026-11-16",
+          "url": "https://rekhta.org/couplets/hazaaron-khvaahishen-aisii-ki-har-khvaahish-par-dam-nikle-mirza-ghalib-couplets"
+        }
+      ],
+      "literal": "thousands of wishes, such that at each wish the breath leaves"
+    },
+    {
+      "id": "r10.line2",
+      "roman": "Bohat nikle mere armaan lekin phir bhi kam nikle",
+      "urdu": "بہت نکلے مرے ارمان لیکن پھر بھی کم نکلے",
+      "en": "Many of my longings came true, yet still too few",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D8%AA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نکلنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%DA%A9%D9%84%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "مرے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%B1%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مرا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ارمان",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%B1%D9%85%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ارمان",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%B1%D9%85%D8%A7%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "لیکن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%D9%8A%DA%A9%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "لیکن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%84%DB%8C%DA%A9%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پھر",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "بھی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کم",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کم",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%85#Urdu"
+        },
+        {
+          "ref": "rekhta",
+          "item": "Mirza Ghalib, 'hazaaron khwahishen aisi…' (couplet)",
+          "checked": "2026-11-16",
+          "url": "https://rekhta.org/couplets/hazaaron-khvaahishen-aisii-ki-har-khvaahish-par-dam-nikle-mirza-ghalib-couplets"
+        }
+      ]
+    },
+    {
+      "id": "r10.w-khwahish",
+      "roman": "khwahish",
+      "urdu": "خواہش",
+      "en": "wish, desire",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خواہش",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D9%88%D8%A7%D9%87%D8%B4&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خواہش",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A7%DB%81%D8%B4#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r10.w-hazaaron",
+      "roman": "hazaaron",
+      "urdu": "ہزاروں",
+      "en": "thousands",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ہزاروں",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D8%B2%D8%A7%D8%B1%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہزار",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D8%B2%D8%A7%D8%B1#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r10.w-dam",
+      "roman": "dam",
+      "urdu": "دم",
+      "en": "breath",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دم",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دم",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%85#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r10.w-armaan",
+      "roman": "armaan",
+      "urdu": "ارمان",
+      "en": "longing",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ارمان",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%B1%D9%85%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ارمان",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%B1%D9%85%D8%A7%D9%86#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r10.w-nikle",
+      "roman": "nikle",
+      "urdu": "نکلے",
+      "en": "came out / were fulfilled",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نکلنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%DA%A9%D9%84%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "r10.w-har",
+      "roman": "har",
+      "urdu": "ہر",
+      "en": "every",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ہر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D8%B1#Urdu"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "r10-l1",
+      "title": "The words",
+      "blurb": "Six words that unlock the couplet.",
+      "canDo": "You can read the key words of a famous Ghalib couplet",
+      "teach": [
+        {
+          "title": "Mirza Ghalib (1797–1869)",
+          "info": "The most loved poet in Urdu. His couplets are quoted at weddings, in arguments and on trucks. Reading one in the original is the finish line of this track.",
+          "glyph": "غالب"
+        },
+        {
+          "phrase": "r10.w-hazaaron"
+        },
+        {
+          "phrase": "r10.w-khwahish"
+        },
+        {
+          "phrase": "r10.w-har"
+        },
+        {
+          "phrase": "r10.w-dam"
+        },
+        {
+          "phrase": "r10.w-armaan"
+        },
+        {
+          "phrase": "r10.w-nikle"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "خواہش",
+          "options": [
+            {
+              "text": "khwahish (wish)"
+            },
+            {
+              "text": "khana (food)"
+            },
+            {
+              "text": "khala (aunt)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "ہزاروں",
+          "options": [
+            {
+              "text": "hazaaron (thousands)"
+            },
+            {
+              "text": "hamesha (always)"
+            },
+            {
+              "text": "har (every)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "ارمان",
+          "options": [
+            {
+              "text": "armaan (longing)"
+            },
+            {
+              "text": "ammi (Mum)"
+            },
+            {
+              "text": "aaj (today)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "دم",
+          "options": [
+            {
+              "text": "dam (breath)"
+            },
+            {
+              "text": "dil (heart)"
+            },
+            {
+              "text": "do (two)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "نکلے",
+          "options": [
+            {
+              "text": "nikle (came out)"
+            },
+            {
+              "text": "nahin (no)"
+            },
+            {
+              "text": "naam (name)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. What does it say?",
+          "glyph": "ہر",
+          "options": [
+            {
+              "text": "har (every)"
+            },
+            {
+              "text": "hai (is)"
+            },
+            {
+              "text": "hum (we)"
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "r10-l2",
+      "title": "Read the couplet",
+      "blurb": "Two lines. Two hundred years old. Still perfect.",
+      "canDo": "You can read and understand a Ghalib couplet in Nastaliq",
+      "teach": [
+        {
+          "title": "How a sher works",
+          "info": "A couplet (sher) is two lines that share a rhythm and end-rhyme (here: …dam nikle / …kam nikle). Read slowly, right to left, then listen.",
+          "glyph": "شعر"
+        },
+        {
+          "phrase": "r10.line1"
+        },
+        {
+          "phrase": "r10.line2"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "What does the first line mean?",
+          "show": "r10.line1",
+          "options": [
+            {
+              "text": "Thousands of desires, each one worth dying for"
+            },
+            {
+              "text": "A thousand people came to the wedding"
+            },
+            {
+              "text": "Every wish has already come true"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "What does the second line mean?",
+          "show": "r10.line2",
+          "options": [
+            {
+              "text": "Many of my longings came true, yet still too few"
+            },
+            {
+              "text": "My longings were too many to count"
+            },
+            {
+              "text": "None of my wishes came true"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which word do both lines end on?",
+          "options": [
+            {
+              "glyph": "نکلے"
+            },
+            {
+              "glyph": "خواہش"
+            },
+            {
+              "glyph": "ارمان"
+            }
+          ],
+          "answer": 0,
+          "explain": "nikle: the shared refrain (radif) that ties the couplet together."
+        },
+        {
+          "type": "listen",
+          "phrase": "r10.line1"
+        },
+        {
+          "type": "speak",
+          "phrase": "r10.line1"
+        },
+        {
+          "type": "speak",
+          "phrase": "r10.line2"
+        }
+      ]
+    }
+  ]
+}
