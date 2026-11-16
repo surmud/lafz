@@ -234,6 +234,14 @@ describe("generateDrill", () => {
     const all = new Set([1, 2, 3, 4, 5, 6, 7, 8].flatMap((seed) => generateDrill(ids, seed).map((d) => d.type)));
     expect([...all].sort()).toEqual(["build", "listen", "match", "meaning", "say", "type"]);
   });
+  test("with English glosses, prompts are situational and drop the parenthetical", () => {
+    const en = new Map(PHRASES.map((p) => [p.id, p.en]));
+    const drill = generateDrill(PHRASES.slice(0, 6).map((p) => p.id), 3, en);
+    const prompts = drill.flatMap((d) => ("prompt" in d && d.prompt ? [d.prompt] : []));
+    expect(prompts.length).toBeGreaterThan(0);
+    expect(prompts.every((p) => !p.includes("(") || p.includes("“"))).toBe(true);
+    expect(prompts.some((p) => /Khala|Nani|dawat|Ammi|Bilal|Voice note|WhatsApp|cousin|Roman Urdu/.test(p))).toBe(true);
+  });
   test("short lists get no match exercise", () => {
     expect(generateDrill(["t.salam", "t.khuda"], 1).some((d) => d.type === "match")).toBe(false);
   });

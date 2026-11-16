@@ -383,14 +383,39 @@ export function targetsOf(ex: Resolved): string[] {
  * Generate a varied drill for a list of phrases (used by review sessions and prep packs).
  * Production-heavy on purpose: heritage learners recognise far more than they can produce.
  */
-export function generateDrill(phraseIds: readonly string[], seed: number): Exercise[] {
+const SAY_PROMPTS = [
+  "Khala is waiting. Say: “{en}”",
+  "Nani raises one eyebrow. Quick: “{en}”",
+  "The whole dawat goes quiet. Your line: “{en}”",
+  "Ammi is watching from the kitchen. Say: “{en}”",
+  "Bilal thinks you can't say “{en}”. Prove him wrong.",
+  "Voice note time. Say: “{en}”",
+];
+const TYPE_PROMPTS = [
+  "WhatsApp the family group: “{en}”",
+  "Type it before Khala calls back: “{en}”",
+  "Text your cousin: “{en}”",
+  "Type it in Roman Urdu: “{en}”",
+];
+
+function fill(templates: readonly string[], en: string, rng: () => number): string {
+  const t = templates[Math.floor(rng() * templates.length)] ?? templates[0] ?? "{en}";
+  return t.replace("{en}", en.replace(/\s*\(.*?\)\s*/g, " ").trim());
+}
+
+export function generateDrill(
+  phraseIds: readonly string[],
+  seed: number,
+  english?: ReadonlyMap<string, string>,
+): Exercise[] {
   const rng = seededRng(seed);
   const out: Exercise[] = [];
   const cycle: Exercise["type"][] = ["say", "type", "listen", "build", "meaning", "type"];
   phraseIds.forEach((phrase, i) => {
     const type = cycle[(i + Math.floor(rng() * 2)) % cycle.length] ?? "say";
-    if (type === "say") out.push({ type: "say", phrase });
-    else if (type === "type") out.push({ type: "type", phrase });
+    const en = english?.get(phrase);
+    if (type === "say") out.push(en ? { type: "say", phrase, prompt: fill(SAY_PROMPTS, en, rng) } : { type: "say", phrase });
+    else if (type === "type") out.push(en ? { type: "type", phrase, prompt: fill(TYPE_PROMPTS, en, rng) } : { type: "type", phrase });
     else if (type === "listen") out.push({ type: "listen", phrase, speed: rng() < 0.4 ? "aunty" : "normal" });
     else if (type === "build") out.push({ type: "build", phrase });
     else out.push({ type: "meaning", phrase });

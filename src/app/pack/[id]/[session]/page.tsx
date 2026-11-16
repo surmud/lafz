@@ -32,7 +32,7 @@ export default async function PackSession({ params }: { params: Promise<{ id: st
       canDo={idx === pack.sessions.length - 1 ? pack.canDo : `${s.title}: done. ${s.blurb}`}
       kind="lesson"
       teach={s.phrases.map((p) => ({ phrase: p }))}
-      exercises={generateDrill(s.phrases, hashString(`${pack.id}.${s.id}`))}
+      exercises={generateDrill(s.phrases, hashString(`${pack.id}.${s.id}`), new Map(pool.map((p) => [p.id, p.en])))}
       phrases={pool}
       pool={pool}
       nextHref={next ? `/pack/${pack.id}/${next.id}/` : `/pack/${pack.id}/`}

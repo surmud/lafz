@@ -38,7 +38,7 @@ function ReviewSession({ phrases }: { phrases: Phrase[] }) {
   }
   const unitIds = new Set(ids.map((id) => id.split(".")[0]));
   const pool = phrases.filter((p) => unitIds.has(p.id.split(".")[0]));
-  const drill = generateDrill(ids, hashString(ids.join("|") + day));
+  const drill = generateDrill(ids, hashString(ids.join("|") + day), new Map(phrases.map((p) => [p.id, p.en])));
   return (
     <LessonPlayer
       lessonId={`review-${day}`}

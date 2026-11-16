@@ -7,7 +7,7 @@ import { completeBoss } from "@/engine/progress";
 import type { XpBreakdown } from "@/engine/xp";
 import { blip, playPhrase, stopAudio } from "@/lib/audio";
 import { listen, speechSupported } from "@/lib/speech";
-import { today, useStore } from "@/lib/store";
+import { personaliseCharacter, personaliseText, today, useStore } from "@/lib/store";
 import { Avatar } from "./Avatar";
 import { Celebration } from "./Celebration";
 import { AudioButton, PhraseText, ScriptToggle } from "./Phrase";
@@ -36,11 +36,15 @@ export function BossPlayer({
   const [typed, setTyped] = useState("");
   const [hint, setHint] = useState(false);
   const [xp, setXp] = useState<XpBreakdown | null>(null);
-  const { update } = useStore();
+  const { update, progress } = useStore();
+  const rel = progress.profile.relatives;
   const t0 = useRef(0);
   const bottom = useRef<HTMLDivElement>(null);
   const lastPlayed = useRef(-1);
-  const char = (id?: string) => characters.find((c) => c.id === id) ?? characters[0];
+  const char = (id?: string) => {
+    const c = characters.find((x) => x.id === id) ?? characters[0];
+    return c ? personaliseCharacter(c, rel) : c;
+  };
   const main = char(convo.character);
   const node = engine.current(state);
 
@@ -123,7 +127,7 @@ export function BossPlayer({
             </div>
           </div>
         ) : null}
-        <p className="text-lg leading-relaxed">{convo.scene}</p>
+        <p className="text-lg leading-relaxed">{personaliseText(convo.scene, rel)}</p>
         <ul className="text-[15px] text-ink-soft">
           <li>• Pick a reply, type it, or say it. Different replies, different story.</li>
           <li>• You can&apos;t fail. She&apos;ll just ask again.</li>
@@ -156,7 +160,7 @@ export function BossPlayer({
           if (line.who === "narration") {
             return (
               <p key={i} className="animate-rise self-center rounded-2xl bg-surface-2 px-4 py-2 text-center text-sm text-ink-soft italic">
-                {line.text}
+                {personaliseText(line.text ?? "", rel)}
               </p>
             );
           }
@@ -193,7 +197,7 @@ export function BossPlayer({
               🏆
             </p>
             <h2 className="font-display text-3xl font-bold">{endNode.title}</h2>
-            <p className="text-lg">{endNode.text}</p>
+            <p className="text-lg">{personaliseText(endNode.text, rel)}</p>
             <div className="rounded-3xl border-2 border-good bg-good-soft p-4 text-left">
               <p className="text-xs font-black tracking-widest text-good-deep uppercase">New can-do unlocked</p>
               <p className="text-lg font-bold">✓ {convo.canDo}</p>

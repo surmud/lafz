@@ -78,13 +78,19 @@ export function useStore(): Store {
   return s;
 }
 
-/** Replace "Khala" etc. with the learner's own relatives' names where they set them. */
-export function personalise(text: string, relatives: Record<string, string>): string {
-  let out = text;
-  for (const [role, name] of Object.entries(relatives)) {
-    if (!name.trim()) continue;
-    const label = role.charAt(0).toUpperCase() + role.slice(1);
-    out = out.replace(new RegExp(`\\b${label}\\b(?! ji)`, "g"), `${label} (${name.trim()})`);
-  }
-  return out;
+/**
+ * Personalisation from onboarding names (e.g. { khala: "Rubina" }). The course's own characters are
+ * shown under the learner's real relatives' names where they gave them. Audio is unchanged.
+ */
+export function personaliseCharacter<T extends { id: string; name: string }>(c: T, relatives: Record<string, string>): T {
+  const real = relatives[c.id]?.trim();
+  if (!real) return c;
+  if (c.id === "khala") return { ...c, name: `${real} Khala` };
+  if (c.id === "phuppo") return { ...c, name: `${real} Phuppo` };
+  return { ...c, name: `${c.name} (${real})` };
+}
+
+export function personaliseText(text: string, relatives: Record<string, string>): string {
+  const khala = relatives.khala?.trim();
+  return khala ? text.replaceAll("Shabnam Khala", `${khala} Khala`) : text;
 }
