@@ -97,3 +97,19 @@ test("Away-for-a-week Ayesha: streak rests, welcome back is warm", async ({ page
   await expect(page.getByLabel(/Done today: 3 days/)).toBeVisible();
   await shot("streak-resumed");
 });
+
+test("Heritage Hamza: a prep pack session before Khala's call", async ({ page }, info) => {
+  test.skip(info.project.name !== "iphone", "Hamza uses an iPhone");
+  const shot = shooter(page, "heritage-hamza-pack", info.project.name);
+  await freshStart(page);
+  await onboardBeginner(page);
+  await page.getByRole("link", { name: /First call with Khala/ }).click();
+  await expect(page.getByRole("heading", { name: "First call with Khala" })).toBeVisible();
+  await shot("pack");
+  await page.getByRole("link", { name: /Pick up properly/ }).click();
+  await playLesson(page);
+  await expect(page.getByText("New can-do unlocked")).toBeVisible();
+  await shot("session-done");
+  await page.getByRole("link", { name: /Next: Catch up/ }).click();
+  await expect(page.getByText("New phrase")).toBeVisible();
+});

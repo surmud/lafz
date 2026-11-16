@@ -1,0 +1,28 @@
+[
+  {
+    "id": "first-call-khala",
+    "title": "First call with Khala",
+    "emoji": "📞",
+    "tagline": "She's calling Sunday. You will not just say 'haan' for 20 minutes.",
+    "canDo": "You can hold your own on a call with Khala: greet, catch up, survive the rishta question, and hang up politely",
+    "sessions": [
+      { "id": "s1", "title": "Pick up properly", "blurb": "Salaam, how are you, can you hear me?", "phrases": ["u01.salam", "u01.aap-kaisi-hain", "u01.main-theek-hoon", "u01.alhamdulillah", "u04.hello-awaaz", "u04.awaaz-nahin"] },
+      { "id": "s2", "title": "Catch up", "blurb": "What you're doing, where you are, the weather.", "phrases": ["u04.kya-kar-rahe", "u04.ghar-par", "u04.kaam-par", "u04.mausam", "u04.sardi", "u04.sab-kaise"] },
+      { "id": "s3", "title": "The question", "blurb": "Married yet? (Deflect gracefully.)", "phrases": ["u02.shaadi-shuda", "u02.abhi-nahin", "u01.inshallah", "u02.bilal-cousin", "u02.woh-doctor"] },
+      { "id": "s4", "title": "Hang up like a pro", "blurb": "Salaams to everyone, call back later, Khuda hafiz.", "phrases": ["u04.sab-ko-salaam", "u04.baad-mein-call", "u04.yaad-aa-rahi", "u01.apna-khayal", "u01.khuda-hafiz"] }
+    ]
+  },
+  {
+    "id": "nani-visiting",
+    "title": "Nani is visiting",
+    "emoji": "👵",
+    "tagline": "Two weeks. Your house. Her rules. Her cooking. Prepare accordingly.",
+    "canDo": "You can welcome Nani, eat what she cooks, praise it properly, and never once say 'tu'",
+    "sessions": [
+      { "id": "s1", "title": "At the door", "blurb": "Salaam, respect, the right 'you'.", "phrases": ["u01.salam", "u01.aap-kaisi-hain", "u01.aap", "u01.ji-haan", "u01.ji-nahin", "u01.jeete-raho"] },
+      { "id": "s2", "title": "At the table", "blurb": "Bismillah, bas bas, it's delicious.", "phrases": ["u03.bismillah", "u03.bas-bas", "u03.pait-bhar-gaya", "u03.mazedaar", "u03.haath-zaiqa", "u03.maza-aa-gaya"] },
+      { "id": "s3", "title": "Chai time", "blurb": "Tea, less sugar, and whatever she wants.", "phrases": ["u03.chai-piyenge", "u03.ji-zaroor", "u03.cheeni-kam", "u03.paani-milega", "u01.shukriya", "u01.meherbani"] },
+      { "id": "s4", "title": "Family talk", "blurb": "She will quiz you on who's who.", "phrases": ["u02.ammi-ki-behen", "u02.abbu-ki-behen", "u02.kis-ke-bete", "u02.mere-do-bhai", "u02.khandan-bara", "u02.nani-ka-ghar"] }
+    ]
+  }
+]
