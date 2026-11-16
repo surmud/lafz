@@ -2,7 +2,7 @@
 """Round-trip every normal-speed MMS clip through Whisper and compare with the source Nastaliq
 (docs/EVALS.md §3). Writes docs/audio-audit.json and prints the worst 5%.
 
-  .venv/bin/python scripts/audio_audit.py [--model mlx-community/whisper-large-v3-turbo]
+  .venv/bin/python scripts/audio_audit.py [--model mlx-community/whisper-large-v3-turbo] [--sample N]
 
 Similarity is 1 - edit distance / length on normalised Urdu (diacritics stripped, Arabic/Urdu
 letter variants unified), the same normalisation the app uses for speech answers.
@@ -45,8 +45,15 @@ def main() -> int:
     phrases = []
     for f in sorted(glob.glob(str(ROOT / "content/units/*.json"))):
         phrases += json.loads(Path(f).read_text())["phrases"]
+    import random
+
+    sample = int(sys.argv[sys.argv.index("--sample") + 1]) if "--sample" in sys.argv else 0
+    if sample:
+        random.Random(42).shuffle(phrases)
     seen, rows = set(), []
     for p in phrases:
+        if sample and len(rows) >= sample:
+            break
         text = unicodedata.normalize("NFC", p.get("tts") or p["urdu"]).strip()
         if text in seen or ".l-" in p["id"]:
             continue  # single letter names are too short for a meaningful round-trip
@@ -60,11 +67,13 @@ def main() -> int:
         a, b = norm(text), norm(heard)
         sim = 1 - dist(a, b) / max(len(a), len(b), 1)
         rows.append({"id": p["id"], "text": text, "heard": heard, "similarity": round(sim, 3)})
-        if len(rows) % 50 == 0:
+        if len(rows) % 25 == 0:
             print(f"  {len(rows)} clips…", flush=True)
+            (ROOT / "docs/audio-audit.partial.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1))
     rows.sort(key=lambda r: r["similarity"])
     sims = [r["similarity"] for r in rows]
-    summary = {"model": MODEL, "clips": len(rows), "mean": round(float(np.mean(sims)), 3), "median": round(float(np.median(sims)), 3)}
+    (ROOT / "docs/audio-audit.partial.json").unlink(missing_ok=True)
+    summary = {"model": MODEL, "sample": sample or "all", "clips": len(rows), "mean": round(float(np.mean(sims)), 3), "median": round(float(np.median(sims)), 3)}
     (ROOT / "docs/audio-audit.json").write_text(json.dumps({"summary": summary, "rows": rows}, ensure_ascii=False, indent=1) + "\n")
     print(summary)
     worst = rows[: max(1, len(rows) // 20)]

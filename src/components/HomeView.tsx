@@ -45,9 +45,12 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
         <WelcomeBack />
 
         {!ready ? (
-          <div aria-busy="true" className="h-[13.5rem] rounded-[2rem] bg-primary p-5 text-primary-ink shadow-[0_6px_0_var(--primary-deep)]">
-            <p className="text-xs font-black tracking-widest uppercase opacity-80">Urdu for real family life</p>
-            <p className="mt-1 font-display text-3xl font-bold">Salaam!</p>
+          <div aria-busy="true" className="min-h-[13.5rem] rounded-[2rem] bg-primary p-5 text-primary-ink shadow-[0_6px_0_var(--primary-deep)]">
+            <p className="font-display text-3xl font-bold">Salaam!</p>
+            <p className="mt-2 text-lg leading-relaxed opacity-95">
+              Urdu for real family life. From “Salaam” to surviving the shaadi. Mistakes are free, nothing is locked, and
+              everything stays on this phone.
+            </p>
           </div>
         ) : next.kind !== "finished" ? (
           <Link

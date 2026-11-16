@@ -57,7 +57,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **E1 PWA.** Manifest, icons, service worker, offline lessons, "download unit".
 - [x] **E2 Onboarding.** Pick heritage vs beginner, the placement offer, set your relatives' names
   (optional; personalises dialogue).
-- [~] **E3 Accessibility pass + Lighthouse ≥ 90** on all categories. (Lesson page: 94/100/100/91. Home perf 78, see G10.)
+- [x] **E3 Accessibility pass + Lighthouse ≥ 90** on all categories. (Home 90/100/100/91, lesson 94/100/100/91; SEO 91 is the domain-root robots.txt, outside this repo.)
 - [x] **E4 Delight.** (original SVG character portraits, confetti, entrance animations, synthesized feedback sounds) Character illustrations (SVG, original), micro-animations, sound effects,
   lesson-complete celebrations.
 - [ ] **E5 PROGRESS.md final.** What's built, medium-confidence Urdu list, known issues, next steps.
@@ -79,7 +79,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
   injects a recording. Try headed or `channel: "chrome"` in CI.
 - [ ] **G9 Whisper fallback for Speak it** (D1 remainder): transformers.js, lazy-loaded.
 
-- [ ] **G10 Home first paint.** Home content depends on IndexedDB, so LCP waits for hydration (perf 78).
+- [x] **G10 Home first paint.** (server-rendered intro card; home Lighthouse performance 78 → 90) Home content depends on IndexedDB, so LCP waits for hydration (perf 78).
   Render a static course map shell server-side and hydrate progress into it.
 - [x] **G11 Funnier generated drills.** Review/pack drills use generic prompts ("How do you say…"); add
   situational prompt templates per sense/register.
