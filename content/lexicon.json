@@ -33,6 +33,28 @@
    "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%86%D8%A7#Urdu"
   }
  },
+ "آنٹی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.f. = āṅṭhī, q.v.",
+     "translit": "āṅṭī"
+    }
+   ],
+   "headword": "آنٹی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%86%D9%B9%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "aunty",
+    "(slang)"
+   ],
+   "headword": "آنٹی",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%86%D9%B9%DB%8C#Urdu"
+  }
+ },
  "آپ": {
   "checked": "2026-11-15",
   "platts": {
@@ -79,6 +101,37 @@
    "headword": "ابو",
    "translit": "abbā",
    "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%88#Urdu"
+  }
+ },
+ "ابھی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(i.e. अब ab+emphat. aff. ही hī), v.s.v. اب ab.",
+     "translit": "abhī"
+    },
+    {
+     "gloss": ", adj. & s.m. (f. -ā), Without fear, fearless, undaunted, bold, courageous; — a fearless person, &c.; — the root of a fragrant grass, Andropogon muricatum. — abhay-patra, s.m. Assurance of safety or protection, a safe-co",
+     "translit": "abhay abhai"
+    },
+    {
+     "gloss": ", adj. Both, the two: (in Hindī generally occurring in comp., e.g.) ubhaya-tas, adv. From both sides, on both sides, to both sides; in both cases: — ubhayathā, adv. In both ways; in both cases: — ubhaya-nishṭh, adv. That",
+     "translit": "ubhaya"
+    }
+   ],
+   "headword": "ابھی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "immediately, right away, shortly, at once, this instant, right now",
+    "currently, at present, at the moment, right now, just now",
+    "lately, recently, just, just now"
+   ],
+   "headword": "ابھی",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%DA%BE%DB%8C#Urdu"
   }
  },
  "الحمدللہ": {
@@ -316,6 +369,49 @@
    "url": "https://en.wiktionary.org/wiki/%D8%A7%DA%86%DA%BE%D8%A7#Urdu"
   }
  },
+ "اکیلا": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. एक+ल], adj. (f. -ī), Single sole; solitary, lonely; — akelā, akele, adv. Alone, by ooneself, singly, unattended, unfriended; apart: — akelā-dukelā, adj. = akelā: — akelī kahānī, s.f. Statement or representation of on",
+     "translit": "akelā"
+    }
+   ],
+   "headword": "اکیلا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%DA%A9%D9%8A%D9%84%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "alone"
+   ],
+   "headword": "اکیلا",
+   "translit": "éka",
+   "url": "https://en.wiktionary.org/wiki/%D8%A7%DA%A9%DB%8C%D9%84%D8%A7#Urdu"
+  }
+ },
+ "ایک": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(see ik), adj. & pron. One, single, sole, alone, only, a, an; the same, identical; only one; a certain one; single of its kind, unique, singular, preëminent, excellent; — adv. Or so, about (as last member of comp. e.g. p",
+     "translit": "ek"
+    }
+   ],
+   "headword": "ایک",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%8A%DA%A9&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "one",
+    "one, sole, only"
+   ],
+   "headword": "ایک",
+   "translit": "ekka",
+   "url": "https://en.wiktionary.org/wiki/%D8%A7%DB%8C%DA%A9#Urdu"
+  }
+ },
  "بات": {
   "checked": "2026-11-15",
   "platts": {
@@ -365,6 +461,132 @@
    "headword": "خیر",
    "translit": "'''xair''', ma͠i bahot apne bāre bāt kar rahī hū̃, tumhāre vahā̃ kyā cal rahā hai?",
    "url": "https://en.wiktionary.org/wiki/%D8%AE%DB%8C%D8%B1#Urdu"
+  }
+ },
+ "بلال": {
+  "checked": "2026-11-16"
+ },
+ "بچے": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(fem. of baććā), s.f. Little girl; female child; maid, lassie; — female young animal; — tuft of hair on the lower lip, an imperial.",
+     "translit": "baććī"
+    }
+   ],
+   "headword": "بچے",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%DA%86%DB%92&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "inflection of بَچَّہ"
+   ],
+   "headword": "بچے",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%86%DB%92#Urdu"
+  }
+ },
+ "بڑا": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. वृद्ध+कः; वडः], adj. (f. -ī), Large, great, big, vast, immense, huge; grand, noble, high, exalted, eminent; grown up, old, senior, elder; superior, supreme, principal; grave, serious; vital, essential, important: — a",
+     "translit": "baṛā"
+    },
+    {
+     "gloss": "[S. वटकः], s.m. Condiment made of ground pulse (dāl, mūng, or māsh), formed into lumps and fried in ghī, butter, or oil (cf. baṛī).",
+     "translit": "baṛā"
+    }
+   ],
+   "headword": "بڑا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "big, large, huge",
+    "massive, heavy",
+    "grown up, adult",
+    "important"
+   ],
+   "headword": "بڑا",
+   "translit": "log jab baṛe ho jāte haĩ, un kī zimme dāriyā̃ bhī baṛī ho jātī haĩ",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%91%D8%A7#Urdu"
+  }
+ },
+ "بڑے": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. वृद्ध+कः; वडः], adj. (f. -ī), Large, great, big, vast, immense, huge; grand, noble, high, exalted, eminent; grown up, old, senior, elder; superior, supreme, principal; grave, serious; vital, essential, important: — a",
+     "translit": "baṛā"
+    },
+    {
+     "gloss": "[S. वटकः], s.m. Condiment made of ground pulse (dāl, mūng, or māsh), formed into lumps and fried in ghī, butter, or oil (cf. baṛī).",
+     "translit": "baṛā"
+    }
+   ],
+   "headword": "بڑا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "inflection of بَڑا"
+   ],
+   "headword": "بڑے",
+   "translit": "baṛe",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%91%DB%92#Urdu"
+  }
+ },
+ "بھائی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. विधायि?], s.f. A spirit, supposed to tease infants by whispering alternately sad and pleasing things in their ears (which is the cause of their laughing and crying when asleep or awake); — a song of congratulation, &",
+     "translit": "bihāʼī"
+    },
+    {
+     "gloss": "[S. भ्रातृकः; Prk. भाइओ], s.m. Brother; cousin; relative, kinsman; comrade, companion, class-fellow, member of the same caste, or fraternity; one connected by community of origin and joint interest in a common ancestral ",
+     "translit": "bhāʼī"
+    }
+   ],
+   "headword": "بھائی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "brother",
+    "(by extension) a male cousin",
+    "(polite|chiefly|_|women's speech|vocative) any male person",
+    "(colloquial|vocative) dude, bro"
+   ],
+   "headword": "بھائی",
+   "translit": "bhrā́tṛ",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+  }
+ },
+ "بھابھی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", = H بهابي भाबी bhābī, [S. भ्रातृ+वधू; or H. bhāʼī+bī = bī-bī], s.f. Brother's wife, sister-in-law (syn. bhāwaj, bhaujāʼī, bhaujī).",
+     "translit": "bhābhī"
+    }
+   ],
+   "headword": "بھابھی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A8%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "form of بھابی}}"
+   ],
+   "headword": "بھابھی",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A8%DA%BE%DB%8C#Urdu"
   }
  },
  "بھی": {
@@ -422,6 +644,33 @@
    "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D8%AA#Urdu"
   }
  },
+ "بہن": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.f. = bhan-bhan, bhin-bhin, q.v.",
+     "translit": "bhan bhin"
+    },
+    {
+     "gloss": "(rt. भिद्), part. adj. & s.m. Broken, split, divided, disunited; scattered, separated; separate, apart, distinct, diverse; distinguished; other, different; opened, unfolded, expanded, blown; — (in Arith.), a fraction (sy",
+     "translit": "bhinna bhinn"
+    }
+   ],
+   "headword": "بہن",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "sister",
+    "(by extension) a female cousin",
+    "(polite|vocative) any female person"
+   ],
+   "headword": "بہن",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+  }
+ },
  "بیٹا": {
   "checked": "2026-11-15",
   "platts": {
@@ -442,6 +691,109 @@
    "headword": "بیٹا",
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%D8%A7#Urdu"
+  }
+ },
+ "بیٹھو": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[fr. S. उपविष्ट, rt. विश्], v.n. To seat oneself, sit down, be seated, be unemployed or idle; to sit, brood, incubate; to alight, settle, perch; to ride (on, -par); to subside, settle, abate; to pair, couple (a bird); to",
+     "translit": "baiṭhnā"
+    }
+   ],
+   "headword": "بیٹھنا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D9%87%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "to sit",
+    "(by extension) to participate",
+    "(by extension) to become tired; discouraged"
+   ],
+   "headword": "بیٹھنا",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%DA%BE%D9%86%D8%A7#Urdu"
+  }
+ },
+ "بیٹی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. वेकटः; or वटु], s.m. Son, boy, child; a form of address used by faqīrs towards their ćelās or disciples: — beṭā banānā, betā kar-lenā, v.t. To adopt a son (syn. god lenā): — beṭā-beṭī, s.m. Children, family, offsprin",
+     "translit": "beṭā"
+    }
+   ],
+   "headword": "بیٹا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "daughter"
+   ],
+   "headword": "بیٹی",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%DB%8C#Urdu"
+  }
+ },
+ "بیٹے": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. वेकटः; or वटु], s.m. Son, boy, child; a form of address used by faqīrs towards their ćelās or disciples: — beṭā banānā, betā kar-lenā, v.t. To adopt a son (syn. god lenā): — beṭā-beṭī, s.m. Children, family, offsprin",
+     "translit": "beṭā"
+    }
+   ],
+   "headword": "بیٹا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "inflection of بیٹا"
+   ],
+   "headword": "بیٹے",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%DB%92#Urdu"
+  }
+ },
+ "تائی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(fem. of tāyā = tāʼū), s.f. The wife of a father's elder brother; paternal uncle's wife; a term of respectful compellation or mention of a female generally.",
+     "translit": "tāʼī"
+    },
+    {
+     "gloss": "(see tawā), s.f. An earthen frying-pan.",
+     "translit": "tāʼī"
+    }
+   ],
+   "headword": "تائی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+  }
+ },
+ "تایا": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. तात+कः], s.m. Paternal uncle ( = tāʼū, q.v.).",
+     "translit": "tāyā"
+    }
+   ],
+   "headword": "تایا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D8%A7%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "paternal uncle"
+   ],
+   "headword": "تایا",
+   "translit": "tātyá",
+   "url": "https://en.wiktionary.org/wiki/%D8%AA%D8%A7%DB%8C%D8%A7#Urdu"
   }
  },
  "تم": {
@@ -612,6 +964,27 @@
    "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D9%84#Urdu"
   }
  },
+ "خالو": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(fr. A. ḵẖāla), s.m. Maternal uncle, mother's sister's husband.",
+     "translit": "ḵẖālū"
+    }
+   ],
+   "headword": "خالو",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%88&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "husband of mother’s sister – form of خَالَہ"
+   ],
+   "headword": "خالو",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%D9%88#Urdu"
+  }
+ },
  "خالہ": {
   "checked": "2026-11-15",
   "platts": {
@@ -631,6 +1004,29 @@
    "headword": "خالہ",
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%DB%81#Urdu"
+  }
+ },
+ "خاندان": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(for ḵẖāna-dān), s.m. Family, household; race, lineage, descent, house (of a prince, &c.), dynasty: — ḵẖāndān-ě-shāhī, Royal family; house, dynasty; — ḵẖāndān-kī 'alāmat, s.f. Armorial bearings.",
+     "translit": "ḵẖandān"
+    }
+   ],
+   "headword": "خاندان",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%86%D8%AF%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "(chiefly) family",
+    "dynasty, lineage",
+    "(loosely) household"
+   ],
+   "headword": "خاندان",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%86%D8%AF%D8%A7%D9%86#Urdu"
   }
  },
  "خدا": {
@@ -702,6 +1098,89 @@
    "url": "https://en.wiktionary.org/wiki/%D8%AE%DB%8C%D8%A7%D9%84#Urdu"
   }
  },
+ "دادا": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. तात+कः], s.m. A paternal grandfather; — an elder brother; a term of veneration or respect addressed to Brāhmans by Jāṭs and Gūjars, &c.",
+     "translit": "dādā"
+    }
+   ],
+   "headword": "دادا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D8%A7%D8%AF%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "paternal grandfather",
+    "(polite)",
+    "(by extension)",
+    "(Hindu) a dad"
+   ],
+   "headword": "دادا",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D8%AF%D8%A7#Urdu"
+  }
+ },
+ "دادی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. तात+इका; see dādā], s.f. Paternal grandmother.",
+     "translit": "dādī"
+    },
+    {
+     "gloss": "(dād, 'justice,' q.v.+ī = S. इन्), s.m. One suing for justice, a plaintiff, complainant: — dādī-faryādī, s.m. = dādī.",
+     "translit": "dādī"
+    }
+   ],
+   "headword": "دادی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D8%A7%D8%AF%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "paternal grandmother",
+    "(polite)"
+   ],
+   "headword": "دادی",
+   "translit": "dādī",
+   "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D8%AF%DB%8C#Urdu"
+  }
+ },
+ "دو": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(rt. du), s.m. Fire; burning; a wood on fire, a forest conflagration, &c. (see dāv): — davāgni (˚va+ag˚), and davānal (˚va+an˚), s.m. A forest conflagration: — davāri, davār, s.m. = davāgni.",
+     "translit": "dava dav"
+    },
+    {
+     "gloss": ", s.f. Heaven, sky; day ( = divā, q.v.): — div-da, vulg. divad, adj. & s.m. Heaven-imparting; heaven.",
+     "translit": "div"
+    },
+    {
+     "gloss": ", adj. Divine, &c. ( = divya, q.v.): — div-dhām, div-gr̤ih, s.m. The divine abode, abode of the celestials: — div-dhāmī, adj. Celestial.",
+     "translit": "div"
+    },
+    {
+     "gloss": "(in comp.) [Prk. दो; S. द्वौ], = P دو du [Pehl. du; Zend dva; S. dva], adj. Two: — du-āb, do-āb, du-āba, s.m. A tract of country lying between two rivers which unite after running some distance; the country between the G",
+     "translit": "do du"
+    }
+   ],
+   "headword": "دو",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%88&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "two"
+   ],
+   "headword": "دو",
+   "translit": "dvá",
+   "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88#Urdu"
+  }
+ },
  "رکھیے": {
   "checked": "2026-11-15",
   "platts": {
@@ -769,6 +1248,29 @@
    "headword": "سب",
    "translit": "sárva",
    "url": "https://en.wiktionary.org/wiki/%D8%B3%D8%A8#Urdu"
+  }
+ },
+ "سسرال": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. श्वशुर+आलयः], s.f. Father-in-law's house or family. (The term is sometimes applied ironically to a gaol or prison, just as, in English, the pawnbroker's shop is called 'the mansion of mine uncle'; it is also used occ",
+     "translit": "susrāl"
+    }
+   ],
+   "headword": "سسرال",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D8%B3%D8%B1%D8%A7%D9%84&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "father-in-laws",
+    "(by extension) their house",
+    "(metaphorically) prison; a confined place<ref></ref><ref>Farhang-i-Asifiya</ref>"
+   ],
+   "headword": "سسرال",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%B3%D8%B3%D8%B1%D8%A7%D9%84#Urdu"
   }
  },
  "سلام": {
@@ -842,6 +1344,48 @@
    "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%86%20%D8%B4%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%DB%81#Urdu"
   }
  },
+ "شادی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Pārsī sāṭ; old P. shiyāti; Pehl. shātish; Zend shāiti, fr. shā; see shād], s.f. Pleasure, delight, joy, rejoicing, festivity; marriage; a wedding; a marriage-feast: — shādī karnā, To rejoice; to make a feast, to feast; ",
+     "translit": "shādī"
+    }
+   ],
+   "headword": "شادی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D8%A7%D8%AF%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "wedding, marriage"
+   ],
+   "headword": "شادی",
+   "translit": "šâdi",
+   "url": "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D8%AF%DB%8C#Urdu"
+  }
+ },
+ "شاہد": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(act. part. of شہد 'to bear witness,' &c.), s.m. One who bears witness, a witness, deponent; (in P. shāhid or shāhad, m. & f.) a sweetheart, a beloved object; a handsome man; a beautiful woman; a female friend: — shāhid-",
+     "translit": "shāhid"
+    }
+   ],
+   "headword": "شاہد",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D8%A7%D9%87%D8%AF&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "witness"
+   ],
+   "headword": "شاہد",
+   "translit": "-",
+   "url": "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%DB%81%D8%AF#Urdu"
+  }
+ },
  "شب": {
   "checked": "2026-11-15",
   "platts": {
@@ -871,6 +1415,44 @@
    "headword": "شب",
    "translit": "šab",
    "url": "https://en.wiktionary.org/wiki/%D8%B4%D8%A8#Urdu"
+  }
+ },
+ "شبنم": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.f. = P شبگير shab-gīr, s.m. = P شبو shab-bo, s.m. (f.?) See s.v. shab.",
+     "translit": "shab-nam"
+    }
+   ],
+   "headword": "شبنم",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D8%A8%D9%86%D9%85&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "dew"
+   ],
+   "headword": "شبنم",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%B4%D8%A8%D9%86%D9%85#Urdu"
+  }
+ },
+ "شدہ": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.m. = shaddā, q.v.",
+     "translit": "shadda"
+    },
+    {
+     "gloss": "[perf. part. of shudan; and = Zend shūta; S. च्युत], part. Become, having become; past, gone; lost: — shuda-shuda, adv. Going on (from one thing to another) gradually; by degrees, gradually (syn. hote hote).",
+     "translit": "shuda"
+    }
+   ],
+   "headword": "شدہ",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D8%AF%D9%87&searchhws=yes&matchtype=exact"
   }
  },
  "شکریہ": {
@@ -944,6 +1526,77 @@
  },
  "علیکم": {
   "checked": "2026-11-15"
+ },
+ "لسٹ": {
+  "checked": "2026-11-16"
+ },
+ "لکھ": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "( = S. लक्ष), s.m. A mark, spot, blot, stain.",
+     "translit": "laka lakka"
+    }
+   ],
+   "headword": "لکھ",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%A9%D9%87&searchhws=yes&matchtype=exact"
+  }
+ },
+ "لیتی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", (old H.) perf. part. (of lenā = līn ( = liyā), q.v.",
+     "translit": "līnā"
+    },
+    {
+     "gloss": "[le˚ = Prk. ले(इ) = लह(इ) = S. लभ(ते), rt. लभ्;+mī = Prk. अणअं = S. अनीयं], v.t. To take, accept, receive; to hold, grasp, lay hold of; to get, obtain, acquire; to reach; to buy, purchase; to borrow; — to absorb, consume",
+     "translit": "lenā lainā"
+    },
+    {
+     "gloss": "(i.q. lenā), s.m. = lahnā, q.v.",
+     "translit": "lainā"
+    }
+   ],
+   "headword": "لینا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%D9%8A%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "to take, get",
+    "to pick up",
+    "to take on"
+   ],
+   "headword": "لینا",
+   "translit": "denā",
+   "url": "https://en.wiktionary.org/wiki/%D9%84%DB%8C%D9%86%D8%A7#Urdu"
+  }
+ },
+ "ماموں": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.m. = māmū = māmā, qq.v.",
+     "translit": "māmūṅ"
+    }
+   ],
+   "headword": "ماموں",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%A7%D9%85%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "maternal uncle",
+    "(women's speech) snake",
+    "(Mumbai|slang) idiot, fool",
+    "(Mumbai|slang) policeman"
+   ],
+   "headword": "ماموں",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D9%85%D8%A7%D9%85%D9%88%DA%BA#Urdu"
+  }
  },
  "معاف": {
   "checked": "2026-11-15",
@@ -1030,6 +1683,27 @@
    "headword": "ملنا",
    "translit": "milnā",
    "url": "https://en.wiktionary.org/wiki/%D9%85%D9%84%D9%86%D8%A7#Urdu"
+  }
+ },
+ "ممانی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[fem. of māmū, q.v.; ānī = S. आनी], s.f. Mother's brother's wife, aunt (i.q. māmī, q.v.): — mumānī-sās, s.f. Husband's, or wife's, maternal aunt (i.q. mamiyā-sās).",
+     "translit": "mumānī"
+    }
+   ],
+   "headword": "ممانی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%85%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "wife of mother's brother ."
+   ],
+   "headword": "ممانی",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D9%85%D9%85%D8%A7%D9%86%DB%8C#Urdu"
   }
  },
  "مہربانی": {
@@ -1177,6 +1851,57 @@
    "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%85#Urdu"
   }
  },
+ "نانا": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[prob. Prk. णाणिओ, or नाणिओ; S. ज्ञान+इकः; Pers. also nānā]. s.m. (f. -ī), Maternal grandfather.",
+     "translit": "nānā"
+    },
+    {
+     "gloss": "[nā˚ = nāw˚ = nawāw˚ = Prk. नवाव(इ), or नवावे(इ) = S. नमय(ति), caus. of rt. नम्], v.t. To bend; to bow (the head, &c.); to double, to fold; — to pour (in or out).",
+     "translit": "nānā"
+    },
+    {
+     "gloss": ", adj. Of different kinds, or classes; different, various, sundry, manifold, diverse: — nānā-bhāṅti, adj. & adv. Of various sorts, of sundry kinds; multiform, manifold; in various ways: — nānā-prakār, or -prakār-kā (f. -",
+     "translit": "nānā"
+    }
+   ],
+   "headword": "نانا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "maternal grandfather",
+    "(Islam|figuratively) his grandfather Muhammad.}}"
+   ],
+   "headword": "نانا",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%86%D8%A7#Urdu"
+  }
+ },
+ "نانی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(see nānā), s.f. Maternal grandmother.",
+     "translit": "nānī"
+    }
+   ],
+   "headword": "نانی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "maternal grandmother"
+   ],
+   "headword": "نانی",
+   "translit": "dādī",
+   "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%86%DB%8C#Urdu"
+  }
+ },
  "نہیں": {
   "checked": "2026-11-15",
   "platts": {
@@ -1213,6 +1938,33 @@
  },
  "وعلیکم": {
   "checked": "2026-11-15"
+ },
+ "وہ": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Ap. Prk. अवेहु, loc. sing. of Prk. एव; S. एवादृशः], pron. That, the; that person; that thing; — he, she, it; — (pl.) those; they (i.q. we); — (by wǒh, 'he,' a wife refers to her husband, it being considered disrespectf",
+     "translit": "wah wǒh"
+    },
+    {
+     "gloss": ", intj. Bravo! &c. (i.q. wāh, q.v.).",
+     "translit": "wah"
+    }
+   ],
+   "headword": "وہ",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D9%87&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "he, she, it, they",
+    "that, those",
+    "that, those"
+   ],
+   "headword": "وہ",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D9%88%DB%81#Urdu"
+  }
  },
  "ٹھیک": {
   "checked": "2026-11-15",
@@ -1253,6 +2005,138 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D8%B1&searchhws=yes&matchtype=exact"
   }
  },
+ "پھوپھا": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. पितुः+स्वस्ट+कः], s.m. Father's sister's husband ( = phupphā or phuppā, the form commonly used by Musalmāns).",
+     "translit": "phūphā"
+    }
+   ],
+   "headword": "پھوپھا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%88%D9%BE%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "paternal aunt's husband"
+   ],
+   "headword": "پھوپھا",
+   "translit": "phūphā",
+   "url": "https://en.wiktionary.org/wiki/%D9%BE%DA%BE%D9%88%D9%BE%DA%BE%D8%A7#Urdu"
+  }
+ },
+ "پھپھو": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.m. = phūphū; phuppā, q.v.",
+     "translit": "phupphū phuphū"
+    }
+   ],
+   "headword": "پھپھو",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%BE%D9%87%D9%88&searchhws=yes&matchtype=exact"
+  }
+ },
+ "چچا": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. तात्य+कः; cf. ćaćā], s.m. Paternal uncle, father's (younger) brother; — a superior; a knowing or astute fellow: — ćaćā banānā, v.t. To give (one) a beating, to castigate: — ćaćā-zād bhāʼī, s.m. A cousin, a father's y",
+     "translit": "ćaćā ćaććā"
+    }
+   ],
+   "headword": "چچا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%DA%86%D8%A7&searchhws=yes&matchtype=exact"
+  }
+ },
+ "چچی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.f. = ćūćī, q.v.",
+     "translit": "ćući ćićī"
+    },
+    {
+     "gloss": "(fem. of ćaćā), s.f. Father's brother's wife, aunt.",
+     "translit": "ćaćī ćaććī"
+    }
+   ],
+   "headword": "چچی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%DA%86%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "aunt"
+   ],
+   "headword": "چچی",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%DA%86%DA%86%DB%8C#Urdu"
+  }
+ },
+ "چھوٹا": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. क्षुद्रकः], adj. (f. -ī), Little, small; less, lesser; younger, junior, minor; subordinate, inferior, common; trivial, trifling, unimportant, of no consequence; low, mean, insignincant, contemptible: — ćhoṭī bāt, s.f",
+     "translit": "ćhoṭā"
+    }
+   ],
+   "headword": "چھوٹا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%87%D9%88%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "little, small",
+    "younger, junior, minor, lesser",
+    "subordinate, inferior, common",
+    "trivial, trifling, unimportant, of no consequence"
+   ],
+   "headword": "چھوٹا",
+   "translit": "süto",
+   "url": "https://en.wiktionary.org/wiki/%DA%86%DA%BE%D9%88%D9%B9%D8%A7#Urdu"
+  }
+ },
+ "چھوٹے": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. क्षुद्रकः], adj. (f. -ī), Little, small; less, lesser; younger, junior, minor; subordinate, inferior, common; trivial, trifling, unimportant, of no consequence; low, mean, insignincant, contemptible: — ćhoṭī bāt, s.f",
+     "translit": "ćhoṭā"
+    }
+   ],
+   "headword": "چھوٹا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%87%D9%88%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "little, small",
+    "younger, junior, minor, lesser",
+    "subordinate, inferior, common",
+    "trivial, trifling, unimportant, of no consequence"
+   ],
+   "headword": "چھوٹا",
+   "translit": "süto",
+   "url": "https://en.wiktionary.org/wiki/%DA%86%DA%BE%D9%88%D9%B9%D8%A7#Urdu"
+  }
+ },
+ "ڈاکٹر": {
+  "checked": "2026-11-16",
+  "wiktionary": {
+   "glosses": [
+    "doctor",
+    "physician"
+   ],
+   "headword": "ڈاکٹر",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%DA%88%D8%A7%DA%A9%D9%B9%D8%B1#Urdu"
+  }
+ },
  "کا": {
   "checked": "2026-11-15",
   "platts": {
@@ -1283,6 +2167,36 @@
    "headword": "کا",
    "translit": "kā",
    "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A7#Urdu"
+  }
+ },
+ "کتنے": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(see the trans. kātnā), v.n. To be spun.",
+     "translit": "katnā"
+    },
+    {
+     "gloss": "[Prk. केत्तिलओ; S. कियतिकः; see kittā], adj. & adv. (f. -ī), How much? what quantity? (kitne) how many? — as many as; several; some: — kitne-ek, adj. Several; some, some few: — kitnā-hī, adv. Howsoever, however much or m",
+     "translit": "kitnā"
+    },
+    {
+     "gloss": ", v.n. To be estimated; to be appraised.",
+     "translit": "kutnā"
+    }
+   ],
+   "headword": "کتنا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%AA%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "how much",
+    "(in the plural) how many"
+   ],
+   "headword": "کتنا",
+   "translit": "kíyat",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%AA%D9%86%D8%A7#Urdu"
   }
  },
  "کر": {
@@ -1316,6 +2230,44 @@
    "headword": "کر",
    "translit": "karnā",
    "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%B1#Urdu"
+  }
+ },
+ "کزن": {
+  "checked": "2026-11-16"
+ },
+ "کس": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. कषः or कषायः], s.m. Assay, test, proof; — the decoction of a colouring substance; extract; essence, virtue; strength, power; tenacity; labour, toil.",
+     "translit": "kas"
+    },
+    {
+     "gloss": "(in H. poetry, and in Braj) = kaisā, q.v.",
+     "translit": "kas"
+    },
+    {
+     "gloss": ", indef. pron. Someone, somebody, anyone, one; a person, a man, an individual: — kas-o-ko, s.m. Family, dependants: — kas-o-nā-kas, Everybody, noble and plebeian, gentle and simple: — be-kas, adj. Without a friend, helpl",
+     "translit": "kas"
+    },
+    {
+     "gloss": "[S. कस्याः, gen. fem. sing. of कः, base किम्; Prk. किस्सा, and किसे], the formative of the oblique cases of the sing. of the interrog. pron. kaun, 'who,' &c.: — kis-t̤araḥ, or kis-t̤aur, In what manner? how? — kis-t̤araf",
+     "translit": "kis"
+    }
+   ],
+   "headword": "کس",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B3&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "Indirect form of کیا.",
+    "Indirect form of کون.",
+    "(vulgar|Punjab|_|or|_|rare) pussy, cunt"
+   ],
+   "headword": "کس",
+   "translit": "kyā",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%B3#Urdu"
   }
  },
  "کو": {
@@ -1451,6 +2403,39 @@
    "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%81%D9%86%D8%A7#Urdu"
   }
  },
+ "کی": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.m. (dialec.) = kāya, q.v.",
+     "translit": "kay"
+    },
+    {
+     "gloss": ", pron. & conj. A poetical form of کہ ki, q.v.",
+     "translit": "kī"
+    },
+    {
+     "gloss": ", = H کے के ke, fem., and oblique (masc.) forms respectively, of the postp. kā, q.v.: — ke-taʼīṅ or ke-taiṅ, postp. = ko, q.v.",
+     "translit": "kī"
+    },
+    {
+     "gloss": "[Zend kadha, fr. ka; S. kadha˚], interrog. adv. When?",
+     "translit": "kai"
+    }
+   ],
+   "headword": "کی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "form of کا"
+   ],
+   "headword": "کی",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C#Urdu"
+  }
+ },
  "کیا": {
   "checked": "2026-11-15",
   "platts": {
@@ -1573,6 +2558,61 @@
    "headword": "کیسے",
    "translit": "kaise",
    "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%B3%DB%92#Urdu"
+  }
+ },
+ "کے": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.m. (dialec.) = kāya, q.v.",
+     "translit": "kay"
+    },
+    {
+     "gloss": ", pron. & conj. A poetical form of کہ ki, q.v.",
+     "translit": "kī"
+    },
+    {
+     "gloss": ", = H کے के ke, fem., and oblique (masc.) forms respectively, of the postp. kā, q.v.: — ke-taʼīṅ or ke-taiṅ, postp. = ko, q.v.",
+     "translit": "kī"
+    },
+    {
+     "gloss": ", = H کي की kī, fem., and oblique (masc.) forms respectively, of the postp. kā, q.v.: — ke-taʼīṅ or ke-taiṅ, postp. = ko, q.v.",
+     "translit": "ke"
+    }
+   ],
+   "headword": "کے",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "form of کا"
+   ],
+   "headword": "کے",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+  }
+ },
+ "گھر": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Prk. घरं; S. गृहं], s.m. House, dwelling, mansion, habitation, abode, home; — a room (in a house), an apartment; — a den; nest; hole; sty; cell; burrow; — a receptacle; frame; stand; cup; pan; case; holder; socket; groo",
+     "translit": "ghar"
+    }
+   ],
+   "headword": "گھر",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%D9%87%D8%B1&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "(chiefly) house, home",
+    "place, abode"
+   ],
+   "headword": "گھر",
+   "translit": "ghar",
+   "url": "https://en.wiktionary.org/wiki/%DA%AF%DA%BE%D8%B1#Urdu"
   }
  },
  "گے": {

@@ -1039,18 +1039,6 @@
         },
         {
           "ref": "platts",
-          "item": "علی",
-          "checked": "2026-11-15",
-          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B9%D9%84%D9%8A&searchhws=yes&matchtype=exact"
-        },
-        {
-          "ref": "wiktionary",
-          "item": "علی",
-          "checked": "2026-11-15",
-          "url": "https://en.wiktionary.org/wiki/%D8%B9%D9%84%DB%8C#Urdu"
-        },
-        {
-          "ref": "platts",
           "item": "ہے",
           "checked": "2026-11-15",
           "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"

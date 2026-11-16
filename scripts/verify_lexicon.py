@@ -184,7 +184,10 @@ def sources_for(phrase: dict, cache: dict, manual: dict) -> tuple[list[dict], li
             s["url"] = url
         sources.append(s)
 
+    names = set(manual.get("names", []))
     for tok in tokens(phrase["urdu"]):
+        if tok in names:
+            continue  # proper nouns need no dictionary
         hand = manual.get("words", {}).get(tok)
         entry = cache.get(tok, {})
         found = False
@@ -211,10 +214,12 @@ def main() -> int:
     units = load_units()
 
     words: dict[str, None] = {}
+    names = set(manual.get("names", []))
     for _, unit in units:
         for ph in unit["phrases"]:
             for t in tokens(ph["urdu"]):
-                words[t] = None
+                if t not in names:
+                    words[t] = None
 
     todo = [w for w in words if w not in cache or (manual.get("lemmas", {}).get(w) and not (cache[w].get("platts") or cache[w].get("wiktionary")))]
     if todo and not report_only:

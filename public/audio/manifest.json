@@ -11,9 +11,21 @@
 "file": "256ec578b58511d5.mp3",
 "seconds": 1.81
 },
+"mms-urd|normal|آپ شادی شدہ ہیں؟": {
+"file": "835cac044d1eace2.mp3",
+"seconds": 1.37
+},
 "mms-urd|normal|آپ کا نام کیا ہے؟": {
 "file": "dfce0ed20cba9f1e.mp3",
 "seconds": 1.53
+},
+"mms-urd|normal|آپ کس کے بیٹے ہیں؟": {
+"file": "25d0614d34ca2b1f.mp3",
+"seconds": 1.49
+},
+"mms-urd|normal|آپ کی امی کا نام کیا ہے؟": {
+"file": "ff06d8f9ea680a3d.mp3",
+"seconds": 1.91
 },
 "mms-urd|normal|آپ کیسی ہیں؟": {
 "file": "259033326c1e8555.mp3",
@@ -22,6 +34,38 @@
 "mms-urd|normal|آپ کیسے ہیں؟": {
 "file": "2bc1db858f9be380.mp3",
 "seconds": 1.17
+},
+"mms-urd|normal|آپ کے کتنے بچے ہیں؟": {
+"file": "50d83e41ce151a93.mp3",
+"seconds": 1.65
+},
+"mms-urd|normal|آپ کے کتنے بھائی بہن ہیں؟": {
+"file": "b55b3aac4f1edaf8.mp3",
+"seconds": 2.04
+},
+"mms-urd|normal|ابو": {
+"file": "2a9bbe9d4d385956.mp3",
+"seconds": 0.6
+},
+"mms-urd|normal|ابو کی بہن": {
+"file": "306249eff5a9339f.mp3",
+"seconds": 1.01
+},
+"mms-urd|normal|ابو کے بڑے بھائی": {
+"file": "a8092dafbf7e3a96.mp3",
+"seconds": 1.37
+},
+"mms-urd|normal|ابو کے چھوٹے بھائی": {
+"file": "93fbba8b65edc061.mp3",
+"seconds": 1.4
+},
+"mms-urd|normal|ابھی نہیں": {
+"file": "430351228f541191.mp3",
+"seconds": 0.82
+},
+"mms-urd|normal|ابھی نہیں آنٹی": {
+"file": "059c1418d0c3e686.mp3",
+"seconds": 1.27
 },
 "mms-urd|normal|الحمدللہ": {
 "file": "95fb6fa150da8578.mp3",
@@ -35,6 +79,10 @@
 "file": "3d05f2c344d6c33a.mp3",
 "seconds": 1.37
 },
+"mms-urd|normal|السلام علیکم آنٹی": {
+"file": "34ca5fad3c98598e.mp3",
+"seconds": 2.04
+},
 "mms-urd|normal|السلام علیکم بیٹا!": {
 "file": "d817e09cc59dc4a5.mp3",
 "seconds": 2.17
@@ -42,6 +90,10 @@
 "mms-urd|normal|اللہ حافظ": {
 "file": "25819eb9d6d3d9d1.mp3",
 "seconds": 1.01
+},
+"mms-urd|normal|امی": {
+"file": "53502c21b3c54589.mp3",
+"seconds": 0.61
 },
 "mms-urd|normal|امی ٹھیک ہیں، شکریہ": {
 "file": "065230ef810d36b7.mp3",
@@ -51,8 +103,16 @@
 "file": "1945dfc25897863f.mp3",
 "seconds": 1.49
 },
+"mms-urd|normal|امی کی بہن": {
+"file": "18b38e52a9d6179e.mp3",
+"seconds": 1.08
+},
 "mms-urd|normal|امی کیسی ہیں؟": {
 "file": "2e25029bc78318f5.mp3",
+"seconds": 1.11
+},
+"mms-urd|normal|امی کے بھائی": {
+"file": "2ceed98ea7f196a2.mp3",
 "seconds": 1.11
 },
 "mms-urd|normal|ان شاء اللہ": {
@@ -75,21 +135,77 @@
 "file": "6fe07e59f30a3736.mp3",
 "seconds": 0.66
 },
+"mms-urd|normal|اچھا آنٹی، خدا حافظ!": {
+"file": "13d2bb02e12c5a29.mp3",
+"seconds": 2.07
+},
+"mms-urd|normal|اچھا اچھا! شبنم کی بہن کا بیٹا!": {
+"file": "fff4067af3b01208.mp3",
+"seconds": 2.93
+},
 "mms-urd|normal|اچھا بیٹا، امی کو سلام کہنا": {
 "file": "c72cd170c252a8b3.mp3",
 "seconds": 2.29
+},
+"mms-urd|normal|بلال میرا کزن ہے": {
+"file": "1d4dc674a89c1c1b.mp3",
+"seconds": 1.59
+},
+"mms-urd|normal|بلال؟ ڈاکٹر بلال؟ وہ بھی لسٹ میں ہے": {
+"file": "8a02477590f48b00.mp3",
+"seconds": 2.9
+},
+"mms-urd|normal|بچے": {
+"file": "3f846596bb0f304c.mp3",
+"seconds": 0.66
+},
+"mms-urd|normal|بڑا": {
+"file": "78730c204fe3b3c9.mp3",
+"seconds": 0.61
+},
+"mms-urd|normal|بھائی": {
+"file": "034e33aac23eef65.mp3",
+"seconds": 0.69
+},
+"mms-urd|normal|بھابھی": {
+"file": "22fb3cbf292675f0.mp3",
+"seconds": 0.76
+},
+"mms-urd|normal|بہت اچھا! میں لسٹ میں لکھ لیتی ہوں": {
+"file": "6883bf666a6b9ded.mp3",
+"seconds": 2.45
 },
 "mms-urd|normal|بہت شکریہ": {
 "file": "d1cb27a7dc57ede2.mp3",
 "seconds": 1.08
 },
+"mms-urd|normal|بہن": {
+"file": "f4a8547fd966915e.mp3",
+"seconds": 0.57
+},
 "mms-urd|normal|بیٹا": {
 "file": "6b99729ff730debc.mp3",
 "seconds": 0.63
 },
+"mms-urd|normal|بیٹی": {
+"file": "4037b4de163c28d1.mp3",
+"seconds": 0.61
+},
+"mms-urd|normal|تائی": {
+"file": "178bb32dea0dc590.mp3",
+"seconds": 0.53
+},
+"mms-urd|normal|تایا": {
+"file": "12b083689f6acdc1.mp3",
+"seconds": 0.5
+},
 "mms-urd|normal|تم": {
 "file": "d516d2d4fcac059a.mp3",
 "seconds": 0.47
+},
+"mms-urd|normal|تم کس کے بیٹے ہو؟": {
+"file": "497c5eb81edd6148.mp3",
+"seconds": 1.4
 },
 "mms-urd|normal|تم کیسی ہو؟": {
 "file": "b391bb8d4a6c894e.mp3",
@@ -139,6 +255,18 @@
 "file": "25fed59069664bc0.mp3",
 "seconds": 1.01
 },
+"mms-urd|normal|خالو": {
+"file": "63e8ac9b2ef16bc6.mp3",
+"seconds": 0.63
+},
+"mms-urd|normal|خالہ": {
+"file": "e287926380b82a37.mp3",
+"seconds": 0.57
+},
+"mms-urd|normal|خاندان": {
+"file": "ec37c6ed9b0ec294.mp3",
+"seconds": 0.84
+},
 "mms-urd|normal|خدا حافظ": {
 "file": "c336296cce3c97cd.mp3",
 "seconds": 1.05
@@ -147,13 +275,29 @@
 "file": "8d28ff5079672650.mp3",
 "seconds": 2.42
 },
+"mms-urd|normal|دادا": {
+"file": "8e969acc3b3a31c8.mp3",
+"seconds": 0.58
+},
+"mms-urd|normal|دادی": {
+"file": "116eae291f86ec93.mp3",
+"seconds": 0.61
+},
 "mms-urd|normal|سب ٹھیک ہے": {
 "file": "4ff4e0baa49652f3.mp3",
 "seconds": 1.14
 },
+"mms-urd|normal|سسرال": {
+"file": "fda04c763b376736.mp3",
+"seconds": 0.76
+},
 "mms-urd|normal|سلام": {
 "file": "ec4a2eee16b43b50.mp3",
 "seconds": 0.66
+},
+"mms-urd|normal|شادی ہوئی؟": {
+"file": "6c8706e65a35f215.mp3",
+"seconds": 1.01
 },
 "mms-urd|normal|شب بخیر": {
 "file": "e8109da4e5c533c8.mp3",
@@ -167,6 +311,10 @@
 "file": "420d84ca8c102af3.mp3",
 "seconds": 1.3
 },
+"mms-urd|normal|ماموں": {
+"file": "1c9362ff6365116a.mp3",
+"seconds": 0.85
+},
 "mms-urd|normal|معاف کیجیے": {
 "file": "990272e45f79f99c.mp3",
 "seconds": 1.14
@@ -175,21 +323,69 @@
 "file": "b99087d429b83090.mp3",
 "seconds": 2.2
 },
+"mms-urd|normal|ممانی": {
+"file": "35e1c0494365ffec.mp3",
+"seconds": 0.66
+},
 "mms-urd|normal|مہربانی": {
 "file": "94bb0dd38fae638b.mp3",
 "seconds": 0.98
+},
+"mms-urd|normal|میرا": {
+"file": "fb73d2a158ff2b45.mp3",
+"seconds": 0.66
+},
+"mms-urd|normal|میرا خاندان بہت بڑا ہے": {
+"file": "c7e3500570ef833a.mp3",
+"seconds": 2.07
 },
 "mms-urd|normal|میرا نام علی ہے": {
 "file": "f21e8510d5e03ad6.mp3",
 "seconds": 1.62
 },
+"mms-urd|normal|میرا کزن بلال ڈاکٹر ہے!": {
+"file": "31da2f0c8f2e6851.mp3",
+"seconds": 2.29
+},
+"mms-urd|normal|میری": {
+"file": "e66e8ade99cd6c7d.mp3",
+"seconds": 0.69
+},
+"mms-urd|normal|میری امی شبنم خالہ کی بہن ہیں": {
+"file": "151aa85551cc7514.mp3",
+"seconds": 2.77
+},
+"mms-urd|normal|میری ایک بہن ہے": {
+"file": "fedd9941798f1792.mp3",
+"seconds": 1.43
+},
+"mms-urd|normal|میرے": {
+"file": "e6de887c5be107f8.mp3",
+"seconds": 0.68
+},
+"mms-urd|normal|میرے دو بھائی اور ایک بہن ہے": {
+"file": "6725aa243592c583.mp3",
+"seconds": 2.61
+},
+"mms-urd|normal|میرے دو بھائی ہیں": {
+"file": "f116172019a68775.mp3",
+"seconds": 1.43
+},
 "mms-urd|normal|میں": {
 "file": "0c77928bf415c4e2.mp3",
 "seconds": 0.6
 },
+"mms-urd|normal|میں اکیلا ہوں": {
+"file": "c04979882b29bcdd.mp3",
+"seconds": 1.27
+},
 "mms-urd|normal|میں بھی ٹھیک ہوں، الحمدللہ": {
 "file": "1e0d4bf82520a57c.mp3",
 "seconds": 2.26
+},
+"mms-urd|normal|میں شاہد کا بیٹا ہوں": {
+"file": "673497b6fdc2b4e7.mp3",
+"seconds": 1.65
 },
 "mms-urd|normal|میں ٹھیک ہوں": {
 "file": "8bef3e542a06b736.mp3",
@@ -198,6 +394,18 @@
 "mms-urd|normal|میں ٹھیک ہوں۔ آپ کیسی ہیں؟": {
 "file": "345f83872b38d639.mp3",
 "seconds": 2.29
+},
+"mms-urd|normal|نانا": {
+"file": "32534e3c93d6b4cb.mp3",
+"seconds": 0.65
+},
+"mms-urd|normal|نانی": {
+"file": "c5f8442279d00a7b.mp3",
+"seconds": 0.6
+},
+"mms-urd|normal|نانی کا گھر": {
+"file": "8a3f0069beac5ce0.mp3",
+"seconds": 1.14
 },
 "mms-urd|normal|نہیں": {
 "file": "46f99dc7c0266c6e.mp3",
@@ -211,9 +419,49 @@
 "file": "c938c44c63748f29.mp3",
 "seconds": 1.94
 },
+"mms-urd|normal|وعلیکم السلام! آؤ بیٹا، بیٹھو": {
+"file": "9980108534c2de8c.mp3",
+"seconds": 3.13
+},
+"mms-urd|normal|وہ ڈاکٹر ہے": {
+"file": "fd7b0d06c2d66c7b.mp3",
+"seconds": 1.14
+},
+"mms-urd|normal|وہ کون ہیں؟": {
+"file": "4e8f027bc32fdec4.mp3",
+"seconds": 0.85
+},
 "mms-urd|normal|پھر ملیں گے": {
 "file": "861422452dcb02a5.mp3",
 "seconds": 0.85
+},
+"mms-urd|normal|پھوپھا": {
+"file": "b2435b1643b72303.mp3",
+"seconds": 0.85
+},
+"mms-urd|normal|پھپھو": {
+"file": "1c4fbe382db8abfe.mp3",
+"seconds": 0.76
+},
+"mms-urd|normal|چچا": {
+"file": "2399ac98299a63b0.mp3",
+"seconds": 0.61
+},
+"mms-urd|normal|چچی": {
+"file": "55828cf4dfa974a2.mp3",
+"seconds": 0.55
+},
+"mms-urd|normal|چھوٹا": {
+"file": "deaddd248bdea8fd.mp3",
+"seconds": 0.61
+},
+"mms-urd|normal|کتنے بھائی بہن ہو؟": {
+"file": "883552a795c5c382.mp3",
+"seconds": 1.53
+},
+"mms-urd|normal|کزن": {
+"file": "a77d7055c8e0b10e.mp3",
+"seconds": 0.53
 },
 "mms-urd|normal|کوئی بات نہیں": {
 "file": "a2cad7639631acde.mp3",
@@ -235,13 +483,29 @@
 "file": "50061505439a75a9.mp3",
 "seconds": 0.55
 },
+"mms-urd|normal|یہ میرا بھائی ہے": {
+"file": "4ba9af7f2f8c4102.mp3",
+"seconds": 1.27
+},
 "mms-urd|normal|یہ میری امی ہیں": {
 "file": "3720ec2f6a02a829.mp3",
+"seconds": 1.33
+},
+"mms-urd|normal|یہ میری بہن ہے": {
+"file": "ee16c5eb9b26c4f0.mp3",
+"seconds": 1.17
+},
+"mms-urd|normal|یہ میری خالہ ہیں": {
+"file": "0148ddcf685033fb.mp3",
 "seconds": 1.33
 },
 "mms-urd|normal|یہ میرے ابو ہیں": {
 "file": "6f761f655e82981d.mp3",
 "seconds": 1.37
+},
+"mms-urd|normal|یہ میرے ماموں ہیں": {
+"file": "ad31ad6b81f6dd66.mp3",
+"seconds": 1.43
 },
 "mms-urd|normal|یہ کون ہیں؟": {
 "file": "a85bf8ec8f81b289.mp3",
@@ -259,9 +523,21 @@
 "file": "fc61ebb214c20cfc.mp3",
 "seconds": 2.46
 },
+"mms-urd|slow|آپ شادی شدہ ہیں؟": {
+"file": "b8a09419d0c7d4a0.mp3",
+"seconds": 1.84
+},
 "mms-urd|slow|آپ کا نام کیا ہے؟": {
 "file": "277ce94ff815533c.mp3",
 "seconds": 2.06
+},
+"mms-urd|slow|آپ کس کے بیٹے ہیں؟": {
+"file": "e46ef63d0a1f87c6.mp3",
+"seconds": 2.02
+},
+"mms-urd|slow|آپ کی امی کا نام کیا ہے؟": {
+"file": "c5fe2ca3377cf862.mp3",
+"seconds": 2.59
 },
 "mms-urd|slow|آپ کیسی ہیں؟": {
 "file": "2c53eb781246a0ae.mp3",
@@ -270,6 +546,38 @@
 "mms-urd|slow|آپ کیسے ہیں؟": {
 "file": "334769b4d4c331d0.mp3",
 "seconds": 1.57
+},
+"mms-urd|slow|آپ کے کتنے بچے ہیں؟": {
+"file": "24147637005c3be7.mp3",
+"seconds": 2.24
+},
+"mms-urd|slow|آپ کے کتنے بھائی بہن ہیں؟": {
+"file": "50cfc1317c5e28bc.mp3",
+"seconds": 2.77
+},
+"mms-urd|slow|ابو": {
+"file": "a8b097acbb49ea53.mp3",
+"seconds": 0.77
+},
+"mms-urd|slow|ابو کی بہن": {
+"file": "ea0c95cf8a395269.mp3",
+"seconds": 1.35
+},
+"mms-urd|slow|ابو کے بڑے بھائی": {
+"file": "5f482aba57b58339.mp3",
+"seconds": 1.84
+},
+"mms-urd|slow|ابو کے چھوٹے بھائی": {
+"file": "64afbaf770869a10.mp3",
+"seconds": 1.88
+},
+"mms-urd|slow|ابھی نہیں": {
+"file": "9f262eaeb050612e.mp3",
+"seconds": 1.08
+},
+"mms-urd|slow|ابھی نہیں آنٹی": {
+"file": "0bb5fbb9e0c4a2a5.mp3",
+"seconds": 1.71
 },
 "mms-urd|slow|الحمدللہ": {
 "file": "8616ba0f4d958015.mp3",
@@ -283,6 +591,10 @@
 "file": "6c3593a7106a74fa.mp3",
 "seconds": 1.84
 },
+"mms-urd|slow|السلام علیکم آنٹی": {
+"file": "b84df9e86271e788.mp3",
+"seconds": 2.77
+},
 "mms-urd|slow|السلام علیکم بیٹا!": {
 "file": "0cc19f087a446e80.mp3",
 "seconds": 2.95
@@ -290,6 +602,10 @@
 "mms-urd|slow|اللہ حافظ": {
 "file": "884efaa6fb820341.mp3",
 "seconds": 1.35
+},
+"mms-urd|slow|امی": {
+"file": "c8bc2b7cd173fed2.mp3",
+"seconds": 0.79
 },
 "mms-urd|slow|امی ٹھیک ہیں، شکریہ": {
 "file": "efb849fcef808948.mp3",
@@ -299,8 +615,16 @@
 "file": "44236cdb6fef8519.mp3",
 "seconds": 2.02
 },
+"mms-urd|slow|امی کی بہن": {
+"file": "8bb03af94e2f3f21.mp3",
+"seconds": 1.44
+},
 "mms-urd|slow|امی کیسی ہیں؟": {
 "file": "6812c7922dac68fc.mp3",
+"seconds": 1.48
+},
+"mms-urd|slow|امی کے بھائی": {
+"file": "8d069f32845aed81.mp3",
 "seconds": 1.48
 },
 "mms-urd|slow|ان شاء اللہ": {
@@ -323,21 +647,77 @@
 "file": "916ca6eeca739f12.mp3",
 "seconds": 0.86
 },
+"mms-urd|slow|اچھا آنٹی، خدا حافظ!": {
+"file": "0b9bac1967647a76.mp3",
+"seconds": 2.82
+},
+"mms-urd|slow|اچھا اچھا! شبنم کی بہن کا بیٹا!": {
+"file": "7e8f8ca6f7c81968.mp3",
+"seconds": 4.02
+},
 "mms-urd|slow|اچھا بیٹا، امی کو سلام کہنا": {
 "file": "6196cf0db9f074a6.mp3",
 "seconds": 3.13
+},
+"mms-urd|slow|بلال میرا کزن ہے": {
+"file": "014990f65c15837e.mp3",
+"seconds": 2.15
+},
+"mms-urd|slow|بلال؟ ڈاکٹر بلال؟ وہ بھی لسٹ میں ہے": {
+"file": "1cc5064cc2ae08f7.mp3",
+"seconds": 3.97
+},
+"mms-urd|slow|بچے": {
+"file": "5a76a77aba9e886b.mp3",
+"seconds": 0.86
+},
+"mms-urd|slow|بڑا": {
+"file": "62e13e2ddf0627f1.mp3",
+"seconds": 0.79
+},
+"mms-urd|slow|بھائی": {
+"file": "17018ab5c9af92eb.mp3",
+"seconds": 0.91
+},
+"mms-urd|slow|بھابھی": {
+"file": "eb8dc3913ca75ca3.mp3",
+"seconds": 0.99
+},
+"mms-urd|slow|بہت اچھا! میں لسٹ میں لکھ لیتی ہوں": {
+"file": "747bc653600d1523.mp3",
+"seconds": 3.35
 },
 "mms-urd|slow|بہت شکریہ": {
 "file": "810e1bc792b4569c.mp3",
 "seconds": 1.44
 },
+"mms-urd|slow|بہن": {
+"file": "b94312cb8966fccb.mp3",
+"seconds": 0.73
+},
 "mms-urd|slow|بیٹا": {
 "file": "2e649e75a9520436.mp3",
 "seconds": 0.82
 },
+"mms-urd|slow|بیٹی": {
+"file": "f0e7e12e32e15efd.mp3",
+"seconds": 0.79
+},
+"mms-urd|slow|تائی": {
+"file": "c52c066f50f15b5c.mp3",
+"seconds": 0.68
+},
+"mms-urd|slow|تایا": {
+"file": "bf5263793d2ab193.mp3",
+"seconds": 0.64
+},
 "mms-urd|slow|تم": {
 "file": "575bfe98547b947a.mp3",
 "seconds": 0.59
+},
+"mms-urd|slow|تم کس کے بیٹے ہو؟": {
+"file": "c1b9f0126b17efb0.mp3",
+"seconds": 1.88
 },
 "mms-urd|slow|تم کیسی ہو؟": {
 "file": "2961f2d06be4d88b.mp3",
@@ -387,6 +767,18 @@
 "file": "414055bf916a0e4c.mp3",
 "seconds": 1.35
 },
+"mms-urd|slow|خالو": {
+"file": "745036d8f4f9a398.mp3",
+"seconds": 0.82
+},
+"mms-urd|slow|خالہ": {
+"file": "e51b5974ca72642b.mp3",
+"seconds": 0.73
+},
+"mms-urd|slow|خاندان": {
+"file": "0208a0a1d495979f.mp3",
+"seconds": 1.11
+},
 "mms-urd|slow|خدا حافظ": {
 "file": "f57d9c9c2eac4798.mp3",
 "seconds": 1.39
@@ -395,13 +787,29 @@
 "file": "7d078fc8cb8ba68a.mp3",
 "seconds": 3.31
 },
+"mms-urd|slow|دادا": {
+"file": "01d9019891a3c34e.mp3",
+"seconds": 0.75
+},
+"mms-urd|slow|دادی": {
+"file": "bc0a1d97dfa32174.mp3",
+"seconds": 0.79
+},
 "mms-urd|slow|سب ٹھیک ہے": {
 "file": "9c02f1e8f93ebebb.mp3",
 "seconds": 1.53
 },
+"mms-urd|slow|سسرال": {
+"file": "0b805ff5d6bc85d5.mp3",
+"seconds": 0.99
+},
 "mms-urd|slow|سلام": {
 "file": "ba2d9aef008cd5a0.mp3",
 "seconds": 0.86
+},
+"mms-urd|slow|شادی ہوئی؟": {
+"file": "a217d6cf1e0d5b15.mp3",
+"seconds": 1.35
 },
 "mms-urd|slow|شب بخیر": {
 "file": "5e0a9b9fabbaeba9.mp3",
@@ -415,6 +823,10 @@
 "file": "83a060c4a6c75dfc.mp3",
 "seconds": 1.75
 },
+"mms-urd|slow|ماموں": {
+"file": "3c98acad8057fe3c.mp3",
+"seconds": 1.13
+},
 "mms-urd|slow|معاف کیجیے": {
 "file": "9368a0c6ff301597.mp3",
 "seconds": 1.53
@@ -423,21 +835,69 @@
 "file": "452ef046204d7064.mp3",
 "seconds": 2.99
 },
+"mms-urd|slow|ممانی": {
+"file": "35cbed7cff195715.mp3",
+"seconds": 0.86
+},
 "mms-urd|slow|مہربانی": {
 "file": "c5164b016b303c88.mp3",
 "seconds": 1.31
+},
+"mms-urd|slow|میرا": {
+"file": "234cc268daa85170.mp3",
+"seconds": 0.86
+},
+"mms-urd|slow|میرا خاندان بہت بڑا ہے": {
+"file": "46a0f608d6e5a428.mp3",
+"seconds": 2.82
 },
 "mms-urd|slow|میرا نام علی ہے": {
 "file": "f89e902ecd2f7ff2.mp3",
 "seconds": 2.19
 },
+"mms-urd|slow|میرا کزن بلال ڈاکٹر ہے!": {
+"file": "8923163366d040df.mp3",
+"seconds": 3.13
+},
+"mms-urd|slow|میری": {
+"file": "4cc436ae8238e77b.mp3",
+"seconds": 0.91
+},
+"mms-urd|slow|میری امی شبنم خالہ کی بہن ہیں": {
+"file": "2ba47989a9015382.mp3",
+"seconds": 3.79
+},
+"mms-urd|slow|میری ایک بہن ہے": {
+"file": "de45c20831515557.mp3",
+"seconds": 1.93
+},
+"mms-urd|slow|میرے": {
+"file": "2feb663925b6d359.mp3",
+"seconds": 0.88
+},
+"mms-urd|slow|میرے دو بھائی اور ایک بہن ہے": {
+"file": "68f9bb8daa709a27.mp3",
+"seconds": 3.57
+},
+"mms-urd|slow|میرے دو بھائی ہیں": {
+"file": "1db9913a3fb7bf6c.mp3",
+"seconds": 1.93
+},
 "mms-urd|slow|میں": {
 "file": "8491ec140f217409.mp3",
 "seconds": 0.77
 },
+"mms-urd|slow|میں اکیلا ہوں": {
+"file": "cb19c32c7bcd4d8b.mp3",
+"seconds": 1.71
+},
 "mms-urd|slow|میں بھی ٹھیک ہوں، الحمدللہ": {
 "file": "187bd2a70ed292a6.mp3",
 "seconds": 3.08
+},
+"mms-urd|slow|میں شاہد کا بیٹا ہوں": {
+"file": "78790da315590b29.mp3",
+"seconds": 2.24
 },
 "mms-urd|slow|میں ٹھیک ہوں": {
 "file": "386a1fdfeb93d5a9.mp3",
@@ -446,6 +906,18 @@
 "mms-urd|slow|میں ٹھیک ہوں۔ آپ کیسی ہیں؟": {
 "file": "b8c3c11c57fc0bd4.mp3",
 "seconds": 3.13
+},
+"mms-urd|slow|نانا": {
+"file": "4bddf58f1a8d39f2.mp3",
+"seconds": 0.84
+},
+"mms-urd|slow|نانی": {
+"file": "02535e34d017dc31.mp3",
+"seconds": 0.77
+},
+"mms-urd|slow|نانی کا گھر": {
+"file": "4cd8fe2af0aa8e63.mp3",
+"seconds": 1.53
 },
 "mms-urd|slow|نہیں": {
 "file": "30b1164f53e7a660.mp3",
@@ -459,9 +931,49 @@
 "file": "9a178ce62b642e85.mp3",
 "seconds": 2.64
 },
+"mms-urd|slow|وعلیکم السلام! آؤ بیٹا، بیٹھو": {
+"file": "23cfaa30befa349b.mp3",
+"seconds": 4.28
+},
+"mms-urd|slow|وہ ڈاکٹر ہے": {
+"file": "964c770d0f99dd5a.mp3",
+"seconds": 1.53
+},
+"mms-urd|slow|وہ کون ہیں؟": {
+"file": "2f0ec4e5f4b78c4c.mp3",
+"seconds": 1.13
+},
 "mms-urd|slow|پھر ملیں گے": {
 "file": "81befbc5effb70b8.mp3",
 "seconds": 1.13
+},
+"mms-urd|slow|پھوپھا": {
+"file": "5aff20569224a839.mp3",
+"seconds": 1.13
+},
+"mms-urd|slow|پھپھو": {
+"file": "0c87de19f9b00d56.mp3",
+"seconds": 0.99
+},
+"mms-urd|slow|چچا": {
+"file": "d7201333736a9342.mp3",
+"seconds": 0.79
+},
+"mms-urd|slow|چچی": {
+"file": "6f4430bdc0b8ee3f.mp3",
+"seconds": 0.71
+},
+"mms-urd|slow|چھوٹا": {
+"file": "34f801c61252f389.mp3",
+"seconds": 0.79
+},
+"mms-urd|slow|کتنے بھائی بہن ہو؟": {
+"file": "a6a6b1adcdea3e74.mp3",
+"seconds": 2.06
+},
+"mms-urd|slow|کزن": {
+"file": "8673d4ef03055e59.mp3",
+"seconds": 0.68
 },
 "mms-urd|slow|کوئی بات نہیں": {
 "file": "f93a438db04d69ea.mp3",
@@ -483,13 +995,29 @@
 "file": "db3c8066699220d2.mp3",
 "seconds": 0.71
 },
+"mms-urd|slow|یہ میرا بھائی ہے": {
+"file": "29cfba6f331d3a3e.mp3",
+"seconds": 1.71
+},
 "mms-urd|slow|یہ میری امی ہیں": {
 "file": "48eb41ea70564442.mp3",
+"seconds": 1.79
+},
+"mms-urd|slow|یہ میری بہن ہے": {
+"file": "f2d8205a2875ad1f.mp3",
+"seconds": 1.57
+},
+"mms-urd|slow|یہ میری خالہ ہیں": {
+"file": "488710e0472b0db1.mp3",
 "seconds": 1.79
 },
 "mms-urd|slow|یہ میرے ابو ہیں": {
 "file": "87d2327c39ce530b.mp3",
 "seconds": 1.84
+},
+"mms-urd|slow|یہ میرے ماموں ہیں": {
+"file": "9219c93174a0aa56.mp3",
+"seconds": 1.93
 },
 "mms-urd|slow|یہ کون ہیں؟": {
 "file": "5282bc53b72ace47.mp3",

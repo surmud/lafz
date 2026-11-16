@@ -1,0 +1,23 @@
+[
+  { "id": "nana", "phrase": "u02.nana", "side": "maternal", "generation": 2, "relation": "Mum's father", "address": "Nana, Nana ji, Nana Abbu", "emoji": "👴" },
+  { "id": "nani", "phrase": "u02.nani", "side": "maternal", "generation": 2, "relation": "Mum's mother", "address": "Nani, Nani Ammi, Nani jaan", "note": "Always aap. Always.", "emoji": "👵" },
+  { "id": "dada", "phrase": "u02.dada", "side": "paternal", "generation": 2, "relation": "Dad's father", "address": "Dada, Dada ji, Dada Abbu", "emoji": "👴" },
+  { "id": "dadi", "phrase": "u02.dadi", "side": "paternal", "generation": 2, "relation": "Dad's mother", "address": "Dadi, Dadi Ammi, Dadi jaan", "emoji": "👵" },
+  { "id": "khala", "phrase": "u02.khala", "side": "maternal", "generation": 1, "relation": "Mum's sister", "address": "Khala, Khala ji, Khala jaan", "note": "Shabnam Khala is one. She already knows you're reading this.", "emoji": "💅" },
+  { "id": "khalu", "phrase": "u02.khalu", "side": "maternal", "generation": 1, "relation": "Khala's husband", "address": "Khalu, Khalu ji", "emoji": "🏏" },
+  { "id": "mamoon", "phrase": "u02.mamoon", "side": "maternal", "generation": 1, "relation": "Mum's brother", "address": "Mamoon, Mamoon ji, Mamu", "note": "Traditionally the one who spoils you.", "emoji": "🎁" },
+  { "id": "mumani", "phrase": "u02.mumani", "side": "maternal", "generation": 1, "relation": "Mamoon's wife", "address": "Mumani, Mami, Mumani ji", "emoji": "🌸" },
+  { "id": "ammi", "phrase": "u02.ammi", "side": "both", "generation": 1, "relation": "Mum", "address": "Ammi, Ammi jaan, Mama", "emoji": "🫖" },
+  { "id": "abbu", "phrase": "u02.abbu", "side": "both", "generation": 1, "relation": "Dad", "address": "Abbu, Abba, Abbu ji, Papa", "emoji": "📰" },
+  { "id": "phuppo", "phrase": "u02.phuppo", "side": "paternal", "generation": 1, "relation": "Dad's sister", "address": "Phuppo, Phuppi, Phuppo jaan", "note": "The drama villain. In real life, usually lovely.", "emoji": "🎭" },
+  { "id": "phuppa", "phrase": "u02.phuppa", "side": "paternal", "generation": 1, "relation": "Phuppo's husband", "address": "Phuppa, Phuppa ji", "emoji": "🧔" },
+  { "id": "taya", "phrase": "u02.taya", "side": "paternal", "generation": 1, "relation": "Dad's older brother", "address": "Taya, Taya ji, Taya Abbu", "note": "Older than Dad. Never call him Chacha.", "emoji": "🎩" },
+  { "id": "tai", "phrase": "u02.tai", "side": "paternal", "generation": 1, "relation": "Taya's wife", "address": "Tai, Tai ji, Tai Ammi", "emoji": "🌺" },
+  { "id": "chacha", "phrase": "u02.chacha", "side": "paternal", "generation": 1, "relation": "Dad's younger brother", "address": "Chacha, Chacha ji, Chachu", "emoji": "😎" },
+  { "id": "chachi", "phrase": "u02.chachi", "side": "paternal", "generation": 1, "relation": "Chacha's wife", "address": "Chachi, Chachi ji", "emoji": "🌼" },
+  { "id": "you", "phrase": "u01.main", "side": "you", "generation": 0, "relation": "You", "address": "beta (to everyone above you)", "emoji": "🫵" },
+  { "id": "bhai", "phrase": "u02.bhai", "side": "you", "generation": 0, "relation": "Your brother", "address": "Bhai, Bhai jaan (older), or his name", "emoji": "🧑" },
+  { "id": "behen", "phrase": "u02.behen", "side": "you", "generation": 0, "relation": "Your sister", "address": "Baji or Aapi (older), or her name", "emoji": "👩" },
+  { "id": "bhabhi", "phrase": "u02.bhabhi", "side": "you", "generation": 0, "relation": "Your brother's wife", "address": "Bhabhi, Bhabhi jaan", "emoji": "💍" },
+  { "id": "cousin", "phrase": "u02.cousin", "side": "both", "generation": 0, "relation": "Any aunt or uncle's child", "address": "Their name. Bilal insists on 'Dr. Bilal'.", "emoji": "🩺" }
+]

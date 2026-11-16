@@ -41,6 +41,13 @@ for (const theme of ["light", "dark"] as const) {
     await expect(page.getByRole("heading", { name: "You survived the doorway" })).toBeVisible();
     await expect(page.getByText(/\+20 XP/)).toBeVisible();
     await shot("boss-end");
+    await page.goto("./family/");
+    await page.getByRole("button", { name: /Phuppo: Dad's sister/ }).click();
+    await expect(page.getByRole("dialog", { name: "Phuppo" })).toBeVisible();
+    await shot("family-sheet");
+    await page.keyboard.press("Escape");
+    await page.goto("./unit/u02/");
+    await shot("unit2");
     await page.goto("./me/");
     await expect(page.getByText("What you can do")).toBeVisible();
     await shot("me");

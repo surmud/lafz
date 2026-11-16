@@ -1,8 +1,155 @@
 [
-  { "id": "p01-reply", "level": 1, "skill": "reply", "exercise": { "type": "say", "phrase": "u01.wsalam", "prompt": "Nani says “Assalam-o-alaikum”. You reply:", "distractors": ["u01.khuda-hafiz", "u01.shukriya"] } },
-  { "id": "p01-listen", "level": 1, "skill": "listening", "exercise": { "type": "listen", "phrase": "u01.main-theek-hoon" } },
-  { "id": "p01-register", "level": 1, "skill": "register", "exercise": { "type": "respect", "situation": "Your friend's grandfather asks you something. How do you ask how HE is?", "listener": "Your friend's grandfather", "options": [ { "phrase": "u01.aap-kaise-hain", "verdict": "right", "feedback": "Aap for elders." }, { "phrase": "u01.tum-kaise-ho", "verdict": "wrong", "feedback": "Tum to an elder is rude." }, { "phrase": "u01.tu-kaisa-hai", "verdict": "wrong", "feedback": "Tu to an elder: very rude." } ] } },
-  { "id": "p01-type", "level": 1, "skill": "typing", "exercise": { "type": "type", "phrase": "u01.shukriya", "prompt": "Type “thank you” in Roman Urdu." } },
-  { "id": "p01-meaning", "level": 1, "skill": "meaning", "exercise": { "type": "meaning", "phrase": "u01.apna-khayal" } },
-  { "id": "p01-read", "level": 1, "skill": "reading", "exercise": { "type": "mc", "prompt": "Which of these says “shukriya”?", "options": [ { "glyph": "شکریہ" }, { "glyph": "سلام" }, { "glyph": "نہیں" } ], "answer": 0 } }
+  {
+    "id": "p01-reply",
+    "level": 1,
+    "skill": "reply",
+    "exercise": {
+      "type": "say",
+      "phrase": "u01.wsalam",
+      "prompt": "Nani says “Assalam-o-alaikum”. You reply:",
+      "distractors": [
+        "u01.khuda-hafiz",
+        "u01.shukriya"
+      ]
+    }
+  },
+  {
+    "id": "p01-listen",
+    "level": 1,
+    "skill": "listening",
+    "exercise": {
+      "type": "listen",
+      "phrase": "u01.main-theek-hoon"
+    }
+  },
+  {
+    "id": "p01-register",
+    "level": 1,
+    "skill": "register",
+    "exercise": {
+      "type": "respect",
+      "situation": "Your friend's grandfather asks you something. How do you ask how HE is?",
+      "listener": "Your friend's grandfather",
+      "options": [
+        {
+          "phrase": "u01.aap-kaise-hain",
+          "verdict": "right",
+          "feedback": "Aap for elders."
+        },
+        {
+          "phrase": "u01.tum-kaise-ho",
+          "verdict": "wrong",
+          "feedback": "Tum to an elder is rude."
+        },
+        {
+          "phrase": "u01.tu-kaisa-hai",
+          "verdict": "wrong",
+          "feedback": "Tu to an elder: very rude."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p01-type",
+    "level": 1,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u01.shukriya",
+      "prompt": "Type “thank you” in Roman Urdu."
+    }
+  },
+  {
+    "id": "p01-meaning",
+    "level": 1,
+    "skill": "meaning",
+    "exercise": {
+      "type": "meaning",
+      "phrase": "u01.apna-khayal"
+    }
+  },
+  {
+    "id": "p01-read",
+    "level": 1,
+    "skill": "reading",
+    "exercise": {
+      "type": "mc",
+      "prompt": "Which of these says “shukriya”?",
+      "options": [
+        {
+          "glyph": "شکریہ"
+        },
+        {
+          "glyph": "سلام"
+        },
+        {
+          "glyph": "نہیں"
+        }
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": "p02-meaning",
+    "level": 2,
+    "skill": "meaning",
+    "exercise": {
+      "type": "mc",
+      "prompt": "Your mum's sister is your…",
+      "options": [
+        {
+          "phrase": "u02.khala"
+        },
+        {
+          "phrase": "u02.phuppo"
+        },
+        {
+          "phrase": "u02.chachi"
+        }
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": "p02-gap",
+    "level": 2,
+    "skill": "reply",
+    "exercise": {
+      "type": "gap",
+      "phrase": "u02.ammi-ki-behen",
+      "word": {
+        "roman": "ki",
+        "urdu": "کی"
+      },
+      "distractors": [
+        {
+          "roman": "ka",
+          "urdu": "کا"
+        },
+        {
+          "roman": "ke",
+          "urdu": "کے"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p02-listen",
+    "level": 2,
+    "skill": "listening",
+    "exercise": {
+      "type": "listen",
+      "phrase": "u02.kitne-bhai-behen"
+    }
+  },
+  {
+    "id": "p02-type",
+    "level": 2,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u02.mere-do-bhai",
+      "prompt": "Type: “I have two brothers”"
+    }
+  }
 ]

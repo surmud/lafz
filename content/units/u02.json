@@ -1,0 +1,3740 @@
+{
+  "id": "u02",
+  "track": "speaking",
+  "order": 2,
+  "title": "The Family Tree",
+  "titleUrdu": "خاندان",
+  "emoji": "🌳",
+  "tagline": "Khala vs Phuppo, Chacha vs Taya, and who exactly Bilal is.",
+  "canDo": "You can explain who's who in your family, on both sides",
+  "grammar": [
+    {
+      "title": "ka, ki, ke (possessive 's)",
+      "body": "X ka/ki/ke Y = X's Y. The form agrees with Y, the thing owned: ka for masculine (Nani ka ghar), ki for feminine (Ammi ki behen), ke for plural or a respected man (Ammi ke bhai). 'My' works the same: mera, meri, mere."
+    },
+    {
+      "title": "Mum's side vs dad's side",
+      "body": "Maternal: Nana, Nani, Khala (+Khalu), Mamoon (+Mumani). Paternal: Dada, Dadi, Phuppo (+Phuppa), Chacha (younger, +Chachi), Taya (older, +Tai). Add 'ji' to any of them for extra respect: Khala ji, Taya ji."
+    },
+    {
+      "title": "Having = 'my X is/are'",
+      "body": "Urdu has no everyday verb 'to have' for family. 'I have two brothers' is 'mere do bhai hain' (my two brothers are)."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "u02.ammi",
+      "roman": "Ammi",
+      "urdu": "امی",
+      "en": "Mum",
+      "confidence": "high",
+      "sense": "mum",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%85%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.abbu",
+      "roman": "Abbu",
+      "urdu": "ابو",
+      "en": "Dad",
+      "confidence": "high",
+      "sense": "dad",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%88#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.bhai",
+      "roman": "bhai",
+      "urdu": "بھائی",
+      "en": "brother",
+      "confidence": "high",
+      "note": "Also what you call any man roughly your age. The waiter is bhai. The Uber driver is bhai.",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.behen",
+      "roman": "behen",
+      "urdu": "بہن",
+      "en": "sister",
+      "confidence": "high",
+      "accept": [
+        "bahen",
+        "behan",
+        "behn"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.beta",
+      "roman": "beta",
+      "urdu": "بیٹا",
+      "en": "son",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.beti",
+      "roman": "beti",
+      "urdu": "بیٹی",
+      "en": "daughter",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بیٹا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.bachche",
+      "roman": "bachche",
+      "urdu": "بچے",
+      "en": "children / kids",
+      "confidence": "high",
+      "accept": [
+        "bache",
+        "bachay"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بچے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%DA%86%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بچے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%86%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.nana",
+      "roman": "Nana",
+      "urdu": "نانا",
+      "en": "Mum's father (maternal grandad)",
+      "confidence": "high",
+      "sense": "grandparent-m",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نانا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نانا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%86%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.nani",
+      "roman": "Nani",
+      "urdu": "نانی",
+      "en": "Mum's mother (maternal grandma)",
+      "confidence": "high",
+      "sense": "grandparent-f",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.khala",
+      "roman": "Khala",
+      "urdu": "خالہ",
+      "en": "Mum's sister (maternal aunt)",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%DB%81#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.khalu",
+      "roman": "Khalu",
+      "urdu": "خالو",
+      "en": "Khala's husband",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خالو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خالو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%D9%88#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.mamoon",
+      "roman": "Mamoon",
+      "urdu": "ماموں",
+      "en": "Mum's brother (maternal uncle)",
+      "confidence": "high",
+      "accept": [
+        "mamu",
+        "mamun",
+        "mamo",
+        "mamoo"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ماموں",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%A7%D9%85%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ماموں",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%A7%D9%85%D9%88%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.mumani",
+      "roman": "Mumani",
+      "urdu": "ممانی",
+      "en": "Mamoon's wife",
+      "confidence": "high",
+      "accept": [
+        "mami",
+        "mamani"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ممانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%85%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ممانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D9%85%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.dada",
+      "roman": "Dada",
+      "urdu": "دادا",
+      "en": "Dad's father (paternal grandad)",
+      "confidence": "high",
+      "sense": "grandparent-m",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دادا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D8%A7%D8%AF%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دادا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D8%AF%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.dadi",
+      "roman": "Dadi",
+      "urdu": "دادی",
+      "en": "Dad's mother (paternal grandma)",
+      "confidence": "high",
+      "sense": "grandparent-f",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دادی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D8%A7%D8%AF%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دادی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D8%AF%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.chacha",
+      "roman": "Chacha",
+      "urdu": "چچا",
+      "en": "Dad's younger brother",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "چچا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%DA%86%D8%A7&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "u02.chachi",
+      "roman": "Chachi",
+      "urdu": "چچی",
+      "en": "Chacha's wife",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "چچی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%DA%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "چچی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%86%DA%86%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.taya",
+      "roman": "Taya",
+      "urdu": "تایا",
+      "en": "Dad's older brother",
+      "confidence": "high",
+      "accept": [
+        "taaya",
+        "taya ji"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "تایا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D8%A7%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تایا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%D8%A7%DB%8C%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.tai",
+      "roman": "Tai",
+      "urdu": "تائی",
+      "en": "Taya's wife",
+      "confidence": "high",
+      "accept": [
+        "taai",
+        "tayi",
+        "tai ji"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "تائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "u02.phuppo",
+      "roman": "Phuppo",
+      "urdu": "پھپھو",
+      "en": "Dad's sister (paternal aunt)",
+      "confidence": "high",
+      "accept": [
+        "phuppi",
+        "phupho",
+        "phupo"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پھپھو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%BE%D9%87%D9%88&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "u02.phuppa",
+      "roman": "Phuppa",
+      "urdu": "پھوپھا",
+      "en": "Phuppo's husband",
+      "confidence": "high",
+      "accept": [
+        "phupha",
+        "phoopha"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پھوپھا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%88%D9%BE%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پھوپھا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%DA%BE%D9%88%D9%BE%DA%BE%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.bhabhi",
+      "roman": "bhabhi",
+      "urdu": "بھابھی",
+      "en": "brother's wife (sister-in-law)",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بھابھی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A8%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھابھی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A8%DA%BE%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.susral",
+      "roman": "susral",
+      "urdu": "سسرال",
+      "en": "in-laws (your spouse's family)",
+      "confidence": "high",
+      "accept": [
+        "sasural",
+        "sussral"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سسرال",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D8%B3%D8%B1%D8%A7%D9%84&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سسرال",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D8%B3%D8%B1%D8%A7%D9%84#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.cousin",
+      "roman": "cousin",
+      "urdu": "کزن",
+      "en": "cousin (yes, just 'cousin')",
+      "confidence": "medium",
+      "register": "casual",
+      "note": "Urdu has proper terms like 'khala-zaad bhai' (khala's son), but every Pakistani family just says 'cousin'.",
+      "sources": [
+        {
+          "ref": "usage",
+          "checked": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "u02.khandan",
+      "roman": "khandan",
+      "urdu": "خاندان",
+      "en": "family / clan",
+      "confidence": "high",
+      "accept": [
+        "khaandaan",
+        "khandaan"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خاندان",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%86%D8%AF%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خاندان",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%86%D8%AF%D8%A7%D9%86#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.mera",
+      "roman": "mera",
+      "urdu": "میرا",
+      "en": "my (with a masculine noun)",
+      "confidence": "high",
+      "sense": "my",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.meri",
+      "roman": "meri",
+      "urdu": "میری",
+      "en": "my (with a feminine noun)",
+      "confidence": "high",
+      "sense": "my",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.mere",
+      "roman": "mere",
+      "urdu": "میرے",
+      "en": "my (plural, or a respected man)",
+      "confidence": "high",
+      "sense": "my",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میرے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.bara",
+      "roman": "bara",
+      "urdu": "بڑا",
+      "en": "big / older",
+      "confidence": "high",
+      "accept": [
+        "bada"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بڑا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بڑا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%91%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.chhota",
+      "roman": "chhota",
+      "urdu": "چھوٹا",
+      "en": "small / younger",
+      "confidence": "high",
+      "accept": [
+        "chota",
+        "chhotaa"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "چھوٹا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%87%D9%88%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "چھوٹا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%86%DA%BE%D9%88%D9%B9%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.ammi-ki-behen",
+      "roman": "Ammi ki behen",
+      "urdu": "امی کی بہن",
+      "en": "Mum's sister",
+      "confidence": "high",
+      "literal": "Mum of sister",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%85%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.abbu-ki-behen",
+      "roman": "Abbu ki behen",
+      "urdu": "ابو کی بہن",
+      "en": "Dad's sister",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.ammi-ke-bhai",
+      "roman": "Ammi ke bhai",
+      "urdu": "امی کے بھائی",
+      "en": "Mum's brother",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%85%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.abbu-ke-bare-bhai",
+      "roman": "Abbu ke bare bhai",
+      "urdu": "ابو کے بڑے بھائی",
+      "en": "Dad's older brother",
+      "confidence": "high",
+      "accept": [
+        "abbu ke bade bhai"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بڑا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بڑے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%91%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.abbu-ke-chhote-bhai",
+      "roman": "Abbu ke chhote bhai",
+      "urdu": "ابو کے چھوٹے بھائی",
+      "en": "Dad's younger brother",
+      "confidence": "high",
+      "accept": [
+        "abbu ke chote bhai"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "چھوٹا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%87%D9%88%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "چھوٹا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%86%DA%BE%D9%88%D9%B9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.nani-ka-ghar",
+      "roman": "Nani ka ghar",
+      "urdu": "نانی کا گھر",
+      "en": "Nani's house",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%86%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "گھر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%D9%87%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گھر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DA%BE%D8%B1#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.yeh-meri-khala",
+      "roman": "yeh meri Khala hain",
+      "urdu": "یہ میری خالہ ہیں",
+      "en": "This is my aunt (mum's sister)",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "یہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%8C%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.yeh-mere-mamoon",
+      "roman": "yeh mere Mamoon hain",
+      "urdu": "یہ میرے ماموں ہیں",
+      "en": "This is my uncle (mum's brother)",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "یہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%8C%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میرے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ماموں",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%A7%D9%85%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ماموں",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%A7%D9%85%D9%88%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.yeh-mera-bhai",
+      "roman": "yeh mera bhai hai",
+      "urdu": "یہ میرا بھائی ہے",
+      "en": "This is my brother",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "یہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%8C%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.yeh-meri-behen",
+      "roman": "yeh meri behen hai",
+      "urdu": "یہ میری بہن ہے",
+      "en": "This is my sister",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "یہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%8C%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.mere-do-bhai",
+      "roman": "mere do bhai hain",
+      "urdu": "میرے دو بھائی ہیں",
+      "en": "I have two brothers",
+      "confidence": "high",
+      "literal": "my two brothers are",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میرے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.meri-ek-behen",
+      "roman": "meri ek behen hai",
+      "urdu": "میری ایک بہن ہے",
+      "en": "I have one sister",
+      "confidence": "high",
+      "literal": "my one sister is",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ایک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%8A%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ایک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DB%8C%DA%A9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.kitne-bhai-behen",
+      "roman": "aap ke kitne bhai behen hain?",
+      "urdu": "آپ کے کتنے بھائی بہن ہیں؟",
+      "en": "How many brothers and sisters do you have?",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%BE&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%BE#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کتنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%AA%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کتنا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%AA%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.kitne-bachche",
+      "roman": "aap ke kitne bachche hain?",
+      "urdu": "آپ کے کتنے بچے ہیں؟",
+      "en": "How many children do you have?",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%BE&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%BE#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کتنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%AA%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کتنا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%AA%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بچے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%DA%86%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بچے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%86%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.woh-kaun-hain",
+      "roman": "woh kaun hain?",
+      "urdu": "وہ کون ہیں؟",
+      "en": "Who is that? (respectful)",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "وہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "وہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%88%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کون",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%88%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کون",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.bilal-cousin",
+      "roman": "Bilal mera cousin hai",
+      "urdu": "بلال میرا کزن ہے",
+      "en": "Bilal is my cousin",
+      "confidence": "medium",
+      "register": "casual",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.woh-doctor",
+      "roman": "woh doctor hai",
+      "urdu": "وہ ڈاکٹر ہے",
+      "en": "He's a doctor",
+      "confidence": "high",
+      "register": "casual",
+      "note": "You will hear this sentence about Bilal more than you hear your own name.",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "وہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "وہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%88%DB%81#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ڈاکٹر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%88%D8%A7%DA%A9%D9%B9%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.khandan-bara",
+      "roman": "mera khandan bohat bara hai",
+      "urdu": "میرا خاندان بہت بڑا ہے",
+      "en": "My family is very big",
+      "confidence": "high",
+      "accept": [
+        "mera khandan bohat bada hai"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "خاندان",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%86%D8%AF%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خاندان",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%86%D8%AF%D8%A7%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D8%AA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بڑا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بڑا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%91%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.ammi-ka-naam",
+      "roman": "aap ki ammi ka naam kya hai?",
+      "urdu": "آپ کی امی کا نام کیا ہے؟",
+      "en": "What's your mum's name?",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%BE&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%BE#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%85%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نام",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نام",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%85#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کیا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کیا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.shaadi-shuda",
+      "roman": "aap shaadi-shuda hain?",
+      "urdu": "آپ شادی شدہ ہیں؟",
+      "en": "Are you married?",
+      "confidence": "high",
+      "accept": [
+        "aap shadi shuda hain",
+        "aap shaadi shuda hain"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%BE&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%BE#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "شادی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D8%A7%D8%AF%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "شادی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D8%AF%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "شدہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D8%AF%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.abhi-nahin",
+      "roman": "abhi nahin",
+      "urdu": "ابھی نہیں",
+      "en": "Not yet",
+      "confidence": "high",
+      "literal": "not now",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ابھی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ابھی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%DA%BE%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.kis-ke-bete",
+      "roman": "aap kis ke bete hain?",
+      "urdu": "آپ کس کے بیٹے ہیں؟",
+      "en": "Whose son are you?",
+      "confidence": "high",
+      "note": "The classic elder question. They're placing you on the family map.",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%BE&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%BE#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%B3#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بیٹا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.salam-aunty",
+      "roman": "Assalam-o-alaikum, Aunty",
+      "urdu": "السلام علیکم آنٹی",
+      "en": "Hello, Aunty",
+      "confidence": "high",
+      "register": "formal",
+      "accept": [
+        "assalam o alaikum aunty",
+        "salam aunty"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%84%D8%A7%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85#Urdu"
+        },
+        {
+          "ref": "rekhta",
+          "item": "alaikum (in assalam-o-alaikum)",
+          "checked": "2026-11-15",
+          "url": "https://rekhtadictionary.com/meaning-of-alaikum"
+        },
+        {
+          "ref": "platts",
+          "item": "آنٹی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%86%D9%B9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آنٹی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%86%D9%B9%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.aao-beta",
+      "roman": "Walaikum assalam! Aao beta, baitho",
+      "urdu": "وعلیکم السلام! آؤ بیٹا، بیٹھو",
+      "en": "Hello! Come dear, sit",
+      "confidence": "high",
+      "speaker": "mrs-butt",
+      "sources": [
+        {
+          "ref": "rekhta",
+          "item": "vaalaikum assalaam",
+          "checked": "2026-11-15",
+          "url": "https://rekhtadictionary.com/meaning-of-vaalaikum-assalaam"
+        },
+        {
+          "ref": "platts",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%84%D8%A7%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "آنا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آنا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بیٹھنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D9%87%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹھنا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%DA%BE%D9%86%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.kis-ke-bete",
+      "roman": "Tum kis ke bete ho?",
+      "urdu": "تم کس کے بیٹے ہو؟",
+      "en": "Whose son are you?",
+      "confidence": "high",
+      "speaker": "mrs-butt",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "تم",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تم",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%D9%85#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%B3#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بیٹا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.shahid-ka-beta",
+      "roman": "Main Shahid ka beta hoon",
+      "urdu": "میں شاہد کا بیٹا ہوں",
+      "en": "I'm Shahid's son",
+      "confidence": "high",
+      "accept": [
+        "main shahid ka beta hun"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.ammi-shabnam-behen",
+      "roman": "Meri Ammi Shabnam Khala ki behen hain",
+      "urdu": "میری امی شبنم خالہ کی بہن ہیں",
+      "en": "My mum is Shabnam Khala's sister",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%85%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.achha-achha",
+      "roman": "Achha achha! Shabnam ki behen ka beta!",
+      "urdu": "اچھا اچھا! شبنم کی بہن کا بیٹا!",
+      "en": "Oh, of course! Shabnam's sister's son!",
+      "confidence": "high",
+      "speaker": "mrs-butt",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "اچھا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%DA%86%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اچھا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DA%86%DA%BE%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.kitne-bhai-behen",
+      "roman": "Kitne bhai behen ho?",
+      "urdu": "کتنے بھائی بہن ہو؟",
+      "en": "How many brothers and sisters have you got?",
+      "confidence": "high",
+      "speaker": "mrs-butt",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "کتنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%AA%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کتنا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%AA%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.do-bhai-ek-behen",
+      "roman": "Mere do bhai aur ek behen hai",
+      "urdu": "میرے دو بھائی اور ایک بہن ہے",
+      "en": "I've got two brothers and a sister",
+      "confidence": "high",
+      "accept": [
+        "mere do bhai aur ek behen hain"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میرے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اور",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%88%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اور",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%88%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ایک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%8A%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ایک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DB%8C%DA%A9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.main-akela",
+      "roman": "Main akela hoon",
+      "urdu": "میں اکیلا ہوں",
+      "en": "I'm an only child",
+      "confidence": "high",
+      "literal": "I am alone",
+      "accept": [
+        "main akela hun"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اکیلا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%DA%A9%D9%8A%D9%84%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اکیلا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DA%A9%DB%8C%D9%84%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.shaadi-hui",
+      "roman": "Shaadi hui?",
+      "urdu": "شادی ہوئی؟",
+      "en": "Married yet?",
+      "confidence": "high",
+      "speaker": "mrs-butt",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "شادی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D8%A7%D8%AF%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "شادی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D8%AF%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہونا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہونا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88%D9%86%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.abhi-nahin-aunty",
+      "roman": "Abhi nahin, Aunty",
+      "urdu": "ابھی نہیں آنٹی",
+      "en": "Not yet, Aunty",
+      "confidence": "high",
+      "accept": [
+        "abhi nahin",
+        "ji abhi nahin aunty",
+        "ji nahin aunty"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ابھی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ابھی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%DA%BE%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "آنٹی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%86%D9%B9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آنٹی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%86%D9%B9%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.mera-cousin-doctor",
+      "roman": "Mera cousin Bilal doctor hai!",
+      "urdu": "میرا کزن بلال ڈاکٹر ہے!",
+      "en": "My cousin Bilal is a doctor!",
+      "confidence": "medium",
+      "register": "casual",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ڈاکٹر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%88%D8%A7%DA%A9%D9%B9%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.spreadsheet",
+      "roman": "Bohat achha! Main list mein likh leti hoon",
+      "urdu": "بہت اچھا! میں لسٹ میں لکھ لیتی ہوں",
+      "en": "Excellent! I'll just add you to the list",
+      "confidence": "medium",
+      "speaker": "mrs-butt",
+      "register": "casual",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D8%AA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اچھا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%DA%86%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اچھا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DA%86%DA%BE%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "لکھ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%A9%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "لینا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%D9%8A%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "لینا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%84%DB%8C%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.bilal-bhi",
+      "roman": "Bilal? Doctor Bilal? Woh bhi list mein hai",
+      "urdu": "بلال؟ ڈاکٹر بلال؟ وہ بھی لسٹ میں ہے",
+      "en": "Bilal? DOCTOR Bilal? He's on the list too",
+      "confidence": "medium",
+      "speaker": "mrs-butt",
+      "register": "casual",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "ڈاکٹر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%88%D8%A7%DA%A9%D9%B9%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "وہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "وہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%88%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.khuda-hafiz-aunty",
+      "roman": "Achha Aunty, Khuda hafiz!",
+      "urdu": "اچھا آنٹی، خدا حافظ!",
+      "en": "Okay Aunty, goodbye!",
+      "confidence": "high",
+      "accept": [
+        "khuda hafiz aunty",
+        "allah hafiz aunty",
+        "achha aunty allah hafiz"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "اچھا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%DA%86%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اچھا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DA%86%DA%BE%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "آنٹی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%86%D9%B9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آنٹی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%86%D9%B9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "خدا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%AF%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خدا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%AF%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "حافظ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AD%D8%A7%D9%81%D8%B8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "حافظ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D9%81%D8%B8#Urdu"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u02-l1",
+      "title": "Ammi, Abbu & co.",
+      "blurb": "Parents, siblings, kids. The people who eat your leftovers.",
+      "canDo": "You can name your closest family in Urdu",
+      "teach": [
+        {
+          "phrase": "u02.ammi",
+          "tip": "Ammi, Ammi jaan, Mama, Mummy: families vary. Ammi is the classic."
+        },
+        {
+          "phrase": "u02.abbu",
+          "tip": "Abbu, Abba, Papa. Same man, same opinions about the thermostat."
+        },
+        {
+          "phrase": "u02.bhai",
+          "tip": "Brother. Also every man you need something from."
+        },
+        {
+          "phrase": "u02.behen",
+          "tip": "Sister. The 'h' is soft: beh-en."
+        },
+        {
+          "phrase": "u02.beta",
+          "tip": "Son. (Yes, and also everyone under 50, as you learned.)"
+        },
+        {
+          "phrase": "u02.beti",
+          "tip": "Daughter. Same pattern: -a for him, -i for her."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "match",
+          "phrases": [
+            "u02.ammi",
+            "u02.abbu",
+            "u02.bhai",
+            "u02.behen"
+          ]
+        },
+        {
+          "type": "meaning",
+          "phrase": "u02.beti"
+        },
+        {
+          "type": "listen",
+          "phrase": "u02.behen"
+        },
+        {
+          "type": "say",
+          "phrase": "u02.yeh-mera-bhai",
+          "prompt": "Introduce your brother.",
+          "distractors": [
+            "u02.yeh-meri-behen",
+            "u02.beta"
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "You call the waiter at the dhaba “bhai”. Is that weird?",
+          "options": [
+            {
+              "text": "No. Any man around your age is bhai.",
+              "feedback": "Correct. You now have thousands of brothers."
+            },
+            {
+              "text": "Yes, he's not your brother",
+              "feedback": "He is now. That's how it works."
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "type",
+          "phrase": "u02.behen",
+          "prompt": "Type: “sister”"
+        },
+        {
+          "type": "build",
+          "phrase": "u02.yeh-meri-behen",
+          "distractors": [
+            {
+              "roman": "mera",
+              "urdu": "میرا"
+            }
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u02.bachche",
+          "prompt": "Type: “children”"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u02.beta",
+            "u02.beti",
+            "u02.bachche",
+            "u02.khandan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-l2",
+      "title": "Mum's side",
+      "blurb": "Nana, Nani, Khala, Mamoon. The fun side (don't tell Dad).",
+      "canDo": "You can name everyone on your mum's side",
+      "teach": [
+        {
+          "title": "Every side has its own words",
+          "info": "English has 'aunt' and 'uncle'. Urdu tells you exactly WHICH aunt: mum's side or dad's side, older or younger, blood or married in. Get it right and elders melt. Get it wrong and you've just called Khala 'Phuppo' (a family feud in one word)."
+        },
+        {
+          "phrase": "u02.nana",
+          "tip": "Mum's dad. Nana = mum's side; remember N for 'Nani's husband'."
+        },
+        {
+          "phrase": "u02.nani",
+          "tip": "Mum's mum. Judge, jury, best halwa."
+        },
+        {
+          "phrase": "u02.khala",
+          "tip": "Mum's sister. Shabnam Khala is one of these. Brace yourself."
+        },
+        {
+          "phrase": "u02.khalu",
+          "tip": "Khala's husband. Usually quietly watching cricket."
+        },
+        {
+          "phrase": "u02.mamoon",
+          "tip": "Mum's brother. Traditionally the one who spoils you."
+        },
+        {
+          "phrase": "u02.mumani",
+          "tip": "Mamoon's wife. Many families say 'Mami'."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "match",
+          "phrases": [
+            "u02.nana",
+            "u02.nani",
+            "u02.khala",
+            "u02.mamoon"
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Your mum's sister is your…",
+          "options": [
+            {
+              "phrase": "u02.khala"
+            },
+            {
+              "phrase": "u02.phuppo",
+              "feedback": "Phuppo is DAD's sister. Khala would like a word."
+            },
+            {
+              "phrase": "u02.mumani",
+              "feedback": "Mumani married in: she's Mamoon's wife."
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Your mum's brother is your…",
+          "options": [
+            {
+              "phrase": "u02.mamoon"
+            },
+            {
+              "phrase": "u02.chacha",
+              "feedback": "Chacha is on dad's side."
+            },
+            {
+              "phrase": "u02.khalu",
+              "feedback": "Khalu married Khala. Different man."
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "listen",
+          "phrase": "u02.nani"
+        },
+        {
+          "type": "say",
+          "phrase": "u02.yeh-meri-khala",
+          "prompt": "Introduce Shabnam Khala to a friend.",
+          "distractors": [
+            "u02.yeh-mere-mamoon",
+            "u02.yeh-meri-behen"
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u02.mamoon",
+          "prompt": "Type the word for your mum's brother."
+        },
+        {
+          "type": "build",
+          "phrase": "u02.yeh-mere-mamoon",
+          "distractors": [
+            {
+              "roman": "mera",
+              "urdu": "میرا"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u02.khalu",
+            "u02.mumani",
+            "u02.nana",
+            "u02.khala"
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u02.nani-ka-ghar",
+          "prompt": "Type: “Nani's house”"
+        }
+      ]
+    },
+    {
+      "id": "u02-l3",
+      "title": "Dad's side",
+      "blurb": "Dada, Dadi, Chacha, Taya, Phuppo. Older vs younger matters here.",
+      "canDo": "You can name everyone on your dad's side, including older vs younger uncles",
+      "teach": [
+        {
+          "phrase": "u02.dada",
+          "tip": "Dad's dad. D for Dad's side: Dada, Dadi."
+        },
+        {
+          "phrase": "u02.dadi",
+          "tip": "Dad's mum."
+        },
+        {
+          "phrase": "u02.taya",
+          "tip": "Dad's OLDER brother. Seniority is everything."
+        },
+        {
+          "phrase": "u02.chacha",
+          "tip": "Dad's YOUNGER brother. Calling Taya 'Chacha' makes him younger, and he will not thank you."
+        },
+        {
+          "phrase": "u02.phuppo",
+          "tip": "Dad's sister. In TV dramas, the villain. In real life, usually lovely. Usually."
+        },
+        {
+          "phrase": "u02.phuppa",
+          "tip": "Phuppo's husband."
+        },
+        {
+          "phrase": "u02.chachi",
+          "tip": "Chacha's wife. (And Tai is Taya's wife.)"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "match",
+          "phrases": [
+            "u02.dada",
+            "u02.dadi",
+            "u02.chacha",
+            "u02.phuppo"
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Your dad has an older brother. You call him…",
+          "options": [
+            {
+              "phrase": "u02.taya"
+            },
+            {
+              "phrase": "u02.chacha",
+              "feedback": "Chacha is the YOUNGER brother. Taya just aged backwards and he's not happy."
+            },
+            {
+              "phrase": "u02.mamoon",
+              "feedback": "Mamoon is mum's brother."
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Your dad's sister is your…",
+          "options": [
+            {
+              "phrase": "u02.phuppo"
+            },
+            {
+              "phrase": "u02.khala",
+              "feedback": "Khala is MUM's sister."
+            },
+            {
+              "phrase": "u02.chachi",
+              "feedback": "Chachi married Chacha."
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "listen",
+          "phrase": "u02.phuppo"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u02.taya",
+            "u02.tai",
+            "u02.chachi",
+            "u02.phuppa"
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u02.dadi",
+          "prompt": "Type: Dad's mum"
+        },
+        {
+          "type": "mc",
+          "prompt": "Which pair are BOTH on your dad's side?",
+          "options": [
+            {
+              "text": "Dada and Phuppo"
+            },
+            {
+              "text": "Nani and Chacha",
+              "feedback": "Nani is mum's side."
+            },
+            {
+              "text": "Khala and Taya",
+              "feedback": "Khala is mum's side."
+            }
+          ],
+          "answer": 0,
+          "explain": "D for Dad: Dada, Dadi. Then Chacha, Taya, Phuppo."
+        },
+        {
+          "type": "type",
+          "phrase": "u02.chacha",
+          "prompt": "Type the word for dad's younger brother."
+        }
+      ]
+    },
+    {
+      "id": "u02-l4",
+      "title": "Ka, ki, ke",
+      "blurb": "Mum's sister, Dad's brother: the little word that does all the work.",
+      "canDo": "You can say whose relative someone is (Ammi ki behen, Abbu ke bhai)",
+      "teach": [
+        {
+          "title": "ka, ki, ke = 's",
+          "info": "Urdu says “Ammi ki behen”: Mum's sister. The little word changes to match the thing owned, not the owner: ka before a masculine word, ki before a feminine word, ke before a plural or a respected man. Behen is feminine, so: Ammi ki behen."
+        },
+        {
+          "phrase": "u02.ammi-ki-behen",
+          "tip": "Behen is feminine → ki. And Ammi ki behen = Khala."
+        },
+        {
+          "phrase": "u02.abbu-ki-behen",
+          "tip": "Same shape. Abbu ki behen = Phuppo."
+        },
+        {
+          "phrase": "u02.ammi-ke-bhai",
+          "tip": "An uncle is a respected man → ke. Ammi ke bhai = Mamoon."
+        },
+        {
+          "phrase": "u02.nani-ka-ghar",
+          "tip": "Ghar (house) is masculine → ka."
+        },
+        {
+          "phrase": "u02.mera",
+          "tip": "'My' works the same way: mera (m), meri (f), mere (plural or respect)."
+        },
+        {
+          "phrase": "u02.meri"
+        },
+        {
+          "phrase": "u02.mere"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap",
+          "phrase": "u02.ammi-ki-behen",
+          "word": {
+            "roman": "ki",
+            "urdu": "کی"
+          },
+          "distractors": [
+            {
+              "roman": "ka",
+              "urdu": "کا"
+            },
+            {
+              "roman": "ke",
+              "urdu": "کے"
+            }
+          ],
+          "explain": "behen is feminine → ki"
+        },
+        {
+          "type": "gap",
+          "phrase": "u02.nani-ka-ghar",
+          "word": {
+            "roman": "ka",
+            "urdu": "کا"
+          },
+          "distractors": [
+            {
+              "roman": "ki",
+              "urdu": "کی"
+            },
+            {
+              "roman": "ke",
+              "urdu": "کے"
+            }
+          ],
+          "explain": "ghar is masculine → ka"
+        },
+        {
+          "type": "gap",
+          "phrase": "u02.ammi-ke-bhai",
+          "word": {
+            "roman": "ke",
+            "urdu": "کے"
+          },
+          "distractors": [
+            {
+              "roman": "ka",
+              "urdu": "کا"
+            },
+            {
+              "roman": "ki",
+              "urdu": "کی"
+            }
+          ],
+          "explain": "a respected man → ke"
+        },
+        {
+          "type": "mc",
+          "prompt": "“Abbu ke bare bhai” is your…",
+          "show": "u02.abbu-ke-bare-bhai",
+          "options": [
+            {
+              "phrase": "u02.taya"
+            },
+            {
+              "phrase": "u02.chacha",
+              "feedback": "bare = older. Chacha is the younger one."
+            },
+            {
+              "phrase": "u02.mamoon"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "“Abbu ki behen” is your…",
+          "show": "u02.abbu-ki-behen",
+          "options": [
+            {
+              "phrase": "u02.phuppo"
+            },
+            {
+              "phrase": "u02.khala"
+            },
+            {
+              "phrase": "u02.dadi"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "gap",
+          "phrase": "u02.yeh-meri-behen",
+          "word": {
+            "roman": "meri",
+            "urdu": "میری"
+          },
+          "distractors": [
+            {
+              "roman": "mera",
+              "urdu": "میرا"
+            },
+            {
+              "roman": "mere",
+              "urdu": "میرے"
+            }
+          ],
+          "explain": "behen is feminine → meri"
+        },
+        {
+          "type": "gap",
+          "phrase": "u02.yeh-mera-bhai",
+          "word": {
+            "roman": "mera",
+            "urdu": "میرا"
+          },
+          "distractors": [
+            {
+              "roman": "meri",
+              "urdu": "میری"
+            },
+            {
+              "roman": "mere",
+              "urdu": "میرے"
+            }
+          ],
+          "explain": "bhai is masculine → mera"
+        },
+        {
+          "type": "build",
+          "phrase": "u02.abbu-ke-chhote-bhai",
+          "prompt": "Explain who Chacha is: “Dad's younger brother”",
+          "distractors": [
+            {
+              "roman": "ki",
+              "urdu": "کی"
+            }
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u02.ammi-ki-behen",
+          "prompt": "Explain who Khala is: “Mum's sister”"
+        }
+      ]
+    },
+    {
+      "id": "u02-l5",
+      "title": "Meet the family",
+      "blurb": "Introduce people, count siblings, answer the classic elder question.",
+      "canDo": "You can introduce your family and say how many siblings you have",
+      "teach": [
+        {
+          "phrase": "u02.mere-do-bhai",
+          "tip": "Urdu doesn't 'have' siblings: it says 'my two brothers are'."
+        },
+        {
+          "phrase": "u02.meri-ek-behen",
+          "tip": "One sister → hai (singular). Two brothers → hain."
+        },
+        {
+          "phrase": "u02.kitne-bhai-behen",
+          "tip": "'Bhai behen' together = siblings."
+        },
+        {
+          "phrase": "u02.woh-kaun-hain",
+          "tip": "Point (discreetly) at someone at the dawat."
+        },
+        {
+          "phrase": "u02.kis-ke-bete",
+          "tip": "Elders place you by your parents. Answer with your dad's (or mum's) name: “Main Shahid ka beta hoon”."
+        },
+        {
+          "phrase": "u02.khandan-bara",
+          "tip": "Bara = big. Every Pakistani khandan is bohat bara."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "phrase": "u02.kitne-bhai-behen"
+        },
+        {
+          "type": "say",
+          "phrase": "u02.mere-do-bhai",
+          "prompt": "You have two brothers. Say so.",
+          "distractors": [
+            "u02.meri-ek-behen",
+            "u02.yeh-mera-bhai"
+          ]
+        },
+        {
+          "type": "gap",
+          "phrase": "u02.meri-ek-behen",
+          "word": {
+            "roman": "hai",
+            "urdu": "ہے"
+          },
+          "distractors": [
+            {
+              "roman": "hain",
+              "urdu": "ہیں"
+            },
+            {
+              "roman": "hoon",
+              "urdu": "ہوں"
+            }
+          ],
+          "explain": "one sister → hai"
+        },
+        {
+          "type": "listen",
+          "phrase": "u02.woh-kaun-hain",
+          "speed": "aunty"
+        },
+        {
+          "type": "build",
+          "phrase": "u02.kitne-bhai-behen",
+          "distractors": [
+            {
+              "roman": "kya",
+              "urdu": "کیا"
+            }
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u02.mere-do-bhai",
+          "prompt": "Type: “I have two brothers”"
+        },
+        {
+          "type": "mc",
+          "prompt": "An elder asks “Aap kis ke bete hain?” What do they want?",
+          "options": [
+            {
+              "text": "Your dad's name, to place you in the family",
+              "feedback": "Exactly. Within 10 seconds they'll know your entire lineage."
+            },
+            {
+              "text": "Your job",
+              "feedback": "That's the NEXT question."
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "type",
+          "phrase": "u02.khandan-bara",
+          "prompt": "Type: “My family is very big”"
+        },
+        {
+          "type": "speak",
+          "phrase": "u02.mere-do-bhai"
+        }
+      ]
+    },
+    {
+      "id": "u02-l6",
+      "title": "Cousins & in-laws",
+      "blurb": "Bhabhi, susral, and the cousin your parents won't stop mentioning.",
+      "canDo": "You can talk about cousins and in-laws (and survive 'are you married?')",
+      "teach": [
+        {
+          "phrase": "u02.cousin",
+          "tip": "Just 'cousin'. Everyone code-switches here, and that's real Urdu."
+        },
+        {
+          "phrase": "u02.bilal-cousin"
+        },
+        {
+          "phrase": "u02.woh-doctor",
+          "tip": "Hear it once, hear it forever."
+        },
+        {
+          "phrase": "u02.bhabhi",
+          "tip": "Your brother's wife. Also what you call a friend's wife."
+        },
+        {
+          "phrase": "u02.susral",
+          "tip": "Your spouse's family. Comes up a lot once you're married. Comes up even more before."
+        },
+        {
+          "phrase": "u02.shaadi-shuda",
+          "tip": "The question. Asked at every gathering, by every aunty."
+        },
+        {
+          "phrase": "u02.abhi-nahin",
+          "tip": "The answer. Add 'Aunty' and a polite smile."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "match",
+          "phrases": [
+            "u02.cousin",
+            "u02.bhabhi",
+            "u02.susral",
+            "u02.khandan"
+          ]
+        },
+        {
+          "type": "listen",
+          "phrase": "u02.woh-doctor"
+        },
+        {
+          "type": "say",
+          "phrase": "u02.abhi-nahin",
+          "prompt": "Rishta Aunty: “Aap shaadi-shuda hain?” You're not married yet.",
+          "distractors": [
+            "u02.woh-doctor",
+            "u02.bilal-cousin"
+          ]
+        },
+        {
+          "type": "build",
+          "phrase": "u02.bilal-cousin",
+          "distractors": [
+            {
+              "roman": "meri",
+              "urdu": "میری"
+            }
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u02.shaadi-shuda",
+          "prompt": "Type the question every aunty asks: “Are you married?”"
+        },
+        {
+          "type": "mc",
+          "prompt": "Your brother's wife is your…",
+          "options": [
+            {
+              "phrase": "u02.bhabhi"
+            },
+            {
+              "phrase": "u02.behen"
+            },
+            {
+              "phrase": "u02.chachi"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "type",
+          "phrase": "u02.abhi-nahin",
+          "prompt": "Type: “Not yet”"
+        },
+        {
+          "type": "speak",
+          "phrase": "u02.abhi-nahin"
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u02-boss",
+    "title": "The Rishta Aunty",
+    "character": "mrs-butt",
+    "blurb": "Mrs. Butt corners you at a dawat. She has a spreadsheet. You are about to be in it.",
+    "scene": "A dawat at Shabnam Khala's. You're reaching for a samosa when a hand lands on your shoulder. Mrs. Butt, the neighbourhood Rishta Aunty, smiles a smile that has arranged 300 marriages.",
+    "canDo": "You can explain who you are in the family to a total stranger",
+    "start": "m0",
+    "nodes": {
+      "m0": {
+        "type": "you",
+        "prompt": "Greet her respectfully.",
+        "hint": "Assalam-o-alaikum…",
+        "options": [
+          {
+            "phrase": "u02.b.salam-aunty",
+            "next": "m1",
+            "quality": "great"
+          },
+          {
+            "phrase": "u02.b.khuda-hafiz-aunty",
+            "next": "flee",
+            "quality": "bold",
+            "reaction": "You tried to say goodbye before saying hello. She has not let go of your shoulder."
+          }
+        ]
+      },
+      "flee": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u02.b.aao-beta",
+        "next": "m2"
+      },
+      "m1": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u02.b.aao-beta",
+        "next": "m2"
+      },
+      "m2": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u02.b.kis-ke-bete",
+        "next": "m3"
+      },
+      "m3": {
+        "type": "you",
+        "prompt": "Place yourself in the family: your dad is Shahid, or say your mum is Shabnam Khala's sister.",
+        "hint": "Main Shahid ka…",
+        "options": [
+          {
+            "phrase": "u02.b.shahid-ka-beta",
+            "next": "m4",
+            "quality": "fine",
+            "reaction": "She types 'Shahid' into her phone. Then stops. She needs more."
+          },
+          {
+            "phrase": "u02.b.ammi-shabnam-behen",
+            "next": "m4",
+            "quality": "great",
+            "reaction": "Her eyes light up. She KNOWS Shabnam."
+          }
+        ]
+      },
+      "m4": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u02.b.achha-achha",
+        "next": "m5"
+      },
+      "m5": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u02.b.kitne-bhai-behen",
+        "next": "m6"
+      },
+      "m6": {
+        "type": "you",
+        "prompt": "Tell her about your siblings.",
+        "hint": "Mere do bhai…",
+        "options": [
+          {
+            "phrase": "u02.b.do-bhai-ek-behen",
+            "next": "m7",
+            "quality": "great"
+          },
+          {
+            "phrase": "u02.b.main-akela",
+            "next": "m7",
+            "quality": "fine",
+            "reaction": "'Akela!' She writes something down. It's underlined."
+          }
+        ]
+      },
+      "m7": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u02.b.shaadi-hui",
+        "next": "m8"
+      },
+      "m8": {
+        "type": "you",
+        "prompt": "Answer the inevitable question. Or deflect to Bilal.",
+        "hint": "Abhi nahin…",
+        "options": [
+          {
+            "phrase": "u02.b.abhi-nahin-aunty",
+            "next": "list-you",
+            "quality": "great"
+          },
+          {
+            "phrase": "u02.b.mera-cousin-doctor",
+            "next": "list-bilal",
+            "quality": "bold",
+            "reaction": "You threw your cousin under the bus. Respect."
+          }
+        ]
+      },
+      "list-you": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u02.b.spreadsheet",
+        "next": "bye"
+      },
+      "list-bilal": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u02.b.bilal-bhi",
+        "next": "bye-bilal"
+      },
+      "bye-bilal": {
+        "type": "narration",
+        "text": "Across the room, Bilal's phone buzzes. He looks up, confused. You eat your samosa in peace.",
+        "next": "bye"
+      },
+      "bye": {
+        "type": "you",
+        "prompt": "Escape. Politely.",
+        "hint": "Achha Aunty, Khuda hafiz",
+        "options": [
+          {
+            "phrase": "u02.b.khuda-hafiz-aunty",
+            "next": "end",
+            "quality": "great"
+          },
+          {
+            "phrase": "u01.allah-hafiz",
+            "next": "end",
+            "quality": "fine"
+          }
+        ]
+      },
+      "end": {
+        "type": "end",
+        "title": "You survived the Rishta Aunty",
+        "text": "You introduced yourself, placed yourself in the family tree, and got out alive. You are now in a spreadsheet. Everyone is. It's fine.",
+        "outcome": "survived"
+      }
+    }
+  }
+}
