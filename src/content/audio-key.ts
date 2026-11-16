@@ -6,7 +6,7 @@
  * The browser cannot hash synchronously, so the generator writes public/audio/manifest.json, a map of
  * key → file name, and the app looks clips up by key.
  */
-export const VOICE = "mms-urd";
+export const VOICE = "mms-urd-2";
 
 export type Rate = "normal" | "slow";
 

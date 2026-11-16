@@ -1,0 +1,911 @@
+{
+ "summary": {
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "sample": 150,
+  "clips": 150,
+  "mean": 0.673,
+  "median": 0.8
+ },
+ "rows": [
+  {
+   "id": "r01.w-baat",
+   "text": "بات",
+   "heard": "گوڑ",
+   "similarity": 0.0
+  },
+  {
+   "id": "r06.w-dil",
+   "text": "دِل",
+   "heard": "یا",
+   "similarity": 0.0
+  },
+  {
+   "id": "u03.chawal",
+   "text": "چاول",
+   "heard": "sister",
+   "similarity": 0.0
+  },
+  {
+   "id": "r06.w-ghar",
+   "text": "گھر",
+   "heard": "میل",
+   "similarity": 0.0
+  },
+  {
+   "id": "r04.w-taraf",
+   "text": "طرف",
+   "heard": "cut",
+   "similarity": 0.0
+  },
+  {
+   "id": "r06.w-gul",
+   "text": "گُل",
+   "heard": "do",
+   "similarity": 0.0
+  },
+  {
+   "id": "u06.chalo",
+   "text": "چلو!",
+   "heard": "جوارم",
+   "similarity": 0.0
+  },
+  {
+   "id": "r04.w-sabr",
+   "text": "صبر",
+   "heard": "سن",
+   "similarity": 0.0
+  },
+  {
+   "id": "u07.baraat",
+   "text": "بارات",
+   "heard": "ملہبہ",
+   "similarity": 0.0
+  },
+  {
+   "id": "u02.bachche",
+   "text": "بچے",
+   "heard": "دوسر",
+   "similarity": 0.0
+  },
+  {
+   "id": "u05.n-chhe",
+   "text": "چھ",
+   "heard": "گر",
+   "similarity": 0.0
+  },
+  {
+   "id": "u05.n-chaar",
+   "text": "چار",
+   "heard": "یہ",
+   "similarity": 0.0
+  },
+  {
+   "id": "u11.chalein",
+   "text": "چلیں؟",
+   "heard": "کیلے",
+   "similarity": 0.2
+  },
+  {
+   "id": "r10.w-khwahish",
+   "text": "خواہش",
+   "heard": "ہز",
+   "similarity": 0.2
+  },
+  {
+   "id": "u03.roti",
+   "text": "روٹی",
+   "heard": "تردیل",
+   "similarity": 0.2
+  },
+  {
+   "id": "r08.w-rasta",
+   "text": "راستہ",
+   "heard": "لازکا",
+   "similarity": 0.2
+  },
+  {
+   "id": "u01.alhamdulillah",
+   "text": "الحمدللہ",
+   "heard": "ارمان بھلا",
+   "similarity": 0.222
+  },
+  {
+   "id": "u02.nana",
+   "text": "نانا",
+   "heard": "جا",
+   "similarity": 0.25
+  },
+  {
+   "id": "u03.cheeni",
+   "text": "چینی",
+   "heard": "کیوں",
+   "similarity": 0.25
+  },
+  {
+   "id": "u01.beta",
+   "text": "بیٹا",
+   "heard": "میکن",
+   "similarity": 0.25
+  },
+  {
+   "id": "r08.w-khula",
+   "text": "کھلا",
+   "heard": "ہے",
+   "similarity": 0.25
+  },
+  {
+   "id": "u02.meri",
+   "text": "میری",
+   "heard": "نی",
+   "similarity": 0.25
+  },
+  {
+   "id": "u02.tai",
+   "text": "تائی",
+   "heard": "تل",
+   "similarity": 0.25
+  },
+  {
+   "id": "u03.garam-garam",
+   "text": "گرم گرم",
+   "heard": "یا میرے مجھے",
+   "similarity": 0.3
+  },
+  {
+   "id": "r04.w-saaf",
+   "text": "صاف",
+   "heard": "زاد",
+   "similarity": 0.333
+  },
+  {
+   "id": "u06.bill",
+   "text": "بل دے دیجیے",
+   "heard": "میلیدی",
+   "similarity": 0.333
+  },
+  {
+   "id": "u05.b.ji-nani",
+   "text": "جی نانی",
+   "heard": "یہ ناو",
+   "similarity": 0.333
+  },
+  {
+   "id": "u03.mirch",
+   "text": "مرچ",
+   "heard": "یرہ",
+   "similarity": 0.333
+  },
+  {
+   "id": "u02.abbu",
+   "text": "ابو",
+   "heard": "اوہ",
+   "similarity": 0.333
+  },
+  {
+   "id": "u02.mumani",
+   "text": "ممانی",
+   "heard": "ملے",
+   "similarity": 0.4
+  },
+  {
+   "id": "u04.kyun",
+   "text": "کیوں؟",
+   "heard": "یو",
+   "similarity": 0.4
+  },
+  {
+   "id": "u01.ji-haan",
+   "text": "جی ہاں",
+   "heard": "یہ",
+   "similarity": 0.4
+  },
+  {
+   "id": "r09.w-kab-aa-rahe",
+   "text": "کب آ رہے ہو؟",
+   "heard": "گبای ہے",
+   "similarity": 0.444
+  },
+  {
+   "id": "u09.rehta",
+   "text": "میں لندن میں رہتا ہوں",
+   "heard": "ملن مین میرے تانگ",
+   "similarity": 0.471
+  },
+  {
+   "id": "u06.chaliye",
+   "text": "چلیے",
+   "heard": "یلی",
+   "similarity": 0.5
+  },
+  {
+   "id": "u03.b.theek-hai",
+   "text": "ٹھیک ہے",
+   "heard": "تیہے",
+   "similarity": 0.5
+  },
+  {
+   "id": "u01.tu",
+   "text": "تو",
+   "heard": "دو",
+   "similarity": 0.5
+  },
+  {
+   "id": "r08.w-khatra",
+   "text": "خطرہ",
+   "heard": "خیلیرہ",
+   "similarity": 0.5
+  },
+  {
+   "id": "u06.ruko",
+   "text": "رکو!",
+   "heard": "براو",
+   "similarity": 0.5
+  },
+  {
+   "id": "u05.sau-rupay",
+   "text": "سو روپے",
+   "heard": "سوز رکھتے",
+   "similarity": 0.5
+  },
+  {
+   "id": "u05.n-hazaar",
+   "text": "ہزار",
+   "heard": "حزا",
+   "similarity": 0.5
+  },
+  {
+   "id": "u02.beti",
+   "text": "بیٹی",
+   "heard": "ہی ہی",
+   "similarity": 0.5
+  },
+  {
+   "id": "u02.bhabhi",
+   "text": "بھابھی",
+   "heard": "بہبیر",
+   "similarity": 0.5
+  },
+  {
+   "id": "u06.baithiye",
+   "text": "بیٹھیے",
+   "heard": "ہی ہی",
+   "similarity": 0.5
+  },
+  {
+   "id": "u01.b.ammi-kaisi-hain",
+   "text": "امی کیسی ہیں؟",
+   "heard": "نونک اسی ہیں",
+   "similarity": 0.545
+  },
+  {
+   "id": "u01.maaf-kijiye",
+   "text": "معاف کیجیے",
+   "heard": "اماف کیے",
+   "similarity": 0.556
+  },
+  {
+   "id": "u03.bismillah",
+   "text": "بسم اللہ",
+   "heard": "دوسر و اللہ",
+   "similarity": 0.556
+  },
+  {
+   "id": "u11.mat-sikhao",
+   "text": "مجھے مت سکھاؤ",
+   "heard": "مجیم مات سکھون",
+   "similarity": 0.583
+  },
+  {
+   "id": "u11.bas-karo",
+   "text": "بس کرو!",
+   "heard": "اسکو",
+   "similarity": 0.6
+  },
+  {
+   "id": "u04.kaise",
+   "text": "کیسے؟",
+   "heard": "ایسی",
+   "similarity": 0.6
+  },
+  {
+   "id": "u09.engineer",
+   "text": "میں انجینئر ہوں",
+   "heard": "میں دینا ہوں",
+   "similarity": 0.615
+  },
+  {
+   "id": "u06.b.yahan-rukiye",
+   "text": "بس، یہاں رکیے۔ شکریہ!",
+   "heard": "بس یہاں رکی چھکیے",
+   "similarity": 0.647
+  },
+  {
+   "id": "u05.sasta",
+   "text": "یہ سستا ہے",
+   "heard": "دیسی ستا ہے",
+   "similarity": 0.667
+  },
+  {
+   "id": "r09.w-jaldi-aao",
+   "text": "جلدی آؤ",
+   "heard": "جلیو",
+   "similarity": 0.667
+  },
+  {
+   "id": "r05.w-main",
+   "text": "میں",
+   "heard": "مین",
+   "similarity": 0.667
+  },
+  {
+   "id": "r10.w-hazaaron",
+   "text": "ہزاروں",
+   "heard": "ازارو",
+   "similarity": 0.667
+  },
+  {
+   "id": "u06.b.teen-sau-aakhri",
+   "text": "تین سو۔ آخری دام!",
+   "heard": "تینцу اخریدا",
+   "similarity": 0.692
+  },
+  {
+   "id": "u05.b.umar",
+   "text": "اور تمہاری عمر کیا ہے اب؟",
+   "heard": "اور تمہاری امید کیا ہے",
+   "similarity": 0.7
+  },
+  {
+   "id": "u03.pait-bhar-gaya",
+   "text": "میرا پیٹ بھر گیا",
+   "heard": "میرا پیج بھریا ہے",
+   "similarity": 0.714
+  },
+  {
+   "id": "u10.dua-mein-yaad",
+   "text": "دعا میں یاد رکھیے",
+   "heard": "گواہ میں یاد رکھے",
+   "similarity": 0.714
+  },
+  {
+   "id": "u03.b.ji-cheeni-kam",
+   "text": "جی ضرور۔ چینی کم، پلیز",
+   "heard": "جیز روچینی کمپیلیز",
+   "similarity": 0.722
+  },
+  {
+   "id": "u08.b.doodh-ok",
+   "text": "ٹھیک ہے امی۔ شکریہ",
+   "heard": "ٹھیک ہے انہیں شکریہ ہے",
+   "similarity": 0.722
+  },
+  {
+   "id": "r08.w-thanda-paani",
+   "text": "ٹھنڈا پانی",
+   "heard": "ٹھنگ رہا پانی",
+   "similarity": 0.727
+  },
+  {
+   "id": "u01.b.shukriya-khala",
+   "text": "شکریہ خالہ جی",
+   "heard": "شکیہ خالدی",
+   "similarity": 0.727
+  },
+  {
+   "id": "u05.b.das-baje",
+   "text": "دس بجے تک نانی",
+   "heard": "اس بجے تکنین",
+   "similarity": 0.727
+  },
+  {
+   "id": "u07.b.naach-react",
+   "text": "واہ واہ! دیکھو، بلال سے اچھا ناچتا ہے!",
+   "heard": "وہاں وہاں دیکھو گلال سے اچھا ناستہ ہے",
+   "similarity": 0.733
+  },
+  {
+   "id": "u03.b.ji-shukriya",
+   "text": "جی، شکریہ",
+   "heard": "یہ شکریہ",
+   "similarity": 0.75
+  },
+  {
+   "id": "u09.kal-aaya",
+   "text": "میں کل آیا",
+   "heard": "میں تلائے",
+   "similarity": 0.75
+  },
+  {
+   "id": "u09.b.bilal-shauq",
+   "text": "اور شوق؟ میں ویک اینڈ پہ گالف کھیلتا ہوں",
+   "heard": "اور شاوک میں ویک این پر گل کھیتا ہوں",
+   "similarity": 0.75
+  },
+  {
+   "id": "u02.dadi",
+   "text": "دادی",
+   "heard": "دائے",
+   "similarity": 0.75
+  },
+  {
+   "id": "u08.sehat",
+   "text": "صحت کا خیال رکھو",
+   "heard": "صحت کا خیال لگو",
+   "similarity": 0.769
+  },
+  {
+   "id": "u05.b.das-react",
+   "text": "دس بجے۔ دس۔ گیارہ نہیں",
+   "heard": "سبجے دس دیارہ نہیں",
+   "similarity": 0.778
+  },
+  {
+   "id": "u10.allah-sabr",
+   "text": "اللہ صبر دے",
+   "heard": "اللہ سب دے",
+   "similarity": 0.778
+  },
+  {
+   "id": "u07.b.jald-hi",
+   "text": "ان شاء اللہ آنٹی۔ جلد ہی",
+   "heard": "انشاء اللہ آتی جل ہی",
+   "similarity": 0.789
+  },
+  {
+   "id": "u04.mausam",
+   "text": "وہاں موسم کیسا ہے؟",
+   "heard": "وہ ہم موسم کے سا ہے",
+   "similarity": 0.8
+  },
+  {
+   "id": "u05.mahina",
+   "text": "مہینہ",
+   "heard": "مہین",
+   "similarity": 0.8
+  },
+  {
+   "id": "r06.w-nani",
+   "text": "نانی",
+   "heard": "نیانے",
+   "similarity": 0.8
+  },
+  {
+   "id": "u05.n-chaalees",
+   "text": "چالیس",
+   "heard": "چالیز",
+   "similarity": 0.8
+  },
+  {
+   "id": "r09.w-shaadi-hai",
+   "text": "اگلے ہفتے شادی ہے",
+   "heard": "ادھے ہفتے شادی ہیں",
+   "similarity": 0.8
+  },
+  {
+   "id": "u11.b.bilal-hospital",
+   "text": "بلال ہسپتال میں رہتا ہے ابو۔ وہاں اے سی فری ہے",
+   "heard": "وہ لال حسد تال میں رہتا ہے اور وہاں ایسی فدی ہے",
+   "similarity": 0.806
+  },
+  {
+   "id": "u03.b.haath-zaiqa",
+   "text": "نانی، آپ کے ہاتھ میں بہت ذائقہ ہے",
+   "heard": "نانی آپ کے ہاتھ میں بہت زاکا ہے",
+   "similarity": 0.808
+  },
+  {
+   "id": "u07.dulhan-khoobsurat",
+   "text": "دلہن بہت خوبصورت ہے",
+   "heard": "بیان بہت خوبصورت ہے",
+   "similarity": 0.812
+  },
+  {
+   "id": "u04.sara-bol-rahi",
+   "text": "میں سارہ بول رہی ہوں",
+   "heard": "میں سارا بلہی ہوں",
+   "similarity": 0.812
+  },
+  {
+   "id": "u10.afsos",
+   "text": "بہت افسوس ہوا",
+   "heard": "بہت ارسوس ہو",
+   "similarity": 0.818
+  },
+  {
+   "id": "u08.achha-lag",
+   "text": "مجھے اچھا لگ رہا ہے",
+   "heard": "مجھے اچھا لے دے رہا ہے",
+   "similarity": 0.824
+  },
+  {
+   "id": "u04.parh-rahi",
+   "text": "میں پڑھ رہی ہوں",
+   "heard": "میں پریرہی ہوں",
+   "similarity": 0.833
+  },
+  {
+   "id": "u02.meri-ek-behen",
+   "text": "میری ایک بہن ہے",
+   "heard": "میں ایک بہن ہے",
+   "similarity": 0.833
+  },
+  {
+   "id": "u12.kisi-ko-mat",
+   "text": "کسی کو مت بتانا",
+   "heard": "کسی کو مت بتا",
+   "similarity": 0.833
+  },
+  {
+   "id": "u03.b.khana-lag-gaya",
+   "text": "آؤ بیٹا، کھانا لگ گیا ہے",
+   "heard": "اور بیٹا کھانا لگیا ہے",
+   "similarity": 0.842
+  },
+  {
+   "id": "u04.sardi",
+   "text": "یہاں بہت سردی ہے",
+   "heard": "یہاں بہت سہلی ہے",
+   "similarity": 0.846
+  },
+  {
+   "id": "u03.mazedaar",
+   "text": "بہت مزیدار ہے",
+   "heard": "بہت مزید ایر ہیں",
+   "similarity": 0.846
+  },
+  {
+   "id": "u02.bilal-cousin",
+   "text": "بلال میرا کزن ہے",
+   "heard": "مرال میرا کزن ہے",
+   "similarity": 0.846
+  },
+  {
+   "id": "u01.koi-baat-nahin",
+   "text": "کوئی بات نہیں",
+   "heard": "کوئی بات نہیں ہے",
+   "similarity": 0.846
+  },
+  {
+   "id": "u12.baraat-der",
+   "text": "بارات دو گھنٹے دیر سے آئی",
+   "heard": "آرات دو بھنتے دیر سے آئی",
+   "similarity": 0.85
+  },
+  {
+   "id": "u07.kab-shaadi",
+   "text": "تم کب شادی کرو گے؟",
+   "heard": "تم کب شالی کرو گے",
+   "similarity": 0.857
+  },
+  {
+   "id": "u09.cricket",
+   "text": "مجھے کرکٹ پسند ہے",
+   "heard": "مجھے کہک پسند ہے",
+   "similarity": 0.857
+  },
+  {
+   "id": "u08.b.bukhaar",
+   "text": "امی، مجھے بخار ہے",
+   "heard": "امی مجھے مخار ہے",
+   "similarity": 0.857
+  },
+  {
+   "id": "u02.b.bilal-bhi",
+   "text": "بلال؟ ڈاکٹر بلال؟ وہ بھی لسٹ میں ہے",
+   "heard": "ملال داکٹر بلال وہ بھی لسٹ میں ہے",
+   "similarity": 0.857
+  },
+  {
+   "id": "u08.b.nazar",
+   "text": "نظر لگ گئی ہے! کل مسز بٹ نے تمہاری تعریف کی تھی",
+   "heard": "مزل لگ گئی ہے کل مسز بیٹھ نے تمہاری تعریف کی تھی",
+   "similarity": 0.865
+  },
+  {
+   "id": "u07.jald-hi",
+   "text": "ان شاء اللہ، جلد ہی",
+   "heard": "انشاء اللہ جلدے",
+   "similarity": 0.867
+  },
+  {
+   "id": "u04.ali-bol-raha",
+   "text": "میں علی بول رہا ہوں",
+   "heard": "میں علی بولیہ ہوں",
+   "similarity": 0.867
+  },
+  {
+   "id": "u07.b.nahin-naachunga",
+   "text": "نہیں خالہ، میں نہیں ناچوں گا",
+   "heard": "نہیں خالا میں نہیں نا چونگا",
+   "similarity": 0.87
+  },
+  {
+   "id": "u09.pehle-kaam",
+   "text": "ابھی نہیں، پہلے کام",
+   "heard": "ابھی نہیں پہلے کا",
+   "similarity": 0.875
+  },
+  {
+   "id": "u06.ghar-ke-paas",
+   "text": "گھر کے پاس",
+   "heard": "جھر کے پاس",
+   "similarity": 0.875
+  },
+  {
+   "id": "u01.b.ammi-theek-hain",
+   "text": "امی ٹھیک ہیں، شکریہ",
+   "heard": "امی ٹھیک ہے شکریہ",
+   "similarity": 0.875
+  },
+  {
+   "id": "u10.b.bara-react",
+   "text": "بڑے ہو گئے؟ جب تک تمہاری شادی نہیں ہوتی، تم بچے ہو۔ لو!",
+   "heard": "بڑے ہو گئے جب تک تمہاری شادی نہیں ہوتی تو بچے ہو لوں",
+   "similarity": 0.881
+  },
+  {
+   "id": "u01.b.tu-kaisi-hai",
+   "text": "تو کیسی ہے؟",
+   "heard": "تو کیسی ہے",
+   "similarity": 0.889
+  },
+  {
+   "id": "u10.b.nahin-nahin",
+   "text": "نہیں، نہیں نانی! میں بڑا ہو گیا ہوں",
+   "heard": "نہیں نہیں نانی میں باہ ہو گیا ہوں",
+   "similarity": 0.889
+  },
+  {
+   "id": "u08.b.virus-react",
+   "text": "وائرس بھی نظر سے ہی آتا ہے۔ ہلدی والا دودھ پیو",
+   "heard": "مائس بھی نظر سے ہی آتا ہے کلدی والا دودھ پیو",
+   "similarity": 0.889
+  },
+  {
+   "id": "u04.b.chhe-baje",
+   "text": "چھے بجے؟ میں تو فجر سے اٹھی ہوئی ہوں!",
+   "heard": "چھ بجے میں تو فجر سے اٹھی ہوئی ہو",
+   "similarity": 0.893
+  },
+  {
+   "id": "u10.b.so-gaya-react",
+   "text": "عید کے دن بھی! اچھا… پھر بھی، یہ لو عیدی",
+   "heard": "عید کے دن بھی اچھا پھر بھی یلو ای دی",
+   "similarity": 0.897
+  },
+  {
+   "id": "u10.chaand-nazar",
+   "text": "چاند نظر آ گیا!",
+   "heard": "چاند نظر آگے",
+   "similarity": 0.909
+  },
+  {
+   "id": "u01.b.andar-aao",
+   "text": "آؤ، آؤ! اندر آؤ",
+   "heard": "آو آو اندر آو",
+   "similarity": 0.909
+  },
+  {
+   "id": "u04.b.kaun-hai",
+   "text": "اچھا؟ کون ہے؟",
+   "heard": "اچھا کون ہے؟",
+   "similarity": 0.909
+  },
+  {
+   "id": "r10.line1",
+   "text": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے",
+   "heard": "ہزاروں خواہشیں ایسی کہ ہر خواہش پر دمکلیں",
+   "similarity": 0.912
+  },
+  {
+   "id": "u03.kis-ne-banaya",
+   "text": "یہ کس نے بنایا؟",
+   "heard": "یہ کس نے بنایا",
+   "similarity": 0.917
+  },
+  {
+   "id": "u09.b.bilal-bye",
+   "text": "زبردست۔ چلو، میرا پیجر بج رہا ہے۔ پھر ملتے ہیں!",
+   "heard": "زبردست چلو میرا پیجر بجرہا ہے پھر ملتے ہیں",
+   "similarity": 0.919
+  },
+  {
+   "id": "u11.b.zamana-react",
+   "text": "زمانہ بدلا ہے، بجلی کا بل نہیں! بلال کو دیکھو، وہ اے سی نہیں چلاتا",
+   "heard": "زمانہ بدلا ہے بجی کیا بل نہیں بلال کو دیکھو وہ ایسی نہیں چلاتا",
+   "similarity": 0.922
+  },
+  {
+   "id": "u05.kab-tak",
+   "text": "آپ کب تک آئیں گے؟",
+   "heard": "آپ کب تک آئیں گے",
+   "similarity": 0.923
+  },
+  {
+   "id": "u01.apna-khayal",
+   "text": "اپنا خیال رکھیے",
+   "heard": "اپنا خیال رکھے",
+   "similarity": 0.923
+  },
+  {
+   "id": "u09.personal",
+   "text": "یہ پرسنل ہے آنٹی",
+   "heard": "یہ پرسنل ہے آٹی",
+   "similarity": 0.923
+  },
+  {
+   "id": "u07.khana-kab",
+   "text": "کھانا کب ملے گا؟",
+   "heard": "کھانا کب ملے گا",
+   "similarity": 0.923
+  },
+  {
+   "id": "u08.neend",
+   "text": "مجھے نیند آ رہی ہے",
+   "heard": "مجھے نین آ رہی ہے",
+   "similarity": 0.929
+  },
+  {
+   "id": "u07.nahin-naachunga",
+   "text": "میں نہیں ناچوں گا",
+   "heard": "میں نہیں نا چونگا",
+   "similarity": 0.929
+  },
+  {
+   "id": "u08.b.bilal-call",
+   "text": "میں بلال کو فون کرتی ہوں۔ وہ ڈاکٹر ہے",
+   "heard": "میں بلال کو فون کرتی ہوں وہ ڈاکٹر ہیں",
+   "similarity": 0.931
+  },
+  {
+   "id": "u11.smart-mat",
+   "text": "زیادہ سمارٹ مت بنو",
+   "heard": "زیادہ سمارت مت بنو",
+   "similarity": 0.933
+  },
+  {
+   "id": "u08.kaisa-lag",
+   "text": "آپ کو کیسا لگ رہا ہے؟",
+   "heard": "آپ کو کیسا لگ رہا ہے",
+   "similarity": 0.938
+  },
+  {
+   "id": "u06.b.fikr-na",
+   "text": "فکر نہ کریں، میں پندرہ سال سے چلا رہا ہوں",
+   "heard": "فکر نہ کریں میں پندہ سال سے چلا رہا ہوں",
+   "similarity": 0.938
+  },
+  {
+   "id": "u02.b.shahid-ka-beta",
+   "text": "میں شاہد کا بیٹا ہوں",
+   "heard": "میں شاہد کا بیتا ہوں",
+   "similarity": 0.938
+  },
+  {
+   "id": "u11.b.zamana",
+   "text": "ابو، زمانہ بدل گیا ہے",
+   "heard": "اب وہ زمانہ بدل گیا ہے",
+   "similarity": 0.941
+  },
+  {
+   "id": "u08.nahin-kha-sakta",
+   "text": "میں اور نہیں کھا سکتا",
+   "heard": "میں اور نہیں کھ سکتا",
+   "similarity": 0.941
+  },
+  {
+   "id": "u08.b.doodh-no",
+   "text": "امی، مجھے ہلدی پسند نہیں",
+   "heard": "امی مجھے ہلدی پسند نہیں",
+   "similarity": 0.95
+  },
+  {
+   "id": "u09.kitaabein",
+   "text": "مجھے کتابیں پڑھنا پسند ہے",
+   "heard": "مجھے کتابیں پڑھنا پسند ہیں",
+   "similarity": 0.955
+  },
+  {
+   "id": "u06.b.achha-dhai-sau",
+   "text": "اچھا اچھا! ڈھائی سو۔ بیٹھیے",
+   "heard": "اچھا اچھا ڈھائی سو بیٹھئے",
+   "similarity": 0.955
+  },
+  {
+   "id": "u09.b.parhai",
+   "text": "میں ابھی پڑھائی کر رہا ہوں",
+   "heard": "میں ابھی پڑھائی کر رہا ہوں",
+   "similarity": 1.0
+  },
+  {
+   "id": "u02.yeh-meri-khala",
+   "text": "یہ میری خالہ ہیں",
+   "heard": "یہ میری خالہ ہیں",
+   "similarity": 1.0
+  },
+  {
+   "id": "u11.so-jao",
+   "text": "سو جاؤ!",
+   "heard": "سو جاو",
+   "similarity": 1.0
+  },
+  {
+   "id": "r07.w-biryani",
+   "text": "بریانی",
+   "heard": "بریانی",
+   "similarity": 1.0
+  },
+  {
+   "id": "r07.w-salaam",
+   "text": "سلام",
+   "heard": "سلام",
+   "similarity": 1.0
+  },
+  {
+   "id": "u08.beemar",
+   "text": "میں بیمار ہوں",
+   "heard": "میں بیمار ہوں",
+   "similarity": 1.0
+  },
+  {
+   "id": "u08.sardi-lag",
+   "text": "مجھے سردی لگ رہی ہے",
+   "heard": "مجھے سردی لگ رہی ہے",
+   "similarity": 1.0
+  },
+  {
+   "id": "u09.der-se-utha",
+   "text": "میں دیر سے اٹھا",
+   "heard": "میں دیر سے اٹھا",
+   "similarity": 1.0
+  },
+  {
+   "id": "r03.w-bas",
+   "text": "بس",
+   "heard": "بس",
+   "similarity": 1.0
+  },
+  {
+   "id": "u01.b.maaf-aap-kaisi",
+   "text": "معاف کیجیے! آپ کیسی ہیں؟",
+   "heard": "معاف کیجئے آپ کیسی ہیں؟",
+   "similarity": 1.0
+  },
+  {
+   "id": "r09.w-call-karo",
+   "text": "کال کرو",
+   "heard": "کال کرو",
+   "similarity": 1.0
+  },
+  {
+   "id": "r06.w-bas",
+   "text": "بَس",
+   "heard": "بس",
+   "similarity": 1.0
+  },
+  {
+   "id": "u02.b.kis-ke-bete",
+   "text": "تم کس کے بیٹے ہو؟",
+   "heard": "تم کس کی بیٹے ہو؟",
+   "similarity": 1.0
+  },
+  {
+   "id": "u04.garmi",
+   "text": "وہاں بہت گرمی ہے",
+   "heard": "وہاں بہت گرمی ہے",
+   "similarity": 1.0
+  },
+  {
+   "id": "u03.chai-achhi",
+   "text": "چائے بہت اچھی ہے",
+   "heard": "چائے بہت اچھی ہے",
+   "similarity": 1.0
+  },
+  {
+   "id": "u09.b.cooking",
+   "text": "مجھے کھانا بنانا پسند ہے",
+   "heard": "مجھے کھانا بنانا پسند ہے",
+   "similarity": 1.0
+  }
+ ]
+}

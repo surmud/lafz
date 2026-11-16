@@ -6,7 +6,7 @@ import path from "node:path";
 
 const OUT = path.resolve("out");
 const BASE = "/lafz";
-const VOICE = "mms-urd";
+const VOICE = "mms-urd-2";
 
 function walk(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => {

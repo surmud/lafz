@@ -10,6 +10,7 @@ voice|rate|text (the same key as src/content/audio-key.ts), so unchanged text is
 re-synthesised. public/audio/manifest.json maps key → {file, seconds}.
 
 Slow audio is the normal take time-stretched to 0.72x with pitch preserved (librosa).
+Voice v2: 1–2 word phrases use speaking_rate 0.85 / noise_scale 0.4, longer ones noise_scale 0.5.
 QA: no silent clips, no clipping, duration within a sane range for the text length.
 """
 from __future__ import annotations
@@ -27,7 +28,7 @@ import soundfile as sf
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "public" / "audio"
 MANIFEST = OUT / "manifest.json"
-VOICE = "mms-urd"
+VOICE = "mms-urd-2"
 MODEL = "facebook/mms-tts-urd-script_arabic"
 SLOW_RATE = 0.72
 SR_OUT = 16000
@@ -90,6 +91,12 @@ def main() -> int:
         for i, text in enumerate(todo, 1):
             p = texts[text]
             inputs = tok(text, return_tensors="pt")
+            # Voice v2 (audio audit, 2026-11-16): short phrases come out clipped and mumbled at default
+            # settings. Slower and less noisy roughly doubles Whisper round-trip similarity for 1–2 words.
+            short = len(text.split()) <= 2
+            model.speaking_rate = 0.85 if short else 1.0
+            model.noise_scale = 0.4 if short else 0.5
+            torch.manual_seed(0)
             with torch.no_grad():
                 wave = model(**inputs).waveform[0].numpy().astype(np.float32)
             if sr != SR_OUT:

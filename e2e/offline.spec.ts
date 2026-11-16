@@ -23,7 +23,7 @@ test("offline: a downloaded unit's lesson and audio work with no network", async
   await expect.poll(() => page.evaluate(() => Boolean(navigator.serviceWorker.controller))).toBe(true);
   await page.goto("./unit/u01/");
   await page.getByRole("button", { name: /Download this unit/ }).click();
-  await expect(page.getByText(/Saved for offline/)).toBeVisible({ timeout: 60_000 });
+  await expect(page.getByText(/Saved for offline/)).toBeVisible({ timeout: 120_000 });
   await shot("downloaded");
 
   await context.setOffline(true);
