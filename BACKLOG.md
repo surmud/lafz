@@ -66,7 +66,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **G1 Placement pool grows with the course.** Add 2 placement questions per new unit (levels 2–12);
   placement can only suggest units that exist.
 - [x] **G2 /dev/ui gallery** (finishes A3).
-- [ ] **G3 Whisper round-trip audio audit** (EVALS §3): transcribe each MMS clip, log similarity, flag the worst 5%.
+- [x] **G3 Whisper round-trip audio audit** (EVALS §3): transcribe each MMS clip, log similarity, flag the worst 5%.
 - [x] **G4 Personalised names in dialogue.** Onboarding stores relatives' names but nothing uses them yet.
 - [x] **G5 Persona specs** for all six EVALS personas (only the MVP flow and a screen gallery exist).
 
@@ -84,8 +84,11 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **G11 Funnier generated drills.** Review/pack drills use generic prompts ("How do you say…"); add
   situational prompt templates per sense/register.
 
+- [ ] **G12 Single-word audio.** MMS is weakest on isolated words (docs/evals/2026-11-16-audio.md).
+  Try a carrier phrase ("لفظ ہے: X") and trimming, or a free alternative TTS for words only.
+
 ## Phase F — Self-improvement (ongoing, forever)
 - [x] Eval pass 1 (docs/evals/2026-11-16-1.md). Keep doing one after every phase. File items from the lowest rubric scores.
 - [ ] Content audit: re-check a random 10% of phrases against sources each pass.
-- [ ] Audio audit: round-trip with Whisper; regenerate or flag bad clips.
+- [x] Audio audit: round-trip with Whisper; regenerate or flag bad clips (voice v2, see docs/evals/2026-11-16-audio.md).
 - [ ] Ideas list: add your own feature ideas here and build the good ones.

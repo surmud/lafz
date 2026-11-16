@@ -26,6 +26,8 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-16 (night): Whisper audio audit done (MLX large-v3-turbo, 150-clip sample). All clips
+  regenerated as voice v2: short phrases slower and less noisy. Details in docs/evals/2026-11-16-audio.md.
 - 2026-11-16 (evening): Relatives' names from onboarding now appear in boss conversations. Review
   and pack drills got situational prompts. R1–R5 got a spelling lesson with dot-family decoys. Every
   speaking unit got a "Mix it up" warm-up. Added original character portraits and a /dev/ui gallery.
@@ -72,7 +74,7 @@ spellings follow common usage:
   All of its words are attested, but the idiom itself is attested only by usage.
 
 ## Known issues
-- MMS audio passes QA but hasn't been round-tripped through speech recognition yet (G3). Its prosody is flat.
+- MMS audio: sentences round-trip well through Whisper (median 0.87), but single words are weak (G12; see docs/evals/2026-11-16-audio.md). Family voice recordings override TTS, and Azure ur-PK is the planned fix before any paid tier.
 - No real-microphone E2E for family voice: headless Chromium can't open a fake mic here (G8).
 - The Offline Omar test is occasionally flaky when the local machine is under heavy load (passes in CI).
 - Speaking uses the Web Speech API only. Where it's missing, "I said it" and "Can't speak now" keep lessons moving (G9).
@@ -82,7 +84,7 @@ spellings follow common usage:
 - Speech recognition uses the Web Speech API only. There's no Whisper fallback yet.
 
 ## Next steps
-Finish the G3 audio audit and re-voice the worst clips with phonetic `tts` overrides → eval pass 2 →
+G12 single-word audio → eval pass 2 →
 G9 (Whisper fallback for Speak it) → native-speaker pass on the medium-confidence list (needs a human,
 optional).
 
