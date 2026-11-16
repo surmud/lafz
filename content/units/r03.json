@@ -1,0 +1,678 @@
+{
+  "id": "r03",
+  "track": "reading",
+  "order": 3,
+  "title": "R, z and the s family",
+  "emoji": "🐍",
+  "tagline": "Little tails (r, z) and the toothy s and sh.",
+  "canDo": "You can read the letters ر ڑ ز ژ س ش and words made from them",
+  "grammar": [
+    {
+      "title": "Letter sounds",
+      "body": "ر re = rolled r  ·  ڑ ṛe = flapped ṛ (as in bara)  ·  ز ze = z  ·  ژ zhe = zh (rare, as in 'measure')  ·  س seen = s  ·  ش sheen = sh"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "r03.l-re",
+      "roman": "re",
+      "urdu": "ر",
+      "en": "the letter re: rolled r",
+      "confidence": "high",
+      "tts": "رے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-re"
+    },
+    {
+      "id": "r03.l-rre",
+      "roman": "ṛe",
+      "urdu": "ڑ",
+      "en": "the letter ṛe: flapped ṛ (as in bara)",
+      "confidence": "high",
+      "tts": "ڑے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-rre"
+    },
+    {
+      "id": "r03.l-ze",
+      "roman": "ze",
+      "urdu": "ز",
+      "en": "the letter ze: z",
+      "confidence": "high",
+      "tts": "زے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-ze"
+    },
+    {
+      "id": "r03.l-zhe",
+      "roman": "zhe",
+      "urdu": "ژ",
+      "en": "the letter zhe: zh (rare, as in 'measure')",
+      "confidence": "high",
+      "tts": "ژے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-zhe"
+    },
+    {
+      "id": "r03.l-seen",
+      "roman": "seen",
+      "urdu": "س",
+      "en": "the letter seen: s",
+      "confidence": "high",
+      "tts": "سین",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-seen"
+    },
+    {
+      "id": "r03.l-sheen",
+      "roman": "sheen",
+      "urdu": "ش",
+      "en": "the letter sheen: sh",
+      "confidence": "high",
+      "tts": "شین",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-sheen"
+    },
+    {
+      "id": "r03.w-sab",
+      "roman": "sab",
+      "urdu": "سب",
+      "en": "all / everyone",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سب",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D8%A8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سب",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D8%A8#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r03.w-bas",
+      "roman": "bas",
+      "urdu": "بس",
+      "en": "enough!",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B3#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r03.w-bara",
+      "roman": "bara",
+      "urdu": "بڑا",
+      "en": "big",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بڑا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بڑا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%91%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r03.w-kharab",
+      "roman": "kharab",
+      "urdu": "خراب",
+      "en": "bad / broken",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خراب",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%B1%D8%A7%D8%A8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خراب",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%B1%D8%A7%D8%A8#Urdu"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "r03-l1",
+      "title": "Meet the letters",
+      "blurb": "6 letters: ر ڑ ز ژ س ش",
+      "canDo": "You can recognise re, ṛe, ze, zhe, seen, sheen",
+      "teach": [
+        {
+          "phrase": "r03.l-re",
+          "tip": "Sounds like: rolled r. Its name is 're'."
+        },
+        {
+          "phrase": "r03.l-rre",
+          "tip": "Sounds like: flapped ṛ (as in bara). Its name is 'ṛe'."
+        },
+        {
+          "phrase": "r03.l-ze",
+          "tip": "Sounds like: z. Its name is 'ze'."
+        },
+        {
+          "phrase": "r03.l-zhe",
+          "tip": "Sounds like: zh (rare, as in 'measure'). Its name is 'zhe'."
+        },
+        {
+          "phrase": "r03.l-seen",
+          "tip": "Sounds like: s. Its name is 'seen'."
+        },
+        {
+          "phrase": "r03.l-sheen",
+          "tip": "Sounds like: sh. Its name is 'sheen'."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ر",
+          "answer": 0,
+          "options": [
+            {
+              "text": "re"
+            },
+            {
+              "text": "ṛe"
+            },
+            {
+              "text": "ze"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ڑ",
+          "answer": 0,
+          "options": [
+            {
+              "text": "ṛe"
+            },
+            {
+              "text": "re"
+            },
+            {
+              "text": "ze"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ز",
+          "answer": 0,
+          "options": [
+            {
+              "text": "ze"
+            },
+            {
+              "text": "re"
+            },
+            {
+              "text": "ṛe"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ژ",
+          "answer": 0,
+          "options": [
+            {
+              "text": "zhe"
+            },
+            {
+              "text": "re"
+            },
+            {
+              "text": "ṛe"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "س",
+          "answer": 0,
+          "options": [
+            {
+              "text": "seen"
+            },
+            {
+              "text": "re"
+            },
+            {
+              "text": "ṛe"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ش",
+          "answer": 0,
+          "options": [
+            {
+              "text": "sheen"
+            },
+            {
+              "text": "re"
+            },
+            {
+              "text": "ṛe"
+            }
+          ]
+        },
+        {
+          "type": "trace",
+          "glyph": "ر",
+          "label": "re"
+        },
+        {
+          "type": "trace",
+          "glyph": "ڑ",
+          "label": "ṛe"
+        },
+        {
+          "type": "trace",
+          "glyph": "ز",
+          "label": "ze"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "r03.l-re",
+            "r03.l-rre",
+            "r03.l-ze",
+            "r03.l-zhe"
+          ],
+          "mode": "audio"
+        }
+      ]
+    },
+    {
+      "id": "r03-l2",
+      "title": "Shapes and joins",
+      "blurb": "Start, middle, end: same letter, different outfits.",
+      "canDo": "You can spot these letters at the start, middle and end of a word",
+      "teach": [
+        {
+          "title": "Letters hold hands",
+          "info": "Most letters join to the next letter on their left, so they have up to four shapes: on their own, at the start, in the middle and at the end of a word. The core shape (and the dots!) always stays the same.",
+          "glyph": "ب  بـ  ـبـ  ـب"
+        },
+        {
+          "title": "Some letters won't hold hands",
+          "info": "ر ڑ ز ژ join to the letter before them, but never to the one after. The next letter starts fresh, as if a new word began.",
+          "glyph": "ر  ـر"
+        },
+        {
+          "title": "Shape families",
+          "info": "This unit's letters: ر  ڑ  ز  ژ  س  ش. Same family, same body: look at the dots and small marks to tell them apart.",
+          "glyph": "ر ڑ ز ژ س ش"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'seen' appear?",
+          "glyph": "سـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'seen' appear?",
+          "glyph": "ـسـ",
+          "options": [
+            {
+              "text": "in the middle"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'seen' appear?",
+          "glyph": "ـس",
+          "options": [
+            {
+              "text": "at the end"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'sheen' appear?",
+          "glyph": "شـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'sheen' appear?",
+          "glyph": "ـشـ",
+          "options": [
+            {
+              "text": "in the middle"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'sheen' appear?",
+          "glyph": "ـش",
+          "options": [
+            {
+              "text": "at the end"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 're' appear?",
+          "glyph": "ـر",
+          "options": [
+            {
+              "text": "at the end (joined from the right)"
+            },
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which one is 'ṛe'?",
+          "options": [
+            {
+              "glyph": "ڑ"
+            },
+            {
+              "glyph": "ر"
+            },
+            {
+              "glyph": "ز"
+            }
+          ],
+          "answer": 0,
+          "audio": "r03.l-rre"
+        }
+      ]
+    },
+    {
+      "id": "r03-l3",
+      "title": "Read real words",
+      "blurb": "سب بس بڑا خراب",
+      "canDo": "You can read sab, bas, bara, kharab in Urdu script",
+      "teach": [
+        {
+          "title": "Your first words",
+          "info": "Now put the letters together. Read right to left, sound out each letter, then check yourself with the audio.",
+          "glyph": "سب"
+        },
+        {
+          "phrase": "r03.w-sab"
+        },
+        {
+          "phrase": "r03.w-bas"
+        },
+        {
+          "phrase": "r03.w-bara"
+        },
+        {
+          "phrase": "r03.w-kharab"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "سب",
+          "options": [
+            {
+              "text": "sab (all / everyone)"
+            },
+            {
+              "text": "bas (enough!)"
+            },
+            {
+              "text": "bara (big)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "بس",
+          "options": [
+            {
+              "text": "bas (enough!)"
+            },
+            {
+              "text": "sab (all / everyone)"
+            },
+            {
+              "text": "bara (big)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "بڑا",
+          "options": [
+            {
+              "text": "bara (big)"
+            },
+            {
+              "text": "sab (all / everyone)"
+            },
+            {
+              "text": "bas (enough!)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "خراب",
+          "options": [
+            {
+              "text": "kharab (bad / broken)"
+            },
+            {
+              "text": "sab (all / everyone)"
+            },
+            {
+              "text": "bas (enough!)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “sab”",
+          "audio": "r03.w-sab",
+          "options": [
+            {
+              "glyph": "سب"
+            },
+            {
+              "glyph": "بس"
+            },
+            {
+              "glyph": "بڑا"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “bas”",
+          "audio": "r03.w-bas",
+          "options": [
+            {
+              "glyph": "بس"
+            },
+            {
+              "glyph": "سب"
+            },
+            {
+              "glyph": "بڑا"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “bara”",
+          "audio": "r03.w-bara",
+          "options": [
+            {
+              "glyph": "بڑا"
+            },
+            {
+              "glyph": "سب"
+            },
+            {
+              "glyph": "بس"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "trace",
+          "glyph": "سب",
+          "label": "sab"
+        }
+      ]
+    }
+  ]
+}

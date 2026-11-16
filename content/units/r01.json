@@ -1,0 +1,683 @@
+{
+  "id": "r01",
+  "track": "reading",
+  "order": 1,
+  "title": "How Urdu script works",
+  "emoji": "📜",
+  "tagline": "Right to left, letters that hold hands, and the b-p-t family.",
+  "canDo": "You can read the letters ا ب پ ت ٹ ث and words made from them",
+  "grammar": [
+    {
+      "title": "Letter sounds",
+      "body": "ا alif = long 'aa' (or a silent seat for a vowel)  ·  ب be = b  ·  پ pe = p  ·  ت te = soft t (tongue on teeth)  ·  ٹ ṭe = hard t (tongue curled back)  ·  ث se = s (Arabic loanwords)"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "r01.l-alif",
+      "roman": "alif",
+      "urdu": "ا",
+      "en": "the letter alif: long 'aa' (or a silent seat for a vowel)",
+      "confidence": "high",
+      "tts": "الف",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-alif"
+    },
+    {
+      "id": "r01.l-be",
+      "roman": "be",
+      "urdu": "ب",
+      "en": "the letter be: b",
+      "confidence": "high",
+      "tts": "بے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-be"
+    },
+    {
+      "id": "r01.l-pe",
+      "roman": "pe",
+      "urdu": "پ",
+      "en": "the letter pe: p",
+      "confidence": "high",
+      "tts": "پے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-pe"
+    },
+    {
+      "id": "r01.l-te",
+      "roman": "te",
+      "urdu": "ت",
+      "en": "the letter te: soft t (tongue on teeth)",
+      "confidence": "high",
+      "tts": "تے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-te"
+    },
+    {
+      "id": "r01.l-tte",
+      "roman": "ṭe",
+      "urdu": "ٹ",
+      "en": "the letter ṭe: hard t (tongue curled back)",
+      "confidence": "high",
+      "tts": "ٹے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-tte"
+    },
+    {
+      "id": "r01.l-se",
+      "roman": "se",
+      "urdu": "ث",
+      "en": "the letter se: s (Arabic loanwords)",
+      "confidence": "high",
+      "tts": "ثے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-se"
+    },
+    {
+      "id": "r01.w-aap",
+      "roman": "aap",
+      "urdu": "آپ",
+      "en": "you (respectful)",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%BE&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%BE#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r01.w-ab",
+      "roman": "ab",
+      "urdu": "اب",
+      "en": "now",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "اب",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اب",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r01.w-baat",
+      "roman": "baat",
+      "urdu": "بات",
+      "en": "a matter / talk",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بات",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%A7%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بات",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%AA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r01.w-baap",
+      "roman": "baap",
+      "urdu": "باپ",
+      "en": "father",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "باپ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%A7%D9%BE&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "باپ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D9%BE#Urdu"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "r01-l1",
+      "title": "Meet the letters",
+      "blurb": "6 letters: ا ب پ ت ٹ ث",
+      "canDo": "You can recognise alif, be, pe, te, ṭe, se",
+      "teach": [
+        {
+          "title": "Right to left",
+          "info": "Urdu runs right to left, like Arabic and Persian. Books open from what English calls the back. Your eyes start on the right edge.",
+          "glyph": "← ا ب پ"
+        },
+        {
+          "phrase": "r01.l-alif",
+          "tip": "Sounds like: long 'aa' (or a silent seat for a vowel). Its name is 'alif'."
+        },
+        {
+          "phrase": "r01.l-be",
+          "tip": "Sounds like: b. Its name is 'be'."
+        },
+        {
+          "phrase": "r01.l-pe",
+          "tip": "Sounds like: p. Its name is 'pe'."
+        },
+        {
+          "phrase": "r01.l-te",
+          "tip": "Sounds like: soft t (tongue on teeth). Its name is 'te'."
+        },
+        {
+          "phrase": "r01.l-tte",
+          "tip": "Sounds like: hard t (tongue curled back). Its name is 'ṭe'."
+        },
+        {
+          "phrase": "r01.l-se",
+          "tip": "Sounds like: s (Arabic loanwords). Its name is 'se'."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ا",
+          "answer": 0,
+          "options": [
+            {
+              "text": "alif"
+            },
+            {
+              "text": "be"
+            },
+            {
+              "text": "pe"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ب",
+          "answer": 0,
+          "options": [
+            {
+              "text": "be"
+            },
+            {
+              "text": "alif"
+            },
+            {
+              "text": "pe"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "پ",
+          "answer": 0,
+          "options": [
+            {
+              "text": "pe"
+            },
+            {
+              "text": "alif"
+            },
+            {
+              "text": "be"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ت",
+          "answer": 0,
+          "options": [
+            {
+              "text": "te"
+            },
+            {
+              "text": "alif"
+            },
+            {
+              "text": "be"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ٹ",
+          "answer": 0,
+          "options": [
+            {
+              "text": "ṭe"
+            },
+            {
+              "text": "alif"
+            },
+            {
+              "text": "be"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ث",
+          "answer": 0,
+          "options": [
+            {
+              "text": "se"
+            },
+            {
+              "text": "alif"
+            },
+            {
+              "text": "be"
+            }
+          ]
+        },
+        {
+          "type": "trace",
+          "glyph": "ا",
+          "label": "alif"
+        },
+        {
+          "type": "trace",
+          "glyph": "ب",
+          "label": "be"
+        },
+        {
+          "type": "trace",
+          "glyph": "پ",
+          "label": "pe"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "r01.l-alif",
+            "r01.l-be",
+            "r01.l-pe",
+            "r01.l-te"
+          ],
+          "mode": "audio"
+        }
+      ]
+    },
+    {
+      "id": "r01-l2",
+      "title": "Shapes and joins",
+      "blurb": "Start, middle, end: same letter, different outfits.",
+      "canDo": "You can spot these letters at the start, middle and end of a word",
+      "teach": [
+        {
+          "title": "Letters hold hands",
+          "info": "Most letters join to the next letter on their left, so they have up to four shapes: on their own, at the start, in the middle and at the end of a word. The core shape (and the dots!) always stays the same.",
+          "glyph": "ب  بـ  ـبـ  ـب"
+        },
+        {
+          "title": "Some letters won't hold hands",
+          "info": "ا join to the letter before them, but never to the one after. The next letter starts fresh, as if a new word began.",
+          "glyph": "ا  ـا"
+        },
+        {
+          "title": "Dots matter",
+          "info": "Many letters share a shape and differ only in their dots: ب (b, one below), پ (p, three below), ت (t, two above), ث (s, three above). Read the dots first.",
+          "glyph": "ب پ ت ث"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'be' appear?",
+          "glyph": "بـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'be' appear?",
+          "glyph": "ـبـ",
+          "options": [
+            {
+              "text": "in the middle"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'be' appear?",
+          "glyph": "ـب",
+          "options": [
+            {
+              "text": "at the end"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'pe' appear?",
+          "glyph": "پـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'pe' appear?",
+          "glyph": "ـپـ",
+          "options": [
+            {
+              "text": "in the middle"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'pe' appear?",
+          "glyph": "ـپ",
+          "options": [
+            {
+              "text": "at the end"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'te' appear?",
+          "glyph": "تـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which one is 'be'?",
+          "options": [
+            {
+              "glyph": "ب"
+            },
+            {
+              "glyph": "ا"
+            },
+            {
+              "glyph": "پ"
+            }
+          ],
+          "answer": 0,
+          "audio": "r01.l-be"
+        }
+      ]
+    },
+    {
+      "id": "r01-l3",
+      "title": "Read real words",
+      "blurb": "آپ اب بات باپ",
+      "canDo": "You can read aap, ab, baat, baap in Urdu script",
+      "teach": [
+        {
+          "title": "Your first words",
+          "info": "Now put the letters together. Read right to left, sound out each letter, then check yourself with the audio.",
+          "glyph": "آپ"
+        },
+        {
+          "phrase": "r01.w-aap"
+        },
+        {
+          "phrase": "r01.w-ab"
+        },
+        {
+          "phrase": "r01.w-baat"
+        },
+        {
+          "phrase": "r01.w-baap"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "آپ",
+          "options": [
+            {
+              "text": "aap (you (respectful))"
+            },
+            {
+              "text": "ab (now)"
+            },
+            {
+              "text": "baat (a matter / talk)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "اب",
+          "options": [
+            {
+              "text": "ab (now)"
+            },
+            {
+              "text": "aap (you (respectful))"
+            },
+            {
+              "text": "baat (a matter / talk)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "بات",
+          "options": [
+            {
+              "text": "baat (a matter / talk)"
+            },
+            {
+              "text": "aap (you (respectful))"
+            },
+            {
+              "text": "ab (now)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "باپ",
+          "options": [
+            {
+              "text": "baap (father)"
+            },
+            {
+              "text": "aap (you (respectful))"
+            },
+            {
+              "text": "ab (now)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “aap”",
+          "audio": "r01.w-aap",
+          "options": [
+            {
+              "glyph": "آپ"
+            },
+            {
+              "glyph": "اب"
+            },
+            {
+              "glyph": "بات"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “ab”",
+          "audio": "r01.w-ab",
+          "options": [
+            {
+              "glyph": "اب"
+            },
+            {
+              "glyph": "آپ"
+            },
+            {
+              "glyph": "بات"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “baat”",
+          "audio": "r01.w-baat",
+          "options": [
+            {
+              "glyph": "بات"
+            },
+            {
+              "glyph": "آپ"
+            },
+            {
+              "glyph": "اب"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "trace",
+          "glyph": "آپ",
+          "label": "aap"
+        }
+      ]
+    }
+  ]
+}

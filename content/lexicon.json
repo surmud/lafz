@@ -599,6 +599,27 @@
    "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%AA#Urdu"
   }
  },
+ "باپ": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. वप्र], s.m. Father; senior, elder, superior: — bāp-bāp, intj. A cry for help, quarter, or mercy: — bāp banānā, bāp karnā, v.t. To consider or regard as a father: — bāp-tak jānā, To go the length of abusing one's fath",
+     "translit": "bāp"
+    }
+   ],
+   "headword": "باپ",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%A7%D9%BE&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "father"
+   ],
+   "headword": "باپ",
+   "translit": "bāp",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D9%BE#Urdu"
+  }
+ },
  "بجے": {
   "checked": "2026-11-16",
   "platts": {
@@ -1454,6 +1475,27 @@
    "headword": "تھوڑا",
    "translit": "stoká",
    "url": "https://en.wiktionary.org/wiki/%D8%AA%DA%BE%D9%88%DA%91%D8%A7#Urdu"
+  }
+ },
+ "جب": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Prk. जेम्वहिं or जेम्वइं loc. sing. of जेम्व = S. यावत्], adv. & conj. (correl. to tab), When, at the time when; as soon as; in case; since (temporal and causal): — jab-tab, adv. Now and then, occasionally: — jab-tak, j",
+     "translit": "jab"
+    }
+   ],
+   "headword": "جب",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D8%A8&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "when"
+   ],
+   "headword": "جب",
+   "translit": "ab",
+   "url": "https://en.wiktionary.org/wiki/%D8%AC%D8%A8#Urdu"
   }
  },
  "جی": {
@@ -2491,6 +2533,30 @@
    "url": "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D8%B1%DB%8C%DB%81#Urdu"
   }
  },
+ "صاف": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(for A. صاف ṣāfiṉ, act. part. of صَفَا, rt. صفو 'to be clean or pure,' &c.), adj. Pure, clean, clear; calm, serene; open, unclouded, bright (as the sky); open, sincere, candid, frank; simple, innocent; plain, simple, eas",
+     "translit": "ṣāf"
+    }
+   ],
+   "headword": "صاف",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B5%D8%A7%D9%81&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "clean",
+    "blank",
+    "pure",
+    "clear, sensible"
+   ],
+   "headword": "صاف",
+   "translit": "sāf",
+   "url": "https://en.wiktionary.org/wiki/%D8%B5%D8%A7%D9%81#Urdu"
+  }
+ },
  "صبح": {
   "checked": "2026-11-16",
   "platts": {
@@ -2513,6 +2579,32 @@
    "headword": "صبح",
    "translit": "saverā",
    "url": "https://en.wiktionary.org/wiki/%D8%B5%D8%A8%D8%AD#Urdu"
+  }
+ },
+ "صبر": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(inf. n. of صبر 'to be patient,' &c.), s.m.f. Patience, self-restraint, endurance, patient suffering, resignation: — ṣabr paṛnā (-par), The patient suffering (of one oppressed) to be visited (on the oppressor, e.g. merā ",
+     "translit": "ṣabr ṣabar"
+    },
+    {
+     "gloss": ", s.m. The aloe.",
+     "translit": "ṣabir ṣibr"
+    }
+   ],
+   "headword": "صبر",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B5%D8%A8%D8%B1&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "patience",
+    "tolerance"
+   ],
+   "headword": "صبر",
+   "translit": "sabr",
+   "url": "https://en.wiktionary.org/wiki/%D8%B5%D8%A8%D8%B1#Urdu"
   }
  },
  "صرف": {
@@ -2565,6 +2657,18 @@
    "url": "https://en.wiktionary.org/wiki/%D8%B6%D8%B1%D9%88%D8%B1#Urdu"
   }
  },
+ "طرف": {
+  "checked": "2026-11-16",
+  "wiktionary": {
+   "glosses": [
+    "side",
+    "direction"
+   ],
+   "headword": "طرف",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%B7%D8%B1%D9%81#Urdu"
+  }
+ },
  "علی": {
   "checked": "2026-11-15",
   "platts": {
@@ -2604,6 +2708,19 @@
    ],
    "headword": "فجر",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%81%D8%AC%D8%B1&searchhws=yes&matchtype=exact"
+  }
+ },
+ "فرق": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(inf. n. of فرق 'to make a separation or distinction' (between)), s.m. Separation, intervening space, interval; distance; division, partition; interruption; dispersion; distinction, difference; discrimination; — defect, ",
+     "translit": "farq faraq"
+    }
+   ],
+   "headword": "فرق",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%81%D8%B1%D9%82&searchhws=yes&matchtype=exact"
   }
  },
  "لائن": {
@@ -3761,6 +3878,32 @@
    ],
    "headword": "چاہیے",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D8%A7%D9%87%D9%8A%DB%92&searchhws=yes&matchtype=exact"
+  }
+ },
+ "چپ": {
+  "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Zend havya; सव्य], adj. & s.m. Left (hand or side); discordant, inharmonious; unlucky, sinister; — the left hand, the left side: — ćap-ě-g̠alat denā, To run zigzag when pursued by an enemy (in order to baffle him), to ",
+     "translit": "ćap"
+    },
+    {
+     "gloss": "[cf. S. चुप् 'to move quietly or stealthily'], s.f. Silence, quiet, stillness; — adj. & adv. Quiet, silent; secret, stealthy; — quietly, silently, &c.; — intj. Silence! be quiet! ( = ćup rah): — ćup-ā-ćup, ćup-ćup, ćup-ć",
+     "translit": "ćup"
+    }
+   ],
+   "headword": "چپ",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%BE&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "silent, quiet",
+    "still"
+   ],
+   "headword": "چپ",
+   "translit": "cup",
+   "url": "https://en.wiktionary.org/wiki/%DA%86%D9%BE#Urdu"
   }
  },
  "چچا": {

@@ -25,6 +25,12 @@ Built so far:
   both work.
 
 ## Log
+- 2026-11-16 (later): Units 2–4 (Family Tree, Dawat Survival, Calls to Pakistan), each with a boss
+  conversation. Reading track R1–R5 (all letters, joining forms, tracing, first words). Interactive
+  family tree with respect meter. PWA: installable, offline shell, per-unit offline download. Persona
+  E2Es for all six EVALS personas pass (Hamza = MVP spec, Zara, Sloppy Sam, Wrong-a-lot Wajid,
+  Away-for-a-week Ayesha, Offline Omar). Fixed a data-loss race (early saves could overwrite stored
+  progress) and a service-worker bug (HTML/RSC cache collision broke offline home).
 - 2026-11-16: Engine, storage, Unit 1, audio, all core UI, MVP E2E. Deployed.
 - 2026-11-15: Scaffold, CI/CD to Pages. Plan v2 merged.
 
@@ -45,11 +51,18 @@ Built so far:
 - Commits carry the co-author line of the model that actually wrote them (Opus 5.5 / Fable 5.1 sessions).
 
 ## Medium-confidence Urdu (for an eventual native-speaker pass)
-_(none so far; all Unit 1 words are dictionary-attested)_
+These phrases contain English loanwords written in Urdu script, which no Urdu dictionary lists. The
+spellings follow common usage:
+- کزن (cousin): u02.cousin, u02.bilal-cousin, u02.b.mera-cousin-doctor
+- لسٹ (list): u02.b.spreadsheet, u02.b.bilal-bhi
+- ڈائٹ (diet), پلیز (please): u03.b.diet, u03.b.kya-diet, u03.b.ji-cheeni-kam
+- لائن (line), وائس نوٹ (voice note), ہیلو (hello), مسز (Mrs.), جیکٹ (jacket): Unit 4 phone-call lines
+- Idiom to double-check with a native speaker: "aap ke haath mein bohat zaiqa hai" (u03.haath-zaiqa).
+  All of its words are attested, but the idiom itself is attested only by usage.
 
 ## Known issues
-- Placement only has Unit 1 questions until more units exist, so it always suggests Unit 1 (G1).
-- Reading track, family tree and prep packs are not built yet. Their tabs show "coming" states.
+- Placement covers units 1–4 so far (G1).
+- Prep packs and units 5–12 / R6–R10 are not built yet.
 - The MMS clips haven't been checked by speech-recognition round-trip yet (G3).
 - Speech recognition uses the Web Speech API only. There's no Whisper fallback yet.
 

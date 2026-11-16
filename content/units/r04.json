@@ -1,0 +1,737 @@
+{
+  "id": "r04",
+  "track": "reading",
+  "order": 4,
+  "title": "The Arabic set: s, z, t, ain, f, q",
+  "emoji": "🕌",
+  "tagline": "Letters mostly found in Arabic loanwords. Same sounds, different spellings.",
+  "canDo": "You can read the letters ص ض ط ظ ع غ ف ق and words made from them",
+  "grammar": [
+    {
+      "title": "Letter sounds",
+      "body": "ص swaad = s (Arabic loanwords)  ·  ض zwaad = z (Arabic loanwords)  ·  ط toe = t (Arabic loanwords)  ·  ظ zoe = z (Arabic loanwords)  ·  ع ain = a vowel carrier (Arabic loanwords)  ·  غ ghain = gh (a gargled g)  ·  ف fe = f  ·  ق qaaf = q (deep k)"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "r04.l-swaad",
+      "roman": "swaad",
+      "urdu": "ص",
+      "en": "the letter swaad: s (Arabic loanwords)",
+      "confidence": "high",
+      "tts": "صاد",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-swaad"
+    },
+    {
+      "id": "r04.l-zwaad",
+      "roman": "zwaad",
+      "urdu": "ض",
+      "en": "the letter zwaad: z (Arabic loanwords)",
+      "confidence": "high",
+      "tts": "ضاد",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-zwaad"
+    },
+    {
+      "id": "r04.l-toe",
+      "roman": "toe",
+      "urdu": "ط",
+      "en": "the letter toe: t (Arabic loanwords)",
+      "confidence": "high",
+      "tts": "طوئے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-toe"
+    },
+    {
+      "id": "r04.l-zoe",
+      "roman": "zoe",
+      "urdu": "ظ",
+      "en": "the letter zoe: z (Arabic loanwords)",
+      "confidence": "high",
+      "tts": "ظوئے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-zoe"
+    },
+    {
+      "id": "r04.l-ain",
+      "roman": "ain",
+      "urdu": "ع",
+      "en": "the letter ain: a vowel carrier (Arabic loanwords)",
+      "confidence": "high",
+      "tts": "عین",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-ain"
+    },
+    {
+      "id": "r04.l-ghain",
+      "roman": "ghain",
+      "urdu": "غ",
+      "en": "the letter ghain: gh (a gargled g)",
+      "confidence": "high",
+      "tts": "غین",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-ghain"
+    },
+    {
+      "id": "r04.l-fe",
+      "roman": "fe",
+      "urdu": "ف",
+      "en": "the letter fe: f",
+      "confidence": "high",
+      "tts": "فے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-fe"
+    },
+    {
+      "id": "r04.l-qaaf",
+      "roman": "qaaf",
+      "urdu": "ق",
+      "en": "the letter qaaf: q (deep k)",
+      "confidence": "high",
+      "tts": "قاف",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-qaaf"
+    },
+    {
+      "id": "r04.w-saaf",
+      "roman": "saaf",
+      "urdu": "صاف",
+      "en": "clean",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "صاف",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B5%D8%A7%D9%81&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "صاف",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B5%D8%A7%D9%81#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r04.w-sabr",
+      "roman": "sabr",
+      "urdu": "صبر",
+      "en": "patience",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "صبر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B5%D8%A8%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "صبر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B5%D8%A8%D8%B1#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r04.w-farq",
+      "roman": "farq",
+      "urdu": "فرق",
+      "en": "difference",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "فرق",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%81%D8%B1%D9%82&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "r04.w-taraf",
+      "roman": "taraf",
+      "urdu": "طرف",
+      "en": "direction / side",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "طرف",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B7%D8%B1%D9%81#Urdu"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "r04-l1",
+      "title": "Meet the letters",
+      "blurb": "8 letters: ص ض ط ظ ع غ ف ق",
+      "canDo": "You can recognise swaad, zwaad, toe, zoe, ain, ghain, fe, qaaf",
+      "teach": [
+        {
+          "phrase": "r04.l-swaad",
+          "tip": "Sounds like: s (Arabic loanwords). Its name is 'swaad'."
+        },
+        {
+          "phrase": "r04.l-zwaad",
+          "tip": "Sounds like: z (Arabic loanwords). Its name is 'zwaad'."
+        },
+        {
+          "phrase": "r04.l-toe",
+          "tip": "Sounds like: t (Arabic loanwords). Its name is 'toe'."
+        },
+        {
+          "phrase": "r04.l-zoe",
+          "tip": "Sounds like: z (Arabic loanwords). Its name is 'zoe'."
+        },
+        {
+          "phrase": "r04.l-ain",
+          "tip": "Sounds like: a vowel carrier (Arabic loanwords). Its name is 'ain'."
+        },
+        {
+          "phrase": "r04.l-ghain",
+          "tip": "Sounds like: gh (a gargled g). Its name is 'ghain'."
+        },
+        {
+          "phrase": "r04.l-fe",
+          "tip": "Sounds like: f. Its name is 'fe'."
+        },
+        {
+          "phrase": "r04.l-qaaf",
+          "tip": "Sounds like: q (deep k). Its name is 'qaaf'."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ص",
+          "answer": 0,
+          "options": [
+            {
+              "text": "swaad"
+            },
+            {
+              "text": "zwaad"
+            },
+            {
+              "text": "toe"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ض",
+          "answer": 0,
+          "options": [
+            {
+              "text": "zwaad"
+            },
+            {
+              "text": "swaad"
+            },
+            {
+              "text": "toe"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ط",
+          "answer": 0,
+          "options": [
+            {
+              "text": "toe"
+            },
+            {
+              "text": "swaad"
+            },
+            {
+              "text": "zwaad"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ظ",
+          "answer": 0,
+          "options": [
+            {
+              "text": "zoe"
+            },
+            {
+              "text": "swaad"
+            },
+            {
+              "text": "zwaad"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ع",
+          "answer": 0,
+          "options": [
+            {
+              "text": "ain"
+            },
+            {
+              "text": "swaad"
+            },
+            {
+              "text": "zwaad"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "غ",
+          "answer": 0,
+          "options": [
+            {
+              "text": "ghain"
+            },
+            {
+              "text": "swaad"
+            },
+            {
+              "text": "zwaad"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ف",
+          "answer": 0,
+          "options": [
+            {
+              "text": "fe"
+            },
+            {
+              "text": "swaad"
+            },
+            {
+              "text": "zwaad"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ق",
+          "answer": 0,
+          "options": [
+            {
+              "text": "qaaf"
+            },
+            {
+              "text": "swaad"
+            },
+            {
+              "text": "zwaad"
+            }
+          ]
+        },
+        {
+          "type": "trace",
+          "glyph": "ص",
+          "label": "swaad"
+        },
+        {
+          "type": "trace",
+          "glyph": "ض",
+          "label": "zwaad"
+        },
+        {
+          "type": "trace",
+          "glyph": "ط",
+          "label": "toe"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "r04.l-swaad",
+            "r04.l-zwaad",
+            "r04.l-toe",
+            "r04.l-zoe"
+          ],
+          "mode": "audio"
+        }
+      ]
+    },
+    {
+      "id": "r04-l2",
+      "title": "Shapes and joins",
+      "blurb": "Start, middle, end: same letter, different outfits.",
+      "canDo": "You can spot these letters at the start, middle and end of a word",
+      "teach": [
+        {
+          "title": "Letters hold hands",
+          "info": "Most letters join to the next letter on their left, so they have up to four shapes: on their own, at the start, in the middle and at the end of a word. The core shape (and the dots!) always stays the same.",
+          "glyph": "ب  بـ  ـبـ  ـب"
+        },
+        {
+          "title": "Shape families",
+          "info": "This unit's letters: ص  ض  ط  ظ  ع  غ  ف  ق. Same family, same body: look at the dots and small marks to tell them apart.",
+          "glyph": "ص ض ط ظ ع غ ف ق"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'swaad' appear?",
+          "glyph": "صـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'swaad' appear?",
+          "glyph": "ـصـ",
+          "options": [
+            {
+              "text": "in the middle"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'swaad' appear?",
+          "glyph": "ـص",
+          "options": [
+            {
+              "text": "at the end"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'zwaad' appear?",
+          "glyph": "ضـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'zwaad' appear?",
+          "glyph": "ـضـ",
+          "options": [
+            {
+              "text": "in the middle"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'zwaad' appear?",
+          "glyph": "ـض",
+          "options": [
+            {
+              "text": "at the end"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'toe' appear?",
+          "glyph": "طـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which one is 'zwaad'?",
+          "options": [
+            {
+              "glyph": "ض"
+            },
+            {
+              "glyph": "ص"
+            },
+            {
+              "glyph": "ط"
+            }
+          ],
+          "answer": 0,
+          "audio": "r04.l-zwaad"
+        }
+      ]
+    },
+    {
+      "id": "r04-l3",
+      "title": "Read real words",
+      "blurb": "صاف صبر فرق طرف",
+      "canDo": "You can read saaf, sabr, farq, taraf in Urdu script",
+      "teach": [
+        {
+          "title": "Your first words",
+          "info": "Now put the letters together. Read right to left, sound out each letter, then check yourself with the audio.",
+          "glyph": "صاف"
+        },
+        {
+          "phrase": "r04.w-saaf"
+        },
+        {
+          "phrase": "r04.w-sabr"
+        },
+        {
+          "phrase": "r04.w-farq"
+        },
+        {
+          "phrase": "r04.w-taraf"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "صاف",
+          "options": [
+            {
+              "text": "saaf (clean)"
+            },
+            {
+              "text": "sabr (patience)"
+            },
+            {
+              "text": "farq (difference)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "صبر",
+          "options": [
+            {
+              "text": "sabr (patience)"
+            },
+            {
+              "text": "saaf (clean)"
+            },
+            {
+              "text": "farq (difference)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "فرق",
+          "options": [
+            {
+              "text": "farq (difference)"
+            },
+            {
+              "text": "saaf (clean)"
+            },
+            {
+              "text": "sabr (patience)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "طرف",
+          "options": [
+            {
+              "text": "taraf (direction / side)"
+            },
+            {
+              "text": "saaf (clean)"
+            },
+            {
+              "text": "sabr (patience)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “saaf”",
+          "audio": "r04.w-saaf",
+          "options": [
+            {
+              "glyph": "صاف"
+            },
+            {
+              "glyph": "صبر"
+            },
+            {
+              "glyph": "فرق"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “sabr”",
+          "audio": "r04.w-sabr",
+          "options": [
+            {
+              "glyph": "صبر"
+            },
+            {
+              "glyph": "صاف"
+            },
+            {
+              "glyph": "فرق"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “farq”",
+          "audio": "r04.w-farq",
+          "options": [
+            {
+              "glyph": "فرق"
+            },
+            {
+              "glyph": "صاف"
+            },
+            {
+              "glyph": "صبر"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "trace",
+          "glyph": "صاف",
+          "label": "saaf"
+        }
+      ]
+    }
+  ]
+}

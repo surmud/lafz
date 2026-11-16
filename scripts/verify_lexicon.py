@@ -217,6 +217,8 @@ def main() -> int:
     names = set(manual.get("names", []))
     for _, unit in units:
         for ph in unit["phrases"]:
+            if ".l-" in ph["id"]:
+                continue  # single letters: sourced to the alphabet reference, not a dictionary
             for t in tokens(ph["urdu"]):
                 if t not in names:
                     words[t] = None
@@ -235,6 +237,8 @@ def main() -> int:
     downgraded = 0
     for path, unit in units:
         for ph in unit["phrases"]:
+            if ".l-" in ph["id"]:
+                continue
             sources, missing = sources_for(ph, cache, manual)
             for m in missing:
                 unverified.setdefault(m, []).append(ph["id"])

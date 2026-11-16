@@ -25,7 +25,27 @@ export async function freshStart(page: Page, opts: { today?: string } = {}) {
  * Answer whatever exercise is on screen. `right=false` answers wrong on purpose where the exercise
  * allows it. Returns the kind of step handled.
  */
-export async function answerStep(page: Page, right = true): Promise<"teach" | "exercise" | "done"> {
+/** How a persona types Roman Urdu: textbook, or every which way (Sloppy Sam). */
+export function sloppify(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/[?!.,]/g, "")
+    .replace(/aa/g, "a")
+    .replace(/ee/g, "i")
+    .replace(/oo/g, "u")
+    .replace(/\bkya\b/g, "kia")
+    .replace(/\bhai\b/g, "h")
+    .replace(/\bhain\b/g, "hn")
+    .replace(/\bnahin\b/g, "nai")
+    .replace(/\bshukriya\b/g, "shukria")
+    .replace(/\baur\b/g, "or");
+}
+
+export async function answerStep(
+  page: Page,
+  right = true,
+  typing: "exact" | "sloppy" = "exact",
+): Promise<"teach" | "exercise" | "done"> {
   const footer = page.locator("footer");
   await expect(
     page
@@ -48,7 +68,7 @@ export async function answerStep(page: Page, right = true): Promise<"teach" | "e
     await page.locator(`main [data-correct='${right ? 1 : 0}']`).first().click();
   } else if (await typeBox.isVisible()) {
     const expected = (await typeBox.getAttribute("data-expected")) ?? "";
-    await typeBox.fill(right ? expected : "pizza");
+    await typeBox.fill(right ? (typing === "sloppy" ? sloppify(expected) : expected) : "pizza");
   } else if (await bank.isVisible()) {
     const expected = ((await bank.getAttribute("data-expected")) ?? "").replace(/[?!.,،۔؟!]/g, "").split(/\s+/);
     const words = right ? expected : [...expected].reverse();

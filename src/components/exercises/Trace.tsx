@@ -23,10 +23,18 @@ export function TraceExercise({ ex, locked, onSubmit }: ExerciseProps<ResolvedTr
       if (!gc) return;
       gc.clearRect(0, 0, SIZE, SIZE);
       gc.fillStyle = "#000";
-      gc.textAlign = "center";
-      gc.textBaseline = "middle";
-      gc.font = `${ex.glyph.length > 2 ? 110 : 190}px "Noto Nastaliq Urdu"`;
-      gc.fillText(ex.glyph, SIZE / 2, SIZE / 2 + 10);
+      gc.textAlign = "left";
+      gc.textBaseline = "alphabetic";
+      // Nastaliq has tall, offset metrics: measure the real ink box, then scale and centre it.
+      gc.font = `100px "Noto Nastaliq Urdu"`;
+      const m = gc.measureText(ex.glyph);
+      const w = m.actualBoundingBoxLeft + m.actualBoundingBoxRight || 100;
+      const h = m.actualBoundingBoxAscent + m.actualBoundingBoxDescent || 100;
+      const scale = Math.min((SIZE * 0.72) / w, (SIZE * 0.72) / h);
+      gc.font = `${100 * scale}px "Noto Nastaliq Urdu"`;
+      const x = SIZE / 2 - ((m.actualBoundingBoxRight - m.actualBoundingBoxLeft) * scale) / 2;
+      const y = SIZE / 2 + ((m.actualBoundingBoxAscent - m.actualBoundingBoxDescent) * scale) / 2;
+      gc.fillText(ex.glyph, x, y);
       guide.current = g;
       const c = canvas.current?.getContext("2d");
       if (c) {

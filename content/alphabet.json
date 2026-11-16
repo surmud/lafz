@@ -1,0 +1,422 @@
+[
+ {
+  "name": "الف",
+  "nameRoman": "alif",
+  "forms": [
+   "ا",
+   "ـا"
+  ],
+  "ipa": "/ɑː/, /ʔ/, ''silent''",
+  "translit": "ā, –"
+ },
+ {
+  "name": "بے",
+  "nameRoman": "bē",
+  "forms": [
+   "ب",
+   "ـب",
+   "ـبـ",
+   "بـ"
+  ],
+  "ipa": "/b/",
+  "translit": "b"
+ },
+ {
+  "name": "پے",
+  "nameRoman": "pē",
+  "forms": [
+   "پ",
+   "ـپ",
+   "ـپـ",
+   "پـ"
+  ],
+  "ipa": "/p/",
+  "translit": "p"
+ },
+ {
+  "name": "تے",
+  "nameRoman": "tē",
+  "forms": [
+   "ت",
+   "ـت",
+   "ـتـ",
+   "تـ"
+  ],
+  "ipa": "/t/",
+  "translit": "t"
+ },
+ {
+  "name": "ٹے",
+  "nameRoman": "ṭē",
+  "forms": [
+   "ٹ",
+   "ـٹ",
+   "ـٹـ",
+   "ٹـ"
+  ],
+  "ipa": "/ʈ/",
+  "translit": ""
+ },
+ {
+  "name": "ثے",
+  "nameRoman": "s̱ē",
+  "forms": [
+   "ث",
+   "ـث",
+   "ـثـ",
+   "ثـ"
+  ],
+  "ipa": "/s/",
+  "translit": ""
+ },
+ {
+  "name": "جيم",
+  "nameRoman": "jīm",
+  "forms": [
+   "ج",
+   "ـج",
+   "ـجـ",
+   "جـ"
+  ],
+  "ipa": "/d͡ʒ/",
+  "translit": "j"
+ },
+ {
+  "name": "چے",
+  "nameRoman": "cē",
+  "forms": [
+   "چ",
+   "ـچ",
+   "ـچـ",
+   "چـ"
+  ],
+  "ipa": "/t͡ʃ/",
+  "translit": ""
+ },
+ {
+  "name": "بڑی حے",
+  "nameRoman": "baṛī ḥē",
+  "forms": [
+   "ح",
+   "ـح",
+   "ـحـ",
+   "حـ"
+  ],
+  "ipa": "/ɦ/",
+  "translit": ""
+ },
+ {
+  "name": "خے",
+  "nameRoman": "k͟hē",
+  "forms": [
+   "خ",
+   "ـخ",
+   "ـخـ",
+   "خـ"
+  ],
+  "ipa": "/x/",
+  "translit": ""
+ },
+ {
+  "name": "دال",
+  "nameRoman": "dāl",
+  "forms": [
+   "د",
+   "ـد"
+  ],
+  "ipa": "/d/",
+  "translit": "d"
+ },
+ {
+  "name": "ڈال",
+  "nameRoman": "ḍāl",
+  "forms": [
+   "ڈ",
+   "ـڈ"
+  ],
+  "ipa": "/ɖ/",
+  "translit": ""
+ },
+ {
+  "name": "ذال",
+  "nameRoman": "ẕāl",
+  "forms": [
+   "ذ",
+   "ـذ"
+  ],
+  "ipa": "/z/",
+  "translit": ""
+ },
+ {
+  "name": "رے",
+  "nameRoman": "rē",
+  "forms": [
+   "ر",
+   "ـر"
+  ],
+  "ipa": "/r/",
+  "translit": "r"
+ },
+ {
+  "name": "ڑے",
+  "nameRoman": "ṛē",
+  "forms": [
+   "ڑ",
+   "ـڑ"
+  ],
+  "ipa": "/ɽ/",
+  "translit": ""
+ },
+ {
+  "name": "زے",
+  "nameRoman": "zē",
+  "forms": [
+   "ز",
+   "ـز"
+  ],
+  "ipa": "/z/",
+  "translit": "z"
+ },
+ {
+  "name": "ژے",
+  "nameRoman": "zhē",
+  "forms": [
+   "ژ",
+   "ـژ"
+  ],
+  "ipa": "/ʒ/",
+  "translit": "zh"
+ },
+ {
+  "name": "سین",
+  "nameRoman": "sīn",
+  "forms": [
+   "س",
+   "ـسـ",
+   "سـ"
+  ],
+  "ipa": "/s/",
+  "translit": "s"
+ },
+ {
+  "name": "شین",
+  "nameRoman": "shīn",
+  "forms": [
+   "ش",
+   "ـشـ",
+   "شـ"
+  ],
+  "ipa": "/ʃ/",
+  "translit": "sh"
+ },
+ {
+  "name": "صاد",
+  "nameRoman": "ṣwād",
+  "forms": [
+   "ص",
+   "ـصـ"
+  ],
+  "ipa": "/s/",
+  "translit": ""
+ },
+ {
+  "name": "ضاد",
+  "nameRoman": "ẓwād",
+  "forms": [
+   "ض",
+   "ـضـ"
+  ],
+  "ipa": "/z/",
+  "translit": ""
+ },
+ {
+  "name": "طوے",
+  "nameRoman": "t̤o{{hamza}}ē",
+  "forms": [
+   "ط",
+   "ـطـ"
+  ],
+  "ipa": "/t/",
+  "translit": ""
+ },
+ {
+  "name": "ظوے",
+  "nameRoman": "z̤o{{hamza}}ē",
+  "forms": [
+   "ظ",
+   "ـظـ"
+  ],
+  "ipa": "/z/",
+  "translit": ""
+ },
+ {
+  "name": "عین",
+  "nameRoman": "{{okina}}ain",
+  "forms": [
+   "ع",
+   "ـع",
+   "ـعـ",
+   "عـ"
+  ],
+  "ipa": "/ɑː/, /oː/, /eː/,<br /> /ʔ/, /ʕ/, ''silent''",
+  "translit": ""
+ },
+ {
+  "name": "غین",
+  "nameRoman": "g͟hain",
+  "forms": [
+   "غ",
+   "ـغ",
+   "ـغـ",
+   "غـ"
+  ],
+  "ipa": "/ɣ/",
+  "translit": ""
+ },
+ {
+  "name": "فے",
+  "nameRoman": "fē",
+  "forms": [
+   "ف",
+   "ـف",
+   "ـفـ",
+   "فـ"
+  ],
+  "ipa": "/f/",
+  "translit": "f"
+ },
+ {
+  "name": "قاف",
+  "nameRoman": "qāf",
+  "forms": [
+   "ق",
+   "ـقـ",
+   "قـ"
+  ],
+  "ipa": "/q/",
+  "translit": "q"
+ },
+ {
+  "name": "کاف",
+  "nameRoman": "kāf",
+  "forms": [
+   "Kāf|ک",
+   "ـک",
+   "ـکـ",
+   "کـ"
+  ],
+  "ipa": "/k/",
+  "translit": "k"
+ },
+ {
+  "name": "گاف",
+  "nameRoman": "gāf",
+  "forms": [
+   "گ",
+   "ـگ",
+   "ـگـ",
+   "گـ"
+  ],
+  "ipa": "/ɡ/",
+  "translit": "g"
+ },
+ {
+  "name": "لام",
+  "nameRoman": "lām",
+  "forms": [
+   "ل",
+   "ـل",
+   "ـلـ",
+   "لـ"
+  ],
+  "ipa": "/l/",
+  "translit": "l"
+ },
+ {
+  "name": "میم",
+  "nameRoman": "mīm",
+  "forms": [
+   "م",
+   "ـمـ",
+   "مـ"
+  ],
+  "ipa": "/m/",
+  "translit": "m"
+ },
+ {
+  "name": "نون",
+  "nameRoman": "nūn",
+  "forms": [
+   "ن",
+   "ـن",
+   "ـنـ",
+   "نـ"
+  ],
+  "ipa": "/n/, /ɲ/, <br /> /ɳ/, /ŋ/",
+  "translit": "n"
+ },
+ {
+  "name": "نون غنّہ",
+  "nameRoman": "nūn g͟hunnā",
+  "forms": [
+   "ں <br /> :wiktionary: ٘|٘",
+   "ـں",
+   "ـںـ",
+   "ںـ"
+  ],
+  "ipa": "/ [[Nasal vowel|◌̃]] /",
+  "translit": ""
+ },
+ {
+  "name": "واؤ",
+  "nameRoman": "wā{{hamza}}o",
+  "forms": [
+   "و"
+  ],
+  "ipa": "/[[ʋ ]]/, /u[[ː]]/, /[[ʊ ]]/, <br /> /o [[ː ]]/, /[[ɔː ]]/",
+  "translit": ""
+ },
+ {
+  "name": "ہے",
+  "nameRoman": "hē",
+  "forms": [
+   "ہ",
+   "ـہ",
+   "ـہـ",
+   "ہـ"
+  ],
+  "ipa": "/ɦ/, /ɑː/, /eː/",
+  "translit": ""
+ },
+ {
+  "name": "دو چشمی ہے",
+  "nameRoman": "do-cashmī hē",
+  "forms": [
+   "ھ",
+   "ـھـ"
+  ],
+  "ipa": "/ʰ/",
+  "translit": "h"
+ },
+ {
+  "name": "یے",
+  "nameRoman": "yē",
+  "forms": [
+   "ی",
+   "ـی",
+   "ـیـ",
+   "یـ"
+  ],
+  "ipa": "/j/, /iː/, /ɑː/",
+  "translit": "y, ī, á"
+ },
+ {
+  "name": "بڑی یے",
+  "nameRoman": "baṛī yē",
+  "forms": [
+   "ے"
+  ],
+  "ipa": "/ɛː/, /eː/",
+  "translit": "ai, e"
+ }
+]

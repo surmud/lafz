@@ -1,0 +1,1032 @@
+{
+  "id": "r05",
+  "track": "reading",
+  "order": 5,
+  "title": "K, g, l, m, n and the h's",
+  "emoji": "🏠",
+  "tagline": "The last letters, and suddenly you can read family words.",
+  "canDo": "You can read the letters ک گ ل م ن ں و ہ ھ ی ے and words made from them",
+  "grammar": [
+    {
+      "title": "Letter sounds",
+      "body": "ک kaaf = k  ·  گ gaaf = g  ·  ل laam = l  ·  م meem = m  ·  ن noon = n  ·  ں noon ghunna = nasal sound at the end (as in main, hain)  ·  و wao = w / v, or the vowels oo and o  ·  ہ he = h  ·  ھ do-chashmi he = the 'h' in bh, ph, kh, gh, chh  ·  ی ye = y, or the vowel ee  ·  ے bari ye = the vowel e / ai at the end of a word"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "r05.l-kaaf",
+      "roman": "kaaf",
+      "urdu": "ک",
+      "en": "the letter kaaf: k",
+      "confidence": "high",
+      "tts": "کاف",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-kaaf"
+    },
+    {
+      "id": "r05.l-gaaf",
+      "roman": "gaaf",
+      "urdu": "گ",
+      "en": "the letter gaaf: g",
+      "confidence": "high",
+      "tts": "گاف",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-gaaf"
+    },
+    {
+      "id": "r05.l-laam",
+      "roman": "laam",
+      "urdu": "ل",
+      "en": "the letter laam: l",
+      "confidence": "high",
+      "tts": "لام",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-laam"
+    },
+    {
+      "id": "r05.l-meem",
+      "roman": "meem",
+      "urdu": "م",
+      "en": "the letter meem: m",
+      "confidence": "high",
+      "tts": "میم",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-meem"
+    },
+    {
+      "id": "r05.l-noon",
+      "roman": "noon",
+      "urdu": "ن",
+      "en": "the letter noon: n",
+      "confidence": "high",
+      "tts": "نون",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-noon"
+    },
+    {
+      "id": "r05.l-noon-ghunna",
+      "roman": "noon ghunna",
+      "urdu": "ں",
+      "en": "the letter noon ghunna: nasal sound at the end (as in main, hain)",
+      "confidence": "high",
+      "tts": "نون غنہ",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-noon-ghunna"
+    },
+    {
+      "id": "r05.l-wao",
+      "roman": "wao",
+      "urdu": "و",
+      "en": "the letter wao: w / v, or the vowels oo and o",
+      "confidence": "high",
+      "tts": "واؤ",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-wao"
+    },
+    {
+      "id": "r05.l-he",
+      "roman": "he",
+      "urdu": "ہ",
+      "en": "the letter he: h",
+      "confidence": "high",
+      "tts": "ہے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-he"
+    },
+    {
+      "id": "r05.l-do-chashmi-he",
+      "roman": "do-chashmi he",
+      "urdu": "ھ",
+      "en": "the letter do-chashmi he: the 'h' in bh, ph, kh, gh, chh",
+      "confidence": "high",
+      "tts": "دو چشمی ہے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-do-chashmi-he"
+    },
+    {
+      "id": "r05.l-ye",
+      "roman": "ye",
+      "urdu": "ی",
+      "en": "the letter ye: y, or the vowel ee",
+      "confidence": "high",
+      "tts": "یے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-ye"
+    },
+    {
+      "id": "r05.l-bari-ye",
+      "roman": "bari ye",
+      "urdu": "ے",
+      "en": "the letter bari ye: the vowel e / ai at the end of a word",
+      "confidence": "high",
+      "tts": "بڑی یے",
+      "sources": [
+        {
+          "ref": "wikipedia",
+          "item": "Urdu alphabet",
+          "url": "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "checked": "2026-11-16"
+        }
+      ],
+      "sense": "letter-l-bari-ye"
+    },
+    {
+      "id": "r05.w-naam",
+      "roman": "naam",
+      "urdu": "نام",
+      "en": "name",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نام",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نام",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%85#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r05.w-ghar",
+      "roman": "ghar",
+      "urdu": "گھر",
+      "en": "house / home",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "گھر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%D9%87%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گھر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DA%BE%D8%B1#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r05.w-ammi",
+      "roman": "ammi",
+      "urdu": "امی",
+      "en": "Mum",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%85%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r05.w-nani",
+      "roman": "nani",
+      "urdu": "نانی",
+      "en": "Nani",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r05.w-hai",
+      "roman": "hai",
+      "urdu": "ہے",
+      "en": "is",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r05.w-nahin",
+      "roman": "nahin",
+      "urdu": "نہیں",
+      "en": "no / not",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r05.w-main",
+      "roman": "main",
+      "urdu": "میں",
+      "en": "I",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r05.w-shukriya",
+      "roman": "shukriya",
+      "urdu": "شکریہ",
+      "en": "thank you",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "شکریہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%DA%A9%D8%B1%D9%8A%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "شکریہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D8%B1%DB%8C%DB%81#Urdu"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "r05-l1",
+      "title": "Meet the letters",
+      "blurb": "11 letters: ک گ ل م ن ں و ہ ھ ی ے",
+      "canDo": "You can recognise kaaf, gaaf, laam, meem, noon, noon ghunna, wao, he, do-chashmi he, ye, bari ye",
+      "teach": [
+        {
+          "phrase": "r05.l-kaaf",
+          "tip": "Sounds like: k. Its name is 'kaaf'."
+        },
+        {
+          "phrase": "r05.l-gaaf",
+          "tip": "Sounds like: g. Its name is 'gaaf'."
+        },
+        {
+          "phrase": "r05.l-laam",
+          "tip": "Sounds like: l. Its name is 'laam'."
+        },
+        {
+          "phrase": "r05.l-meem",
+          "tip": "Sounds like: m. Its name is 'meem'."
+        },
+        {
+          "phrase": "r05.l-noon",
+          "tip": "Sounds like: n. Its name is 'noon'."
+        },
+        {
+          "phrase": "r05.l-noon-ghunna",
+          "tip": "Sounds like: nasal sound at the end (as in main, hain). Its name is 'noon ghunna'."
+        },
+        {
+          "phrase": "r05.l-wao",
+          "tip": "Sounds like: w / v, or the vowels oo and o. Its name is 'wao'."
+        },
+        {
+          "phrase": "r05.l-he",
+          "tip": "Sounds like: h. Its name is 'he'."
+        },
+        {
+          "phrase": "r05.l-do-chashmi-he",
+          "tip": "Sounds like: the 'h' in bh, ph, kh, gh, chh. Its name is 'do-chashmi he'."
+        },
+        {
+          "phrase": "r05.l-ye",
+          "tip": "Sounds like: y, or the vowel ee. Its name is 'ye'."
+        },
+        {
+          "phrase": "r05.l-bari-ye",
+          "tip": "Sounds like: the vowel e / ai at the end of a word. Its name is 'bari ye'."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ک",
+          "answer": 0,
+          "options": [
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "gaaf"
+            },
+            {
+              "text": "laam"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "گ",
+          "answer": 0,
+          "options": [
+            {
+              "text": "gaaf"
+            },
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "laam"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ل",
+          "answer": 0,
+          "options": [
+            {
+              "text": "laam"
+            },
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "gaaf"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "م",
+          "answer": 0,
+          "options": [
+            {
+              "text": "meem"
+            },
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "gaaf"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ن",
+          "answer": 0,
+          "options": [
+            {
+              "text": "noon"
+            },
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "gaaf"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ں",
+          "answer": 0,
+          "options": [
+            {
+              "text": "noon ghunna"
+            },
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "gaaf"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "و",
+          "answer": 0,
+          "options": [
+            {
+              "text": "wao"
+            },
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "gaaf"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ہ",
+          "answer": 0,
+          "options": [
+            {
+              "text": "he"
+            },
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "gaaf"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ھ",
+          "answer": 0,
+          "options": [
+            {
+              "text": "do-chashmi he"
+            },
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "gaaf"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ی",
+          "answer": 0,
+          "options": [
+            {
+              "text": "ye"
+            },
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "gaaf"
+            }
+          ]
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter is this?",
+          "glyph": "ے",
+          "answer": 0,
+          "options": [
+            {
+              "text": "bari ye"
+            },
+            {
+              "text": "kaaf"
+            },
+            {
+              "text": "gaaf"
+            }
+          ]
+        },
+        {
+          "type": "trace",
+          "glyph": "ک",
+          "label": "kaaf"
+        },
+        {
+          "type": "trace",
+          "glyph": "گ",
+          "label": "gaaf"
+        },
+        {
+          "type": "trace",
+          "glyph": "ل",
+          "label": "laam"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "r05.l-kaaf",
+            "r05.l-gaaf",
+            "r05.l-laam",
+            "r05.l-meem"
+          ],
+          "mode": "audio"
+        }
+      ]
+    },
+    {
+      "id": "r05-l2",
+      "title": "Shapes and joins",
+      "blurb": "Start, middle, end: same letter, different outfits.",
+      "canDo": "You can spot these letters at the start, middle and end of a word",
+      "teach": [
+        {
+          "title": "Letters hold hands",
+          "info": "Most letters join to the next letter on their left, so they have up to four shapes: on their own, at the start, in the middle and at the end of a word. The core shape (and the dots!) always stays the same.",
+          "glyph": "ب  بـ  ـبـ  ـب"
+        },
+        {
+          "title": "Some letters won't hold hands",
+          "info": "ں و ے join to the letter before them, but never to the one after. The next letter starts fresh, as if a new word began.",
+          "glyph": "ں  ـں"
+        },
+        {
+          "title": "Shape families",
+          "info": "This unit's letters: ک  گ  ل  م  ن  ں  و  ہ  ھ  ی  ے. Same family, same body: look at the dots and small marks to tell them apart.",
+          "glyph": "ک گ ل م ن ں و ہ ھ ی ے"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'kaaf' appear?",
+          "glyph": "کـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'kaaf' appear?",
+          "glyph": "ـکـ",
+          "options": [
+            {
+              "text": "in the middle"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'kaaf' appear?",
+          "glyph": "ـک",
+          "options": [
+            {
+              "text": "at the end"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'gaaf' appear?",
+          "glyph": "گـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'gaaf' appear?",
+          "glyph": "ـگـ",
+          "options": [
+            {
+              "text": "in the middle"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'gaaf' appear?",
+          "glyph": "ـگ",
+          "options": [
+            {
+              "text": "at the end"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "at the start"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Where in a word does this shape of 'laam' appear?",
+          "glyph": "لـ",
+          "options": [
+            {
+              "text": "at the start"
+            },
+            {
+              "text": "on its own"
+            },
+            {
+              "text": "in the middle"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which one is 'gaaf'?",
+          "options": [
+            {
+              "glyph": "گ"
+            },
+            {
+              "glyph": "ک"
+            },
+            {
+              "glyph": "ل"
+            }
+          ],
+          "answer": 0,
+          "audio": "r05.l-gaaf"
+        }
+      ]
+    },
+    {
+      "id": "r05-l3",
+      "title": "Read real words",
+      "blurb": "نام گھر امی نانی",
+      "canDo": "You can read naam, ghar, ammi, nani in Urdu script",
+      "teach": [
+        {
+          "title": "Your first words",
+          "info": "Now put the letters together. Read right to left, sound out each letter, then check yourself with the audio.",
+          "glyph": "نام"
+        },
+        {
+          "phrase": "r05.w-naam"
+        },
+        {
+          "phrase": "r05.w-ghar"
+        },
+        {
+          "phrase": "r05.w-ammi"
+        },
+        {
+          "phrase": "r05.w-nani"
+        },
+        {
+          "phrase": "r05.w-hai"
+        },
+        {
+          "phrase": "r05.w-nahin"
+        },
+        {
+          "phrase": "r05.w-main"
+        },
+        {
+          "phrase": "r05.w-shukriya"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "نام",
+          "options": [
+            {
+              "text": "naam (name)"
+            },
+            {
+              "text": "ghar (house / home)"
+            },
+            {
+              "text": "ammi (Mum)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "گھر",
+          "options": [
+            {
+              "text": "ghar (house / home)"
+            },
+            {
+              "text": "naam (name)"
+            },
+            {
+              "text": "ammi (Mum)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "امی",
+          "options": [
+            {
+              "text": "ammi (Mum)"
+            },
+            {
+              "text": "naam (name)"
+            },
+            {
+              "text": "ghar (house / home)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "نانی",
+          "options": [
+            {
+              "text": "nani (Nani)"
+            },
+            {
+              "text": "naam (name)"
+            },
+            {
+              "text": "ghar (house / home)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "ہے",
+          "options": [
+            {
+              "text": "hai (is)"
+            },
+            {
+              "text": "naam (name)"
+            },
+            {
+              "text": "ghar (house / home)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "نہیں",
+          "options": [
+            {
+              "text": "nahin (no / not)"
+            },
+            {
+              "text": "naam (name)"
+            },
+            {
+              "text": "ghar (house / home)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "میں",
+          "options": [
+            {
+              "text": "main (I)"
+            },
+            {
+              "text": "naam (name)"
+            },
+            {
+              "text": "ghar (house / home)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Read it. Which word is this?",
+          "glyph": "شکریہ",
+          "options": [
+            {
+              "text": "shukriya (thank you)"
+            },
+            {
+              "text": "naam (name)"
+            },
+            {
+              "text": "ghar (house / home)"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “naam”",
+          "audio": "r05.w-naam",
+          "options": [
+            {
+              "glyph": "نام"
+            },
+            {
+              "glyph": "گھر"
+            },
+            {
+              "glyph": "امی"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “ghar”",
+          "audio": "r05.w-ghar",
+          "options": [
+            {
+              "glyph": "گھر"
+            },
+            {
+              "glyph": "نام"
+            },
+            {
+              "glyph": "امی"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Find the word “ammi”",
+          "audio": "r05.w-ammi",
+          "options": [
+            {
+              "glyph": "امی"
+            },
+            {
+              "glyph": "نام"
+            },
+            {
+              "glyph": "گھر"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "trace",
+          "glyph": "نام",
+          "label": "naam"
+        }
+      ]
+    }
+  ]
+}

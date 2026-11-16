@@ -79,6 +79,10 @@
 "file": "c6490f92870789c3.mp3",
 "seconds": 2.74
 },
+"mms-urd|normal|اب": {
+"file": "7b11daf48eee6696.mp3",
+"seconds": 0.5
+},
 "mms-urd|normal|ابو": {
 "file": "2a9bbe9d4d385956.mp3",
 "seconds": 0.6
@@ -122,6 +126,10 @@
 "mms-urd|normal|السلام علیکم بیٹا!": {
 "file": "d817e09cc59dc4a5.mp3",
 "seconds": 2.17
+},
+"mms-urd|normal|الف": {
+"file": "bf052fd8c585b817.mp3",
+"seconds": 0.47
 },
 "mms-urd|normal|اللہ حافظ": {
 "file": "25819eb9d6d3d9d1.mp3",
@@ -215,6 +223,18 @@
 "file": "c9e0600a4f4e9125.mp3",
 "seconds": 1.43
 },
+"mms-urd|normal|بات": {
+"file": "41f1a09da26544cf.mp3",
+"seconds": 0.63
+},
+"mms-urd|normal|باپ": {
+"file": "ee8839523e626d55.mp3",
+"seconds": 0.53
+},
+"mms-urd|normal|بس": {
+"file": "42220d7205f3dcd9.mp3",
+"seconds": 0.63
+},
 "mms-urd|normal|بس، بس!": {
 "file": "34e206cd291ac9ff.mp3",
 "seconds": 0.82
@@ -246,6 +266,14 @@
 "mms-urd|normal|بڑا": {
 "file": "78730c204fe3b3c9.mp3",
 "seconds": 0.61
+},
+"mms-urd|normal|بڑی حے": {
+"file": "294e626a87051239.mp3",
+"seconds": 0.73
+},
+"mms-urd|normal|بڑی یے": {
+"file": "b34e1136a48a92cd.mp3",
+"seconds": 0.69
 },
 "mms-urd|normal|بھائی": {
 "file": "034e33aac23eef65.mp3",
@@ -282,6 +310,10 @@
 "mms-urd|normal|بیٹی": {
 "file": "4037b4de163c28d1.mp3",
 "seconds": 0.61
+},
+"mms-urd|normal|بے": {
+"file": "34ded94eb1bcfc42.mp3",
+"seconds": 0.41
 },
 "mms-urd|normal|تائی": {
 "file": "178bb32dea0dc590.mp3",
@@ -322,6 +354,18 @@
 "mms-urd|normal|تھوڑا سا": {
 "file": "bee0c2712844d884.mp3",
 "seconds": 0.95
+},
+"mms-urd|normal|تے": {
+"file": "248428ebbb4935cc.mp3",
+"seconds": 0.42
+},
+"mms-urd|normal|ثے": {
+"file": "f69cb54d9d09e313.mp3",
+"seconds": 0.49
+},
+"mms-urd|normal|جب": {
+"file": "7a3929ae4a869b9a.mp3",
+"seconds": 0.47
 },
 "mms-urd|normal|جی": {
 "file": "33f853f52481e72a.mp3",
@@ -371,6 +415,10 @@
 "file": "25fed59069664bc0.mp3",
 "seconds": 1.01
 },
+"mms-urd|normal|جیم": {
+"file": "4125376fcec5a368.mp3",
+"seconds": 0.6
+},
 "mms-urd|normal|خالو": {
 "file": "63e8ac9b2ef16bc6.mp3",
 "seconds": 0.63
@@ -399,6 +447,10 @@
 "file": "ec37c6ed9b0ec294.mp3",
 "seconds": 0.84
 },
+"mms-urd|normal|خدا": {
+"file": "d0baaaf56fcbd801.mp3",
+"seconds": 0.53
+},
 "mms-urd|normal|خدا حافظ": {
 "file": "c336296cce3c97cd.mp3",
 "seconds": 1.05
@@ -406,6 +458,14 @@
 "mms-urd|normal|خدا حافظ بیٹا۔ جیتے رہو": {
 "file": "8d28ff5079672650.mp3",
 "seconds": 2.42
+},
+"mms-urd|normal|خراب": {
+"file": "7228dd1310d3252c.mp3",
+"seconds": 0.65
+},
+"mms-urd|normal|خے": {
+"file": "5f242c6548856e56.mp3",
+"seconds": 0.47
 },
 "mms-urd|normal|دادا": {
 "file": "8e969acc3b3a31c8.mp3",
@@ -419,17 +479,37 @@
 "file": "ff524efe06efc268.mp3",
 "seconds": 0.44
 },
+"mms-urd|normal|دو چشمی ہے": {
+"file": "34c182836285cc09.mp3",
+"seconds": 1.21
+},
+"mms-urd|normal|ذال": {
+"file": "f2fbca12aa8c5680.mp3",
+"seconds": 0.53
+},
 "mms-urd|normal|روٹی": {
 "file": "099275fb8f2f70ef.mp3",
 "seconds": 0.55
+},
+"mms-urd|normal|رے": {
+"file": "53522c46a9cf8c36.mp3",
+"seconds": 0.39
 },
 "mms-urd|normal|زور سے بولیے": {
 "file": "2590db38677780ed.mp3",
 "seconds": 1.3
 },
+"mms-urd|normal|زے": {
+"file": "290c95f32afcbccb.mp3",
+"seconds": 0.49
+},
 "mms-urd|normal|سالن": {
 "file": "984d86cc69b704df.mp3",
 "seconds": 0.66
+},
+"mms-urd|normal|سب": {
+"file": "38e173699ac3c754.mp3",
+"seconds": 0.53
 },
 "mms-urd|normal|سب ٹھیک ہے": {
 "file": "4ff4e0baa49652f3.mp3",
@@ -455,6 +535,10 @@
 "file": "ec4a2eee16b43b50.mp3",
 "seconds": 0.66
 },
+"mms-urd|normal|سین": {
+"file": "b92f15a9e3c870a5.mp3",
+"seconds": 0.57
+},
 "mms-urd|normal|شاباش۔ جیتے رہو": {
 "file": "5064016b36cfa7a0.mp3",
 "seconds": 1.37
@@ -475,13 +559,69 @@
 "file": "420d84ca8c102af3.mp3",
 "seconds": 1.3
 },
+"mms-urd|normal|شین": {
+"file": "95be669e37edca2a.mp3",
+"seconds": 0.5
+},
+"mms-urd|normal|صاد": {
+"file": "1797a7dc4e659d1b.mp3",
+"seconds": 0.5
+},
+"mms-urd|normal|صاف": {
+"file": "3a711e83a0739982.mp3",
+"seconds": 0.57
+},
+"mms-urd|normal|صبر": {
+"file": "b69df08bafd8ea49.mp3",
+"seconds": 0.53
+},
 "mms-urd|normal|صرف ٹھیک؟": {
 "file": "9830c524bb2e79d2.mp3",
 "seconds": 0.95
 },
+"mms-urd|normal|ضاد": {
+"file": "3093e12e96bd87aa.mp3",
+"seconds": 0.5
+},
+"mms-urd|normal|طرف": {
+"file": "8020f28c6e94f5fb.mp3",
+"seconds": 0.5
+},
+"mms-urd|normal|طوئے": {
+"file": "ad2d0a30da7994da.mp3",
+"seconds": 0.5
+},
+"mms-urd|normal|ظوئے": {
+"file": "2ffb36c3c7df3614.mp3",
+"seconds": 0.57
+},
+"mms-urd|normal|عین": {
+"file": "547eb30f104b26f3.mp3",
+"seconds": 0.6
+},
+"mms-urd|normal|غین": {
+"file": "a3447982de0a5c3c.mp3",
+"seconds": 0.6
+},
+"mms-urd|normal|فرق": {
+"file": "abf6f07dce3ffe8e.mp3",
+"seconds": 0.61
+},
+"mms-urd|normal|فے": {
+"file": "5c34a27c07065a6f.mp3",
+"seconds": 0.39
+},
+"mms-urd|normal|قاف": {
+"file": "b4e7c6ef1e94377c.mp3",
+"seconds": 0.5
+},
 "mms-urd|normal|لائن خراب ہے": {
 "file": "cef9a2cd9fca33b1.mp3",
 "seconds": 1.24
+},
+"mms-urd|normal|لام": {
+"file": "6bcd0369ea93c74d.mp3",
+"seconds": 0.53
 },
 "mms-urd|normal|ماموں": {
 "file": "1c9362ff6365116a.mp3",
@@ -579,6 +719,10 @@
 "file": "f116172019a68775.mp3",
 "seconds": 1.43
 },
+"mms-urd|normal|میم": {
+"file": "c9dd34af234968f6.mp3",
+"seconds": 0.6
+},
 "mms-urd|normal|میں": {
 "file": "0c77928bf415c4e2.mp3",
 "seconds": 0.6
@@ -659,6 +803,10 @@
 "file": "ccfe0412d528f737.mp3",
 "seconds": 1.3
 },
+"mms-urd|normal|نام": {
+"file": "cd59b35b349cf6db.mp3",
+"seconds": 0.58
+},
 "mms-urd|normal|نانا": {
 "file": "32534e3c93d6b4cb.mp3",
 "seconds": 0.65
@@ -679,6 +827,14 @@
 "file": "7b760ceb3f405240.mp3",
 "seconds": 3.19
 },
+"mms-urd|normal|نون": {
+"file": "44d6bbc13cddfef6.mp3",
+"seconds": 0.63
+},
+"mms-urd|normal|نون غنہ": {
+"file": "2efb6a0315c1eebe.mp3",
+"seconds": 0.89
+},
 "mms-urd|normal|نہیں": {
 "file": "46f99dc7c0266c6e.mp3",
 "seconds": 0.63
@@ -686,6 +842,10 @@
 "mms-urd|normal|نہیں نہیں، بہت اچھا ہے!": {
 "file": "b1253150b3243b61.mp3",
 "seconds": 1.78
+},
+"mms-urd|normal|واؤ": {
+"file": "4979f7adcab4c748.mp3",
+"seconds": 0.53
 },
 "mms-urd|normal|وائس نوٹ بھیج دیجیے": {
 "file": "e01105cf54227dc8.mp3",
@@ -727,6 +887,10 @@
 "file": "8b75e601d6701ed6.mp3",
 "seconds": 0.66
 },
+"mms-urd|normal|ٹے": {
+"file": "5f59688f6711300d.mp3",
+"seconds": 0.41
+},
 "mms-urd|normal|پانی": {
 "file": "a6b091604b70b89c.mp3",
 "seconds": 0.66
@@ -751,6 +915,10 @@
 "file": "1c4fbe382db8abfe.mp3",
 "seconds": 0.76
 },
+"mms-urd|normal|پے": {
+"file": "e55ba558ecd81be6.mp3",
+"seconds": 0.52
+},
 "mms-urd|normal|چائے": {
 "file": "776f46bd03952ef0.mp3",
 "seconds": 0.57
@@ -770,6 +938,10 @@
 "mms-urd|normal|چاول": {
 "file": "db37bac364c181b8.mp3",
 "seconds": 0.69
+},
+"mms-urd|normal|چپ": {
+"file": "1122fad56f7e7d4d.mp3",
+"seconds": 0.44
 },
 "mms-urd|normal|چچا": {
 "file": "2399ac98299a63b0.mp3",
@@ -795,9 +967,29 @@
 "file": "0995fc624d4ccc61.mp3",
 "seconds": 0.98
 },
+"mms-urd|normal|چے": {
+"file": "13b3dec7fb1c7a6b.mp3",
+"seconds": 0.45
+},
 "mms-urd|normal|ڈائٹ؟! اتنے پتلے ہو!": {
 "file": "0da0fe9fce9a6634.mp3",
 "seconds": 1.62
+},
+"mms-urd|normal|ڈال": {
+"file": "875cf5dff23c03e0.mp3",
+"seconds": 0.66
+},
+"mms-urd|normal|ڑے": {
+"file": "ff887b74626d26a6.mp3",
+"seconds": 0.45
+},
+"mms-urd|normal|ژے": {
+"file": "e4fd5709696b8464.mp3",
+"seconds": 0.49
+},
+"mms-urd|normal|کاف": {
+"file": "14f34a25084fc24c.mp3",
+"seconds": 0.5
 },
 "mms-urd|normal|کب؟": {
 "file": "1bfe03d0fe78ef00.mp3",
@@ -875,6 +1067,10 @@
 "file": "1b1b638bf0f5692f.mp3",
 "seconds": 0.63
 },
+"mms-urd|normal|گاف": {
+"file": "f814ac5316db7737.mp3",
+"seconds": 0.5
+},
 "mms-urd|normal|گرم گرم": {
 "file": "5570e4c7bec91c78.mp3",
 "seconds": 0.77
@@ -882,6 +1078,10 @@
 "mms-urd|normal|گوشت": {
 "file": "5793c8492e88d896.mp3",
 "seconds": 0.76
+},
+"mms-urd|normal|گھر": {
+"file": "272fd9bd20fb59e2.mp3",
+"seconds": 0.47
 },
 "mms-urd|normal|ہاں": {
 "file": "50061505439a75a9.mp3",
@@ -906,6 +1106,10 @@
 "mms-urd|normal|ہیلو؟ آواز آ رہی ہے؟": {
 "file": "042c7f60fd284ff4.mp3",
 "seconds": 1.91
+},
+"mms-urd|normal|ہے": {
+"file": "9937f9019aa10669.mp3",
+"seconds": 0.47
 },
 "mms-urd|normal|یہ میرا بھائی ہے": {
 "file": "4ba9af7f2f8c4102.mp3",
@@ -950,6 +1154,10 @@
 "mms-urd|normal|یہاں رات ہے": {
 "file": "f27ec0ef75de4e99.mp3",
 "seconds": 1.08
+},
+"mms-urd|normal|یے": {
+"file": "19d1e5a3c7c97384.mp3",
+"seconds": 0.53
 },
 "mms-urd|slow|آؤ بیٹا، کھانا لگ گیا ہے": {
 "file": "f624a64944ab1efb.mp3",
@@ -1031,6 +1239,10 @@
 "file": "5f77a4967222ec44.mp3",
 "seconds": 3.75
 },
+"mms-urd|slow|اب": {
+"file": "9773229f3027194e.mp3",
+"seconds": 0.64
+},
 "mms-urd|slow|ابو": {
 "file": "a8b097acbb49ea53.mp3",
 "seconds": 0.77
@@ -1074,6 +1286,10 @@
 "mms-urd|slow|السلام علیکم بیٹا!": {
 "file": "0cc19f087a446e80.mp3",
 "seconds": 2.95
+},
+"mms-urd|slow|الف": {
+"file": "b77e88c674533087.mp3",
+"seconds": 0.59
 },
 "mms-urd|slow|اللہ حافظ": {
 "file": "884efaa6fb820341.mp3",
@@ -1167,6 +1383,18 @@
 "file": "ed60cfbe45fdc373.mp3",
 "seconds": 1.93
 },
+"mms-urd|slow|بات": {
+"file": "e63ea19f9895d9b0.mp3",
+"seconds": 0.82
+},
+"mms-urd|slow|باپ": {
+"file": "242aa5c7c1b424d5.mp3",
+"seconds": 0.68
+},
+"mms-urd|slow|بس": {
+"file": "d61bf3c183bfd4ff.mp3",
+"seconds": 0.82
+},
 "mms-urd|slow|بس، بس!": {
 "file": "9ac20b5fdbd36bc1.mp3",
 "seconds": 1.08
@@ -1198,6 +1426,14 @@
 "mms-urd|slow|بڑا": {
 "file": "62e13e2ddf0627f1.mp3",
 "seconds": 0.79
+},
+"mms-urd|slow|بڑی حے": {
+"file": "f578b5cca916f8fc.mp3",
+"seconds": 0.95
+},
+"mms-urd|slow|بڑی یے": {
+"file": "357ad0cca0eacff9.mp3",
+"seconds": 0.91
 },
 "mms-urd|slow|بھائی": {
 "file": "17018ab5c9af92eb.mp3",
@@ -1234,6 +1470,10 @@
 "mms-urd|slow|بیٹی": {
 "file": "f0e7e12e32e15efd.mp3",
 "seconds": 0.79
+},
+"mms-urd|slow|بے": {
+"file": "f76898c0a8d5f8c2.mp3",
+"seconds": 0.51
 },
 "mms-urd|slow|تائی": {
 "file": "c52c066f50f15b5c.mp3",
@@ -1274,6 +1514,18 @@
 "mms-urd|slow|تھوڑا سا": {
 "file": "1c84d9daf7f29696.mp3",
 "seconds": 1.26
+},
+"mms-urd|slow|تے": {
+"file": "013278e502d9d12e.mp3",
+"seconds": 0.53
+},
+"mms-urd|slow|ثے": {
+"file": "5e9bd0d990dbf4a1.mp3",
+"seconds": 0.62
+},
+"mms-urd|slow|جب": {
+"file": "ae99f858dd51c1a8.mp3",
+"seconds": 0.59
 },
 "mms-urd|slow|جی": {
 "file": "e325c468a8eb948d.mp3",
@@ -1323,6 +1575,10 @@
 "file": "414055bf916a0e4c.mp3",
 "seconds": 1.35
 },
+"mms-urd|slow|جیم": {
+"file": "21b2c23e1021f2c0.mp3",
+"seconds": 0.77
+},
 "mms-urd|slow|خالو": {
 "file": "745036d8f4f9a398.mp3",
 "seconds": 0.82
@@ -1351,6 +1607,10 @@
 "file": "0208a0a1d495979f.mp3",
 "seconds": 1.11
 },
+"mms-urd|slow|خدا": {
+"file": "fc6ab4943abede30.mp3",
+"seconds": 0.68
+},
 "mms-urd|slow|خدا حافظ": {
 "file": "f57d9c9c2eac4798.mp3",
 "seconds": 1.39
@@ -1358,6 +1618,14 @@
 "mms-urd|slow|خدا حافظ بیٹا۔ جیتے رہو": {
 "file": "7d078fc8cb8ba68a.mp3",
 "seconds": 3.31
+},
+"mms-urd|slow|خراب": {
+"file": "b458880ebcf808da.mp3",
+"seconds": 0.84
+},
+"mms-urd|slow|خے": {
+"file": "14f3981dc683d0b7.mp3",
+"seconds": 0.59
 },
 "mms-urd|slow|دادا": {
 "file": "01d9019891a3c34e.mp3",
@@ -1371,17 +1639,37 @@
 "file": "59f82c6769b248e8.mp3",
 "seconds": 0.55
 },
+"mms-urd|slow|دو چشمی ہے": {
+"file": "306b84b88bafedaf.mp3",
+"seconds": 1.62
+},
+"mms-urd|slow|ذال": {
+"file": "4f97176cb945e217.mp3",
+"seconds": 0.68
+},
 "mms-urd|slow|روٹی": {
 "file": "16204d2ea3ea0aa0.mp3",
 "seconds": 0.71
+},
+"mms-urd|slow|رے": {
+"file": "eae5a89e1273827c.mp3",
+"seconds": 0.48
 },
 "mms-urd|slow|زور سے بولیے": {
 "file": "f5748ec66e19ec05.mp3",
 "seconds": 1.75
 },
+"mms-urd|slow|زے": {
+"file": "362d88367ec51c27.mp3",
+"seconds": 0.62
+},
 "mms-urd|slow|سالن": {
 "file": "f7f846c67dee9d9a.mp3",
 "seconds": 0.86
+},
+"mms-urd|slow|سب": {
+"file": "f0ff26096d9e8e82.mp3",
+"seconds": 0.68
 },
 "mms-urd|slow|سب ٹھیک ہے": {
 "file": "9c02f1e8f93ebebb.mp3",
@@ -1407,6 +1695,10 @@
 "file": "ba2d9aef008cd5a0.mp3",
 "seconds": 0.86
 },
+"mms-urd|slow|سین": {
+"file": "8abf8256cca5f7ec.mp3",
+"seconds": 0.73
+},
 "mms-urd|slow|شاباش۔ جیتے رہو": {
 "file": "b81bcde1184f5703.mp3",
 "seconds": 1.84
@@ -1427,13 +1719,69 @@
 "file": "83a060c4a6c75dfc.mp3",
 "seconds": 1.75
 },
+"mms-urd|slow|شین": {
+"file": "3780617a8684fd8a.mp3",
+"seconds": 0.64
+},
+"mms-urd|slow|صاد": {
+"file": "8362d8892c592b9c.mp3",
+"seconds": 0.64
+},
+"mms-urd|slow|صاف": {
+"file": "dbb923166943bde0.mp3",
+"seconds": 0.73
+},
+"mms-urd|slow|صبر": {
+"file": "36aaec2474b8406c.mp3",
+"seconds": 0.68
+},
 "mms-urd|slow|صرف ٹھیک؟": {
 "file": "75ab30cff6f8c8e8.mp3",
 "seconds": 1.26
 },
+"mms-urd|slow|ضاد": {
+"file": "01dc5d2aca49949e.mp3",
+"seconds": 0.64
+},
+"mms-urd|slow|طرف": {
+"file": "78a96fcc22ec9bda.mp3",
+"seconds": 0.64
+},
+"mms-urd|slow|طوئے": {
+"file": "192427bf28f2a401.mp3",
+"seconds": 0.64
+},
+"mms-urd|slow|ظوئے": {
+"file": "e78356f99ef577c6.mp3",
+"seconds": 0.73
+},
+"mms-urd|slow|عین": {
+"file": "e8af3770996b553c.mp3",
+"seconds": 0.77
+},
+"mms-urd|slow|غین": {
+"file": "d3273bb4cceb63c2.mp3",
+"seconds": 0.77
+},
+"mms-urd|slow|فرق": {
+"file": "3d8fbd21e880adf3.mp3",
+"seconds": 0.79
+},
+"mms-urd|slow|فے": {
+"file": "cd8150f921bd1965.mp3",
+"seconds": 0.48
+},
+"mms-urd|slow|قاف": {
+"file": "42ffe43e833ff69c.mp3",
+"seconds": 0.64
+},
 "mms-urd|slow|لائن خراب ہے": {
 "file": "9c8df35225f53219.mp3",
 "seconds": 1.66
+},
+"mms-urd|slow|لام": {
+"file": "d8acd804efc188bb.mp3",
+"seconds": 0.68
 },
 "mms-urd|slow|ماموں": {
 "file": "3c98acad8057fe3c.mp3",
@@ -1531,6 +1879,10 @@
 "file": "1db9913a3fb7bf6c.mp3",
 "seconds": 1.93
 },
+"mms-urd|slow|میم": {
+"file": "d7dd901fa5e9db68.mp3",
+"seconds": 0.77
+},
 "mms-urd|slow|میں": {
 "file": "8491ec140f217409.mp3",
 "seconds": 0.77
@@ -1611,6 +1963,10 @@
 "file": "c9a093a0127e34c1.mp3",
 "seconds": 1.75
 },
+"mms-urd|slow|نام": {
+"file": "7587131f0676eeeb.mp3",
+"seconds": 0.75
+},
 "mms-urd|slow|نانا": {
 "file": "4bddf58f1a8d39f2.mp3",
 "seconds": 0.84
@@ -1631,6 +1987,14 @@
 "file": "a45d859cd663337d.mp3",
 "seconds": 4.37
 },
+"mms-urd|slow|نون": {
+"file": "68325885b75c1875.mp3",
+"seconds": 0.82
+},
+"mms-urd|slow|نون غنہ": {
+"file": "009f7e4af13ea485.mp3",
+"seconds": 1.17
+},
 "mms-urd|slow|نہیں": {
 "file": "30b1164f53e7a660.mp3",
 "seconds": 0.82
@@ -1638,6 +2002,10 @@
 "mms-urd|slow|نہیں نہیں، بہت اچھا ہے!": {
 "file": "f7ea3d0b56eb66c9.mp3",
 "seconds": 2.42
+},
+"mms-urd|slow|واؤ": {
+"file": "820657f664956c40.mp3",
+"seconds": 0.68
 },
 "mms-urd|slow|وائس نوٹ بھیج دیجیے": {
 "file": "3ac23abbd2220eec.mp3",
@@ -1679,6 +2047,10 @@
 "file": "03eefd955e76225e.mp3",
 "seconds": 0.86
 },
+"mms-urd|slow|ٹے": {
+"file": "c93af2e9bd19b263.mp3",
+"seconds": 0.51
+},
 "mms-urd|slow|پانی": {
 "file": "7e343a5f771992e5.mp3",
 "seconds": 0.86
@@ -1703,6 +2075,10 @@
 "file": "0c87de19f9b00d56.mp3",
 "seconds": 0.99
 },
+"mms-urd|slow|پے": {
+"file": "c628328e786c0b07.mp3",
+"seconds": 0.66
+},
 "mms-urd|slow|چائے": {
 "file": "f7f2a623e5c43262.mp3",
 "seconds": 0.73
@@ -1722,6 +2098,10 @@
 "mms-urd|slow|چاول": {
 "file": "8bdfc210d7558195.mp3",
 "seconds": 0.91
+},
+"mms-urd|slow|چپ": {
+"file": "a2fd2fcfc78bd7c8.mp3",
+"seconds": 0.55
 },
 "mms-urd|slow|چچا": {
 "file": "d7201333736a9342.mp3",
@@ -1747,9 +2127,29 @@
 "file": "39b4034935b6eb7f.mp3",
 "seconds": 1.31
 },
+"mms-urd|slow|چے": {
+"file": "7beb86305d179066.mp3",
+"seconds": 0.57
+},
 "mms-urd|slow|ڈائٹ؟! اتنے پتلے ہو!": {
 "file": "74d0ef729deecfcb.mp3",
 "seconds": 2.19
+},
+"mms-urd|slow|ڈال": {
+"file": "66d82ea509ce7c89.mp3",
+"seconds": 0.86
+},
+"mms-urd|slow|ڑے": {
+"file": "a046a417b155b63a.mp3",
+"seconds": 0.57
+},
+"mms-urd|slow|ژے": {
+"file": "0553db6952b86d7f.mp3",
+"seconds": 0.62
+},
+"mms-urd|slow|کاف": {
+"file": "43b731ebe98b784e.mp3",
+"seconds": 0.64
 },
 "mms-urd|slow|کب؟": {
 "file": "cc25f8bec1f31494.mp3",
@@ -1827,6 +2227,10 @@
 "file": "270c1fec5ca492ef.mp3",
 "seconds": 0.82
 },
+"mms-urd|slow|گاف": {
+"file": "4f73dfc25ac7b661.mp3",
+"seconds": 0.64
+},
 "mms-urd|slow|گرم گرم": {
 "file": "3d258ef74637b059.mp3",
 "seconds": 1.02
@@ -1834,6 +2238,10 @@
 "mms-urd|slow|گوشت": {
 "file": "e1e5c14d01ef3a3b.mp3",
 "seconds": 0.99
+},
+"mms-urd|slow|گھر": {
+"file": "0d669d3e92357367.mp3",
+"seconds": 0.59
 },
 "mms-urd|slow|ہاں": {
 "file": "db3c8066699220d2.mp3",
@@ -1858,6 +2266,10 @@
 "mms-urd|slow|ہیلو؟ آواز آ رہی ہے؟": {
 "file": "aab85e72d471ec0f.mp3",
 "seconds": 2.59
+},
+"mms-urd|slow|ہے": {
+"file": "123f4db0f0d9820f.mp3",
+"seconds": 0.59
 },
 "mms-urd|slow|یہ میرا بھائی ہے": {
 "file": "29cfba6f331d3a3e.mp3",
@@ -1902,5 +2314,9 @@
 "mms-urd|slow|یہاں رات ہے": {
 "file": "27c2985b5cdb812a.mp3",
 "seconds": 1.44
+},
+"mms-urd|slow|یے": {
+"file": "dd631c8589f48a4a.mp3",
+"seconds": 0.68
 }
 }

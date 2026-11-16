@@ -9,7 +9,7 @@ const day = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 
 export const SourceSchema = z.strictObject({
   /** Which reference: rekhta, udb, platts, wiktionary, schmidt (grammar) or usage (attested usage). */
-  ref: z.enum(["rekhta", "udb", "platts", "wiktionary", "schmidt", "usage"]),
+  ref: z.enum(["rekhta", "udb", "platts", "wiktionary", "wikipedia", "schmidt", "usage"]),
   url: z.url().optional(),
   /** The headword or point that was checked. */
   item: z.string().optional(),

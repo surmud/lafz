@@ -38,8 +38,8 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 
 ## Phase C — Full course
 - [x] **C1 Conversation engine + boss fights** (branching, choose/type/speak, in-character hints).
-- [ ] **C2 Units 2–4 content.**
-- [ ] **C3 Reading track R1–R5** (letters, joining forms, tracing).
+- [x] **C2 Units 2–4 content.**
+- [x] **C3 Reading track R1–R5** (letters, joining forms, tracing).
 - [ ] **C4 Units 5–8 content.**
 - [ ] **C5 Reading R6–R10.**
 - [ ] **C6 Units 9–12 content.**
@@ -49,12 +49,12 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [ ] **D1 Speak it.** Web Speech API with a Whisper (transformers.js) fallback; graceful when unsupported.
 - [ ] **D2 Ask Ammi** share flow + badge.
 - [ ] **D3 Family voice** recording, which overrides TTS, with export/import.
-- [ ] **D4 Family tree** interactive explorer + respect meter.
+- [x] **D4 Family tree** interactive explorer + respect meter.
 - [ ] **D5 Prep packs** (Shaadi in 5 days, Eid next week, Nani visiting, First call with Khala, Trip
   to Pakistan).
 
 ## Phase E — Polish and PWA
-- [ ] **E1 PWA.** Manifest, icons, service worker, offline lessons, "download unit".
+- [x] **E1 PWA.** Manifest, icons, service worker, offline lessons, "download unit".
 - [ ] **E2 Onboarding.** Pick heritage vs beginner, the placement offer, set your relatives' names
   (optional; personalises dialogue).
 - [ ] **E3 Accessibility pass + Lighthouse ≥ 90** on all categories.
@@ -68,7 +68,12 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [ ] **G2 /dev/ui gallery** (finishes A3).
 - [ ] **G3 Whisper round-trip audio audit** (EVALS §3): transcribe each MMS clip, log similarity, flag the worst 5%.
 - [ ] **G4 Personalised names in dialogue.** Onboarding stores relatives' names but nothing uses them yet.
-- [ ] **G5 Persona specs** for all six EVALS personas (only the MVP flow and a screen gallery exist).
+- [x] **G5 Persona specs** for all six EVALS personas (only the MVP flow and a screen gallery exist).
+
+- [ ] **G6 Reading R1–R5 depth.** Each reading unit has 3 lessons; add a "build the word from letters"
+  exercise and a 4th lesson of mixed review before R6.
+- [ ] **G7 Page weight as units grow.** Each lesson page embeds its unit's phrase pool; watch HTML size
+  (now 35–60 KB) and the precache (2.8 MB) as units 5–12 land.
 
 ## Phase F — Self-improvement (ongoing, forever)
 - [ ] Eval pass after every phase. File items from the lowest rubric scores.
