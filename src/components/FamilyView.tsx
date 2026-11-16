@@ -70,6 +70,15 @@ export function FamilyView({ relatives, phrases }: { relatives: Relative[]; phra
             Learn them in Unit 2 →
           </Link>
         </p>
+        <Link href="/voice/" className="flex items-center gap-3 rounded-3xl border-2 border-good bg-good-soft p-4">
+          <span className="text-3xl" aria-hidden>
+            🎙️
+          </span>
+          <span>
+            <span className="block font-bold">Family voice</span>
+            <span className="block text-sm">Get Ammi or Nani to record phrases. Their voice replaces the robot.</span>
+          </span>
+        </Link>
         <div className="grid grid-cols-2 gap-3">
           <p className="rounded-full bg-rose-soft py-1 text-center text-xs font-black tracking-wider text-rose-deep uppercase">Mum&apos;s side</p>
           <p className="rounded-full bg-primary-soft py-1 text-center text-xs font-black tracking-wider text-primary-deep uppercase">Dad&apos;s side</p>

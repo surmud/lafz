@@ -1,15 +1,190 @@
 [
   {
+    "id": "shaadi-5-days",
+    "title": "Shaadi in 5 days",
+    "emoji": "💃",
+    "tagline": "Five events, three outfits, three hundred aunties. Get ready.",
+    "canDo": "You can get through a wedding: congratulate, praise the bride, survive 'you're next', and eat at 1am",
+    "sessions": [
+      {
+        "id": "s1",
+        "title": "Mubarak ho!",
+        "blurb": "Congratulate everyone, reply to everyone.",
+        "phrases": [
+          "u07.mubarak-ho",
+          "u07.shaadi-mubarak",
+          "u07.khair-mubarak",
+          "u07.dulhan-khoobsurat",
+          "u01.salam",
+          "u10.mubarakbaad"
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Who's who",
+        "blurb": "Place yourself in the family tree in ten seconds.",
+        "phrases": [
+          "u02.kis-ke-bete",
+          "u02.ammi-ki-behen",
+          "u02.yeh-meri-khala",
+          "u02.cousin",
+          "u01.mil-kar-khushi"
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "The dance floor",
+        "blurb": "Agree, refuse, or negotiate.",
+        "phrases": [
+          "u07.naachunga",
+          "u07.naachungi",
+          "u07.nahin-naachunga",
+          "u06.chalo",
+          "u11.bas-karo"
+        ]
+      },
+      {
+        "id": "s4",
+        "title": "The rishta gauntlet",
+        "blurb": "You're next. When? Who knows.",
+        "phrases": [
+          "u07.agla-number",
+          "u07.kab-shaadi",
+          "u07.jald-hi",
+          "u07.pata-nahin",
+          "u09.pehle-kaam",
+          "u09.guzara"
+        ]
+      },
+      {
+        "id": "s5",
+        "title": "Food at 1am",
+        "blurb": "When is it? Is it good? Enough!",
+        "phrases": [
+          "u07.khana-kab",
+          "u03.mazedaar",
+          "u03.bas-bas",
+          "u03.pait-bhar-gaya",
+          "u08.bhook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eid-next-week",
+    "title": "Eid next week",
+    "emoji": "🌙",
+    "tagline": "Greetings, Eidi, sheer khurma, and visiting every relative in one day.",
+    "canDo": "You can do the Eid rounds: greet, accept Eidi gracefully, praise the food, and say the right thing to everyone",
+    "sessions": [
+      {
+        "id": "s1",
+        "title": "Chaand raat",
+        "blurb": "The moon, the bangles, the last-minute shopping.",
+        "phrases": [
+          "u10.chaand-raat",
+          "u10.chaand-nazar",
+          "u10.ramzan-mubarak",
+          "u10.roza-hai",
+          "u10.iftar"
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Eid morning",
+        "blurb": "Eid mubarak, khair mubarak, hugs.",
+        "phrases": [
+          "u10.eid-mubarak",
+          "u10.khair-mubarak",
+          "u01.salam",
+          "u01.aap-kaisi-hain",
+          "u10.dua-mein-yaad"
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "Eidi",
+        "blurb": "Accept it, protest a little, accept it again.",
+        "phrases": [
+          "u10.eidi",
+          "u10.nani-ne-eidi-di",
+          "u01.bohat-shukriya",
+          "u01.jeete-raho",
+          "u05.kitne-ka-liya"
+        ]
+      },
+      {
+        "id": "s4",
+        "title": "The food rounds",
+        "blurb": "Six houses, six lunches.",
+        "phrases": [
+          "u03.mazedaar",
+          "u03.haath-zaiqa",
+          "u03.bas-bas",
+          "u03.chai-piyenge",
+          "u03.cheeni-kam",
+          "u11.kha-lo"
+        ]
+      }
+    ]
+  },
+  {
     "id": "first-call-khala",
     "title": "First call with Khala",
     "emoji": "📞",
     "tagline": "She's calling Sunday. You will not just say 'haan' for 20 minutes.",
     "canDo": "You can hold your own on a call with Khala: greet, catch up, survive the rishta question, and hang up politely",
     "sessions": [
-      { "id": "s1", "title": "Pick up properly", "blurb": "Salaam, how are you, can you hear me?", "phrases": ["u01.salam", "u01.aap-kaisi-hain", "u01.main-theek-hoon", "u01.alhamdulillah", "u04.hello-awaaz", "u04.awaaz-nahin"] },
-      { "id": "s2", "title": "Catch up", "blurb": "What you're doing, where you are, the weather.", "phrases": ["u04.kya-kar-rahe", "u04.ghar-par", "u04.kaam-par", "u04.mausam", "u04.sardi", "u04.sab-kaise"] },
-      { "id": "s3", "title": "The question", "blurb": "Married yet? (Deflect gracefully.)", "phrases": ["u02.shaadi-shuda", "u02.abhi-nahin", "u01.inshallah", "u02.bilal-cousin", "u02.woh-doctor"] },
-      { "id": "s4", "title": "Hang up like a pro", "blurb": "Salaams to everyone, call back later, Khuda hafiz.", "phrases": ["u04.sab-ko-salaam", "u04.baad-mein-call", "u04.yaad-aa-rahi", "u01.apna-khayal", "u01.khuda-hafiz"] }
+      {
+        "id": "s1",
+        "title": "Pick up properly",
+        "blurb": "Salaam, how are you, can you hear me?",
+        "phrases": [
+          "u01.salam",
+          "u01.aap-kaisi-hain",
+          "u01.main-theek-hoon",
+          "u01.alhamdulillah",
+          "u04.hello-awaaz",
+          "u04.awaaz-nahin"
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Catch up",
+        "blurb": "What you're doing, where you are, the weather.",
+        "phrases": [
+          "u04.kya-kar-rahe",
+          "u04.ghar-par",
+          "u04.kaam-par",
+          "u04.mausam",
+          "u04.sardi",
+          "u04.sab-kaise"
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "The question",
+        "blurb": "Married yet? (Deflect gracefully.)",
+        "phrases": [
+          "u02.shaadi-shuda",
+          "u02.abhi-nahin",
+          "u01.inshallah",
+          "u02.bilal-cousin",
+          "u02.woh-doctor"
+        ]
+      },
+      {
+        "id": "s4",
+        "title": "Hang up like a pro",
+        "blurb": "Salaams to everyone, call back later, Khuda hafiz.",
+        "phrases": [
+          "u04.sab-ko-salaam",
+          "u04.baad-mein-call",
+          "u04.yaad-aa-rahi",
+          "u01.apna-khayal",
+          "u01.khuda-hafiz"
+        ]
+      }
     ]
   },
   {
@@ -19,10 +194,128 @@
     "tagline": "Two weeks. Your house. Her rules. Her cooking. Prepare accordingly.",
     "canDo": "You can welcome Nani, eat what she cooks, praise it properly, and never once say 'tu'",
     "sessions": [
-      { "id": "s1", "title": "At the door", "blurb": "Salaam, respect, the right 'you'.", "phrases": ["u01.salam", "u01.aap-kaisi-hain", "u01.aap", "u01.ji-haan", "u01.ji-nahin", "u01.jeete-raho"] },
-      { "id": "s2", "title": "At the table", "blurb": "Bismillah, bas bas, it's delicious.", "phrases": ["u03.bismillah", "u03.bas-bas", "u03.pait-bhar-gaya", "u03.mazedaar", "u03.haath-zaiqa", "u03.maza-aa-gaya"] },
-      { "id": "s3", "title": "Chai time", "blurb": "Tea, less sugar, and whatever she wants.", "phrases": ["u03.chai-piyenge", "u03.ji-zaroor", "u03.cheeni-kam", "u03.paani-milega", "u01.shukriya", "u01.meherbani"] },
-      { "id": "s4", "title": "Family talk", "blurb": "She will quiz you on who's who.", "phrases": ["u02.ammi-ki-behen", "u02.abbu-ki-behen", "u02.kis-ke-bete", "u02.mere-do-bhai", "u02.khandan-bara", "u02.nani-ka-ghar"] }
+      {
+        "id": "s1",
+        "title": "At the door",
+        "blurb": "Salaam, respect, the right 'you'.",
+        "phrases": [
+          "u01.salam",
+          "u01.aap-kaisi-hain",
+          "u01.aap",
+          "u01.ji-haan",
+          "u01.ji-nahin",
+          "u01.jeete-raho"
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "At the table",
+        "blurb": "Bismillah, bas bas, it's delicious.",
+        "phrases": [
+          "u03.bismillah",
+          "u03.bas-bas",
+          "u03.pait-bhar-gaya",
+          "u03.mazedaar",
+          "u03.haath-zaiqa",
+          "u03.maza-aa-gaya"
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "Chai time",
+        "blurb": "Tea, less sugar, and whatever she wants.",
+        "phrases": [
+          "u03.chai-piyenge",
+          "u03.ji-zaroor",
+          "u03.cheeni-kam",
+          "u03.paani-milega",
+          "u01.shukriya",
+          "u01.meherbani"
+        ]
+      },
+      {
+        "id": "s4",
+        "title": "Family talk",
+        "blurb": "She will quiz you on who's who.",
+        "phrases": [
+          "u02.ammi-ki-behen",
+          "u02.abbu-ki-behen",
+          "u02.kis-ke-bete",
+          "u02.mere-do-bhai",
+          "u02.khandan-bara",
+          "u02.nani-ka-ghar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "trip-to-pakistan",
+    "title": "Trip to Pakistan",
+    "emoji": "✈️",
+    "tagline": "Airport, rickshaws, bazaars, relatives' houses, 40°C heat.",
+    "canDo": "You can get around Pakistan: fares, directions, prices, food, and the heat",
+    "sessions": [
+      {
+        "id": "s1",
+        "title": "Arrival",
+        "blurb": "Greetings at the airport, 3am.",
+        "phrases": [
+          "u01.salam",
+          "u04.kab-aa-rahe",
+          "u09.kal-aaya",
+          "u08.thak-gaya",
+          "u08.neend"
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Rickshaw",
+        "blurb": "Fare, haggle, directions, slow down!",
+        "phrases": [
+          "u06.bazaar-chalenge",
+          "u06.kitna-kiraya",
+          "u06.bohat-zyada",
+          "u06.rehne-dein",
+          "u06.aahista",
+          "u06.yahan-rukiye"
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "Bazaar",
+        "blurb": "Prices and fake shock.",
+        "phrases": [
+          "u05.kitne-ka",
+          "u05.mehnga",
+          "u06.aakhri-daam",
+          "u05.sau-rupay",
+          "u06.do-sau-theek"
+        ]
+      },
+      {
+        "id": "s4",
+        "title": "Dhaba",
+        "blurb": "Chai, samosa, water, bill.",
+        "phrases": [
+          "u06.do-chai-samosa",
+          "u03.paani-milega",
+          "u03.mirch-pasand-nahin",
+          "u06.bill",
+          "u06.washroom-kahan"
+        ]
+      },
+      {
+        "id": "s5",
+        "title": "The heat",
+        "blurb": "Survive June.",
+        "phrases": [
+          "u04.garmi",
+          "u08.pyaas",
+          "u11.ac-band",
+          "u08.sar-dard",
+          "u08.haldi-doodh"
+        ]
+      }
     ]
   }
 ]

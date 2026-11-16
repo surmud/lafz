@@ -12,6 +12,7 @@ export default defineConfig({
     baseURL: `http://localhost:${PORT}/lafz/`,
     trace: "retain-on-failure",
     contextOptions: { reducedMotion: "reduce" },
+    launchOptions: { args: ["--autoplay-policy=no-user-gesture-required"] },
   },
   projects: [
     { name: "iphone", use: { ...devices["iPhone 13"], browserName: "chromium", viewport: { width: 375, height: 812 } } },

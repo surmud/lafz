@@ -40,22 +40,22 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **C1 Conversation engine + boss fights** (branching, choose/type/speak, in-character hints).
 - [x] **C2 Units 2–4 content.**
 - [x] **C3 Reading track R1–R5** (letters, joining forms, tracing).
-- [ ] **C4 Units 5–8 content.**
+- [x] **C4 Units 5–8 content.**
 - [ ] **C5 Reading R6–R10.**
-- [ ] **C6 Units 9–12 content.**
+- [x] **C6 Units 9–12 content.**
 - [x] **C7 Spaced review sessions** (Leitner) + a "Review" entry on home.
 
 ## Phase D — Family and speech
 - [ ] **D1 Speak it.** Web Speech API with a Whisper (transformers.js) fallback; graceful when unsupported.
-- [ ] **D2 Ask Ammi** share flow + badge.
-- [ ] **D3 Family voice** recording, which overrides TTS, with export/import.
+- [x] **D2 Ask Ammi** share flow + badge.
+- [x] **D3 Family voice** recording, which overrides TTS, with export/import.
 - [x] **D4 Family tree** interactive explorer + respect meter.
-- [ ] **D5 Prep packs** (Shaadi in 5 days, Eid next week, Nani visiting, First call with Khala, Trip
+- [x] **D5 Prep packs** (Shaadi in 5 days, Eid next week, Nani visiting, First call with Khala, Trip
   to Pakistan).
 
 ## Phase E — Polish and PWA
 - [x] **E1 PWA.** Manifest, icons, service worker, offline lessons, "download unit".
-- [ ] **E2 Onboarding.** Pick heritage vs beginner, the placement offer, set your relatives' names
+- [x] **E2 Onboarding.** Pick heritage vs beginner, the placement offer, set your relatives' names
   (optional; personalises dialogue).
 - [ ] **E3 Accessibility pass + Lighthouse ≥ 90** on all categories.
 - [ ] **E4 Delight.** Character illustrations (SVG, original), micro-animations, sound effects,
@@ -63,7 +63,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [ ] **E5 PROGRESS.md final.** What's built, medium-confidence Urdu list, known issues, next steps.
 
 ## Discovered while building (2026-11-16)
-- [ ] **G1 Placement pool grows with the course.** Add 2 placement questions per new unit (levels 2–12);
+- [x] **G1 Placement pool grows with the course.** Add 2 placement questions per new unit (levels 2–12);
   placement can only suggest units that exist.
 - [ ] **G2 /dev/ui gallery** (finishes A3).
 - [ ] **G3 Whisper round-trip audio audit** (EVALS §3): transcribe each MMS clip, log similarity, flag the worst 5%.
@@ -74,6 +74,10 @@ acceptance criteria (AC). Phases are a guide, not a cage.
   exercise and a 4th lesson of mixed review before R6.
 - [ ] **G7 Page weight as units grow.** Each lesson page embeds its unit's phrase pool; watch HTML size
   (now 35–60 KB) and the precache (2.8 MB) as units 5–12 land.
+
+- [ ] **G8 Family voice: real-mic E2E.** Headless Chromium can't open a fake mic in this setup; the test
+  injects a recording. Try headed or `channel: "chrome"` in CI.
+- [ ] **G9 Whisper fallback for Speak it** (D1 remainder): transformers.js, lazy-loaded.
 
 ## Phase F — Self-improvement (ongoing, forever)
 - [ ] Eval pass after every phase. File items from the lowest rubric scores.
