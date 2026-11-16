@@ -1,5 +1,5 @@
 import { ReviewView } from "@/components/ReviewView";
-import { allPhrases } from "@/content";
+import { allPhrases, slim } from "@/content";
 
 export const metadata = { title: "Review · Lafz" };
 
@@ -8,6 +8,6 @@ export const metadata = { title: "Review · Lafz" };
  * no boss lines) and builds the session client-side.
  */
 export default function Review() {
-  const phrases = [...allPhrases().values()].filter((p) => !p.id.includes(".b."));
+  const phrases = [...allPhrases().values()].filter((p) => !p.id.includes(".b.")).map(slim);
   return <ReviewView phrases={phrases} />;
 }

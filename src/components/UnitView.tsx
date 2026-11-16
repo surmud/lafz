@@ -2,6 +2,8 @@
 import Link from "next/link";
 import type { Character } from "@/content/schema";
 import { unitProgress, type UnitMeta } from "@/engine/course";
+import { useEffect, useState } from "react";
+import { downloadUnit, isUnitDownloaded, offlineSupported } from "@/lib/offline";
 import { useStore } from "@/lib/store";
 import { Avatar } from "./Avatar";
 import { Nastaliq } from "./Phrase";
@@ -88,6 +90,8 @@ export function UnitView({
           ) : null}
         </ol>
 
+        <OfflineButton unitId={meta.id} />
+
         {grammar.length > 0 ? (
           <section aria-labelledby="grammar" className="flex flex-col gap-3">
             <h2 id="grammar" className="font-display text-xl font-bold">
@@ -103,5 +107,40 @@ export function UnitView({
         ) : null}
       </main>
     </>
+  );
+}
+
+function OfflineButton({ unitId }: { unitId: string }) {
+  const [state, setState] = useState<"unknown" | "idle" | "busy" | "done" | "unsupported">("unknown");
+  const [pct, setPct] = useState(0);
+  useEffect(() => {
+    let alive = true;
+    if (!offlineSupported()) {
+      queueMicrotask(() => alive && setState("unsupported"));
+      return;
+    }
+    void isUnitDownloaded(unitId).then((d) => alive && setState(d ? "done" : "idle"));
+    return () => {
+      alive = false;
+    };
+  }, [unitId]);
+  if (state === "unsupported" || state === "unknown") return null;
+  return (
+    <button
+      type="button"
+      disabled={state !== "idle"}
+      onClick={async () => {
+        setState("busy");
+        try {
+          await downloadUnit(unitId, (d, t) => setPct(Math.round((d / t) * 100)));
+          setState("done");
+        } catch {
+          setState("idle");
+        }
+      }}
+      className="flex min-h-12 items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-line px-4 text-sm font-bold text-ink-soft disabled:opacity-80"
+    >
+      {state === "done" ? "✓ Saved for offline (works on the plane)" : state === "busy" ? `Downloading… ${pct}%` : "⬇️ Download this unit for offline"}
+    </button>
   );
 }

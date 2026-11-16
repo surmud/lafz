@@ -151,5 +151,95 @@
       "phrase": "u02.mere-do-bhai",
       "prompt": "Type: “I have two brothers”"
     }
+  },
+  {
+    "id": "p03-reply",
+    "level": 3,
+    "skill": "reply",
+    "exercise": {
+      "type": "say",
+      "phrase": "u03.bas-bas",
+      "prompt": "Nani keeps adding rice to your plate. Stop her!",
+      "distractors": [
+        "u03.thora-sa",
+        "u03.chai-piyenge"
+      ]
+    }
+  },
+  {
+    "id": "p03-gap",
+    "level": 3,
+    "skill": "meaning",
+    "exercise": {
+      "type": "gap",
+      "phrase": "u03.chai-achhi",
+      "word": {
+        "roman": "achhi",
+        "urdu": "اچھی"
+      },
+      "distractors": [
+        {
+          "roman": "achha",
+          "urdu": "اچھا"
+        },
+        {
+          "roman": "achhe",
+          "urdu": "اچھے"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p03-type",
+    "level": 3,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u03.mujhe-chai",
+      "prompt": "Type: “I'd like some tea”"
+    }
+  },
+  {
+    "id": "p04-listen",
+    "level": 4,
+    "skill": "listening",
+    "exercise": {
+      "type": "listen",
+      "phrase": "u04.awaaz-kat-rahi",
+      "speed": "aunty"
+    }
+  },
+  {
+    "id": "p04-gap",
+    "level": 4,
+    "skill": "reply",
+    "exercise": {
+      "type": "gap",
+      "phrase": "u04.sara-bol-rahi",
+      "word": {
+        "roman": "rahi",
+        "urdu": "رہی"
+      },
+      "distractors": [
+        {
+          "roman": "raha",
+          "urdu": "رہا"
+        },
+        {
+          "roman": "rahe",
+          "urdu": "رہے"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p04-type",
+    "level": 4,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u04.aap-kahan",
+      "prompt": "Type: “Where are you?” (respectfully)"
+    }
   }
 ]

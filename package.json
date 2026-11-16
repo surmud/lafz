@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/postbuild.mjs",
     "serve": "node scripts/serve-out.mjs",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",

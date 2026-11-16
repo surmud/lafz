@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { LessonPlayer } from "@/components/LessonPlayer";
-import { lessonUnit, pickPhrases, units } from "@/content";
+import { lessonUnit, pickPhrases, slim, units } from "@/content";
 import type { Exercise, Lesson } from "@/content/schema";
 
 export const dynamicParams = false;
@@ -47,7 +47,7 @@ export default async function LessonPage({ params }: { params: Promise<{ id: str
   const lesson = unit.lessons[idx] as Lesson;
   const nextLesson = unit.lessons[idx + 1];
   // Distractor pool: the unit's core phrases (boss-only lines are excluded to keep options fair).
-  const pool = unit.phrases.filter((p) => !p.id.startsWith(`${unit.id}.b.`));
+  const pool = unit.phrases.filter((p) => !p.id.startsWith(`${unit.id}.b.`)).map(slim);
   const used = new Set(lessonPhraseIds(lesson));
   const phrases = pickPhrases([...used, ...pool.map((p) => p.id)]);
   const next = nextLesson

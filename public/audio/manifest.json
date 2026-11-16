@@ -1,7 +1,15 @@
 {
+"mms-urd|normal|آؤ بیٹا، کھانا لگ گیا ہے": {
+"file": "f40d857862ff7556.mp3",
+"seconds": 2.39
+},
 "mms-urd|normal|آؤ، آؤ! اندر آؤ": {
 "file": "2e55ecd56150b113.mp3",
 "seconds": 1.53
+},
+"mms-urd|normal|آواز نہیں آ رہی": {
+"file": "3a344fc28980e3e0.mp3",
+"seconds": 1.43
 },
 "mms-urd|normal|آپ": {
 "file": "a51e3fdb6d2abfb2.mp3",
@@ -15,17 +23,41 @@
 "file": "835cac044d1eace2.mp3",
 "seconds": 1.37
 },
+"mms-urd|normal|آپ نے کیوں تکلیف کی؟": {
+"file": "e2ffbece7a358796.mp3",
+"seconds": 1.75
+},
 "mms-urd|normal|آپ کا نام کیا ہے؟": {
 "file": "dfce0ed20cba9f1e.mp3",
 "seconds": 1.53
+},
+"mms-urd|normal|آپ کب آ رہے ہیں؟": {
+"file": "4fb26c6a66ffef49.mp3",
+"seconds": 1.24
 },
 "mms-urd|normal|آپ کس کے بیٹے ہیں؟": {
 "file": "25d0614d34ca2b1f.mp3",
 "seconds": 1.49
 },
+"mms-urd|normal|آپ کہاں ہیں؟": {
+"file": "41250b38e65b8b1b.mp3",
+"seconds": 1.05
+},
+"mms-urd|normal|آپ کی آواز کٹ رہی ہے": {
+"file": "6f87cb76cfdf060a.mp3",
+"seconds": 1.94
+},
 "mms-urd|normal|آپ کی امی کا نام کیا ہے؟": {
 "file": "ff06d8f9ea680a3d.mp3",
 "seconds": 1.91
+},
+"mms-urd|normal|آپ کی بہت یاد آ رہی ہے": {
+"file": "57e86011d3792bb8.mp3",
+"seconds": 1.85
+},
+"mms-urd|normal|آپ کیا کر رہے ہیں؟": {
+"file": "abf19aee3d0023dd.mp3",
+"seconds": 1.46
 },
 "mms-urd|normal|آپ کیسی ہیں؟": {
 "file": "259033326c1e8555.mp3",
@@ -42,6 +74,10 @@
 "mms-urd|normal|آپ کے کتنے بھائی بہن ہیں؟": {
 "file": "b55b3aac4f1edaf8.mp3",
 "seconds": 2.04
+},
+"mms-urd|normal|آپ کے ہاتھ میں بہت ذائقہ ہے": {
+"file": "c6490f92870789c3.mp3",
+"seconds": 2.74
 },
 "mms-urd|normal|ابو": {
 "file": "2a9bbe9d4d385956.mp3",
@@ -127,6 +163,18 @@
 "file": "1cb95e71905b42e3.mp3",
 "seconds": 0.76
 },
+"mms-urd|normal|اور لو بیٹا": {
+"file": "6d7d3c9d4d1686cd.mp3",
+"seconds": 1.05
+},
+"mms-urd|normal|اور لو! کچھ کھایا ہی نہیں": {
+"file": "214816d6278d4aa8.mp3",
+"seconds": 1.75
+},
+"mms-urd|normal|اور نہیں، شکریہ": {
+"file": "1def7fc3b742b87a.mp3",
+"seconds": 1.27
+},
 "mms-urd|normal|اپنا خیال رکھیے": {
 "file": "a0f98780a8762ac9.mp3",
 "seconds": 1.46
@@ -143,9 +191,45 @@
 "file": "fff4067af3b01208.mp3",
 "seconds": 2.93
 },
+"mms-urd|normal|اچھا بیٹا، اللہ حافظ۔ سردی میں جیکٹ پہننا!": {
+"file": "133d1487700bd9e1.mp3",
+"seconds": 3.41
+},
 "mms-urd|normal|اچھا بیٹا، امی کو سلام کہنا": {
 "file": "c72cd170c252a8b3.mp3",
 "seconds": 2.29
+},
+"mms-urd|normal|اچھا سنو، ایک رشتہ آیا ہے…": {
+"file": "5ea1be8c02c61e35.mp3",
+"seconds": 2.39
+},
+"mms-urd|normal|اچھا، تھوڑا سا": {
+"file": "61520a6b09f5ee97.mp3",
+"seconds": 1.33
+},
+"mms-urd|normal|اچھا؟ کون ہے؟": {
+"file": "5d17bd4abe7ddbc8.mp3",
+"seconds": 1.08
+},
+"mms-urd|normal|ایک روٹی اور لو": {
+"file": "c9e0600a4f4e9125.mp3",
+"seconds": 1.43
+},
+"mms-urd|normal|بس، بس!": {
+"file": "34e206cd291ac9ff.mp3",
+"seconds": 0.82
+},
+"mms-urd|normal|بس، بس! میرا پیٹ بھر گیا": {
+"file": "a5b4b0dce2d5ae66.mp3",
+"seconds": 1.85
+},
+"mms-urd|normal|بسم اللہ": {
+"file": "aa78cfd9f578d333.mp3",
+"seconds": 1.01
+},
+"mms-urd|normal|بسم اللہ! شکریہ نانی": {
+"file": "a804e9f408cfa884.mp3",
+"seconds": 1.78
 },
 "mms-urd|normal|بلال میرا کزن ہے": {
 "file": "1d4dc674a89c1c1b.mp3",
@@ -178,6 +262,14 @@
 "mms-urd|normal|بہت شکریہ": {
 "file": "d1cb27a7dc57ede2.mp3",
 "seconds": 1.08
+},
+"mms-urd|normal|بہت مزیدار ہے": {
+"file": "ea6f0882dad1048b.mp3",
+"seconds": 1.33
+},
+"mms-urd|normal|بہت مزیدار ہے نانی!": {
+"file": "0a11eb2ba7508a6f.mp3",
+"seconds": 2.29
 },
 "mms-urd|normal|بہن": {
 "file": "f4a8547fd966915e.mp3",
@@ -227,13 +319,29 @@
 "file": "b636a250a44f56d5.mp3",
 "seconds": 0.92
 },
+"mms-urd|normal|تھوڑا سا": {
+"file": "bee0c2712844d884.mp3",
+"seconds": 0.95
+},
 "mms-urd|normal|جی": {
 "file": "33f853f52481e72a.mp3",
 "seconds": 0.44
 },
+"mms-urd|normal|جی خالہ! آواز آ رہی ہے؟": {
+"file": "1dec5e9244c78c56.mp3",
+"seconds": 2.1
+},
+"mms-urd|normal|جی خالہ۔ سب کو سلام!": {
+"file": "09fabd4897b2a4d1.mp3",
+"seconds": 1.72
+},
 "mms-urd|normal|جی ضرور۔ خدا حافظ!": {
 "file": "db3a010c08f43519.mp3",
 "seconds": 2.1
+},
+"mms-urd|normal|جی ضرور۔ چینی کم، پلیز": {
+"file": "199efb8bb404234c.mp3",
+"seconds": 2.2
 },
 "mms-urd|normal|جی نہیں": {
 "file": "6e94b78419c36220.mp3",
@@ -246,6 +354,14 @@
 "mms-urd|normal|جی، سب ٹھیک ہیں": {
 "file": "b2ae94b1ddd0a6f0.mp3",
 "seconds": 1.3
+},
+"mms-urd|normal|جی، شکریہ": {
+"file": "fe13bb5b29860144.mp3",
+"seconds": 1.03
+},
+"mms-urd|normal|جی، ضرور": {
+"file": "04fcead33714885c.mp3",
+"seconds": 0.89
 },
 "mms-urd|normal|جی، مہربانی": {
 "file": "ad800f66f35ab54c.mp3",
@@ -262,6 +378,22 @@
 "mms-urd|normal|خالہ": {
 "file": "e287926380b82a37.mp3",
 "seconds": 0.57
+},
+"mms-urd|normal|خالہ! آواز آ رہی ہے؟": {
+"file": "5e5f1478d190f522.mp3",
+"seconds": 1.91
+},
+"mms-urd|normal|خالہ، آپ کی آواز کٹ رہی ہے…": {
+"file": "6c20aee8e6c59df1.mp3",
+"seconds": 2.42
+},
+"mms-urd|normal|خالہ، لائن خراب ہے": {
+"file": "8eef3c2c05253963.mp3",
+"seconds": 1.91
+},
+"mms-urd|normal|خالہ، میں بعد میں کال کرتا ہوں": {
+"file": "4eeb0965cf962613.mp3",
+"seconds": 2.23
 },
 "mms-urd|normal|خاندان": {
 "file": "ec37c6ed9b0ec294.mp3",
@@ -283,9 +415,37 @@
 "file": "116eae291f86ec93.mp3",
 "seconds": 0.61
 },
+"mms-urd|normal|دال": {
+"file": "ff524efe06efc268.mp3",
+"seconds": 0.44
+},
+"mms-urd|normal|روٹی": {
+"file": "099275fb8f2f70ef.mp3",
+"seconds": 0.55
+},
+"mms-urd|normal|زور سے بولیے": {
+"file": "2590db38677780ed.mp3",
+"seconds": 1.3
+},
+"mms-urd|normal|سالن": {
+"file": "984d86cc69b704df.mp3",
+"seconds": 0.66
+},
 "mms-urd|normal|سب ٹھیک ہے": {
 "file": "4ff4e0baa49652f3.mp3",
 "seconds": 1.14
+},
+"mms-urd|normal|سب کو سلام": {
+"file": "c91be1670a4dfb19.mp3",
+"seconds": 1.11
+},
+"mms-urd|normal|سب کیسے ہیں؟": {
+"file": "202a61b32b8b1d32.mp3",
+"seconds": 1.17
+},
+"mms-urd|normal|سبزی": {
+"file": "7bd9eb99ccca7479.mp3",
+"seconds": 0.66
 },
 "mms-urd|normal|سسرال": {
 "file": "fda04c763b376736.mp3",
@@ -294,6 +454,10 @@
 "mms-urd|normal|سلام": {
 "file": "ec4a2eee16b43b50.mp3",
 "seconds": 0.66
+},
+"mms-urd|normal|شاباش۔ جیتے رہو": {
+"file": "5064016b36cfa7a0.mp3",
+"seconds": 1.37
 },
 "mms-urd|normal|شادی ہوئی؟": {
 "file": "6c8706e65a35f215.mp3",
@@ -311,9 +475,45 @@
 "file": "420d84ca8c102af3.mp3",
 "seconds": 1.3
 },
+"mms-urd|normal|صرف ٹھیک؟": {
+"file": "9830c524bb2e79d2.mp3",
+"seconds": 0.95
+},
+"mms-urd|normal|لائن خراب ہے": {
+"file": "cef9a2cd9fca33b1.mp3",
+"seconds": 1.24
+},
 "mms-urd|normal|ماموں": {
 "file": "1c9362ff6365116a.mp3",
 "seconds": 0.85
+},
+"mms-urd|normal|مجھے بریانی پسند ہے": {
+"file": "4ab4d0640f2badde.mp3",
+"seconds": 1.65
+},
+"mms-urd|normal|مجھے مرچ پسند نہیں": {
+"file": "7d8468871c0ee88f.mp3",
+"seconds": 1.88
+},
+"mms-urd|normal|مجھے پانی چاہیے": {
+"file": "b6b666781597f6ff.mp3",
+"seconds": 1.46
+},
+"mms-urd|normal|مجھے چائے چاہیے": {
+"file": "75f11b112be92df9.mp3",
+"seconds": 1.37
+},
+"mms-urd|normal|مرچ": {
+"file": "16b3ea6d748af0b8.mp3",
+"seconds": 0.61
+},
+"mms-urd|normal|مزہ آ گیا!": {
+"file": "0a937c4dd4067f51.mp3",
+"seconds": 1.08
+},
+"mms-urd|normal|مسز بٹ کی بھانجی۔ ڈاکٹر ہے!": {
+"file": "4353448b75980945.mp3",
+"seconds": 2.2
 },
 "mms-urd|normal|معاف کیجیے": {
 "file": "990272e45f79f99c.mp3",
@@ -326,6 +526,10 @@
 "mms-urd|normal|ممانی": {
 "file": "35e1c0494365ffec.mp3",
 "seconds": 0.66
+},
+"mms-urd|normal|مٹھائی": {
+"file": "07000f92fbccfa55.mp3",
+"seconds": 0.63
 },
 "mms-urd|normal|مہربانی": {
 "file": "94bb0dd38fae638b.mp3",
@@ -342,6 +546,10 @@
 "mms-urd|normal|میرا نام علی ہے": {
 "file": "f21e8510d5e03ad6.mp3",
 "seconds": 1.62
+},
+"mms-urd|normal|میرا پیٹ بھر گیا": {
+"file": "e66d5d89e6f5b23c.mp3",
+"seconds": 1.4
 },
 "mms-urd|normal|میرا کزن بلال ڈاکٹر ہے!": {
 "file": "31da2f0c8f2e6851.mp3",
@@ -379,13 +587,37 @@
 "file": "c04979882b29bcdd.mp3",
 "seconds": 1.27
 },
+"mms-urd|normal|میں بعد میں کال کرتا ہوں": {
+"file": "72941d63397c2cd7.mp3",
+"seconds": 1.85
+},
+"mms-urd|normal|میں بعد میں کال کرتی ہوں": {
+"file": "2435a370a7516d51.mp3",
+"seconds": 2.01
+},
 "mms-urd|normal|میں بھی ٹھیک ہوں، الحمدللہ": {
 "file": "1e0d4bf82520a57c.mp3",
 "seconds": 2.26
 },
+"mms-urd|normal|میں سارہ بول رہی ہوں": {
+"file": "ce1303f10c70b1ba.mp3",
+"seconds": 1.72
+},
+"mms-urd|normal|میں سو رہا تھا خالہ۔ یہاں صبح کے چھے بجے ہیں": {
+"file": "4b41b59d0a708318.mp3",
+"seconds": 3.22
+},
 "mms-urd|normal|میں شاہد کا بیٹا ہوں": {
 "file": "673497b6fdc2b4e7.mp3",
 "seconds": 1.65
+},
+"mms-urd|normal|میں علی بول رہا ہوں": {
+"file": "80701908770ade6d.mp3",
+"seconds": 1.62
+},
+"mms-urd|normal|میں وائس نوٹ بھیجتی ہوں۔ لمبا والا!": {
+"file": "e1e1b1952fdd5e04.mp3",
+"seconds": 3.19
 },
 "mms-urd|normal|میں ٹھیک ہوں": {
 "file": "8bef3e542a06b736.mp3",
@@ -394,6 +626,38 @@
 "mms-urd|normal|میں ٹھیک ہوں۔ آپ کیسی ہیں؟": {
 "file": "345f83872b38d639.mp3",
 "seconds": 2.29
+},
+"mms-urd|normal|میں پڑھ رہا ہوں": {
+"file": "77c0cf7223bab24f.mp3",
+"seconds": 1.33
+},
+"mms-urd|normal|میں پڑھ رہی ہوں": {
+"file": "2e8ba081914f11bb.mp3",
+"seconds": 1.3
+},
+"mms-urd|normal|میں ڈائٹ پر ہوں": {
+"file": "8dba93fab0fee15e.mp3",
+"seconds": 1.24
+},
+"mms-urd|normal|میں کام پر ہوں": {
+"file": "3f197e23f14f171a.mp3",
+"seconds": 1.17
+},
+"mms-urd|normal|میں کام پر ہوں خالہ": {
+"file": "6fc42808adab7022.mp3",
+"seconds": 2.04
+},
+"mms-urd|normal|میں کھانا بنا رہا ہوں": {
+"file": "223c2833701ad156.mp3",
+"seconds": 1.59
+},
+"mms-urd|normal|میں کھانا بنا رہی ہوں": {
+"file": "4b7b748fd31736ff.mp3",
+"seconds": 1.75
+},
+"mms-urd|normal|میں گھر پر ہوں": {
+"file": "ccfe0412d528f737.mp3",
+"seconds": 1.3
 },
 "mms-urd|normal|نانا": {
 "file": "32534e3c93d6b4cb.mp3",
@@ -407,9 +671,25 @@
 "file": "8a3f0069beac5ce0.mp3",
 "seconds": 1.14
 },
+"mms-urd|normal|نانی، آپ نے کیوں تکلیف کی؟": {
+"file": "c8c3ab4f77a17df7.mp3",
+"seconds": 2.23
+},
+"mms-urd|normal|نانی، آپ کے ہاتھ میں بہت ذائقہ ہے": {
+"file": "7b760ceb3f405240.mp3",
+"seconds": 3.19
+},
 "mms-urd|normal|نہیں": {
 "file": "46f99dc7c0266c6e.mp3",
 "seconds": 0.63
+},
+"mms-urd|normal|نہیں نہیں، بہت اچھا ہے!": {
+"file": "b1253150b3243b61.mp3",
+"seconds": 1.78
+},
+"mms-urd|normal|وائس نوٹ بھیج دیجیے": {
+"file": "e01105cf54227dc8.mp3",
+"seconds": 1.62
 },
 "mms-urd|normal|وعلیکم السلام": {
 "file": "ce79bd6b610f5829.mp3",
@@ -431,6 +711,34 @@
 "file": "4e8f027bc32fdec4.mp3",
 "seconds": 0.85
 },
+"mms-urd|normal|وہاں بہت گرمی ہے": {
+"file": "0172e4ffb5ee49ed.mp3",
+"seconds": 1.56
+},
+"mms-urd|normal|وہاں موسم کیسا ہے؟": {
+"file": "95589460e3f697ce.mp3",
+"seconds": 1.65
+},
+"mms-urd|normal|وہاں کتنے بجے ہیں؟": {
+"file": "a28f3b4553173805.mp3",
+"seconds": 1.65
+},
+"mms-urd|normal|ٹھیک ہے": {
+"file": "8b75e601d6701ed6.mp3",
+"seconds": 0.66
+},
+"mms-urd|normal|پانی": {
+"file": "a6b091604b70b89c.mp3",
+"seconds": 0.66
+},
+"mms-urd|normal|پانی ملے گا؟": {
+"file": "6c1a96cffc2e1254.mp3",
+"seconds": 1.01
+},
+"mms-urd|normal|پھر سے بولیے": {
+"file": "e90ccd002a84f81f.mp3",
+"seconds": 1.01
+},
 "mms-urd|normal|پھر ملیں گے": {
 "file": "861422452dcb02a5.mp3",
 "seconds": 0.85
@@ -442,6 +750,26 @@
 "mms-urd|normal|پھپھو": {
 "file": "1c4fbe382db8abfe.mp3",
 "seconds": 0.76
+},
+"mms-urd|normal|چائے": {
+"file": "776f46bd03952ef0.mp3",
+"seconds": 0.57
+},
+"mms-urd|normal|چائے بہت اچھی ہے": {
+"file": "ef8d535b70824f08.mp3",
+"seconds": 1.46
+},
+"mms-urd|normal|چائے پئیں گے؟": {
+"file": "2778036c43b36d04.mp3",
+"seconds": 0.95
+},
+"mms-urd|normal|چائے پیو گے؟": {
+"file": "5bfc387cc20502ff.mp3",
+"seconds": 0.89
+},
+"mms-urd|normal|چاول": {
+"file": "db37bac364c181b8.mp3",
+"seconds": 0.69
 },
 "mms-urd|normal|چچا": {
 "file": "2399ac98299a63b0.mp3",
@@ -455,6 +783,26 @@
 "file": "deaddd248bdea8fd.mp3",
 "seconds": 0.61
 },
+"mms-urd|normal|چھے بجے؟ میں تو فجر سے اٹھی ہوئی ہوں!": {
+"file": "362f2064bf247bdf.mp3",
+"seconds": 2.58
+},
+"mms-urd|normal|چینی": {
+"file": "6610d08d171a31ad.mp3",
+"seconds": 0.69
+},
+"mms-urd|normal|چینی کم": {
+"file": "0995fc624d4ccc61.mp3",
+"seconds": 0.98
+},
+"mms-urd|normal|ڈائٹ؟! اتنے پتلے ہو!": {
+"file": "0da0fe9fce9a6634.mp3",
+"seconds": 1.62
+},
+"mms-urd|normal|کب؟": {
+"file": "1bfe03d0fe78ef00.mp3",
+"seconds": 0.44
+},
 "mms-urd|normal|کتنے بھائی بہن ہو؟": {
 "file": "883552a795c5c382.mp3",
 "seconds": 1.53
@@ -467,6 +815,42 @@
 "file": "a2cad7639631acde.mp3",
 "seconds": 1.17
 },
+"mms-urd|normal|کوئی تکلیف نہیں": {
+"file": "84ca22d0c3a1952d.mp3",
+"seconds": 1.3
+},
+"mms-urd|normal|کوئی تکلیف نہیں۔ کھاؤ!": {
+"file": "3923f5a027a74eb0.mp3",
+"seconds": 1.65
+},
+"mms-urd|normal|کون بول رہا ہے؟": {
+"file": "2b079ad316efc54f.mp3",
+"seconds": 1.3
+},
+"mms-urd|normal|کون؟": {
+"file": "8b93a121eba77bbc.mp3",
+"seconds": 0.63
+},
+"mms-urd|normal|کھانا بہت اچھا ہے": {
+"file": "b35e24285f3ce9c1.mp3",
+"seconds": 1.59
+},
+"mms-urd|normal|کھانا لگ گیا ہے": {
+"file": "50478bce68848650.mp3",
+"seconds": 1.17
+},
+"mms-urd|normal|کھانا ٹھنڈا ہو رہا ہے": {
+"file": "5c435f18ee65e2e3.mp3",
+"seconds": 2.01
+},
+"mms-urd|normal|کھانا کیسا ہے؟": {
+"file": "597bfcfe28982265.mp3",
+"seconds": 1.17
+},
+"mms-urd|normal|کہاں؟": {
+"file": "275c7aafc02b46d6.mp3",
+"seconds": 0.6
+},
 "mms-urd|normal|کیا حال ہے بیٹا؟": {
 "file": "cd0eeeb29df1e22f.mp3",
 "seconds": 1.69
@@ -475,13 +859,53 @@
 "file": "3c657d6b0bc5773a.mp3",
 "seconds": 0.98
 },
+"mms-urd|normal|کیا؟": {
+"file": "2380f341d9cf749c.mp3",
+"seconds": 0.49
+},
 "mms-urd|normal|کیا؟!": {
 "file": "df6fe74b17301587.mp3",
 "seconds": 0.44
 },
+"mms-urd|normal|کیسے؟": {
+"file": "c71085bb41e13b88.mp3",
+"seconds": 0.6
+},
+"mms-urd|normal|کیوں؟": {
+"file": "1b1b638bf0f5692f.mp3",
+"seconds": 0.63
+},
+"mms-urd|normal|گرم گرم": {
+"file": "5570e4c7bec91c78.mp3",
+"seconds": 0.77
+},
+"mms-urd|normal|گوشت": {
+"file": "5793c8492e88d896.mp3",
+"seconds": 0.76
+},
 "mms-urd|normal|ہاں": {
 "file": "50061505439a75a9.mp3",
 "seconds": 0.55
+},
+"mms-urd|normal|ہاں، اب آ رہی ہے! کیا کر رہے ہو؟": {
+"file": "ea3307558812c34c.mp3",
+"seconds": 3.06
+},
+"mms-urd|normal|ہاں؟ کیا؟ زور سے بولو!": {
+"file": "c86d71816483069f.mp3",
+"seconds": 1.75
+},
+"mms-urd|normal|ہم آپ کو مس کر رہے ہیں": {
+"file": "669bf77a8fd9f37f.mp3",
+"seconds": 1.91
+},
+"mms-urd|normal|ہیلو! ہیلو! بیٹا؟": {
+"file": "5a5c8a71abfee0b1.mp3",
+"seconds": 1.27
+},
+"mms-urd|normal|ہیلو؟ آواز آ رہی ہے؟": {
+"file": "042c7f60fd284ff4.mp3",
+"seconds": 1.91
 },
 "mms-urd|normal|یہ میرا بھائی ہے": {
 "file": "4ba9af7f2f8c4102.mp3",
@@ -507,13 +931,37 @@
 "file": "ad31ad6b81f6dd66.mp3",
 "seconds": 1.43
 },
+"mms-urd|normal|یہ کس نے بنایا؟": {
+"file": "fdae0630ec0dcc7e.mp3",
+"seconds": 1.37
+},
 "mms-urd|normal|یہ کون ہیں؟": {
 "file": "a85bf8ec8f81b289.mp3",
 "seconds": 1.11
 },
+"mms-urd|normal|یہ کیا ہے؟": {
+"file": "33660e3fac60b86b.mp3",
+"seconds": 0.95
+},
+"mms-urd|normal|یہاں بہت سردی ہے": {
+"file": "477fbbfe76c8a33d.mp3",
+"seconds": 1.59
+},
+"mms-urd|normal|یہاں رات ہے": {
+"file": "f27ec0ef75de4e99.mp3",
+"seconds": 1.08
+},
+"mms-urd|slow|آؤ بیٹا، کھانا لگ گیا ہے": {
+"file": "f624a64944ab1efb.mp3",
+"seconds": 3.26
+},
 "mms-urd|slow|آؤ، آؤ! اندر آؤ": {
 "file": "2f16b8b01f020ee8.mp3",
 "seconds": 2.06
+},
+"mms-urd|slow|آواز نہیں آ رہی": {
+"file": "252d639f69bbe6da.mp3",
+"seconds": 1.93
 },
 "mms-urd|slow|آپ": {
 "file": "937d9990a2b9bc92.mp3",
@@ -527,17 +975,41 @@
 "file": "b8a09419d0c7d4a0.mp3",
 "seconds": 1.84
 },
+"mms-urd|slow|آپ نے کیوں تکلیف کی؟": {
+"file": "98b8b554856fd1e3.mp3",
+"seconds": 2.37
+},
 "mms-urd|slow|آپ کا نام کیا ہے؟": {
 "file": "277ce94ff815533c.mp3",
 "seconds": 2.06
+},
+"mms-urd|slow|آپ کب آ رہے ہیں؟": {
+"file": "1fd5e6f1c0955723.mp3",
+"seconds": 1.66
 },
 "mms-urd|slow|آپ کس کے بیٹے ہیں؟": {
 "file": "e46ef63d0a1f87c6.mp3",
 "seconds": 2.02
 },
+"mms-urd|slow|آپ کہاں ہیں؟": {
+"file": "bcaa1e5912b20805.mp3",
+"seconds": 1.39
+},
+"mms-urd|slow|آپ کی آواز کٹ رہی ہے": {
+"file": "c12b8eaa714bc292.mp3",
+"seconds": 2.64
+},
 "mms-urd|slow|آپ کی امی کا نام کیا ہے؟": {
 "file": "c5fe2ca3377cf862.mp3",
 "seconds": 2.59
+},
+"mms-urd|slow|آپ کی بہت یاد آ رہی ہے": {
+"file": "37f753dc5f62bffe.mp3",
+"seconds": 2.51
+},
+"mms-urd|slow|آپ کیا کر رہے ہیں؟": {
+"file": "c147124dd8b73786.mp3",
+"seconds": 1.97
 },
 "mms-urd|slow|آپ کیسی ہیں؟": {
 "file": "2c53eb781246a0ae.mp3",
@@ -554,6 +1026,10 @@
 "mms-urd|slow|آپ کے کتنے بھائی بہن ہیں؟": {
 "file": "50cfc1317c5e28bc.mp3",
 "seconds": 2.77
+},
+"mms-urd|slow|آپ کے ہاتھ میں بہت ذائقہ ہے": {
+"file": "5f77a4967222ec44.mp3",
+"seconds": 3.75
 },
 "mms-urd|slow|ابو": {
 "file": "a8b097acbb49ea53.mp3",
@@ -639,6 +1115,18 @@
 "file": "fbc28b105e0f3989.mp3",
 "seconds": 0.99
 },
+"mms-urd|slow|اور لو بیٹا": {
+"file": "1a2f276f57f73944.mp3",
+"seconds": 1.39
+},
+"mms-urd|slow|اور لو! کچھ کھایا ہی نہیں": {
+"file": "c2cf20557d917526.mp3",
+"seconds": 2.37
+},
+"mms-urd|slow|اور نہیں، شکریہ": {
+"file": "1d8f34378f8fe87a.mp3",
+"seconds": 1.71
+},
 "mms-urd|slow|اپنا خیال رکھیے": {
 "file": "91a31c8b8878b782.mp3",
 "seconds": 1.97
@@ -655,9 +1143,45 @@
 "file": "7e8f8ca6f7c81968.mp3",
 "seconds": 4.02
 },
+"mms-urd|slow|اچھا بیٹا، اللہ حافظ۔ سردی میں جیکٹ پہننا!": {
+"file": "2fbabfea3c0121d8.mp3",
+"seconds": 4.68
+},
 "mms-urd|slow|اچھا بیٹا، امی کو سلام کہنا": {
 "file": "6196cf0db9f074a6.mp3",
 "seconds": 3.13
+},
+"mms-urd|slow|اچھا سنو، ایک رشتہ آیا ہے…": {
+"file": "27a7a1cf04ba1dc5.mp3",
+"seconds": 3.26
+},
+"mms-urd|slow|اچھا، تھوڑا سا": {
+"file": "6e3271d458ae3c5c.mp3",
+"seconds": 1.79
+},
+"mms-urd|slow|اچھا؟ کون ہے؟": {
+"file": "32beb3c6dac81b2c.mp3",
+"seconds": 1.44
+},
+"mms-urd|slow|ایک روٹی اور لو": {
+"file": "ed60cfbe45fdc373.mp3",
+"seconds": 1.93
+},
+"mms-urd|slow|بس، بس!": {
+"file": "9ac20b5fdbd36bc1.mp3",
+"seconds": 1.08
+},
+"mms-urd|slow|بس، بس! میرا پیٹ بھر گیا": {
+"file": "31fcdbee723fc3b4.mp3",
+"seconds": 2.51
+},
+"mms-urd|slow|بسم اللہ": {
+"file": "1ccc113b5749b55d.mp3",
+"seconds": 1.35
+},
+"mms-urd|slow|بسم اللہ! شکریہ نانی": {
+"file": "bc770f4954e85203.mp3",
+"seconds": 2.42
 },
 "mms-urd|slow|بلال میرا کزن ہے": {
 "file": "014990f65c15837e.mp3",
@@ -690,6 +1214,14 @@
 "mms-urd|slow|بہت شکریہ": {
 "file": "810e1bc792b4569c.mp3",
 "seconds": 1.44
+},
+"mms-urd|slow|بہت مزیدار ہے": {
+"file": "bafa7908a5473312.mp3",
+"seconds": 1.79
+},
+"mms-urd|slow|بہت مزیدار ہے نانی!": {
+"file": "4b506a50647390f5.mp3",
+"seconds": 3.13
 },
 "mms-urd|slow|بہن": {
 "file": "b94312cb8966fccb.mp3",
@@ -739,13 +1271,29 @@
 "file": "825bdffd76290155.mp3",
 "seconds": 1.22
 },
+"mms-urd|slow|تھوڑا سا": {
+"file": "1c84d9daf7f29696.mp3",
+"seconds": 1.26
+},
 "mms-urd|slow|جی": {
 "file": "e325c468a8eb948d.mp3",
 "seconds": 0.55
 },
+"mms-urd|slow|جی خالہ! آواز آ رہی ہے؟": {
+"file": "3740ead0b21c1a20.mp3",
+"seconds": 2.86
+},
+"mms-urd|slow|جی خالہ۔ سب کو سلام!": {
+"file": "1f496725ffe41b94.mp3",
+"seconds": 2.33
+},
 "mms-urd|slow|جی ضرور۔ خدا حافظ!": {
 "file": "297b8711d90d8d07.mp3",
 "seconds": 2.86
+},
+"mms-urd|slow|جی ضرور۔ چینی کم، پلیز": {
+"file": "e72d28bae80e7cd7.mp3",
+"seconds": 2.99
 },
 "mms-urd|slow|جی نہیں": {
 "file": "f04d7c436cae014d.mp3",
@@ -758,6 +1306,14 @@
 "mms-urd|slow|جی، سب ٹھیک ہیں": {
 "file": "7dc6aa3fdb99eb33.mp3",
 "seconds": 1.75
+},
+"mms-urd|slow|جی، شکریہ": {
+"file": "ef10c3d5ba7977ff.mp3",
+"seconds": 1.37
+},
+"mms-urd|slow|جی، ضرور": {
+"file": "51484cf9340a5e53.mp3",
+"seconds": 1.17
 },
 "mms-urd|slow|جی، مہربانی": {
 "file": "0868d3cc780bee0d.mp3",
@@ -774,6 +1330,22 @@
 "mms-urd|slow|خالہ": {
 "file": "e51b5974ca72642b.mp3",
 "seconds": 0.73
+},
+"mms-urd|slow|خالہ! آواز آ رہی ہے؟": {
+"file": "cbc31be77723a80c.mp3",
+"seconds": 2.59
+},
+"mms-urd|slow|خالہ، آپ کی آواز کٹ رہی ہے…": {
+"file": "52ddbf29a4aac9ce.mp3",
+"seconds": 3.31
+},
+"mms-urd|slow|خالہ، لائن خراب ہے": {
+"file": "7f26920605830fbb.mp3",
+"seconds": 2.59
+},
+"mms-urd|slow|خالہ، میں بعد میں کال کرتا ہوں": {
+"file": "d8fb3e51f4ab5f13.mp3",
+"seconds": 3.04
 },
 "mms-urd|slow|خاندان": {
 "file": "0208a0a1d495979f.mp3",
@@ -795,9 +1367,37 @@
 "file": "bc0a1d97dfa32174.mp3",
 "seconds": 0.79
 },
+"mms-urd|slow|دال": {
+"file": "59f82c6769b248e8.mp3",
+"seconds": 0.55
+},
+"mms-urd|slow|روٹی": {
+"file": "16204d2ea3ea0aa0.mp3",
+"seconds": 0.71
+},
+"mms-urd|slow|زور سے بولیے": {
+"file": "f5748ec66e19ec05.mp3",
+"seconds": 1.75
+},
+"mms-urd|slow|سالن": {
+"file": "f7f846c67dee9d9a.mp3",
+"seconds": 0.86
+},
 "mms-urd|slow|سب ٹھیک ہے": {
 "file": "9c02f1e8f93ebebb.mp3",
 "seconds": 1.53
+},
+"mms-urd|slow|سب کو سلام": {
+"file": "3b00f4346e6abefb.mp3",
+"seconds": 1.48
+},
+"mms-urd|slow|سب کیسے ہیں؟": {
+"file": "831d8971e704a446.mp3",
+"seconds": 1.57
+},
+"mms-urd|slow|سبزی": {
+"file": "52ee76ce5724d718.mp3",
+"seconds": 0.86
 },
 "mms-urd|slow|سسرال": {
 "file": "0b805ff5d6bc85d5.mp3",
@@ -806,6 +1406,10 @@
 "mms-urd|slow|سلام": {
 "file": "ba2d9aef008cd5a0.mp3",
 "seconds": 0.86
+},
+"mms-urd|slow|شاباش۔ جیتے رہو": {
+"file": "b81bcde1184f5703.mp3",
+"seconds": 1.84
 },
 "mms-urd|slow|شادی ہوئی؟": {
 "file": "a217d6cf1e0d5b15.mp3",
@@ -823,9 +1427,45 @@
 "file": "83a060c4a6c75dfc.mp3",
 "seconds": 1.75
 },
+"mms-urd|slow|صرف ٹھیک؟": {
+"file": "75ab30cff6f8c8e8.mp3",
+"seconds": 1.26
+},
+"mms-urd|slow|لائن خراب ہے": {
+"file": "9c8df35225f53219.mp3",
+"seconds": 1.66
+},
 "mms-urd|slow|ماموں": {
 "file": "3c98acad8057fe3c.mp3",
 "seconds": 1.13
+},
+"mms-urd|slow|مجھے بریانی پسند ہے": {
+"file": "22ac44e9fd32f58a.mp3",
+"seconds": 2.24
+},
+"mms-urd|slow|مجھے مرچ پسند نہیں": {
+"file": "655b05b68877a94b.mp3",
+"seconds": 2.55
+},
+"mms-urd|slow|مجھے پانی چاہیے": {
+"file": "a66439451fa6c50d.mp3",
+"seconds": 1.97
+},
+"mms-urd|slow|مجھے چائے چاہیے": {
+"file": "f279fe505287825f.mp3",
+"seconds": 1.84
+},
+"mms-urd|slow|مرچ": {
+"file": "c45c17af5edfe20f.mp3",
+"seconds": 0.79
+},
+"mms-urd|slow|مزہ آ گیا!": {
+"file": "29d91397c3ecb285.mp3",
+"seconds": 1.44
+},
+"mms-urd|slow|مسز بٹ کی بھانجی۔ ڈاکٹر ہے!": {
+"file": "8330418148a32ae8.mp3",
+"seconds": 2.99
 },
 "mms-urd|slow|معاف کیجیے": {
 "file": "9368a0c6ff301597.mp3",
@@ -838,6 +1478,10 @@
 "mms-urd|slow|ممانی": {
 "file": "35cbed7cff195715.mp3",
 "seconds": 0.86
+},
+"mms-urd|slow|مٹھائی": {
+"file": "f884a0c2f688f7cd.mp3",
+"seconds": 0.82
 },
 "mms-urd|slow|مہربانی": {
 "file": "c5164b016b303c88.mp3",
@@ -854,6 +1498,10 @@
 "mms-urd|slow|میرا نام علی ہے": {
 "file": "f89e902ecd2f7ff2.mp3",
 "seconds": 2.19
+},
+"mms-urd|slow|میرا پیٹ بھر گیا": {
+"file": "060cf361d7bd467f.mp3",
+"seconds": 1.88
 },
 "mms-urd|slow|میرا کزن بلال ڈاکٹر ہے!": {
 "file": "8923163366d040df.mp3",
@@ -891,13 +1539,37 @@
 "file": "cb19c32c7bcd4d8b.mp3",
 "seconds": 1.71
 },
+"mms-urd|slow|میں بعد میں کال کرتا ہوں": {
+"file": "1d2248c25f6d23c2.mp3",
+"seconds": 2.51
+},
+"mms-urd|slow|میں بعد میں کال کرتی ہوں": {
+"file": "b2f8686d9f87395e.mp3",
+"seconds": 2.73
+},
 "mms-urd|slow|میں بھی ٹھیک ہوں، الحمدللہ": {
 "file": "187bd2a70ed292a6.mp3",
 "seconds": 3.08
 },
+"mms-urd|slow|میں سارہ بول رہی ہوں": {
+"file": "e4546d903cc52280.mp3",
+"seconds": 2.33
+},
+"mms-urd|slow|میں سو رہا تھا خالہ۔ یہاں صبح کے چھے بجے ہیں": {
+"file": "99cee9cc2166f945.mp3",
+"seconds": 4.42
+},
 "mms-urd|slow|میں شاہد کا بیٹا ہوں": {
 "file": "78790da315590b29.mp3",
 "seconds": 2.24
+},
+"mms-urd|slow|میں علی بول رہا ہوں": {
+"file": "f54d5e86a37e2e03.mp3",
+"seconds": 2.19
+},
+"mms-urd|slow|میں وائس نوٹ بھیجتی ہوں۔ لمبا والا!": {
+"file": "d18c5caa987e5855.mp3",
+"seconds": 4.37
 },
 "mms-urd|slow|میں ٹھیک ہوں": {
 "file": "386a1fdfeb93d5a9.mp3",
@@ -906,6 +1578,38 @@
 "mms-urd|slow|میں ٹھیک ہوں۔ آپ کیسی ہیں؟": {
 "file": "b8c3c11c57fc0bd4.mp3",
 "seconds": 3.13
+},
+"mms-urd|slow|میں پڑھ رہا ہوں": {
+"file": "3f55962d06b9316c.mp3",
+"seconds": 1.79
+},
+"mms-urd|slow|میں پڑھ رہی ہوں": {
+"file": "bc46ce9dd95fc76f.mp3",
+"seconds": 1.75
+},
+"mms-urd|slow|میں ڈائٹ پر ہوں": {
+"file": "9922f995a027e9ba.mp3",
+"seconds": 1.66
+},
+"mms-urd|slow|میں کام پر ہوں": {
+"file": "9697f535e84169c9.mp3",
+"seconds": 1.57
+},
+"mms-urd|slow|میں کام پر ہوں خالہ": {
+"file": "06a9cd8fe654fac5.mp3",
+"seconds": 2.77
+},
+"mms-urd|slow|میں کھانا بنا رہا ہوں": {
+"file": "e81b2f08ed257178.mp3",
+"seconds": 2.15
+},
+"mms-urd|slow|میں کھانا بنا رہی ہوں": {
+"file": "898f43c6d33dd197.mp3",
+"seconds": 2.37
+},
+"mms-urd|slow|میں گھر پر ہوں": {
+"file": "c9a093a0127e34c1.mp3",
+"seconds": 1.75
 },
 "mms-urd|slow|نانا": {
 "file": "4bddf58f1a8d39f2.mp3",
@@ -919,9 +1623,25 @@
 "file": "4cd8fe2af0aa8e63.mp3",
 "seconds": 1.53
 },
+"mms-urd|slow|نانی، آپ نے کیوں تکلیف کی؟": {
+"file": "f4a73a791deab1d4.mp3",
+"seconds": 3.04
+},
+"mms-urd|slow|نانی، آپ کے ہاتھ میں بہت ذائقہ ہے": {
+"file": "a45d859cd663337d.mp3",
+"seconds": 4.37
+},
 "mms-urd|slow|نہیں": {
 "file": "30b1164f53e7a660.mp3",
 "seconds": 0.82
+},
+"mms-urd|slow|نہیں نہیں، بہت اچھا ہے!": {
+"file": "f7ea3d0b56eb66c9.mp3",
+"seconds": 2.42
+},
+"mms-urd|slow|وائس نوٹ بھیج دیجیے": {
+"file": "3ac23abbd2220eec.mp3",
+"seconds": 2.19
 },
 "mms-urd|slow|وعلیکم السلام": {
 "file": "9cf1a62f7d51a82d.mp3",
@@ -943,6 +1663,34 @@
 "file": "2f0ec4e5f4b78c4c.mp3",
 "seconds": 1.13
 },
+"mms-urd|slow|وہاں بہت گرمی ہے": {
+"file": "9463c407e9056028.mp3",
+"seconds": 2.11
+},
+"mms-urd|slow|وہاں موسم کیسا ہے؟": {
+"file": "5dbdc8d6c22b4122.mp3",
+"seconds": 2.24
+},
+"mms-urd|slow|وہاں کتنے بجے ہیں؟": {
+"file": "12da63c730c77d8e.mp3",
+"seconds": 2.24
+},
+"mms-urd|slow|ٹھیک ہے": {
+"file": "03eefd955e76225e.mp3",
+"seconds": 0.86
+},
+"mms-urd|slow|پانی": {
+"file": "7e343a5f771992e5.mp3",
+"seconds": 0.86
+},
+"mms-urd|slow|پانی ملے گا؟": {
+"file": "36db61d332df264c.mp3",
+"seconds": 1.35
+},
+"mms-urd|slow|پھر سے بولیے": {
+"file": "dc13edda383b60ae.mp3",
+"seconds": 1.35
+},
 "mms-urd|slow|پھر ملیں گے": {
 "file": "81befbc5effb70b8.mp3",
 "seconds": 1.13
@@ -954,6 +1702,26 @@
 "mms-urd|slow|پھپھو": {
 "file": "0c87de19f9b00d56.mp3",
 "seconds": 0.99
+},
+"mms-urd|slow|چائے": {
+"file": "f7f2a623e5c43262.mp3",
+"seconds": 0.73
+},
+"mms-urd|slow|چائے بہت اچھی ہے": {
+"file": "2418e4d8106fb114.mp3",
+"seconds": 1.97
+},
+"mms-urd|slow|چائے پئیں گے؟": {
+"file": "fd3dd536cb6b4090.mp3",
+"seconds": 1.26
+},
+"mms-urd|slow|چائے پیو گے؟": {
+"file": "83420d529a8f835b.mp3",
+"seconds": 1.17
+},
+"mms-urd|slow|چاول": {
+"file": "8bdfc210d7558195.mp3",
+"seconds": 0.91
 },
 "mms-urd|slow|چچا": {
 "file": "d7201333736a9342.mp3",
@@ -967,6 +1735,26 @@
 "file": "34f801c61252f389.mp3",
 "seconds": 0.79
 },
+"mms-urd|slow|چھے بجے؟ میں تو فجر سے اٹھی ہوئی ہوں!": {
+"file": "643c27caedeeb7eb.mp3",
+"seconds": 3.53
+},
+"mms-urd|slow|چینی": {
+"file": "e38ca72d38693c2b.mp3",
+"seconds": 0.91
+},
+"mms-urd|slow|چینی کم": {
+"file": "39b4034935b6eb7f.mp3",
+"seconds": 1.31
+},
+"mms-urd|slow|ڈائٹ؟! اتنے پتلے ہو!": {
+"file": "74d0ef729deecfcb.mp3",
+"seconds": 2.19
+},
+"mms-urd|slow|کب؟": {
+"file": "cc25f8bec1f31494.mp3",
+"seconds": 0.55
+},
 "mms-urd|slow|کتنے بھائی بہن ہو؟": {
 "file": "a6a6b1adcdea3e74.mp3",
 "seconds": 2.06
@@ -979,6 +1767,42 @@
 "file": "f93a438db04d69ea.mp3",
 "seconds": 1.57
 },
+"mms-urd|slow|کوئی تکلیف نہیں": {
+"file": "d0b4ed87a3f48128.mp3",
+"seconds": 1.75
+},
+"mms-urd|slow|کوئی تکلیف نہیں۔ کھاؤ!": {
+"file": "b2f51294736180b1.mp3",
+"seconds": 2.24
+},
+"mms-urd|slow|کون بول رہا ہے؟": {
+"file": "c7a65de4a56dffa1.mp3",
+"seconds": 1.75
+},
+"mms-urd|slow|کون؟": {
+"file": "4a9e411c33c5fb57.mp3",
+"seconds": 0.82
+},
+"mms-urd|slow|کھانا بہت اچھا ہے": {
+"file": "298f2c4cfe20d83b.mp3",
+"seconds": 2.15
+},
+"mms-urd|slow|کھانا لگ گیا ہے": {
+"file": "baf0abcb134ee57f.mp3",
+"seconds": 1.57
+},
+"mms-urd|slow|کھانا ٹھنڈا ہو رہا ہے": {
+"file": "b9d5d4436c0d694c.mp3",
+"seconds": 2.73
+},
+"mms-urd|slow|کھانا کیسا ہے؟": {
+"file": "084780719b655ad5.mp3",
+"seconds": 1.57
+},
+"mms-urd|slow|کہاں؟": {
+"file": "4f602c295bc050d3.mp3",
+"seconds": 0.77
+},
 "mms-urd|slow|کیا حال ہے بیٹا؟": {
 "file": "cd9fc2c9e6fada99.mp3",
 "seconds": 2.28
@@ -987,13 +1811,53 @@
 "file": "40ef64397e6f1237.mp3",
 "seconds": 1.31
 },
+"mms-urd|slow|کیا؟": {
+"file": "5da1e761b5788220.mp3",
+"seconds": 0.62
+},
 "mms-urd|slow|کیا؟!": {
 "file": "31fe716e374ada94.mp3",
 "seconds": 0.55
 },
+"mms-urd|slow|کیسے؟": {
+"file": "3ef3d1baac2e1f0a.mp3",
+"seconds": 0.77
+},
+"mms-urd|slow|کیوں؟": {
+"file": "270c1fec5ca492ef.mp3",
+"seconds": 0.82
+},
+"mms-urd|slow|گرم گرم": {
+"file": "3d258ef74637b059.mp3",
+"seconds": 1.02
+},
+"mms-urd|slow|گوشت": {
+"file": "e1e5c14d01ef3a3b.mp3",
+"seconds": 0.99
+},
 "mms-urd|slow|ہاں": {
 "file": "db3c8066699220d2.mp3",
 "seconds": 0.71
+},
+"mms-urd|slow|ہاں، اب آ رہی ہے! کیا کر رہے ہو؟": {
+"file": "c106aeea981aad09.mp3",
+"seconds": 4.19
+},
+"mms-urd|slow|ہاں؟ کیا؟ زور سے بولو!": {
+"file": "18d7ab9d66ae0ede.mp3",
+"seconds": 2.37
+},
+"mms-urd|slow|ہم آپ کو مس کر رہے ہیں": {
+"file": "440cdc16faa4ff94.mp3",
+"seconds": 2.59
+},
+"mms-urd|slow|ہیلو! ہیلو! بیٹا؟": {
+"file": "83d8023a84bf3529.mp3",
+"seconds": 1.71
+},
+"mms-urd|slow|ہیلو؟ آواز آ رہی ہے؟": {
+"file": "aab85e72d471ec0f.mp3",
+"seconds": 2.59
 },
 "mms-urd|slow|یہ میرا بھائی ہے": {
 "file": "29cfba6f331d3a3e.mp3",
@@ -1019,8 +1883,24 @@
 "file": "9219c93174a0aa56.mp3",
 "seconds": 1.93
 },
+"mms-urd|slow|یہ کس نے بنایا؟": {
+"file": "7be27b3947a2fd03.mp3",
+"seconds": 1.84
+},
 "mms-urd|slow|یہ کون ہیں؟": {
 "file": "5282bc53b72ace47.mp3",
 "seconds": 1.48
+},
+"mms-urd|slow|یہ کیا ہے؟": {
+"file": "44a1040f4b2a626e.mp3",
+"seconds": 1.26
+},
+"mms-urd|slow|یہاں بہت سردی ہے": {
+"file": "9f13083f159058ab.mp3",
+"seconds": 2.15
+},
+"mms-urd|slow|یہاں رات ہے": {
+"file": "27c2985b5cdb812a.mp3",
+"seconds": 1.44
 }
 }

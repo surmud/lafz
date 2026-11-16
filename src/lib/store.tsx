@@ -36,14 +36,16 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const [ready, setReady] = useState(false);
   const [progress, setProgress] = useState<Progress>(emptyProgress);
   const ref = useRef(progress);
+  // Every update waits for the initial load, so an early save can never overwrite stored progress.
+  const loaded = useRef<Promise<void> | null>(null);
 
   useEffect(() => {
     let alive = true;
-    loadProgress()
+    loaded.current = loadProgress()
       .catch(() => emptyProgress)
       .then((p) => {
-        if (!alive) return;
         ref.current = p;
+        if (!alive) return;
         setProgress(p);
         setReady(true);
       });
@@ -53,6 +55,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const update = useCallback(async (fn: (p: Progress) => Progress) => {
+    await loaded.current;
     const next = fn(ref.current);
     ref.current = next;
     setProgress(next);

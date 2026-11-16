@@ -1,0 +1,19 @@
+{
+  "name": "Lafz — Urdu for real family life",
+  "short_name": "Lafz",
+  "description": "Free Urdu course for heritage learners and beginners. No ads, no hearts. Works offline.",
+  "start_url": "/lafz/",
+  "scope": "/lafz/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf4e8",
+  "theme_color": "#0f7a73",
+  "lang": "en",
+  "categories": ["education"],
+  "icons": [
+    { "src": "/lafz/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/lafz/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/lafz/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/lafz/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

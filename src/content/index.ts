@@ -81,8 +81,18 @@ export function courseMeta(): UnitMeta[] {
   }));
 }
 
-/** Only the phrases a set of ids needs (for review, packs, placement). */
+/**
+ * The client never needs provenance (sources, confidence): strip it so pages stay small.
+ * Sources stay in the repo and are shown on the credits page in aggregate.
+ */
+export function slim(p: Phrase): Phrase {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { sources, confidence, ...rest } = p;
+  return { ...rest, sources: [], confidence } as Phrase;
+}
+
+/** Only the phrases a set of ids needs (for review, packs, placement), slimmed for the client. */
 export function pickPhrases(ids: Iterable<string>): Phrase[] {
   const all = allPhrases();
-  return [...new Set(ids)].map((id) => all.get(id)).filter((p): p is Phrase => Boolean(p));
+  return [...new Set(ids)].map((id) => all.get(id)).filter((p): p is Phrase => Boolean(p)).map(slim);
 }
