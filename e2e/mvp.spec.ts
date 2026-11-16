@@ -30,7 +30,7 @@ test("placement → suggested unit → Unit 1 Lesson 1 complete", async ({ page 
     expect(q).toBeLessThan(10);
   }
   await shot("placement-result");
-  await expect(page.getByRole("heading", { name: /Start at Unit [2-9]/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /Start at Unit ([2-9]|1[0-2])$/ })).toBeVisible();
   // Skipped units stay open: go back and do Unit 1 Lesson 1 anyway.
   await page.getByRole("link", { name: "See the whole course" }).click();
   await expect(page.getByText("Skipped · review anytime").first()).toBeVisible();

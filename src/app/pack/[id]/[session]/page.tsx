@@ -23,7 +23,6 @@ export default async function PackSession({ params }: { params: Promise<{ id: st
   const idx = pack.sessions.findIndex((s) => s.id === session);
   const s = pack.sessions[idx]!;
   const next = pack.sessions[idx + 1];
-  const phrases = pickPhrases(s.phrases);
   // Distractor pool: every phrase in the pack, so options stay on-topic.
   const pool = pickPhrases(pack.sessions.flatMap((x) => x.phrases));
   return (

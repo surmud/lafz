@@ -362,5 +362,227 @@
       "phrase": "u07.kal-jayenge",
       "prompt": "Type: “We will go tomorrow”"
     }
+  },
+  {
+    "id": "p08-0",
+    "level": 8,
+    "skill": "reply",
+    "exercise": {
+      "type": "say",
+      "phrase": "u08.bhook",
+      "prompt": "Dinner is late. Say you are hungry.",
+      "distractors": [
+        "u08.pyaas",
+        "u08.neend"
+      ]
+    }
+  },
+  {
+    "id": "p08-1",
+    "level": 8,
+    "skill": "meaning",
+    "exercise": {
+      "type": "meaning",
+      "phrase": "u08.nazar"
+    }
+  },
+  {
+    "id": "p08-2",
+    "level": 8,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u08.urdu-bol-sakta",
+      "prompt": "You are a guy. Type: “I can speak Urdu”"
+    }
+  },
+  {
+    "id": "p09-0",
+    "level": 9,
+    "skill": "meaning",
+    "exercise": {
+      "type": "meaning",
+      "phrase": "u09.kya-karte"
+    }
+  },
+  {
+    "id": "p09-1",
+    "level": 9,
+    "skill": "reply",
+    "exercise": {
+      "type": "gap",
+      "phrase": "u09.kal-aayi",
+      "word": {
+        "roman": "aayi",
+        "urdu": "آئی"
+      },
+      "distractors": [
+        {
+          "roman": "aaya",
+          "urdu": "آیا"
+        },
+        {
+          "roman": "aaye",
+          "urdu": "آئے"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p09-2",
+    "level": 9,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u09.pakistan-gaya",
+      "prompt": "You are a guy. Type: “I went to Pakistan”"
+    }
+  },
+  {
+    "id": "p10-0",
+    "level": 10,
+    "skill": "reply",
+    "exercise": {
+      "type": "say",
+      "phrase": "u10.afsos",
+      "prompt": "A friend tells you their grandfather has passed away.",
+      "distractors": [
+        "u10.mubarakbaad",
+        "u10.eid-mubarak"
+      ]
+    }
+  },
+  {
+    "id": "p10-1",
+    "level": 10,
+    "skill": "meaning",
+    "exercise": {
+      "type": "gap",
+      "phrase": "u10.maine-roti-khayi",
+      "word": {
+        "roman": "khayi",
+        "urdu": "کھائی"
+      },
+      "distractors": [
+        {
+          "roman": "khaya",
+          "urdu": "کھایا"
+        },
+        {
+          "roman": "khaye",
+          "urdu": "کھائے"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p10-2",
+    "level": 10,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u10.eid-mubarak",
+      "prompt": "Type: “Happy Eid!”"
+    }
+  },
+  {
+    "id": "p11-0",
+    "level": 11,
+    "skill": "meaning",
+    "exercise": {
+      "type": "meaning",
+      "phrase": "u11.log-kya"
+    }
+  },
+  {
+    "id": "p11-1",
+    "level": 11,
+    "skill": "register",
+    "exercise": {
+      "type": "respect",
+      "situation": "Abbu is explaining your phone to you. Wrongly.",
+      "listener": "Abbu",
+      "options": [
+        {
+          "phrase": "u11.theek-keh-rahe",
+          "verdict": "right",
+          "feedback": "Diplomacy."
+        },
+        {
+          "phrase": "u11.mat-sikhao",
+          "verdict": "wrong",
+          "feedback": "Never to Abbu."
+        },
+        {
+          "phrase": "u11.chal-hat",
+          "verdict": "wrong",
+          "feedback": "Absolutely not."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p11-2",
+    "level": 11,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u11.kha-lo",
+      "prompt": "Type: “Eat it up”"
+    }
+  },
+  {
+    "id": "p12-0",
+    "level": 12,
+    "skill": "meaning",
+    "exercise": {
+      "type": "mc",
+      "prompt": "Which word means “suddenly”?",
+      "options": [
+        {
+          "phrase": "u12.achanak"
+        },
+        {
+          "phrase": "u12.aakhir-mein"
+        },
+        {
+          "phrase": "u12.lekin"
+        }
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": "p12-1",
+    "level": 12,
+    "skill": "reply",
+    "exercise": {
+      "type": "gap",
+      "phrase": "u12.khala-ro",
+      "word": {
+        "roman": "thi",
+        "urdu": "تھی"
+      },
+      "distractors": [
+        {
+          "roman": "tha",
+          "urdu": "تھا"
+        },
+        {
+          "roman": "the",
+          "urdu": "تھے"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p12-2",
+    "level": 12,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u12.phir-kya-hua",
+      "prompt": "Type: “Then what happened?”"
+    }
   }
 ]
