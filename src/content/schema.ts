@@ -32,6 +32,8 @@ export const PhraseSchema = z.strictObject({
   accept: z.array(z.string()).optional(),
   /** Text sent to TTS when the display text would be read badly (single letters). */
   tts: z.string().optional(),
+  /** Phrases sharing a sense ("greet", "bye", "thanks"…) are never used as each other's distractors. */
+  sense: z.string().optional(),
   /** Character who typically says it (for avatars in exercises). */
   speaker: id.optional(),
 });

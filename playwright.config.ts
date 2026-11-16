@@ -11,6 +11,7 @@ export default defineConfig({
   use: {
     baseURL: `http://localhost:${PORT}/lafz/`,
     trace: "retain-on-failure",
+    contextOptions: { reducedMotion: "reduce" },
   },
   projects: [
     { name: "iphone", use: { ...devices["iPhone 13"], browserName: "chromium", viewport: { width: 375, height: 812 } } },

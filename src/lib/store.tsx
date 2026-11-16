@@ -1,0 +1,87 @@
+"use client";
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
+import { emptyProgress, type Progress } from "@/engine/progress";
+import { localDay } from "@/engine/streak";
+import { loadProgress, saveProgress } from "@/storage/db";
+
+/**
+ * The learner's progress, loaded from IndexedDB once and saved on every change.
+ * `today()` honours a `?today=YYYY-MM-DD` override (persisted for the session) so persona tests
+ * can mock the clock (Away-for-a-week Ayesha).
+ */
+interface Store {
+  ready: boolean;
+  progress: Progress;
+  update: (fn: (p: Progress) => Progress) => Promise<Progress>;
+  replace: (p: Progress) => void;
+}
+
+const Ctx = createContext<Store | null>(null);
+
+export function today(): string {
+  if (typeof window !== "undefined") {
+    try {
+      const q = new URLSearchParams(location.search).get("today");
+      if (q && /^\d{4}-\d{2}-\d{2}$/.test(q)) sessionStorage.setItem("lafz.today", q);
+      const s = sessionStorage.getItem("lafz.today");
+      if (s) return s;
+    } catch {
+      /* ignore */
+    }
+  }
+  return localDay(new Date());
+}
+
+export function StoreProvider({ children }: { children: React.ReactNode }) {
+  const [ready, setReady] = useState(false);
+  const [progress, setProgress] = useState<Progress>(emptyProgress);
+  const ref = useRef(progress);
+
+  useEffect(() => {
+    let alive = true;
+    loadProgress()
+      .catch(() => emptyProgress)
+      .then((p) => {
+        if (!alive) return;
+        ref.current = p;
+        setProgress(p);
+        setReady(true);
+      });
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  const update = useCallback(async (fn: (p: Progress) => Progress) => {
+    const next = fn(ref.current);
+    ref.current = next;
+    setProgress(next);
+    await saveProgress(next).catch(() => undefined);
+    return next;
+  }, []);
+
+  const replace = useCallback((p: Progress) => {
+    ref.current = p;
+    setProgress(p);
+  }, []);
+
+  const value = useMemo(() => ({ ready, progress, update, replace }), [ready, progress, update, replace]);
+  return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
+}
+
+export function useStore(): Store {
+  const s = useContext(Ctx);
+  if (!s) throw new Error("useStore outside StoreProvider");
+  return s;
+}
+
+/** Replace "Khala" etc. with the learner's own relatives' names where they set them. */
+export function personalise(text: string, relatives: Record<string, string>): string {
+  let out = text;
+  for (const [role, name] of Object.entries(relatives)) {
+    if (!name.trim()) continue;
+    const label = role.charAt(0).toUpperCase() + role.slice(1);
+    out = out.replace(new RegExp(`\\b${label}\\b(?! ji)`, "g"), `${label} (${name.trim()})`);
+  }
+  return out;
+}

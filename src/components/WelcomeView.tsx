@@ -1,0 +1,125 @@
+"use client";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import type { Character } from "@/content/schema";
+import { useStore } from "@/lib/store";
+import { Avatar } from "./Avatar";
+import { Nastaliq } from "./Phrase";
+import { Button, TruckStripe } from "./ui";
+
+type Step = "hello" | "who" | "names";
+
+const ROLES = [
+  { key: "khala", label: "Your mum's sister (Khala)" },
+  { key: "phuppo", label: "Your dad's sister (Phuppo)" },
+  { key: "nani", label: "Mum's mum (Nani)" },
+  { key: "dadi", label: "Dad's mum (Dadi)" },
+];
+
+export function WelcomeView({ characters }: { characters: Character[] }) {
+  const { update } = useStore();
+  const router = useRouter();
+  const [step, setStep] = useState<Step>("hello");
+  const [kind, setKind] = useState<"heritage" | "beginner" | null>(null);
+  const [names, setNames] = useState<Record<string, string>>({});
+
+  const finish = async (to: "placement" | "home") => {
+    await update((p) => ({
+      ...p,
+      profile: { ...p.profile, kind, onboarded: true, relatives: Object.fromEntries(Object.entries(names).filter(([, v]) => v.trim())) },
+    }));
+    router.push(to === "placement" ? "/placement/" : "/");
+  };
+
+  return (
+    <>
+      <TruckStripe />
+      <main className="flex min-h-[calc(100dvh-6px)] flex-col px-5 pt-10 pb-8">
+        {step === "hello" ? (
+          <div className="flex flex-1 animate-rise flex-col">
+            <Nastaliq className="self-center text-7xl text-rose">لفظ</Nastaliq>
+            <h1 className="mt-2 text-center font-display text-4xl font-bold">Lafz</h1>
+            <p className="mt-2 text-center text-lg text-ink-soft">Urdu for real family life. From “Salaam” to surviving the shaadi.</p>
+            <div className="mt-8 flex justify-center -space-x-3">
+              {characters.slice(0, 5).map((c) => (
+                <Avatar key={c.id} character={c} />
+              ))}
+            </div>
+            <ul className="mx-auto mt-8 flex max-w-xs flex-col gap-2 text-[15px]">
+              <li>💚 Mistakes are free. No hearts, no lockouts.</li>
+              <li>😴 Your streak rests, it never resets.</li>
+              <li>📵 No ads, no account. Everything stays on this phone.</li>
+            </ul>
+            <Button block className="mt-auto" onClick={() => setStep("who")}>
+              Let&apos;s go
+            </Button>
+          </div>
+        ) : step === "who" ? (
+          <div className="flex flex-1 animate-rise flex-col gap-4">
+            <h1 className="font-display text-3xl font-bold">Which one is you?</h1>
+            {[
+              { k: "heritage" as const, t: "I understand some Urdu but freeze when I speak", s: "Classic heritage kid. We'll find your level and skip what you know.", e: "🫣" },
+              { k: "beginner" as const, t: "I'm starting from zero", s: "Married in? Curious? Welcome to the family. We start with salaam.", e: "🌱" },
+            ].map((o) => (
+              <button
+                key={o.k}
+                type="button"
+                onClick={() => setKind(o.k)}
+                aria-pressed={kind === o.k}
+                className={`flex gap-4 rounded-3xl border-2 p-4 text-left transition ${kind === o.k ? "border-primary bg-primary-soft" : "border-line bg-surface"}`}
+              >
+                <span className="text-4xl" aria-hidden>
+                  {o.e}
+                </span>
+                <span>
+                  <span className="block text-lg font-bold">{o.t}</span>
+                  <span className="text-sm text-ink-soft">{o.s}</span>
+                </span>
+              </button>
+            ))}
+            <Button block className="mt-auto" disabled={!kind} onClick={() => setStep("names")}>
+              Next
+            </Button>
+          </div>
+        ) : (
+          <div className="flex flex-1 animate-rise flex-col gap-4">
+            <h1 className="font-display text-3xl font-bold">Who&apos;s in your family?</h1>
+            <p className="text-ink-soft">Optional. Add names and the course will mention them. Stays on this phone.</p>
+            {ROLES.map((r) => (
+              <label key={r.key} className="flex flex-col gap-1">
+                <span className="text-sm font-bold">{r.label}</span>
+                <input
+                  value={names[r.key] ?? ""}
+                  onChange={(e) => setNames((n) => ({ ...n, [r.key]: e.target.value }))}
+                  placeholder="e.g. Shabnam"
+                  className="min-h-12 rounded-2xl border-2 border-line bg-surface px-4 text-lg outline-none focus:border-primary"
+                />
+              </label>
+            ))}
+            <div className="mt-auto flex flex-col gap-3">
+              {kind === "heritage" ? (
+                <>
+                  <Button block onClick={() => finish("placement")}>
+                    Find my level (2 min)
+                  </Button>
+                  <Button block variant="secondary" onClick={() => finish("home")}>
+                    Start from Unit 1
+                  </Button>
+                </>
+              ) : (
+                <>
+                  <Button block onClick={() => finish("home")}>
+                    Start with Salaam
+                  </Button>
+                  <Button block variant="ghost" onClick={() => finish("placement")}>
+                    Actually, test me first
+                  </Button>
+                </>
+              )}
+            </div>
+          </div>
+        )}
+      </main>
+    </>
+  );
+}

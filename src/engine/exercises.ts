@@ -135,6 +135,7 @@ export function stripPunct(s: string): string {
 function sameMeaning(a: Phrase, b: Phrase): boolean {
   return (
     a.id === b.id ||
+    (a.sense !== undefined && a.sense === b.sense) ||
     normalise(a.en) === normalise(b.en) ||
     normalise(a.roman) === normalise(b.roman) ||
     stripPunct(a.urdu) === stripPunct(b.urdu)

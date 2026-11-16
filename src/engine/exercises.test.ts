@@ -238,3 +238,17 @@ describe("generateDrill", () => {
     expect(generateDrill(["t.salam", "t.khuda"], 1).some((d) => d.type === "match")).toBe(false);
   });
 });
+
+describe("distractor senses", () => {
+  test("phrases with the same sense never distract each other", () => {
+    const withSense = PHRASES.map((p) =>
+      p.id === "t.salam" || p.id === "t.wsalam" ? { ...p, sense: "greet" } : p,
+    );
+    const c: ResolveContext = { phrases: new Map(withSense.map((p) => [p.id, p])), pool: withSense };
+    for (let seed = 0; seed < 20; seed++) {
+      const r = resolveExercise({ type: "meaning", phrase: "t.salam" }, `s#${seed}`, c);
+      if (r.type !== "choice") throw new Error();
+      expect(r.options.map((o) => o.text)).not.toContain("And peace upon you (reply)");
+    }
+  });
+});

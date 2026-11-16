@@ -58,7 +58,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85"
         }
-      ]
+      ],
+      "sense": "greet"
     },
     {
       "id": "u01.wsalam",
@@ -92,7 +93,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85#Urdu"
         }
-      ]
+      ],
+      "sense": "greet"
     },
     {
       "id": "u01.salaam",
@@ -113,7 +115,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85#Urdu"
         }
-      ]
+      ],
+      "sense": "greet"
     },
     {
       "id": "u01.ji",
@@ -135,7 +138,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%AC%DB%8C#Urdu"
         }
-      ]
+      ],
+      "sense": "yes"
     },
     {
       "id": "u01.aap-kaise-hain",
@@ -181,7 +185,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
         }
-      ]
+      ],
+      "sense": "how"
     },
     {
       "id": "u01.aap-kaisi-hain",
@@ -221,7 +226,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
         }
-      ]
+      ],
+      "sense": "how"
     },
     {
       "id": "u01.kya-haal-hai",
@@ -267,7 +273,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
         }
-      ]
+      ],
+      "sense": "how"
     },
     {
       "id": "u01.main-theek-hoon",
@@ -306,7 +313,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88%DA%BA#Urdu"
         }
-      ]
+      ],
+      "sense": "fine"
     },
     {
       "id": "u01.alhamdulillah",
@@ -329,7 +337,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%84%D8%AD%D9%85%D8%AF%20%D9%84%D9%84%DB%81#Urdu"
         }
-      ]
+      ],
+      "sense": "fine"
     },
     {
       "id": "u01.sab-theek-hai",
@@ -368,7 +377,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
         }
-      ]
+      ],
+      "sense": "fine"
     },
     {
       "id": "u01.aur-aap",
@@ -422,7 +432,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D8%B1%DB%8C%DB%81#Urdu"
         }
-      ]
+      ],
+      "sense": "thanks"
     },
     {
       "id": "u01.aap",
@@ -444,7 +455,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%BE#Urdu"
         }
-      ]
+      ],
+      "sense": "you"
     },
     {
       "id": "u01.tum",
@@ -466,7 +478,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%AA%D9%85#Urdu"
         }
-      ]
+      ],
+      "sense": "you"
     },
     {
       "id": "u01.tu",
@@ -488,7 +501,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%AA%D9%88#Urdu"
         }
-      ]
+      ],
+      "sense": "you"
     },
     {
       "id": "u01.main",
@@ -555,7 +569,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88#Urdu"
         }
-      ]
+      ],
+      "sense": "how"
     },
     {
       "id": "u01.tum-kaisi-ho",
@@ -595,7 +610,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88#Urdu"
         }
-      ]
+      ],
+      "sense": "how"
     },
     {
       "id": "u01.tu-kaisa-hai",
@@ -635,7 +651,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
         }
-      ]
+      ],
+      "sense": "how"
     },
     {
       "id": "u01.ji-haan",
@@ -669,7 +686,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%D8%A7%DA%BA#Urdu"
         }
-      ]
+      ],
+      "sense": "yes"
     },
     {
       "id": "u01.ji-nahin",
@@ -703,7 +721,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
         }
-      ]
+      ],
+      "sense": "no"
     },
     {
       "id": "u01.haan",
@@ -725,7 +744,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%D8%A7%DA%BA#Urdu"
         }
-      ]
+      ],
+      "sense": "yes"
     },
     {
       "id": "u01.nahin",
@@ -746,7 +766,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
         }
-      ]
+      ],
+      "sense": "no"
     },
     {
       "id": "u01.bohat-shukriya",
@@ -779,7 +800,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D8%B1%DB%8C%DB%81#Urdu"
         }
-      ]
+      ],
+      "sense": "thanks"
     },
     {
       "id": "u01.meherbani",
@@ -802,7 +824,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D9%85%DB%81%D8%B1%D8%A8%D8%A7%D9%86#Urdu"
         }
-      ]
+      ],
+      "sense": "thanks"
     },
     {
       "id": "u01.maaf-kijiye",
@@ -910,7 +933,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%A7%DA%86%DA%BE%D8%A7#Urdu"
         }
-      ]
+      ],
+      "sense": "yes"
     },
     {
       "id": "u01.aap-ka-naam",
@@ -1214,7 +1238,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
         }
-      ]
+      ],
+      "sense": "parent"
     },
     {
       "id": "u01.yeh-mere-abbu",
@@ -1265,7 +1290,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
         }
-      ]
+      ],
+      "sense": "parent"
     },
     {
       "id": "u01.beta",
@@ -1324,7 +1350,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D9%81%D8%B8#Urdu"
         }
-      ]
+      ],
+      "sense": "bye"
     },
     {
       "id": "u01.allah-hafiz",
@@ -1361,7 +1388,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D9%81%D8%B8#Urdu"
         }
-      ]
+      ],
+      "sense": "bye"
     },
     {
       "id": "u01.phir-milenge",
@@ -1404,7 +1432,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
         }
-      ]
+      ],
+      "sense": "bye"
     },
     {
       "id": "u01.apna-khayal",
@@ -1548,7 +1577,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%AE%DB%8C%D8%B1#Urdu"
         }
-      ]
+      ],
+      "sense": "bye"
     },
     {
       "id": "u01.inshallah",
@@ -1671,7 +1701,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%D8%A7#Urdu"
         }
-      ]
+      ],
+      "sense": "greet"
     },
     {
       "id": "u01.b.wsalam-khala",
@@ -1728,7 +1759,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%AC%DB%8C#Urdu"
         }
-      ]
+      ],
+      "sense": "greet"
     },
     {
       "id": "u01.b.kya-haal-beta",
@@ -1786,7 +1818,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%D8%A7#Urdu"
         }
-      ]
+      ],
+      "sense": "how"
     },
     {
       "id": "u01.b.theek-aap-kaisi",
@@ -1911,7 +1944,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
         }
-      ]
+      ],
+      "sense": "fine"
     },
     {
       "id": "u01.b.tu-kaisi-hai",
@@ -1951,7 +1985,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
         }
-      ]
+      ],
+      "sense": "how"
     },
     {
       "id": "u01.b.kya",
@@ -2100,7 +2135,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%84%D8%AD%D9%85%D8%AF%20%D9%84%D9%84%DB%81#Urdu"
         }
-      ]
+      ],
+      "sense": "fine"
     },
     {
       "id": "u01.b.ammi-kaisi-hain",
@@ -2335,7 +2371,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D8%AC%DB%8C#Urdu"
         }
-      ]
+      ],
+      "sense": "thanks"
     },
     {
       "id": "u01.b.ji-meherbani",
@@ -2373,7 +2410,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D9%85%DB%81%D8%B1%D8%A8%D8%A7%D9%86#Urdu"
         }
-      ]
+      ],
+      "sense": "thanks"
     },
     {
       "id": "u01.b.ammi-ko-salaam",
