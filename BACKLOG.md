@@ -72,7 +72,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 
 - [x] **G6 Reading R1–R5 depth.** Each reading unit has 3 lessons; add a "build the word from letters"
   exercise and a 4th lesson of mixed review before R6.
-- [ ] **G7 Page weight as units grow.** Each lesson page embeds its unit's phrase pool; watch HTML size
+- [x] **G7 Page weight as units grow.** (precache is now the app shell only, 2.3 MB; lesson pages cache on use or per-unit download) Each lesson page embeds its unit's phrase pool; watch HTML size
   (now 35–60 KB) and the precache (2.8 MB) as units 5–12 land.
 
 - [ ] **G8 Family voice: real-mic E2E.** Headless Chromium can't open a fake mic in this setup; the test

@@ -24,8 +24,12 @@ const files = walk(OUT)
   .filter((f) => !f.endsWith(".txt") && !f.endsWith(".woff") && !f.endsWith(".ttf"))
   .filter((f) => !(/\.woff2$/.test(f) && /latin-ext|vietnamese|cyrillic|greek/.test(f)));
 
-const shell = files.map((f) => `${BASE}/${f.replace(/index\.html$/, "")}`);
-const size = files.reduce((n, f) => n + fs.statSync(path.join(OUT, f)).size, 0);
+// Lesson, boss, pack-session and voice pages are cached on use or by "Download this unit"; everything
+// else (home, unit maps, tabs, static assets) is precached so the app opens offline.
+const onDemand = /^(lesson|boss|voice)\/|^pack\/[^/]+\/[^/]+\//;
+const shellFiles = files.filter((f) => !onDemand.test(f));
+const shell = shellFiles.map((f) => `${BASE}/${f.replace(/index\.html$/, "")}`);
+const size = shellFiles.reduce((n, f) => n + fs.statSync(path.join(OUT, f)).size, 0);
 const version = crypto.createHash("sha256").update(files.map((f) => f + fs.statSync(path.join(OUT, f)).size).join("|")).digest("hex").slice(0, 12);
 
 // Per-unit audio lists
