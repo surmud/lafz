@@ -1,0 +1,2671 @@
+{
+  "id": "u07",
+  "track": "speaking",
+  "order": 7,
+  "title": "Shaadi Season",
+  "titleUrdu": "شادی کا موسم",
+  "emoji": "💃",
+  "tagline": "Mehndi, baraat, walima, and 300 aunties asking when you're next.",
+  "canDo": "You can get through a Pakistani wedding season, in Urdu",
+  "grammar": [
+    {
+      "title": "Future tense",
+      "body": "Verb stem + ending + ga/gi/ge. main jaunga (I'll go, man), main jaungi (woman), tum jaoge, woh jayega/jayegi, hum/aap jayenge. The ga/gi/ge matches the speaker's gender and number, and in Urdu script it's written as a separate word: جاؤں گا."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "u07.shaadi",
+      "roman": "shaadi",
+      "urdu": "شادی",
+      "en": "wedding / marriage",
+      "confidence": "high",
+      "accept": [
+        "shadi"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "شادی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D8%A7%D8%AF%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "شادی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D8%AF%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.mehndi",
+      "roman": "mehndi",
+      "urdu": "مہندی",
+      "en": "henna night (the fun pre-wedding party)",
+      "confidence": "high",
+      "accept": [
+        "mehendi",
+        "mehandi"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "مہندی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%DB%81%D9%86%D8%AF%DB%8C&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مہندی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%81%D9%86%D8%AF%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.baraat",
+      "roman": "baraat",
+      "urdu": "بارات",
+      "en": "the groom's procession (wedding day)",
+      "confidence": "high",
+      "accept": [
+        "barat"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بارات",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بارات",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.walima",
+      "roman": "walima",
+      "urdu": "ولیمہ",
+      "en": "the reception, hosted by the groom's family",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ولیمہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D9%84%D9%8A%D9%85%D9%87&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "u07.dulha",
+      "roman": "dulha",
+      "urdu": "دولہا",
+      "en": "groom",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دولہا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%88%D9%84%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دولہا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88%D9%84%DB%81%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.dulhan",
+      "roman": "dulhan",
+      "urdu": "دلہن",
+      "en": "bride",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دلہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%84%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دلہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%84%DB%81%D9%86#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.dholki",
+      "roman": "dholki",
+      "urdu": "ڈھولکی",
+      "en": "drum night: singing, clapping, aunties' songs",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "ڈھولک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%88%DA%BE%D9%88%D9%84%DA%A9#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.salami",
+      "roman": "salami",
+      "urdu": "سلامی",
+      "en": "gift money (in an envelope)",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سلامی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%84%D8%A7%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "u07.mubarak-ho",
+      "roman": "mubarak ho!",
+      "urdu": "مبارک ہو!",
+      "en": "Congratulations!",
+      "confidence": "high",
+      "sense": "congrats",
+      "accept": [
+        "mubarak ho"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "مبارک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%A8%D8%A7%D8%B1%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مبارک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%A8%D8%A7%D8%B1%DA%A9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.shaadi-mubarak",
+      "roman": "shaadi mubarak!",
+      "urdu": "شادی مبارک!",
+      "en": "Happy wedding! (to the couple or family)",
+      "confidence": "high",
+      "sense": "congrats",
+      "accept": [
+        "shadi mubarak"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "شادی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D8%A7%D8%AF%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "شادی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D8%AF%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "مبارک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%A8%D8%A7%D8%B1%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مبارک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%A8%D8%A7%D8%B1%DA%A9#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.khair-mubarak",
+      "roman": "khair mubarak",
+      "urdu": "خیر مبارک",
+      "en": "Thank you (reply to mubarak)",
+      "confidence": "high",
+      "note": "The automatic reply to any 'mubarak'.",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خیر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D9%8A%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خیر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%DB%8C%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "مبارک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%A8%D8%A7%D8%B1%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مبارک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%A8%D8%A7%D8%B1%DA%A9#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.naachunga",
+      "roman": "main naachunga",
+      "urdu": "میں ناچوں گا",
+      "en": "I'll dance (man)",
+      "confidence": "high",
+      "sense": "dance",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ناچ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%DA%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ناچ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%DA%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.naachungi",
+      "roman": "main naachungi",
+      "urdu": "میں ناچوں گی",
+      "en": "I'll dance (woman)",
+      "confidence": "high",
+      "sense": "dance",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ناچ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%DA%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ناچ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%DA%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.nahin-naachunga",
+      "roman": "main nahin naachunga",
+      "urdu": "میں نہیں ناچوں گا",
+      "en": "I will NOT dance (man)",
+      "confidence": "high",
+      "sense": "nodance",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ناچ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%DA%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ناچ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%DA%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.kya-pehnenge",
+      "roman": "aap kya pehnenge?",
+      "urdu": "آپ کیا پہنیں گے؟",
+      "en": "What will you wear?",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%BE&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%BE#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کیا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کیا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.shalwar-kameez",
+      "roman": "main shalwar kameez pehnunga",
+      "urdu": "میں شلوار قمیض پہنوں گا",
+      "en": "I'll wear shalwar kameez (man)",
+      "confidence": "high",
+      "accept": [
+        "main shalwar qameez pehnunga"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "شلوار",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D9%84%D9%88%D8%A7%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "قمیض",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%82%D9%85%DB%8C%D8%B6#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.kal-jayenge",
+      "roman": "hum kal jayenge",
+      "urdu": "ہم کل جائیں گے",
+      "en": "We'll go tomorrow",
+      "confidence": "high",
+      "accept": [
+        "hum kal jaenge"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ہم",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہم",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%85#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کل",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%84&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کل",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%84#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "جانا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "جانا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.khana-kab",
+      "roman": "khana kab milega?",
+      "urdu": "کھانا کب ملے گا؟",
+      "en": "When will the food be served?",
+      "confidence": "high",
+      "note": "Asked at every wedding at 11pm. Food is served at 1am.",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "کھانا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کھانا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%D8%A7%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کب",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%A8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کب",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A8#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ملے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%84%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.dulhan-khoobsurat",
+      "roman": "dulhan bohat khoobsurat hai",
+      "urdu": "دلہن بہت خوبصورت ہے",
+      "en": "The bride looks beautiful",
+      "confidence": "high",
+      "accept": [
+        "dulhan bohat khubsurat hai"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دلہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%84%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دلہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%84%DB%81%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D8%AA#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خوبصورت",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A8%D8%B5%D9%88%D8%B1%D8%AA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.agla-number",
+      "roman": "agla number tumhara hai!",
+      "urdu": "اگلا نمبر تمہارا ہے!",
+      "en": "You're next!",
+      "confidence": "high",
+      "register": "casual",
+      "note": "Said by every aunty to every single person at every wedding.",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "اگلا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%DA%AF%D9%84%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اگلا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DA%AF%D9%84%D8%A7#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نمبر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D9%85%D8%A8%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "تمہارا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D9%85%D9%87%D8%A7%D8%B1%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تمہارا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%D9%85%DB%81%D8%A7%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.jald-hi",
+      "roman": "Inshallah, jald hi",
+      "urdu": "ان شاء اللہ، جلد ہی",
+      "en": "God willing, soon",
+      "confidence": "high",
+      "accept": [
+        "inshallah jald hi",
+        "jald hi"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ان",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ان",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%86#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ان شاء اللہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%86%20%D8%B4%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اللہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%84%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اللہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%84%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "جلد",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D9%84%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "جلد",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AC%D9%84%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.kab-shaadi",
+      "roman": "tum kab shaadi karoge?",
+      "urdu": "تم کب شادی کرو گے؟",
+      "en": "When will you get married?",
+      "confidence": "high",
+      "accept": [
+        "tum kab shadi karoge"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "تم",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تم",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%D9%85#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کب",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%A8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کب",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A8#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "شادی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%D8%A7%D8%AF%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "شادی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D8%AF%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کرو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B1%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کرو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%B1%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.pata-nahin",
+      "roman": "pata nahin",
+      "urdu": "پتا نہیں",
+      "en": "No idea / who knows",
+      "confidence": "high",
+      "accept": [
+        "pata nai",
+        "patta nahin"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پتا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%AA%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پتا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%AA%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.aa-gaye",
+      "roman": "Aa gaye! Mehndi pe bohat der se aaye ho",
+      "urdu": "آ گئے! مہندی پہ بہت دیر سے آئے ہو",
+      "en": "There you are! You're very late to the mehndi",
+      "confidence": "high",
+      "speaker": "khala",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "آ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "جانا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "جانا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "مہندی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%DB%81%D9%86%D8%AF%DB%8C&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مہندی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%81%D9%86%D8%AF%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D8%AA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "دیر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%8A%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "سے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "آئے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D8%A6%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "ہو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.mubarak-khala",
+      "roman": "Mubarak ho, Khala!",
+      "urdu": "مبارک ہو خالہ!",
+      "en": "Congratulations, Khala!",
+      "confidence": "high",
+      "accept": [
+        "mubarak ho khala",
+        "mubarak ho"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "مبارک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%A8%D8%A7%D8%B1%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مبارک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%A8%D8%A7%D8%B1%DA%A9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%DB%81#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.traffic",
+      "roman": "Traffic tha, Khala",
+      "urdu": "ٹریفک تھا خالہ",
+      "en": "There was traffic, Khala",
+      "confidence": "medium",
+      "register": "casual",
+      "accept": [
+        "traffic tha"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "تھا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تھا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%DA%BE%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%DB%81#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.khair-mubarak",
+      "roman": "Khair mubarak, beta! Chalo, ab naacho!",
+      "urdu": "خیر مبارک بیٹا! چلو، اب ناچو!",
+      "en": "Thank you, dear! Now, dance!",
+      "confidence": "high",
+      "speaker": "khala",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خیر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D9%8A%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خیر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%DB%8C%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "مبارک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%A8%D8%A7%D8%B1%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مبارک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%A8%D8%A7%D8%B1%DA%A9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "چلو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%84%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "اب",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اب",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ناچنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%DA%86%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ناچنا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%DA%86%D9%86%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.traffic-react",
+      "roman": "Traffic! Hamesha traffic! Chalo, ab naacho!",
+      "urdu": "ٹریفک! ہمیشہ ٹریفک! چلو، اب ناچو!",
+      "en": "Traffic! Always traffic! Now dance!",
+      "confidence": "medium",
+      "speaker": "khala",
+      "register": "casual",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ہمیشہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%85%D9%8A%D8%B4%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہمیشہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%85%DB%8C%D8%B4%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "چلو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%84%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "اب",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اب",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ناچنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%DA%86%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ناچنا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%DA%86%D9%86%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.naachunga",
+      "roman": "Theek hai, main naachunga!",
+      "urdu": "ٹھیک ہے، میں ناچوں گا!",
+      "en": "Fine, I'll dance!",
+      "confidence": "high",
+      "accept": [
+        "main naachunga",
+        "theek hai main naachungi",
+        "main naachungi"
+      ],
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "ٹھیک",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%B9%DA%BE%DB%8C%DA%A9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ناچ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%DA%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ناچ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%DA%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.nahin-naachunga",
+      "roman": "Nahin Khala, main nahin naachunga",
+      "urdu": "نہیں خالہ، میں نہیں ناچوں گا",
+      "en": "No Khala, I will not dance",
+      "confidence": "high",
+      "accept": [
+        "main nahin naachunga",
+        "main nahin naachungi"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ناچ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%DA%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ناچ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%DA%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.naach-react",
+      "roman": "Wah wah! Dekho, Bilal se achha naachta hai!",
+      "urdu": "واہ واہ! دیکھو، بلال سے اچھا ناچتا ہے!",
+      "en": "Wow! Look, dances better than Bilal!",
+      "confidence": "high",
+      "speaker": "khala",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "واہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D8%A7%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "واہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%88%D8%A7%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "دیکھو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%8A%DA%A9%D9%87%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "سے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اچھا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%DA%86%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اچھا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DA%86%DA%BE%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ناچنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%DA%86%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ناچنا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%DA%86%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.nahin-react",
+      "roman": "Nahin? Mrs. Butt dekh rahi hain…",
+      "urdu": "نہیں؟ مسز بٹ دیکھ رہی ہیں…",
+      "en": "No? Mrs. Butt is watching…",
+      "confidence": "medium",
+      "speaker": "khala",
+      "register": "casual",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بٹ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%B9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "دیکھنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%8A%DA%A9%D9%87%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دیکھنا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%DB%8C%DA%A9%DA%BE%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "رہا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.butt-agla",
+      "roman": "Beta, agla number tumhara hai!",
+      "urdu": "بیٹا، اگلا نمبر تمہارا ہے!",
+      "en": "Dear, you're next!",
+      "confidence": "high",
+      "speaker": "mrs-butt",
+      "register": "casual",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اگلا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%DA%AF%D9%84%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اگلا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DA%AF%D9%84%D8%A7#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نمبر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D9%85%D8%A8%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "تمہارا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D9%85%D9%87%D8%A7%D8%B1%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تمہارا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%D9%85%DB%81%D8%A7%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.jald-hi",
+      "roman": "Inshallah, Aunty. Jald hi",
+      "urdu": "ان شاء اللہ آنٹی۔ جلد ہی",
+      "en": "God willing, Aunty. Soon",
+      "confidence": "high",
+      "accept": [
+        "inshallah aunty",
+        "inshallah jald hi",
+        "jald hi"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ان",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ان",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%86#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ان شاء اللہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%86%20%D8%B4%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اللہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%84%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اللہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%84%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "آنٹی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%86%D9%B9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آنٹی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%86%D9%B9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "جلد",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D9%84%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "جلد",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AC%D9%84%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.pata-nahin",
+      "roman": "Pata nahin, Aunty",
+      "urdu": "پتا نہیں آنٹی",
+      "en": "No idea, Aunty",
+      "confidence": "high",
+      "accept": [
+        "pata nahin",
+        "pata nahin aunty"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پتا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%AA%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پتا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%AA%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "آنٹی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%86%D9%B9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آنٹی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%86%D9%B9%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.butt-list",
+      "roman": "Jald hi! Main list update karti hoon",
+      "urdu": "جلد ہی! میں لسٹ اپڈیٹ کرتی ہوں",
+      "en": "Soon! I'll update the list",
+      "confidence": "medium",
+      "speaker": "mrs-butt",
+      "register": "casual",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "جلد",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D9%84%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "جلد",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AC%D9%84%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کرتی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B1%D8%AA%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.butt-pata",
+      "roman": "Pata nahin? Mujhe pata hai. Mere paas teen options hain",
+      "urdu": "پتا نہیں؟ مجھے پتا ہے۔ میرے پاس تین آپشنز ہیں",
+      "en": "No idea? I know. I have three options",
+      "confidence": "medium",
+      "speaker": "mrs-butt",
+      "register": "casual",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پتا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%AA%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پتا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%AA%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "مجھے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%AC%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مجھے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%AC%DA%BE%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میرے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پاس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پاس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D8%B3#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "تین",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D9%8A%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تین",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%DB%8C%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.khana-kab",
+      "roman": "Khala, khana kab milega?",
+      "urdu": "خالہ، کھانا کب ملے گا؟",
+      "en": "Khala, when will the food come?",
+      "confidence": "high",
+      "accept": [
+        "khana kab milega"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کھانا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کھانا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%D8%A7%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کب",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%A8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کب",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A8#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ملے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%84%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.dulhan",
+      "roman": "Dulhan bohat khoobsurat lag rahi hai!",
+      "urdu": "دلہن بہت خوبصورت لگ رہی ہے!",
+      "en": "The bride looks so beautiful!",
+      "confidence": "high",
+      "accept": [
+        "dulhan bohat khoobsurat hai",
+        "dulhan bohat khoobsurat lag rahi hai"
+      ],
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دلہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%84%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دلہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%84%DB%81%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D8%AA#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خوبصورت",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A8%D8%B5%D9%88%D8%B1%D8%AA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "لگ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "رہا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.ek-baje",
+      "roman": "Bas, ek baje tak",
+      "urdu": "بس، ایک بجے تک",
+      "en": "Oh, by one o'clock",
+      "confidence": "high",
+      "speaker": "khala",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B3#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ایک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%8A%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ایک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DB%8C%DA%A9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بجے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%AC%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بجے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%AC%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "تک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%DA%A9&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "u07.b.dulhan-react",
+      "roman": "Haan na! Meri bhanji hai. Main ne hi rishta karwaya!",
+      "urdu": "ہاں نا! میری بھانجی ہے۔ میں نے ہی رشتہ کروایا!",
+      "en": "Isn't she! My niece. I arranged it myself!",
+      "confidence": "high",
+      "speaker": "khala",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ہاں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D8%A7%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہاں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D8%A7%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھانجی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D9%86%D8%AC%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھانجی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D9%86%D8%AC%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "رشتہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D8%B4%D8%AA%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "رشتہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%D8%B4%D8%AA%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کرانا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B1%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u07-l1",
+      "title": "Shaadi vocab",
+      "blurb": "Mehndi, baraat, walima: a wedding is three to five events. Minimum.",
+      "canDo": "You can name the events and people of a Pakistani wedding",
+      "teach": [
+        {
+          "title": "A wedding is a season",
+          "info": "Dholki nights (weeks before), mehndi, baraat (the wedding day), walima (reception). Each is a separate outfit. Each is late. Each has biryani."
+        },
+        {
+          "phrase": "u07.dholki"
+        },
+        {
+          "phrase": "u07.mehndi"
+        },
+        {
+          "phrase": "u07.baraat"
+        },
+        {
+          "phrase": "u07.walima"
+        },
+        {
+          "phrase": "u07.dulha"
+        },
+        {
+          "phrase": "u07.dulhan"
+        },
+        {
+          "phrase": "u07.salami",
+          "tip": "Cash in an envelope. The amount will be discussed by aunties for years."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "match",
+          "phrases": [
+            "u07.mehndi",
+            "u07.baraat",
+            "u07.walima",
+            "u07.dholki"
+          ]
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u07.dulha",
+            "u07.dulhan",
+            "u07.salami",
+            "u07.shaadi"
+          ]
+        },
+        {
+          "type": "listen",
+          "phrase": "u07.baraat",
+          "speed": "normal"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u07.walima"
+        },
+        {
+          "type": "type",
+          "phrase": "u07.dulhan",
+          "prompt": "Type: “bride”"
+        },
+        {
+          "type": "mc",
+          "prompt": "Which event is hosted by the groom's family, after the wedding?",
+          "options": [
+            {
+              "phrase": "u07.walima"
+            },
+            {
+              "phrase": "u07.mehndi",
+              "feedback": "Mehndi comes before."
+            },
+            {
+              "phrase": "u07.dholki",
+              "feedback": "Dholki is weeks before."
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "type",
+          "phrase": "u07.mehndi",
+          "prompt": "The henna night is called…"
+        }
+      ]
+    },
+    {
+      "id": "u07-l2",
+      "title": "Mubarak ho!",
+      "blurb": "Congratulate everyone. Then congratulate them again.",
+      "canDo": "You can congratulate the family and reply to congratulations",
+      "teach": [
+        {
+          "phrase": "u07.mubarak-ho",
+          "tip": "Works for weddings, babies, exam results, new cars."
+        },
+        {
+          "phrase": "u07.shaadi-mubarak"
+        },
+        {
+          "phrase": "u07.khair-mubarak",
+          "tip": "If someone says mubarak to you, this is the reply."
+        },
+        {
+          "phrase": "u07.dulhan-khoobsurat",
+          "tip": "Say this. Mean it. It is always true at a wedding."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u07.mubarak-ho",
+          "prompt": "You walk into the mehndi and see the bride's mother.",
+          "distractors": [
+            "u07.khair-mubarak",
+            "u07.pata-nahin"
+          ]
+        },
+        {
+          "type": "say",
+          "phrase": "u07.khair-mubarak",
+          "prompt": "Someone says “Mubarak ho!” to you (your cousin is the bride).",
+          "distractors": [
+            "u07.mubarak-ho",
+            "u07.jald-hi"
+          ]
+        },
+        {
+          "type": "listen",
+          "phrase": "u07.dulhan-khoobsurat",
+          "speed": "aunty"
+        },
+        {
+          "type": "build",
+          "phrase": "u07.dulhan-khoobsurat"
+        },
+        {
+          "type": "type",
+          "phrase": "u07.mubarak-ho",
+          "prompt": "Type: “Congratulations!”"
+        },
+        {
+          "type": "type",
+          "phrase": "u07.khair-mubarak",
+          "prompt": "Reply to a congratulations"
+        }
+      ]
+    },
+    {
+      "id": "u07-l3",
+      "title": "Main naachunga",
+      "blurb": "The future tense, featuring the dance-floor ultimatum.",
+      "canDo": "You can say what you will and won't do",
+      "teach": [
+        {
+          "title": "Future: -unga, -ungi, -enge",
+          "info": "Stem + unga (I, man) / ungi (I, woman) / enge (we, aap). Naach (dance): main naachunga, main naachungi, hum naachenge. Ga/gi/ge is written as a separate little word in Urdu script."
+        },
+        {
+          "phrase": "u07.naachunga"
+        },
+        {
+          "phrase": "u07.naachungi"
+        },
+        {
+          "phrase": "u07.nahin-naachunga",
+          "tip": "Nahin goes right before the verb."
+        },
+        {
+          "phrase": "u07.kal-jayenge"
+        },
+        {
+          "phrase": "u07.kya-pehnenge"
+        },
+        {
+          "phrase": "u07.shalwar-kameez"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u07.naachungi",
+          "prompt": "You're a woman and Khala insists. Agree to dance.",
+          "distractors": [
+            "u07.naachunga",
+            "u07.nahin-naachunga"
+          ]
+        },
+        {
+          "type": "say",
+          "phrase": "u07.nahin-naachunga",
+          "prompt": "You're a man and you will NOT be dancing.",
+          "distractors": [
+            "u07.naachunga",
+            "u07.naachungi"
+          ]
+        },
+        {
+          "type": "meaning",
+          "phrase": "u07.kya-pehnenge"
+        },
+        {
+          "type": "listen",
+          "phrase": "u07.kal-jayenge",
+          "speed": "normal"
+        },
+        {
+          "type": "build",
+          "phrase": "u07.shalwar-kameez",
+          "distractors": [
+            {
+              "roman": "pehnungi",
+              "urdu": "پہنوں گی"
+            }
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u07.naachunga",
+          "prompt": "You're a guy. Type: “I'll dance”"
+        },
+        {
+          "type": "type",
+          "phrase": "u07.kal-jayenge",
+          "prompt": "Type: “We'll go tomorrow”"
+        },
+        {
+          "type": "speak",
+          "phrase": "u07.nahin-naachunga"
+        }
+      ]
+    },
+    {
+      "id": "u07-l4",
+      "title": "Agla number tumhara!",
+      "blurb": "Every wedding conversation with an aunty, and how to escape it.",
+      "canDo": "You can survive 'you're next!' and 'when are you getting married?'",
+      "teach": [
+        {
+          "phrase": "u07.agla-number"
+        },
+        {
+          "phrase": "u07.kab-shaadi",
+          "tip": "Future tense again: karoge = will you do."
+        },
+        {
+          "phrase": "u07.jald-hi",
+          "tip": "The diplomatic answer."
+        },
+        {
+          "phrase": "u07.pata-nahin",
+          "tip": "The honest answer."
+        },
+        {
+          "phrase": "u07.khana-kab",
+          "tip": "The question everyone is secretly asking."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "phrase": "u07.agla-number"
+        },
+        {
+          "type": "say",
+          "phrase": "u07.jald-hi",
+          "prompt": "An aunty asks when you're getting married. Be diplomatic.",
+          "distractors": [
+            "u07.pata-nahin",
+            "u07.khana-kab"
+          ]
+        },
+        {
+          "type": "listen",
+          "phrase": "u07.kab-shaadi",
+          "speed": "aunty"
+        },
+        {
+          "type": "type",
+          "phrase": "u07.pata-nahin",
+          "prompt": "Type: “No idea”"
+        },
+        {
+          "type": "mc",
+          "prompt": "It's 11pm at the baraat. You ask “Khana kab milega?” Realistic answer?",
+          "options": [
+            {
+              "text": "Around 1am",
+              "feedback": "Correct. Bring snacks."
+            },
+            {
+              "text": "Right now",
+              "feedback": "Adorable."
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "type",
+          "phrase": "u07.khana-kab",
+          "prompt": "Ask: “When will the food be served?”"
+        },
+        {
+          "type": "build",
+          "phrase": "u07.agla-number",
+          "distractors": [
+            {
+              "roman": "mera",
+              "urdu": "میرا"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u07-boss",
+    "title": "The Mehndi",
+    "character": "khala",
+    "blurb": "Your cousin's mehndi. Khala wants you on the dance floor. Mrs. Butt wants you on her list.",
+    "scene": "Yellow and orange everywhere, a dhol thumping, three hundred guests. You've barely stepped in when Shabnam Khala spots you from across the lawn and starts marching over.",
+    "canDo": "You can get through a wedding event: congratulate, dance (or refuse), and deflect the rishta questions",
+    "start": "a",
+    "nodes": {
+      "a": {
+        "type": "npc",
+        "speaker": "khala",
+        "say": "u07.b.aa-gaye",
+        "next": "b"
+      },
+      "b": {
+        "type": "you",
+        "prompt": "Greet her. (Her daughter is the bride.)",
+        "options": [
+          {
+            "phrase": "u07.b.mubarak-khala",
+            "next": "c1",
+            "quality": "great"
+          },
+          {
+            "phrase": "u07.b.traffic",
+            "next": "c2",
+            "quality": "fine",
+            "reaction": "An excuse before a congratulations. Bold sequencing."
+          }
+        ],
+        "hint": "Mubarak ho…"
+      },
+      "c1": {
+        "type": "npc",
+        "speaker": "khala",
+        "say": "u07.b.khair-mubarak",
+        "next": "d"
+      },
+      "c2": {
+        "type": "npc",
+        "speaker": "khala",
+        "say": "u07.b.traffic-react",
+        "next": "d"
+      },
+      "d": {
+        "type": "you",
+        "prompt": "She's pulling you to the dance floor.",
+        "options": [
+          {
+            "phrase": "u07.b.naachunga",
+            "next": "e1",
+            "quality": "great",
+            "reaction": "The dhol player nods at you. You are now a dancer."
+          },
+          {
+            "phrase": "u07.b.nahin-naachunga",
+            "next": "e2",
+            "quality": "bold"
+          }
+        ],
+        "hint": "Main naachunga…"
+      },
+      "e1": {
+        "type": "npc",
+        "speaker": "khala",
+        "say": "u07.b.naach-react",
+        "next": "f"
+      },
+      "e2": {
+        "type": "npc",
+        "speaker": "khala",
+        "say": "u07.b.nahin-react",
+        "next": "f"
+      },
+      "f": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u07.b.butt-agla",
+        "next": "g"
+      },
+      "g": {
+        "type": "you",
+        "prompt": "Mrs. Butt has entered the chat.",
+        "options": [
+          {
+            "phrase": "u07.b.jald-hi",
+            "next": "h1",
+            "quality": "great"
+          },
+          {
+            "phrase": "u07.b.pata-nahin",
+            "next": "h2",
+            "quality": "bold"
+          }
+        ],
+        "hint": "Inshallah, Aunty…"
+      },
+      "h1": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u07.b.butt-list",
+        "next": "i"
+      },
+      "h2": {
+        "type": "npc",
+        "speaker": "mrs-butt",
+        "say": "u07.b.butt-pata",
+        "next": "i"
+      },
+      "i": {
+        "type": "you",
+        "prompt": "Change the subject. Fast.",
+        "options": [
+          {
+            "phrase": "u07.b.dulhan",
+            "next": "j1",
+            "quality": "great",
+            "reaction": "Flawless deflection. Nobody can resist talking about the bride."
+          },
+          {
+            "phrase": "u07.b.khana-kab",
+            "next": "j2",
+            "quality": "fine"
+          }
+        ],
+        "hint": "Dulhan bohat…"
+      },
+      "j1": {
+        "type": "npc",
+        "speaker": "khala",
+        "say": "u07.b.dulhan-react",
+        "next": "end"
+      },
+      "j2": {
+        "type": "npc",
+        "speaker": "khala",
+        "say": "u07.b.ek-baje",
+        "next": "end"
+      },
+      "end": {
+        "type": "end",
+        "title": "Mehndi survived",
+        "text": "You congratulated, (maybe) danced, and deflected two rishta attacks. Food arrived at 1:14am. You were there for it.",
+        "outcome": "survived"
+      }
+    }
+  }
+}

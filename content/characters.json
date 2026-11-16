@@ -1,9 +1,74 @@
 [
-  { "id": "khala", "name": "Shabnam Khala", "nameUrdu": "شبنم خالہ", "role": "Your mum's sister", "bio": "Nosy, loving, calls at 6am Pakistan time. Asks about rishtas within 30 seconds.", "emoji": "💅", "color": "rose" },
-  { "id": "nani", "name": "Nani", "nameUrdu": "نانی", "role": "Your mum's mum", "bio": "Says little. Judges everything. Secretly the funniest person in the family.", "emoji": "👵", "color": "accent" },
-  { "id": "bilal", "name": "Bilal", "nameUrdu": "بلال", "role": "Your cousin, the doctor", "bio": "Insufferable. A doctor. Mentioned by your parents roughly hourly.", "emoji": "🩺", "color": "primary" },
-  { "id": "mrs-butt", "name": "Mrs. Butt", "nameUrdu": "مسز بٹ", "role": "Rishta Aunty", "bio": "Has a spreadsheet. You are on it.", "emoji": "📋", "color": "rose" },
-  { "id": "ammi", "name": "Ammi", "nameUrdu": "امی", "role": "Your mum", "bio": "Can hear you rolling your eyes from another room.", "emoji": "🫖", "color": "good" },
-  { "id": "abbu", "name": "Abbu", "nameUrdu": "ابو", "role": "Your dad", "bio": "Hum tumhari umar mein... Has opinions about the thermostat.", "emoji": "📰", "color": "primary" },
-  { "id": "pervez", "name": "Pervez", "nameUrdu": "پرویز", "role": "Rickshaw-wala", "bio": "Your haggling nemesis. Has never once had change.", "emoji": "🛺", "color": "accent" }
+  {
+    "id": "khala",
+    "name": "Shabnam Khala",
+    "nameUrdu": "شبنم خالہ",
+    "role": "Your mum's sister",
+    "bio": "Nosy, loving, calls at 6am Pakistan time. Asks about rishtas within 30 seconds.",
+    "emoji": "💅",
+    "color": "rose"
+  },
+  {
+    "id": "nani",
+    "name": "Nani",
+    "nameUrdu": "نانی",
+    "role": "Your mum's mum",
+    "bio": "Says little. Judges everything. Secretly the funniest person in the family.",
+    "emoji": "👵",
+    "color": "accent"
+  },
+  {
+    "id": "bilal",
+    "name": "Bilal",
+    "nameUrdu": "بلال",
+    "role": "Your cousin, the doctor",
+    "bio": "Insufferable. A doctor. Mentioned by your parents roughly hourly.",
+    "emoji": "🩺",
+    "color": "primary"
+  },
+  {
+    "id": "mrs-butt",
+    "name": "Mrs. Butt",
+    "nameUrdu": "مسز بٹ",
+    "role": "Rishta Aunty",
+    "bio": "Has a spreadsheet. You are on it.",
+    "emoji": "📋",
+    "color": "rose"
+  },
+  {
+    "id": "ammi",
+    "name": "Ammi",
+    "nameUrdu": "امی",
+    "role": "Your mum",
+    "bio": "Can hear you rolling your eyes from another room.",
+    "emoji": "🫖",
+    "color": "good"
+  },
+  {
+    "id": "abbu",
+    "name": "Abbu",
+    "nameUrdu": "ابو",
+    "role": "Your dad",
+    "bio": "Hum tumhari umar mein... Has opinions about the thermostat.",
+    "emoji": "📰",
+    "color": "primary"
+  },
+  {
+    "id": "pervez",
+    "name": "Pervez",
+    "nameUrdu": "پرویز",
+    "role": "Rickshaw-wala",
+    "bio": "Your haggling nemesis. Has never once had change.",
+    "emoji": "🛺",
+    "color": "accent"
+  },
+  {
+    "id": "bashir",
+    "name": "Bashir Bhai",
+    "nameUrdu": "بشیر بھائی",
+    "role": "Bazaar shopkeeper",
+    "bio": "Sells everything. Has a cousin who sells it cheaper. Has never once given a fixed price.",
+    "emoji": "🧺",
+    "color": "good"
+  }
 ]

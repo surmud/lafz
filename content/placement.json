@@ -241,5 +241,126 @@
       "phrase": "u04.aap-kahan",
       "prompt": "Type: “Where are you?” (respectfully)"
     }
+  },
+  {
+    "id": "p05-0",
+    "level": 5,
+    "skill": "meaning",
+    "exercise": {
+      "type": "mc",
+      "prompt": "“Saare teen baje” is…",
+      "show": "u05.saare-teen",
+      "options": [
+        {
+          "text": "3:30"
+        },
+        {
+          "text": "3:15"
+        },
+        {
+          "text": "2:45"
+        }
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": "p05-1",
+    "level": 5,
+    "skill": "listening",
+    "exercise": {
+      "type": "listen",
+      "phrase": "u05.kitne-ka-liya",
+      "speed": "aunty"
+    }
+  },
+  {
+    "id": "p05-2",
+    "level": 5,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u05.mehnga",
+      "prompt": "Type: “That is too expensive”"
+    }
+  },
+  {
+    "id": "p06-0",
+    "level": 6,
+    "skill": "register",
+    "exercise": {
+      "type": "respect",
+      "situation": "An elderly neighbour is at your door.",
+      "listener": "Elderly neighbour",
+      "options": [
+        {
+          "phrase": "u06.aaiye",
+          "verdict": "right",
+          "feedback": "Respectful -iye."
+        },
+        {
+          "phrase": "u06.chalo",
+          "verdict": "wrong",
+          "feedback": "Chalo sounds like you are sending her off."
+        }
+      ]
+    }
+  },
+  {
+    "id": "p06-1",
+    "level": 6,
+    "skill": "reply",
+    "exercise": {
+      "type": "say",
+      "phrase": "u06.bohat-zyada",
+      "prompt": "The rickshaw-wala asks for 500. React.",
+      "distractors": [
+        "u06.do-sau-theek",
+        "u06.aakhri-daam"
+      ]
+    }
+  },
+  {
+    "id": "p06-2",
+    "level": 6,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u06.kitna-kiraya",
+      "prompt": "Type: “What is the fare?”"
+    }
+  },
+  {
+    "id": "p07-0",
+    "level": 7,
+    "skill": "reply",
+    "exercise": {
+      "type": "say",
+      "phrase": "u07.khair-mubarak",
+      "prompt": "Someone says “Mubarak ho!” to you. Reply:",
+      "distractors": [
+        "u07.mubarak-ho",
+        "u07.pata-nahin"
+      ]
+    }
+  },
+  {
+    "id": "p07-1",
+    "level": 7,
+    "skill": "meaning",
+    "exercise": {
+      "type": "meaning",
+      "phrase": "u07.kab-shaadi"
+    }
+  },
+  {
+    "id": "p07-2",
+    "level": 7,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u07.kal-jayenge",
+      "prompt": "Type: “We will go tomorrow”"
+    }
   }
 ]
