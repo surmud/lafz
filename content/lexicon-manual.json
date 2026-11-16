@@ -1,0 +1,51 @@
+{
+  "_doc": "Hand-checked evidence for words and set phrases the scripted lookups cannot resolve. 'lemmas' maps an inflected form to its dictionary headword (looked up automatically). 'words' and 'phrases' record a manual check: ref, item, url, checked.",
+  "lemmas": {
+    "آؤ": "آنا",
+    "جیتے": "جینا",
+    "رکھیے": "رکھنا",
+    "رکھو": "رکھنا",
+    "رہو": "رہنا",
+    "مل": "ملنا",
+    "ملیں": "ملنا",
+    "کیجیے": "کرنا",
+    "ہوئی": "ہونا",
+    "مہربانی": "مہربان",
+    "بخیر": "خیر",
+    "شاء": "ان شاء اللہ",
+    "الحمدللہ": "الحمد للہ",
+    "السلام": "سلام"
+  },
+  "words": {
+    "علیکم": {
+      "ref": "rekhta",
+      "item": "alaikum (in assalam-o-alaikum)",
+      "url": "https://rekhtadictionary.com/meaning-of-alaikum",
+      "checked": "2026-11-15"
+    },
+    "وعلیکم": {
+      "ref": "rekhta",
+      "item": "vaalaikum assalaam",
+      "url": "https://rekhtadictionary.com/meaning-of-vaalaikum-assalaam",
+      "checked": "2026-11-15"
+    }
+  },
+  "phrases": {
+    "u01.salam": [
+      {
+        "ref": "wiktionary",
+        "item": "سلام علیکم",
+        "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85",
+        "checked": "2026-11-15"
+      }
+    ],
+    "u01.wsalam": [
+      {
+        "ref": "rekhta",
+        "item": "vaalaikum assalaam",
+        "url": "https://rekhtadictionary.com/meaning-of-vaalaikum-assalaam",
+        "checked": "2026-11-15"
+      }
+    ]
+  }
+}
