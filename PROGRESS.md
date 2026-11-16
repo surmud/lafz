@@ -20,9 +20,18 @@ What's built:
   Rekhta, and the sources are recorded per phrase. 1,310 MMS-TTS clips (normal + slow), all passing QA.
 - **Tests:** E2E runs for all six EVALS personas plus the MVP flow, prep packs, family voice, offline
   use, trace centring and a screen gallery. Eval pass 1 is in `docs/evals/2026-11-16-1.md`.
-- **Lighthouse** (mobile, local build): lesson page 94 / 100 / 100 / 91. Home performance 78 (filed as G10).
+- **Lighthouse** (mobile, local build with gzip): home 90 / 100 / 100 / 91, lesson page 94 / 100 / 100 / 91.
+- **103 lessons:** each speaking unit has 5–7, including a generated "Mix it up" warm-up before its
+  boss; each reading unit has 2–4.
+- **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-16 (evening): Relatives' names from onboarding now appear in boss conversations. Review
+  and pack drills got situational prompts. R1–R5 got a spelling lesson with dot-family decoys. Every
+  speaking unit got a "Mix it up" warm-up. Added original character portraits and a /dev/ui gallery.
+  The precache is now the app shell only (5.8 MB → 2.3 MB). Home Lighthouse performance went from 78
+  to 90. Fixed a race in the match exercise. Started the Whisper (MLX large-v3-turbo) audio audit on
+  a 150-clip sample. Early finding: MMS mispronounces "السلام علیکم".
 - 2026-11-16 (later): Units 2–4 (Family Tree, Dawat Survival, Calls to Pakistan), each with a boss
   conversation. Reading track R1–R5 (all letters, joining forms, tracing, first words). Interactive
   family tree with respect meter. PWA: installable, offline shell, per-unit offline download. Persona
@@ -63,7 +72,6 @@ spellings follow common usage:
   All of its words are attested, but the idiom itself is attested only by usage.
 
 ## Known issues
-- Home page Lighthouse performance is 78: the home content depends on IndexedDB (G10).
 - MMS audio passes QA but hasn't been round-tripped through speech recognition yet (G3). Its prosody is flat.
 - No real-microphone E2E for family voice: headless Chromium can't open a fake mic here (G8).
 - The Offline Omar test is occasionally flaky when the local machine is under heavy load (passes in CI).
@@ -74,8 +82,9 @@ spellings follow common usage:
 - Speech recognition uses the Web Speech API only. There's no Whisper fallback yet.
 
 ## Next steps
-G3 Whisper audio audit → G10 home first paint → G4 personalised names → G11 funnier drills → G6
-deeper R1–R5 → eval pass 2.
+Finish the G3 audio audit and re-voice the worst clips with phonetic `tts` overrides → eval pass 2 →
+G9 (Whisper fallback for Speak it) → native-speaker pass on the medium-confidence list (needs a human,
+optional).
 
 ## Needs founder
 _(nothing)_
