@@ -128,7 +128,58 @@ def info(title, text, glyph=None, examples=None):
     return d
 
 
+MIX_PROMPTS = [
+    "Khala is on the phone. Say: “{en}”",
+    "Nani is waiting. Say: “{en}”",
+    "The whole room goes quiet. Your line: “{en}”",
+    "Type it for the family group: “{en}”",
+]
+
+
+def mix_lesson(uid: str, meta: dict, lessons: list, phrases: list) -> dict:
+    """A consolidation lesson before the boss: every lesson's taught phrases, production first."""
+    by_id = {p["id"]: p for p in phrases}
+    taught = []
+    for l in lessons:
+        for t in l["teach"]:
+            pid = t.get("phrase")
+            if pid and pid.startswith(uid + ".") and pid in by_id and pid not in taught:
+                taught.append(pid)
+    step = max(1, len(taught) // 9)
+    pick = taught[::step][:9]
+    clean = lambda en: re.sub(r"\s*\(.*?\)", "", en).strip()
+    ex = []
+    for i, pid in enumerate(pick):
+        p = by_id[pid]
+        kind = ["say", "type", "listen", "build", "type", "say", "meaning", "type", "listen"][i % 9]
+        if kind == "build" and len(p["roman"].split()) < 2:
+            kind = "type"
+        prompt = MIX_PROMPTS[i % len(MIX_PROMPTS)].replace("{en}", clean(p["en"]))
+        if kind == "say":
+            ex.append({"type": "say", "phrase": pid, "prompt": prompt})
+        elif kind == "type":
+            ex.append({"type": "type", "phrase": pid, "prompt": prompt if "Type" in prompt else f"Type it: “{clean(p['en'])}”"})
+        elif kind == "listen":
+            ex.append({"type": "listen", "phrase": pid, "speed": "aunty" if i % 2 else "normal"})
+        elif kind == "build":
+            ex.append({"type": "build", "phrase": pid})
+        else:
+            ex.append({"type": "meaning", "phrase": pid})
+    if len(pick) >= 4:
+        ex.insert(3, {"type": "match", "phrases": pick[:4]})
+    return {
+        "id": f"{uid}-mix",
+        "title": "Mix it up",
+        "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+        "canDo": f"You can use this unit's phrases without a prompt: {meta['canDo'][0].lower() + meta['canDo'][1:]}",
+        "teach": [info("Boss warm-up", "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free.")],
+        "exercises": ex,
+    }
+
+
 def write_unit(u: Unit, meta: dict, lessons: list, boss: dict | None, senses: dict | None = None):
+    if meta.get("track") == "speaking" and not any(l["id"].endswith("-mix") for l in lessons):
+        lessons = [*lessons, mix_lesson(u.U, meta, lessons, u.phrases)]
     for s, keys in (senses or {}).items():
         for ph in u.phrases:
             if ph["id"].split(".", 1)[1] in keys:

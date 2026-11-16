@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import type { ResolvedMatch } from "@/engine/exercises";
 import { playPhrase } from "@/lib/audio";
 import { PhraseText } from "../Phrase";
@@ -12,29 +12,43 @@ export function MatchExercise({ ex, locked, onSubmit }: ExerciseProps<ResolvedMa
   const [right, setRight] = useState<string | null>(null);
   const [done, setDone] = useState<string[]>([]);
   const [bad, setBad] = useState<string | null>(null);
-  const [misses, setMisses] = useState(0);
+
+  // Refs mirror the state so very fast taps never act on a stale render.
+  const doneRef = useRef<string[]>([]);
+  const missRef = useRef(0);
+  const selRef = useRef<{ l: string | null; r: string | null }>({ l: null, r: null });
   const byId = useMemo(() => new Map(ex.phrases.map((p) => [p.id, p])), [ex.phrases]);
 
-  const attempt = (l: string | null, r: string | null) => {
+  const select = (side: "l" | "r", id: string) => {
+    const sel = { ...selRef.current, [side]: id };
+    selRef.current = sel;
+    if (side === "l") setLeft(id);
+    else setRight(id);
+    const { l, r } = sel;
     if (!l || !r) return;
+    selRef.current = { l: null, r: null };
     if (l === r) {
-      const next = [...done, l];
+      if (doneRef.current.includes(l)) return;
+      const next = [...doneRef.current, l];
+      doneRef.current = next;
       setDone(next);
       setLeft(null);
       setRight(null);
       if (next.length === ex.phrases.length) {
+        const m = missRef.current;
         setTimeout(
           () =>
             onSubmit({
-              verdict: misses <= 1 ? "correct" : "almost",
-              feedback: misses > 1 ? "All matched! A few wrong taps along the way, which cost you nothing." : undefined,
+              verdict: m <= 1 ? "correct" : "almost",
+              feedback: m > 1 ? "All matched! A few wrong taps along the way, which cost you nothing." : undefined,
             }),
           350,
         );
       }
     } else {
+      missRef.current += 1;
       setBad(`${l}|${r}`);
-      setMisses((m) => m + 1);
+
       setTimeout(() => {
         setBad(null);
         setLeft(null);
@@ -62,14 +76,8 @@ export function MatchExercise({ ex, locked, onSubmit }: ExerciseProps<ResolvedMa
         data-pair={e2e() ? id : undefined}
         data-side={side}
         onClick={() => {
-          if (side === "l") {
-            setLeft(id);
-            if (ex.mode === "audio") void playPhrase(p);
-            attempt(id, right);
-          } else {
-            setRight(id);
-            attempt(left, id);
-          }
+          if (side === "l" && ex.mode === "audio") void playPhrase(p);
+          select(side, id);
         }}
         className={`flex min-h-16 w-full items-center justify-center rounded-2xl border-2 px-2 py-2 text-center transition ${tone}`}
       >

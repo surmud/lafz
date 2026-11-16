@@ -3472,6 +3472,73 @@
           "explain": "Inshallah: technically a yes."
         }
       ]
+    },
+    {
+      "id": "u01-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can greet anyone in the family with the right level of respect",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u01.salam",
+          "prompt": "Khala is on the phone. Say: “Hello”"
+        },
+        {
+          "type": "type",
+          "phrase": "u01.shukriya",
+          "prompt": "Type it: “Thank you”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u01.main-theek-hoon",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u01.salam",
+            "u01.shukriya",
+            "u01.main-theek-hoon",
+            "u01.tum"
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u01.tum",
+          "prompt": "Type it for the family group: “you”"
+        },
+        {
+          "type": "type",
+          "phrase": "u01.ji-nahin",
+          "prompt": "Type it: “No”"
+        },
+        {
+          "type": "say",
+          "phrase": "u01.koi-baat-nahin",
+          "prompt": "Nani is waiting. Say: “No problem / never mind”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u01.mil-kar-khushi"
+        },
+        {
+          "type": "type",
+          "phrase": "u01.beta",
+          "prompt": "Type it for the family group: “dear / kiddo”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u01.apna-khayal",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

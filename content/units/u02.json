@@ -3575,6 +3575,73 @@
           "phrase": "u02.abhi-nahin"
         }
       ]
+    },
+    {
+      "id": "u02-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can explain who's who in your family, on both sides",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u02.ammi",
+          "prompt": "Khala is on the phone. Say: “Mum”"
+        },
+        {
+          "type": "type",
+          "phrase": "u02.beta",
+          "prompt": "Type it: “son”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u02.khala",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u02.ammi",
+            "u02.beta",
+            "u02.khala",
+            "u02.dada"
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u02.dada",
+          "prompt": "Type it for the family group: “Dad's father”"
+        },
+        {
+          "type": "type",
+          "phrase": "u02.phuppo",
+          "prompt": "Type it: “Dad's sister”"
+        },
+        {
+          "type": "say",
+          "phrase": "u02.abbu-ki-behen",
+          "prompt": "Nani is waiting. Say: “Dad's sister”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u02.meri"
+        },
+        {
+          "type": "type",
+          "phrase": "u02.kitne-bhai-behen",
+          "prompt": "Type it for the family group: “How many brothers and sisters do you have?”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u02.cousin",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

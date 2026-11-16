@@ -2605,6 +2605,72 @@
           "answer": 0
         }
       ]
+    },
+    {
+      "id": "u12-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can tell a story in Urdu: what happened, in order, with feeling",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u12.pata-hai-kya-hua",
+          "prompt": "Khala is on the phone. Say: “Guess what happened?”"
+        },
+        {
+          "type": "type",
+          "phrase": "u12.sach-mein",
+          "prompt": "Type it: “Really?”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u12.pehle",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u12.pata-hai-kya-hua",
+            "u12.sach-mein",
+            "u12.pehle",
+            "u12.uske-baad"
+          ]
+        },
+        {
+          "type": "build",
+          "phrase": "u12.uske-baad"
+        },
+        {
+          "type": "type",
+          "phrase": "u12.kyunke",
+          "prompt": "Type it: “because”"
+        },
+        {
+          "type": "say",
+          "phrase": "u12.aakhir-mein",
+          "prompt": "Nani is waiting. Say: “in the end”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u12.dulha-gir"
+        },
+        {
+          "type": "type",
+          "phrase": "u12.khala-ro",
+          "prompt": "Type it for the family group: “Khala was crying”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u12.thak-gaya-tha",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

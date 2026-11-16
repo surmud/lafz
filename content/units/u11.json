@@ -2599,6 +2599,72 @@
           "phrase": "u11.kya-karoon"
         }
       ]
+    },
+    {
+      "id": "u11-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can follow and answer desi banter, taunts and lectures",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u11.hum-umar",
+          "prompt": "Khala is on the phone. Say: “When we were your age…”"
+        },
+        {
+          "type": "type",
+          "phrase": "u11.log-kya",
+          "prompt": "Type it: “What will people say?”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u11.ac-band",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u11.hum-umar",
+            "u11.log-kya",
+            "u11.ac-band",
+            "u11.bas-karo"
+          ]
+        },
+        {
+          "type": "build",
+          "phrase": "u11.bas-karo"
+        },
+        {
+          "type": "type",
+          "phrase": "u11.apna-kaam",
+          "prompt": "Type it: “Go and mind your own business / do your work”"
+        },
+        {
+          "type": "say",
+          "phrase": "u11.chal-hat",
+          "prompt": "Nani is waiting. Say: “Get lost!”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u11.kha-lo"
+        },
+        {
+          "type": "type",
+          "phrase": "u11.de-do",
+          "prompt": "Type it for the family group: “Give it to me”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u11.so-jao",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

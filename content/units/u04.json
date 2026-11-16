@@ -3562,6 +3562,72 @@
           "phrase": "u04.sab-ko-salaam"
         }
       ]
+    },
+    {
+      "id": "u04-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can hold a whole phone call with family in Pakistan",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u04.hello-awaaz",
+          "prompt": "Khala is on the phone. Say: “Hello? Can you hear me?”"
+        },
+        {
+          "type": "type",
+          "phrase": "u04.awaaz-kat-rahi",
+          "prompt": "Type it: “You're breaking up”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u04.kaun-bol-raha",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u04.hello-awaaz",
+            "u04.awaaz-kat-rahi",
+            "u04.kaun-bol-raha",
+            "u04.kya-kar-rahe"
+          ]
+        },
+        {
+          "type": "build",
+          "phrase": "u04.kya-kar-rahe"
+        },
+        {
+          "type": "type",
+          "phrase": "u04.kaam-par",
+          "prompt": "Type it: “I'm at work”"
+        },
+        {
+          "type": "say",
+          "phrase": "u04.yahan-raat",
+          "prompt": "Nani is waiting. Say: “It's night here”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u04.garmi"
+        },
+        {
+          "type": "type",
+          "phrase": "u04.sab-kaise",
+          "prompt": "Type it for the family group: “How is everyone?”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u04.baad-mein-call-f",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

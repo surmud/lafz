@@ -2687,6 +2687,72 @@
           "prompt": "Type the perfect non-answer: “I get by”"
         }
       ]
+    },
+    {
+      "id": "u09-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can talk about your life: work, hobbies, where you've been",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u09.kya-karte",
+          "prompt": "Khala is on the phone. Say: “What do you do?”"
+        },
+        {
+          "type": "type",
+          "phrase": "u09.doctor-nahin",
+          "prompt": "Type it: “I'm not a doctor”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u09.naukri",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u09.kya-karte",
+            "u09.doctor-nahin",
+            "u09.naukri",
+            "u09.rehti"
+          ]
+        },
+        {
+          "type": "build",
+          "phrase": "u09.rehti"
+        },
+        {
+          "type": "type",
+          "phrase": "u09.cricket",
+          "prompt": "Type it: “I like cricket”"
+        },
+        {
+          "type": "say",
+          "phrase": "u09.kitaabein",
+          "prompt": "Nani is waiting. Say: “I like reading books”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u09.lahore-gaye"
+        },
+        {
+          "type": "type",
+          "phrase": "u09.kal-aayi",
+          "prompt": "Type it for the family group: “I came yesterday”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u09.der-se-utha",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

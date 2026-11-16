@@ -2532,6 +2532,72 @@
           "phrase": "u10.aap-ne-kya-kaha"
         }
       ]
+    },
+    {
+      "id": "u10-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can say the right thing at every occasion, happy or sad",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u10.ramzan-mubarak",
+          "prompt": "Khala is on the phone. Say: “Happy Ramadan!”"
+        },
+        {
+          "type": "type",
+          "phrase": "u10.roza-hai",
+          "prompt": "Type it: “I'm fasting”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u10.iftar",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u10.ramzan-mubarak",
+            "u10.roza-hai",
+            "u10.iftar",
+            "u10.chaand-nazar"
+          ]
+        },
+        {
+          "type": "build",
+          "phrase": "u10.chaand-nazar"
+        },
+        {
+          "type": "type",
+          "phrase": "u10.khair-mubarak",
+          "prompt": "Type it: “Thanks”"
+        },
+        {
+          "type": "say",
+          "phrase": "u10.nani-ne-eidi-di",
+          "prompt": "Nani is waiting. Say: “Nani gave me Eidi”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u10.mubarakbaad"
+        },
+        {
+          "type": "type",
+          "phrase": "u10.pass-mubarak",
+          "prompt": "Type it for the family group: “Congrats on passing!”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u10.afsos",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

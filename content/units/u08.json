@@ -2888,6 +2888,72 @@
           "phrase": "u08.urdu-bol-sakta"
         }
       ]
+    },
+    {
+      "id": "u08-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can talk about how you feel, what hurts and what you can do",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u08.beemar",
+          "prompt": "Khala is on the phone. Say: “I'm sick”"
+        },
+        {
+          "type": "type",
+          "phrase": "u08.sar-dard",
+          "prompt": "Type it: “I have a headache”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u08.dawai-li",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u08.beemar",
+            "u08.sar-dard",
+            "u08.dawai-li",
+            "u08.pyaas"
+          ]
+        },
+        {
+          "type": "build",
+          "phrase": "u08.pyaas"
+        },
+        {
+          "type": "type",
+          "phrase": "u08.neend",
+          "prompt": "Type it: “I'm sleepy”"
+        },
+        {
+          "type": "say",
+          "phrase": "u08.thak-gayi",
+          "prompt": "Nani is waiting. Say: “I'm tired”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u08.mashallah"
+        },
+        {
+          "type": "type",
+          "phrase": "u08.kaisa-lag",
+          "prompt": "Type it for the family group: “How are you feeling?”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u08.sehat",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

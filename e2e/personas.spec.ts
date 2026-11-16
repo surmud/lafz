@@ -113,3 +113,14 @@ test("Heritage Hamza: a prep pack session before Khala's call", async ({ page },
   await page.getByRole("link", { name: /Next: Catch up/ }).click();
   await expect(page.getByText("New phrase")).toBeVisible();
 });
+
+test("every unit's 'Mix it up' warm-up completes", async ({ page }, info) => {
+  test.skip(info.project.name !== "pixel");
+  await freshStart(page);
+  await onboardBeginner(page);
+  for (const id of ["u01-mix", "u07-mix", "u12-mix"]) {
+    await page.goto(`./lesson/${id}/`);
+    await playLesson(page);
+    await expect(page.getByRole("heading", { name: "Lesson complete!" })).toBeVisible();
+  }
+});

@@ -2361,6 +2361,73 @@
           "prompt": "Order: “Two teas, one samosa”"
         }
       ]
+    },
+    {
+      "id": "u06-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can get around a Pakistani city: directions, fares, ordering",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u06.aaiye",
+          "prompt": "Khala is on the phone. Say: “Please come in”"
+        },
+        {
+          "type": "type",
+          "phrase": "u06.baitho",
+          "prompt": "Type it: “Sit”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u06.chaliye",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u06.aaiye",
+            "u06.baitho",
+            "u06.chaliye",
+            "u06.rukiye"
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u06.rukiye",
+          "prompt": "Type it for the family group: “Please stop”"
+        },
+        {
+          "type": "type",
+          "phrase": "u06.daayen",
+          "prompt": "Type it: “Turn right”"
+        },
+        {
+          "type": "say",
+          "phrase": "u06.yahan-rukiye",
+          "prompt": "Nani is waiting. Say: “Stop here, please”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u06.masjid-kahan"
+        },
+        {
+          "type": "type",
+          "phrase": "u06.ghar-ke-paas",
+          "prompt": "Type it for the family group: “near the house”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u06.masjid-peeche",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

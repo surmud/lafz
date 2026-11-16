@@ -3083,6 +3083,73 @@
           "phrase": "u05.der-ho-gayi"
         }
       ]
+    },
+    {
+      "id": "u05-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can handle prices, times, dates and your age",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u05.n-ek",
+          "prompt": "Khala is on the phone. Say: “1”"
+        },
+        {
+          "type": "type",
+          "phrase": "u05.n-chaar",
+          "prompt": "Type it: “4”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u05.n-saat",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u05.n-ek",
+            "u05.n-chaar",
+            "u05.n-saat",
+            "u05.n-das"
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u05.n-das",
+          "prompt": "Type it for the family group: “10”"
+        },
+        {
+          "type": "type",
+          "phrase": "u05.n-chaalees",
+          "prompt": "Type it: “40”"
+        },
+        {
+          "type": "say",
+          "phrase": "u05.n-hazaar",
+          "prompt": "Nani is waiting. Say: “1,000”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u05.sasta"
+        },
+        {
+          "type": "type",
+          "phrase": "u05.kitne-baje-hain",
+          "prompt": "Type it for the family group: “What time is it?”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u05.sawa-teen",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

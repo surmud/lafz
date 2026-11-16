@@ -2518,6 +2518,73 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u07-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can get through a Pakistani wedding season, in Urdu",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u07.dholki",
+          "prompt": "Khala is on the phone. Say: “drum night: singing, clapping, aunties' songs”"
+        },
+        {
+          "type": "type",
+          "phrase": "u07.baraat",
+          "prompt": "Type it: “the groom's procession”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u07.dulha",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u07.dholki",
+            "u07.baraat",
+            "u07.dulha",
+            "u07.salami"
+          ]
+        },
+        {
+          "type": "type",
+          "phrase": "u07.salami",
+          "prompt": "Type it for the family group: “gift money”"
+        },
+        {
+          "type": "type",
+          "phrase": "u07.shaadi-mubarak",
+          "prompt": "Type it: “Happy wedding!”"
+        },
+        {
+          "type": "say",
+          "phrase": "u07.dulhan-khoobsurat",
+          "prompt": "Nani is waiting. Say: “The bride looks beautiful”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u07.naachungi"
+        },
+        {
+          "type": "type",
+          "phrase": "u07.kal-jayenge",
+          "prompt": "Type it for the family group: “We'll go tomorrow”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u07.shalwar-kameez",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

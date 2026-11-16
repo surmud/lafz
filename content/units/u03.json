@@ -3147,6 +3147,72 @@
           "prompt": "The power move: “You cook so well” (in Urdu, respectfully)"
         }
       ]
+    },
+    {
+      "id": "u03-mix",
+      "title": "Mix it up",
+      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "canDo": "You can use this unit's phrases without a prompt: you can get through a desi dinner as a guest without offending anyone",
+      "teach": [
+        {
+          "title": "Boss warm-up",
+          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "say",
+          "phrase": "u03.khana-lag-gaya",
+          "prompt": "Khala is on the phone. Say: “Food's on the table”"
+        },
+        {
+          "type": "type",
+          "phrase": "u03.chawal",
+          "prompt": "Type it: “rice”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u03.gosht",
+          "speed": "normal"
+        },
+        {
+          "type": "match",
+          "phrases": [
+            "u03.khana-lag-gaya",
+            "u03.chawal",
+            "u03.gosht",
+            "u03.bas-bas"
+          ]
+        },
+        {
+          "type": "build",
+          "phrase": "u03.bas-bas"
+        },
+        {
+          "type": "type",
+          "phrase": "u03.thora-sa",
+          "prompt": "Type it: “just a little”"
+        },
+        {
+          "type": "say",
+          "phrase": "u03.maza-aa-gaya",
+          "prompt": "Nani is waiting. Say: “That was amazing!”"
+        },
+        {
+          "type": "meaning",
+          "phrase": "u03.takleef"
+        },
+        {
+          "type": "type",
+          "phrase": "u03.ji-zaroor",
+          "prompt": "Type it for the family group: “Yes, of course”"
+        },
+        {
+          "type": "listen",
+          "phrase": "u03.yeh-kya-hai",
+          "speed": "normal"
+        }
+      ]
     }
   ],
   "boss": {

@@ -2,7 +2,7 @@
 """Round-trip every normal-speed MMS clip through Whisper and compare with the source Nastaliq
 (docs/EVALS.md §3). Writes docs/audio-audit.json and prints the worst 5%.
 
-  .venv/bin/python scripts/audio_audit.py [--model openai/whisper-small]
+  .venv/bin/python scripts/audio_audit.py [--model mlx-community/whisper-large-v3-turbo]
 
 Similarity is 1 - edit distance / length on normalised Urdu (diacritics stripped, Arabic/Urdu
 letter variants unified), the same normalisation the app uses for speech answers.
@@ -14,7 +14,7 @@ import numpy as np
 import soundfile as sf
 
 ROOT = Path(__file__).resolve().parent.parent
-MODEL = sys.argv[sys.argv.index("--model") + 1] if "--model" in sys.argv else "openai/whisper-small"
+MODEL = sys.argv[sys.argv.index("--model") + 1] if "--model" in sys.argv else "mlx-community/whisper-large-v3-turbo"
 
 
 def norm(s: str) -> str:
@@ -36,12 +36,12 @@ def dist(a: str, b: str) -> int:
 
 
 def main() -> int:
-    from transformers import pipeline
+    # MLX Whisper (Apple silicon) is ~5x faster than transformers on MPS here; clips are 16 kHz mono.
+    import mlx_whisper
 
-    import torch
+    def transcribe(wave):
+        return mlx_whisper.transcribe(wave, path_or_hf_repo=MODEL, language="ur", condition_on_previous_text=False)["text"]
 
-    device = "mps" if torch.backends.mps.is_available() else "cpu"
-    asr = pipeline("automatic-speech-recognition", model=MODEL, device=device, torch_dtype=torch.float16 if device == "mps" else torch.float32)
     phrases = []
     for f in sorted(glob.glob(str(ROOT / "content/units/*.json"))):
         phrases += json.loads(Path(f).read_text())["phrases"]
@@ -56,8 +56,7 @@ def main() -> int:
         if not path.exists():
             continue
         wave, sr = sf.read(path, dtype="float32")
-        out = asr({"raw": wave.astype(np.float32), "sampling_rate": sr}, return_timestamps=False, generate_kwargs={"language": "urdu", "task": "transcribe"})
-        heard = out["text"].strip()
+        heard = transcribe(wave.astype(np.float32)).strip()
         a, b = norm(text), norm(heard)
         sim = 1 - dist(a, b) / max(len(a), len(b), 1)
         rows.append({"id": p["id"], "text": text, "heard": heard, "similarity": round(sim, 3)})
