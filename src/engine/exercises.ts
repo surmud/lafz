@@ -28,6 +28,8 @@ export interface ResolvedChoice {
   audio?: Phrase;
   /** When true the phrase is only heard, never shown. */
   audioOnly: boolean;
+  /** Show the prompt phrase in Urdu script only (reading track). */
+  urduOnly?: boolean;
   speed: "normal" | "aunty";
   options: ChoiceOption[];
   answerKey: string;
@@ -231,6 +233,7 @@ export function resolveExercise(ex: Exercise, exId: string, ctx: ResolveContext)
         glyph: ex.glyph,
         audio: ex.audio ? need(ctx, ex.audio) : ex.show ? need(ctx, ex.show) : undefined,
         audioOnly: false,
+        urduOnly: ex.urduOnly,
         speed: "normal",
         options: shuffle(keyed, rng),
         answerKey: `o${ex.answer}`,

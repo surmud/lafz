@@ -1,13 +1,12 @@
 "use client";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
 import type { Character, Pack } from "@/content/schema";
 import { nextUp, unitProgress, type UnitMeta } from "@/engine/course";
 import { buildReviewSession } from "@/engine/review";
 import { levelFor } from "@/engine/xp";
 import { today, useStore } from "@/lib/store";
 import { Avatar } from "./Avatar";
+import { WelcomeView } from "./WelcomeView";
 import { BottomNav } from "./BottomNav";
 import { Nastaliq } from "./Phrase";
 import { StreakBadge, WelcomeBack } from "./StreakBadge";
@@ -15,10 +14,6 @@ import { Card, Pill, ProgressBar, TruckStripe } from "./ui";
 
 export function HomeView({ units, characters, packs }: { units: UnitMeta[]; characters: Character[]; packs: Pack[] }) {
   const { ready, progress } = useStore();
-  const router = useRouter();
-  useEffect(() => {
-    if (ready && !progress.profile.onboarded) router.replace("/welcome/");
-  }, [ready, progress.profile.onboarded, router]);
 
   const speaking = units.filter((u) => u.track === "speaking");
   const reading = units.filter((u) => u.track === "reading");
@@ -28,7 +23,8 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
   const reviewCount = buildReviewSession(progress.review, today()).length;
   const char = (id: string) => characters.find((c) => c.id === id);
 
-  if (!ready) return <main className="p-6" aria-busy="true" />;
+  // First visit: onboarding renders right here (no redirect, so the first paint is real content).
+  if (ready && !progress.profile.onboarded) return <WelcomeView characters={characters} />;
 
   return (
     <>
@@ -48,7 +44,12 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
 
         <WelcomeBack />
 
-        {next.kind !== "finished" ? (
+        {!ready ? (
+          <div aria-busy="true" className="h-[13.5rem] rounded-[2rem] bg-primary p-5 text-primary-ink shadow-[0_6px_0_var(--primary-deep)]">
+            <p className="text-xs font-black tracking-widest uppercase opacity-80">Urdu for real family life</p>
+            <p className="mt-1 font-display text-3xl font-bold">Salaam!</p>
+          </div>
+        ) : next.kind !== "finished" ? (
           <Link
             href={next.kind === "lesson" ? `/lesson/${next.lesson.id}/` : `/boss/${next.unit.id}/`}
             className="group relative overflow-hidden rounded-[2rem] bg-primary p-5 text-primary-ink shadow-[0_6px_0_var(--primary-deep)] transition active:translate-y-1 active:shadow-none"
@@ -162,7 +163,7 @@ export function UnitCard({ unit, character }: { unit: UnitMeta; character?: Char
           {up.status === "done" ? <Pill tone="good">✓ Done</Pill> : null}
           {up.status === "skipped" ? <Pill tone="accent">Skipped · review anytime</Pill> : null}
         </div>
-        <p className="truncate font-display text-lg font-bold">{unit.title}</p>
+        <p className="line-clamp-2 font-display text-lg leading-tight font-bold">{unit.title}</p>
         <div className="mt-1.5 flex items-center gap-2">
           <ProgressBar value={total ? done / total : 0} label={`${unit.title} progress`} tone={up.status === "done" ? "good" : "primary"} />
           <span className="shrink-0 text-xs font-bold text-ink-soft">

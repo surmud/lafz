@@ -105,8 +105,8 @@ L = [
  {"id": "r10-l2", "title": "Read the couplet", "blurb": "Two lines. Two hundred years old. Still perfect.", "canDo": "You can read and understand a Ghalib couplet in Nastaliq",
   "teach": [info("How a sher works", "A couplet (sher) is two lines that share a rhythm and end-rhyme (here: …dam nikle / …kam nikle). Read slowly, right to left, then listen.", glyph="شعر"), {"phrase": "r10.line1"}, {"phrase": "r10.line2"}],
   "exercises": [
-   {"type": "mc", "prompt": "What does the first line mean?", "show": "r10.line1", "options": [{"text": "Thousands of desires, each one worth dying for"}, {"text": "A thousand people came to the wedding"}, {"text": "Every wish has already come true"}], "answer": 0},
-   {"type": "mc", "prompt": "What does the second line mean?", "show": "r10.line2", "options": [{"text": "Many of my longings came true, yet still too few"}, {"text": "My longings were too many to count"}, {"text": "None of my wishes came true"}], "answer": 0},
+   {"type": "mc", "prompt": "What does the first line mean?", "show": "r10.line1", "urduOnly": True, "options": [{"text": "Thousands of desires, each one worth dying for"}, {"text": "A thousand people came to the wedding"}, {"text": "Every wish has already come true"}], "answer": 0},
+   {"type": "mc", "prompt": "What does the second line mean?", "show": "r10.line2", "urduOnly": True, "options": [{"text": "Many of my longings came true, yet still too few"}, {"text": "My longings were too many to count"}, {"text": "None of my wishes came true"}], "answer": 0},
    {"type": "mc", "prompt": "Which word do both lines end on?", "options": [{"glyph": "نکلے"}, {"glyph": "خواہش"}, {"glyph": "ارمان"}], "answer": 0, "explain": "nikle: the shared refrain (radif) that ties the couplet together."},
    {"type": "listen", "phrase": "r10.line1"},
    {"type": "speak", "phrase": "r10.line1"},

@@ -76,6 +76,8 @@ const McEx = z.strictObject({
   glyph: z.string().optional(),
   /** Phrase whose audio plays with the prompt. */
   audio: id.optional(),
+  /** Reading track: show `show` in Urdu script only, so the Roman can't give the answer away. */
+  urduOnly: z.boolean().optional(),
   options: z.array(McOption).min(2).max(5),
   answer: z.number().int().min(0),
   explain: z.string().optional(),

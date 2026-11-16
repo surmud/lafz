@@ -40,7 +40,7 @@ export function ChoiceExercise({ ex, locked, onChange }: ExerciseProps<ResolvedC
       {ex.show ? (
         <div className="flex items-center gap-3 rounded-3xl bg-surface-2 p-4">
           {ex.audio ? <AudioButton phrase={ex.audio} autoPlay={ex.flavour === "meaning"} /> : null}
-          <PhraseText phrase={ex.show} size="lg" />
+          <PhraseText phrase={ex.show} size="lg" mode={ex.urduOnly ? "urdu" : undefined} />
         </div>
       ) : ex.audio && ex.flavour === "mc" ? (
         <div className="flex justify-center">

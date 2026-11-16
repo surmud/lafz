@@ -86,13 +86,15 @@
   --animate-float: float 3s ease-in-out infinite;
 }
 
+/* Transform-only entrances: content is visible from the first frame (good for LCP and for
+   anyone with a slow device), it just settles into place. */
 @keyframes pop {
-  0% { transform: scale(0.92); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
+  0% { transform: scale(0.94); }
+  100% { transform: scale(1); }
 }
 @keyframes rise {
-  0% { transform: translateY(14px); opacity: 0; }
-  100% { transform: translateY(0); opacity: 1; }
+  0% { transform: translateY(10px); }
+  100% { transform: translateY(0); }
 }
 @keyframes shake {
   0%, 100% { transform: translateX(0); }

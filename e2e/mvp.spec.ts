@@ -4,7 +4,7 @@ import { answerStep, freshStart, shooter } from "./helpers";
 test("placement → suggested unit → Unit 1 Lesson 1 complete", async ({ page }, info) => {
   const shot = shooter(page, "mvp", info.project.name);
   await freshStart(page);
-  await expect(page).toHaveURL(/welcome/);
+  await expect(page.getByRole("button", { name: "Let's go" })).toBeVisible();
   await shot("welcome");
   await page.getByRole("button", { name: "Let's go" }).click();
   await page.getByRole("button", { name: /freeze when I speak/ }).click();

@@ -60,7 +60,7 @@ export function ScriptToggle() {
       type="button"
       onClick={() => setSettings({ script: next })}
       className="min-h-11 rounded-full border-2 border-line bg-surface px-3 text-sm font-bold text-ink-soft"
-      aria-label={`Script: ${script}. Tap for ${next}.`}
+      aria-label={`${label[script]}: showing ${script === "both" ? "Roman and Urdu" : script === "roman" ? "Roman only" : "Urdu script only"}. Tap to change.`}
     >
       {label[script]}
     </button>

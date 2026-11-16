@@ -2,6 +2,7 @@
 import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
+import zlib from "node:zlib";
 
 const port = Number(process.argv[2] ?? 4173);
 const root = path.resolve("out");
@@ -46,7 +47,13 @@ http
       });
       return res.end(data.subarray(start, end + 1));
     }
-    res.writeHead(200, { "Content-Type": type, "Content-Length": data.length, "Accept-Ranges": "bytes" });
+    // Compress text like GitHub Pages does, so local Lighthouse numbers are realistic.
+    if (/text|javascript|json|svg|manifest/.test(type) && /gzip/.test(req.headers["accept-encoding"] ?? "")) {
+      const gz = zlib.gzipSync(data);
+      res.writeHead(200, { "Content-Type": type, "Content-Encoding": "gzip", "Content-Length": gz.length, "Cache-Control": "max-age=600" });
+      return res.end(gz);
+    }
+    res.writeHead(200, { "Content-Type": type, "Content-Length": data.length, "Accept-Ranges": "bytes", "Cache-Control": "max-age=600" });
     res.end(data);
   })
   .listen(port, () => console.log(`serving out/ at http://localhost:${port}/lafz/`));

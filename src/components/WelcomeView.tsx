@@ -28,7 +28,8 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
       ...p,
       profile: { ...p.profile, kind, onboarded: true, relatives: Object.fromEntries(Object.entries(names).filter(([, v]) => v.trim())) },
     }));
-    router.push(to === "placement" ? "/placement/" : "/");
+    if (to === "placement") router.push("/placement/");
+    else router.replace("/");
   };
 
   return (

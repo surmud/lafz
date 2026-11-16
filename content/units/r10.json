@@ -498,6 +498,7 @@
           "type": "mc",
           "prompt": "What does the first line mean?",
           "show": "r10.line1",
+          "urduOnly": true,
           "options": [
             {
               "text": "Thousands of desires, each one worth dying for"
@@ -515,6 +516,7 @@
           "type": "mc",
           "prompt": "What does the second line mean?",
           "show": "r10.line2",
+          "urduOnly": true,
           "options": [
             {
               "text": "Many of my longings came true, yet still too few"
