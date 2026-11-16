@@ -48,6 +48,9 @@ for (const theme of ["light", "dark"] as const) {
     await page.keyboard.press("Escape");
     await page.goto("./unit/u02/");
     await shot("unit2");
+    await page.goto("./dev/ui/");
+    await expect(page.getByRole("heading", { name: "Buttons" })).toBeVisible();
+    await page.screenshot({ path: `e2e/screenshots/pages-${theme}-iphone/99-dev-ui.png`, fullPage: true });
     await page.goto("./me/");
     await expect(page.getByText("What you can do")).toBeVisible();
     await shot("me");

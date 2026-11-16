@@ -9,7 +9,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
   AC: `npm run build` produces `out/`, and a hello page renders at 375px.
 - [x] **A2 CI/CD.** GitHub Actions: check, build, e2e on push. Deploy `out/` to GitHub Pages on main.
   AC: the site is live at https://surmud.github.io/lafz/, and Playwright screenshots upload as artifacts.
-- [~] **A3 Design system.** (palette, type, Nastaliq, light/dark and base components done; /dev/ui gallery still to do) Colour palette (warm and desi, not Duolingo green), type scale, Nastaliq
+- [x] **A3 Design system.** (palette, type, Nastaliq, light/dark and base components done; /dev/ui gallery still to do) Colour palette (warm and desi, not Duolingo green), type scale, Nastaliq
   font self-hosted, light/dark, base components (Button, Card, ProgressBar, AudioButton,
   UrduText with Roman/Nastaliq toggle).
   AC: a /dev/ui gallery page; screenshots look polished at 375px in both themes.
@@ -65,12 +65,12 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 ## Discovered while building (2026-11-16)
 - [x] **G1 Placement pool grows with the course.** Add 2 placement questions per new unit (levels 2–12);
   placement can only suggest units that exist.
-- [ ] **G2 /dev/ui gallery** (finishes A3).
+- [x] **G2 /dev/ui gallery** (finishes A3).
 - [ ] **G3 Whisper round-trip audio audit** (EVALS §3): transcribe each MMS clip, log similarity, flag the worst 5%.
-- [ ] **G4 Personalised names in dialogue.** Onboarding stores relatives' names but nothing uses them yet.
+- [x] **G4 Personalised names in dialogue.** Onboarding stores relatives' names but nothing uses them yet.
 - [x] **G5 Persona specs** for all six EVALS personas (only the MVP flow and a screen gallery exist).
 
-- [ ] **G6 Reading R1–R5 depth.** Each reading unit has 3 lessons; add a "build the word from letters"
+- [x] **G6 Reading R1–R5 depth.** Each reading unit has 3 lessons; add a "build the word from letters"
   exercise and a 4th lesson of mixed review before R6.
 - [ ] **G7 Page weight as units grow.** Each lesson page embeds its unit's phrase pool; watch HTML size
   (now 35–60 KB) and the precache (2.8 MB) as units 5–12 land.
@@ -81,7 +81,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 
 - [ ] **G10 Home first paint.** Home content depends on IndexedDB, so LCP waits for hydration (perf 78).
   Render a static course map shell server-side and hydrate progress into it.
-- [ ] **G11 Funnier generated drills.** Review/pack drills use generic prompts ("How do you say…"); add
+- [x] **G11 Funnier generated drills.** Review/pack drills use generic prompts ("How do you say…"); add
   situational prompt templates per sense/register.
 
 ## Phase F — Self-improvement (ongoing, forever)
