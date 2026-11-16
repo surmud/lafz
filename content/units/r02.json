@@ -711,6 +711,169 @@
           "label": "jab"
         }
       ]
+    },
+    {
+      "id": "r02-l4",
+      "title": "Mix it up",
+      "blurb": "Spell words letter by letter. Watch the dots.",
+      "canDo": "You can spell jab, chup, dada letter by letter",
+      "teach": [
+        {
+          "title": "Spelling, right to left",
+          "info": "Break a word into letters, starting from the right. Many wrong answers here differ by just one dot. Look closely.",
+          "glyph": "جب"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “jab” (when)? Right to left.",
+          "options": [
+            {
+              "glyph": "ج + ب"
+            },
+            {
+              "glyph": "چ + ب"
+            },
+            {
+              "glyph": "ج + پ"
+            }
+          ],
+          "answer": 0,
+          "explain": "جب: from the right, jeem then be."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “chup” (quiet!)? Right to left.",
+          "options": [
+            {
+              "glyph": "چ + پ"
+            },
+            {
+              "glyph": "ج + پ"
+            },
+            {
+              "glyph": "چ + ب"
+            }
+          ],
+          "answer": 0,
+          "explain": "چپ: from the right, che then pe."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “dada” (grandad (dad's dad))? Right to left.",
+          "options": [
+            {
+              "glyph": "د + ا + د + ا"
+            },
+            {
+              "glyph": "ڈ + ا + د + ا"
+            },
+            {
+              "glyph": "د + آ + د + ا"
+            }
+          ],
+          "answer": 0,
+          "explain": "دادا: from the right, daal then alif then daal then alif."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “khuda” (God)? Right to left.",
+          "options": [
+            {
+              "glyph": "خ + د + ا"
+            },
+            {
+              "glyph": "ح + د + ا"
+            },
+            {
+              "glyph": "خ + ڈ + ا"
+            }
+          ],
+          "answer": 0,
+          "explain": "خدا: from the right, khe then daal then alif."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: j?",
+          "options": [
+            {
+              "glyph": "ج"
+            },
+            {
+              "glyph": "چ"
+            },
+            {
+              "glyph": "ح"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: ch?",
+          "options": [
+            {
+              "glyph": "چ"
+            },
+            {
+              "glyph": "ج"
+            },
+            {
+              "glyph": "ح"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: h (Arabic loanwords)?",
+          "options": [
+            {
+              "glyph": "ح"
+            },
+            {
+              "glyph": "ج"
+            },
+            {
+              "glyph": "چ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: kh (like Scottish 'loch')?",
+          "options": [
+            {
+              "glyph": "خ"
+            },
+            {
+              "glyph": "ج"
+            },
+            {
+              "glyph": "چ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: soft d?",
+          "options": [
+            {
+              "glyph": "د"
+            },
+            {
+              "glyph": "ج"
+            },
+            {
+              "glyph": "چ"
+            }
+          ],
+          "answer": 0
+        }
+      ]
     }
   ]
 }

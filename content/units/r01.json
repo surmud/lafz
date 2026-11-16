@@ -678,6 +678,169 @@
           "label": "aap"
         }
       ]
+    },
+    {
+      "id": "r01-l4",
+      "title": "Mix it up",
+      "blurb": "Spell words letter by letter. Watch the dots.",
+      "canDo": "You can spell aap, ab, baat letter by letter",
+      "teach": [
+        {
+          "title": "Spelling, right to left",
+          "info": "Break a word into letters, starting from the right. Many wrong answers here differ by just one dot. Look closely.",
+          "glyph": "آپ"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “aap” (you (respectful))? Right to left.",
+          "options": [
+            {
+              "glyph": "آ + پ"
+            },
+            {
+              "glyph": "آ + ب"
+            },
+            {
+              "glyph": "پ + آ"
+            }
+          ],
+          "answer": 0,
+          "explain": "آپ: from the right, alif madda then pe."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “ab” (now)? Right to left.",
+          "options": [
+            {
+              "glyph": "ا + ب"
+            },
+            {
+              "glyph": "آ + ب"
+            },
+            {
+              "glyph": "ا + پ"
+            }
+          ],
+          "answer": 0,
+          "explain": "اب: from the right, alif then be."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “baat” (a matter / talk)? Right to left.",
+          "options": [
+            {
+              "glyph": "ب + ا + ت"
+            },
+            {
+              "glyph": "پ + ا + ت"
+            },
+            {
+              "glyph": "ب + آ + ت"
+            }
+          ],
+          "answer": 0,
+          "explain": "بات: from the right, be then alif then te."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “baap” (father)? Right to left.",
+          "options": [
+            {
+              "glyph": "ب + ا + پ"
+            },
+            {
+              "glyph": "پ + ا + پ"
+            },
+            {
+              "glyph": "ب + آ + پ"
+            }
+          ],
+          "answer": 0,
+          "explain": "باپ: from the right, be then alif then pe."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: long 'aa' (or a silent seat for a vowel)?",
+          "options": [
+            {
+              "glyph": "ا"
+            },
+            {
+              "glyph": "ب"
+            },
+            {
+              "glyph": "پ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: b?",
+          "options": [
+            {
+              "glyph": "ب"
+            },
+            {
+              "glyph": "ا"
+            },
+            {
+              "glyph": "پ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: p?",
+          "options": [
+            {
+              "glyph": "پ"
+            },
+            {
+              "glyph": "ا"
+            },
+            {
+              "glyph": "ب"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: soft t (tongue on teeth)?",
+          "options": [
+            {
+              "glyph": "ت"
+            },
+            {
+              "glyph": "ا"
+            },
+            {
+              "glyph": "ب"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: hard t (tongue curled back)?",
+          "options": [
+            {
+              "glyph": "ٹ"
+            },
+            {
+              "glyph": "ا"
+            },
+            {
+              "glyph": "ب"
+            }
+          ],
+          "answer": 0
+        }
+      ]
     }
   ]
 }

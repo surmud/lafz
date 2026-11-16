@@ -107,7 +107,33 @@ for uid, order, title, emoji, tagline, letters, words in UNITS:
     lesson3 = {"id": lid(3), "title": "Read real words", "blurb": " ".join(w[1] for w in words[:4]),
                "canDo": f"You can read {', '.join(w[0] for w in words[:4])} in Urdu script", "teach": teach3, "exercises": ex3}
 
+    # Lesson 4: mix it up. Spelling with dot-family decoys, and sound → letter.
+    SIB = {"ب": "پ", "پ": "ب", "ت": "ٹ", "ٹ": "ت", "ث": "ت", "ج": "چ", "چ": "ج", "ح": "خ", "خ": "ح", "د": "ڈ", "ڈ": "د", "ذ": "ز",
+           "ر": "ڑ", "ڑ": "ر", "ز": "ذ", "س": "ش", "ش": "س", "ص": "ض", "ض": "ص", "ط": "ظ", "ظ": "ط", "ع": "غ", "غ": "ع", "ف": "ق", "ق": "ف",
+           "ک": "گ", "گ": "ک", "ن": "ت", "ی": "ے", "ے": "ی", "ہ": "ھ", "ا": "آ", "م": "ل", "ل": "م", "و": "ر"}
+    ex4 = []
+    for roman, urdu, en in words:
+        letters_of = [c for c in urdu if c.strip() and c != "ـ"]
+        right = " + ".join(letters_of)
+        wrongs = []
+        for k, c in enumerate(letters_of):
+            if c in SIB and len(wrongs) < 2:
+                alt = letters_of[:k] + [SIB[c]] + letters_of[k + 1:]
+                cand = " + ".join(alt)
+                if cand != right and cand not in wrongs:
+                    wrongs.append(cand)
+        if len(wrongs) < 2:
+            wrongs.append(" + ".join(reversed(letters_of)))
+        if len(set([right] + wrongs)) < 3:
+            continue
+        ex4.append({"type": "mc", "prompt": f"Which letters spell “{roman}” ({en})? Right to left.", "options": [{"glyph": right}] + [{"glyph": w} for w in wrongs[:2]], "answer": 0, "explain": f"{urdu}: from the right, {' then '.join(L[c][0] if c in L else ('alif madda' if c == 'آ' else c) for c in letters_of)}."})
+    for ch in letters[:5]:
+        others = [c for c in letters if c != ch][:2]
+        ex4.append({"type": "mc", "prompt": f"Which letter makes the sound: {L[ch][2]}?", "options": [{"glyph": ch}] + [{"glyph": o} for o in others], "answer": 0})
+    lesson4 = {"id": lid(4), "title": "Mix it up", "blurb": "Spell words letter by letter. Watch the dots.",
+               "canDo": f"You can spell {', '.join(w[0] for w in words[:3])} letter by letter", "teach": [info("Spelling, right to left", "Break a word into letters, starting from the right. Many wrong answers here differ by just one dot. Look closely.", glyph=words[0][1])], "exercises": ex4}
+
     meta = {"track": "reading", "order": order, "title": title, "emoji": emoji, "tagline": tagline,
             "canDo": f"You can read the letters {' '.join(letters)} and words made from them",
             "grammar": [{"title": "Letter sounds", "body": "  ·  ".join(f"{c} {L[c][0]} = {L[c][2]}" for c in letters)}]}
-    write_unit(u, meta, [lesson1, lesson2, lesson3], None)
+    write_unit(u, meta, [lesson1, lesson2, lesson3, lesson4], None)

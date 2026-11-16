@@ -732,6 +732,169 @@
           "label": "saaf"
         }
       ]
+    },
+    {
+      "id": "r04-l4",
+      "title": "Mix it up",
+      "blurb": "Spell words letter by letter. Watch the dots.",
+      "canDo": "You can spell saaf, sabr, farq letter by letter",
+      "teach": [
+        {
+          "title": "Spelling, right to left",
+          "info": "Break a word into letters, starting from the right. Many wrong answers here differ by just one dot. Look closely.",
+          "glyph": "صاف"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “saaf” (clean)? Right to left.",
+          "options": [
+            {
+              "glyph": "ص + ا + ف"
+            },
+            {
+              "glyph": "ض + ا + ف"
+            },
+            {
+              "glyph": "ص + آ + ف"
+            }
+          ],
+          "answer": 0,
+          "explain": "صاف: from the right, swaad then alif then fe."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “sabr” (patience)? Right to left.",
+          "options": [
+            {
+              "glyph": "ص + ب + ر"
+            },
+            {
+              "glyph": "ض + ب + ر"
+            },
+            {
+              "glyph": "ص + پ + ر"
+            }
+          ],
+          "answer": 0,
+          "explain": "صبر: from the right, swaad then be then re."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “farq” (difference)? Right to left.",
+          "options": [
+            {
+              "glyph": "ف + ر + ق"
+            },
+            {
+              "glyph": "ق + ر + ق"
+            },
+            {
+              "glyph": "ف + ڑ + ق"
+            }
+          ],
+          "answer": 0,
+          "explain": "فرق: from the right, fe then re then qaaf."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “taraf” (direction / side)? Right to left.",
+          "options": [
+            {
+              "glyph": "ط + ر + ف"
+            },
+            {
+              "glyph": "ظ + ر + ف"
+            },
+            {
+              "glyph": "ط + ڑ + ف"
+            }
+          ],
+          "answer": 0,
+          "explain": "طرف: from the right, toe then re then fe."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: s (Arabic loanwords)?",
+          "options": [
+            {
+              "glyph": "ص"
+            },
+            {
+              "glyph": "ض"
+            },
+            {
+              "glyph": "ط"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: z (Arabic loanwords)?",
+          "options": [
+            {
+              "glyph": "ض"
+            },
+            {
+              "glyph": "ص"
+            },
+            {
+              "glyph": "ط"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: t (Arabic loanwords)?",
+          "options": [
+            {
+              "glyph": "ط"
+            },
+            {
+              "glyph": "ص"
+            },
+            {
+              "glyph": "ض"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: z (Arabic loanwords)?",
+          "options": [
+            {
+              "glyph": "ظ"
+            },
+            {
+              "glyph": "ص"
+            },
+            {
+              "glyph": "ض"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: a vowel carrier (Arabic loanwords)?",
+          "options": [
+            {
+              "glyph": "ع"
+            },
+            {
+              "glyph": "ص"
+            },
+            {
+              "glyph": "ض"
+            }
+          ],
+          "answer": 0
+        }
+      ]
     }
   ]
 }

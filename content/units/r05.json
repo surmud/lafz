@@ -1027,6 +1027,237 @@
           "label": "naam"
         }
       ]
+    },
+    {
+      "id": "r05-l4",
+      "title": "Mix it up",
+      "blurb": "Spell words letter by letter. Watch the dots.",
+      "canDo": "You can spell naam, ghar, ammi letter by letter",
+      "teach": [
+        {
+          "title": "Spelling, right to left",
+          "info": "Break a word into letters, starting from the right. Many wrong answers here differ by just one dot. Look closely.",
+          "glyph": "نام"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “naam” (name)? Right to left.",
+          "options": [
+            {
+              "glyph": "ن + ا + م"
+            },
+            {
+              "glyph": "ت + ا + م"
+            },
+            {
+              "glyph": "ن + آ + م"
+            }
+          ],
+          "answer": 0,
+          "explain": "نام: from the right, noon then alif then meem."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “ghar” (house / home)? Right to left.",
+          "options": [
+            {
+              "glyph": "گ + ھ + ر"
+            },
+            {
+              "glyph": "ک + ھ + ر"
+            },
+            {
+              "glyph": "گ + ھ + ڑ"
+            }
+          ],
+          "answer": 0,
+          "explain": "گھر: from the right, gaaf then do-chashmi he then re."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “ammi” (Mum)? Right to left.",
+          "options": [
+            {
+              "glyph": "ا + م + ی"
+            },
+            {
+              "glyph": "آ + م + ی"
+            },
+            {
+              "glyph": "ا + ل + ی"
+            }
+          ],
+          "answer": 0,
+          "explain": "امی: from the right, alif then meem then ye."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “nani” (Nani)? Right to left.",
+          "options": [
+            {
+              "glyph": "ن + ا + ن + ی"
+            },
+            {
+              "glyph": "ت + ا + ن + ی"
+            },
+            {
+              "glyph": "ن + آ + ن + ی"
+            }
+          ],
+          "answer": 0,
+          "explain": "نانی: from the right, noon then alif then noon then ye."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “hai” (is)? Right to left.",
+          "options": [
+            {
+              "glyph": "ہ + ے"
+            },
+            {
+              "glyph": "ھ + ے"
+            },
+            {
+              "glyph": "ہ + ی"
+            }
+          ],
+          "answer": 0,
+          "explain": "ہے: from the right, he then bari ye."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “nahin” (no / not)? Right to left.",
+          "options": [
+            {
+              "glyph": "ن + ہ + ی + ں"
+            },
+            {
+              "glyph": "ت + ہ + ی + ں"
+            },
+            {
+              "glyph": "ن + ھ + ی + ں"
+            }
+          ],
+          "answer": 0,
+          "explain": "نہیں: from the right, noon then he then ye then noon ghunna."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “main” (I)? Right to left.",
+          "options": [
+            {
+              "glyph": "م + ی + ں"
+            },
+            {
+              "glyph": "ل + ی + ں"
+            },
+            {
+              "glyph": "م + ے + ں"
+            }
+          ],
+          "answer": 0,
+          "explain": "میں: from the right, meem then ye then noon ghunna."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “shukriya” (thank you)? Right to left.",
+          "options": [
+            {
+              "glyph": "ش + ک + ر + ی + ہ"
+            },
+            {
+              "glyph": "س + ک + ر + ی + ہ"
+            },
+            {
+              "glyph": "ش + گ + ر + ی + ہ"
+            }
+          ],
+          "answer": 0,
+          "explain": "شکریہ: from the right, sheen then kaaf then re then ye then he."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: k?",
+          "options": [
+            {
+              "glyph": "ک"
+            },
+            {
+              "glyph": "گ"
+            },
+            {
+              "glyph": "ل"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: g?",
+          "options": [
+            {
+              "glyph": "گ"
+            },
+            {
+              "glyph": "ک"
+            },
+            {
+              "glyph": "ل"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: l?",
+          "options": [
+            {
+              "glyph": "ل"
+            },
+            {
+              "glyph": "ک"
+            },
+            {
+              "glyph": "گ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: m?",
+          "options": [
+            {
+              "glyph": "م"
+            },
+            {
+              "glyph": "ک"
+            },
+            {
+              "glyph": "گ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: n?",
+          "options": [
+            {
+              "glyph": "ن"
+            },
+            {
+              "glyph": "ک"
+            },
+            {
+              "glyph": "گ"
+            }
+          ],
+          "answer": 0
+        }
+      ]
     }
   ]
 }

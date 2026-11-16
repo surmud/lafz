@@ -673,6 +673,169 @@
           "label": "sab"
         }
       ]
+    },
+    {
+      "id": "r03-l4",
+      "title": "Mix it up",
+      "blurb": "Spell words letter by letter. Watch the dots.",
+      "canDo": "You can spell sab, bas, bara letter by letter",
+      "teach": [
+        {
+          "title": "Spelling, right to left",
+          "info": "Break a word into letters, starting from the right. Many wrong answers here differ by just one dot. Look closely.",
+          "glyph": "سب"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “sab” (all / everyone)? Right to left.",
+          "options": [
+            {
+              "glyph": "س + ب"
+            },
+            {
+              "glyph": "ش + ب"
+            },
+            {
+              "glyph": "س + پ"
+            }
+          ],
+          "answer": 0,
+          "explain": "سب: from the right, seen then be."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “bas” (enough!)? Right to left.",
+          "options": [
+            {
+              "glyph": "ب + س"
+            },
+            {
+              "glyph": "پ + س"
+            },
+            {
+              "glyph": "ب + ش"
+            }
+          ],
+          "answer": 0,
+          "explain": "بس: from the right, be then seen."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “bara” (big)? Right to left.",
+          "options": [
+            {
+              "glyph": "ب + ڑ + ا"
+            },
+            {
+              "glyph": "پ + ڑ + ا"
+            },
+            {
+              "glyph": "ب + ر + ا"
+            }
+          ],
+          "answer": 0,
+          "explain": "بڑا: from the right, be then ṛe then alif."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letters spell “kharab” (bad / broken)? Right to left.",
+          "options": [
+            {
+              "glyph": "خ + ر + ا + ب"
+            },
+            {
+              "glyph": "ح + ر + ا + ب"
+            },
+            {
+              "glyph": "خ + ڑ + ا + ب"
+            }
+          ],
+          "answer": 0,
+          "explain": "خراب: from the right, khe then re then alif then be."
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: rolled r?",
+          "options": [
+            {
+              "glyph": "ر"
+            },
+            {
+              "glyph": "ڑ"
+            },
+            {
+              "glyph": "ز"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: flapped ṛ (as in bara)?",
+          "options": [
+            {
+              "glyph": "ڑ"
+            },
+            {
+              "glyph": "ر"
+            },
+            {
+              "glyph": "ز"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: z?",
+          "options": [
+            {
+              "glyph": "ز"
+            },
+            {
+              "glyph": "ر"
+            },
+            {
+              "glyph": "ڑ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: zh (rare, as in 'measure')?",
+          "options": [
+            {
+              "glyph": "ژ"
+            },
+            {
+              "glyph": "ر"
+            },
+            {
+              "glyph": "ڑ"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mc",
+          "prompt": "Which letter makes the sound: s?",
+          "options": [
+            {
+              "glyph": "س"
+            },
+            {
+              "glyph": "ر"
+            },
+            {
+              "glyph": "ڑ"
+            }
+          ],
+          "answer": 0
+        }
+      ]
     }
   ]
 }
