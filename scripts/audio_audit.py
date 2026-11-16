@@ -38,7 +38,10 @@ def dist(a: str, b: str) -> int:
 def main() -> int:
     from transformers import pipeline
 
-    asr = pipeline("automatic-speech-recognition", model=MODEL, device="cpu")
+    import torch
+
+    device = "mps" if torch.backends.mps.is_available() else "cpu"
+    asr = pipeline("automatic-speech-recognition", model=MODEL, device=device, torch_dtype=torch.float16 if device == "mps" else torch.float32)
     phrases = []
     for f in sorted(glob.glob(str(ROOT / "content/units/*.json"))):
         phrases += json.loads(Path(f).read_text())["phrases"]
@@ -53,7 +56,7 @@ def main() -> int:
         if not path.exists():
             continue
         wave, sr = sf.read(path, dtype="float32")
-        out = asr({"raw": wave.astype(np.float32), "sampling_rate": sr}, generate_kwargs={"language": "urdu", "task": "transcribe"})
+        out = asr({"raw": wave.astype(np.float32), "sampling_rate": sr}, return_timestamps=False, generate_kwargs={"language": "urdu", "task": "transcribe"})
         heard = out["text"].strip()
         a, b = norm(text), norm(heard)
         sim = 1 - dist(a, b) / max(len(a), len(b), 1)

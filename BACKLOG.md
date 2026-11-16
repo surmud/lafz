@@ -58,7 +58,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **E2 Onboarding.** Pick heritage vs beginner, the placement offer, set your relatives' names
   (optional; personalises dialogue).
 - [~] **E3 Accessibility pass + Lighthouse ≥ 90** on all categories. (Lesson page: 94/100/100/91. Home perf 78, see G10.)
-- [ ] **E4 Delight.** Character illustrations (SVG, original), micro-animations, sound effects,
+- [x] **E4 Delight.** (original SVG character portraits, confetti, entrance animations, synthesized feedback sounds) Character illustrations (SVG, original), micro-animations, sound effects,
   lesson-complete celebrations.
 - [ ] **E5 PROGRESS.md final.** What's built, medium-confidence Urdu list, known issues, next steps.
 
