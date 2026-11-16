@@ -3,6 +3,7 @@ import { useState } from "react";
 import type { ResolvedSpeak } from "@/engine/exercises";
 import { matchSpeech } from "@/engine/matcher";
 import { listen, speechSupported, type Listening } from "@/lib/speech";
+import { canRecord, loadWhisper, record, transcribeUrdu, whisperCached } from "@/lib/whisper";
 import { AudioButton, PhraseText } from "../Phrase";
 import { AskAmmiButton } from "../AskAmmi";
 import type { ExerciseProps } from "./types";
@@ -63,10 +64,7 @@ export function SpeakExercise({ ex, locked, onSubmit }: ExerciseProps<ResolvedSp
           </p>
         </div>
       ) : (
-        <p className="rounded-2xl bg-accent-soft p-4 text-sm">
-          This browser can&apos;t do Urdu speech recognition. Say it out loud anyway (seriously, it helps), then skip, or ask
-          family to listen.
-        </p>
+        <WhisperFallback phrase={ex.phrase} locked={locked} onSubmit={onSubmit} />
       )}
       <div className="flex flex-wrap justify-center gap-2">
         <button
@@ -79,6 +77,83 @@ export function SpeakExercise({ ex, locked, onSubmit }: ExerciseProps<ResolvedSp
         </button>
         <AskAmmiButton phrase={ex.phrase} compact />
       </div>
+    </div>
+  );
+}
+
+/** Browsers without the Web Speech API: opt-in on-device Whisper (G9). */
+function WhisperFallback({ phrase, locked, onSubmit }: { phrase: ResolvedSpeak["phrase"]; locked: boolean; onSubmit: ExerciseProps<ResolvedSpeak>["onSubmit"] }) {
+  const [state, setState] = useState<"off" | "loading" | "ready" | "recording" | "thinking" | "heard" | "error">(() =>
+    typeof window !== "undefined" && whisperCached() ? "ready" : "off",
+  );
+  const [pct, setPct] = useState(0);
+  const [heard, setHeard] = useState("");
+  const [stopper, setStopper] = useState<(() => void) | null>(null);
+
+  if (!canRecord()) {
+    return (
+      <p className="rounded-2xl bg-accent-soft p-4 text-sm">
+        This browser can&apos;t listen. Say it out loud anyway (seriously, it helps), then tap “I said it”, or ask family to listen.
+      </p>
+    );
+  }
+  if (state === "off" || state === "loading") {
+    return (
+      <div className="flex flex-col gap-2 rounded-2xl bg-accent-soft p-4 text-sm">
+        <p>This browser has no built-in Urdu speech recognition. Lafz can run a speech model on your phone instead: about 80 MB, downloaded once, and your voice never leaves the device.</p>
+        <button
+          type="button"
+          disabled={state === "loading" || locked}
+          onClick={async () => {
+            setState("loading");
+            try {
+              await loadWhisper(setPct);
+              setState("ready");
+            } catch {
+              setState("error");
+            }
+          }}
+          className="min-h-11 rounded-full bg-primary px-4 font-bold text-primary-ink disabled:opacity-60"
+        >
+          {state === "loading" ? `Downloading… ${pct}%` : "Turn on on-device listening"}
+        </button>
+      </div>
+    );
+  }
+  return (
+    <div className="flex flex-col items-center gap-3">
+      <button
+        type="button"
+        disabled={locked || state === "thinking"}
+        aria-label={state === "recording" ? "Stop recording" : "Start speaking"}
+        onClick={async () => {
+          if (state === "recording") return stopper?.();
+          setState("recording");
+          const r = record();
+          setStopper(() => r.stop);
+          try {
+            const audio = await r.result;
+            setState("thinking");
+            const text = await transcribeUrdu(audio);
+            setHeard(text);
+            setState("heard");
+            const v = matchSpeech([text], { roman: phrase.roman, urdu: phrase.urdu, accept: phrase.accept });
+            if (v !== "incorrect") onSubmit({ verdict: v, answer: { roman: phrase.roman, urdu: phrase.urdu, en: phrase.en } });
+          } catch {
+            setState("error");
+          }
+        }}
+        className={`grid size-24 place-items-center rounded-full bg-rose text-4xl text-white shadow-[0_5px_0_var(--rose-deep)] ${state === "recording" ? "animate-pulse" : ""}`}
+      >
+        {state === "recording" ? "■" : "🎙️"}
+      </button>
+      <p className="text-center text-sm text-ink-soft" aria-live="polite">
+        {state === "ready" && "On-device listening is on. Tap, say it, tap again."}
+        {state === "recording" && "Listening… tap to stop."}
+        {state === "thinking" && "Thinking…"}
+        {state === "heard" && (heard ? `Heard: “${heard}”. Not quite. Try again, or skip.` : "Didn't catch anything. Try again?")}
+        {state === "error" && "The microphone or the model isn't available. No problem, skip this one."}
+      </p>
     </div>
   );
 }

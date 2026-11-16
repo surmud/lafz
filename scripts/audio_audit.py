@@ -58,7 +58,7 @@ def main() -> int:
         if text in seen or ".l-" in p["id"]:
             continue  # single letter names are too short for a meaningful round-trip
         seen.add(text)
-        name = hashlib.sha256(f"mms-urd-2|normal|{text}".encode()).hexdigest()[:16] + ".mp3"
+        name = hashlib.sha256(f"mms-urd-3|normal|{text}".encode()).hexdigest()[:16] + ".mp3"
         path = ROOT / "public/audio" / name
         if not path.exists():
             continue

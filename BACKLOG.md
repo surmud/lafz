@@ -46,7 +46,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **C7 Spaced review sessions** (Leitner) + a "Review" entry on home.
 
 ## Phase D — Family and speech
-- [ ] **D1 Speak it.** Web Speech API with a Whisper (transformers.js) fallback; graceful when unsupported.
+- [x] **D1 Speak it.** Web Speech API with a Whisper (transformers.js) fallback; graceful when unsupported.
 - [x] **D2 Ask Ammi** share flow + badge.
 - [x] **D3 Family voice** recording, which overrides TTS, with export/import.
 - [x] **D4 Family tree** interactive explorer + respect meter.
@@ -75,16 +75,16 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **G7 Page weight as units grow.** (precache is now the app shell only, 2.3 MB; lesson pages cache on use or per-unit download) Each lesson page embeds its unit's phrase pool; watch HTML size
   (now 35–60 KB) and the precache (2.8 MB) as units 5–12 land.
 
-- [ ] **G8 Family voice: real-mic E2E.** Headless Chromium can't open a fake mic in this setup; the test
+- [~] **G8 Family voice: real-mic E2E.** (macOS blocks the fake mic; runs as an experimental CI step) Headless Chromium can't open a fake mic in this setup; the test
   injects a recording. Try headed or `channel: "chrome"` in CI.
-- [ ] **G9 Whisper fallback for Speak it** (D1 remainder): transformers.js, lazy-loaded.
+- [x] **G9 Whisper fallback for Speak it** (D1 remainder): transformers.js, lazy-loaded.
 
 - [x] **G10 Home first paint.** (server-rendered intro card; home Lighthouse performance 78 → 90) Home content depends on IndexedDB, so LCP waits for hydration (perf 78).
   Render a static course map shell server-side and hydrate progress into it.
 - [x] **G11 Funnier generated drills.** Review/pack drills use generic prompts ("How do you say…"); add
   situational prompt templates per sense/register.
 
-- [ ] **G12 Single-word audio.** MMS is weakest on isolated words (docs/evals/2026-11-16-audio.md).
+- [x] **G12 Single-word audio.** (voice v3: carrier-sentence synthesis + duration-based cut; 12-word test 0.23 → 0.70) MMS is weakest on isolated words (docs/evals/2026-11-16-audio.md).
   Try a carrier phrase ("لفظ ہے: X") and trimming, or a free alternative TTS for words only.
 
 ## Phase F — Self-improvement (ongoing, forever)

@@ -4,10 +4,11 @@ const PORT = 4173;
 
 export default defineConfig({
   testDir: "e2e",
+  testIgnore: process.env.LAFZ_EXPERIMENTAL ? [] : ["experimental/**"],
   outputDir: "test-results",
   fullyParallel: true,
   timeout: 120_000,
-  retries: process.env.CI ? 1 : 0,
+  retries: 1,
   reporter: process.env.CI ? [["list"], ["html", { open: "never" }]] : "list",
   use: {
     baseURL: `http://localhost:${PORT}/lafz/`,

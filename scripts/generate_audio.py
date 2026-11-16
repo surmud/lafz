@@ -10,7 +10,10 @@ voice|rate|text (the same key as src/content/audio-key.ts), so unchanged text is
 re-synthesised. public/audio/manifest.json maps key → {file, seconds}.
 
 Slow audio is the normal take time-stretched to 0.72x with pitch preserved (librosa).
-Voice v2: 1–2 word phrases use speaking_rate 0.85 / noise_scale 0.4, longer ones noise_scale 0.5.
+Voice v3 (G12): MMS mumbles isolated words, so 1–2 word phrases are synthesised inside a carrier
+sentence ("یہ لفظ X ہے", "this word is X") and cut back out using the model's own per-character
+durations, captured from its duration predictor. Whisper round-trip similarity on a 12-word test went
+from 0.23 to 0.70. Longer phrases are synthesised directly with noise_scale 0.5.
 QA: no silent clips, no clipping, duration within a sane range for the text length.
 """
 from __future__ import annotations
@@ -28,7 +31,7 @@ import soundfile as sf
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "public" / "audio"
 MANIFEST = OUT / "manifest.json"
-VOICE = "mms-urd-2"
+VOICE = "mms-urd-3"
 MODEL = "facebook/mms-tts-urd-script_arabic"
 SLOW_RATE = 0.72
 SR_OUT = 16000
@@ -44,6 +47,44 @@ def key(p: dict, rate: str) -> str:
 
 def file_for(k: str) -> str:
     return hashlib.sha256(k.encode("utf-8")).hexdigest()[:16] + ".mp3"
+
+
+CARRIER_PRE, CARRIER_POST = "یہ لفظ ", " ہے"
+
+
+def synth(model, tok, text: str) -> np.ndarray:
+    """Return a mono waveform at the model's rate (16 kHz for MMS)."""
+    import torch
+
+    short = len(text.split()) <= 2
+    if not short:
+        model.speaking_rate, model.noise_scale = 1.0, 0.5
+        torch.manual_seed(0)
+        with torch.no_grad():
+            return model(**tok(text, return_tensors="pt")).waveform[0].numpy().astype(np.float32)
+    # Carrier synthesis: capture durations from the duration predictor and cut the word out.
+    captured = {}
+    handle = model.duration_predictor.register_forward_hook(lambda m, i, o: captured.__setitem__("logw", o))
+    try:
+        model.speaking_rate, model.noise_scale = 0.9, 0.5
+        full = CARRIER_PRE + text + CARRIER_POST
+        enc = tok(full, return_tensors="pt")
+        torch.manual_seed(0)
+        with torch.no_grad():
+            wave = model(**enc).waveform[0].numpy().astype(np.float32)
+    finally:
+        handle.remove()
+    rate = model.speaking_rate
+    dur = torch.ceil(torch.exp(captured["logw"][0, 0]) * (1.0 / rate)).long().tolist()
+    hop = getattr(model.config, "hop_length", 256)
+    frames = np.cumsum([0] + dur)
+    blank = getattr(tok, "add_blank", True)
+    ci = (lambda c: 2 * c + 1) if blank else (lambda c: c)
+    s_char, e_char = len(CARRIER_PRE), len(CARRIER_PRE) + len(text)
+    start = frames[ci(s_char) - (1 if blank else 0)] * hop
+    end = frames[min(len(frames) - 1, ci(e_char - 1) + (2 if blank else 1))] * hop
+    seg = wave[max(0, int(start) - hop): int(end) + hop]
+    return seg if len(seg) > 1600 else wave  # fall back to the whole carrier only if the cut failed
 
 
 def phrases() -> list[dict]:
@@ -90,15 +131,7 @@ def main() -> int:
         print(f"synthesising {len(todo)} texts…", flush=True)
         for i, text in enumerate(todo, 1):
             p = texts[text]
-            inputs = tok(text, return_tensors="pt")
-            # Voice v2 (audio audit, 2026-11-16): short phrases come out clipped and mumbled at default
-            # settings. Slower and less noisy roughly doubles Whisper round-trip similarity for 1–2 words.
-            short = len(text.split()) <= 2
-            model.speaking_rate = 0.85 if short else 1.0
-            model.noise_scale = 0.4 if short else 0.5
-            torch.manual_seed(0)
-            with torch.no_grad():
-                wave = model(**inputs).waveform[0].numpy().astype(np.float32)
+            wave = synth(model, tok, text)
             if sr != SR_OUT:
                 wave = librosa.resample(wave, orig_sr=sr, target_sr=SR_OUT)
             # Trim edge silence, normalise to -1 dBFS peak, add short fades and padding.

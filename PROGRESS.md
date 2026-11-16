@@ -26,6 +26,8 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-17: Voice v3 (carrier-sentence synthesis for short words). On-device Whisper fallback for
+  "Speak it", verified to transcribe "آپ کیسے ہیں؟" exactly in Chromium. Experimental real-mic CI test.
 - 2026-11-16 (night): Whisper audio audit done (MLX large-v3-turbo, 150-clip sample). All clips
   regenerated as voice v2: short phrases slower and less noisy. Details in docs/evals/2026-11-16-audio.md.
 - 2026-11-16 (evening): Relatives' names from onboarding now appear in boss conversations. Review
@@ -74,10 +76,10 @@ spellings follow common usage:
   All of its words are attested, but the idiom itself is attested only by usage.
 
 ## Known issues
-- MMS audio: sentences round-trip well through Whisper (median 0.87), but single words are weak (G12; see docs/evals/2026-11-16-audio.md). Family voice recordings override TTS, and Azure ur-PK is the planned fix before any paid tier.
-- No real-microphone E2E for family voice: headless Chromium can't open a fake mic here (G8).
+- MMS audio: sentences round-trip well (median 0.87). Single words were weak; voice v3 synthesises them in a carrier sentence (0.23 → 0.70 on the hardest words). MMS prosody is still flat; Azure ur-PK remains the plan before any paid tier.
+- Real-microphone E2E for family voice runs only as an experimental CI step: macOS blocks the fake mic locally (G8).
 - The Offline Omar test is occasionally flaky when the local machine is under heavy load (passes in CI).
-- Speaking uses the Web Speech API only. Where it's missing, "I said it" and "Can't speak now" keep lessons moving (G9).
+- Speaking: the Web Speech API where available. Elsewhere there's an opt-in on-device Whisper (whisper-base, ~80 MB, runs in the browser via transformers.js from jsDelivr, voice never leaves the phone).
 - Placement covers units 1–4 so far (G1).
 - Prep packs and units 5–12 / R6–R10 are not built yet.
 - The MMS clips haven't been checked by speech-recognition round-trip yet (G3).
