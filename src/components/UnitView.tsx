@@ -91,6 +91,11 @@ export function UnitView({
         </ol>
 
         <OfflineButton unitId={meta.id} />
+        {meta.track === "speaking" ? (
+          <Link href={`/unit/${meta.id}/sheet/`} className="flex min-h-12 items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-line px-4 text-sm font-bold text-ink-soft">
+            🧾 Cheat sheet (printable)
+          </Link>
+        ) : null}
 
         {grammar.length > 0 ? (
           <section aria-labelledby="grammar" className="flex flex-col gap-3">
