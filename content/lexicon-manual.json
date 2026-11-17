@@ -126,6 +126,38 @@
         "url": "https://rekhta.org/couplets/hazaaron-khvaahishen-aisii-ki-har-khvaahish-par-dam-nikle-mirza-ghalib-couplets",
         "checked": "2026-11-16"
       }
+    ],
+    "u02.mumani": [
+      {
+        "ref": "rekhta",
+        "item": "mumaanii",
+        "url": "https://rdict-dev.rekhta.org/meaning-of-mumaanii",
+        "checked": "2026-11-17"
+      }
+    ],
+    "u02.tai": [
+      {
+        "ref": "rekhta",
+        "item": "taa.ii",
+        "url": "https://rdict-dev.rekhta.org/meaning-of-taaii",
+        "checked": "2026-11-17"
+      }
+    ],
+    "u02.phuppo": [
+      {
+        "ref": "rekhta",
+        "item": "phuppii (headword form)",
+        "url": "https://rdict-dev.rekhta.org/meaning-of-phuppii",
+        "checked": "2026-11-17"
+      }
+    ],
+    "u03.mazedaar": [
+      {
+        "ref": "rekhta",
+        "item": "maze-daar",
+        "url": "https://rdict-dev.rekhta.org/meaning-of-mazedaar",
+        "checked": "2026-11-17"
+      }
     ]
   },
   "names": [
