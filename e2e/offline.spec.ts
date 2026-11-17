@@ -15,6 +15,7 @@ test("offline: a downloaded unit's lesson and audio work with no network", async
   await page.getByRole("button", { name: /starting from zero/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start with Salaam/ }).click();
+  await expect(page.getByText(/Start here/)).toBeVisible();
   await page.evaluate(async () => {
     await navigator.serviceWorker.ready;
   });

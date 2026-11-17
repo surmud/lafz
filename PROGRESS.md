@@ -26,6 +26,9 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-17: Eval pass 2 (docs/evals/2026-11-17-2.md): rubric up in R4, R7, R8, R9, R11; nothing
+  went down. Fixed a brief default-name flash in boss intros, save-then-show progress ordering, and
+  definition-style prompts in Mix it up. Filed G13–G15.
 - 2026-11-17: Voice v3 (carrier-sentence synthesis for short words). On-device Whisper fallback for
   "Speak it", verified to transcribe "آپ کیسے ہیں؟" exactly in Chromium. Experimental real-mic CI test.
 - 2026-11-16 (night): Whisper audio audit done (MLX large-v3-turbo, 150-clip sample). All clips
@@ -85,7 +88,7 @@ spellings follow common usage:
 - Speech recognition uses the Web Speech API only. There's no Whisper fallback yet.
 
 ## Next steps
-G12 single-word audio → eval pass 2 →
+G13 funnier warm-ups → G14 Rekhta spelling cross-check → G15 prosody →
 G9 (Whisper fallback for Speak it) → native-speaker pass on the medium-confidence list (needs a human,
 optional).
 

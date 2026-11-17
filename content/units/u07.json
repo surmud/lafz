@@ -2534,12 +2534,12 @@
         {
           "type": "say",
           "phrase": "u07.dholki",
-          "prompt": "Khala is on the phone. Say: “drum night: singing, clapping, aunties' songs”"
+          "prompt": "What's the word for “drum night: singing, clapping, aunties' songs”?"
         },
         {
           "type": "type",
           "phrase": "u07.baraat",
-          "prompt": "Type it: “the groom's procession”"
+          "prompt": "Type the word for “the groom's procession”"
         },
         {
           "type": "listen",
@@ -2558,7 +2558,7 @@
         {
           "type": "type",
           "phrase": "u07.salami",
-          "prompt": "Type it for the family group: “gift money”"
+          "prompt": "Type the word for “gift money”"
         },
         {
           "type": "type",

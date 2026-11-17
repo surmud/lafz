@@ -3591,12 +3591,12 @@
         {
           "type": "say",
           "phrase": "u02.ammi",
-          "prompt": "Khala is on the phone. Say: “Mum”"
+          "prompt": "What's the word for “Mum”?"
         },
         {
           "type": "type",
           "phrase": "u02.beta",
-          "prompt": "Type it: “son”"
+          "prompt": "Type the word for “son”"
         },
         {
           "type": "listen",
@@ -3615,12 +3615,12 @@
         {
           "type": "type",
           "phrase": "u02.dada",
-          "prompt": "Type it for the family group: “Dad's father”"
+          "prompt": "Type the word for “Dad's father”"
         },
         {
           "type": "type",
           "phrase": "u02.phuppo",
-          "prompt": "Type it: “Dad's sister”"
+          "prompt": "Type the word for “Dad's sister”"
         },
         {
           "type": "say",

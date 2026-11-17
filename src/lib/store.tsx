@@ -58,8 +58,9 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     await loaded.current;
     const next = fn(ref.current);
     ref.current = next;
-    setProgress(next);
+    // Persist first, then show it: anything on screen is already safely on disk.
     await saveProgress(next).catch(() => undefined);
+    setProgress(next);
     return next;
   }, []);
 

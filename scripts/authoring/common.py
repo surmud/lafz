@@ -154,11 +154,12 @@ def mix_lesson(uid: str, meta: dict, lessons: list, phrases: list) -> dict:
         kind = ["say", "type", "listen", "build", "type", "say", "meaning", "type", "listen"][i % 9]
         if kind == "build" and len(p["roman"].split()) < 2:
             kind = "type"
-        prompt = MIX_PROMPTS[i % len(MIX_PROMPTS)].replace("{en}", clean(p["en"]))
+        word = len(p["roman"].split()) == 1
+        prompt = (f"What's the word for “{clean(p['en'])}”?" if word else MIX_PROMPTS[i % len(MIX_PROMPTS)].replace("{en}", clean(p["en"])))
         if kind == "say":
             ex.append({"type": "say", "phrase": pid, "prompt": prompt})
         elif kind == "type":
-            ex.append({"type": "type", "phrase": pid, "prompt": prompt if "Type" in prompt else f"Type it: “{clean(p['en'])}”"})
+            ex.append({"type": "type", "phrase": pid, "prompt": f"Type the word for “{clean(p['en'])}”" if word else (prompt if "Type" in prompt else f"Type it: “{clean(p['en'])}”")})
         elif kind == "listen":
             ex.append({"type": "listen", "phrase": pid, "speed": "aunty" if i % 2 else "normal"})
         elif kind == "build":

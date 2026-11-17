@@ -3099,12 +3099,12 @@
         {
           "type": "say",
           "phrase": "u05.n-ek",
-          "prompt": "Khala is on the phone. Say: “1”"
+          "prompt": "What's the word for “1”?"
         },
         {
           "type": "type",
           "phrase": "u05.n-chaar",
-          "prompt": "Type it: “4”"
+          "prompt": "Type the word for “4”"
         },
         {
           "type": "listen",
@@ -3123,17 +3123,17 @@
         {
           "type": "type",
           "phrase": "u05.n-das",
-          "prompt": "Type it for the family group: “10”"
+          "prompt": "Type the word for “10”"
         },
         {
           "type": "type",
           "phrase": "u05.n-chaalees",
-          "prompt": "Type it: “40”"
+          "prompt": "Type the word for “40”"
         },
         {
           "type": "say",
           "phrase": "u05.n-hazaar",
-          "prompt": "Nani is waiting. Say: “1,000”"
+          "prompt": "What's the word for “1,000”?"
         },
         {
           "type": "meaning",

@@ -3168,7 +3168,7 @@
         {
           "type": "type",
           "phrase": "u03.chawal",
-          "prompt": "Type it: “rice”"
+          "prompt": "Type the word for “rice”"
         },
         {
           "type": "listen",

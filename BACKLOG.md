@@ -87,8 +87,13 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **G12 Single-word audio.** (voice v3: carrier-sentence synthesis + duration-based cut; 12-word test 0.23 → 0.70) MMS is weakest on isolated words (docs/evals/2026-11-16-audio.md).
   Try a carrier phrase ("لفظ ہے: X") and trimming, or a free alternative TTS for words only.
 
+- [ ] **G13 Funnier Mix-it-up lessons.** Hand-write one situational joke prompt per unit's warm-up (R5).
+- [ ] **G14 Rekhta spelling cross-check** for U1–U3 core phrases, by hand; log disagreements (R6).
+- [ ] **G15 Question intonation / prosody.** Try raising pitch at the end of '?' lines in post-processing,
+  or evaluate another free Urdu TTS (R7).
+
 ## Phase F — Self-improvement (ongoing, forever)
-- [x] Eval pass 1 (docs/evals/2026-11-16-1.md). Keep doing one after every phase. File items from the lowest rubric scores.
+- [x] Eval passes 1 and 2 (docs/evals/). Keep doing one after every phase. File items from the lowest rubric scores.
 - [ ] Content audit: re-check a random 10% of phrases against sources each pass.
 - [x] Audio audit: round-trip with Whisper; regenerate or flag bad clips (voice v2, see docs/evals/2026-11-16-audio.md).
 - [ ] Ideas list: add your own feature ideas here and build the good ones.

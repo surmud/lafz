@@ -3488,12 +3488,12 @@
         {
           "type": "say",
           "phrase": "u01.salam",
-          "prompt": "Khala is on the phone. Say: “Hello”"
+          "prompt": "What's the word for “Hello”?"
         },
         {
           "type": "type",
           "phrase": "u01.shukriya",
-          "prompt": "Type it: “Thank you”"
+          "prompt": "Type the word for “Thank you”"
         },
         {
           "type": "listen",
@@ -3512,7 +3512,7 @@
         {
           "type": "type",
           "phrase": "u01.tum",
-          "prompt": "Type it for the family group: “you”"
+          "prompt": "Type the word for “you”"
         },
         {
           "type": "type",
@@ -3531,7 +3531,7 @@
         {
           "type": "type",
           "phrase": "u01.beta",
-          "prompt": "Type it for the family group: “dear / kiddo”"
+          "prompt": "Type the word for “dear / kiddo”"
         },
         {
           "type": "listen",

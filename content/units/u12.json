@@ -2649,7 +2649,7 @@
         {
           "type": "type",
           "phrase": "u12.kyunke",
-          "prompt": "Type it: “because”"
+          "prompt": "Type the word for “because”"
         },
         {
           "type": "say",

@@ -2377,12 +2377,12 @@
         {
           "type": "say",
           "phrase": "u06.aaiye",
-          "prompt": "Khala is on the phone. Say: “Please come in”"
+          "prompt": "What's the word for “Please come in”?"
         },
         {
           "type": "type",
           "phrase": "u06.baitho",
-          "prompt": "Type it: “Sit”"
+          "prompt": "Type the word for “Sit”"
         },
         {
           "type": "listen",
@@ -2401,7 +2401,7 @@
         {
           "type": "type",
           "phrase": "u06.rukiye",
-          "prompt": "Type it for the family group: “Please stop”"
+          "prompt": "Type the word for “Please stop”"
         },
         {
           "type": "type",

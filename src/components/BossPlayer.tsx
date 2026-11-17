@@ -36,7 +36,7 @@ export function BossPlayer({
   const [typed, setTyped] = useState("");
   const [hint, setHint] = useState(false);
   const [xp, setXp] = useState<XpBreakdown | null>(null);
-  const { update, progress } = useStore();
+  const { update, progress, ready } = useStore();
   const rel = progress.profile.relatives;
   const t0 = useRef(0);
   const bottom = useRef<HTMLDivElement>(null);
@@ -109,6 +109,8 @@ export function BossPlayer({
       setMode("choose");
     }
   };
+
+  if (!ready) return <main className="min-h-dvh" aria-busy="true" />;
 
   if (!started) {
     return (
