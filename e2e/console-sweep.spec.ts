@@ -1,0 +1,25 @@
+import { expect, test } from "@playwright/test";
+import { freshStart } from "./helpers";
+
+// No console errors (hydration mismatches, React warnings, failed scripts) on any main page type.
+const PAGES = ["", "unit/u01/", "lesson/u03-l2/", "boss/u05/", "review/", "read/", "unit/r01/", "lesson/r06-l1/", "family/", "voice/u02/", "me/", "pack/eid-next-week/", "pack/eid-next-week/s2/", "placement/", "dev/ui/"];
+
+test("no console errors on main pages", async ({ page }, info) => {
+  test.skip(info.project.name !== "iphone");
+  const errors: string[] = [];
+  page.on("console", (m) => {
+    if (m.type() === "error" && !/ERR_INTERNET_DISCONNECTED|Failed to load resource/.test(m.text())) errors.push(`${page.url()} ${m.text().slice(0, 200)}`);
+  });
+  page.on("pageerror", (e) => errors.push(`${page.url()} PAGEERROR ${e.message.slice(0, 200)}`));
+  await freshStart(page);
+  await page.getByRole("button", { name: "Let's go" }).click();
+  await page.getByRole("button", { name: /starting from zero/ }).click();
+  await page.getByRole("button", { name: "Next" }).click();
+  await page.getByRole("button", { name: /Start with Salaam/ }).click();
+  await expect(page.getByText(/Start here/)).toBeVisible();
+  for (const p of PAGES) {
+    await page.goto(`./${p}`);
+    await page.waitForLoadState("networkidle");
+  }
+  expect(errors, errors.join("\n")).toEqual([]);
+});

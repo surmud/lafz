@@ -74,10 +74,12 @@ export function VoiceRecorder({ title, phrases }: { title: string; phrases: Phra
   const [by, setBy] = useState("");
   const [error, setError] = useState<string | null>(null);
   const rec = useRef<MediaRecorder | null>(null);
-  const supported = typeof window !== "undefined" && typeof MediaRecorder !== "undefined" && !!navigator.mediaDevices;
+  // Known only in the browser; decided after mount so server and client HTML match.
+  const [supported, setSupported] = useState<boolean | null>(null);
 
   useEffect(() => {
     void listRecordingIds().then((ids) => setRecorded(new Set(ids)));
+    queueMicrotask(() => setSupported(typeof MediaRecorder !== "undefined" && !!navigator.mediaDevices));
     try {
       queueMicrotask(() => setBy(localStorage.getItem(NAME_KEY) ?? "Ammi"));
     } catch {
@@ -137,7 +139,7 @@ export function VoiceRecorder({ title, phrases }: { title: string; phrases: Phra
             className="min-h-12 rounded-2xl border-2 border-line bg-surface px-4 text-lg outline-none focus:border-primary"
           />
         </label>
-        {!supported ? <p className="rounded-2xl bg-accent-soft p-4">This browser can&apos;t record audio. Try Chrome or Safari.</p> : null}
+        {supported === false ? <p className="rounded-2xl bg-accent-soft p-4">This browser can&apos;t record audio. Try Chrome or Safari.</p> : null}
         {error ? (
           <p role="alert" className="rounded-2xl bg-bad-soft p-3 text-sm">
             {error}
