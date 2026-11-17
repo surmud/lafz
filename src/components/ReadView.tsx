@@ -14,7 +14,7 @@ export function ReadView({ units }: { units: UnitMeta[] }) {
           <Nastaliq className="text-4xl">پڑھنا سیکھیں</Nastaliq>
           <p className="mt-1 font-display text-xl font-bold">Learn to read Urdu script</p>
           <p className="mt-1 text-ink-soft">
-            Separate from speaking, open from day one. From single letters to WhatsApp messages from Khala, and finally a Ghalib couplet.
+            Learn the alphabet, then read words, signs, messages and a short poem. You can start any time.
           </p>
         </div>
         {units.length === 0 ? (

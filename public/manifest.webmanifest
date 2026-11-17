@@ -1,7 +1,7 @@
 {
-  "name": "Lafz — Urdu for real family life",
+  "name": "Lafz — Learn Urdu",
   "short_name": "Lafz",
-  "description": "Free Urdu course for heritage learners and beginners. No ads, no hearts. Works offline.",
+  "description": "A free Urdu course for beginners and heritage speakers. Works offline.",
   "start_url": "/lafz/",
   "scope": "/lafz/",
   "display": "standalone",

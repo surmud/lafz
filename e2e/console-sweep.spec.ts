@@ -13,9 +13,9 @@ test("no console errors on main pages", async ({ page }, info) => {
   page.on("pageerror", (e) => errors.push(`${page.url()} PAGEERROR ${e.message.slice(0, 200)}`));
   await freshStart(page);
   await page.getByRole("button", { name: "Let's go" }).click();
-  await page.getByRole("button", { name: /starting from zero/ }).click();
+  await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
-  await page.getByRole("button", { name: /Start with Salaam/ }).click();
+  await page.getByRole("button", { name: /Start lesson 1/ }).click();
   await expect(page.getByText(/Start here/)).toBeVisible();
   for (const p of PAGES) {
     await page.goto(`./${p}`);

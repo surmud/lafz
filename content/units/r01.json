@@ -2,9 +2,9 @@
   "id": "r01",
   "track": "reading",
   "order": 1,
-  "title": "How Urdu script works",
+  "title": "How Urdu Script Works",
   "emoji": "📜",
-  "tagline": "Right to left, letters that hold hands, and the b-p-t family.",
+  "tagline": "Right to left, joining letters, and the b, p, t family.",
   "canDo": "You can read the letters ا ب پ ت ٹ ث and words made from them",
   "grammar": [
     {

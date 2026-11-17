@@ -2,9 +2,9 @@
   "id": "r04",
   "track": "reading",
   "order": 4,
-  "title": "The Arabic set: s, z, t, ain, f, q",
+  "title": "Letters from Arabic",
   "emoji": "🕌",
-  "tagline": "Letters mostly found in Arabic loanwords. Same sounds, different spellings.",
+  "tagline": "Letters used mostly in Arabic loanwords.",
   "canDo": "You can read the letters ص ض ط ظ ع غ ف ق and words made from them",
   "grammar": [
     {

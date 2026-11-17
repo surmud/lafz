@@ -12,13 +12,13 @@ for (const theme of ["light", "dark"] as const) {
     }, theme);
     await page.goto("./welcome/");
     await page.getByRole("button", { name: "Let's go" }).click();
-    await page.getByRole("button", { name: /starting from zero/ }).click();
+    await page.getByRole("button", { name: /new to Urdu/ }).click();
     await page.getByRole("button", { name: "Next" }).click();
-    await page.getByRole("button", { name: /Start with Salaam/ }).click();
+    await page.getByRole("button", { name: /Start lesson 1/ }).click();
     await expect(page.getByText(/Start here/)).toBeVisible();
     await shot("home");
     await page.goto("./unit/u01/");
-    await expect(page.getByRole("heading", { name: "Salaam & Respect" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Greetings" })).toBeVisible();
     await shot("unit");
     await page.goto("./boss/u01/");
     await shot("boss-intro");

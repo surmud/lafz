@@ -12,10 +12,10 @@ test("eval gallery 2", async ({ page }, info) => {
   });
   await freshStart(page);
   await page.getByRole("button", { name: "Let's go" }).click();
-  await page.getByRole("button", { name: /starting from zero/ }).click();
+  await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByLabel(/Khala/).fill("Rubina");
-  await page.getByRole("button", { name: /Start with Salaam/ }).click();
+  await page.getByRole("button", { name: /Start lesson 1/ }).click();
   await expect(page.getByText(/Start here/)).toBeVisible();
   await page.goto("./lesson/u07-mix/");
   await page.getByRole("button", { name: "Got it" }).click();

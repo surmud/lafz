@@ -76,7 +76,7 @@ export function FamilyView({ relatives, phrases }: { relatives: Relative[]; phra
           </span>
           <span>
             <span className="block font-bold">Family voice</span>
-            <span className="block text-sm">Get Ammi or Nani to record phrases. Their voice replaces the robot.</span>
+            <span className="block text-sm">Record a relative saying phrases. Their recordings replace the computer voice.</span>
           </span>
         </Link>
         <div className="grid grid-cols-2 gap-3">

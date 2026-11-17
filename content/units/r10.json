@@ -2,9 +2,9 @@
   "id": "r10",
   "track": "reading",
   "order": 10,
-  "title": "Final test: a Ghalib couplet",
+  "title": "A Ghalib Couplet",
   "emoji": "🪶",
-  "tagline": "Read two lines of Mirza Ghalib in the original. You've earned it.",
+  "tagline": "Reading a couplet by Mirza Ghalib.",
   "canDo": "You can read a classic Urdu couplet in Nastaliq",
   "grammar": [
     {

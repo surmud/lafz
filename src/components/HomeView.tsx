@@ -46,10 +46,10 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
 
         {!ready ? (
           <div aria-busy="true" className="min-h-[13.5rem] rounded-[2rem] bg-primary p-5 text-primary-ink shadow-[0_6px_0_var(--primary-deep)]">
-            <p className="font-display text-3xl font-bold">Salaam!</p>
+            <p className="font-display text-3xl font-bold">Lafz</p>
             <p className="mt-2 text-lg leading-relaxed opacity-95">
-              Urdu for real family life. From “Salaam” to surviving the shaadi. Mistakes are free, nothing is locked, and
-              everything stays on this phone.
+              Learn to speak, understand and read Urdu. Lessons take a few minutes each, and your progress stays on this
+              device.
             </p>
           </div>
         ) : next.kind !== "finished" ? (
@@ -61,11 +61,11 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
               {Object.keys(progress.lessons).length === 0 ? "Start here" : "Continue"} · Unit {next.unit.order}
             </p>
             <p className="mt-1 font-display text-3xl font-bold">
-              {next.kind === "lesson" ? next.lesson.title : `Boss: ${next.unit.boss?.title}`}
+              {next.kind === "lesson" ? next.lesson.title : `Conversation: ${next.unit.boss?.title}`}
             </p>
-            <p className="mt-1 text-[15px] opacity-90">{next.kind === "lesson" ? next.lesson.blurb : next.unit.boss?.blurb}</p>
+            <p className="mt-1 text-[15px] opacity-90">{next.kind === "lesson" ? next.lesson.canDo : next.unit.boss?.canDo}</p>
             <span className="mt-4 inline-flex min-h-12 items-center rounded-2xl bg-white/95 px-5 font-black text-[#0a5651]">
-              {next.kind === "lesson" ? "Start lesson →" : "Face the boss →"}
+              {next.kind === "lesson" ? "Start lesson →" : "Start conversation →"}
             </span>
             <span aria-hidden className="absolute -right-4 -bottom-6 text-8xl opacity-25">
               {next.unit.emoji}
@@ -74,7 +74,7 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
         ) : (
           <Card className="text-center">
             <p className="font-display text-2xl font-bold">You&apos;ve finished the speaking course 🎓</p>
-            <p className="text-ink-soft">Nani is speechless. (She always was.)</p>
+            <p className="text-ink-soft">Keep practising with Review and the reading track.</p>
           </Card>
         )}
 
@@ -101,7 +101,7 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
         {packs.length > 0 ? (
           <section aria-labelledby="packs">
             <h2 id="packs" className="mb-2 font-display text-xl font-bold">
-              Something coming up?
+              Prep packs
             </h2>
             <div className="-mx-4 flex snap-x gap-3 overflow-x-auto px-4 pb-2">
               {packs.map((p) => (
@@ -114,7 +114,7 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
                     {p.emoji}
                   </p>
                   <p className="mt-1 leading-tight font-bold">{p.title}</p>
-                  <p className="mt-1 text-xs text-ink-soft">{p.sessions.length} quick sessions</p>
+                  <p className="mt-1 text-xs text-ink-soft">{p.sessions.length} sessions</p>
                 </Link>
               ))}
             </div>
@@ -134,7 +134,7 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
           </ol>
           {reading.length > 0 ? (
             <p className="mt-4 text-center text-sm text-ink-soft">
-              Nothing is locked. Jump into any unit, any time.
+              All units are open. Start anywhere.
             </p>
           ) : null}
         </section>

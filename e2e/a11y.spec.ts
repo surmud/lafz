@@ -9,9 +9,9 @@ for (const theme of ["light", "dark"] as const) {
     await page.addInitScript((t) => localStorage.setItem("lafz.theme", t), theme);
     await freshStart(page);
     await page.getByRole("button", { name: "Let's go" }).click();
-    await page.getByRole("button", { name: /starting from zero/ }).click();
+    await page.getByRole("button", { name: /new to Urdu/ }).click();
     await page.getByRole("button", { name: "Next" }).click();
-    await page.getByRole("button", { name: /Start with Salaam/ }).click();
+    await page.getByRole("button", { name: /Start lesson 1/ }).click();
     await expect(page.getByText(/Start here/)).toBeVisible();
     const report: string[] = [];
     const scan = async (label: string) => {

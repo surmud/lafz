@@ -3,9 +3,9 @@ import { answerStep, freshStart, shooter } from "./helpers";
 
 async function onboardBeginner(page: Page) {
   await page.getByRole("button", { name: "Let's go" }).click();
-  await page.getByRole("button", { name: /starting from zero/ }).click();
+  await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
-  await page.getByRole("button", { name: /Start with Salaam/ }).click();
+  await page.getByRole("button", { name: /Start lesson 1/ }).click();
   await expect(page.getByText(/Start here/)).toBeVisible();
 }
 
@@ -41,7 +41,7 @@ test("Zero Zara: total beginner, Unit 1 lessons 1–3, then reading R1", async (
   await expect(page.getByRole("button", { name: "Send to the family" })).toBeVisible();
   await shot("dinner-card");
   await page.goto("./read/");
-  await expect(page.getByText("How Urdu script works")).toBeVisible();
+  await expect(page.getByText("How Urdu Script Works")).toBeVisible();
   await shot("read-tab");
   await page.goto("./lesson/r01-l1/");
   await expect(page.getByRole("heading", { name: "Right to left" })).toBeVisible();
@@ -91,8 +91,8 @@ test("Away-for-a-week Ayesha: streak rests, welcome back is warm", async ({ page
   await page.goto("./lesson/u01-l2/?today=2026-11-02");
   await playLesson(page);
   await page.goto("./?today=2026-11-11");
-  await expect(page.getByText(/You're back/)).toBeVisible();
-  await expect(page.getByText(/streak has been resting/)).toBeVisible();
+  await expect(page.getByText(/Welcome back/)).toBeVisible();
+  await expect(page.getByText(/Your streak is paused at 2/)).toBeVisible();
   await expect(page.getByLabel(/Streak resting: 2 days/)).toBeVisible();
   await shot("welcome-back");
   await page.goto("./lesson/u01-l3/?today=2026-11-11");
@@ -107,8 +107,8 @@ test("Heritage Hamza: a prep pack session before Khala's call", async ({ page },
   const shot = shooter(page, "heritage-hamza-pack", info.project.name);
   await freshStart(page);
   await onboardBeginner(page);
-  await page.getByRole("link", { name: /First call with Khala/ }).click();
-  await expect(page.getByRole("heading", { name: "First call with Khala" })).toBeVisible();
+  await page.getByRole("link", { name: /Phone call with family/ }).click();
+  await expect(page.getByRole("heading", { name: "Phone call with family" })).toBeVisible();
   await shot("pack");
   await page.getByRole("link", { name: /Pick up properly/ }).click();
   await playLesson(page);

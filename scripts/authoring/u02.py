@@ -253,8 +253,8 @@ boss = {
  }}
 
 unit = {
- "id": U, "track": "speaking", "order": 2, "title": "The Family Tree", "titleUrdu": "خاندان",
- "emoji": "🌳", "tagline": "Khala vs Phuppo, Chacha vs Taya, and who exactly Bilal is.",
+ "id": U, "track": "speaking", "order": 2, "title": "Family", "titleUrdu": "خاندان",
+ "emoji": "🌳", "tagline": "Family members on both sides, and how to say whose relative someone is.",
  "canDo": "You can explain who's who in your family, on both sides",
  "grammar": [
   {"title": "ka, ki, ke (possessive 's)", "body": "X ka/ki/ke Y = X's Y. The form agrees with Y, the thing owned: ka for masculine (Nani ka ghar), ki for feminine (Ammi ki behen), ke for plural or a respected man (Ammi ke bhai). 'My' works the same: mera, meri, mere."},

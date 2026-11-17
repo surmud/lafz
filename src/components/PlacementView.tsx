@@ -73,7 +73,7 @@ export function PlacementView({
           You got {r.correct} of {r.total}.{" "}
           {saved.unit > 1
             ? `Units 1–${saved.unit - 1} are marked “skipped, review anytime”. Nothing is locked.`
-            : "Perfect place to start. Unit 1 moves fast if you already know bits."}
+            : "Unit 1 is the right place to start."}
         </p>
         {u ? (
           <div className="rounded-3xl border-2 border-line bg-surface p-4 text-left">

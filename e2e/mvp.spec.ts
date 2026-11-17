@@ -7,12 +7,12 @@ test("placement → suggested unit → Unit 1 Lesson 1 complete", async ({ page 
   await expect(page.getByRole("button", { name: "Let's go" })).toBeVisible();
   await shot("welcome");
   await page.getByRole("button", { name: "Let's go" }).click();
-  await page.getByRole("button", { name: /freeze when I speak/ }).click();
+  await page.getByRole("button", { name: /understand some Urdu/ }).click();
   await shot("who");
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByLabel(/Khala/).fill("Shabnam");
   await shot("names");
-  await page.getByRole("button", { name: /Find my level/ }).click();
+  await page.getByRole("button", { name: /Take the placement test/ }).click();
 
   await expect(page).toHaveURL(/placement/);
   let q = 0;

@@ -31,15 +31,15 @@ def forms(ch):
     return [ch, ch + TATWEEL, TATWEEL + ch + TATWEEL, TATWEEL + ch]
 
 UNITS = [
- ("r01", 1, "How Urdu script works", "📜", "Right to left, letters that hold hands, and the b-p-t family.", ["ا", "ب", "پ", "ت", "ٹ", "ث"],
+ ("r01", 1, "How Urdu Script Works", "📜", "Right to left, joining letters, and the b, p, t family.", ["ا", "ب", "پ", "ت", "ٹ", "ث"],
   [("aap", "آپ", "you (respectful)"), ("ab", "اب", "now"), ("baat", "بات", "a matter / talk"), ("baap", "باپ", "father")]),
- ("r02", 2, "The j-ch-kh family + d", "🪝", "Four letters with a hook, and three d's that never hold hands on the left.", ["ج", "چ", "ح", "خ", "د", "ڈ", "ذ"],
+ ("r02", 2, "Letters: j, ch, h, kh, d", "🪝", "The j, ch, h, kh letters and the three d's.", ["ج", "چ", "ح", "خ", "د", "ڈ", "ذ"],
   [("jab", "جب", "when"), ("chup", "چپ", "quiet!"), ("dada", "دادا", "grandad (dad's dad)"), ("khuda", "خدا", "God")]),
- ("r03", 3, "R, z and the s family", "🐍", "Little tails (r, z) and the toothy s and sh.", ["ر", "ڑ", "ز", "ژ", "س", "ش"],
+ ("r03", 3, "Letters: r, z, s, sh", "🐍", "The r and z letters and the s, sh family.", ["ر", "ڑ", "ز", "ژ", "س", "ش"],
   [("sab", "سب", "all / everyone"), ("bas", "بس", "enough!"), ("bara", "بڑا", "big"), ("kharab", "خراب", "bad / broken")]),
- ("r04", 4, "The Arabic set: s, z, t, ain, f, q", "🕌", "Letters mostly found in Arabic loanwords. Same sounds, different spellings.", ["ص", "ض", "ط", "ظ", "ع", "غ", "ف", "ق"],
+ ("r04", 4, "Letters from Arabic", "🕌", "Letters used mostly in Arabic loanwords.", ["ص", "ض", "ط", "ظ", "ع", "غ", "ف", "ق"],
   [("saaf", "صاف", "clean"), ("sabr", "صبر", "patience"), ("farq", "فرق", "difference"), ("taraf", "طرف", "direction / side")]),
- ("r05", 5, "K, g, l, m, n and the h's", "🏠", "The last letters, and suddenly you can read family words.", ["ک", "گ", "ل", "م", "ن", "ں", "و", "ہ", "ھ", "ی", "ے"],
+ ("r05", 5, "Letters: k, g, l, m, n, h, y", "🏠", "The remaining letters, and your first family words.", ["ک", "گ", "ل", "م", "ن", "ں", "و", "ہ", "ھ", "ی", "ے"],
   [("naam", "نام", "name"), ("ghar", "گھر", "house / home"), ("ammi", "امی", "Mum"), ("nani", "نانی", "Nani"), ("hai", "ہے", "is"), ("nahin", "نہیں", "no / not"), ("main", "میں", "I"), ("shukriya", "شکریہ", "thank you")]),
 ]
 

@@ -35,10 +35,10 @@ export function VoiceIndex({ units }: { units: UnitMeta[] }) {
           <p className="text-4xl" aria-hidden>
             🎙️
           </p>
-          <h1 className="mt-1 font-display text-2xl font-bold">Hear Ammi, not a robot</h1>
+          <h1 className="mt-1 font-display text-2xl font-bold">Family voice</h1>
           <p className="mt-1">
-            Hand your phone to a parent or grandparent. They record phrases in their own voice, and from then on the course plays{" "}
-            <em>their</em> recording instead of the computer voice. Recordings never leave this phone.
+            A relative records phrases on this device. Lessons then play their recordings instead of the computer voice.
+            Recordings stay on this device.
           </p>
         </div>
         <ul className="flex flex-col gap-2">

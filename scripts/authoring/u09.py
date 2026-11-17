@@ -82,8 +82,8 @@ boss = {"id": "u09-boss", "title": "Doctor Bilal", "character": "bilal",
   "k": y("He's leaving. (Nobody has used a pager since 2003.)", [o("b.bye-doctor", "end", "great", "'Doctor sahab'. Sarcasm, perfectly deniable."), o("u01.khuda-hafiz", "end", "fine")], "Khuda hafiz…"),
   "end": {"type": "end", "title": "Survived Doctor Bilal", "text": "Job, hobbies, past trips: all in Urdu, against the family's undefeated champion. Nani watched the whole thing. She gave you the extra kebab.", "outcome": "survived"}}}
 
-meta = {"track": "speaking", "order": 9, "title": "All About You", "titleUrdu": "آپ کے بارے میں", "emoji": "🧑‍💻",
- "tagline": "Job, studies, hobbies, trips, and 'when are you settling down?'", "canDo": "You can talk about your life: work, hobbies, where you've been",
+meta = {"track": "speaking", "order": 9, "title": "About You", "titleUrdu": "آپ کے بارے میں", "emoji": "🧑‍💻",
+ "tagline": "Work, studies, hobbies and where you've been.", "canDo": "You can talk about your life: work, hobbies, where you've been",
  "grammar": [{"title": "Habits: -ta hoon", "body": "Stem + ta/ti/te + hoon/hai/hain describes habits and general facts: main London mein rehta hoon (I live in London), aap kya karte hain? (what do you do?)."},
              {"title": "Simple past (verbs of motion)", "body": "Stem + a/i/e, matching the subject: main gaya / gayi, hum gaye, woh aaya / aayi. Add tha/thi/the to push it further into the past: main Pakistan gaya tha. Transitive verbs (eat, say, do) use 'ne' instead: that's Unit 10."}]}
 write_unit(u, meta, L, boss)

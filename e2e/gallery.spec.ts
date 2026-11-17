@@ -7,9 +7,9 @@ test("eval gallery", async ({ page }, info) => {
   const shot = shooter(page, "eval-gallery", info.project.name);
   await freshStart(page);
   await page.getByRole("button", { name: "Let's go" }).click();
-  await page.getByRole("button", { name: /freeze when I speak/ }).click();
+  await page.getByRole("button", { name: /understand some Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
-  await page.getByRole("button", { name: /Start from Unit 1/ }).click();
+  await page.getByRole("button", { name: /Start lesson 1/ }).click();
   await expect(page.getByText(/Start here/)).toBeVisible();
   await page.screenshot({ path: "e2e/screenshots/eval-gallery-iphone/00-home-full.png", fullPage: true });
   await page.goto("./pack/shaadi-5-days/");

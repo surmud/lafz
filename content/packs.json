@@ -1,10 +1,10 @@
 [
   {
     "id": "shaadi-5-days",
-    "title": "Shaadi in 5 days",
+    "title": "Wedding",
     "emoji": "💃",
-    "tagline": "Five events, three outfits, three hundred aunties. Get ready.",
-    "canDo": "You can get through a wedding: congratulate, praise the bride, survive 'you're next', and eat at 1am",
+    "tagline": "Phrases for wedding events: greetings, congratulations, family and food.",
+    "canDo": "You can greet people, congratulate the family and get through a wedding meal in Urdu",
     "sessions": [
       {
         "id": "s1",
@@ -72,10 +72,10 @@
   },
   {
     "id": "eid-next-week",
-    "title": "Eid next week",
+    "title": "Eid",
     "emoji": "🌙",
-    "tagline": "Greetings, Eidi, sheer khurma, and visiting every relative in one day.",
-    "canDo": "You can do the Eid rounds: greet, accept Eidi gracefully, praise the food, and say the right thing to everyone",
+    "tagline": "Greetings, Eidi, food and family visits.",
+    "canDo": "You can give Eid greetings, accept Eidi and talk through the visits in Urdu",
     "sessions": [
       {
         "id": "s1",
@@ -130,10 +130,10 @@
   },
   {
     "id": "first-call-khala",
-    "title": "First call with Khala",
+    "title": "Phone call with family",
     "emoji": "📞",
-    "tagline": "She's calling Sunday. You will not just say 'haan' for 20 minutes.",
-    "canDo": "You can hold your own on a call with Khala: greet, catch up, survive the rishta question, and hang up politely",
+    "tagline": "Greet, catch up, answer common questions and end the call.",
+    "canDo": "You can get through a phone call with a relative in Urdu",
     "sessions": [
       {
         "id": "s1",
@@ -189,10 +189,10 @@
   },
   {
     "id": "nani-visiting",
-    "title": "Nani is visiting",
+    "title": "Grandparent visit",
     "emoji": "👵",
-    "tagline": "Two weeks. Your house. Her rules. Her cooking. Prepare accordingly.",
-    "canDo": "You can welcome Nani, eat what she cooks, praise it properly, and never once say 'tu'",
+    "tagline": "Respectful greetings, mealtimes, chai and family questions.",
+    "canDo": "You can greet an elder, eat with them and talk about the family in Urdu",
     "sessions": [
       {
         "id": "s1",
@@ -252,8 +252,8 @@
     "id": "trip-to-pakistan",
     "title": "Trip to Pakistan",
     "emoji": "✈️",
-    "tagline": "Airport, rickshaws, bazaars, relatives' houses, 40°C heat.",
-    "canDo": "You can get around Pakistan: fares, directions, prices, food, and the heat",
+    "tagline": "Arrival, rickshaws, shopping, ordering food and the heat.",
+    "canDo": "You can get around Pakistan: fares, directions, prices and food",
     "sessions": [
       {
         "id": "s1",

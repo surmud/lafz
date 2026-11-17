@@ -111,8 +111,8 @@ boss = {"id": "u04-boss", "title": "The 6am Call", "character": "khala",
   "m": n("khala", "b.allah-hafiz", "end"),
   "end": {"type": "end", "title": "Call survived", "text": "You handled a bad line, a time-zone ambush and a surprise rishta, all in Urdu, before sunrise. A 7-minute voice note is already downloading.", "outcome": "survived"}}}
 
-meta = {"track": "speaking", "order": 4, "title": "Calls to Pakistan", "titleUrdu": "پاکستان فون", "emoji": "📞",
- "tagline": "Bad lines, time zones, voice notes, and a rishta at 6am.", "canDo": "You can hold a whole phone call with family in Pakistan",
+meta = {"track": "speaking", "order": 4, "title": "Phone Calls", "titleUrdu": "پاکستان فون", "emoji": "📞",
+ "tagline": "Phone calls: bad lines, questions, what you're doing, and saying goodbye.", "canDo": "You can hold a whole phone call with family in Pakistan",
  "grammar": [{"title": "Question words", "body": "kya (what), kab (when), kahan (where), kaun (who), kyun (why), kaise (how). They usually sit right before the verb: 'aap kahan hain?' 'aap kab aa rahe hain?' Kya at the very start turns a sentence into a yes/no question."},
              {"title": "Present continuous: -raha hoon", "body": "Stem + raha/rahi/rahe + hoon/ho/hai/hain. main parh raha hoon (I'm studying, man), main parh rahi hoon (woman), aap kya kar rahe hain? (respectful). In speech the final hai is often dropped: 'awaaz nahin aa rahi'."}]}
 write_unit(u, meta, L, boss)

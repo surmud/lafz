@@ -53,7 +53,7 @@ export default async function LessonPage({ params }: { params: Promise<{ id: str
   const next = nextLesson
     ? { href: `/lesson/${nextLesson.id}/`, label: `Next: ${nextLesson.title}` }
     : unit.boss
-      ? { href: `/boss/${unit.id}/`, label: `Boss: ${unit.boss.title}` }
+      ? { href: `/boss/${unit.id}/`, label: `Conversation: ${unit.boss.title}` }
       : undefined;
   return (
     <LessonPlayer

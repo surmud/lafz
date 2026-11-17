@@ -94,8 +94,8 @@ boss = {"id": "u06-boss", "title": "Pervez and the Fare", "character": "pervez",
   "k": n("pervez", "b.khuda-hafiz", "end"),
   "end": {"type": "end", "title": "Fare negotiated", "text": "You haggled, survived the drive and got out in one piece. Pervez didn't have change, obviously. You'll call it a tip.", "outcome": "arrived"}}}
 
-meta = {"track": "speaking", "order": 6, "title": "Out & About", "titleUrdu": "باہر", "emoji": "🛺",
- "tagline": "Rickshaws, directions, dhabas, and the ancient art of haggling.", "canDo": "You can get around a Pakistani city: directions, fares, ordering",
+meta = {"track": "speaking", "order": 6, "title": "Getting Around", "titleUrdu": "باہر", "emoji": "🛺",
+ "tagline": "Directions, taking a rickshaw, haggling and ordering food.", "canDo": "You can get around a Pakistani city: directions, fares, ordering",
  "grammar": [{"title": "Commands: -o vs -iye", "body": "Tum form: stem + o (ruko, baitho, chalo). Aap form: stem + iye (rukiye, baithiye, chaliye). A softer aap form ends in -ein (rukein, chalein). Irregular: karo/kijiye (do), lo/lijiye (take), do/dijiye (give)."},
              {"title": "Postpositions", "body": "Urdu has 'post'-positions: they come after the noun. mein (in), par (on/at), se (from), tak (until), ko (to). Place words take ke: ghar ke paas (near the house), dukaan ke saamne (in front of the shop), masjid ke peeche (behind the mosque)."}]}
 write_unit(u, meta, L, boss)

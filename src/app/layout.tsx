@@ -6,9 +6,9 @@ import "./globals.css";
 import { AppProviders } from "@/components/AppProviders";
 
 export const metadata: Metadata = {
-  title: "Lafz — Urdu for real family life",
+  title: "Lafz — Learn Urdu",
   description:
-    "Free Urdu course for heritage learners and beginners. No ads, no hearts, mistakes are free. Works offline.",
+    "A free Urdu course for beginners and heritage speakers. Speaking, listening and reading. Works offline.",
   manifest: "/lafz/manifest.webmanifest",
   icons: { icon: "/lafz/icons/icon.svg", apple: "/lafz/icons/apple-touch-icon.png" },
 };

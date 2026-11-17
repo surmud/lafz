@@ -23,14 +23,14 @@ export function lessonXp(stats: Pick<LessonStats, "comebacks">, kind: "lesson" |
 }
 
 const LEVELS = [
-  { xp: 0, title: "Mehmaan", meaning: "Guest" },
-  { xp: 50, title: "Bacha", meaning: "The kid at the table" },
-  { xp: 150, title: "Chai-wala", meaning: "Trusted with the chai" },
-  { xp: 300, title: "Bhai / Baji", meaning: "One of the cousins" },
-  { xp: 500, title: "Khala's favourite", meaning: "She brags about you now" },
-  { xp: 800, title: "Dawat veteran", meaning: "Survives any gathering" },
-  { xp: 1200, title: "Mohalla legend", meaning: "The whole street knows" },
-  { xp: 1800, title: "Ustad", meaning: "Master" },
+  { xp: 0, title: "Level 1", meaning: "Getting started" },
+  { xp: 50, title: "Level 2", meaning: "Basics" },
+  { xp: 150, title: "Level 3", meaning: "Everyday phrases" },
+  { xp: 300, title: "Level 4", meaning: "Simple conversations" },
+  { xp: 500, title: "Level 5", meaning: "Confident basics" },
+  { xp: 800, title: "Level 6", meaning: "Conversational" },
+  { xp: 1200, title: "Level 7", meaning: "Advanced" },
+  { xp: 1800, title: "Level 8", meaning: "Course complete" },
 ] as const;
 
 export interface Level {

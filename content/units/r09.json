@@ -2,9 +2,9 @@
   "id": "r09",
   "track": "reading",
   "order": 9,
-  "title": "WhatsApp from family",
+  "title": "Messages",
   "emoji": "📱",
-  "tagline": "Khala's messages, Ammi's forwards, the family group. Decode them.",
+  "tagline": "Reading short family messages.",
   "canDo": "You can read short WhatsApp messages from family",
   "grammar": [
     {

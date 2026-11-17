@@ -85,7 +85,7 @@ boss = {"id": "u10-boss", "title": "Eid at Nani's", "character": "nani",
   "i": n("nani", "b.end-line", "end"),
   "end": {"type": "end", "title": "Eid mubarak!", "text": "Greetings, prayers (or a confession), Eidi and sheer khurma, all in Urdu. Nani's verdict: 'Is saal bohat achhi Urdu bol raha hai.' This year he's speaking really good Urdu.", "outcome": "eid"}}}
 
-meta = {"track": "speaking", "order": 10, "title": "Eid, Ramadan & Occasions", "titleUrdu": "عید اور رمضان", "emoji": "🌙",
- "tagline": "Ramzan, Eid, Eidi, babies, exams and condolences: the words for the big moments.", "canDo": "You can say the right thing at every occasion, happy or sad",
+meta = {"track": "speaking", "order": 10, "title": "Eid & Occasions", "titleUrdu": "عید اور رمضان", "emoji": "🌙",
+ "tagline": "Ramadan, Eid, congratulations, condolences and the 'ne' past tense.", "canDo": "You can say the right thing at every occasion, happy or sad",
  "grammar": [{"title": "The ne-construction", "body": "Past tense of transitive verbs (eat, drink, say, make, give, see): doer + ne, and the verb agrees with the object. maine khana khaya (khana m.), maine roti khayi (roti f.), Ammi ne biryani banayi. Pronouns merge: main + ne = maine, tum ne, aap ne, us ne. Verbs of motion (go, come) never take ne."}]}
 write_unit(u, meta, L, boss)

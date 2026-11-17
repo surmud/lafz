@@ -29,13 +29,12 @@ export function WelcomeBack() {
   if (s.status !== "resting" && s.status !== "paused") return null;
   const msg =
     s.status === "resting"
-      ? `Welcome back! You were away ${s.missedDays} days, so your streak has been resting. It's still ${s.current}, and it picks up the moment you practise. Nothing was lost.`
-      : `Welcome back! Your streak used ${s.missedDays} pause day${s.missedDays === 1 ? "" : "s"} and is safe at ${s.current}.`;
+      ? `You were away ${s.missedDays} days. Your streak is paused at ${s.current} and continues when you practise.`
+      : `Your streak used ${s.missedDays} pause day${s.missedDays === 1 ? "" : "s"} and is still ${s.current}.`;
   return (
     <div role="status" className="animate-rise rounded-3xl border-2 border-primary/40 bg-primary-soft p-4">
-      <p className="font-display text-xl font-bold">{s.status === "resting" ? "Aa gaye! You're back 🫶" : "Good to see you 🫶"}</p>
+      <p className="font-display text-xl font-bold">Welcome back</p>
       <p className="mt-1 text-[15px] leading-relaxed">{msg}</p>
-      <p className="mt-2 text-sm text-ink-soft">Khala noticed you were gone, but Khala notices everything. We don&apos;t keep score.</p>
     </div>
   );
 }

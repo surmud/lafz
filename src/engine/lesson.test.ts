@@ -93,9 +93,9 @@ describe("xp", () => {
     expect(lessonXp({ comebacks: 0 }, "review").total).toBe(5);
   });
   test("levels", () => {
-    expect(levelFor(0)).toMatchObject({ index: 0, title: "Mehmaan", next: 50 });
+    expect(levelFor(0)).toMatchObject({ index: 0, title: "Level 1", next: 50 });
     expect(levelFor(49).index).toBe(0);
     expect(levelFor(50).index).toBe(1);
-    expect(levelFor(999999)).toMatchObject({ title: "Ustad", next: null });
+    expect(levelFor(999999)).toMatchObject({ title: "Level 8", next: null });
   });
 });

@@ -83,7 +83,7 @@ export function MeView({ units }: { units: UnitMeta[] }) {
           </span>
           <span>
             <span className="block font-bold">Phrasebook</span>
-            <span className="block text-sm text-ink-soft">Every phrase in the course, with audio. Search before you call Khala.</span>
+            <span className="block text-sm text-ink-soft">Every phrase in the course, with audio.</span>
           </span>
         </Link>
 

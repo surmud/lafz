@@ -100,7 +100,7 @@ boss = {"id": "u05-boss", "title": "Nani's Price Check", "character": "nani",
   "end": {"type": "end", "title": "Price check passed", "text": "Prices, ages, times: all answered in Urdu, under Nani's gaze. You're home by ten. (You're home by eleven.)", "outcome": "survived"}}}
 
 meta = {"track": "speaking", "order": 5, "title": "Numbers, Time & Money", "titleUrdu": "گنتی، وقت اور پیسے", "emoji": "🔢",
- "tagline": "Count, tell time the desi way, and gasp at prices like a pro.", "canDo": "You can handle prices, times, dates and your age",
+ "tagline": "Numbers, prices, telling the time, days and age.", "canDo": "You can handle prices, times, dates and your age",
  "grammar": [{"title": "Numbers", "body": "1–10: ek, do, teen, chaar, paanch, chhe, saat, aath, nau, das. Round numbers: bees (20), tees (30), chaalees (40), pachaas (50), sau (100), hazaar (1,000). 11–99 are each their own word; learn them as you need them."},
              {"title": "Telling time", "body": "X baje = X o'clock. sawa X = X:15, saare X = X:30, paune X = (X−1):45. Two special halves: derh (1:30) and dhai (2:30)."},
              {"title": "kal", "body": "kal means both yesterday and tomorrow, and parson both the day before yesterday and the day after tomorrow. The verb's tense tells you which."}]}

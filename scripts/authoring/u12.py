@@ -80,8 +80,8 @@ boss = {"id": "u12-boss", "title": "The Story for Nani", "character": "nani",
   "i2": n("nani", "b.nani-gossip", "end"),
   "end": {"type": "end", "title": "You told the story", "text": "Beginning, middle, end, with past tenses, connectors and drama, in Urdu, to Nani. This is what the whole course was for. She'll repeat it to everyone, slightly improved.", "outcome": "storyteller"}}}
 
-meta = {"track": "speaking", "order": 12, "title": "Tell a Story", "titleUrdu": "کہانی سنائیں", "emoji": "📖",
- "tagline": "The wedding, the gossip, the groom who fell off the horse. Put it all together.", "canDo": "You can tell a story in Urdu: what happened, in order, with feeling",
+meta = {"track": "speaking", "order": 12, "title": "Telling Stories", "titleUrdu": "کہانی سنائیں", "emoji": "📖",
+ "tagline": "Telling a story: sequence words and past tenses together.", "canDo": "You can tell a story in Urdu: what happened, in order, with feeling",
  "grammar": [{"title": "Past continuous", "body": "Stem + raha/rahi/rahe + tha/thi/the: woh ro rahi thi (she was crying), hum naach rahe the (we were dancing)."},
              {"title": "Story glue", "body": "pehle (first), phir (then), uske baad (after that), lekin (but), kyunke (because), achanak (suddenly), aakhir mein (in the end). Listener noises: sach mein? phir kya hua? haye Allah!"}]}
 write_unit(u, meta, L, boss)

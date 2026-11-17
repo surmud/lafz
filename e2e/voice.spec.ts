@@ -9,7 +9,7 @@ test("family voice: a stored recording replaces TTS in lessons", async ({ page }
   await freshStart(page);
   await page.goto("./family/");
   await page.getByRole("link", { name: /Family voice/ }).click();
-  await page.getByRole("link", { name: /Salaam & Respect/ }).click();
+  await page.getByRole("link", { name: /Greetings/ }).click();
   await expect(page.getByRole("button", { name: "Record assalam-o-alaikum" })).toBeVisible();
   await shot("recorder");
   await page.evaluate(async () => {

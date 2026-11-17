@@ -137,8 +137,8 @@ boss = {"id": "u03-boss", "title": "Nani's Dastarkhwan", "character": "nani",
   "j": n("nani", "b.jeete-raho", "end"),
   "end": {"type": "end", "title": "Dinner survived", "text": "You ate, praised, refused (sort of), and accepted chai. Nani will tell the whole family you 'eat like a proper bacha now'. That's a compliment.", "outcome": "survived"}}}
 
-meta = {"track": "speaking", "order": 3, "title": "Dawat Survival", "titleUrdu": "دعوت", "emoji": "🍛",
-  "tagline": "Eat, praise, refuse seconds, accept chai. Repeat until Eid.", "canDo": "You can get through a desi dinner as a guest without offending anyone",
+meta = {"track": "speaking", "order": 3, "title": "Meals & Visits", "titleUrdu": "دعوت", "emoji": "🍛",
+  "tagline": "Food, eating at someone's home, accepting and refusing, and tea.", "canDo": "You can get through a desi dinner as a guest without offending anyone",
   "grammar": [{"title": "mujhe … chahiye / pasand hai", "body": "Wanting and liking are said backwards: 'mujhe chai chahiye' (to me, tea is needed) and 'mujhe biryani pasand hai' (to me, biryani is liked). 'Mujhe' = to me."},
               {"title": "Nouns have gender", "body": "Masculine nouns often end in -a (khana, kamra), feminine in -i (roti, chai). Adjectives that end in -a change to match: achha khana, achhi chai, achhe log (plural)."}]}
 write_unit(u, meta, L, boss)

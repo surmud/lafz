@@ -90,7 +90,7 @@ boss = {"id": "u07-boss", "title": "The Mehndi", "character": "khala",
   "j2": n("khala", "b.ek-baje", "end"),
   "end": {"type": "end", "title": "Mehndi survived", "text": "You congratulated, (maybe) danced, and deflected two rishta attacks. Food arrived at 1:14am. You were there for it.", "outcome": "survived"}}}
 
-meta = {"track": "speaking", "order": 7, "title": "Shaadi Season", "titleUrdu": "شادی کا موسم", "emoji": "💃",
- "tagline": "Mehndi, baraat, walima, and 300 aunties asking when you're next.", "canDo": "You can get through a Pakistani wedding season, in Urdu",
+meta = {"track": "speaking", "order": 7, "title": "Weddings", "titleUrdu": "شادی کا موسم", "emoji": "💃",
+ "tagline": "Weddings: the events, congratulations and the future tense.", "canDo": "You can get through a Pakistani wedding season, in Urdu",
  "grammar": [{"title": "Future tense", "body": "Verb stem + ending + ga/gi/ge. main jaunga (I'll go, man), main jaungi (woman), tum jaoge, woh jayega/jayegi, hum/aap jayenge. The ga/gi/ge matches the speaker's gender and number, and in Urdu script it's written as a separate word: جاؤں گا."}]}
 write_unit(u, meta, L, boss)

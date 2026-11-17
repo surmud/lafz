@@ -81,8 +81,8 @@ boss = {"id": "u11-boss", "title": "The Thermostat War", "character": "abbu",
   "g2": n("abbu", "b.bilal-react", "end"),
   "end": {"type": "end", "title": "The war is over (for today)", "text": "You argued, conceded or out-witted your father, in Urdu, about the AC. Tomorrow it's the thermostat in the car.", "outcome": "survived"}}}
 
-meta = {"track": "speaking", "order": 11, "title": "Taunts, Banter & Parent Lines", "titleUrdu": "طعنے اور مذاق", "emoji": "🙄",
- "tagline": "'Hum tumhari umar mein…' Understand every lecture. Win (some of) them.", "canDo": "You can follow and answer desi banter, taunts and lectures",
+meta = {"track": "speaking", "order": 11, "title": "Family Talk", "emoji": "🙄",
+ "tagline": "Common parent phrases, commands, compound verbs and 'maybe'.", "canDo": "You can follow and answer desi banter, taunts and lectures",
  "grammar": [{"title": "Compound verbs", "body": "Main verb stem + helper: le (for yourself), de (for others), ja (completion or change). kha lo, de do, so jao, ho gaya, bhool gaya. The helper carries the tense: main kha leta hoon, maine kha liya."},
              {"title": "Subjunctive", "body": "Future without ga/gi/ge: main karoon, tum karo, woh kare, hum/aap karein. Use it for maybe (shayad), should (main kya karoon?) and suggestions (chalein?)."}]}
 write_unit(u, meta, L, boss)

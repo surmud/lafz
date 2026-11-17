@@ -30,7 +30,7 @@ def unit(uid, order, title, emoji, tagline, cando, lessons_spec, grammar):
 
 
 # R6 — short vowels and special letters
-u, L, meta = unit("r06", 6, "Vowels, ھ, ں and the two ye's", "🔤", "The little marks and special letters that make Urdu Urdu.",
+u, L, meta = unit("r06", 6, "Vowel Marks & Special Letters", "🔤", "Short vowel marks, do-chashmi he, nun ghunna and the two ye's.",
   "You can read short-vowel marks, do-chashmi he, nun ghunna and both ye's", [
    {"title": "Zabar, zer, pesh", "blurb": "Three tiny marks for short vowels (usually left out!)", "cando": "You can read the three short-vowel marks",
     "intro": info("Short vowels are (mostly) invisible", "Urdu writes long vowels as letters (ا و ی) but short vowels as tiny marks, and usually skips them. Zabar (a line above) = a, zer (a line below) = i, pesh (a little و above) = u. Beginners' books show them; WhatsApp never does.", glyph="بَ  بِ  بُ"),
@@ -45,7 +45,7 @@ u, L, meta = unit("r06", 6, "Vowels, ھ, ں and the two ye's", "🔤", "The litt
 write_unit(u, meta, L, None)
 
 # R7 — words you know
-u, L, meta = unit("r07", 7, "Words you already say", "💬", "Read the Urdu you've been speaking all along.",
+u, L, meta = unit("r07", 7, "Words You Know", "💬", "Reading words you already know from the speaking course.",
   "You can read common family words you already know how to say", [
    {"title": "Greetings in script", "blurb": "Salaam, shukriya, and friends.", "cando": "You can read greetings and thanks",
     "intro": info("You know these already", "Every word in this lesson came up in the speaking course. Now you'll recognise them on a screen, a card or a wedding invitation.", glyph="سلام"),
@@ -60,7 +60,7 @@ u, L, meta = unit("r07", 7, "Words you already say", "💬", "Read the Urdu you'
 write_unit(u, meta, L, None)
 
 # R8 — signs and menus
-u, L, meta = unit("r08", 8, "Signs, menus and shop boards", "🪧", "Read the street: open, closed, welcome, price, no smoking.",
+u, L, meta = unit("r08", 8, "Signs & Menus", "🪧", "Reading signs, menus and shop boards.",
   "You can read common signs and a simple menu", [
    {"title": "On the street", "blurb": "Open, closed, welcome, shop.", "cando": "You can read basic street and shop signs",
     "intro": info("Street Urdu", "Shop boards in Pakistan mix Urdu and English. The Urdu half usually says the same thing, so you can check yourself.", glyph="خوش آمدید"),
@@ -75,7 +75,7 @@ u, L, meta = unit("r08", 8, "Signs, menus and shop boards", "🪧", "Read the st
 write_unit(u, meta, L, None)
 
 # R9 — WhatsApp from family
-u, L, meta = unit("r09", 9, "WhatsApp from family", "📱", "Khala's messages, Ammi's forwards, the family group. Decode them.",
+u, L, meta = unit("r09", 9, "Messages", "📱", "Reading short family messages.",
   "You can read short WhatsApp messages from family", [
    {"title": "Ammi's messages", "blurb": "Did you eat? When are you coming?", "cando": "You can read the classic parent check-in messages",
     "intro": info("No vowels, no mercy", "Family WhatsApp has no short-vowel marks, lots of emojis, and the occasional English word. Read the shapes you know first.", glyph="بیٹا کھانا کھا لیا؟"),
@@ -112,6 +112,6 @@ L = [
    {"type": "speak", "phrase": "r10.line1"},
    {"type": "speak", "phrase": "r10.line2"}]},
 ]
-meta = {"track": "reading", "order": 10, "title": "Final test: a Ghalib couplet", "emoji": "🪶", "tagline": "Read two lines of Mirza Ghalib in the original. You've earned it.",
+meta = {"track": "reading", "order": 10, "title": "A Ghalib Couplet", "emoji": "🪶", "tagline": "Reading a couplet by Mirza Ghalib.",
         "canDo": "You can read a classic Urdu couplet in Nastaliq", "grammar": [{"title": "Poetic spellings", "body": "Poetry bends spelling for the metre: مرے (mire) is a poetic short form of میرے (mere, my). پہ (pe) is a short form of پر (par, on)."}]}
 write_unit(u, meta, L, None)

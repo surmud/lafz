@@ -82,8 +82,8 @@ boss = {"id": "u08-boss", "title": "Ammi, MD", "character": "ammi",
   "j": n("ammi", "b.sehat", "end"),
   "end": {"type": "end", "title": "Treatment complete", "text": "You described your symptoms, survived the nazar diagnosis, and drank the turmeric milk. You'll be better by morning. Ammi will credit the chillies.", "outcome": "cured"}}}
 
-meta = {"track": "speaking", "order": 8, "title": "Body, Health & Nazar", "titleUrdu": "صحت اور نظر", "emoji": "🧿",
- "tagline": "Fevers, feelings, the evil eye, and turmeric milk for everything.", "canDo": "You can talk about how you feel, what hurts and what you can do",
+meta = {"track": "speaking", "order": 8, "title": "Health & Feelings", "titleUrdu": "صحت اور نظر", "emoji": "🧿",
+ "tagline": "Health, feelings, what hurts, and saying what you can do.", "canDo": "You can talk about how you feel, what hurts and what you can do",
  "grammar": [{"title": "Feelings with 'mujhe … lagna'", "body": "Hunger, thirst, cold and liking happen to you: mujhe bhook lagi hai (I'm hungry), mujhe sardi lag rahi hai (I feel cold), mujhe achha lagta hai (I like it). The verb agrees with the feeling, not with you."},
              {"title": "sakna (can)", "body": "Stem + sakta (m) / sakti (f) / sakte (pl/aap) + hoon/hai/hain. main bol sakta hoon = I can speak. Negative: main nahin bol sakta. Permission: kya main ja sakta hoon?"}]}
 write_unit(u, meta, L, boss)

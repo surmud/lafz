@@ -40,16 +40,16 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
           <div className="flex flex-1 animate-rise flex-col">
             <Nastaliq className="self-center text-7xl text-rose">لفظ</Nastaliq>
             <h1 className="mt-2 text-center font-display text-4xl font-bold">Lafz</h1>
-            <p className="mt-2 text-center text-lg text-ink-soft">Urdu for real family life. From “Salaam” to surviving the shaadi.</p>
+            <p className="mt-2 text-center text-lg text-ink-soft">Learn to speak, understand and read Urdu.</p>
             <div className="mt-8 flex justify-center -space-x-3">
               {characters.slice(0, 5).map((c) => (
                 <Avatar key={c.id} character={c} />
               ))}
             </div>
             <ul className="mx-auto mt-8 flex max-w-xs flex-col gap-2 text-[15px]">
-              <li>💚 Mistakes are free. No hearts, no lockouts.</li>
-              <li>😴 Your streak rests, it never resets.</li>
-              <li>📵 No ads, no account. Everything stays on this phone.</li>
+              <li>Free. No ads, no account.</li>
+              <li>Wrong answers come back later. Nothing is locked.</li>
+              <li>Your progress stays on this device.</li>
             </ul>
             <Button block className="mt-auto" onClick={() => setStep("who")}>
               Let&apos;s go
@@ -57,10 +57,10 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
           </div>
         ) : step === "who" ? (
           <div className="flex flex-1 animate-rise flex-col gap-4">
-            <h1 className="font-display text-3xl font-bold">Which one is you?</h1>
+            <h1 className="font-display text-3xl font-bold">What describes you best?</h1>
             {[
-              { k: "heritage" as const, t: "I understand some Urdu but freeze when I speak", s: "Classic heritage kid. We'll find your level and skip what you know.", e: "🫣" },
-              { k: "beginner" as const, t: "I'm starting from zero", s: "Married in? Curious? Welcome to the family. We start with salaam.", e: "🌱" },
+              { k: "heritage" as const, t: "I understand some Urdu", s: "Take a short test to find your starting point.", e: "🗣️" },
+              { k: "beginner" as const, t: "I'm new to Urdu", s: "Start from the first lesson.", e: "🌱" },
             ].map((o) => (
               <button
                 key={o.k}
@@ -84,8 +84,8 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
           </div>
         ) : (
           <div className="flex flex-1 animate-rise flex-col gap-4">
-            <h1 className="font-display text-3xl font-bold">Who&apos;s in your family?</h1>
-            <p className="text-ink-soft">Optional. Add names and the course will mention them. Stays on this phone.</p>
+            <h1 className="font-display text-3xl font-bold">Family names (optional)</h1>
+            <p className="text-ink-soft">Add names and conversations will use them. Saved on this device only.</p>
             {ROLES.map((r) => (
               <label key={r.key} className="flex flex-col gap-1">
                 <span className="text-sm font-bold">{r.label}</span>
@@ -101,19 +101,19 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
               {kind === "heritage" ? (
                 <>
                   <Button block onClick={() => finish("placement")}>
-                    Find my level (2 min)
+                    Take the placement test
                   </Button>
                   <Button block variant="secondary" onClick={() => finish("home")}>
-                    Start from Unit 1
+                    Start lesson 1 instead
                   </Button>
                 </>
               ) : (
                 <>
                   <Button block onClick={() => finish("home")}>
-                    Start with Salaam
+                    Start lesson 1
                   </Button>
                   <Button block variant="ghost" onClick={() => finish("placement")}>
-                    Actually, test me first
+                    Take the placement test instead
                   </Button>
                 </>
               )}
