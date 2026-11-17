@@ -3579,12 +3579,12 @@
     {
       "id": "u02-mix",
       "title": "Mix it up",
-      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "blurb": "Mrs. Butt is approaching. Warm up for the boss.",
       "canDo": "You can use this unit's phrases without a prompt: you can explain who's who in your family, on both sides",
       "teach": [
         {
-          "title": "Boss warm-up",
-          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+          "title": "Mrs. Butt is approaching",
+          "info": "She's opened the spreadsheet. Get your Khalas and Phuppos straight before she reaches you."
         }
       ],
       "exercises": [

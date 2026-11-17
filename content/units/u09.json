@@ -2691,12 +2691,12 @@
     {
       "id": "u09-mix",
       "title": "Mix it up",
-      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "blurb": "Bilal is in scrubs again. Warm up for the boss.",
       "canDo": "You can use this unit's phrases without a prompt: you can talk about your life: work, hobbies, where you've been",
       "teach": [
         {
-          "title": "Boss warm-up",
-          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+          "title": "Bilal is in scrubs again",
+          "info": "At a family lunch. On purpose. Prepare your job, your hobby and your best comeback."
         }
       ],
       "exercises": [

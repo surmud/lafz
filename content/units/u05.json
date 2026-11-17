@@ -3087,12 +3087,12 @@
     {
       "id": "u05-mix",
       "title": "Mix it up",
-      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "blurb": "Nani has seen your new shoes. Warm up for the boss.",
       "canDo": "You can use this unit's phrases without a prompt: you can handle prices, times, dates and your age",
       "teach": [
         {
-          "title": "Boss warm-up",
-          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+          "title": "Nani has seen your new shoes",
+          "info": "She's about to ask what they cost, how old you are and when you'll be home. Have your numbers ready."
         }
       ],
       "exercises": [

@@ -87,7 +87,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **G12 Single-word audio.** (voice v3: carrier-sentence synthesis + duration-based cut; 12-word test 0.23 → 0.70) MMS is weakest on isolated words (docs/evals/2026-11-16-audio.md).
   Try a carrier phrase ("لفظ ہے: X") and trimming, or a free alternative TTS for words only.
 
-- [ ] **G13 Funnier Mix-it-up lessons.** Hand-write one situational joke prompt per unit's warm-up (R5).
+- [x] **G13 Funnier Mix-it-up lessons.** Hand-write one situational joke prompt per unit's warm-up (R5).
 - [ ] **G14 Rekhta spelling cross-check** for U1–U3 core phrases, by hand; log disagreements (R6).
 - [ ] **G15 Question intonation / prosody.** Try raising pitch at the end of '?' lines in post-processing,
   or evaluate another free Urdu TTS (R7).

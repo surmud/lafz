@@ -2365,12 +2365,12 @@
     {
       "id": "u06-mix",
       "title": "Mix it up",
-      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "blurb": "Pervez is pulling up. Warm up for the boss.",
       "canDo": "You can use this unit's phrases without a prompt: you can get around a Pakistani city: directions, fares, ordering",
       "teach": [
         {
-          "title": "Boss warm-up",
-          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+          "title": "Pervez is pulling up",
+          "info": "The meter is 'broken'. It's always broken. Rehearse your gasp."
         }
       ],
       "exercises": [

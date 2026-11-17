@@ -2892,12 +2892,12 @@
     {
       "id": "u08-mix",
       "title": "Mix it up",
-      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "blurb": "Ammi is holding a red chilli. Warm up for the boss.",
       "canDo": "You can use this unit's phrases without a prompt: you can talk about how you feel, what hurts and what you can do",
       "teach": [
         {
-          "title": "Boss warm-up",
-          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+          "title": "Ammi is holding a red chilli",
+          "info": "That means a nazar diagnosis is coming. Get your symptoms straight first."
         }
       ],
       "exercises": [

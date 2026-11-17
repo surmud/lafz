@@ -2522,12 +2522,12 @@
     {
       "id": "u07-mix",
       "title": "Mix it up",
-      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "blurb": "The dhol has started. Warm up for the boss.",
       "canDo": "You can use this unit's phrases without a prompt: you can get through a Pakistani wedding season, in Urdu",
       "teach": [
         {
-          "title": "Boss warm-up",
-          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+          "title": "The dhol has started",
+          "info": "Three hundred guests, two aunties with agendas, one dance floor. Warm up."
         }
       ],
       "exercises": [

@@ -3151,12 +3151,12 @@
     {
       "id": "u03-mix",
       "title": "Mix it up",
-      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "blurb": "Nani has started cooking. Warm up for the boss.",
       "canDo": "You can use this unit's phrases without a prompt: you can get through a desi dinner as a guest without offending anyone",
       "teach": [
         {
-          "title": "Boss warm-up",
-          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+          "title": "Nani has started cooking",
+          "info": "There are already four dishes on the stove and she's reaching for a fifth. Warm up your 'bas, bas'."
         }
       ],
       "exercises": [

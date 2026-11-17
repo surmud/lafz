@@ -2536,12 +2536,12 @@
     {
       "id": "u10-mix",
       "title": "Mix it up",
-      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "blurb": "It's chaand raat. Warm up for the boss.",
       "canDo": "You can use this unit's phrases without a prompt: you can say the right thing at every occasion, happy or sad",
       "teach": [
         {
-          "title": "Boss warm-up",
-          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+          "title": "It's chaand raat",
+          "info": "Moon sighted. Tomorrow is Eid at Nani's. Practise everything tonight."
         }
       ],
       "exercises": [

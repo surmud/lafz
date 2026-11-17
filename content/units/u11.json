@@ -2603,12 +2603,12 @@
     {
       "id": "u11-mix",
       "title": "Mix it up",
-      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "blurb": "Abbu has the AC remote. Warm up for the boss.",
       "canDo": "You can use this unit's phrases without a prompt: you can follow and answer desi banter, taunts and lectures",
       "teach": [
         {
-          "title": "Boss warm-up",
-          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+          "title": "Abbu has the AC remote",
+          "info": "And the electricity bill. And that look. Warm up your 'Ji Abbu'."
         }
       ],
       "exercises": [

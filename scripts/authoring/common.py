@@ -136,6 +136,22 @@ MIX_PROMPTS = [
 ]
 
 
+MIX_INTROS = {
+    "u01": ("Khala is at the window", "She's seen you coming up the path. You have about eleven seconds to remember everything from this unit. No pressure."),
+    "u02": ("Mrs. Butt is approaching", "She's opened the spreadsheet. Get your Khalas and Phuppos straight before she reaches you."),
+    "u03": ("Nani has started cooking", "There are already four dishes on the stove and she's reaching for a fifth. Warm up your 'bas, bas'."),
+    "u04": ("Your phone says 6:01am", "Lahore is calling in sixty seconds. Run through it all before the line crackles."),
+    "u05": ("Nani has seen your new shoes", "She's about to ask what they cost, how old you are and when you'll be home. Have your numbers ready."),
+    "u06": ("Pervez is pulling up", "The meter is 'broken'. It's always broken. Rehearse your gasp."),
+    "u07": ("The dhol has started", "Three hundred guests, two aunties with agendas, one dance floor. Warm up."),
+    "u08": ("Ammi is holding a red chilli", "That means a nazar diagnosis is coming. Get your symptoms straight first."),
+    "u09": ("Bilal is in scrubs again", "At a family lunch. On purpose. Prepare your job, your hobby and your best comeback."),
+    "u10": ("It's chaand raat", "Moon sighted. Tomorrow is Eid at Nani's. Practise everything tonight."),
+    "u11": ("Abbu has the AC remote", "And the electricity bill. And that look. Warm up your 'Ji Abbu'."),
+    "u12": ("Nani has poured two cups of chai", "She wants the whole wedding story, in order, with drama. This is the big one."),
+}
+
+
 def mix_lesson(uid: str, meta: dict, lessons: list, phrases: list) -> dict:
     """A consolidation lesson before the boss: every lesson's taught phrases, production first."""
     by_id = {p["id"]: p for p in phrases}
@@ -171,9 +187,9 @@ def mix_lesson(uid: str, meta: dict, lessons: list, phrases: list) -> dict:
     return {
         "id": f"{uid}-mix",
         "title": "Mix it up",
-        "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+        "blurb": MIX_INTROS.get(uid, ("Everything from this unit, shuffled.",))[0] + ". Warm up for the boss.",
         "canDo": f"You can use this unit's phrases without a prompt: {meta['canDo'][0].lower() + meta['canDo'][1:]}",
-        "teach": [info("Boss warm-up", "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free.")],
+        "teach": [info(*MIX_INTROS.get(uid, ("Boss warm-up", "Everything from this unit, mixed together.")))],
         "exercises": ex,
     }
 

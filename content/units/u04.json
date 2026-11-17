@@ -3566,12 +3566,12 @@
     {
       "id": "u04-mix",
       "title": "Mix it up",
-      "blurb": "Everything from this unit, shuffled. Warm-up for the boss.",
+      "blurb": "Your phone says 6:01am. Warm up for the boss.",
       "canDo": "You can use this unit's phrases without a prompt: you can hold a whole phone call with family in Pakistan",
       "teach": [
         {
-          "title": "Boss warm-up",
-          "info": "Everything from this unit, mixed together and mostly production: you say it, you type it. Mistakes come back, as always, for free."
+          "title": "Your phone says 6:01am",
+          "info": "Lahore is calling in sixty seconds. Run through it all before the line crackles."
         }
       ],
       "exercises": [
