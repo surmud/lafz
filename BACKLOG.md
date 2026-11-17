@@ -98,6 +98,8 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **G18 Ask Ammi with your own voice** (SPEC §10): record yourself and share the clip with the text.
 - [x] **G21 Console-error sweep** (new E2E): no console errors or hydration mismatches on 15 page types.
   Found and fixed a hydration mismatch on the family-voice recorder.
+- [x] **G22 axe-core WCAG A/AA gate in light AND dark** (new E2E). Fixed 6 contrast failures: darker rose
+  and green in light mode, ink tokens for text on green, red and rose buttons, legible "-deep" labels in dark.
 - [ ] **G15 Question intonation / prosody.** (Needs a human ear: an automated pitch change can't be judged
   by the current metrics, so it isn't shipped blind.) Try raising pitch at the end of '?' lines in post-processing,
   or evaluate another free Urdu TTS (R7).

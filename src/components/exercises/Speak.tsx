@@ -52,7 +52,7 @@ export function SpeakExercise({ ex, locked, onSubmit }: ExerciseProps<ResolvedSp
             disabled={locked}
             onClick={start}
             aria-label={state === "listening" ? "Stop listening" : "Start speaking"}
-            className={`grid size-24 place-items-center rounded-full text-4xl text-white shadow-[0_5px_0_var(--rose-deep)] transition active:translate-y-1 active:shadow-none ${state === "listening" ? "animate-pulse bg-rose" : "bg-rose"}`}
+            className={`grid size-24 place-items-center rounded-full text-4xl text-rose-ink shadow-[0_5px_0_var(--rose-deep)] transition active:translate-y-1 active:shadow-none ${state === "listening" ? "animate-pulse bg-rose" : "bg-rose"}`}
           >
             🎙️
           </button>
@@ -143,7 +143,7 @@ function WhisperFallback({ phrase, locked, onSubmit }: { phrase: ResolvedSpeak["
             setState("error");
           }
         }}
-        className={`grid size-24 place-items-center rounded-full bg-rose text-4xl text-white shadow-[0_5px_0_var(--rose-deep)] ${state === "recording" ? "animate-pulse" : ""}`}
+        className={`grid size-24 place-items-center rounded-full bg-rose text-4xl text-rose-ink shadow-[0_5px_0_var(--rose-deep)] ${state === "recording" ? "animate-pulse" : ""}`}
       >
         {state === "recording" ? "■" : "🎙️"}
       </button>

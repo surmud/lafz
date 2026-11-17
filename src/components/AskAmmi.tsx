@@ -96,7 +96,7 @@ export function AskAmmiButton({ phrase, compact }: { phrase: Pick<Phrase, "roman
           type="button"
           onClick={recordAndShare}
           aria-label={rec ? "Stop and send my recording" : "Record myself and send it to family"}
-          className={`inline-flex min-h-11 items-center gap-1.5 rounded-full px-4 text-sm font-bold text-white ${rec ? "animate-pulse bg-bad" : "bg-rose"}`}
+          className={`inline-flex min-h-11 items-center gap-1.5 rounded-full px-4 text-sm font-bold ${rec ? "animate-pulse bg-bad text-bad-ink" : "bg-rose text-rose-ink"}`}
         >
           {rec ? "■ Send" : "🎙️ Send my voice"}
         </button>

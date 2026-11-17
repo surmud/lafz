@@ -162,7 +162,7 @@ export function VoiceRecorder({ title, phrases }: { title: string; phrases: Phra
                 </div>
                 {has && !isActive ? (
                   <>
-                    <button type="button" onClick={() => void playPhrase(p)} aria-label={`Play the family recording of ${p.roman}`} className="grid size-11 place-items-center rounded-xl bg-good text-white">
+                    <button type="button" onClick={() => void playPhrase(p)} aria-label={`Play the family recording of ${p.roman}`} className="grid size-11 place-items-center rounded-xl bg-good text-good-ink">
                       ▶
                     </button>
                     <button
@@ -187,7 +187,7 @@ export function VoiceRecorder({ title, phrases }: { title: string; phrases: Phra
                   disabled={!supported || (active !== null && !isActive)}
                   onClick={() => (isActive ? stop() : void start(p))}
                   aria-label={isActive ? "Stop recording" : `Record ${p.roman}`}
-                  className={`grid size-12 place-items-center rounded-full text-xl text-white disabled:opacity-40 ${isActive ? "animate-pulse bg-bad" : "bg-rose"}`}
+                  className={`grid size-12 place-items-center rounded-full text-xl disabled:opacity-40 ${isActive ? "animate-pulse bg-bad text-bad-ink" : "bg-rose text-rose-ink"}`}
                 >
                   {isActive ? "■" : "🎙️"}
                 </button>

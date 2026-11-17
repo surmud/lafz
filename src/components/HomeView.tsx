@@ -57,14 +57,14 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
             href={next.kind === "lesson" ? `/lesson/${next.lesson.id}/` : `/boss/${next.unit.id}/`}
             className="group relative overflow-hidden rounded-[2rem] bg-primary p-5 text-primary-ink shadow-[0_6px_0_var(--primary-deep)] transition active:translate-y-1 active:shadow-none"
           >
-            <p className="text-xs font-black tracking-widest uppercase opacity-80">
+            <p className="text-xs font-black tracking-widest uppercase">
               {Object.keys(progress.lessons).length === 0 ? "Start here" : "Continue"} · Unit {next.unit.order}
             </p>
             <p className="mt-1 font-display text-3xl font-bold">
               {next.kind === "lesson" ? next.lesson.title : `Boss: ${next.unit.boss?.title}`}
             </p>
             <p className="mt-1 text-[15px] opacity-90">{next.kind === "lesson" ? next.lesson.blurb : next.unit.boss?.blurb}</p>
-            <span className="mt-4 inline-flex min-h-12 items-center rounded-2xl bg-white/95 px-5 font-black text-primary-deep">
+            <span className="mt-4 inline-flex min-h-12 items-center rounded-2xl bg-white/95 px-5 font-black text-[#0a5651]">
               {next.kind === "lesson" ? "Start lesson →" : "Face the boss →"}
             </span>
             <span aria-hidden className="absolute -right-4 -bottom-6 text-8xl opacity-25">

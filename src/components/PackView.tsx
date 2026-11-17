@@ -35,7 +35,7 @@ export function PackView({ pack }: { pack: Pack }) {
                   href={`/pack/${pack.id}/${s.id}/`}
                   className={`flex items-center gap-4 rounded-3xl border-2 bg-surface p-4 shadow-[0_3px_0_var(--line)] ${i === nextIdx ? "border-accent" : isDone ? "border-good/60" : "border-line"}`}
                 >
-                  <span className={`grid size-12 shrink-0 place-items-center rounded-full text-lg font-black ${isDone ? "bg-good text-white" : i === nextIdx ? "bg-accent text-[#2b1a12]" : "bg-surface-2 text-ink-soft"}`} aria-hidden>
+                  <span className={`grid size-12 shrink-0 place-items-center rounded-full text-lg font-black ${isDone ? "bg-good text-good-ink" : i === nextIdx ? "bg-accent text-[#2b1a12]" : "bg-surface-2 text-ink-soft"}`} aria-hidden>
                     {isDone ? "✓" : i + 1}
                   </span>
                   <span className="min-w-0 flex-1">

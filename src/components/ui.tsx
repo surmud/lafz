@@ -7,8 +7,8 @@ type Variant = "primary" | "secondary" | "ghost" | "accent" | "good" | "bad";
 const variants: Record<Variant, string> = {
   primary: "bg-primary text-primary-ink shadow-[0_4px_0_var(--primary-deep)] active:shadow-none",
   accent: "bg-accent text-[#2b1a12] shadow-[0_4px_0_var(--accent-deep)] active:shadow-none",
-  good: "bg-good text-white shadow-[0_4px_0_var(--good-deep)] active:shadow-none",
-  bad: "bg-bad text-white shadow-[0_4px_0_var(--bad-deep)] active:shadow-none",
+  good: "bg-good text-good-ink shadow-[0_4px_0_var(--good-deep)] active:shadow-none",
+  bad: "bg-bad text-bad-ink shadow-[0_4px_0_var(--bad-deep)] active:shadow-none",
   secondary: "bg-surface text-ink border-2 border-line shadow-[0_3px_0_var(--line)] active:shadow-none",
   ghost: "bg-transparent text-ink-soft",
 };

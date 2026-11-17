@@ -74,7 +74,7 @@ export function DinnerCard() {
             window.open(whatsappUrl(text), "_blank", "noopener");
             setShared(true);
           }}
-          className="min-h-11 flex-1 rounded-full bg-good px-4 font-bold text-white"
+          className="min-h-11 flex-1 rounded-full bg-good px-4 font-bold text-good-ink"
         >
           {shared ? "Shared 💚" : "Send to the family"}
         </button>
