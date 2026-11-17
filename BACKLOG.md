@@ -93,6 +93,9 @@ acceptance criteria (AC). Phases are a guide, not a cage.
   share via Web Share/WhatsApp, printable.
 - [x] **G17 Reading placement offer** (SPEC §11): after placement, a 3-question script check that
   suggests a reading unit.
+- [x] **G19 Future-hook interfaces** (SPEC §11): TtsProvider (MMS adapter in use), SyncProvider, Entitlements, ConversationEngine.
+- [x] **G20 Bundle budget gate in CI** (EVALS §3): first-load JS 186.8 KB gzip of 200 KB.
+- [ ] **G18 Ask Ammi with your own voice** (SPEC §10): record yourself and share the clip with the text.
 - [ ] **G15 Question intonation / prosody.** (Needs a human ear: an automated pitch change can't be judged
   by the current metrics, so it isn't shipped blind.) Try raising pitch at the end of '?' lines in post-processing,
   or evaluate another free Urdu TTS (R7).

@@ -1,5 +1,6 @@
 "use client";
 import { audioKey, type Rate } from "@/content/audio-key";
+import type { TtsProvider } from "@/engine/hooks";
 import { getRecording } from "@/storage/db";
 
 /**
@@ -17,6 +18,9 @@ async function sha16(s: string): Promise<string> {
 export async function clipUrl(p: { urdu: string; tts?: string }, rate: Rate): Promise<string> {
   return `${BASE}/audio/${await sha16(audioKey(p, rate))}.mp3`;
 }
+
+/** The free tier's TTS: pre-generated Meta MMS clips, addressed by hash. */
+export const mmsProvider: TtsProvider = { id: "mms", clipFor: (p, rate) => clipUrl(p, rate) };
 
 let current: HTMLAudioElement | null = null;
 let currentUrl: string | null = null;
@@ -42,7 +46,7 @@ export async function playPhrase(
     url = URL.createObjectURL(rec.blob);
     source = "family";
   } else {
-    url = await clipUrl(p, speed === "slow" ? "slow" : "normal");
+    url = (await mmsProvider.clipFor(p, speed === "slow" ? "slow" : "normal")) ?? "";
   }
   const el = new Audio(url);
   if (speed === "aunty") {
