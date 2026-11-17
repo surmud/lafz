@@ -7,6 +7,7 @@ import { setSettings, useSettings, type ScriptMode, type Theme } from "@/lib/set
 import { useStore } from "@/lib/store";
 import { BackupError, exportBackup, importBackup } from "@/storage/db";
 import { BottomNav } from "./BottomNav";
+import { DinnerCard } from "./DinnerCard";
 import { useStreak } from "./StreakBadge";
 import { Button, Card, ProgressBar, TopBar } from "./ui";
 
@@ -74,6 +75,8 @@ export function MeView({ units }: { units: UnitMeta[] }) {
             ⏸️ {streak.pausesLeft} of {PAUSES_PER_WEEK} pause days left this week. Miss more and your streak just rests. It never resets.
           </p>
         </Card>
+
+        <DinnerCard />
 
         <section aria-labelledby="cando">
           <h2 id="cando" className="font-display text-xl font-bold">

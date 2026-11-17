@@ -36,6 +36,10 @@ test("Zero Zara: total beginner, Unit 1 lessons 1–3, then reading R1", async (
     await expect(page.getByText("New can-do unlocked")).toBeVisible();
   }
   await shot("after-unit1");
+  await page.goto("./me/");
+  await expect(page.getByRole("heading", { name: /5 phrases to try at dinner tonight/ })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Send to the family" })).toBeVisible();
+  await shot("dinner-card");
   await page.goto("./read/");
   await expect(page.getByText("How Urdu script works")).toBeVisible();
   await shot("read-tab");

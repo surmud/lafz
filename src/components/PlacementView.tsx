@@ -8,6 +8,7 @@ import { answerPlacement, nextQuestion, placementResult, startPlacement, type Pl
 import { applyPlacement } from "@/engine/progress";
 import { today, useStore } from "@/lib/store";
 import { ExerciseView } from "./exercises/Exercise";
+import { ReadingCheck } from "./ReadingCheck";
 import type { ExerciseResult } from "./exercises/types";
 import { Button, LinkButton, ProgressBar } from "./ui";
 
@@ -83,6 +84,7 @@ export function PlacementView({
             <p className="text-ink-soft">{u.tagline}</p>
           </div>
         ) : null}
+        <ReadingCheck readingUnits={units.filter((x) => x.track === "reading")} />
         <div className="mt-auto flex flex-col gap-3">
           <LinkButton href={u ? `/lesson/${u.lessons[0]?.id}/` : "/"} block>
             Start {u?.lessons[0]?.title ?? "learning"} →

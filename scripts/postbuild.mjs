@@ -45,6 +45,14 @@ for (const f of units) {
   fs.writeFileSync(path.join(OUT, "offline", `${u.id}.json`), JSON.stringify({ unit: u.id, audio: [...urls], pages }));
 }
 
+// Lightweight phrase index for client features that need the whole course (dinner card).
+const lite = [];
+for (const f of units) {
+  const u = JSON.parse(fs.readFileSync(path.join("content/units", f), "utf8"));
+  for (const p of u.phrases) if (!p.id.includes(".b.") && !p.id.includes(".l-")) lite.push({ id: p.id, roman: p.roman, urdu: p.urdu, en: p.en, ...(p.sense ? { sense: p.sense } : {}) });
+}
+fs.writeFileSync(path.join(OUT, "phrases.json"), JSON.stringify(lite));
+
 const tpl = fs.readFileSync("scripts/sw-template.js", "utf8");
 fs.writeFileSync(path.join(OUT, "sw.js"), tpl.replace("__VERSION__", version).replace("__SHELL__", JSON.stringify(shell)));
 console.log(`sw.js: ${shell.length} files precached (${(size / 1024).toFixed(0)} KB), version ${version}; ${units.length} offline unit lists`);

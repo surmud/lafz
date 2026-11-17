@@ -26,6 +26,10 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-17 (later): G13 scene-setting intros for each unit's warm-up. G14 Rekhta cross-check (no
+  corrections needed; two spelling variants logged). G16 "5 phrases to try at dinner tonight" card
+  (share or print). G17 reading placement after the speaking placement. G15 (prosody) stays parked
+  because it needs a human ear.
 - 2026-11-17: Eval pass 2 (docs/evals/2026-11-17-2.md): rubric up in R4, R7, R8, R9, R11; nothing
   went down. Fixed a brief default-name flash in boss intros, save-then-show progress ordering, and
   definition-style prompts in Mix it up. Filed G13–G15.

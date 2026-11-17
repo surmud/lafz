@@ -89,7 +89,12 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 
 - [x] **G13 Funnier Mix-it-up lessons.** Hand-write one situational joke prompt per unit's warm-up (R5).
 - [x] **G14 Rekhta spelling cross-check** for U1–U3 core phrases, by hand; log disagreements (R6).
-- [ ] **G15 Question intonation / prosody.** Try raising pitch at the end of '?' lines in post-processing,
+- [x] **G16 "5 phrases to try at dinner tonight" card** (SPEC §10, never built): picks recent phrases,
+  share via Web Share/WhatsApp, printable.
+- [x] **G17 Reading placement offer** (SPEC §11): after placement, a 3-question script check that
+  suggests a reading unit.
+- [ ] **G15 Question intonation / prosody.** (Needs a human ear: an automated pitch change can't be judged
+  by the current metrics, so it isn't shipped blind.) Try raising pitch at the end of '?' lines in post-processing,
   or evaluate another free Urdu TTS (R7).
 
 ## Phase F — Self-improvement (ongoing, forever)

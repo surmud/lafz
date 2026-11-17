@@ -30,6 +30,12 @@ test("placement → suggested unit → Unit 1 Lesson 1 complete", async ({ page 
     expect(q).toBeLessThan(10);
   }
   await shot("placement-result");
+  // Reading placement: two right, then "can't read it yet" → suggests R9.
+  await page.getByRole("button", { name: "Check my reading" }).click();
+  await page.locator("[data-correct='1']").first().click();
+  await page.locator("[data-correct='1']").first().click();
+  await page.getByRole("button", { name: /can't read it yet/ }).click();
+  await expect(page.getByRole("link", { name: /Start reading at R9/ })).toBeVisible();
   await expect(page.getByRole("heading", { name: /Start at Unit ([2-9]|1[0-2])$/ })).toBeVisible();
   // Skipped units stay open: go back and do Unit 1 Lesson 1 anyway.
   await page.getByRole("link", { name: "See the whole course" }).click();
