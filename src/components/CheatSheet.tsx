@@ -64,7 +64,7 @@ export function CheatSheet({
             ))}
           </tbody>
         </table>
-        <p className="text-xs text-ink-soft">Lafz · surmud.github.io/lafz · Audio: Meta MMS (CC-BY-NC)</p>
+        <p className="text-xs text-ink-soft">Lafz · surmud.github.io/lafz · Audio: Matcha-TTS Urdu (Apache-2.0)</p>
       </main>
     </>
   );

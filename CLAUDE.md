@@ -49,9 +49,9 @@ Never stop just because a phase is done. When the backlog runs dry, run evals, b
 - Next.js App Router + TypeScript (strict) + Tailwind, static export, `basePath: "/lafz"`, GitHub Pages.
 - No backend, no paid APIs, no secrets. Everything runs on the device (IndexedDB).
 - Business logic lives in `src/engine/` as pure TS with Vitest coverage. Components stay thin.
-- TTS: Meta MMS (`facebook/mms-tts-urd-script_arabic`) via `scripts/generate_audio.py`, generated
-  locally and committed, hash-cached. Use a Python venv in `.venv/` (gitignored). The model licence is
-  CC-BY-NC, so keep the adapter swappable and credit it in the app.
+- TTS: Matcha-TTS Urdu (`AhsanTalal/urdu-matcha-tts` male and `-female`, Apache-2.0) with the BSC Vocos
+  vocoder, via `scripts/generate_audio.py`: generated locally, Whisper-checked, committed, hash-cached.
+  Use a Python venv in `.venv/` (gitignored). Keep the adapter swappable and credit the voices in the app.
 - Self-host fonts (Noto Nastaliq Urdu). Put `lang="ur" dir="rtl"` on Urdu text.
 - Keep the deployed bundle lean. Lazy-load heavy things (Whisper, the audio for each unit).
 - Use current stable versions of dependencies. Check the docs when unsure. Don't guess at APIs.

@@ -5,6 +5,9 @@ import { ChoiceExercise } from "./Choice";
 import { GapExercise } from "./Gap";
 import { MatchExercise } from "./Match";
 import { RespectExercise } from "./Respect";
+import { SceneExercise } from "./Scene";
+import { SortExercise } from "./Sort";
+import { SpotExercise } from "./Spot";
 import { SpeakExercise } from "./Speak";
 import { TraceExercise } from "./Trace";
 import { TypeExercise } from "./TypeAnswer";
@@ -29,6 +32,12 @@ export function ExerciseView(props: ExerciseProps<Resolved>) {
       return <SpeakExercise {...props} ex={ex} />;
     case "trace":
       return <TraceExercise {...props} ex={ex} />;
+    case "scene":
+      return <SceneExercise {...props} ex={ex} />;
+    case "spot":
+      return <SpotExercise {...props} ex={ex} />;
+    case "sort":
+      return <SortExercise {...props} ex={ex} />;
   }
 }
 

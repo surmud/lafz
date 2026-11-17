@@ -66,7 +66,33 @@
     "بتاؤ": "بتانا",
     "چھوڑو": "چھوڑنا",
     "آمدید": "خوش آمدید",
-    "نکلے": "نکلنا"
+    "نکلے": "نکلنا",
+    "بلائیے": "بلانا",
+    "بلاتا": "بلانا",
+    "بچاؤ": "بچانا",
+    "سیکھ": "سیکھنا",
+    "لیجیے": "لینا",
+    "کہیے": "کہنا",
+    "آؤں": "آنا",
+    "بتایا": "بتانا",
+    "خانے": "خانہ",
+    "فرمائیے": "فرمانا",
+    "لائیے": "لانا",
+    "نکلتے": "نکلنا",
+    "پڑھتا": "پڑھنا",
+    "پیتے": "پینا",
+    "چھوڑیے": "چھوڑنا",
+    "اٹکا": "اٹکنا",
+    "نکلا": "نکلنا",
+    "پچھتائے": "پچھتانا",
+    "چگ": "چگنا",
+    "ڈانٹے": "ڈانٹنا",
+    "گئیں": "جانا",
+    "بڑھ": "بڑھنا",
+    "سمجھتے": "سمجھنا",
+    "منگواؤ": "منگوانا",
+    "پوچھ": "پوچھنا",
+    "ہمسائے": "ہمسایہ"
   },
   "words": {
     "علیکم": {
@@ -158,6 +184,102 @@
         "url": "https://rdict-dev.rekhta.org/meaning-of-mazedaar",
         "checked": "2026-11-17"
       }
+    ],
+    "u18.g1a": [
+      {
+        "ref": "rekhta",
+        "item": "Mirza Ghalib, couplets",
+        "url": "https://www.rekhta.org/poets/mirza-ghalib/couplets?lang=ur",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.g1b": [
+      {
+        "ref": "rekhta",
+        "item": "Mirza Ghalib, couplets",
+        "url": "https://www.rekhta.org/poets/mirza-ghalib/couplets?lang=ur",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.g2a": [
+      {
+        "ref": "rekhta",
+        "item": "Mirza Ghalib, couplets",
+        "url": "https://www.rekhta.org/poets/mirza-ghalib/couplets?lang=ur",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.g2b": [
+      {
+        "ref": "rekhta",
+        "item": "Mirza Ghalib, couplets",
+        "url": "https://www.rekhta.org/poets/mirza-ghalib/couplets?lang=ur",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.g3a": [
+      {
+        "ref": "rekhta",
+        "item": "Mirza Ghalib, couplets",
+        "url": "https://www.rekhta.org/poets/mirza-ghalib/couplets?lang=ur",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.g3b": [
+      {
+        "ref": "rekhta",
+        "item": "Mirza Ghalib, couplets",
+        "url": "https://www.rekhta.org/poets/mirza-ghalib/couplets?lang=ur",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.m1a": [
+      {
+        "ref": "rekhta",
+        "item": "Mir Taqi Mir, 'patta patta boota boota'",
+        "url": "https://www.rekhta.org/authors/meer-taqi-meer",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.m1b": [
+      {
+        "ref": "rekhta",
+        "item": "Mir Taqi Mir, 'patta patta boota boota'",
+        "url": "https://www.rekhta.org/authors/meer-taqi-meer",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.i1a": [
+      {
+        "ref": "rekhta",
+        "item": "Allama Iqbal, Bal-e-Jibreel",
+        "url": "https://rekhta.org/poets/allama-iqbal/profile?lang=ur",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.i1b": [
+      {
+        "ref": "rekhta",
+        "item": "Allama Iqbal, Bal-e-Jibreel",
+        "url": "https://rekhta.org/poets/allama-iqbal/profile?lang=ur",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.i2a": [
+      {
+        "ref": "rekhta",
+        "item": "Allama Iqbal, Bal-e-Jibreel",
+        "url": "https://rekhta.org/poets/allama-iqbal/profile?lang=ur",
+        "checked": "2026-11-18"
+      }
+    ],
+    "u18.i2b": [
+      {
+        "ref": "rekhta",
+        "item": "Allama Iqbal, Bal-e-Jibreel",
+        "url": "https://rekhta.org/poets/allama-iqbal/profile?lang=ur",
+        "checked": "2026-11-18"
+      }
     ]
   },
   "names": [
@@ -171,6 +293,8 @@
     "لاہور",
     "پاکستان",
     "ہاہاہا",
-    "ہاہا"
+    "ہاہا",
+    "غالب",
+    "اقبال"
   ]
 }

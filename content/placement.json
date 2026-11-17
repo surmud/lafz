@@ -584,5 +584,141 @@
       "phrase": "u12.phir-kya-hua",
       "prompt": "Type: “Then what happened?”"
     }
+  },
+  {
+    "id": "p13-0",
+    "level": 13,
+    "skill": "reply",
+    "exercise": {
+      "type": "say",
+      "phrase": "u13.kya-kehte",
+      "prompt": "You don't know the word for the thing you're holding. Ask.",
+      "distractors": [
+        "u13.matlab",
+        "u13.angrezi"
+      ]
+    }
+  },
+  {
+    "id": "p13-1",
+    "level": 13,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u13.samajh-nahin",
+      "prompt": "Type: “I didn't understand”"
+    }
+  },
+  {
+    "id": "p14-0",
+    "level": 14,
+    "skill": "register",
+    "exercise": {
+      "type": "mc",
+      "prompt": "A very formal host wants you to sit down. They say:",
+      "options": [
+        {
+          "phrase": "u14.tashreef-rakhiye"
+        },
+        {
+          "phrase": "u14.tashreef-laiye"
+        },
+        {
+          "phrase": "u14.nosh"
+        }
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": "p14-1",
+    "level": 14,
+    "skill": "meaning",
+    "exercise": {
+      "type": "meaning",
+      "phrase": "u14.ijazat"
+    }
+  },
+  {
+    "id": "p15-0",
+    "level": 15,
+    "skill": "reply",
+    "exercise": {
+      "type": "gap",
+      "phrase": "u15.kaash-wahan",
+      "word": {
+        "roman": "hota",
+        "urdu": "ہوتا"
+      },
+      "distractors": [
+        {
+          "roman": "hoon",
+          "urdu": "ہوں"
+        },
+        {
+          "roman": "hai",
+          "urdu": "ہے"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p15-1",
+    "level": 15,
+    "skill": "typing",
+    "exercise": {
+      "type": "type",
+      "phrase": "u15.chahiye-tha",
+      "prompt": "Type: “I should have come earlier”"
+    }
+  },
+  {
+    "id": "p16-0",
+    "level": 16,
+    "skill": "meaning",
+    "exercise": {
+      "type": "meaning",
+      "phrase": "u16.bawajood"
+    }
+  },
+  {
+    "id": "p16-1",
+    "level": 16,
+    "skill": "reply",
+    "exercise": {
+      "type": "mc",
+      "prompt": "“Woh ameer nahin, ___ bohat ameer hai.” (He's not rich; rather, he's very rich.)",
+      "options": [
+        {
+          "phrase": "u16.balke"
+        },
+        {
+          "phrase": "u16.halanke"
+        },
+        {
+          "phrase": "u16.is-liye"
+        }
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": "p17-0",
+    "level": 17,
+    "skill": "meaning",
+    "exercise": {
+      "type": "meaning",
+      "phrase": "u17.daal-kaala"
+    }
+  },
+  {
+    "id": "p17-1",
+    "level": 17,
+    "skill": "listening",
+    "exercise": {
+      "type": "listen",
+      "phrase": "u17.door-ke-dhol",
+      "speed": "normal"
+    }
   }
 ]

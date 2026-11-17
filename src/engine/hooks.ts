@@ -1,6 +1,6 @@
 /**
  * Future hooks (SPEC §11): interfaces only, so later tiers plug in without touching the app.
- * The free MVP implements `TtsProvider` with pre-generated MMS clips and `ConversationEngine` with
+ * The free MVP implements `TtsProvider` with pre-generated Matcha-TTS clips and `ConversationEngine` with
  * scripted graphs (src/engine/conversation.ts). Nothing here talks to a server.
  */
 import type { Phrase } from "@/content/schema";
@@ -8,11 +8,11 @@ import type { Progress } from "./progress";
 
 export type { ConversationEngine } from "./conversation";
 
-/** Where a phrase's audio comes from. MMS today; Azure ur-PK before any paid tier; family voice always wins. */
+/** Where a phrase's audio comes from. Pre-generated Matcha-TTS clips today; family voice always wins. */
 export interface TtsProvider {
-  readonly id: "mms" | "azure" | "browser";
+  readonly id: "matcha" | "azure" | "browser";
   /** URL (or blob URL) for a phrase at a given speed, or null if this provider can't voice it. */
-  clipFor(phrase: Pick<Phrase, "urdu" | "tts">, rate: "normal" | "slow"): Promise<string | null>;
+  clipFor(phrase: Pick<Phrase, "urdu" | "tts" | "speaker">, rate: "normal" | "slow"): Promise<string | null>;
 }
 
 /** Accounts and sync across devices. Not built: the MVP is device-only with export/import. */

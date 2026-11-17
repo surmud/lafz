@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Round-trip every normal-speed MMS clip through Whisper and compare with the source Nastaliq
+"""Round-trip every normal-speed clip through Whisper and compare with the source Nastaliq
 (docs/EVALS.md §3). Writes docs/audio-audit.json and prints the worst 5%.
 
   .venv/bin/python scripts/audio_audit.py [--model mlx-community/whisper-large-v3-turbo] [--sample N]
@@ -58,11 +58,15 @@ def main() -> int:
         if text in seen or ".l-" in p["id"]:
             continue  # single letter names are too short for a meaningful round-trip
         seen.add(text)
-        name = hashlib.sha256(f"mms-urd-3|normal|{text}".encode()).hexdigest()[:16] + ".mp3"
+        voice = "matcha-m1" if p.get("speaker") in ("bilal", "abbu", "pervez", "bashir") else "matcha-f1"
+        name = hashlib.sha256(f"{voice}|normal|{text}".encode()).hexdigest()[:16] + ".mp3"
         path = ROOT / "public/audio" / name
         if not path.exists():
             continue
         wave, sr = sf.read(path, dtype="float32")
+        if sr != 16000:
+            import librosa
+            wave = librosa.resample(wave, orig_sr=sr, target_sr=16000)
         heard = transcribe(wave.astype(np.float32)).strip()
         a, b = norm(text), norm(heard)
         sim = 1 - dist(a, b) / max(len(a), len(b), 1)

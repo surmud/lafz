@@ -34,6 +34,8 @@ export const PhraseSchema = z.strictObject({
   tts: z.string().optional(),
   /** Phrases sharing a sense ("greet", "bye", "thanks"…) are never used as each other's distractors. */
   sense: z.string().optional(),
+  /** A memory hook shown when the phrase is taught. */
+  hook: z.string().optional(),
   /** Character who typically says it (for avatars in exercises). */
   speaker: id.optional(),
 });
@@ -153,6 +155,57 @@ const TraceEx = z.strictObject({
   ...base,
 });
 
+/**
+ * Overhear a short exchange between characters, then answer a question about it. With `hideText`
+ * the lines are only heard until the learner answers (pure listening).
+ */
+const SceneEx = z.strictObject({
+  type: z.literal("scene"),
+  setup: z.string().optional(),
+  lines: z.array(z.strictObject({ speaker: id, phrase: id })).min(2).max(6),
+  question: z.string(),
+  options: z.array(z.strictObject({ text: z.string(), feedback: z.string().optional() })).min(2).max(4),
+  answer: z.number().int().min(0),
+  hideText: z.boolean().optional(),
+  explain: z.string().optional(),
+  ...base,
+});
+
+/** A sentence with one word swapped for a wrong one: tap the word that doesn't belong. */
+const SpotEx = z.strictObject({
+  type: z.literal("spot"),
+  /** The correct sentence. */
+  phrase: id,
+  /** The right word, as it appears in the sentence. */
+  word: TokenPairSchema,
+  /** The wrong word shown in its place. */
+  wrong: TokenPairSchema,
+  prompt: z.string().optional(),
+  explain: z.string(),
+  ...base,
+});
+
+/** Sort words or phrases into two or three buckets (tu / tum / aap, masculine / feminine…). */
+const SortEx = z.strictObject({
+  type: z.literal("sort"),
+  prompt: z.string(),
+  buckets: z.array(z.string()).min(2).max(3),
+  items: z
+    .array(z.strictObject({ phrase: id.optional(), text: z.string().optional(), bucket: z.number().int().min(0) }))
+    .min(4)
+    .max(8),
+  explain: z.string().optional(),
+  ...base,
+});
+
+/** Hear it, type it. No text is shown until the answer is checked. */
+const DictationEx = z.strictObject({
+  type: z.literal("dictation"),
+  phrase: id,
+  speed: z.enum(["normal", "aunty"]).default("normal"),
+  ...base,
+});
+
 export const ExerciseSchema = z.discriminatedUnion("type", [
   MeaningEx,
   SayEx,
@@ -165,6 +218,10 @@ export const ExerciseSchema = z.discriminatedUnion("type", [
   GapEx,
   SpeakEx,
   TraceEx,
+  SceneEx,
+  SpotEx,
+  SortEx,
+  DictationEx,
 ]);
 
 export const TeachCardSchema = z.strictObject({
@@ -236,6 +293,8 @@ export const ConversationSchema = z.strictObject({
 export const UnitSchema = z.strictObject({
   id,
   track: z.enum(["speaking", "reading"]),
+  /** "advanced" units sit in their own section after the core course. */
+  stage: z.enum(["core", "advanced"]).default("core"),
   order: z.number().int().min(1),
   title: z.string(),
   titleUrdu: urduText.optional(),
@@ -273,7 +332,7 @@ export const PackSchema = z.strictObject({
 
 export const PlacementQuestionSchema = z.strictObject({
   id,
-  level: z.number().int().min(1).max(12),
+  level: z.number().int().min(1).max(30),
   skill: z.enum(["listening", "reply", "register", "typing", "reading", "meaning"]),
   exercise: ExerciseSchema,
 });

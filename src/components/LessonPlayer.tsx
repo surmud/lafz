@@ -2,13 +2,15 @@
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Exercise, InfoCard, Phrase, TeachCard } from "@/content/schema";
-import { resolveExercise, targetsOf, type Resolved } from "@/engine/exercises";
+import { harden, resolveExercise, skillOf, targetsOf, type Resolved } from "@/engine/exercises";
+import { tallyAnswer, type SkillStats } from "@/engine/skills";
 import { completionLine, feedbackLine } from "@/engine/feedback";
 import { advance, createLesson, currentStep, isComeback, progress as lessonProgress, submit, type LessonState } from "@/engine/lesson";
 import { completeLesson } from "@/engine/progress";
 import type { XpBreakdown } from "@/engine/xp";
 import { blip, stopAudio } from "@/lib/audio";
 import { useSettings } from "@/lib/settings";
+import { track } from "@/lib/telemetry";
 import { today, useStore } from "@/lib/store";
 import { AskAmmiButton } from "./AskAmmi";
 import { ExerciseView, selfSubmitting } from "./exercises/Exercise";
@@ -36,7 +38,7 @@ export interface LessonPlayerProps {
 export function LessonPlayer(props: LessonPlayerProps) {
   const { lessonId, teach, exercises, phrases } = props;
   const { update } = useStore();
-  const { sound } = useSettings();
+  const { sound, hard } = useSettings();
   const byId = useMemo(() => new Map(phrases.map((p) => [p.id, p])), [phrases]);
   const pool = props.pool ?? phrases;
 
@@ -54,13 +56,17 @@ export function LessonPlayer(props: LessonPlayerProps) {
   const started = useRef(0);
   const practised = useRef(new Set<string>());
   const missed = useRef(new Set<string>());
+  const tally = useRef<SkillStats>({});
 
   const step = currentStep(state);
   const resolved: Resolved | null = useMemo(() => {
     if (!step || step.kind !== "exercise") return null;
     const ex = exercises[Number(step.id.slice(1))];
-    return ex ? resolveExercise(ex, `${lessonId}#${step.id}#${step.attempt}`, { phrases: byId, pool }) : null;
-  }, [step, exercises, lessonId, byId, pool]);
+    if (!ex) return null;
+    // Hard mode applies to speaking content only: single letters can't be typed in Roman.
+    const use = hard && !/^r\d/.test(lessonId) ? harden(ex) : ex;
+    return resolveExercise(use, `${lessonId}#${step.id}#${step.attempt}`, { phrases: byId, pool });
+  }, [step, exercises, lessonId, byId, pool, hard]);
 
   useEffect(() => {
     started.current = Date.now();
@@ -77,6 +83,7 @@ export function LessonPlayer(props: LessonPlayerProps) {
       missed: [...missed.current],
       seconds: (Date.now() - started.current) / 1000,
       today: today(),
+      tally: tally.current,
     };
     let xp: XpBreakdown = { base: 0, comeback: 0, total: 0 };
     await update((p) => {
@@ -84,6 +91,8 @@ export function LessonPlayer(props: LessonPlayerProps) {
       xp = r.xp;
       return r.progress;
     });
+    const answered = final.stats.firstTry + final.stats.mistakes;
+    track(props.kind, { id: lessonId, acc: answered ? Math.round((final.stats.firstTry / answered) * 100) / 100 : undefined, secs: Math.round(report.seconds) });
     setDone({ xp, practised: [...practised.current].map((id) => byId.get(id)).filter((p): p is Phrase => !!p) });
   };
 
@@ -94,6 +103,7 @@ export function LessonPlayer(props: LessonPlayerProps) {
       practised.current.add(id);
       if (outcome === "wrong") missed.current.add(id);
     }
+    tally.current = tallyAnswer(tally.current, skillOf(resolved), outcome !== "wrong");
     if (sound) blip(outcome === "wrong" ? "wrong" : "right");
     setResult(r);
     setState((s) => submit(s, outcome));

@@ -1923,6 +1923,134 @@
           "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%92#Urdu"
         }
       ]
+    },
+    {
+      "id": "u06.b.s-ammi-rok",
+      "roman": "Bhai, masjid ke paas rok dijiye",
+      "urdu": "بھائی، مسجد کے پاس روک دیجیے",
+      "en": "Brother, please stop near the mosque",
+      "confidence": "high",
+      "speaker": "ammi",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھائی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "مسجد",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%B3%D8%AC%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مسجد",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%AC%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پاس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پاس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D8%B3#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "روک",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%88%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "دینا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%8A%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دینا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%DB%8C%D9%86%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u06.b.s-pervez-do",
+      "roman": "Ji, bas do minute",
+      "urdu": "جی، بس دو منٹ",
+      "en": "Yes, just two minutes",
+      "confidence": "high",
+      "speaker": "pervez",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "جی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "جی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AC%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B3#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "منٹ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D9%86%D9%B9#Urdu"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -2083,7 +2211,7 @@
           "speed": "aunty"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u06.baayen",
           "speed": "aunty"
         },
@@ -2180,7 +2308,7 @@
           "prompt": "The most important question: where's the bathroom?"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u06.masjid-peeche",
           "speed": "normal"
         },
@@ -2250,7 +2378,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u06.aakhri-daam",
           "speed": "aunty"
         },
@@ -2321,7 +2449,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u06.bill",
           "speed": "normal"
         },
@@ -2378,6 +2506,35 @@
           "type": "say",
           "phrase": "u06.aaiye",
           "prompt": "What's the word for “Please come in”?"
+        },
+        {
+          "type": "scene",
+          "setup": "In Pervez's rickshaw.",
+          "lines": [
+            {
+              "speaker": "ammi",
+              "phrase": "u06.b.s-ammi-rok"
+            },
+            {
+              "speaker": "pervez",
+              "phrase": "u06.b.s-pervez-do"
+            }
+          ],
+          "question": "Where does Ammi want to stop?",
+          "options": [
+            {
+              "text": "Near the mosque"
+            },
+            {
+              "text": "At the bazaar",
+              "feedback": "She says masjid ke paas."
+            },
+            {
+              "text": "Right here",
+              "feedback": "In two minutes, near the mosque."
+            }
+          ],
+          "answer": 0
         },
         {
           "type": "type",

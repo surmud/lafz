@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { LessonPlayer } from "@/components/LessonPlayer";
 import { lessonUnit, pickPhrases, slim, units } from "@/content";
-import type { Exercise, Lesson } from "@/content/schema";
+import type { Lesson } from "@/content/schema";
+import { phraseRefs } from "@/engine/exercises";
 
 export const dynamicParams = false;
 
@@ -15,28 +16,10 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return { title: `${l?.title ?? "Lesson"} · Lafz` };
 }
 
-/** Phrase ids an authored exercise refers to. */
-function refs(ex: Exercise): string[] {
-  switch (ex.type) {
-    case "match":
-      return ex.phrases;
-    case "mc":
-      return [ex.show, ex.audio, ...ex.options.map((o) => o.phrase)].filter((x): x is string => Boolean(x));
-    case "respect":
-      return ex.options.map((o) => o.phrase);
-    case "say":
-      return [ex.phrase, ...(ex.distractors ?? [])];
-    case "trace":
-      return [];
-    default:
-      return [ex.phrase];
-  }
-}
-
 function lessonPhraseIds(l: Lesson): string[] {
   return [
     ...l.teach.flatMap((t) => ("phrase" in t ? [t.phrase] : (t.examples ?? []))),
-    ...l.exercises.flatMap(refs),
+    ...l.exercises.flatMap(phraseRefs),
   ];
 }
 

@@ -16,7 +16,8 @@ export function shooter(page: Page, persona: string, project: string) {
 export async function freshStart(page: Page, opts: { today?: string } = {}) {
   await page.addInitScript(() => {
     localStorage.setItem("lafz.e2e", "1");
-    localStorage.setItem("lafz.settings", JSON.stringify({ script: "both", sound: false }));
+    // Only on a fresh profile: later page loads must keep whatever the test changed (mode, hard mode).
+    if (!localStorage.getItem("lafz.settings")) localStorage.setItem("lafz.settings", JSON.stringify({ script: "both", sound: false }));
   });
   await page.goto(opts.today ? `./?today=${opts.today}` : "./");
 }
@@ -64,7 +65,17 @@ export async function answerStep(
   const bank = page.locator("[aria-label='Word bank'][data-expected]");
   const pairs = page.locator("main [data-pair][data-side='l']");
 
-  if ((await pickable.count()) > 0) {
+  const buckets = page.locator("main [data-bucket-target]");
+  if ((await buckets.count()) > 0) {
+    const n = await buckets.count();
+    for (;;) {
+      const item = page.locator("main [data-bucket]").first();
+      if ((await item.count()) === 0) break;
+      const b = Number(await item.getAttribute("data-bucket"));
+      await item.click();
+      await page.locator(`main [data-bucket-target='${right ? b : (b + 1) % n}']`).click();
+    }
+  } else if ((await pickable.count()) > 0) {
     await page.locator(`main [data-correct='${right ? 1 : 0}']`).first().click();
   } else if (await typeBox.isVisible()) {
     const expected = (await typeBox.getAttribute("data-expected")) ?? "";

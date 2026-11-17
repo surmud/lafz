@@ -77,6 +77,15 @@ export function MeView({ units }: { units: UnitMeta[] }) {
           </p>
         </Card>
 
+        <Link href="/insights/" className="flex items-center gap-3 rounded-3xl border-2 border-line bg-surface p-4 shadow-[0_3px_0_var(--line)]">
+          <span className="text-3xl" aria-hidden>
+            📊
+          </span>
+          <span>
+            <span className="block font-bold">Insights</span>
+            <span className="text-sm text-ink-soft">Your level, skills and the last two weeks</span>
+          </span>
+        </Link>
         <Link href="/phrasebook/" className="flex items-center gap-3 rounded-3xl border-2 border-line bg-surface p-4 shadow-[0_3px_0_var(--line)]">
           <span className="text-3xl" aria-hidden>
             📖
@@ -192,9 +201,9 @@ export function MeView({ units }: { units: UnitMeta[] }) {
             Credits
           </h2>
           <p>
-            Audio: Meta <strong>MMS-TTS</strong> (facebook/mms-tts-urd-script_arabic), licensed{" "}
-            <a className="underline" href="https://creativecommons.org/licenses/by-nc/4.0/">
-              CC-BY-NC 4.0
+            Voices: <strong>Matcha-TTS Urdu</strong> by Ahsan Talal (male and female) with the BSC Vocos vocoder, both{" "}
+            <a className="underline" href="https://www.apache.org/licenses/LICENSE-2.0">
+              Apache-2.0
             </a>
             . Generated offline.
           </p>

@@ -3,6 +3,8 @@ import { useSyncExternalStore } from "react";
 
 /** Small per-device preferences in localStorage. Progress lives in IndexedDB. */
 export type ScriptMode = "roman" | "both" | "urdu";
+/** The two halves of the app: speaking and listening, or reading the script. */
+export type Mode = "speak" | "read";
 export type Theme = "light" | "dark" | "system";
 
 export interface Settings {
@@ -10,10 +12,13 @@ export interface Settings {
   theme: Theme;
   sound: boolean;
   slowFirst: boolean;
+  mode: Mode;
+  /** Hard mode: type the answer instead of choosing it wherever that works. */
+  hard: boolean;
 }
 
 const KEY = "lafz.settings";
-const defaults: Settings = { script: "both", theme: "system", sound: true, slowFirst: false };
+const defaults: Settings = { script: "both", theme: "system", sound: true, slowFirst: false, mode: "speak", hard: false };
 
 let cache: Settings | null = null;
 const listeners = new Set<() => void>();

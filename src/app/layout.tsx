@@ -4,6 +4,7 @@ import "@fontsource/noto-nastaliq-urdu/400.css";
 import "@fontsource/noto-nastaliq-urdu/700.css";
 import "./globals.css";
 import { AppProviders } from "@/components/AppProviders";
+import { characters } from "@/content";
 
 export const metadata: Metadata = {
   title: "Lafz — Learn Urdu",
@@ -33,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className="bg-bg text-ink antialiased">
-        <AppProviders>{children}</AppProviders>
+        <AppProviders cast={characters().map(({ id, name, emoji, color }) => ({ id, name, emoji, color }))}>{children}</AppProviders>
       </body>
     </html>
   );

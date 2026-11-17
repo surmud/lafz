@@ -2697,6 +2697,140 @@
           "url": "https://en.wiktionary.org/wiki/%D8%B1%DB%81%D9%86%D8%A7#Urdu"
         }
       ]
+    },
+    {
+      "id": "u01.b.s-khala-salam",
+      "roman": "Assalam-o-alaikum, Ammi! Aap kaisi hain?",
+      "urdu": "السلام علیکم، امی! آپ کیسی ہیں؟",
+      "en": "Hello, Mum! How are you?",
+      "confidence": "high",
+      "speaker": "khala",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%84%D8%A7%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85#Urdu"
+        },
+        {
+          "ref": "rekhta",
+          "item": "alaikum (in assalam-o-alaikum)",
+          "checked": "2026-11-15",
+          "url": "https://rekhtadictionary.com/meaning-of-alaikum"
+        },
+        {
+          "ref": "platts",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "امی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%85%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%BE&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آپ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%BE#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کیسی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A%D8%B3%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%8C%DA%BA#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u01.b.s-nani-theek",
+      "roman": "Walaikum assalam. Main theek hoon, Alhamdulillah",
+      "urdu": "وعلیکم السلام۔ میں ٹھیک ہوں، الحمدللہ",
+      "en": "Hello. I'm fine, thank God",
+      "confidence": "high",
+      "speaker": "nani",
+      "sources": [
+        {
+          "ref": "rekhta",
+          "item": "vaalaikum assalaam",
+          "checked": "2026-11-15",
+          "url": "https://rekhtadictionary.com/meaning-of-vaalaikum-assalaam"
+        },
+        {
+          "ref": "platts",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%84%D8%A7%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ٹھیک",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%B9%DA%BE%DB%8C%DA%A9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88%DA%BA#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "الحمد للہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%84%D8%AD%D9%85%D8%AF%20%D9%84%D9%84%DB%81#Urdu"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -2859,8 +2993,9 @@
           "explain": "Abbu is a man, so kaise."
         },
         {
-          "type": "listen",
-          "phrase": "u01.main-theek-hoon"
+          "type": "dictation",
+          "phrase": "u01.main-theek-hoon",
+          "speed": "normal"
         },
         {
           "type": "gap",
@@ -3104,7 +3239,7 @@
           "prompt": "Now ask your friend's dad the same thing. Respectfully."
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u01.tum-kaise-ho",
           "speed": "aunty"
         }
@@ -3161,8 +3296,9 @@
           "explain": "'Haan' alone is fine with friends. With Abbu, add ji."
         },
         {
-          "type": "listen",
-          "phrase": "u01.koi-baat-nahin"
+          "type": "dictation",
+          "phrase": "u01.koi-baat-nahin",
+          "speed": "normal"
         },
         {
           "type": "match",
@@ -3321,8 +3457,9 @@
           "explain": "For a man you respect it's mere (the respectful plural), not mera."
         },
         {
-          "type": "listen",
-          "phrase": "u01.mil-kar-khushi"
+          "type": "dictation",
+          "phrase": "u01.mil-kar-khushi",
+          "speed": "normal"
         },
         {
           "type": "type",
@@ -3457,7 +3594,7 @@
           "prompt": "Type: “See you again”"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u01.apna-khayal",
           "speed": "aunty"
         },
@@ -3489,6 +3626,35 @@
           "type": "say",
           "phrase": "u01.salam",
           "prompt": "What's the word for “Hello”?"
+        },
+        {
+          "type": "scene",
+          "setup": "Khala rings her own mother's doorbell.",
+          "lines": [
+            {
+              "speaker": "khala",
+              "phrase": "u01.b.s-khala-salam"
+            },
+            {
+              "speaker": "nani",
+              "phrase": "u01.b.s-nani-theek"
+            }
+          ],
+          "question": "How is Nani?",
+          "options": [
+            {
+              "text": "Fine, thank God"
+            },
+            {
+              "text": "Tired",
+              "feedback": "She says theek: fine."
+            },
+            {
+              "text": "She doesn't say",
+              "feedback": "She does: main theek hoon."
+            }
+          ],
+          "answer": 0
         },
         {
           "type": "type",

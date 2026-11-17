@@ -56,3 +56,12 @@ export function buildReviewSession(deck: ReviewDeck, today: string, size = 10): 
     .map(([id]) => id);
   return [...due, ...rest].slice(0, size);
 }
+
+/** The phrases missed most often (and still in a low box): the "trouble words" session. */
+export function troubleItems(deck: ReviewDeck, size = 10): string[] {
+  return Object.entries(deck)
+    .filter(([, item]) => item.lapses > 0)
+    .sort(([aId, a], [bId, b]) => b.lapses - a.lapses || a.box - b.box || aId.localeCompare(bId))
+    .slice(0, size)
+    .map(([id]) => id);
+}

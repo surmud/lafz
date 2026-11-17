@@ -2551,6 +2551,134 @@
           "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%B1%D9%88#Urdu"
         }
       ]
+    },
+    {
+      "id": "u08.b.s-abbu-sar",
+      "roman": "Mere sar mein dard hai",
+      "urdu": "میرے سر میں درد ہے",
+      "en": "I've got a headache",
+      "confidence": "high",
+      "speaker": "abbu",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میرے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میرا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "سر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "درد",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D8%B1%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "درد",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%B1%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u08.b.s-ammi-chai",
+      "roman": "Chai kam piyo, paani zyada",
+      "urdu": "چائے کم پیو، پانی زیادہ",
+      "en": "Drink less tea, more water",
+      "confidence": "high",
+      "speaker": "ammi",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "چائے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%86%D8%A7%D8%A6%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کم",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کم",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%85#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پیو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%8A%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "زیادہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B2%D9%8A%D8%A7%D8%AF%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "زیادہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B2%DB%8C%D8%A7%D8%AF%DB%81#Urdu"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -2596,7 +2724,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u08.pait-dard",
           "speed": "aunty"
         },
@@ -2694,7 +2822,7 @@
           "explain": "a woman speaking → gayi"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u08.neend",
           "speed": "aunty"
         },
@@ -2764,7 +2892,7 @@
           "phrase": "u08.nazar"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u08.haldi-doodh",
           "speed": "normal"
         },
@@ -2850,7 +2978,7 @@
           "explain": "a man speaking → sakta"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u08.mote",
           "speed": "aunty"
         },
@@ -2905,6 +3033,35 @@
           "type": "say",
           "phrase": "u08.beemar",
           "prompt": "Khala is on the phone. Say: “I'm sick”"
+        },
+        {
+          "type": "scene",
+          "setup": "Abbu is on his fifth cup of the day.",
+          "lines": [
+            {
+              "speaker": "abbu",
+              "phrase": "u08.b.s-abbu-sar"
+            },
+            {
+              "speaker": "ammi",
+              "phrase": "u08.b.s-ammi-chai"
+            }
+          ],
+          "question": "What does Ammi advise?",
+          "options": [
+            {
+              "text": "Less tea, more water"
+            },
+            {
+              "text": "See a doctor",
+              "feedback": "Bilal is spared this time."
+            },
+            {
+              "text": "Go to sleep",
+              "feedback": "kam chai, zyada paani."
+            }
+          ],
+          "answer": 0
         },
         {
           "type": "type",

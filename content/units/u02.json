@@ -2842,6 +2842,122 @@
           "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D9%81%D8%B8#Urdu"
         }
       ]
+    },
+    {
+      "id": "u02.b.s-butt-kaun",
+      "roman": "Yeh kaun hai?",
+      "urdu": "یہ کون ہے؟",
+      "en": "Who is this?",
+      "confidence": "high",
+      "speaker": "mrs-butt",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "یہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%8C%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کون",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%88%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کون",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%88%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u02.b.s-khala-behen",
+      "roman": "Yeh meri behen ka beta hai",
+      "urdu": "یہ میری بہن کا بیٹا ہے",
+      "en": "This is my sister's son",
+      "confidence": "high",
+      "speaker": "khala",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "یہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%8C%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B1%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میری",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہن",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -3450,7 +3566,7 @@
           "explain": "one sister → hai"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u02.woh-kaun-hain",
           "speed": "aunty"
         },
@@ -3540,8 +3656,9 @@
           ]
         },
         {
-          "type": "listen",
-          "phrase": "u02.woh-doctor"
+          "type": "dictation",
+          "phrase": "u02.woh-doctor",
+          "speed": "normal"
         },
         {
           "type": "say",
@@ -3610,6 +3727,35 @@
           "type": "say",
           "phrase": "u02.ammi",
           "prompt": "What's the word for “Mum”?"
+        },
+        {
+          "type": "scene",
+          "setup": "A wedding. Mrs. Butt has spotted someone she can't place.",
+          "lines": [
+            {
+              "speaker": "mrs-butt",
+              "phrase": "u02.b.s-butt-kaun"
+            },
+            {
+              "speaker": "khala",
+              "phrase": "u02.b.s-khala-behen"
+            }
+          ],
+          "question": "Who is Khala introducing?",
+          "options": [
+            {
+              "text": "Her nephew"
+            },
+            {
+              "text": "Her own son",
+              "feedback": "behen ka beta: her sister's son."
+            },
+            {
+              "text": "Her brother",
+              "feedback": "beta is son. Brother would be bhai."
+            }
+          ],
+          "answer": 0
         },
         {
           "type": "type",

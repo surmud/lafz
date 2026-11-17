@@ -67,6 +67,7 @@ export function courseMeta(): UnitMeta[] {
   return units().map((u) => ({
     id: u.id,
     track: u.track,
+    stage: u.stage,
     order: u.order,
     title: u.title,
     titleUrdu: u.titleUrdu,

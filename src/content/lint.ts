@@ -106,6 +106,12 @@ export function lintContent(root: string, opts: { requireAudio?: boolean } = {})
   const charIds = new Set(characters.map((c) => c.id));
   for (const u of units) {
     if (u.boss && !charIds.has(u.boss.character)) problems.push(`${u.boss.id}: unknown character "${u.boss.character}"`);
+    for (const l of u.lessons) {
+      for (const ex of l.exercises) {
+        if (ex.type !== "scene") continue;
+        for (const line of ex.lines) if (!charIds.has(line.speaker)) problems.push(`${l.id}: scene uses unknown speaker "${line.speaker}"`);
+      }
+    }
     for (const n of Object.values(u.boss?.nodes ?? {})) {
       if (n.type === "npc" && !charIds.has(n.speaker)) problems.push(`${u.boss?.id}: unknown speaker "${n.speaker}"`);
     }
@@ -132,9 +138,22 @@ export function lintContent(root: string, opts: { requireAudio?: boolean } = {})
   let missingAudio = 0;
   if (fs.existsSync(manifestFile)) {
     const manifest = readJson(manifestFile) as Record<string, unknown>;
-    for (const p of phrases.values()) {
+    const need = (p: { urdu: string; tts?: string }, speaker?: string) => {
       for (const rate of ["normal", "slow"] as const) {
-        if (!manifest[audioKey(p, rate)]) missingAudio++;
+        if (!manifest[audioKey({ ...p, speaker }, rate)]) missingAudio++;
+      }
+    };
+    for (const p of phrases.values()) need(p, p.speaker);
+    // Scene lines are voiced by whoever says them, which may differ from the phrase's own speaker.
+    for (const u of units) {
+      for (const l of u.lessons) {
+        for (const ex of l.exercises) {
+          if (ex.type !== "scene") continue;
+          for (const line of ex.lines) {
+            const p = phrases.get(line.phrase);
+            if (p) need(p, line.speaker);
+          }
+        }
       }
     }
     if (missingAudio > 0) problems.push(`${missingAudio} audio clip(s) missing: run python scripts/generate_audio.py`);

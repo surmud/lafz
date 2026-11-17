@@ -1,6 +1,10 @@
 # Progress
 
-## Status (2026-11-16, end of day)
+## Status (2026-11-18)
+v2 is live: 19 speaking units (13 core + 6 advanced), 10 reading units, Speak/Read modes, Practice hub,
+Insights, Matcha voices. The v1 status below is kept for history; numbers there are v1's.
+
+## v1 status (2026-11-16, end of day)
 **The full course is live at https://surmud.github.io/lafz/** and CI is green on `main`.
 
 What's built:
@@ -26,6 +30,29 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-18 (overnight, v2): Checkpoint tagged `v1.0`. Then, from the founder's brief:
+  - **Speak / Read modes**: a toggle on home switches between the speaking and reading courses. The
+    Read tab became **Practice** (review, trouble words, listening mode, "How do I say…?", phrasebook,
+    grammar guide, alphabet, hard mode).
+  - **New lesson formats** (not Duolingo's): *overheard scenes* (characters talk; answer a question,
+    sometimes audio-only), *spot the mistake*, *sort into buckets* (tu/aap, man/woman speaker, formal
+    vs everyday), *dictation*. Retrofitted into units 1–12 (a scene in every Mix it up, ~48 dictations).
+  - **New content**: Unit 13 Survival Kit (repair phrases, emergencies, lost/broke, pharmacy) and an
+    **Advanced course**: 14 Formal Urdu, 15 If/Wish/Maybe, 16 Opinions, 17 Idioms & Proverbs, 18
+    Poetry (Ghalib, Iqbal, Mir couplets, cited to Rekhta), 19 The News. 328 new phrases, 7 bosses.
+  - **Placement reaches advanced**: a perfect run continues past 7 questions (bonus round) and can
+    suggest the advanced course.
+  - **Better voices**: switched from Meta MMS to Matcha-TTS Urdu (Apache-2.0), male and female voices
+    by character, Whisper-checked takes. Sentence round-trip 0.84 → 0.94 (docs/evals/2026-11-18-voice.md).
+  - **Insights** (Me → Insights): estimated level band (CEFR-ish), accuracy per skill (listening,
+    speaking, recall, recognition, reading, grammar), 14-day activity, phrases met/solid.
+  - **User-base analytics**, opt-in and off by default: snapshot + events to a self-hosted endpoint,
+    Cloudflare Worker sample, `scripts/telemetry_report.py` (levels, skills, funnel, retention, worst
+    lessons). **Needs founder**: a free Cloudflare account to switch on (docs/TELEMETRY.md).
+  - **On-device AI**: "How do I say…?" finds phrases by meaning with MiniLM embeddings
+    (precomputed at build, query embedded on the phone via transformers.js, 23 MB on request).
+  - Duolingo pain points addressed: hard mode (type, don't tap), trouble-words practice, hands-free
+    listening mode, a real grammar guide, no energy/hearts (still none).
 - 2026-11-17 (night): Printable cheat sheet per speaking unit (G25). Backlog is clear apart from G15
   (prosody), which needs a human ear.
 - 2026-11-17 (evening): Phrasebook (G23), boss-win sharing (G24), Ask Ammi with your own recording

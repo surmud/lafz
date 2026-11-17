@@ -54,6 +54,41 @@ export interface ResolvedType {
   phrase: Phrase;
   accept: string[];
   reject: string[];
+  /** Dictation: the phrase is only heard, at this speed. */
+  dictation?: "normal" | "aunty";
+}
+
+export interface ResolvedScene {
+  type: "scene";
+  id: string;
+  setup?: string;
+  lines: { speaker: string; phrase: Phrase }[];
+  question: string;
+  options: { key: string; text: string; feedback?: string }[];
+  answerKey: string;
+  hideText: boolean;
+  explain?: string;
+}
+
+export interface ResolvedSpot {
+  type: "spot";
+  id: string;
+  prompt: string;
+  phrase: Phrase;
+  /** The sentence as shown (with the wrong word), per script. `wrong` marks the planted word. */
+  tokens: Record<Script, { key: string; text: string; wrong: boolean }[]>;
+  word: TokenPair;
+  wrong: TokenPair;
+  explain: string;
+}
+
+export interface ResolvedSort {
+  type: "sort";
+  id: string;
+  prompt: string;
+  buckets: string[];
+  items: { key: string; phrase?: Phrase; text?: string; bucket: number }[];
+  explain?: string;
 }
 
 export interface Tile {
@@ -111,7 +146,10 @@ export type Resolved =
   | ResolvedRespect
   | ResolvedGap
   | ResolvedSpeak
-  | ResolvedTrace;
+  | ResolvedTrace
+  | ResolvedScene
+  | ResolvedSpot
+  | ResolvedSort;
 
 export interface ResolveContext {
   /** All phrases that may be referenced, by id. */
@@ -323,7 +361,96 @@ export function resolveExercise(ex: Exercise, exId: string, ctx: ResolveContext)
       return { type: "speak", id: exId, phrase: need(ctx, ex.phrase) };
     case "trace":
       return { type: "trace", id: exId, glyph: ex.glyph, label: ex.label };
+    case "dictation": {
+      const phrase = need(ctx, ex.phrase);
+      return {
+        type: "type",
+        id: exId,
+        prompt: ex.speed === "aunty" ? "Aunty speed. Type what she said." : "Type what you hear",
+        phrase,
+        accept: phrase.accept ?? [],
+        reject: [],
+        dictation: ex.speed,
+      };
+    }
+    case "scene": {
+      if (ex.answer >= ex.options.length) throw new ContentError(`${exId}: answer index out of range`);
+      return {
+        type: "scene",
+        id: exId,
+        setup: ex.setup,
+        lines: ex.lines.map((l) => ({ speaker: l.speaker, phrase: need(ctx, l.phrase) })),
+        question: ex.question,
+        options: shuffle(withKeys(ex.options, "o"), rng),
+        answerKey: `o${ex.answer}`,
+        hideText: ex.hideText ?? false,
+        explain: ex.explain,
+      };
+    }
+    case "spot": {
+      const phrase = need(ctx, ex.phrase);
+      const plant = (sentence: string, right: string, wrong: string, prefix: string) => {
+        const words = stripPunct(sentence).split(" ");
+        const i = words.findIndex((w) => w.toLowerCase() === right.toLowerCase());
+        if (i < 0) throw new ContentError(`${exId}: spot word "${right}" is not in "${sentence}"`);
+        return words.map((w, j) => ({ key: `${prefix}${j}`, text: j === i ? wrong : w, wrong: j === i }));
+      };
+      if (normalise(ex.word.roman) === normalise(ex.wrong.roman)) throw new ContentError(`${exId}: spot wrong word equals the right one`);
+      return {
+        type: "spot",
+        id: exId,
+        prompt: ex.prompt ?? "One word is wrong. Tap it.",
+        phrase,
+        tokens: { roman: plant(phrase.roman, ex.word.roman, ex.wrong.roman, "r"), urdu: plant(phrase.urdu, ex.word.urdu, ex.wrong.urdu, "u") },
+        word: ex.word,
+        wrong: ex.wrong,
+        explain: ex.explain,
+      };
+    }
+    case "sort": {
+      const items = ex.items.map((it) => {
+        if (it.bucket >= ex.buckets.length) throw new ContentError(`${exId}: sort bucket out of range`);
+        if (!it.phrase && !it.text) throw new ContentError(`${exId}: sort item needs a phrase or text`);
+        return { phrase: it.phrase ? need(ctx, it.phrase) : undefined, text: it.text, bucket: it.bucket };
+      });
+      for (let b = 0; b < ex.buckets.length; b++) {
+        if (!items.some((it) => it.bucket === b)) throw new ContentError(`${exId}: sort bucket "${ex.buckets[b]}" is empty`);
+      }
+      return { type: "sort", id: exId, prompt: ex.prompt, buckets: ex.buckets, items: shuffle(withKeys(items, "i"), rng), explain: ex.explain };
+    }
   }
+}
+
+/** Phrase ids an authored exercise refers to (for shipping only what a page needs). */
+export function phraseRefs(ex: Exercise): string[] {
+  switch (ex.type) {
+    case "match":
+      return ex.phrases;
+    case "mc":
+      return [ex.show, ex.audio, ...ex.options.map((o) => o.phrase)].filter((x): x is string => Boolean(x));
+    case "respect":
+      return ex.options.map((o) => o.phrase);
+    case "say":
+      return [ex.phrase, ...(ex.distractors ?? [])];
+    case "trace":
+      return [];
+    case "scene":
+      return ex.lines.map((l) => l.phrase);
+    case "sort":
+      return ex.items.map((i) => i.phrase).filter((x): x is string => Boolean(x));
+    default:
+      return [ex.phrase];
+  }
+}
+
+export function checkSpot(ex: ResolvedSpot, key: string, script: Script): Verdict {
+  return ex.tokens[script].find((t) => t.key === key)?.wrong ? "correct" : "wrong";
+}
+
+/** All items in the right bucket is correct; exactly one misplaced is "almost". */
+export function checkSort(ex: ResolvedSort, placed: Readonly<Record<string, number>>): { verdict: Verdict; wrong: string[] } {
+  const wrong = ex.items.filter((it) => placed[it.key] !== it.bucket).map((it) => it.key);
+  return { verdict: wrong.length === 0 ? "correct" : "wrong", wrong };
 }
 
 /** Split a sentence around the first whole-word occurrence of `word`. */
@@ -336,9 +463,16 @@ export function splitAround(sentence: string, word: string, where = ""): [string
   return [tokens.slice(0, i).join(" "), [tail, ...tokens.slice(i + 1)].join(" ").replace(/^ (?=\S)/, "")];
 }
 
+/** Hard mode: swap recognition for production (type instead of pick, dictation instead of listen-and-pick). */
+export function harden(ex: Exercise): Exercise {
+  if (ex.type === "say") return { type: "type", phrase: ex.phrase, ...(ex.prompt ? { prompt: ex.prompt } : {}) };
+  if (ex.type === "listen") return { type: "dictation", phrase: ex.phrase, speed: ex.speed };
+  return ex;
+}
+
 export type Verdict = "correct" | "almost" | "wrong";
 
-export function checkChoice(ex: ResolvedChoice | ResolvedGap, key: string): Verdict {
+export function checkChoice(ex: ResolvedChoice | ResolvedGap | ResolvedScene, key: string): Verdict {
   return key === ex.answerKey ? "correct" : "wrong";
 }
 
@@ -374,8 +508,40 @@ export function targetsOf(ex: Resolved): string[] {
       return ex.options.filter((o) => o.verdict === "right").map((o) => o.phrase.id);
     case "trace":
       return [];
+    case "scene":
+      return ex.lines.map((l) => l.phrase.id);
+    case "sort":
+      return ex.items.flatMap((i) => (i.phrase ? [i.phrase.id] : []));
     default:
       return [ex.phrase.id];
+  }
+}
+
+export type Skill = "listening" | "speaking" | "recall" | "recognition" | "reading" | "grammar";
+
+/** Which skill an exercise mostly trains, for the skill model (engine/skills.ts). */
+export function skillOf(ex: Resolved): Skill {
+  switch (ex.type) {
+    case "choice":
+      if (ex.flavour === "listen") return "listening";
+      return ex.urduOnly || ex.glyph || ex.options.some((o) => o.glyph) ? "reading" : "recognition";
+    case "match":
+      return ex.mode === "audio" ? "listening" : "recognition";
+    case "type":
+      return ex.dictation ? "listening" : "recall";
+    case "build":
+      return "recall";
+    case "respect":
+    case "gap":
+    case "spot":
+    case "sort":
+      return "grammar";
+    case "speak":
+      return "speaking";
+    case "trace":
+      return "reading";
+    case "scene":
+      return "listening";
   }
 }
 

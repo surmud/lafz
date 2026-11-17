@@ -87,6 +87,28 @@ describe("placement", () => {
     s = answerPlacement(s, { id: "d", level: 6 }, true);
     expect(placementResult(s)).toEqual({ unit: 5, correct: 2, total: 4 });
   });
+  test("a perfect run keeps climbing into the advanced course, one unit at a time", () => {
+    const big = Array.from({ length: 17 }, (_, i) => ({ id: `q${i + 1}`, level: i + 1 }));
+    let s = startPlacement();
+    while (!s.done) {
+      const q = nextQuestion(s, big);
+      if (!q) break;
+      s = answerPlacement(s, q, true, 7, 17);
+    }
+    expect(s.answers.map((a) => a.level)).toEqual([2, 4, 6, 8, 10, 12, 13, 14, 15, 16, 17]);
+    expect(placementResult(s, 17).unit).toBe(17);
+    // A miss in the bonus stretch ends it there.
+    let t = startPlacement();
+    for (const level of [2, 4, 6, 8, 10, 12, 13]) t = answerPlacement(t, { id: `x${level}`, level }, true, 7, 17);
+    expect(t.done).toBe(false);
+    t = answerPlacement(t, { id: "x14", level: 14 }, false, 7, 17);
+    expect(t.done).toBe(true);
+    expect(placementResult(t, 17).unit).toBe(14);
+    // Without advanced questions the old seven-question limit holds.
+    let o = startPlacement();
+    for (const level of [2, 4, 6, 8, 10, 12, 12]) o = answerPlacement(o, { id: `o${level}${o.answers.length}`, level }, true);
+    expect(o.done).toBe(true);
+  });
   test("answers after done are ignored, ties prefer the easier question, empty pool is null", () => {
     let s = startPlacement(5);
     expect(nextQuestion(s, [{ id: "hi", level: 6 }, { id: "lo", level: 4 }])?.id).toBe("lo");

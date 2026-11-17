@@ -1,5 +1,6 @@
 import type { LessonStats } from "./lesson";
 import { introduce, recordReview, type ReviewDeck } from "./review";
+import { addTally, recordDay, type DayStat, type SkillStats } from "./skills";
 import { emptyStreak, recordPractice, type StreakState } from "./streak";
 import { lessonXp, type XpBreakdown } from "./xp";
 
@@ -25,6 +26,10 @@ export interface Progress {
   askedFamily: number;
   /** Seconds spent in lessons and conversations. */
   seconds: number;
+  /** Answers checked, by the skill they train (engine/skills.ts). */
+  skills: SkillStats;
+  /** Activity by local day, for the last few months. */
+  days: Record<string, DayStat>;
 }
 
 export interface Completion {
@@ -45,6 +50,8 @@ export const emptyProgress: Progress = {
   review: {},
   askedFamily: 0,
   seconds: 0,
+  skills: {},
+  days: {},
 };
 
 function complete(prev: Completion | undefined, today: string): Completion {
@@ -61,6 +68,8 @@ export interface LessonReport {
   missed: readonly string[];
   seconds: number;
   today: string;
+  /** Answers checked in this session, by skill. */
+  tally?: SkillStats;
 }
 
 export function completeLesson(p: Progress, r: LessonReport): { progress: Progress; xp: XpBreakdown } {
@@ -80,6 +89,8 @@ export function completeLesson(p: Progress, r: LessonReport): { progress: Progre
       lessons: { ...p.lessons, [r.lessonId]: complete(p.lessons[r.lessonId], r.today) },
       review,
       seconds: p.seconds + Math.max(0, Math.round(r.seconds)),
+      skills: addTally(p.skills, r.tally ?? {}),
+      days: recordDay(p.days, r.today, { tally: r.tally, seconds: r.seconds }),
     },
   };
 }
@@ -110,6 +121,7 @@ export function completeBoss(p: Progress, r: BossReport): { progress: Progress; 
         },
       },
       seconds: p.seconds + Math.max(0, Math.round(r.seconds)),
+      days: recordDay(p.days, r.today, { seconds: r.seconds }),
     },
   };
 }
@@ -146,5 +158,7 @@ export function migrate(raw: unknown): Progress {
     bosses: r.bosses ?? {},
     skipped: Array.isArray(r.skipped) ? r.skipped : [],
     review: r.review ?? {},
+    skills: r.skills ?? {},
+    days: r.days ?? {},
   };
 }

@@ -2557,6 +2557,150 @@
           "url": "https://en.wiktionary.org/wiki/%D8%B1%DB%81%D9%86%D8%A7#Urdu"
         }
       ]
+    },
+    {
+      "id": "u03.b.s-nani-aur",
+      "roman": "Aur lo, Bilal",
+      "urdu": "اور لو، بلال",
+      "en": "Have some more, Bilal",
+      "confidence": "high",
+      "speaker": "nani",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "اور",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%88%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اور",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%88%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "لو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%D9%88&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "u03.b.s-bilal-bas",
+      "roman": "Bas, Nani. Pait bhar gaya",
+      "urdu": "بس، نانی۔ پیٹ بھر گیا",
+      "en": "Enough, Nani. I'm full",
+      "confidence": "high",
+      "speaker": "bilal",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "بس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B3#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%86%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پیٹ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%8A%D9%B9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پیٹ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%DB%8C%D9%B9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "گیا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گیا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%DB%8C%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u03.b.s-nani-roti",
+      "roman": "Ek roti aur lo",
+      "urdu": "ایک روٹی اور لو",
+      "en": "Have one more roti",
+      "confidence": "high",
+      "speaker": "nani",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ایک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%8A%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ایک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DB%8C%DA%A9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "روٹی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%88%D9%B9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "روٹی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D9%B9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اور",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%88%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اور",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%88%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "لو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%D9%88&searchhws=yes&matchtype=exact"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -2642,7 +2786,7 @@
           "prompt": "Type the word for flatbread"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u03.khana-lag-gaya",
           "speed": "aunty"
         },
@@ -2710,7 +2854,7 @@
           "phrase": "u03.pait-bhar-gaya"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u03.aur-lo",
           "speed": "aunty"
         },
@@ -2811,7 +2955,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u03.maza-aa-gaya",
           "speed": "normal"
         },
@@ -2912,7 +3056,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u03.chai-piyenge",
           "speed": "normal"
         },
@@ -3067,7 +3211,7 @@
           "prompt": "Type: “I like biryani”"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u03.mirch-pasand-nahin",
           "speed": "aunty"
         },
@@ -3102,7 +3246,7 @@
           "phrase": "u03.thanda-ho-raha"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u03.garam-garam",
           "speed": "normal"
         },
@@ -3170,6 +3314,40 @@
           "type": "say",
           "phrase": "u03.khana-lag-gaya",
           "prompt": "Khala is on the phone. Say: “Food's on the table”"
+        },
+        {
+          "type": "scene",
+          "setup": "Lunch at Nani's. Bilal is on his third plate.",
+          "lines": [
+            {
+              "speaker": "nani",
+              "phrase": "u03.b.s-nani-aur"
+            },
+            {
+              "speaker": "bilal",
+              "phrase": "u03.b.s-bilal-bas"
+            },
+            {
+              "speaker": "nani",
+              "phrase": "u03.b.s-nani-roti"
+            }
+          ],
+          "question": "Does Nani accept that Bilal is full?",
+          "options": [
+            {
+              "text": "No. She offers another roti"
+            },
+            {
+              "text": "Yes, she clears the plates",
+              "feedback": "This is Nani. Nobody is ever full."
+            },
+            {
+              "text": "She brings chai instead",
+              "feedback": "Not yet. First, one more roti."
+            }
+          ],
+          "answer": 0,
+          "hideText": true
         },
         {
           "type": "type",

@@ -7,6 +7,7 @@ import { resolveExercise, type Resolved } from "@/engine/exercises";
 import { answerPlacement, nextQuestion, placementResult, startPlacement, type PlacementState } from "@/engine/placement";
 import { applyPlacement } from "@/engine/progress";
 import { today, useStore } from "@/lib/store";
+import { track } from "@/lib/telemetry";
 import { ExerciseView } from "./exercises/Exercise";
 import { ReadingCheck } from "./ReadingCheck";
 import type { ExerciseResult } from "./exercises/types";
@@ -34,7 +35,12 @@ export function PlacementView({
 }) {
   const { update } = useStore();
   const byId = useMemo(() => new Map(phrases.map((p) => [p.id, p])), [phrases]);
-  const maxUnit = speakingUnitIds.length;
+  // Placement can suggest any core unit, or the first advanced one: advanced units are separate
+  // topics, so nothing past that point is ever marked as skipped.
+  const speaking = useMemo(() => units.filter((x) => x.track === "speaking").sort((a, b) => a.order - b.order), [units]);
+  const firstAdvanced = speaking.findIndex((x) => x.stage === "advanced");
+  const maxUnit = firstAdvanced >= 0 ? firstAdvanced + 1 : speakingUnitIds.length;
+  const maxLevel = Math.max(...questions.map((x) => x.level), 1);
   const [state, setState] = useState<PlacementState>(() => startPlacement(Math.min(2, maxUnit)));
   const [answer, setAnswer] = useState<ExerciseResult | null>(null);
   const [saved, setSaved] = useState<{ unit: number } | null>(null);
@@ -47,31 +53,35 @@ export function PlacementView({
 
   const record = async (correct: boolean) => {
     if (!q) return;
-    const next = answerPlacement(state, q, correct, length);
+    const next = answerPlacement(state, q, correct, length, maxLevel);
     setAnswer(null);
     setState(next);
     if (next.done || !nextQuestion(next, questions)) {
-      const r = placementResult(next);
+      const r = placementResult(next, maxLevel);
       const unit = Math.max(1, Math.min(maxUnit, r.unit));
       await update((p) => applyPlacement(p, { ...r, unit }, speakingUnitIds, today()));
+      track("placement", { id: `u${String(unit).padStart(2, "0")}`, acc: r.total ? Math.round((r.correct / r.total) * 100) / 100 : undefined });
       setSaved({ unit });
     }
   };
 
   if (saved) {
-    const u = units.filter((x) => x.track === "speaking").sort((a, b) => a.order - b.order)[saved.unit - 1];
-    const r = placementResult(state);
+    const u = speaking[saved.unit - 1];
+    const r = placementResult(state, maxLevel);
+    const adv = u?.stage === "advanced";
     return (
       <main className="flex min-h-dvh flex-col gap-5 px-5 pt-14 pb-8 text-center">
         <p className="text-6xl" aria-hidden>
           {saved.unit > 1 ? "🦁" : "🌱"}
         </p>
         <h1 className="font-display text-3xl font-bold">
-          {saved.unit > 1 ? `Start at Unit ${saved.unit}` : "Start at Unit 1"}
+          {adv ? "Start the advanced course" : saved.unit > 1 ? `Start at Unit ${saved.unit}` : "Start at Unit 1"}
         </h1>
         <p className="text-lg text-ink-soft">
           You got {r.correct} of {r.total}.{" "}
-          {saved.unit > 1
+          {adv
+            ? "The core course is marked “skipped, review anytime”. The advanced units are separate topics: take them in any order."
+            : saved.unit > 1
             ? `Units 1–${saved.unit - 1} are marked “skipped, review anytime”. Nothing is locked.`
             : "Unit 1 is the right place to start."}
         </p>
@@ -108,7 +118,8 @@ export function PlacementView({
       <main className="flex-1 px-4 pb-40" key={q?.id}>
         {q ? (
           <p className="mb-3 inline-flex rounded-full bg-accent-soft px-3 py-1 text-sm font-black text-accent-deep">
-            {SKILL[q.skill]} · Q{state.answers.length + 1} of {length}
+            {SKILL[q.skill]} · Q{state.answers.length + 1}
+            {state.answers.length < length ? ` of ${length}` : " · bonus round"}
           </p>
         ) : null}
         {resolved ? (

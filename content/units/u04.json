@@ -3062,6 +3062,110 @@
           "url": "https://en.wiktionary.org/wiki/%D9%BE%DB%81%D9%86%D9%86%D8%A7#Urdu"
         }
       ]
+    },
+    {
+      "id": "u04.b.s-khala-awaaz",
+      "roman": "Hello? Awaaz nahin aa rahi!",
+      "urdu": "ہیلو؟ آواز نہیں آ رہی!",
+      "en": "Hello? I can't hear you!",
+      "confidence": "medium",
+      "speaker": "khala",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "آواز",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D9%88%D8%A7%D8%B2&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آواز",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%88%D8%A7%D8%B2#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "رہا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        }
+      ]
+    },
+    {
+      "id": "u04.b.s-ammi-baad",
+      "roman": "Main baad mein phone karti hoon",
+      "urdu": "میں بعد میں فون کرتی ہوں",
+      "en": "I'll call you later",
+      "confidence": "high",
+      "speaker": "ammi",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بعد",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%B9%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بعد",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D8%AF#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "فون",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%81%D9%88%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کرتی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B1%D8%AA%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D9%88%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہوں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D9%88%DA%BA#Urdu"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -3108,7 +3212,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u04.awaaz-nahin",
           "speed": "aunty"
         },
@@ -3225,7 +3329,7 @@
           "explain": "Sara is a woman → rahi"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u04.kaun-bol-raha",
           "speed": "aunty"
         },
@@ -3355,7 +3459,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u04.ghar-par",
           "speed": "normal"
         },
@@ -3423,7 +3527,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u04.kitne-baje",
           "speed": "aunty"
         },
@@ -3510,7 +3614,7 @@
           "phrase": "u04.kab-aa-rahe"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u04.voice-note",
           "speed": "normal"
         },
@@ -3579,6 +3683,36 @@
           "type": "say",
           "phrase": "u04.hello-awaaz",
           "prompt": "Khala is on the phone. Say: “Hello? Can you hear me?”"
+        },
+        {
+          "type": "scene",
+          "setup": "A call to Lahore. The line is doing what it always does.",
+          "lines": [
+            {
+              "speaker": "khala",
+              "phrase": "u04.b.s-khala-awaaz"
+            },
+            {
+              "speaker": "ammi",
+              "phrase": "u04.b.s-ammi-baad"
+            }
+          ],
+          "question": "What's the problem?",
+          "options": [
+            {
+              "text": "Khala can't hear"
+            },
+            {
+              "text": "Ammi is too busy to talk",
+              "feedback": "She'll call later because the line is bad."
+            },
+            {
+              "text": "It's a wrong number",
+              "feedback": "Right number. Wrong connection."
+            }
+          ],
+          "answer": 0,
+          "hideText": true
         },
         {
           "type": "type",

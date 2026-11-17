@@ -12,6 +12,12 @@ export function TypeExercise({ ex, locked, onChange }: ExerciseProps<ResolvedTyp
   return (
     <div className="flex flex-col gap-5">
       <h2 className="font-display text-2xl leading-tight font-bold">{ex.prompt}</h2>
+      {ex.dictation ? (
+        <div className="flex items-center justify-center gap-4">
+          <AudioButton phrase={ex.phrase} speed={ex.dictation} size="lg" autoPlay label="Play the phrase" />
+          <AudioButton phrase={ex.phrase} speed="slow" size="md" label="Play it slowly" />
+        </div>
+      ) : null}
       <label className="flex flex-col gap-2">
         <span className="text-sm font-semibold text-ink-soft">Type in Roman Urdu. Any normal spelling is fine.</span>
         <textarea
@@ -49,7 +55,7 @@ export function TypeExercise({ ex, locked, onChange }: ExerciseProps<ResolvedTyp
         >
           {hint ? `Starts with “${words.map((w) => w.slice(0, 2)).join("… ")}…”` : "💡 Hint"}
         </button>
-        <AudioButton phrase={ex.phrase} size="sm" label="Hear the answer" />
+        {ex.dictation ? null : <AudioButton phrase={ex.phrase} size="sm" label="Hear the answer" />}
       </div>
     </div>
   );

@@ -6,7 +6,8 @@ import path from "node:path";
 
 const OUT = path.resolve("out");
 const BASE = "/lafz";
-const VOICE = "mms-urd-3";
+const MALE = new Set(["bilal", "abbu", "pervez", "bashir"]); // keep in step with src/content/audio-key.ts
+const voice = (speaker) => (MALE.has(speaker) ? "matcha-m1" : "matcha-f1");
 
 function walk(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
@@ -17,7 +18,7 @@ function walk(dir) {
 
 const files = walk(OUT)
   .map((f) => path.relative(OUT, f).split(path.sep).join("/"))
-  .filter((f) => !f.startsWith("audio/") && !f.startsWith("offline/") && f !== "sw.js" && !f.endsWith(".map"))
+  .filter((f) => !f.startsWith("audio/") && !f.startsWith("offline/") && !f.startsWith("ai/") && f !== "sw.js" && !f.endsWith(".map"))
   // Fontsource ships every unicode subset; keep only the ones we use (latin + arabic).
   // Precache what a cold offline start needs: HTML, JS/CSS, woff2 fonts we use, icons, manifest.
   // RSC payloads (.txt) are cached on use; .woff is a fallback modern browsers never fetch.
@@ -40,7 +41,12 @@ const units = fs.readdirSync("content/units").filter((f) => f.endsWith(".json"))
 for (const f of units) {
   const u = JSON.parse(fs.readFileSync(path.join("content/units", f), "utf8"));
   const urls = new Set();
-  for (const p of u.phrases) for (const rate of ["normal", "slow"]) urls.add(`${BASE}/audio/${sha16(`${VOICE}|${rate}|${ttsText(p)}`)}.mp3`);
+  const byId = new Map(u.phrases.map((p) => [p.id, p]));
+  const add = (p, speaker) => {
+    for (const rate of ["normal", "slow"]) urls.add(`${BASE}/audio/${sha16(`${voice(speaker)}|${rate}|${ttsText(p)}`)}.mp3`);
+  };
+  for (const p of u.phrases) add(p, p.speaker);
+  for (const l of u.lessons) for (const ex of l.exercises) if (ex.type === "scene") for (const line of ex.lines) if (byId.has(line.phrase)) add(byId.get(line.phrase), line.speaker);
   const pages = [
     ...u.lessons.map((l) => `${BASE}/lesson/${l.id}/`),
     `${BASE}/unit/${u.id}/`,
@@ -54,7 +60,7 @@ for (const f of units) {
 const lite = [];
 for (const f of units) {
   const u = JSON.parse(fs.readFileSync(path.join("content/units", f), "utf8"));
-  for (const p of u.phrases) if (!p.id.includes(".b.") && !p.id.includes(".l-")) lite.push({ id: p.id, roman: p.roman, urdu: p.urdu, en: p.en, ...(p.sense ? { sense: p.sense } : {}) });
+  for (const p of u.phrases) if (!p.id.includes(".b.") && !p.id.includes(".l-")) lite.push({ id: p.id, roman: p.roman, urdu: p.urdu, en: p.en, ...(p.sense ? { sense: p.sense } : {}), ...(p.speaker ? { speaker: p.speaker } : {}) });
 }
 fs.writeFileSync(path.join(OUT, "phrases.json"), JSON.stringify(lite));
 

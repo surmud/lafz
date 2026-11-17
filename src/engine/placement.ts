@@ -1,10 +1,13 @@
 /**
- * Adaptive placement (SPEC §11). A short staircase over the 12 speaking units: a right answer jumps
- * up two units, a wrong one steps down one. Placement only *suggests* a starting unit. Nothing is
- * ever locked.
+ * Adaptive placement (SPEC §11). A short staircase over the speaking units: a right answer jumps up
+ * two units (one unit once past the core course, where each unit is its own topic), a wrong one steps
+ * down one. Seven questions, unless the learner is still on a winning run: then it keeps climbing
+ * into the advanced course. Placement only *suggests* a starting unit. Nothing is ever locked.
  */
 export const MAX_LEVEL = 12;
 export const PLACEMENT_LENGTH = 7;
+/** A run that never misses keeps going, up to this many questions. */
+export const PLACEMENT_MAX_LENGTH = 12;
 
 export interface PlacementQuestionRef {
   id: string;
@@ -51,18 +54,23 @@ export function answerPlacement(
   question: PlacementQuestionRef,
   correct: boolean,
   length = PLACEMENT_LENGTH,
+  maxLevel = MAX_LEVEL,
 ): PlacementState {
   if (state.done) return state;
   const answers = [...state.answers, { id: question.id, level: question.level, correct }];
-  const level = Math.max(1, Math.min(MAX_LEVEL, question.level + (correct ? 2 : -1)));
+  const up = question.level >= MAX_LEVEL ? 1 : 2;
+  const level = Math.max(1, Math.min(maxLevel, question.level + (correct ? up : -1)));
   // Two misses in a row at the bottom means there is nothing more to learn from asking.
   const last2 = answers.slice(-2);
   const floored = last2.length === 2 && last2.every((a) => !a.correct && a.level <= 1);
-  return { level, answers, done: answers.length >= length || floored };
+  // Past the usual length, carry on only while the learner is still climbing without a miss.
+  const climbing =
+    maxLevel > MAX_LEVEL && correct && last2.every((a) => a.correct) && question.level < maxLevel && answers.length < PLACEMENT_MAX_LENGTH;
+  return { level, answers, done: floored || (answers.length >= length && !climbing) };
 }
 
 export interface PlacementResult {
-  /** Suggested speaking unit to start at (1..12). */
+  /** Suggested speaking unit to start at (1..maxLevel). */
   unit: number;
   correct: number;
   total: number;
@@ -72,12 +80,12 @@ export interface PlacementResult {
  * Suggest the unit after the highest level answered correctly, pulled back by one unit for each miss
  * at or below that level. No correct answers means start at unit 1.
  */
-export function placementResult(state: PlacementState): PlacementResult {
+export function placementResult(state: PlacementState, maxLevel = MAX_LEVEL): PlacementResult {
   const correct = state.answers.filter((a) => a.correct);
   const total = state.answers.length;
   if (correct.length === 0) return { unit: 1, correct: 0, total };
   const top = Math.max(...correct.map((a) => a.level));
   const missesBelow = state.answers.filter((a) => !a.correct && a.level <= top).length;
-  const unit = Math.max(1, Math.min(MAX_LEVEL, top + 1 - missesBelow));
+  const unit = Math.max(1, Math.min(maxLevel, top + 1 - missesBelow));
   return { unit, correct: correct.length, total };
 }

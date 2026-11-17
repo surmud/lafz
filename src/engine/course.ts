@@ -11,6 +11,7 @@ export interface LessonMeta {
 export interface UnitMeta {
   id: string;
   track: "speaking" | "reading";
+  stage?: "core" | "advanced";
   order: number;
   title: string;
   titleUrdu?: string;

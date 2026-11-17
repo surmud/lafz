@@ -112,3 +112,40 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] Content audit pass (docs/evals/2026-11-17-rekhta-crosscheck.md). Repeat each eval pass.
 - [x] Audio audit: round-trip with Whisper; regenerate or flag bad clips (voice v2, see docs/evals/2026-11-16-audio.md).
 - [ ] Ideas list: add your own feature ideas here and build the good ones.
+
+## Phase H — v2 expansion (founder brief, 2026-11-17 night; v1 is tagged `v1.0`)
+Brief: more and deeper lessons, an advanced level, new lesson formats that are not Duolingo clones,
+Speak / Read modes, progress analytics, on-device AI, a better voice, and fixes for the things people
+dislike about Duolingo. Fun is fine; corny is not.
+
+- [x] **H1 Speak / Read modes.** One toggle on home. Speak mode shows the speaking course; Read mode shows
+  the reading course. The Read tab becomes a Practice hub (review, trouble words, listening, phrasebook).
+- [x] **H2 New exercise formats.** `scene` (overhear a short exchange, then answer), `spot` (tap the wrong
+  word), `sort` (drop words into buckets: tu/tum/aap, masculine/feminine…), `dictation` (hear it, type it).
+  Engine + tests + UI, used in new units and retrofitted into old ones.
+- [x] **H3 Survival Kit unit (u13)**: conversation repair and emergencies ("say that again", "what's this
+  called in Urdu?", "I'm lost", "call a doctor").
+- [x] **H4 Advanced course (u14–u19)**: formal & polite Urdu, conditionals and wishes, opinions and
+  arguing, idioms, poetry (Ghalib, Mir, Iqbal), news vocabulary. Each with a boss conversation.
+- [x] **H5 Placement reaches the advanced course.** A perfect run continues into advanced questions and can
+  suggest starting at unit 14+.
+- [x] **H6 Skill model + Insights page.** Log every answer by skill (listening, speaking, recall,
+  recognition, reading, grammar); show strengths, accuracy trend, hardest phrases, estimated level.
+- [x] **H7 User-base analytics.** Anonymous, opt-in event batches to a configurable endpoint, a receiver
+  sample, and an aggregate report script. No endpoint configured = nothing leaves the device.
+- [x] **H8 Trouble words.** A practice session built from the phrases you miss most.
+- [x] **H9 Hard mode.** Setting: type or speak instead of tapping wherever possible.
+- [x] **H10 Listening mode.** Hands-free audio loop (English, pause, Urdu, repeat) per unit.
+- [x] **H11 Grammar guide hub.** All grammar notes in one searchable page.
+- [x] **H12 AI phrase finder.** On-device sentence embeddings: "how do I politely refuse food?" finds the
+  phrase. Embeddings precomputed at build time; the query model loads on demand.
+- [x] **H13 Voice trial.** Matcha-TTS Urdu (Apache-2.0) vs MMS by Whisper round-trip; switch if better.
+- [ ] **H14 AI conversation partner (experimental).** Small on-device LLM via WebGPU, opt-in download.
+- [ ] **H15 Sher of the day** on home once the poetry unit exists.
+- [x] **H16 Retrofit new formats into units 1–12** (at least one scene and one dictation per unit).
+- [ ] **H17 Eval pass 3** on everything above; refill.
+- [ ] **H18 OmniVoice Urdu trial** (Apache-2.0, voice cloning): could give each character their own voice.
+- [ ] **H19 Story mode (comprehensible input):** short illustrated stories per unit, tap any word for meaning, audio read-through.
+- [ ] **H20 Shadowing drill:** play a line, record yourself straight after, play both back to compare.
+- [ ] **H21 Reading mode depth:** Read mode gets "read real things": signs, menus, WhatsApp messages, headlines at advanced level.
+- [ ] **H22 Weekly goal instead of daily streak pressure** (optional setting): "3 sessions this week".

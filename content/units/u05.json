@@ -2571,6 +2571,164 @@
           "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%86%DB%8C#Urdu"
         }
       ]
+    },
+    {
+      "id": "u05.b.s-bashir-daam",
+      "roman": "Yeh paanch sau rupay ka hai",
+      "urdu": "یہ پانچ سو روپے کا ہے",
+      "en": "This one is five hundred rupees",
+      "confidence": "high",
+      "speaker": "bashir",
+      "sources": [
+        {
+          "ref": "wiktionary",
+          "item": "یہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%8C%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پانچ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D9%86%DA%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پانچ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DA%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "سو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "روپے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%88%D9%BE%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "روپے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D9%BE%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u05.b.s-ammi-daam",
+      "roman": "Paanch sau? Bohat mehnga hai. Teen sau",
+      "urdu": "پانچ سو؟ بہت مہنگا ہے۔ تین سو",
+      "en": "Five hundred? Far too expensive. Three hundred",
+      "confidence": "high",
+      "speaker": "ammi",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پانچ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D9%86%DA%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پانچ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DA%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "سو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بہت",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%81%D8%AA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "مہنگا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%DB%81%D9%86%DA%AF%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مہنگا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%81%D9%86%DA%AF%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "تین",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D9%8A%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تین",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%DB%8C%D9%86#Urdu"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -2770,7 +2928,7 @@
           "answer": 0
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u05.sau-rupay",
           "speed": "aunty"
         },
@@ -2820,7 +2978,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u05.kitne-ka-liya",
           "speed": "aunty"
         },
@@ -2950,7 +3108,7 @@
           "show": "u05.paune-chaar"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u05.kitne-baje-hain",
           "speed": "normal"
         },
@@ -3074,7 +3232,7 @@
           "prompt": "Type: “It's late”"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u05.kab-tak",
           "speed": "aunty"
         },
@@ -3100,6 +3258,36 @@
           "type": "say",
           "phrase": "u05.n-ek",
           "prompt": "What's the word for “1”?"
+        },
+        {
+          "type": "scene",
+          "setup": "Bashir Bhai's shop. Ammi has picked up a dupatta.",
+          "lines": [
+            {
+              "speaker": "bashir",
+              "phrase": "u05.b.s-bashir-daam"
+            },
+            {
+              "speaker": "ammi",
+              "phrase": "u05.b.s-ammi-daam"
+            }
+          ],
+          "question": "What price does Ammi offer?",
+          "options": [
+            {
+              "text": "300 rupees"
+            },
+            {
+              "text": "500 rupees",
+              "feedback": "That's Bashir Bhai's price. She says teen sau."
+            },
+            {
+              "text": "200 rupees",
+              "feedback": "teen is three."
+            }
+          ],
+          "answer": 0,
+          "hideText": true
         },
         {
           "type": "type",

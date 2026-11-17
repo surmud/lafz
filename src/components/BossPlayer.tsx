@@ -7,6 +7,7 @@ import { completeBoss } from "@/engine/progress";
 import { bossWinText, whatsappUrl } from "@/engine/share";
 import type { XpBreakdown } from "@/engine/xp";
 import { blip, playPhrase, stopAudio } from "@/lib/audio";
+import { track } from "@/lib/telemetry";
 import { listen, speechSupported } from "@/lib/speech";
 import { personaliseCharacter, personaliseText, today, useStore } from "@/lib/store";
 import { Avatar } from "./Avatar";
@@ -75,7 +76,10 @@ export function BossPlayer({
       const r = completeBoss(p, { bossId: convo.id, outcome: state.outcome ?? "end", seconds: (Date.now() - t0.current) / 1000, today: today() });
       gained = r.xp;
       return r.progress;
-    }).then(() => setXp(gained));
+    }).then(() => {
+      track("boss", { id: convo.id, secs: Math.round((Date.now() - t0.current) / 1000) });
+      setXp(gained);
+    });
   }, [state.done, state.outcome, xp, update, convo.id]);
 
   const choose = (i: number) => {

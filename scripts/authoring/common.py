@@ -92,6 +92,44 @@ class Unit:
             "options": [{"phrase": self.id(p), "verdict": v, "feedback": f} for p, v, f in options],
         }
 
+    def scene(self, lines, question, options, answer=0, setup=None, hide=False, explain=None):
+        """lines: [(speaker, phrase key)]; options: str or (text, feedback)."""
+        d = {
+            "type": "scene",
+            "lines": [{"speaker": sp, "phrase": self.id(k)} for sp, k in lines],
+            "question": question,
+            "options": [{"text": o} if isinstance(o, str) else {"text": o[0], "feedback": o[1]} for o in options],
+            "answer": answer,
+        }
+        if setup:
+            d["setup"] = setup
+        if hide:
+            d["hideText"] = True
+        if explain:
+            d["explain"] = explain
+        return d
+
+    def spot(self, phrase, word, wrong, explain, prompt=None):
+        d = {"type": "spot", "phrase": self.id(phrase), "word": tp(*word), "wrong": tp(*wrong), "explain": explain}
+        if prompt:
+            d["prompt"] = prompt
+        return d
+
+    def sort(self, prompt, buckets, items, explain=None):
+        """items: [(key-or-text, bucket index)]; a leading @ means a phrase key."""
+        d = {
+            "type": "sort",
+            "prompt": prompt,
+            "buckets": buckets,
+            "items": [({"phrase": self.id(k[1:])} if k.startswith("@") else {"text": k}) | {"bucket": b} for k, b in items],
+        }
+        if explain:
+            d["explain"] = explain
+        return d
+
+    def dictation(self, phrase, aunty=False):
+        return {"type": "dictation", "phrase": self.id(phrase), "speed": "aunty" if aunty else "normal"}
+
     def teach(self, phrase, tip=None):
         d = {"phrase": self.id(phrase)}
         if tip:
@@ -149,6 +187,13 @@ MIX_INTROS = {
     "u10": ("It's chaand raat", "Moon sighted. Tomorrow is Eid at Nani's. Practise everything tonight."),
     "u11": ("Abbu has the AC remote", "And the electricity bill. And that look. Warm up your 'Ji Abbu'."),
     "u12": ("Nani has poured two cups of chai", "She wants the whole wedding story, in order, with drama. This is the big one."),
+    "u13": ("Your phone is at 4%", "You're somewhere in Lahore, the driver has gone, and nobody around you speaks English. Run through the kit."),
+    "u14": ("The elders have arrived", "Best clothes, best manners, best Urdu. Run through the polite forms before you open the door."),
+    "u15": ("Khala has started a sentence with 'agar'", "Ifs, wishes and should-haves are coming. Get yours ready."),
+    "u16": ("The tea has gone cold", "That means the argument is a good one. Line up your connectors."),
+    "u17": ("Nani is about to use a proverb", "She has one for every situation. This time you'll understand it."),
+    "u18": ("The mushaira is starting", "Someone will say 'irshad'. Someone will say 'wah wah'. Be ready to be either."),
+    "u19": ("The nine o'clock news is on", "Abbu has opinions and the volume is at 40. Warm up the vocabulary."),
 }
 
 
@@ -167,7 +212,7 @@ def mix_lesson(uid: str, meta: dict, lessons: list, phrases: list) -> dict:
     ex = []
     for i, pid in enumerate(pick):
         p = by_id[pid]
-        kind = ["say", "type", "listen", "build", "type", "say", "meaning", "type", "listen"][i % 9]
+        kind = (["say", "type", "dictation", "build", "type", "say", "meaning", "type", "listen"] if int(uid[1:]) >= 13 else ["say", "type", "listen", "build", "type", "say", "meaning", "type", "listen"])[i % 9]
         if kind == "build" and len(p["roman"].split()) < 2:
             kind = "type"
         word = len(p["roman"].split()) == 1
@@ -176,6 +221,8 @@ def mix_lesson(uid: str, meta: dict, lessons: list, phrases: list) -> dict:
             ex.append({"type": "say", "phrase": pid, "prompt": prompt})
         elif kind == "type":
             ex.append({"type": "type", "phrase": pid, "prompt": f"Type the word for “{clean(p['en'])}”" if word else (prompt if "Type" in prompt else f"Type it: “{clean(p['en'])}”")})
+        elif kind == "dictation":
+            ex.append({"type": "dictation", "phrase": pid, "speed": "normal"})
         elif kind == "listen":
             ex.append({"type": "listen", "phrase": pid, "speed": "aunty" if i % 2 else "normal"})
         elif kind == "build":
@@ -214,7 +261,7 @@ def write_unit(u: Unit, meta: dict, lessons: list, boss: dict | None, senses: di
                 ph["confidence"] = o["confidence"]
     for ph in u.phrases:
         ph.setdefault("sources", [{"ref": "usage", "checked": "2026-11-16"}])
-    order = ["id", "track", "order", "title", "titleUrdu", "emoji", "tagline", "canDo", "grammar", "phrases", "lessons", "boss"]
+    order = ["id", "track", "stage", "order", "title", "titleUrdu", "emoji", "tagline", "canDo", "grammar", "phrases", "lessons", "boss"]
     unit = {k: unit[k] for k in order if k in unit}
     out.write_text(json.dumps(unit, ensure_ascii=False, indent=2) + "\n")
     print(f"wrote {out.name}: {len(u.phrases)} phrases, {len(lessons)} lessons")

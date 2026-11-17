@@ -16,7 +16,9 @@ test("placement → suggested unit → Unit 1 Lesson 1 complete", async ({ page 
 
   await expect(page).toHaveURL(/placement/);
   let q = 0;
-  while (!(await page.getByRole("heading", { name: /Start at Unit/ }).isVisible())) {
+  // A perfect run climbs past the usual seven questions into a bonus round of advanced questions.
+  const result = page.getByRole("heading", { name: /Start at Unit|Start the advanced course/ });
+  while (!(await result.isVisible())) {
     q++;
     if (q === 1) await shot("placement-q1");
     const right = await page.locator("main [data-correct='1']").count();
@@ -25,9 +27,9 @@ test("placement → suggested unit → Unit 1 Lesson 1 complete", async ({ page 
     else if (await typeBox.isVisible()) await typeBox.fill((await typeBox.getAttribute("data-expected")) ?? "");
     await page.getByRole("button", { name: "Next" }).click();
     await expect(
-      page.getByRole("heading", { name: /Start at Unit/ }).or(page.getByText(new RegExp(`Q${q + 1} of`))),
+      result.or(page.getByText(new RegExp(`Q${q + 1}( of|$| ·)`))).first(),
     ).toBeVisible();
-    expect(q).toBeLessThan(10);
+    expect(q).toBeLessThan(13);
   }
   await shot("placement-result");
   // Reading placement: two right, then "can't read it yet" → suggests R9.
@@ -36,7 +38,8 @@ test("placement → suggested unit → Unit 1 Lesson 1 complete", async ({ page 
   await page.locator("[data-correct='1']").first().click();
   await page.getByRole("button", { name: /can't read it yet/ }).click();
   await expect(page.getByRole("link", { name: /Start reading at R9/ })).toBeVisible();
-  await expect(page.getByRole("heading", { name: /Start at Unit ([2-9]|1[0-2])$/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Start the advanced course" })).toBeVisible();
+  expect(q).toBeGreaterThan(7);
   // Skipped units stay open: go back and do Unit 1 Lesson 1 anyway.
   await page.getByRole("link", { name: "See the whole course" }).click();
   await expect(page.getByText("Skipped · review anytime").first()).toBeVisible();

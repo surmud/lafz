@@ -26,6 +26,9 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm run build
+        env:
+          # Empty unless the founder sets it (docs/TELEMETRY.md): no endpoint, nothing is ever sent.
+          NEXT_PUBLIC_TELEMETRY_URL: ${{ vars.NEXT_PUBLIC_TELEMETRY_URL }}
       - run: npm run budget
       - run: touch out/.nojekyll
       - name: Install Playwright browser

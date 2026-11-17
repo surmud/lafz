@@ -2372,6 +2372,122 @@
           "url": "https://en.wiktionary.org/wiki/%D8%B5%D8%A7%D8%AD%D8%A8#Urdu"
         }
       ]
+    },
+    {
+      "id": "u09.b.s-butt-bilal",
+      "roman": "Bilal kya karta hai?",
+      "urdu": "بلال کیا کرتا ہے؟",
+      "en": "What does Bilal do?",
+      "confidence": "high",
+      "speaker": "mrs-butt",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "کیا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کیا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کرتا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B1%D8%AA%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u09.b.s-khala-doctor",
+      "roman": "Woh doctor hai. Sab ko pata hai",
+      "urdu": "وہ ڈاکٹر ہے۔ سب کو پتا ہے",
+      "en": "He's a doctor. Everybody knows that",
+      "confidence": "high",
+      "speaker": "khala",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "وہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "وہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%88%DB%81#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ڈاکٹر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%88%D8%A7%DA%A9%D9%B9%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "سب",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D8%A8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سب",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D8%A8#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پتا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%AA%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پتا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%AA%D8%A7#Urdu"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -2440,7 +2556,7 @@
           "explain": "a woman speaking → rehti"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u09.naukri",
           "speed": "normal"
         },
@@ -2505,7 +2621,7 @@
           "phrase": "u09.shauq"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u09.khana-banana",
           "speed": "aunty"
         },
@@ -2591,7 +2707,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u09.so-gaya",
           "speed": "normal"
         },
@@ -2672,7 +2788,7 @@
           "phrase": "u09.kab-settle"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u09.tankhwah",
           "speed": "aunty"
         },
@@ -2704,6 +2820,36 @@
           "type": "say",
           "phrase": "u09.kya-karte",
           "prompt": "Khala is on the phone. Say: “What do you do?”"
+        },
+        {
+          "type": "scene",
+          "setup": "Mrs. Butt is updating her records.",
+          "lines": [
+            {
+              "speaker": "mrs-butt",
+              "phrase": "u09.b.s-butt-bilal"
+            },
+            {
+              "speaker": "khala",
+              "phrase": "u09.b.s-khala-doctor"
+            }
+          ],
+          "question": "What does Bilal do?",
+          "options": [
+            {
+              "text": "He's a doctor"
+            },
+            {
+              "text": "He's an engineer",
+              "feedback": "As if the family would let you forget."
+            },
+            {
+              "text": "He's still studying",
+              "feedback": "Woh doctor hai."
+            }
+          ],
+          "answer": 0,
+          "hideText": true
         },
         {
           "type": "type",

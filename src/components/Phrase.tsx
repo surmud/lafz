@@ -74,7 +74,7 @@ export function AudioButton({
   label,
   autoPlay,
 }: {
-  phrase: Pick<Phrase, "id" | "urdu" | "tts" | "roman">;
+  phrase: Pick<Phrase, "id" | "urdu" | "tts" | "roman" | "speaker">;
   speed?: Speed;
   size?: "sm" | "md" | "lg";
   label?: string;

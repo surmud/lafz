@@ -2249,6 +2249,134 @@
           "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%DA%A9%D9%87%D9%86%D8%A7&searchhws=yes&matchtype=exact"
         }
       ]
+    },
+    {
+      "id": "u11.b.s-abbu-pankha",
+      "roman": "Pankha band karo",
+      "urdu": "پنکھا بند کرو",
+      "en": "Turn the fan off",
+      "confidence": "high",
+      "speaker": "abbu",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پنکھا",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%86%DA%A9%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پنکھا",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D9%86%DA%A9%DA%BE%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بند",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بند",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کرو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B1%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کرو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%B1%D9%88#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u11.b.s-ammi-pankha",
+      "roman": "Itni garmi mein? Khud band karo",
+      "urdu": "اتنی گرمی میں؟ خود بند کرو",
+      "en": "In this heat? Turn it off yourself",
+      "confidence": "high",
+      "speaker": "ammi",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "اتنا",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%AA%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اتنا",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%AA%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "گرمی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%D8%B1%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گرمی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%D8%B1%D9%85%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "خود",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D9%88%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خود",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بند",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بند",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کرو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B1%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کرو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%B1%D9%88#Urdu"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -2297,7 +2425,7 @@
           "speed": "aunty"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u11.paise-darakht",
           "speed": "aunty"
         },
@@ -2404,7 +2532,7 @@
           "phrase": "u11.smart-mat"
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u11.chup-karo",
           "speed": "normal"
         },
@@ -2492,7 +2620,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u11.rakh-do",
           "speed": "normal"
         },
@@ -2560,7 +2688,7 @@
           ]
         },
         {
-          "type": "listen",
+          "type": "dictation",
           "phrase": "u11.shayad-aaye",
           "speed": "normal"
         },
@@ -2615,6 +2743,32 @@
           "type": "say",
           "phrase": "u11.hum-umar",
           "prompt": "Khala is on the phone. Say: “When we were your age…”"
+        },
+        {
+          "type": "scene",
+          "setup": "July. 44 degrees. Abbu has seen the bill.",
+          "lines": [
+            {
+              "speaker": "abbu",
+              "phrase": "u11.b.s-abbu-pankha"
+            },
+            {
+              "speaker": "ammi",
+              "phrase": "u11.b.s-ammi-pankha"
+            }
+          ],
+          "question": "Does Ammi turn the fan off?",
+          "options": [
+            {
+              "text": "No"
+            },
+            {
+              "text": "Yes",
+              "feedback": "khud band karo: do it yourself."
+            }
+          ],
+          "answer": 0,
+          "hideText": true
         },
         {
           "type": "type",
