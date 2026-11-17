@@ -26,6 +26,10 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-17 (evening): Phrasebook (G23), boss-win sharing (G24), Ask Ammi with your own recording
+  (G18), future-hook interfaces (G19), CI bundle budget at 186.8 of 200 KB gzip (G20), console-error
+  sweep (G21, fixed a hydration mismatch), axe WCAG A/AA in light and dark (G22, fixed 6 contrast
+  failures).
 - 2026-11-17 (later): G13 scene-setting intros for each unit's warm-up. G14 Rekhta cross-check (no
   corrections needed; two spelling variants logged). G16 "5 phrases to try at dinner tonight" card
   (share or print). G17 reading placement after the speaking placement. G15 (prosody) stays parked

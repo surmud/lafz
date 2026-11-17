@@ -26,3 +26,8 @@ export function dinnerCardText(items: readonly { roman: string; urdu: string; en
     "Correct me (nicely) 🙏 — via Lafz",
   ].join("\n");
 }
+
+/** Brag text after beating a boss conversation. */
+export function bossWinText(title: string, canDo: string, url?: string): string {
+  return [`🏆 I just got through “${title}” in Urdu!`, `${canDo}.`, url ? `Learning with Lafz: ${url}` : "Learning with Lafz"].join("\n");
+}

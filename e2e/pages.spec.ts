@@ -56,3 +56,16 @@ for (const theme of ["light", "dark"] as const) {
     await shot("me");
   });
 }
+
+test("phrasebook search is forgiving", async ({ page }, info) => {
+  test.skip(info.project.name !== "iphone");
+  const { freshStart } = await import("./helpers");
+  await freshStart(page);
+  await page.goto("./phrasebook/");
+  await page.getByLabel(/Search in Roman/).fill("shukria");
+  await expect(page.getByRole("list", { name: "Phrases" }).getByText("shukriya").first()).toBeVisible();
+  await page.getByLabel(/Search in Roman/).fill("چائے");
+  await expect(page.getByRole("list", { name: "Phrases" }).getByText(/chai/).first()).toBeVisible();
+  await page.getByLabel(/Search in Roman/).fill("goodbye");
+  await expect(page.getByRole("list", { name: "Phrases" }).getByText(/hafiz/i).first()).toBeVisible();
+});

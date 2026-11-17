@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { Character, Conversation, Phrase } from "@/content/schema";
 import { createScriptedEngine, type ConvoState } from "@/engine/conversation";
 import { completeBoss } from "@/engine/progress";
+import { bossWinText, whatsappUrl } from "@/engine/share";
 import type { XpBreakdown } from "@/engine/xp";
 import { blip, playPhrase, stopAudio } from "@/lib/audio";
 import { listen, speechSupported } from "@/lib/speech";
@@ -207,6 +208,21 @@ export function BossPlayer({
             {xp ? <p className="font-bold text-accent-deep">+{xp.total} XP</p> : null}
             {state.totalMisses > 0 ? <p className="text-sm text-ink-soft">{state.totalMisses} replies didn&apos;t land first time. Doesn&apos;t matter: you got there.</p> : null}
             <div className="flex flex-col gap-3">
+              <Button
+                variant="good"
+                block
+                onClick={async () => {
+                  const text = bossWinText(convo.title, convo.canDo, "https://surmud.github.io/lafz/");
+                  try {
+                    if (navigator.share) return await navigator.share({ text });
+                  } catch (e) {
+                    if ((e as Error).name === "AbortError") return;
+                  }
+                  window.open(whatsappUrl(text), "_blank", "noopener");
+                }}
+              >
+                Tell the family 🎉
+              </Button>
               {nextHref ? (
                 <LinkButton href={nextHref} block>
                   Next unit →

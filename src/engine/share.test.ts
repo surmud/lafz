@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { askAmmiText, dinnerCardText, whatsappUrl } from "./share";
+import { askAmmiText, bossWinText, dinnerCardText, whatsappUrl } from "./share";
 
 const p = { roman: "shukriya", urdu: "شکریہ", en: "Thank you" };
 
@@ -20,4 +20,11 @@ test("dinner card lists at most five", () => {
   const t = dinnerCardText(Array.from({ length: 7 }, (_, i) => ({ ...p, roman: `p${i}` })));
   expect(t).toContain("5. p4");
   expect(t).not.toContain("p5");
+});
+
+test("boss win text", () => {
+  const t = bossWinText("The Doorway", "You can get through a doorstep greeting", "https://x/");
+  expect(t).toContain("The Doorway");
+  expect(t).toContain("doorstep greeting.");
+  expect(bossWinText("A", "B")).toContain("Learning with Lafz");
 });

@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useRef, useState } from "react";
 import { canDos, nextCanDo, type UnitMeta } from "@/engine/course";
 import { PAUSES_PER_WEEK } from "@/engine/streak";
@@ -75,6 +76,16 @@ export function MeView({ units }: { units: UnitMeta[] }) {
             ⏸️ {streak.pausesLeft} of {PAUSES_PER_WEEK} pause days left this week. Miss more and your streak just rests. It never resets.
           </p>
         </Card>
+
+        <Link href="/phrasebook/" className="flex items-center gap-3 rounded-3xl border-2 border-line bg-surface p-4 shadow-[0_3px_0_var(--line)]">
+          <span className="text-3xl" aria-hidden>
+            📖
+          </span>
+          <span>
+            <span className="block font-bold">Phrasebook</span>
+            <span className="block text-sm text-ink-soft">Every phrase in the course, with audio. Search before you call Khala.</span>
+          </span>
+        </Link>
 
         <DinnerCard />
 
