@@ -26,6 +26,8 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-17 (night): Printable cheat sheet per speaking unit (G25). Backlog is clear apart from G15
+  (prosody), which needs a human ear.
 - 2026-11-17 (evening): Phrasebook (G23), boss-win sharing (G24), Ask Ammi with your own recording
   (G18), future-hook interfaces (G19), CI bundle budget at 186.8 of 200 KB gzip (G20), console-error
   sweep (G21, fixed a hydration mismatch), axe WCAG A/AA in light and dark (G22, fixed 6 contrast
@@ -96,7 +98,7 @@ spellings follow common usage:
 - Speech recognition uses the Web Speech API only. There's no Whisper fallback yet.
 
 ## Next steps
-G13 funnier warm-ups → G14 Rekhta spelling cross-check → G15 prosody →
+Eval pass 3 → G15 prosody (needs a human ear) →
 G9 (Whisper fallback for Speak it) → native-speaker pass on the medium-confidence list (needs a human,
 optional).
 
