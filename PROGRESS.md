@@ -77,7 +77,6 @@ spellings follow common usage:
 
 ## Known issues
 - MMS audio: sentences round-trip well (median 0.87). Single words were weak; voice v3 synthesises them in a carrier sentence (0.23 → 0.70 on the hardest words). MMS prosody is still flat; Azure ur-PK remains the plan before any paid tier.
-- Real-microphone E2E for family voice runs only as an experimental CI step: macOS blocks the fake mic locally (G8).
 - The Offline Omar test is occasionally flaky when the local machine is under heavy load (passes in CI).
 - Speaking: the Web Speech API where available. Elsewhere there's an opt-in on-device Whisper (whisper-base, ~80 MB, runs in the browser via transformers.js from jsDelivr, voice never leaves the phone).
 - Placement covers units 1–4 so far (G1).

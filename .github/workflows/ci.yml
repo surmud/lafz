@@ -30,9 +30,6 @@ jobs:
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
       - run: npm run e2e
-      - name: Experimental e2e (real fake-mic recording, G8)
-        continue-on-error: true
-        run: LAFZ_EXPERIMENTAL=1 npx playwright test e2e/experimental --project=pixel
       - name: Upload persona screenshots
         if: always()
         uses: actions/upload-artifact@v4

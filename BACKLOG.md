@@ -75,7 +75,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 - [x] **G7 Page weight as units grow.** (precache is now the app shell only, 2.3 MB; lesson pages cache on use or per-unit download) Each lesson page embeds its unit's phrase pool; watch HTML size
   (now 35–60 KB) and the precache (2.8 MB) as units 5–12 land.
 
-- [~] **G8 Family voice: real-mic E2E.** (macOS blocks the fake mic; runs as an experimental CI step) Headless Chromium can't open a fake mic in this setup; the test
+- [x] **G8 Family voice: real-mic E2E.** (passes in Linux CI; skipped on macOS, which blocks the fake mic) Headless Chromium can't open a fake mic in this setup; the test
   injects a recording. Try headed or `channel: "chrome"` in CI.
 - [x] **G9 Whisper fallback for Speak it** (D1 remainder): transformers.js, lazy-loaded.
 

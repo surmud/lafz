@@ -1,8 +1,8 @@
 import { expect, test } from "@playwright/test";
-import { freshStart } from "../helpers";
+import { freshStart } from "./helpers";
 
 // G8: real MediaRecorder path with Chromium's fake microphone. macOS blocks the fake device behind
-// the OS microphone permission, so this runs only in Linux CI (experimental step, continue-on-error).
+// the OS microphone permission, so this runs only in Linux CI.
 test.use({ permissions: ["microphone"], launchOptions: { args: ["--use-fake-device-for-media-stream", "--use-fake-ui-for-media-stream"] } });
 
 test("family voice: record with the (fake) microphone and play it back in a lesson", async ({ page }, info) => {

@@ -4,7 +4,6 @@ const PORT = 4173;
 
 export default defineConfig({
   testDir: "e2e",
-  testIgnore: process.env.LAFZ_EXPERIMENTAL ? [] : ["experimental/**"],
   outputDir: "test-results",
   fullyParallel: true,
   timeout: 120_000,
