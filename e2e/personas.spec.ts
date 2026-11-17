@@ -92,7 +92,7 @@ test("Away-for-a-week Ayesha: streak rests, welcome back is warm", async ({ page
   await playLesson(page);
   await page.goto("./?today=2026-11-11");
   await expect(page.getByText(/Welcome back/)).toBeVisible();
-  await expect(page.getByText(/Your streak is paused at 2/)).toBeVisible();
+  await expect(page.getByText(/streak has been resting/)).toBeVisible();
   await expect(page.getByLabel(/Streak resting: 2 days/)).toBeVisible();
   await shot("welcome-back");
   await page.goto("./lesson/u01-l3/?today=2026-11-11");

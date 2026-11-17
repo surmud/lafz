@@ -74,7 +74,7 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
         ) : (
           <Card className="text-center">
             <p className="font-display text-2xl font-bold">You&apos;ve finished the speaking course 🎓</p>
-            <p className="text-ink-soft">Keep practising with Review and the reading track.</p>
+            <p className="text-ink-soft">Nani is speechless. (She always was.)</p>
           </Card>
         )}
 

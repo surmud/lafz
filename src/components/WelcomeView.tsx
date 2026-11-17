@@ -59,7 +59,7 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
           <div className="flex flex-1 animate-rise flex-col gap-4">
             <h1 className="font-display text-3xl font-bold">What describes you best?</h1>
             {[
-              { k: "heritage" as const, t: "I understand some Urdu", s: "Take a short test to find your starting point.", e: "🗣️" },
+              { k: "heritage" as const, t: "I understand some Urdu but freeze when I speak", s: "Take a short test to find your starting point.", e: "🗣️" },
               { k: "beginner" as const, t: "I'm new to Urdu", s: "Start from the first lesson.", e: "🌱" },
             ].map((o) => (
               <button
