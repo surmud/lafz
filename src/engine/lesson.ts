@@ -49,6 +49,44 @@ export interface LessonOptions {
   requeueGap?: number;
 }
 
+/**
+ * Order a lesson's steps so that long lessons alternate teaching and practice: teach a few phrases,
+ * practise those, teach the next few. An exercise becomes eligible once every phrase it uses that
+ * this lesson teaches has been taught (phrases from earlier lessons, or distractors, never block it).
+ * Short lessons (fewer than `minCards` phrase cards) keep the classic teach-then-practise order.
+ *
+ * `teach[i]` is the phrase ids card i teaches ([] for an explanation card), `exercises[j]` the phrase
+ * ids exercise j refers to. Returns step ids: "t<i>" and "e<j>".
+ */
+export function interleave(teach: readonly (readonly string[])[], exercises: readonly (readonly string[])[], chunk = 3, minCards = 5): LessonStep[] {
+  const t = (i: number): LessonStep => ({ id: `t${i}`, kind: "teach" });
+  const e = (j: number): LessonStep => ({ id: `e${j}`, kind: "exercise" });
+  const phraseCards = teach.filter((c) => c.length > 0).length;
+  if (phraseCards < minCards) return [...teach.map((_, i) => t(i)), ...exercises.map((_, j) => e(j))];
+  const lessonTaught = new Set(teach.flat());
+  const taught = new Set<string>();
+  const done = new Set<number>();
+  const out: LessonStep[] = [];
+  let sinceBreak = 0;
+  const flush = () => {
+    exercises.forEach((refs, j) => {
+      if (done.has(j)) return;
+      if (refs.every((r) => !lessonTaught.has(r) || taught.has(r))) {
+        done.add(j);
+        out.push(e(j));
+      }
+    });
+    sinceBreak = 0;
+  };
+  teach.forEach((card, i) => {
+    out.push(t(i));
+    for (const id of card) taught.add(id);
+    if (card.length > 0 && ++sinceBreak >= chunk && phraseCards - taught.size >= 2) flush();
+  });
+  flush();
+  return out;
+}
+
 export function createLesson(steps: readonly LessonStep[], options: LessonOptions = {}): LessonState {
   const queue = steps.map((s) => ({ ...s, attempt: 1 }));
   return {

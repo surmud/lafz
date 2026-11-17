@@ -74,8 +74,10 @@ test("a lesson with a scene, a spot-the-mistake, a sort and dictation can be com
 test("practice hub: trouble words fill up after mistakes; grammar and listening pages work", async ({ page }, info) => {
   const shot = shooter(page, "v2", info.project.name);
   await onboard(page);
-  await page.goto("./lesson/u01-l1/");
-  await finishLesson(page, 6);
+  for (const l of ["u01-l1", "u01-l2"]) {
+    await page.goto(`./lesson/${l}/`);
+    await finishLesson(page, 4);
+  }
   await page.goto("./practice/");
   await expect(page.getByRole("link", { name: /Trouble words/ })).toContainText(/phrases you've missed/);
   await shot("practice");

@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { advance, createLesson, currentStep, isComeback, progress, submit, type LessonStep } from "./lesson";
+import { advance, createLesson, currentStep, interleave, isComeback, progress, submit, type LessonStep } from "./lesson";
 import { levelFor, lessonXp } from "./xp";
 
 const steps: LessonStep[] = [
@@ -97,5 +97,22 @@ describe("xp", () => {
     expect(levelFor(49).index).toBe(0);
     expect(levelFor(50).index).toBe(1);
     expect(levelFor(999999)).toMatchObject({ title: "Ustad", next: null });
+  });
+});
+
+describe("interleave", () => {
+  const ids = (steps: { id: string }[]) => steps.map((x) => x.id).join(" ");
+  test("short lessons keep teach-then-practise", () => {
+    expect(ids(interleave([["a"], ["b"], []], [["a"], ["b"]]))).toBe("t0 t1 t2 e0 e1");
+  });
+  test("long lessons practise each chunk after it is taught", () => {
+    const teach = [[], ["a"], ["b"], ["c"], ["d"], ["e"], ["f"]];
+    const ex = [["a", "x"], ["d"], ["b", "c"], ["f"], ["zz"], ["a", "f"]];
+    // Chunk 1 (a,b,c): exercises 0, 2 and 4 (uses nothing taught here). Then d,e,f and the rest.
+    expect(ids(interleave(teach, ex))).toBe("t0 t1 t2 t3 e0 e2 e4 t4 t5 t6 e1 e3 e5");
+  });
+  test("does not break off with only one card left", () => {
+    const teach = [["a"], ["b"], ["c"], ["d"]];
+    expect(ids(interleave(teach, [["a"], ["d"]], 3, 4))).toBe("t0 t1 t2 t3 e0 e1");
   });
 });

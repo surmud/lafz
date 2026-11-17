@@ -2,10 +2,10 @@
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Exercise, InfoCard, Phrase, TeachCard } from "@/content/schema";
-import { harden, resolveExercise, skillOf, targetsOf, type Resolved } from "@/engine/exercises";
+import { harden, phraseRefs, resolveExercise, skillOf, targetsOf, type Resolved } from "@/engine/exercises";
 import { tallyAnswer, type SkillStats } from "@/engine/skills";
 import { completionLine, feedbackLine } from "@/engine/feedback";
-import { advance, createLesson, currentStep, isComeback, progress as lessonProgress, submit, type LessonState } from "@/engine/lesson";
+import { advance, createLesson, currentStep, interleave, isComeback, progress as lessonProgress, submit, type LessonState } from "@/engine/lesson";
 import { completeLesson } from "@/engine/progress";
 import type { XpBreakdown } from "@/engine/xp";
 import { blip, stopAudio } from "@/lib/audio";
@@ -42,11 +42,13 @@ export function LessonPlayer(props: LessonPlayerProps) {
   const byId = useMemo(() => new Map(phrases.map((p) => [p.id, p])), [phrases]);
   const pool = props.pool ?? phrases;
 
+  // Long lessons alternate: teach a few phrases, practise them, teach the next few.
   const steps = useMemo(
-    () => [
-      ...teach.map((_, i) => ({ id: `t${i}`, kind: "teach" as const })),
-      ...exercises.map((_, i) => ({ id: `e${i}`, kind: "exercise" as const })),
-    ],
+    () =>
+      interleave(
+        teach.map((c) => ("phrase" in c ? [c.phrase] : [])),
+        exercises.map(phraseRefs),
+      ),
     [teach, exercises],
   );
   const [state, setState] = useState<LessonState>(() => createLesson(steps));

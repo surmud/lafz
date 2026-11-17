@@ -15,7 +15,7 @@ test("eval gallery", async ({ page }, info) => {
   await page.goto("./pack/shaadi-5-days/");
   await shot("pack");
   await page.goto("./boss/u06/");
-  await page.getByRole("button", { name: "Knock on the door" }).click();
+  await page.getByRole("button", { name: "Start the conversation" }).click();
   await page.getByRole("button", { name: /Bhai sahab, bazaar chalenge/ }).click();
   await page.getByRole("button", { name: /Bohat zyada hai/ }).click();
   await shot("boss-u06");

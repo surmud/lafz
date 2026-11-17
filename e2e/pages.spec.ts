@@ -22,7 +22,7 @@ for (const theme of ["light", "dark"] as const) {
     await shot("unit");
     await page.goto("./boss/u01/");
     await shot("boss-intro");
-    await page.getByRole("button", { name: "Knock on the door" }).click();
+    await page.getByRole("button", { name: "Start the conversation" }).click();
     await expect(page.getByText("Return her salaam.")).toBeVisible();
     await shot("boss-turn1");
     // Take the bold branch, then recover.

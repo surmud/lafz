@@ -51,7 +51,7 @@ export function InsightsView({ units }: { units: UnitMeta[] }) {
           {[
             { n: level.met, l: "phrases met" },
             { n: level.solid, l: "phrases solid" },
-            { n: Math.round(progress.seconds / 60), l: "minutes" },
+            { n: progress.seconds > 0 && progress.seconds < 60 ? "<1" : Math.round(progress.seconds / 60), l: "minutes" },
           ].map((x) => (
             <Card key={x.l} className="px-2 py-3">
               <p className="font-display text-2xl font-bold">{x.n}</p>
@@ -77,7 +77,7 @@ export function InsightsView({ units }: { units: UnitMeta[] }) {
                         <span aria-hidden>{meta.icon}</span> {meta.title}
                       </p>
                       <p className="text-sm font-bold text-ink-soft">
-                        {s.accuracy === null ? (s.seen === 0 ? "not practised yet" : `${s.seen} answers so far`) : `${Math.round(s.accuracy * 100)}% · ${s.seen} answers`}
+                        {s.accuracy === null ? (s.seen === 0 ? "not practised yet" : `${s.seen} answer${s.seen === 1 ? "" : "s"} so far`) : `${Math.round(s.accuracy * 100)}% · ${s.seen} answers`}
                       </p>
                     </div>
                     <p className="mb-2 text-xs text-ink-soft">{meta.what}</p>

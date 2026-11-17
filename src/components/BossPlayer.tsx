@@ -140,7 +140,7 @@ export function BossPlayer({
           <li>• You can&apos;t fail. She&apos;ll just ask again.</li>
         </ul>
         <Button block className="mt-auto" onClick={() => setStarted(true)}>
-          Knock on the door
+          Start the conversation
         </Button>
       </main>
     );

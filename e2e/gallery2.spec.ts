@@ -27,7 +27,7 @@ test("eval gallery 2", async ({ page }, info) => {
   await page.goto("./boss/u04/");
   await expect(page.locator("p", { hasText: "Rubina Khala" }).first()).toBeVisible();
   await shot("boss-intro-personalised");
-  await page.getByRole("button", { name: "Knock on the door" }).click();
+  await page.getByRole("button", { name: "Start the conversation" }).click();
   await shot("boss-chat");
   await page.goto("./voice/u03/");
   await shot("voice-recorder");
