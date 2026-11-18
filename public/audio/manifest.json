@@ -667,7 +667,7 @@
 "matcha-f1|normal|اور آپ؟": {
 "file": "128cb9e3d7d5c370.mp3",
 "seconds": 0.54,
-"sim": 0.67
+"sim": 0.83
 },
 "matcha-f1|normal|اور بلال کی منگنی پہ؟ ضروری ہے کہ تم آؤ": {
 "file": "20a55aa5fe73f729.mp3",
@@ -961,7 +961,7 @@
 },
 "matcha-f1|normal|باپ": {
 "file": "18292ca395a4a75e.mp3",
-"seconds": 0.57,
+"seconds": 0.54,
 "sim": 0.67
 },
 "matcha-f1|normal|بجلی": {
@@ -1091,8 +1091,8 @@
 },
 "matcha-f1|normal|بلکہ": {
 "file": "d551d848e4ef19c1.mp3",
-"seconds": 0.75,
-"sim": 0.75
+"seconds": 0.73,
+"sim": 1.0
 },
 "matcha-f1|normal|بند": {
 "file": "5835998871872712.mp3",
@@ -1126,8 +1126,8 @@
 },
 "matcha-f1|normal|بچے": {
 "file": "ec0137834e2dbf31.mp3",
-"seconds": 0.65,
-"sim": 0.67
+"seconds": 0.68,
+"sim": 1.0
 },
 "matcha-f1|normal|بچے کی مبارک ہو!": {
 "file": "8a6d69cad3a118ae.mp3",
@@ -1136,8 +1136,8 @@
 },
 "matcha-f1|normal|بڑا": {
 "file": "bd1894612fe431ea.mp3",
-"seconds": 0.58,
-"sim": 0.67
+"seconds": 0.61,
+"sim": 1.0
 },
 "matcha-f1|normal|بڑی حے": {
 "file": "fa5f9fa1dfe983d0.mp3",
@@ -1251,8 +1251,8 @@
 },
 "matcha-f1|normal|بہن": {
 "file": "f0832d13f0e94a9f.mp3",
-"seconds": 0.66,
-"sim": 0.67
+"seconds": 0.61,
+"sim": 1.0
 },
 "matcha-f1|normal|بیس": {
 "file": "b61724b0f24cc5a1.mp3",
@@ -1291,8 +1291,8 @@
 },
 "matcha-f1|normal|بیٹھیے": {
 "file": "e3e642d61dcce285.mp3",
-"seconds": 0.87,
-"sim": 0.67
+"seconds": 0.83,
+"sim": 0.83
 },
 "matcha-f1|normal|بیٹی": {
 "file": "5d0fe5f0b849587d.mp3",
@@ -1446,8 +1446,8 @@
 },
 "matcha-f1|normal|تین": {
 "file": "98eb2b7eb3e1de91.mp3",
-"seconds": 0.54,
-"sim": 0.67
+"seconds": 0.42,
+"sim": 1.0
 },
 "matcha-f1|normal|تین بجے": {
 "file": "c68cd449f4f813f1.mp3",
@@ -1511,7 +1511,7 @@
 },
 "matcha-f1|normal|جناب": {
 "file": "a6fcae15b0b00d0a.mp3",
-"seconds": 0.87,
+"seconds": 0.85,
 "sim": 0.75
 },
 "matcha-f1|normal|جنریٹر کہاں ہے؟ کوئی جنریٹر چلاؤ!": {
@@ -1546,7 +1546,7 @@
 },
 "matcha-f1|normal|جی امی۔": {
 "file": "ed70457de4acc6b3.mp3",
-"seconds": 0.8,
+"seconds": 0.82,
 "sim": 0.67
 },
 "matcha-f1|normal|جی خالہ! آواز آ رہی ہے؟": {
@@ -1621,7 +1621,7 @@
 },
 "matcha-f1|normal|جی، شکریہ۔": {
 "file": "9a7da5f151897997.mp3",
-"seconds": 1.12,
+"seconds": 1.08,
 "sim": 0.78
 },
 "matcha-f1|normal|جی، ضرور": {
@@ -2131,8 +2131,8 @@
 },
 "matcha-f1|normal|روزہ": {
 "file": "abc0238a72ef5d45.mp3",
-"seconds": 0.74,
-"sim": 0.75
+"seconds": 0.67,
+"sim": 1.0
 },
 "matcha-f1|normal|روٹی": {
 "file": "b2264f2140f9cb6e.mp3",
@@ -2391,8 +2391,8 @@
 },
 "matcha-f1|normal|سچ میں؟": {
 "file": "f25558993ec667a8.mp3",
-"seconds": 0.94,
-"sim": 0.67
+"seconds": 0.87,
+"sim": 0.83
 },
 "matcha-f1|normal|سچ میں؟ پھر اگلے اتوار سب کے لیے تم کھانا بناؤ۔": {
 "file": "951ec5404392814d.mp3",
@@ -2456,7 +2456,7 @@
 },
 "matcha-f1|normal|شاعر": {
 "file": "c04b5160fef2aa26.mp3",
-"seconds": 0.68,
+"seconds": 0.66,
 "sim": 0.75
 },
 "matcha-f1|normal|شاعری": {
@@ -2537,7 +2537,7 @@
 "matcha-f1|normal|صبح": {
 "file": "f0844a0447c84ee9.mp3",
 "seconds": 0.71,
-"sim": 0.33
+"sim": 1.0
 },
 "matcha-f1|normal|صبح تک بخار اتر گیا تھا۔": {
 "file": "43186dff8070c636.mp3",
@@ -2552,7 +2552,7 @@
 "matcha-f1|normal|صبر": {
 "file": "784a6ad896034251.mp3",
 "seconds": 0.74,
-"sim": 0.67
+"sim": 1.0
 },
 "matcha-f1|normal|صحت کا خیال رکھو": {
 "file": "c828620539e23486.mp3",
@@ -2596,8 +2596,8 @@
 },
 "matcha-f1|normal|عدالت": {
 "file": "0a503d66ffc5e8ba.mp3",
-"seconds": 0.66,
-"sim": 0.6
+"seconds": 0.83,
+"sim": 0.57
 },
 "matcha-f1|normal|عرض کیا ہے": {
 "file": "5334764f2cb3b1ac.mp3",
@@ -2611,12 +2611,12 @@
 },
 "matcha-f1|normal|عشق": {
 "file": "3242b080f86c0344.mp3",
-"seconds": 0.54,
+"seconds": 0.74,
 "sim": 0.67
 },
 "matcha-f1|normal|عوام": {
 "file": "11e6cab7b320fa59.mp3",
-"seconds": 0.75,
+"seconds": 0.71,
 "sim": 0.75
 },
 "matcha-f1|normal|عید مبارک بیٹا! آؤ، گلے ملو": {
@@ -2656,8 +2656,8 @@
 },
 "matcha-f1|normal|غزل": {
 "file": "c40f2038fe9b9216.mp3",
-"seconds": 0.65,
-"sim": 0.5
+"seconds": 0.69,
+"sim": 1.0
 },
 "matcha-f1|normal|غین": {
 "file": "95c68110843570bf.mp3",
@@ -2961,8 +2961,8 @@
 },
 "matcha-f1|normal|محترمہ": {
 "file": "684047dcb48c04db.mp3",
-"seconds": 1.07,
-"sim": 0.71
+"seconds": 0.83,
+"sim": 0.83
 },
 "matcha-f1|normal|مدد کیجیے!": {
 "file": "e49fb7e585c1aec4.mp3",
@@ -2976,8 +2976,8 @@
 },
 "matcha-f1|normal|مرچ": {
 "file": "4365eb986df5bd8a.mp3",
-"seconds": 0.53,
-"sim": 0.67
+"seconds": 0.65,
+"sim": 1.0
 },
 "matcha-f1|normal|مزہ آ گیا!": {
 "file": "05d9bb4997a97507.mp3",
@@ -2986,8 +2986,8 @@
 },
 "matcha-f1|normal|مسجد": {
 "file": "0774aac1f3407676.mp3",
-"seconds": 0.79,
-"sim": 0.4
+"seconds": 0.71,
+"sim": 1.0
 },
 "matcha-f1|normal|مسجد کہاں ہے؟": {
 "file": "72ba97a4ff3523d4.mp3",
@@ -3051,8 +3051,8 @@
 },
 "matcha-f1|normal|ملک": {
 "file": "1aae27b126dc7499.mp3",
-"seconds": 0.52,
-"sim": 0.67
+"seconds": 0.5,
+"sim": 1.0
 },
 "matcha-f1|normal|ممانی": {
 "file": "c02a92177bf8ec4d.mp3",
@@ -3061,8 +3061,8 @@
 },
 "matcha-f1|normal|منع ہے": {
 "file": "d1b0483fec1c4368.mp3",
-"seconds": 0.75,
-"sim": 0.6
+"seconds": 0.79,
+"sim": 0.8
 },
 "matcha-f1|normal|موسم کا حال": {
 "file": "d65830f565268270.mp3",
@@ -3906,8 +3906,8 @@
 },
 "matcha-f1|normal|ولیمہ": {
 "file": "b01aa7f93f9c1311.mp3",
-"seconds": 0.79,
-"sim": 0.6
+"seconds": 0.86,
+"sim": 0.8
 },
 "matcha-f1|normal|وہ تین گھنٹے بیٹھے رہے، اور چار کپ چائے پی گئے۔": {
 "file": "1fdc473e418565a0.mp3",
@@ -4026,8 +4026,8 @@
 },
 "matcha-f1|normal|پانچ": {
 "file": "55113f8ca4560ff8.mp3",
-"seconds": 0.59,
-"sim": 0.75
+"seconds": 0.69,
+"sim": 0.8
 },
 "matcha-f1|normal|پانچ سو؟ بہت مہنگا ہے۔ تین سو": {
 "file": "d87bad810b39abe0.mp3",
@@ -4051,8 +4051,8 @@
 },
 "matcha-f1|normal|پانی": {
 "file": "d95db39c336a5126.mp3",
-"seconds": 0.67,
-"sim": 0.75
+"seconds": 0.73,
+"sim": 1.0
 },
 "matcha-f1|normal|پانی ملے گا؟": {
 "file": "b33394d839db902d.mp3",
@@ -4106,8 +4106,8 @@
 },
 "matcha-f1|normal|پرسوں": {
 "file": "a8c3718ed92d8abd.mp3",
-"seconds": 0.75,
-"sim": 0.57
+"seconds": 0.73,
+"sim": 1.0
 },
 "matcha-f1|normal|پولیس کو بلائیے": {
 "file": "85f223dc70c6607a.mp3",
@@ -4136,12 +4136,12 @@
 },
 "matcha-f1|normal|پکوڑا": {
 "file": "ca8766742cef1b45.mp3",
-"seconds": 0.85,
-"sim": 0.67
+"seconds": 0.87,
+"sim": 0.71
 },
 "matcha-f1|normal|پھر": {
 "file": "8bb736e5f4a861ee.mp3",
-"seconds": 0.43,
+"seconds": 0.41,
 "sim": 0.67
 },
 "matcha-f1|normal|پھر بلال اندر آیا۔": {
@@ -4192,16 +4192,16 @@
 "matcha-f1|normal|پھول": {
 "file": "bdae927900bdf4e4.mp3",
 "seconds": 0.5,
-"sim": 0.5
+"sim": 0.75
 },
 "matcha-f1|normal|پھوپھا": {
 "file": "c5ffd3759fe63bbb.mp3",
-"seconds": 0.66,
-"sim": 0.67
+"seconds": 0.71,
+"sim": 0.83
 },
 "matcha-f1|normal|پھپھو": {
 "file": "2c6a9fef0999a1fe.mp3",
-"seconds": 0.64,
+"seconds": 0.68,
 "sim": 0.6
 },
 "matcha-f1|normal|پہلے": {
@@ -4311,8 +4311,8 @@
 },
 "matcha-f1|normal|چل ہٹ!": {
 "file": "ea4c29db279978e5.mp3",
-"seconds": 0.64,
-"sim": 0.6
+"seconds": 0.75,
+"sim": 1.0
 },
 "matcha-f1|normal|چلو!": {
 "file": "3bc4e3877125d566.mp3",
@@ -4376,13 +4376,13 @@
 },
 "matcha-f1|normal|چچی": {
 "file": "2f08cd893273e685.mp3",
-"seconds": 0.57,
-"sim": 0.25
+"seconds": 0.69,
+"sim": 0.5
 },
 "matcha-f1|normal|چھ": {
 "file": "c4d1e98604435bb5.mp3",
-"seconds": 0.41,
-"sim": 0.5
+"seconds": 0.57,
+"sim": 0.67
 },
 "matcha-f1|normal|چھتری لے لو۔ لگتا ہے بارش ہو گی": {
 "file": "f1c9a5b28183eb32.mp3",
@@ -4511,7 +4511,7 @@
 },
 "matcha-f1|normal|کب؟": {
 "file": "a7cce554841f2284.mp3",
-"seconds": 0.47,
+"seconds": 0.38,
 "sim": 0.67
 },
 "matcha-f1|normal|کتنا کرایہ؟": {
@@ -4562,7 +4562,7 @@
 "matcha-f1|normal|کل": {
 "file": "ba44c10cba78b5ee.mp3",
 "seconds": 0.47,
-"sim": 0.67
+"sim": 1.0
 },
 "matcha-f1|normal|کل بارش کا امکان ہے": {
 "file": "b6cf8e5154bed16c.mp3",
@@ -4576,8 +4576,8 @@
 },
 "matcha-f1|normal|کمی": {
 "file": "ddd909229b726c34.mp3",
-"seconds": 0.58,
-"sim": 0.75
+"seconds": 0.59,
+"sim": 1.0
 },
 "matcha-f1|normal|کمی؟ سچ میں؟": {
 "file": "eb3b94f9b3bf5043.mp3",
@@ -4761,7 +4761,7 @@
 },
 "matcha-f1|normal|کیا؟!": {
 "file": "e7eff69433a6631d.mp3",
-"seconds": 0.45,
+"seconds": 0.5,
 "sim": 0.75
 },
 "matcha-f1|normal|کیسے؟": {
@@ -4811,8 +4811,8 @@
 },
 "matcha-f1|normal|گل": {
 "file": "aeced39663898080.mp3",
-"seconds": 0.57,
-"sim": 0.5
+"seconds": 0.47,
+"sim": 0.67
 },
 "matcha-f1|normal|گوشت": {
 "file": "b671cd53e80cb391.mp3",
@@ -4821,8 +4821,8 @@
 },
 "matcha-f1|normal|گُل": {
 "file": "30d202f614deb726.mp3",
-"seconds": 0.57,
-"sim": 0.67
+"seconds": 0.59,
+"sim": 1.0
 },
 "matcha-f1|normal|گھر": {
 "file": "d59dacbf14515718.mp3",
@@ -4851,8 +4851,8 @@
 },
 "matcha-f1|normal|ہاں": {
 "file": "7176e200acb7c05f.mp3",
-"seconds": 0.5,
-"sim": 0.33
+"seconds": 0.43,
+"sim": 1.0
 },
 "matcha-f1|normal|ہاں نا! میری بھانجی ہے۔ میں نے ہی رشتہ کروایا!": {
 "file": "26057b6cb248766d.mp3",
@@ -4906,7 +4906,7 @@
 },
 "matcha-f1|normal|ہفتہ": {
 "file": "aba02d199de7677c.mp3",
-"seconds": 0.74,
+"seconds": 0.8,
 "sim": 0.5
 },
 "matcha-f1|normal|ہلدی والا دودھ": {
@@ -6216,7 +6216,7 @@
 },
 "matcha-f1|slow|بلکہ": {
 "file": "c17189ccc58e3fa2.mp3",
-"seconds": 1.01,
+"seconds": 0.99,
 "sim": 1.0
 },
 "matcha-f1|slow|بند": {
@@ -6416,7 +6416,7 @@
 },
 "matcha-f1|slow|بیٹھیے": {
 "file": "03f37bdcb4cc3599.mp3",
-"seconds": 1.06,
+"seconds": 1.1,
 "sim": 1.0
 },
 "matcha-f1|slow|بیٹی": {
@@ -6636,7 +6636,7 @@
 },
 "matcha-f1|slow|جناب": {
 "file": "24066a05a6cdc047.mp3",
-"seconds": 1.12,
+"seconds": 1.08,
 "sim": 1.0
 },
 "matcha-f1|slow|جنریٹر کہاں ہے؟ کوئی جنریٹر چلاؤ!": {
@@ -6746,7 +6746,7 @@
 },
 "matcha-f1|slow|جی، شکریہ۔": {
 "file": "94e925c0b9a3782a.mp3",
-"seconds": 1.47,
+"seconds": 1.43,
 "sim": 1.0
 },
 "matcha-f1|slow|جی، ضرور": {
@@ -7446,7 +7446,7 @@
 },
 "matcha-f1|slow|سحری": {
 "file": "6fc521d1f1997d89.mp3",
-"seconds": 0.95,
+"seconds": 0.97,
 "sim": 1.0
 },
 "matcha-f1|slow|سسرال": {
@@ -7516,7 +7516,7 @@
 },
 "matcha-f1|slow|سچ میں؟": {
 "file": "81cfda83e8ae22a5.mp3",
-"seconds": 1.15,
+"seconds": 1.12,
 "sim": 1.0
 },
 "matcha-f1|slow|سچ میں؟ پھر اگلے اتوار سب کے لیے تم کھانا بناؤ۔": {
@@ -7581,7 +7581,7 @@
 },
 "matcha-f1|slow|شاعر": {
 "file": "eb397e2e9b887e97.mp3",
-"seconds": 0.87,
+"seconds": 0.89,
 "sim": 1.0
 },
 "matcha-f1|slow|شاعری": {
@@ -7721,7 +7721,7 @@
 },
 "matcha-f1|slow|عدالت": {
 "file": "e587ad55fab5ba8f.mp3",
-"seconds": 0.82,
+"seconds": 0.78,
 "sim": 1.0
 },
 "matcha-f1|slow|عرض کیا ہے": {
@@ -7781,7 +7781,7 @@
 },
 "matcha-f1|slow|غزل": {
 "file": "dd83804b7fd00b40.mp3",
-"seconds": 0.85,
+"seconds": 0.87,
 "sim": 1.0
 },
 "matcha-f1|slow|غین": {
@@ -8086,7 +8086,7 @@
 },
 "matcha-f1|slow|محترمہ": {
 "file": "99c73fb103d705ec.mp3",
-"seconds": 1.36,
+"seconds": 1.33,
 "sim": 1.0
 },
 "matcha-f1|slow|مدد کیجیے!": {
@@ -8111,7 +8111,7 @@
 },
 "matcha-f1|slow|مسجد": {
 "file": "97da25870366e646.mp3",
-"seconds": 1.01,
+"seconds": 1.03,
 "sim": 1.0
 },
 "matcha-f1|slow|مسجد کہاں ہے؟": {
@@ -8176,7 +8176,7 @@
 },
 "matcha-f1|slow|ملک": {
 "file": "04259701c50f0a67.mp3",
-"seconds": 0.64,
+"seconds": 0.61,
 "sim": 1.0
 },
 "matcha-f1|slow|ممانی": {
@@ -8206,7 +8206,7 @@
 },
 "matcha-f1|slow|مکرر!": {
 "file": "2890301bb167dae1.mp3",
-"seconds": 0.89,
+"seconds": 0.87,
 "sim": 1.0
 },
 "matcha-f1|slow|مہربانی": {
@@ -9361,7 +9361,7 @@
 },
 "matcha-f1|slow|چائے": {
 "file": "fec6a5dad4ff4c78.mp3",
-"seconds": 0.82,
+"seconds": 0.8,
 "sim": 1.0
 },
 "matcha-f1|slow|چائے بہت اچھی ہے": {
@@ -9436,7 +9436,7 @@
 },
 "matcha-f1|slow|چل ہٹ!": {
 "file": "62b9799d995e6dd2.mp3",
-"seconds": 0.89,
+"seconds": 0.75,
 "sim": 1.0
 },
 "matcha-f1|slow|چلو!": {
@@ -9636,7 +9636,7 @@
 },
 "matcha-f1|slow|کب؟": {
 "file": "e503eb35678a5fdb.mp3",
-"seconds": 0.5,
+"seconds": 0.54,
 "sim": 1.0
 },
 "matcha-f1|slow|کتنا کرایہ؟": {
@@ -9876,7 +9876,7 @@
 },
 "matcha-f1|slow|کیا؟": {
 "file": "c279b8dc044baf37.mp3",
-"seconds": 0.61,
+"seconds": 0.64,
 "sim": 1.0
 },
 "matcha-f1|slow|کیا؟ اگر تم ڈاکٹر نہ ہوتے تو کیا کرتے؟": {
@@ -9936,7 +9936,7 @@
 },
 "matcha-f1|slow|گل": {
 "file": "5e0cf0d6fa8a96ef.mp3",
-"seconds": 0.72,
+"seconds": 0.74,
 "sim": 1.0
 },
 "matcha-f1|slow|گوشت": {
@@ -9946,7 +9946,7 @@
 },
 "matcha-f1|slow|گُل": {
 "file": "8de879d2a0392252.mp3",
-"seconds": 0.76,
+"seconds": 0.74,
 "sim": 1.0
 },
 "matcha-f1|slow|گھر": {
@@ -10031,7 +10031,7 @@
 },
 "matcha-f1|slow|ہفتہ": {
 "file": "b18f7acf53d5558e.mp3",
-"seconds": 1.03,
+"seconds": 1.01,
 "sim": 1.0
 },
 "matcha-f1|slow|ہلدی والا دودھ": {
@@ -10596,8 +10596,8 @@
 },
 "matcha-m1|normal|پانچ سو": {
 "file": "ff62e7f7a3a2d6bc.mp3",
-"seconds": 0.92,
-"sim": 0.5
+"seconds": 0.89,
+"sim": 0.71
 },
 "matcha-m1|normal|پنکھا بند کرو": {
 "file": "fd93b0f2e3b2c4fa.mp3",
@@ -11081,7 +11081,7 @@
 },
 "matcha-m1|slow|پانچ سو": {
 "file": "f4c7c36725d41554.mp3",
-"seconds": 1.19,
+"seconds": 1.22,
 "sim": 1.0
 },
 "matcha-m1|slow|پنکھا بند کرو": {

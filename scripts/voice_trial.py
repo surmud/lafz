@@ -17,7 +17,7 @@ from audio_audit import dist, norm  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / ".voice-trial"
-N = int(sys.argv[1]) if len(sys.argv) > 1 else 60
+N = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 60
 
 
 def load_vocos():

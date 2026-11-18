@@ -2,6 +2,7 @@
 
   .venv/bin/python scripts/generate_audio.py          # synthesise anything new, then QA
   .venv/bin/python scripts/generate_audio.py --qa     # QA only
+  .venv/bin/python scripts/generate_audio.py --improve  # also redo short clips that scored < 0.8
 
 Voice v4: Matcha-TTS Urdu (AhsanTalal/urdu-matcha-tts and -female, Apache-2.0) with the BSC Vocos
 22 kHz vocoder (Apache-2.0). A Whisper round-trip on 60 phrases scored sentences 0.93 (female) and
@@ -40,6 +41,7 @@ MALE_SPEAKERS = {"bilal", "abbu", "pervez", "bashir"}  # keep in step with src/c
 SLOW_LENGTH = 1.45
 SR_OUT = 22050
 TAKES = 4
+CARRIERS = [("یہ لفظ ", " ہے۔"), ("میں نے کہا ", "۔")]
 
 
 def tts_text(p: dict) -> str:
@@ -108,7 +110,32 @@ class Synth:
                 best_wave, best_sim = wave, sim
             if sim >= (0.8 if short else 0.9):
                 break
+        # Voice v4.1 (H23): isolated words are the weakest. Say the word inside a carrier sentence
+        # and cut it back out at Whisper's word timestamps; keep the cut only if it scores better.
+        if check and short and best_sim < 0.8:
+            for pre, post in CARRIERS:
+                cut = self.carrier_cut(text, g, pre, post, length * 1.1 / (1.2 if short else 1.0))
+                if cut is None:
+                    continue
+                sim = self.similarity(cut, text)
+                if sim > best_sim:
+                    best_wave, best_sim = cut, sim
         return best_wave, best_sim
+
+    def carrier_cut(self, text: str, g: str, pre: str, post: str, length: float):
+        import librosa
+        import mlx_whisper
+
+        wave = self.raw(pre + text + post, g, length)
+        w16 = librosa.resample(wave, orig_sr=SR_OUT, target_sr=16000).astype(np.float32)
+        r = mlx_whisper.transcribe(w16, path_or_hf_repo="mlx-community/whisper-large-v3-turbo", language="ur", word_timestamps=True, condition_on_previous_text=False)
+        words = [w for seg in r["segments"] for w in seg.get("words", [])]
+        n_pre, n_t = len(pre.split()), len(text.split())
+        if len(words) < n_pre + n_t:
+            return None
+        start, end = words[n_pre]["start"], words[n_pre + n_t - 1]["end"]
+        cut = wave[int(max(0.0, start - 0.04) * SR_OUT): int((end + 0.06) * SR_OUT)]
+        return cut if len(cut) > 2000 else None
 
 
 def wanted() -> dict[tuple[str, str], str]:
@@ -159,6 +186,10 @@ def main() -> int:
     want = wanted()
     have = lambda k: k in manifest and (OUT / manifest[k]["file"]).exists()
     todo = [(t, g) for (t, g) in want if not (have(key(t, g, "normal")) and have(key(t, g, "slow")))]
+    if "--improve" in sys.argv:
+        # Redo short clips that scored poorly before the carrier fallback existed.
+        weak_short = [(t, g) for (t, g) in want if len(t.split()) <= 2 and manifest.get(key(t, g, "normal"), {}).get("sim", 1) < 0.8 and ".l-" not in want[(t, g)]]
+        todo += [x for x in weak_short if x not in todo]
     weak = []
 
     if todo and not qa_only:
@@ -174,7 +205,8 @@ def main() -> int:
                 sims.append(sim)
                 # Trim edge silence, normalise to -1 dBFS peak, add short fades and padding.
                 w, _ = librosa.effects.trim(w, top_db=35)
-                w = w / (np.max(np.abs(w)) + 1e-9) * 0.89
+                # Short cuts overshoot after MP3 encoding, so leave them more headroom.
+                w = w / (np.max(np.abs(w)) + 1e-9) * (0.8 if len(w) < SR_OUT else 0.89)
                 fade = min(220, len(w) // 4)
                 w[:fade] *= np.linspace(0, 1, fade)
                 w[-fade:] *= np.linspace(1, 0, fade)

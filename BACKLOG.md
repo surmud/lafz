@@ -150,7 +150,7 @@ dislike about Duolingo. Fun is fine; corny is not.
 - [x] **H21 Reading mode depth:** (stories open Nastaliq-first in Read mode; reading track R6–R10 already covers signs and messages) Read mode gets "read real things": signs, menus, WhatsApp messages, headlines at advanced level.
 - [x] **H22 Weekly goal instead of daily streak pressure** (optional setting): "3 sessions this week".
 - [x] **H17 Eval pass 3** (docs/evals/2026-11-18-3.md): fixed teach walls (interleaving), conversation start label, Insights wording.
-- [ ] **H23 Weakest short-word clips** (11 below 0.6 round-trip): try a carrier sentence with Matcha, or flag for a human ear.
+- [x] **H23 Weakest short-word clips**: carrier-sentence fallback cut at Whisper word timestamps; weak short clips 57 → 30 (docs/evals/2026-11-18-voice.md). Three left for a human ear.
 - [x] **H25 Interleave check** (not needed: interleave() always flushes the remaining exercises at the end, so nothing can be dropped; covered by tests).
 - [x] **H26 More stories:** every speaking unit (u01–u19) has one: 19 stories, 133 lines.
 - [x] **H27 Story audio "play all"** with auto-advance for hands-free listening.

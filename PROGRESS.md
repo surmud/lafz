@@ -1,8 +1,27 @@
 # Progress
 
-## Status (2026-11-18)
-v2 is live: 19 speaking units (13 core + 6 advanced), 10 reading units, Speak/Read modes, Practice hub,
-Insights, Matcha voices. The v1 status below is kept for history; numbers there are v1's.
+## Status (2026-11-18, morning)
+Live at https://surmud.github.io/lafz/ (v1 is tagged `v1.0`). CI green.
+- **Two modes:** Speak (speaking course, 13 core + 6 advanced units) and Read (10 reading units +
+  stories in Nastaliq). Toggle on home.
+- **Content:** 29 units, 137 lessons, 1,170 exercises, 1,173 phrases (81 medium-confidence, mostly
+  English loanwords like TV, petrol, torch), 22 stories, 19 boss conversations, 5 prep packs.
+- **Lesson formats:** pick, type, build, match, gap, respect, speak, trace, plus the v2 formats:
+  overheard scenes, spot-the-mistake, sort, dictation. Long lessons interleave teaching and practice.
+  Memory hooks on tricky words.
+- **Practice hub:** review, trouble words, stories, shadowing, hands-free listening, "How do I say…?"
+  (on-device AI search over phrases and grammar), phrasebook, grammar guide, hard mode.
+- **Progress:** Insights (level band, six skills, 14-day chart), daily streak or weekly goal,
+  can-dos. Opt-in anonymous statistics ready but off until the founder sets up an endpoint.
+- **Audio:** Matcha-TTS Urdu (Apache-2.0), male and female voices by character, 2,200+ clips,
+  Whisper round-trip mean 0.94; short words use a carrier-sentence fallback.
+- **Tests:** 331 unit tests, 15 Playwright specs (personas, a11y light/dark, console sweep, offline,
+  v2 features), bundle budget 189.6 of 200 KB.
+
+### Needs founder
+- A free Cloudflare account to switch on user-base statistics (docs/TELEMETRY.md).
+- Family voice recordings (with consent) if we want per-character cloned voices (BACKLOG H18).
+- A human listen to the weakest clips and to question intonation (G15).
 
 ## v1 status (2026-11-16, end of day)
 **The full course is live at https://surmud.github.io/lafz/** and CI is green on `main`.
