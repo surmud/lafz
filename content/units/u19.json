@@ -2362,6 +2362,553 @@
           "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%DA%A9%D9%87%D9%86%D8%A7&searchhws=yes&matchtype=exact"
         }
       ]
+    },
+    {
+      "id": "u19.b.st-1",
+      "roman": "Suno! Taaza tareen khabar.",
+      "urdu": "سنو! تازہ ترین خبر۔",
+      "en": "Listen! The latest news.",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سننا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%86%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سننا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%86%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "تازہ",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D8%A7%D8%B2%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تازہ",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%D8%A7%D8%B2%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ترین",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D8%B1%D9%8A%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "خبر",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A8%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خبر",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A8%D8%B1#Urdu"
+        }
+      ],
+      "speaker": "abbu"
+    },
+    {
+      "id": "u19.b.st-2",
+      "roman": "Sab TV ke saamne baith gaye.",
+      "urdu": "سب ٹی وی کے سامنے بیٹھ گئے۔",
+      "en": "Everyone sat down in front of the TV.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سب",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D8%A8&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سب",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D8%A8#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "وی",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "سامنا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D8%A7%D9%85%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سامنا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D9%85%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بیٹھنا",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D9%87%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیٹھنا",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%DA%BE%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "جانا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "جانا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D9%86%D8%A7#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u19.b.st-3",
+      "roman": "Khabar yeh thi: petrol ki qeemat mein kami.",
+      "urdu": "خبر یہ تھی: پٹرول کی قیمت میں کمی۔",
+      "en": "The news was: a fall in the price of petrol.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خبر",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A8%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خبر",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A8%D8%B1#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "یہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%8C%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "تھا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تھی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%DA%BE%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "قیمت",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%82%D9%8A%D9%85%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "قیمت",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%82%DB%8C%D9%85%D8%AA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کمی",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کمی",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%85%DB%8C#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "u19.b.st-4",
+      "roman": "Kami? Sach mein?",
+      "urdu": "کمی؟ سچ میں؟",
+      "en": "A fall? Really?",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "کمی",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کمی",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%85%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "سچ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%DA%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سچ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%DA%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        }
+      ],
+      "speaker": "ammi"
+    },
+    {
+      "id": "u19.b.st-5",
+      "roman": "Haan! Do rupay ki kami.",
+      "urdu": "ہاں! دو روپے کی کمی۔",
+      "en": "Yes! Two rupees cheaper.",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ہاں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%D8%A7%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہاں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%D8%A7%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "روپے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%88%D9%BE%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "روپے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D9%BE%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کمی",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%85%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کمی",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%85%DB%8C#Urdu"
+        }
+      ],
+      "speaker": "abbu"
+    },
+    {
+      "id": "u19.b.st-6",
+      "roman": "Do rupay? Is mein to aadha samosa bhi nahin aata.",
+      "urdu": "دو روپے؟ اس میں تو آدھا سموسہ بھی نہیں آتا۔",
+      "en": "Two rupees? That won't even buy half a samosa.",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "روپے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%88%D9%BE%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "روپے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D9%BE%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%B3#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "تو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "تو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AA%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "آدھا",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D8%AF%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "آدھا",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D8%AF%DA%BE%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "سموسہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%85%D9%88%D8%B3%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سموسہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%85%D9%88%D8%B3%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بھی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%87%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بھی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DA%BE%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "آتا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D8%AA%D8%A7&searchhws=yes&matchtype=exact"
+        }
+      ],
+      "speaker": "nani"
+    },
+    {
+      "id": "u19.b.st-7",
+      "roman": "Abbu ne TV band kiya aur kaha: siyasat!",
+      "urdu": "ابو نے ٹی وی بند کیا اور کہا: سیاست!",
+      "en": "Abbu switched off the TV and said: politics!",
+      "confidence": "medium",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%A8%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ابو",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "وی",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "بند",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بند",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کیا",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کیا",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اور",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%88%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اور",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%88%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کہا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%81%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "سیاست",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%8A%D8%A7%D8%B3%D8%AA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سیاست",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA#Urdu"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -2959,5 +3506,110 @@
         "outcome": "informed"
       }
     }
+  },
+  "story": {
+    "title": "Breaking news",
+    "emoji": "📺",
+    "blurb": "Petrol prices are falling. Nani is not impressed.",
+    "lines": [
+      {
+        "phrase": "u19.b.st-1",
+        "speaker": "abbu"
+      },
+      {
+        "phrase": "u19.b.st-2"
+      },
+      {
+        "phrase": "u19.b.st-3"
+      },
+      {
+        "phrase": "u19.b.st-4",
+        "speaker": "ammi"
+      },
+      {
+        "phrase": "u19.b.st-5",
+        "speaker": "abbu"
+      },
+      {
+        "phrase": "u19.b.st-6",
+        "speaker": "nani"
+      },
+      {
+        "phrase": "u19.b.st-7"
+      }
+    ],
+    "glossary": {
+      "suno": "listen!",
+      "taaza": "fresh",
+      "tareen": "the most (taaza tareen: latest)",
+      "khabar": "news",
+      "sab": "everyone",
+      "tv": "TV",
+      "ke": "of",
+      "saamne": "in front",
+      "baith": "sit",
+      "gaye": "went (sat down)",
+      "yeh": "this",
+      "thi": "was",
+      "petrol": "petrol",
+      "ki": "of",
+      "qeemat": "price",
+      "mein": "in",
+      "kami": "decrease",
+      "sach": "truth",
+      "haan": "yes",
+      "do": "two",
+      "rupay": "rupees",
+      "is": "this",
+      "to": "(emphasis)",
+      "aadha": "half",
+      "samosa": "samosa",
+      "bhi": "even",
+      "nahin": "not",
+      "aata": "comes (here: can be bought)",
+      "abbu": "Dad",
+      "ne": "(marks who did it)",
+      "band": "closed, off",
+      "kiya": "did",
+      "aur": "and",
+      "kaha": "said",
+      "siyasat": "politics"
+    },
+    "questions": [
+      {
+        "question": "What was the news?",
+        "options": [
+          {
+            "text": "Petrol got cheaper"
+          },
+          {
+            "text": "Petrol got more expensive",
+            "feedback": "This time it's kami: a decrease."
+          },
+          {
+            "text": "The power went off",
+            "feedback": "Not today. Miracles happen."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Why isn't Nani impressed?",
+        "options": [
+          {
+            "text": "Two rupees won't buy half a samosa"
+          },
+          {
+            "text": "She doesn't drive",
+            "feedback": "True, but her point is the samosa."
+          },
+          {
+            "text": "She doesn't believe the TV",
+            "feedback": "She believes it. She just isn't impressed."
+          }
+        ],
+        "answer": 0
+      }
+    ]
   }
 }

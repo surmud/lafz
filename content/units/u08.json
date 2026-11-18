@@ -1620,12 +1620,6 @@
         },
         {
           "ref": "platts",
-          "item": "بٹ",
-          "checked": "2026-11-16",
-          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%B9&searchhws=yes&matchtype=exact"
-        },
-        {
-          "ref": "platts",
           "item": "نے",
           "checked": "2026-11-16",
           "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%DB%92&searchhws=yes&matchtype=exact"

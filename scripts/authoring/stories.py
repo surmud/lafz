@@ -156,6 +156,137 @@ STORIES.update({
    {"question": "Why does Bilal visit every week?", "options": [{"text": "Food and laundry"}, {"text": "He loves Khala's company", "feedback": "Khala knows better: two birds, one arrow."}, {"text": "Work brings him nearby", "feedback": "Khala's version: khana and kapde."}], "answer": 0}]},
 })
 
+STORIES.update({
+ "u02": {"title": "Mrs. Butt's list", "emoji": "📋", "blurb": "Mrs. Butt works out how you're related. You are not.",
+  "lines": [
+   (N, "Shaadi mein Mrs. Butt mere paas aayin.", "شادی میں مسز بٹ میرے پاس آئیں۔", "At the wedding, Mrs. Butt came over to me."),
+   ("mrs-butt", "Tum kis ke bete ho?", "تم کس کے بیٹے ہو؟", "Whose son are you?"),
+   (N, "Main Shabnam Khala ki behen ka beta hoon.", "میں شبنم خالہ کی بہن کا بیٹا ہوں۔", "I'm Shabnam Khala's sister's son."),
+   ("mrs-butt", "Achha! Tumhare Taya ki beti meri bhanji ki dost hai.", "اچھا! تمہارے تایا کی بیٹی میری بھانجی کی دوست ہے۔", "Oh! Your Taya's daughter is my niece's friend."),
+   (N, "Maine hisaab lagaya. Hum ek doosre ke kuch bhi nahin the.", "میں نے حساب لگایا۔ ہم ایک دوسرے کے کچھ بھی نہیں تھے۔", "I worked it out. We weren't related at all."),
+   ("mrs-butt", "Phir bhi, tum list mein ho.", "پھر بھی، تم لسٹ میں ہو۔", "Even so, you're on the list."),
+  ],
+  "glossary": {"shaadi": "wedding", "mein": "at, in", "mrs.": "Mrs.", "butt": "(surname)", "mere": "my", "paas": "near (mere paas: over to me)", "aayin": "came (respectful)", "tum": "you", "kis": "whom", "ke": "of", "bete": "son", "ho": "are", "main": "I", "shabnam": "(name)", "khala": "aunt (mum's sister)", "ki": "of", "behen": "sister", "ka": "of", "beta": "son", "hoon": "am", "achha": "oh, I see", "tumhare": "your", "taya": "dad's older brother", "beti": "daughter", "meri": "my", "bhanji": "niece (sister's daughter)", "dost": "friend", "hai": "is", "maine": "I (did)", "hisaab": "calculation", "lagaya": "worked out", "hum": "we", "ek": "one", "doosre": "other", "kuch": "anything", "bhi": "even", "nahin": "not", "the": "were", "phir": "even so", "list": "list"},
+  "questions": [
+   {"question": "How are you related to Mrs. Butt?", "options": [{"text": "You aren't"}, {"text": "She's your Phuppo", "feedback": "No relation at all: kuch bhi nahin."}, {"text": "Through your Taya", "feedback": "That's only her niece's friend. Not a relation."}], "answer": 0},
+   {"question": "What does she decide anyway?", "options": [{"text": "You're on the list"}, {"text": "You can go", "feedback": "Nobody gets off the list that easily."}], "answer": 0}]},
+ "u07": {"title": "The dance floor", "emoji": "💃", "blurb": "Mehndi night. You can't dance. Someone has noticed.",
+  "lines": [
+   (N, "Mehndi ki raat thi. Dholki baj rahi thi.", "مہندی کی رات تھی۔ ڈھولکی بج رہی تھی۔", "It was the mehndi night. The dholki was playing."),
+   ("khala", "Chalo, sab naacho!", "چلو، سب ناچو!", "Come on, everyone dance!"),
+   (N, "Mujhe naachna nahin aata. Main kone mein chhup gaya.", "مجھے ناچنا نہیں آتا۔ میں کونے میں چھپ گیا۔", "I can't dance. I hid in a corner."),
+   ("mrs-butt", "Beta, tum kyun nahin naach rahe?", "بیٹا، تم کیوں نہیں ناچ رہے؟", "Dear, why aren't you dancing?"),
+   (N, "Phir Nani uthin aur mera haath pakda.", "پھر نانی اٹھیں اور میرا ہاتھ پکڑا۔", "Then Nani stood up and took my hand."),
+   ("nani", "Main tumhare saath naachungi.", "میں تمہارے ساتھ ناچوں گی۔", "I'll dance with you."),
+   (N, "Hum ne naacha. Sab ne taaliyan bajayin. Nani sab se achha naachti hain.", "ہم نے ناچا۔ سب نے تالیاں بجائیں۔ نانی سب سے اچھا ناچتی ہیں۔", "We danced. Everyone clapped. Nani dances better than anyone."),
+  ],
+  "glossary": {"mehndi": "henna night", "ki": "of", "raat": "night", "thi": "was", "dholki": "small wedding drum", "baj": "play (of music)", "rahi": "(was) -ing", "chalo": "come on", "sab": "everyone", "naacho": "dance!", "mujhe": "to me", "naachna": "dancing, to dance", "nahin": "not", "aata": "comes (mujhe nahin aata: I can't)", "main": "I", "kone": "corner", "mein": "in", "chhup": "hide", "gaya": "went", "beta": "dear", "tum": "you", "kyun": "why", "naach": "dance", "rahe": "(are) -ing", "phir": "then", "nani": "Nani (mum's mum)", "uthin": "stood up (respectful)", "aur": "and", "mera": "my", "haath": "hand", "pakda": "took hold of", "tumhare": "your", "saath": "with", "naachungi": "will dance (woman)", "hum": "we", "ne": "(marks who did it)", "naacha": "danced", "taaliyan": "claps, applause", "bajayin": "played, clapped", "se": "than", "achha": "well", "naachti": "dances", "hain": "is (respectful)"},
+  "questions": [
+   {"question": "Why were you hiding?", "options": [{"text": "You can't dance"}, {"text": "Mrs. Butt was looking for you", "feedback": "She found you, but the reason was: mujhe naachna nahin aata."}, {"text": "You were eating", "feedback": "Not this time."}], "answer": 0},
+   {"question": "Who rescued you?", "options": [{"text": "Nani"}, {"text": "Khala", "feedback": "Khala started it. Nani took your hand."}, {"text": "Mrs. Butt", "feedback": "Mrs. Butt only asked questions."}], "answer": 0}]},
+ "u14": {"title": "The boss comes to tea", "emoji": "🫖", "blurb": "Abbu's boss is visiting. Best china, best Urdu. Then Bilal walks in.",
+  "lines": [
+   (N, "Aaj Abbu ke boss ghar aa rahe the. Ammi ne sab se achhe bartan nikale.", "آج ابو کے باس گھر آ رہے تھے۔ امی نے سب سے اچھے برتن نکالے۔", "Today Abbu's boss was coming to the house. Ammi brought out the best china."),
+   ("abbu", "Tashreef laiye, janab. Tashreef rakhiye.", "تشریف لائیے، جناب۔ تشریف رکھیے۔", "Please come in, sir. Please have a seat."),
+   (N, "Boss sahab ne kaha: takalluf na kijiye.", "باس صاحب نے کہا: تکلف نہ کیجیے۔", "The boss said: please, no formality."),
+   ("ammi", "Chai nosh farmaiye. Yeh samose bhi lijiye.", "چائے نوش فرمائیے۔ یہ سموسے بھی لیجیے۔", "Do have some tea. And please take a samosa."),
+   (N, "Phir Bilal andar aaya.", "پھر بلال اندر آیا۔", "Then Bilal came in."),
+   ("bilal", "Arre, Uncle! Aap yahan? Aap ki kamar ka dard kaisa hai?", "ارے، انکل! آپ یہاں؟ آپ کی کمر کا درد کیسا ہے؟", "Oh, Uncle! You're here? How's your back pain?"),
+   (N, "Boss sahab Bilal ke mareez the.", "باس صاحب بلال کے مریض تھے۔", "The boss was one of Bilal's patients."),
+   ("abbu", "Gustakhi maaf, janab. Bachche hain.", "گستاخی معاف، جناب۔ بچے ہیں۔", "Pardon him, sir. Young people."),
+  ],
+  "glossary": {"aaj": "today", "abbu": "Dad", "ke": "of ('s)", "boss": "boss", "ghar": "house, home", "aa": "come", "rahe": "(were) -ing", "the": "were", "ammi": "Mum", "ne": "(marks who did it)", "sab": "all", "se": "than (sab se: the most)", "achhe": "good", "bartan": "crockery, dishes", "nikale": "took out", "tashreef": "honour (tashreef laiye: please come)", "laiye": "bring (polite)", "janab": "sir", "rakhiye": "place (polite)", "sahab": "sir, Mr.", "kaha": "said", "takalluf": "formality", "na": "don't", "kijiye": "please do", "chai": "tea", "nosh": "partake (formal)", "farmaiye": "please do (formal)", "yeh": "these", "samose": "samosas", "bhi": "also", "lijiye": "please take", "phir": "then", "bilal": "Bilal", "andar": "inside", "aaya": "came", "arre": "oh!", "uncle": "uncle (any older man)", "aap": "you (respectful)", "yahan": "here", "ki": "of", "kamar": "lower back", "ka": "of", "dard": "pain", "kaisa": "how", "hai": "is", "mareez": "patient", "gustakhi": "rudeness", "maaf": "forgiven", "bachche": "children", "hain": "are"},
+  "questions": [
+   {"question": "Who was the guest?", "options": [{"text": "Abbu's boss"}, {"text": "A new neighbour", "feedback": "Abbu ke boss: Abbu's boss."}, {"text": "Bilal's teacher", "feedback": "Close, but the other way round."}], "answer": 0},
+   {"question": "How does Bilal know him?", "options": [{"text": "He's Bilal's patient"}, {"text": "From cricket", "feedback": "Mareez: patient. Bad back."}, {"text": "He doesn't", "feedback": "He knows exactly where it hurts."}], "answer": 0}]},
+ "u19": {"title": "Breaking news", "emoji": "📺", "blurb": "Petrol prices are falling. Nani is not impressed.",
+  "lines": [
+   ("abbu", "Suno! Taaza tareen khabar.", "سنو! تازہ ترین خبر۔", "Listen! The latest news."),
+   (N, "Sab TV ke saamne baith gaye.", "سب ٹی وی کے سامنے بیٹھ گئے۔", "Everyone sat down in front of the TV."),
+   (N, "Khabar yeh thi: petrol ki qeemat mein kami.", "خبر یہ تھی: پٹرول کی قیمت میں کمی۔", "The news was: a fall in the price of petrol."),
+   ("ammi", "Kami? Sach mein?", "کمی؟ سچ میں؟", "A fall? Really?"),
+   ("abbu", "Haan! Do rupay ki kami.", "ہاں! دو روپے کی کمی۔", "Yes! Two rupees cheaper."),
+   ("nani", "Do rupay? Is mein to aadha samosa bhi nahin aata.", "دو روپے؟ اس میں تو آدھا سموسہ بھی نہیں آتا۔", "Two rupees? That won't even buy half a samosa."),
+   (N, "Abbu ne TV band kiya aur kaha: siyasat!", "ابو نے ٹی وی بند کیا اور کہا: سیاست!", "Abbu switched off the TV and said: politics!"),
+  ],
+  "glossary": {"suno": "listen!", "taaza": "fresh", "tareen": "the most (taaza tareen: latest)", "khabar": "news", "sab": "everyone", "tv": "TV", "ke": "of", "saamne": "in front", "baith": "sit", "gaye": "went (sat down)", "yeh": "this", "thi": "was", "petrol": "petrol", "ki": "of", "qeemat": "price", "mein": "in", "kami": "decrease", "sach": "truth", "haan": "yes", "do": "two", "rupay": "rupees", "is": "this", "to": "(emphasis)", "aadha": "half", "samosa": "samosa", "bhi": "even", "nahin": "not", "aata": "comes (here: can be bought)", "abbu": "Dad", "ne": "(marks who did it)", "band": "closed, off", "kiya": "did", "aur": "and", "kaha": "said", "siyasat": "politics"},
+  "questions": [
+   {"question": "What was the news?", "options": [{"text": "Petrol got cheaper"}, {"text": "Petrol got more expensive", "feedback": "This time it's kami: a decrease."}, {"text": "The power went off", "feedback": "Not today. Miracles happen."}], "answer": 0},
+   {"question": "Why isn't Nani impressed?", "options": [{"text": "Two rupees won't buy half a samosa"}, {"text": "She doesn't drive", "feedback": "True, but her point is the samosa."}, {"text": "She doesn't believe the TV", "feedback": "She believes it. She just isn't impressed."}], "answer": 0}]},
+})
+
+STORIES.update({
+ "u04": {"title": "The six a.m. call", "emoji": "📞", "blurb": "Khala calls from Lahore. It is six in the morning in London.",
+  "lines": [
+   (N, "Subah chhe baje phone baja.", "صبح چھ بجے فون بجا۔", "At six in the morning the phone rang."),
+   ("khala", "Hello? Beta? Awaaz aa rahi hai?", "ہیلو؟ بیٹا؟ آواز آ رہی ہے؟", "Hello? Dear? Can you hear me?"),
+   (N, "Ji Khala. Aap kaisi hain? Sab khairiyat?", "جی خالہ۔ آپ کیسی ہیں؟ سب خیریت؟", "Yes, Khala. How are you? Is everything all right?"),
+   ("khala", "Haan haan, sab theek. Bas yeh poochhna tha: tum kya kha rahe ho aaj kal?", "ہاں ہاں، سب ٹھیک۔ بس یہ پوچھنا تھا: تم کیا کھا رہے ہو آج کل؟", "Yes, yes, all fine. I just wanted to ask: what are you eating these days?"),
+   (N, "Abhi to main so raha tha, Khala.", "ابھی تو میں سو رہا تھا، خالہ۔", "Right now I was sleeping, Khala."),
+   ("khala", "Achha, phir baad mein baat karte hain. Voice note bhejti hoon.", "اچھا، پھر بعد میں بات کرتے ہیں۔ وائس نوٹ بھیجتی ہوں۔", "Okay, let's talk later then. I'll send a voice note."),
+   (N, "Voice note aath minute ka tha.", "وائس نوٹ آٹھ منٹ کا تھا۔", "The voice note was eight minutes long."),
+  ],
+  "glossary": {"subah": "morning", "chhe": "six", "baje": "o'clock", "phone": "phone", "baja": "rang", "hello": "hello", "beta": "dear", "awaaz": "voice, sound", "aa": "come", "rahi": "(is) -ing", "hai": "is", "ji": "yes (polite)", "khala": "aunt (mum's sister)", "aap": "you (respectful)", "kaisi": "how (to a woman)", "hain": "are", "sab": "all, everything", "khairiyat": "well-being (sab khairiyat: all well?)", "haan": "yes", "theek": "fine", "bas": "just", "yeh": "this", "poochhna": "to ask", "tha": "was, had", "tum": "you", "kya": "what", "kha": "eat", "rahe": "(are) -ing", "ho": "are", "aaj": "today", "kal": "tomorrow (aaj kal: these days)", "abhi": "right now", "to": "(emphasis)", "main": "I", "so": "sleep", "raha": "(was) -ing", "achha": "okay", "phir": "then", "baad": "later", "mein": "in", "baat": "talk", "karte": "do", "voice": "voice", "note": "note", "bhejti": "send", "hoon": "am", "aath": "eight", "minute": "minutes", "ka": "of, long"},
+  "questions": [
+   {"question": "Why did Khala call?", "options": [{"text": "To ask what you're eating"}, {"text": "Bad news", "feedback": "Sab theek. All fine."}, {"text": "A rishta", "feedback": "Not this time. Food first."}], "answer": 0},
+   {"question": "How long was the voice note?", "options": [{"text": "Eight minutes"}, {"text": "Eight seconds", "feedback": "This is Khala. Aath minute."}, {"text": "Six minutes", "feedback": "Six was the time. The note was aath minute."}], "answer": 0}]},
+ "u09": {"title": "The family lunch", "emoji": "🩺", "blurb": "Everyone asks what you do. Bilal answers for everyone.",
+  "lines": [
+   ("nani", "Beta, aaj kal kya kar rahe ho?", "بیٹا، آج کل کیا کر رہے ہو؟", "Dear, what are you doing these days?"),
+   (N, "Main ek company mein kaam karta hoon.", "میں ایک کمپنی میں کام کرتا ہوں۔", "I work at a company."),
+   ("bilal", "Main to hospital mein hoon. Kal raat teen operation kiye.", "میں تو ہسپتال میں ہوں۔ کل رات تین آپریشن کیے۔", "I'm at the hospital, of course. Did three operations last night."),
+   ("nani", "Mashallah. Aur shauq? Kuch shauq hai?", "ماشاء اللہ۔ اور شوق؟ کچھ شوق ہے؟", "Mashallah. And hobbies? Any hobbies?"),
+   (N, "Mujhe khana pakana pasand hai.", "مجھے کھانا پکانا پسند ہے۔", "I like cooking."),
+   ("nani", "Sach mein? Phir agle Itwaar sab ke liye tum khana banao.", "سچ میں؟ پھر اگلے اتوار سب کے لیے تم کھانا بناؤ۔", "Really? Then next Sunday, you cook for everyone."),
+   (N, "Bilal ne pehli baar kuch nahin kaha.", "بلال نے پہلی بار کچھ نہیں کہا۔", "For the first time, Bilal said nothing."),
+  ],
+  "glossary": {"beta": "dear", "aaj": "today", "kal": "(aaj kal: these days); kal raat: last night", "kya": "what", "kar": "do", "rahe": "(are) -ing", "ho": "are", "main": "I", "ek": "a, one", "company": "company", "mein": "at, in", "kaam": "work", "karta": "do (man)", "hoon": "am", "to": "(emphasis)", "hospital": "hospital", "raat": "night", "teen": "three", "operation": "operations", "kiye": "did", "mashallah": "God has willed it (praise)", "aur": "and", "shauq": "hobby, passion", "kuch": "any, something", "hai": "is", "mujhe": "to me", "khana": "food", "pakana": "to cook", "pasand": "liked", "sach": "truth", "phir": "then", "agle": "next", "itwaar": "Sunday", "sab": "everyone", "ke": "of", "liye": "for", "tum": "you", "banao": "make", "bilal": "Bilal", "ne": "(marks who did it)", "pehli": "first", "baar": "time", "nahin": "not", "kaha": "said"},
+  "questions": [
+   {"question": "What is your hobby?", "options": [{"text": "Cooking"}, {"text": "Cricket", "feedback": "Khana pakana: cooking."}, {"text": "Golf", "feedback": "That's Bilal's."}], "answer": 0},
+   {"question": "What does Nani ask you to do?", "options": [{"text": "Cook for everyone next Sunday"}, {"text": "Teach Bilal to cook", "feedback": "Tempting. But: sab ke liye tum khana banao."}, {"text": "Come to lunch next week", "feedback": "You're making the lunch."}], "answer": 0}]},
+ "u11": {"title": "Who left the light on?", "emoji": "💡", "blurb": "Abbu has found a light on in an empty room. An investigation begins.",
+  "lines": [
+   ("abbu", "Yeh batti kis ne jalayi? Kamre mein to koi nahin hai!", "یہ بتی کس نے جلائی؟ کمرے میں تو کوئی نہیں ہے!", "Who turned this light on? There's nobody in the room!"),
+   (N, "Sab chup the.", "سب چپ تھے۔", "Everyone was quiet."),
+   ("abbu", "Bijli muft nahin aati. Paise darakhton par nahin ugte.", "بجلی مفت نہیں آتی۔ پیسے درختوں پر نہیں اگتے۔", "Electricity isn't free. Money doesn't grow on trees."),
+   ("ammi", "Abbu, woh aap ne hi jalayi thi. Akhbar parhne ke liye.", "ابو، وہ آپ نے ہی جلائی تھی۔ اخبار پڑھنے کے لیے۔", "Abbu, you turned it on yourself. To read the paper."),
+   (N, "Abbu ne kuch der socha.", "ابو نے کچھ دیر سوچا۔", "Abbu thought for a while."),
+   ("abbu", "Achha… to phir band kar do.", "اچھا… تو پھر بند کر دو۔", "Right… well, turn it off then."),
+  ],
+  "glossary": {"yeh": "this", "batti": "light", "kis": "who", "ne": "(marks who did it)", "jalayi": "switched on, lit", "kamre": "room", "mein": "in", "to": "(emphasis); then", "koi": "anyone", "nahin": "not", "hai": "is", "sab": "everyone", "chup": "quiet", "the": "were", "bijli": "electricity", "muft": "free", "aati": "comes", "paise": "money", "darakhton": "trees", "par": "on", "ugte": "grow", "abbu": "Dad (Ammi calls him Abbu too)", "woh": "that", "aap": "you", "hi": "yourself, the very one", "thi": "was, had", "akhbar": "newspaper", "parhne": "to read", "ke": "of", "liye": "for", "kuch": "some", "der": "time, while", "socha": "thought", "achha": "right, okay", "phir": "then", "band": "off, closed", "kar": "do", "do": "(do it for me)"},
+  "questions": [
+   {"question": "Who turned the light on?", "options": [{"text": "Abbu himself"}, {"text": "Bilal", "feedback": "For once, not Bilal: aap ne hi jalayi thi."}, {"text": "Nobody knows", "feedback": "Ammi knows."}], "answer": 0},
+   {"question": "Why did he turn it on?", "options": [{"text": "To read the newspaper"}, {"text": "To look for the remote", "feedback": "Akhbar parhne ke liye: to read the paper."}, {"text": "By accident", "feedback": "On purpose. For the paper."}], "answer": 0}]},
+ "u16": {"title": "Lahore or Karachi?", "emoji": "⚖️", "blurb": "The oldest argument in Pakistan, at dinner, with evidence.",
+  "lines": [
+   ("khala", "Mere khayal mein Lahore sab se achha shehar hai.", "میرے خیال میں لاہور سب سے اچھا شہر ہے۔", "In my opinion, Lahore is the best city."),
+   ("ammi", "Main ittefaq nahin karti. Karachi mein samandar hai.", "میں اتفاق نہیں کرتی۔ کراچی میں سمندر ہے۔", "I don't agree. Karachi has the sea."),
+   ("khala", "Samandar to hai, lekin Lahore ka khana!", "سمندر تو ہے، لیکن لاہور کا کھانا!", "The sea, yes, but Lahore's food!"),
+   ("abbu", "Asal mein dono achhe hain.", "اصل میں دونوں اچھے ہیں۔", "Actually, both are good."),
+   ("khala", "Aap to har baar yahi kehte hain!", "آپ تو ہر بار یہی کہتے ہیں!", "You say that every single time!"),
+   ("nani", "Bas karo. Sab se achha shehar woh hai jahan pura khandan saath ho.", "بس کرو۔ سب سے اچھا شہر وہ ہے جہاں پورا خاندان ساتھ ہو۔", "Enough. The best city is wherever the whole family is together."),
+   (N, "Is baat se sab ne ittefaq kiya.", "اس بات سے سب نے اتفاق کیا۔", "On that, everyone agreed."),
+  ],
+  "glossary": {"mere": "my", "khayal": "opinion, thought", "mein": "in", "lahore": "Lahore", "sab": "all, everyone", "se": "than, with", "achha": "good, best (sab se achha)", "shehar": "city", "hai": "is", "main": "I", "ittefaq": "agreement", "nahin": "not", "karti": "do (woman)", "karachi": "Karachi", "samandar": "sea", "to": "(concedes: yes, but)", "lekin": "but", "ka": "of, 's", "khana": "food", "asal": "actual (asal mein: actually)", "dono": "both", "achhe": "good", "hain": "are", "aap": "you", "har": "every", "baar": "time", "yahi": "this very thing", "kehte": "say", "bas": "enough", "karo": "do", "woh": "that", "jahan": "where", "pura": "whole", "khandan": "family", "saath": "together", "ho": "is (may be)", "is": "this", "baat": "point, thing said", "ne": "(marks who did it)", "kiya": "did"},
+  "questions": [
+   {"question": "What is Ammi's argument for Karachi?", "options": [{"text": "It has the sea"}, {"text": "The food", "feedback": "That's Khala's argument for Lahore."}, {"text": "It's bigger", "feedback": "She said samandar: the sea."}], "answer": 0},
+   {"question": "What does everyone agree on?", "options": [{"text": "The best city is where the family is together"}, {"text": "Lahore is best", "feedback": "Khala wishes. Nani settled it differently."}, {"text": "Both cities are good", "feedback": "That was Abbu's line, and nobody accepted it."}], "answer": 0}]},
+ "u18": {"title": "Abbu's first ghazal", "emoji": "🕯️", "blurb": "Abbu has written a ghazal. The family mushaira is mandatory.",
+  "lines": [
+   ("abbu", "Arz kiya hai…", "عرض کیا ہے…", "I submit…"),
+   ("khala", "Irshad, irshad!", "ارشاد، ارشاد!", "Go on, go on!"),
+   ("abbu", "Bijli gayi, pankha ruka, garmi ne kiya hai haal bura.", "بجلی گئی، پنکھا رکا، گرمی نے کیا ہے حال برا۔", "The power went, the fan stopped, the heat has left me in a bad way."),
+   (N, "Sab chup rahe.", "سب چپ رہے۔", "Everyone stayed silent."),
+   ("nani", "Wah wah… Ghalib ko bata doon?", "واہ واہ… غالب کو بتا دوں؟", "Bravo… shall I tell Ghalib?"),
+   ("abbu", "Haan, zaroor. Aur mukarrar bhi kaho.", "ہاں، ضرور۔ اور مکرر بھی کہو۔", "Yes, do. And say 'encore' too."),
+   (N, "Kisi ne mukarrar nahin kaha.", "کسی نے مکرر نہیں کہا۔", "Nobody said encore."),
+  ],
+  "glossary": {"arz": "humble submission", "kiya": "made (arz kiya hai: I submit)", "hai": "is, has", "irshad": "go on, recite!", "bijli": "electricity", "gayi": "went", "pankha": "fan", "ruka": "stopped", "garmi": "heat", "ne": "(marks who did it)", "haal": "condition, state", "bura": "bad", "sab": "everyone", "chup": "silent", "rahe": "stayed", "wah": "bravo", "ghalib": "Ghalib, the poet", "ko": "to", "bata": "tell", "doon": "shall I", "haan": "yes", "zaroor": "certainly", "aur": "and", "mukarrar": "encore, again!", "bhi": "also", "kaho": "say", "kisi": "anyone", "nahin": "not", "kaha": "said"},
+  "questions": [
+   {"question": "What is Abbu's ghazal about?", "options": [{"text": "A power cut in the heat"}, {"text": "Lost love", "feedback": "Nothing so grand. Bijli gayi."}, {"text": "Ghalib", "feedback": "Nani brought Ghalib in. Sarcastically."}], "answer": 0},
+   {"question": "How did the family react?", "options": [{"text": "Polite silence, and no encore"}, {"text": "They demanded an encore", "feedback": "Kisi ne mukarrar nahin kaha."}, {"text": "They left the room", "feedback": "They stayed. Silently."}], "answer": 0}]},
+})
+
 for uid, st in STORIES.items():
     f = ROOT / "content" / "units" / f"{uid}.json"
     u = json.loads(f.read_text())

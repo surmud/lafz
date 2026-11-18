@@ -30,6 +30,10 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-18 (overnight, cont.): **Every speaking unit now has a story** (19 stories). Memory hooks
+  (pattern mnemonics: "almost every question word starts with k", "D for Dad's side") show on teach
+  cards and in the feedback after a miss. OmniVoice (per-character voices) evaluated and deferred:
+  needs licensed reference recordings (see BACKLOG H18, needs founder).
 - 2026-11-18 (overnight, cont.): Five more stories (Seven o'clock sharp, Fever and chillies, The
   missing phone, If Bilal weren't a doctor, The Eid moon): 10 units now have one. Stories got
   "Play all". "How do I say…?" also answers grammar questions by retrieving the matching grammar note
