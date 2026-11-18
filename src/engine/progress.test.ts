@@ -167,3 +167,8 @@ describe("course map", () => {
     expect(list[0]?.unitId).toBe("u01"); // speaking first, in order
   });
 });
+
+test("migrate drops relatives' names stored by older versions", () => {
+  const m = migrate({ profile: { kind: "beginner", onboarded: true, relatives: { khala: "Rubina" } } });
+  expect(m.profile).toEqual({ kind: "beginner", onboarded: true });
+});

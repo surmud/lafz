@@ -14,7 +14,6 @@ test("eval gallery 2", async ({ page }, info) => {
   await page.getByRole("button", { name: "Let's go" }).click();
   await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
-  await page.getByLabel(/Khala/).fill("Rubina");
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
   await expect(page.getByText(/Start here/)).toBeVisible();
   await page.goto("./lesson/u07-mix/");
@@ -25,8 +24,8 @@ test("eval gallery 2", async ({ page }, info) => {
     if (k === "exercise") await page.getByRole("button", { name: "Continue" }).click();
   }
   await page.goto("./boss/u04/");
-  await expect(page.locator("p", { hasText: "Rubina Khala" }).first()).toBeVisible();
-  await shot("boss-intro-personalised");
+  await expect(page.getByRole("button", { name: "Start the conversation" })).toBeVisible();
+  await shot("boss-intro");
   await page.getByRole("button", { name: "Start the conversation" }).click();
   await shot("boss-chat");
   await page.goto("./voice/u03/");

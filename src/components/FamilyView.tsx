@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Phrase, Relative } from "@/content/schema";
-import { useStore } from "@/lib/store";
 import { AskAmmiButton } from "./AskAmmi";
 import { BottomNav } from "./BottomNav";
 import { AudioButton, Nastaliq } from "./Phrase";
@@ -14,9 +13,7 @@ import { TopBar } from "./ui";
  */
 export function FamilyView({ relatives, phrases }: { relatives: Relative[]; phrases: Phrase[] }) {
   const byId = useMemo(() => new Map(phrases.map((p) => [p.id, p])), [phrases]);
-  const { progress } = useStore();
   const [open, setOpen] = useState<Relative | null>(null);
-  const names = progress.profile.relatives;
 
   if (relatives.length === 0) {
     return (
@@ -34,7 +31,6 @@ export function FamilyView({ relatives, phrases }: { relatives: Relative[]; phra
 
   const node = (r: Relative) => {
     const p = byId.get(r.phrase);
-    const custom = names[r.id];
     return (
       <button
         key={r.id}
@@ -47,7 +43,6 @@ export function FamilyView({ relatives, phrases }: { relatives: Relative[]; phra
           {r.emoji}
         </span>
         <span className="text-sm leading-tight font-bold">{p?.roman}</span>
-        {custom ? <span className="text-[11px] text-ink-soft">{custom}</span> : null}
         {p ? <Nastaliq className="text-sm leading-[2]">{p.urdu}</Nastaliq> : null}
       </button>
     );

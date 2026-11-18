@@ -7,26 +7,18 @@ import { Avatar } from "./Avatar";
 import { Nastaliq } from "./Phrase";
 import { Button, TruckStripe } from "./ui";
 
-type Step = "hello" | "who" | "names";
-
-const ROLES = [
-  { key: "khala", label: "Your mum's sister (Khala)" },
-  { key: "phuppo", label: "Your dad's sister (Phuppo)" },
-  { key: "nani", label: "Mum's mum (Nani)" },
-  { key: "dadi", label: "Dad's mum (Dadi)" },
-];
+type Step = "hello" | "who" | "ready";
 
 export function WelcomeView({ characters }: { characters: Character[] }) {
   const { update } = useStore();
   const router = useRouter();
   const [step, setStep] = useState<Step>("hello");
   const [kind, setKind] = useState<"heritage" | "beginner" | null>(null);
-  const [names, setNames] = useState<Record<string, string>>({});
 
   const finish = async (to: "placement" | "home") => {
     await update((p) => ({
       ...p,
-      profile: { ...p.profile, kind, onboarded: true, relatives: Object.fromEntries(Object.entries(names).filter(([, v]) => v.trim())) },
+      profile: { ...p.profile, kind, onboarded: true },
     }));
     if (to === "placement") router.push("/placement/");
     else router.replace("/");
@@ -78,25 +70,18 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
                 </span>
               </button>
             ))}
-            <Button block className="mt-auto" disabled={!kind} onClick={() => setStep("names")}>
+            <Button block className="mt-auto" disabled={!kind} onClick={() => setStep("ready")}>
               Next
             </Button>
           </div>
         ) : (
           <div className="flex flex-1 animate-rise flex-col gap-4">
-            <h1 className="font-display text-3xl font-bold">Family names (optional)</h1>
-            <p className="text-ink-soft">Add names and conversations will use them. Saved on this device only.</p>
-            {ROLES.map((r) => (
-              <label key={r.key} className="flex flex-col gap-1">
-                <span className="text-sm font-bold">{r.label}</span>
-                <input
-                  value={names[r.key] ?? ""}
-                  onChange={(e) => setNames((n) => ({ ...n, [r.key]: e.target.value }))}
-                  placeholder="e.g. Shabnam"
-                  className="min-h-12 rounded-2xl border-2 border-line bg-surface px-4 text-lg outline-none focus:border-primary"
-                />
-              </label>
-            ))}
+            <h1 className="font-display text-3xl font-bold">{kind === "heritage" ? "Find your level" : "Ready when you are"}</h1>
+            <p className="text-ink-soft">
+              {kind === "heritage"
+                ? "A few quick questions find where to start. Earlier units stay open for review."
+                : "Lesson 1 takes about five minutes. You can take the placement test any time."}
+            </p>
             <div className="mt-auto flex flex-col gap-3">
               {kind === "heritage" ? (
                 <>

@@ -79,19 +79,3 @@ export function useStore(): Store {
   return s;
 }
 
-/**
- * Personalisation from onboarding names (e.g. { khala: "Rubina" }). The course's own characters are
- * shown under the learner's real relatives' names where they gave them. Audio is unchanged.
- */
-export function personaliseCharacter<T extends { id: string; name: string }>(c: T, relatives: Record<string, string>): T {
-  const real = relatives[c.id]?.trim();
-  if (!real) return c;
-  if (c.id === "khala") return { ...c, name: `${real} Khala` };
-  if (c.id === "phuppo") return { ...c, name: `${real} Phuppo` };
-  return { ...c, name: `${c.name} (${real})` };
-}
-
-export function personaliseText(text: string, relatives: Record<string, string>): string {
-  const khala = relatives.khala?.trim();
-  return khala ? text.replaceAll("Shabnam Khala", `${khala} Khala`) : text;
-}

@@ -10,8 +10,7 @@ test("placement → suggested unit → Unit 1 Lesson 1 complete", async ({ page 
   await page.getByRole("button", { name: /understand some Urdu/ }).click();
   await shot("who");
   await page.getByRole("button", { name: "Next" }).click();
-  await page.getByLabel(/Khala/).fill("Shabnam");
-  await shot("names");
+  await shot("ready");
   await page.getByRole("button", { name: /Take the placement test/ }).click();
 
   await expect(page).toHaveURL(/placement/);

@@ -10,8 +10,6 @@ export interface Progress {
   profile: {
     kind: "heritage" | "beginner" | null;
     onboarded: boolean;
-    /** Optional names that personalise dialogue, e.g. { khala: "Shabnam" }. */
-    relatives: Record<string, string>;
   };
   xp: number;
   streak: StreakState;
@@ -40,7 +38,7 @@ export interface Completion {
 
 export const emptyProgress: Progress = {
   v: 1,
-  profile: { kind: null, onboarded: false, relatives: {} },
+  profile: { kind: null, onboarded: false },
   xp: 0,
   streak: emptyStreak,
   lessons: {},
@@ -152,7 +150,8 @@ export function migrate(raw: unknown): Progress {
     ...emptyProgress,
     ...r,
     v: 1,
-    profile: { ...emptyProgress.profile, ...(r.profile ?? {}) },
+    // Older saves stored relatives' real names; they are no longer used, so drop them.
+    profile: { kind: r.profile?.kind ?? null, onboarded: r.profile?.onboarded ?? false },
     streak: { ...emptyStreak, ...(r.streak ?? {}) },
     lessons: r.lessons ?? {},
     bosses: r.bosses ?? {},

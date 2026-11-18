@@ -93,7 +93,7 @@ describe("level estimate", () => {
 test("snapshot has counts and rates only", () => {
   const p: Progress = {
     ...done(emptyProgress, ["s1-l1", "s2-l1", "r1-l1", "review-2026-01-01"]),
-    profile: { kind: "heritage", onboarded: true, relatives: { khala: "Secret Name" } },
+    profile: { kind: "heritage", onboarded: true },
     seconds: 600,
     skills: { listening: { seen: 10, right: 7 }, recall: { seen: 3, right: 3 } },
     days: { "2026-01-01": { answers: 13, right: 10, seconds: 600, sessions: 3 } },
@@ -102,7 +102,6 @@ test("snapshot has counts and rates only", () => {
   const s = snapshot(units, p);
   expect(s).toMatchObject({ v: 1, kind: "heritage", lessons: 3, placedAt: 3, activeDays: 1, minutes: 10, accuracy: { listening: 0.7 }, answers: { listening: 10, recall: 3 } });
   expect(s.furthest).toEqual({ speaking: "s2-l1", reading: "r1-l1" });
-  expect(JSON.stringify(s)).not.toContain("Secret");
   expect(snapshot(units, emptyProgress)).toMatchObject({ placedAt: null, furthest: { speaking: null, reading: null } });
 });
 
