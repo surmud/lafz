@@ -26,6 +26,7 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
   const reading = units.filter((u) => u.track === "reading");
   const next = nextUp(units, progress, read ? "reading" : "speaking");
   const trouble = Object.values(progress.review).filter((r) => r.lapses > 0).length;
+  const stories = units.filter((u) => u.story).length;
   const level = levelFor(progress.xp);
   const reviewCount = buildReviewSession(progress.review, today()).length;
   const char = (id: string) => characters.find((c) => c.id === id);
@@ -140,6 +141,20 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
             </h2>
             <p className="mb-3 text-sm text-ink-soft">The alphabet first, then words, signs, messages and a short poem.</p>
             <UnitList units={reading} char={char} />
+            <Link
+              href="/stories/"
+              className="mt-3 flex items-center gap-4 rounded-3xl border-2 border-accent/60 bg-accent-soft/50 p-4 shadow-[0_3px_0_var(--line)]"
+            >
+              <span className="text-4xl" aria-hidden>
+                📚
+              </span>
+              <span>
+                <span className="block font-display text-lg font-bold">Stories to read</span>
+                <span className="block text-sm text-ink-soft">
+                  {stories} short stories in Nastaliq. Tap a line to check it, tap a word for its meaning.
+                </span>
+              </span>
+            </Link>
           </section>
         ) : (
           <>

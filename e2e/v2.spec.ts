@@ -121,6 +121,8 @@ test("a story can be heard in Speak mode and read in Read mode, with tap-a-word"
   await page.getByText("show text").click();
   await page.getByRole("button", { name: "Itwaar", exact: true }).click();
   await expect(page.getByRole("status")).toContainText("Sunday");
+  await page.getByRole("button", { name: "Nani", exact: true }).click();
+  await expect(page.getByRole("status")).toContainText("in your review deck");
   await shot("speak-mode");
   for (let i = 1; i < 8; i++) await page.getByRole("button", { name: /Next line/ }).click();
   await page.getByRole("button", { name: /Questions/ }).click();

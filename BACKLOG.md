@@ -155,4 +155,4 @@ dislike about Duolingo. Fun is fine; corny is not.
 - [x] **H26 More stories:** every speaking unit (u01–u19) has one: 19 stories, 133 lines.
 - [x] **H27 Story audio "play all"** with auto-advance for hands-free listening.
 - [ ] **H28 Reading-track stories:** short Nastaliq-only stories for R6–R10 (signs, a shop, a letter from Nani).
-- [ ] **H29 Story vocabulary to review:** add a tapped word's phrase (when it's a course phrase) to the review deck.
+- [x] **H29 Story vocabulary to review:** add a tapped word's phrase (when it's a course phrase) to the review deck.

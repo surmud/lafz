@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { Phrase, Story } from "@/content/schema";
 import { completeLesson } from "@/engine/progress";
+import { introduce } from "@/engine/review";
 import { storyTokens } from "@/engine/story";
 import type { XpBreakdown } from "@/engine/xp";
 import { blip, playToEnd, stopAudio } from "@/lib/audio";
@@ -20,11 +21,24 @@ type Line = { speaker?: string; phrase: Phrase };
  * A story, one line at a time. Speak mode: hear each line first, text on request. Read mode: the
  * Nastaliq first, Roman and English on request. Any Roman word can be tapped for its meaning.
  */
-export function StoryView({ unitId, unitTitle, story, glossary }: { unitId: string; unitTitle: string; story: Omit<Story, "lines"> & { lines: Line[] }; glossary: Record<string, string> }) {
+export function StoryView({
+  unitId,
+  unitTitle,
+  story,
+  glossary,
+  wordIds,
+}: {
+  unitId: string;
+  unitTitle: string;
+  story: Omit<Story, "lines"> & { lines: Line[] };
+  glossary: Record<string, string>;
+  /** Roman word → course phrase id: tapping one of these adds it to the review deck. */
+  wordIds: Record<string, string>;
+}) {
   const { mode } = useSettings();
   const read = mode === "read";
   const cast = useCast();
-  const { update } = useStore();
+  const { update, progress } = useStore();
   const [shown, setShown] = useState(1);
   const [reveal, setReveal] = useState<Record<number, boolean>>({});
   const [word, setWord] = useState<{ line: number; i: number } | null>(null);
@@ -38,6 +52,12 @@ export function StoryView({ unitId, unitTitle, story, glossary }: { unitId: stri
   // "Play all": a run id, so tapping again (or leaving) stops the loop.
   const run = useRef(0);
   const [playingAll, setPlayingAll] = useState(false);
+  const tapWord = (line: number, i: number, key: string) => {
+    if (word?.line === line && word.i === i) return setWord(null);
+    setWord({ line, i });
+    const id = wordIds[key];
+    if (id && !progress.review[id]) void update((p) => ({ ...p, review: introduce(p.review, [id], today()) }));
+  };
 
   const say = (i: number) => {
     const l = story.lines[i];
@@ -216,7 +236,7 @@ export function StoryView({ unitId, unitTitle, story, glossary }: { unitId: stri
                         <button
                           key={j}
                           type="button"
-                          onClick={() => setWord(word?.line === i && word.i === j ? null : { line: i, i: j })}
+                          onClick={() => tapWord(i, j, t.key)}
                           className={`rounded px-0.5 underline decoration-dotted decoration-ink-soft/50 underline-offset-4 ${word?.line === i && word.i === j ? "bg-accent-soft" : ""}`}
                         >
                           {t.text}
@@ -232,6 +252,7 @@ export function StoryView({ unitId, unitTitle, story, glossary }: { unitId: stri
                 {word?.line === i && open ? (
                   <p className="mt-1 rounded-xl bg-accent-soft px-2 py-1 text-sm not-italic" role="status">
                     <strong>{tokens[word.i]?.text.replace(/[^\p{L}'-]/gu, "")}</strong>: {tokens[word.i]?.gloss ?? "no note for this word yet"}
+                    {wordIds[tokens[word.i]?.key ?? ""] ? <span className="text-ink-soft"> · in your review deck</span> : null}
                   </p>
                 ) : null}
                 {open ? <p className="mt-1 text-sm text-ink-soft not-italic">{l.phrase.en}</p> : null}
