@@ -165,13 +165,13 @@ export function MeView({ units }: { units: UnitMeta[] }) {
             value={settings.weeklyGoal === null ? "streak" : String(settings.weeklyGoal)}
             options={[
               { v: "streak", l: "Daily" },
-              { v: "3", l: "3 a week" },
-              { v: "5", l: "5 a week" },
+              { v: "3", l: "3 days" },
+              { v: "5", l: "5 days" },
             ]}
             onChange={(v) => setSettings({ weeklyGoal: v === "streak" ? null : Number(v) })}
           />
           <p className="-mt-1 text-sm text-ink-soft">
-            Prefer not to count days in a row? A weekly goal only asks for a few days each week, any days you like.
+            Daily keeps a streak. 3 or 5 days is a weekly goal instead: any days you like, no counting days in a row.
           </p>
         </section>
 
@@ -260,7 +260,7 @@ function Segmented({
             role="radio"
             aria-checked={value === o.v}
             onClick={() => onChange(o.v)}
-            className={`min-h-10 rounded-full px-3 text-sm font-bold ${value === o.v ? "bg-surface text-ink shadow" : "text-ink-soft"}`}
+            className={`min-h-10 rounded-full px-3 text-sm font-bold whitespace-nowrap ${value === o.v ? "bg-surface text-ink shadow" : "text-ink-soft"}`}
           >
             {o.l}
           </button>

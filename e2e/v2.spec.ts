@@ -146,7 +146,7 @@ test("a story can be heard in Speak mode and read in Read mode, with tap-a-word"
 test("weekly goal replaces the streak badge", async ({ page }) => {
   await onboard(page);
   await page.goto("./me/");
-  await page.getByRole("radio", { name: "3 a week" }).click();
+  await page.getByRole("radio", { name: "3 days" }).click();
   await page.goto("./lesson/u01-l1/");
   await finishLesson(page);
   await page.goto("./");
