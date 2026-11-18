@@ -1,6 +1,6 @@
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test, type Page } from "@playwright/test";
-import { answerStep, freshStart } from "./helpers";
+import { answerStep, freshStart, skipAccount } from "./helpers";
 
 // WCAG 2.2 AA pass (I6): axe on every main screen (WCAG 2.0/2.1/2.2 A+AA rules, incl. 2.5.8 target
 // size), a keyboard-only lesson, 200% text zoom at 375px, and prefers-reduced-motion.
@@ -16,6 +16,7 @@ async function onboard(page: Page) {
   await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await skipAccount(page);
   await page.getByText(/Start here/).waitFor();
 }
 
@@ -40,6 +41,7 @@ for (const theme of ["light", "dark"] as const) {
     await page.getByRole("button", { name: "Next" }).click();
     await scan("welcome-ready");
     await page.getByRole("button", { name: /Start lesson 1/ }).click();
+    await skipAccount(page);
     await page.getByText(/Start here/).waitFor();
     for (const s of SCREENS) {
       await page.goto(`./${s}`);

@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { shooter } from "./helpers";
+import { shooter, skipAccount } from "./helpers";
 
 for (const theme of ["light", "dark"] as const) {
   test(`key screens render (${theme})`, async ({ page }, info) => {
@@ -15,6 +15,7 @@ for (const theme of ["light", "dark"] as const) {
     await page.getByRole("button", { name: /new to Urdu/ }).click();
     await page.getByRole("button", { name: "Next" }).click();
     await page.getByRole("button", { name: /Start lesson 1/ }).click();
+    await skipAccount(page);
     await expect(page.getByText(/Start here/)).toBeVisible();
     await shot("home");
     await page.goto("./unit/u01/");

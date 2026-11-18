@@ -1,10 +1,10 @@
 import { expect, test } from "@playwright/test";
-import { answerStep, freshStart, shooter } from "./helpers";
+import { answerStep, buildConfig, freshStart, shooter, skipAccount } from "./helpers";
 
 // Features behind founder config. These run only against a build made with the variable set,
 // e.g. NEXT_PUBLIC_CHAI_URL=https://buy.stripe.com/test npm run build && CHAI=1 npx playwright test e2e/flags.spec.ts
 test("chai: Me row, and one dismissible card after five lessons", async ({ page }, info) => {
-  test.skip(!process.env.CHAI, "build without NEXT_PUBLIC_CHAI_URL");
+  test.skip(!buildConfig("NEXT_PUBLIC_CHAI_URL"), "build without NEXT_PUBLIC_CHAI_URL");
   test.skip(info.project.name !== "iphone");
   const shot = shooter(page, "flags", info.project.name);
   await freshStart(page);
@@ -12,6 +12,7 @@ test("chai: Me row, and one dismissible card after five lessons", async ({ page 
   await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await skipAccount(page);
   await page.getByText(/Start here/).waitFor();
   await page.goto("./me/");
   await expect(page.getByRole("link", { name: /Buy me a chai/ })).toHaveAttribute("target", "_blank");
@@ -33,7 +34,7 @@ test("chai: Me row, and one dismissible card after five lessons", async ({ page 
 });
 
 test("accounts: optional sign-in step at the end of onboarding, skip works, Me shows sign-in", async ({ page }, info) => {
-  test.skip(!process.env.SUPA, "build without NEXT_PUBLIC_SUPABASE_URL");
+  test.skip(!buildConfig("NEXT_PUBLIC_SUPABASE_ANON_KEY"), "build without Supabase config");
   test.skip(info.project.name !== "iphone");
   const shot = shooter(page, "flags", info.project.name);
   await freshStart(page);
@@ -49,4 +50,25 @@ test("accounts: optional sign-in step at the end of onboarding, skip works, Me s
   await page.goto("./me/");
   await expect(page.getByRole("heading", { name: "Account" })).toBeVisible();
   await expect(page.getByRole("button", { name: /Sign in with Google/ })).toBeVisible();
+});
+
+test("accounts: Google sign-in goes through Supabase to Google (stopped before any real sign-in)", async ({ page }, info) => {
+  test.skip(!buildConfig("NEXT_PUBLIC_SUPABASE_ANON_KEY"), "build without Supabase config");
+  test.skip(info.project.name !== "iphone");
+  // Never load Google's sign-in page: read where Supabase's authorize endpoint sends us, then stop.
+  let google = "";
+  await page.route("**/auth/v1/authorize**", async (route) => {
+    const res = await route.fetch({ maxRedirects: 0 });
+    google = res.headers()["location"] ?? "";
+    await route.abort();
+  });
+  await freshStart(page);
+  await page.getByRole("button", { name: "Let's go" }).click();
+  await page.getByRole("button", { name: /new to Urdu/ }).click();
+  await page.getByRole("button", { name: "Next" }).click();
+  await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await page.getByRole("button", { name: /Sign in with Google/ }).click();
+  await expect.poll(() => google, { timeout: 15_000 }).toContain("accounts.google.com");
+  const redirect = new URL(google).searchParams.get("redirect_uri") ?? "";
+  expect(redirect).toContain("tcavluxpbwchtevumvlo.supabase.co/auth/v1/callback");
 });

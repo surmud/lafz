@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { answerStep, shooter } from "./helpers";
+import { answerStep, shooter, skipAccount } from "./helpers";
 
 // Offline Omar (docs/EVALS.md): first load online, download a unit, then airplane mode.
 test("offline: a downloaded unit's lesson and audio work with no network", async ({ page, context }, info) => {
@@ -15,6 +15,7 @@ test("offline: a downloaded unit's lesson and audio work with no network", async
   await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await skipAccount(page);
   await expect(page.getByText(/Start here/)).toBeVisible();
   await page.evaluate(async () => {
     await navigator.serviceWorker.ready;

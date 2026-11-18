@@ -1,5 +1,7 @@
 # Releasing Lafz to the App Store and Google Play
 
+**Priority: iOS first.** Google Play is deferred (the Android project is kept but has never been built).
+
 The mobile apps are the same static site wrapped in [Capacitor](https://capacitorjs.com) 8. Every page,
 every audio clip and the fonts are bundled, so the app works offline from first launch.
 
@@ -17,7 +19,7 @@ every audio clip and the fonts are bundled, so the app works offline from first 
 - **No tip jar.** Apple guideline 3.1.1 and Google Play's payments policy require in-app purchase for
   tips, so `NEXT_PUBLIC_NATIVE=1` hides "Buy me a chai". IAP tips are a later backlog item.
 - **No service worker or "download for offline"**: content is already in the bundle.
-- **Accounts are off until native OAuth is wired.** Google refuses OAuth inside embedded web views
+- **Accounts are off in the app until native OAuth is wired** (they're on for the web build). Google refuses OAuth inside embedded web views
   ("disallowed_useragent"). Before setting `NEXT_PUBLIC_NATIVE_AUTH=1`: open the Supabase OAuth URL with
   `@capacitor/browser`, register the `app.lafz://auth` deep link (iOS URL type, Android intent filter),
   add it to Supabase's redirect URLs, and finish the session from the deep link with
@@ -38,7 +40,12 @@ safe areas correct and content loading offline. Note: this simulator runtime dra
 a "?" box, in Safari and other sites too. That's a simulator issue, not the app; check emoji on a real device.
 
 ## iOS: TestFlight → App Store
-1. **Apple Developer Program** ($99/year) in the founder's name or company. Note the Team ID.
+1. **Apple Developer Program**: enrolled. Note the Team ID (developer.apple.com, top right).
+   Pre-checked: a Release build for a generic iOS device succeeds unsigned (`xcodebuild -configuration Release
+   -sdk iphoneos CODE_SIGNING_ALLOWED=NO`), version 1.0 (build 1), iPhone only, iOS 15+,
+   `ITSAppUsesNonExemptEncryption = NO` (no export-compliance questions), microphone usage string set.
+   Capacitor 8 ships the privacy manifest for its own native code; the app adds no native code of its own
+   that uses required-reason APIs, so no app-level `PrivacyInfo.xcprivacy` is needed yet.
 2. Xcode → App target → Signing & Capabilities: choose the team, bundle id `app.lafz`, automatic signing.
 3. App Store Connect → My Apps → **+** → New App: iOS, name "Lafz", primary language English (UK or US),
    bundle id `app.lafz`, SKU `lafz-ios`.

@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { answerStep, freshStart, shooter } from "./helpers";
+import { answerStep, freshStart, shooter, skipAccount } from "./helpers";
 
 test("placement → suggested unit → Unit 1 Lesson 1 complete", async ({ page }, info) => {
   const shot = shooter(page, "mvp", info.project.name);
@@ -12,6 +12,7 @@ test("placement → suggested unit → Unit 1 Lesson 1 complete", async ({ page 
   await page.getByRole("button", { name: "Next" }).click();
   await shot("ready");
   await page.getByRole("button", { name: /Take the placement test/ }).click();
+  await skipAccount(page);
 
   await expect(page).toHaveURL(/placement/);
   let q = 0;

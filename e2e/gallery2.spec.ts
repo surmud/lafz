@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { answerStep, freshStart, shooter } from "./helpers";
+import { answerStep, freshStart, shooter, skipAccount } from "./helpers";
 
 test("eval gallery 2", async ({ page }, info) => {
   test.skip(info.project.name !== "iphone");
@@ -15,6 +15,7 @@ test("eval gallery 2", async ({ page }, info) => {
   await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await skipAccount(page);
   await expect(page.getByText(/Start here/)).toBeVisible();
   await page.goto("./lesson/u07-mix/");
   await page.getByRole("button", { name: "Got it" }).click();

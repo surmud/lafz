@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-import { freshStart, shooter } from "./helpers";
+import { freshStart, shooter, skipAccount } from "./helpers";
 
 test("eval 4 gallery", async ({ page }, info) => {
   test.skip(info.project.name !== "iphone");
@@ -9,6 +9,7 @@ test("eval 4 gallery", async ({ page }, info) => {
   await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await skipAccount(page);
   await page.getByText(/Start here/).waitFor();
   await page.goto("./me/");
   await page.getByRole("heading", { name: "Settings" }).scrollIntoViewIfNeeded();

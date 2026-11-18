@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { answerStep, freshStart, shooter } from "./helpers";
+import { answerStep, freshStart, shooter, skipAccount } from "./helpers";
 
 // v2: Speak / Read modes, the new exercise formats, the advanced course, Practice hub and Insights.
 async function onboard(page: import("@playwright/test").Page) {
@@ -8,6 +8,7 @@ async function onboard(page: import("@playwright/test").Page) {
   await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await skipAccount(page);
   await expect(page.getByText(/Start here/)).toBeVisible();
 }
 

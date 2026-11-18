@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { answerStep, freshStart, shooter } from "./helpers";
+import { answerStep, freshStart, shooter, skipAccount } from "./helpers";
 
 // Eval pass 3: screenshots of the advanced course in both themes (not part of CI's assertions beyond completion).
 for (const theme of ["light", "dark"] as const) {
@@ -12,6 +12,7 @@ for (const theme of ["light", "dark"] as const) {
     await page.getByRole("button", { name: /new to Urdu/ }).click();
     await page.getByRole("button", { name: "Next" }).click();
     await page.getByRole("button", { name: /Start lesson 1/ }).click();
+    await skipAccount(page);
     await page.getByRole("heading", { name: "Advanced" }).scrollIntoViewIfNeeded();
     await shot("home-advanced");
     await page.goto("./lesson/u18-l2/");

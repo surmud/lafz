@@ -1,6 +1,6 @@
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
-import { answerStep, freshStart } from "./helpers";
+import { answerStep, freshStart, skipAccount } from "./helpers";
 
 // axe-core WCAG A/AA checks on key screens, in both themes (Lighthouse only covered light mode).
 for (const theme of ["light", "dark"] as const) {
@@ -12,6 +12,7 @@ for (const theme of ["light", "dark"] as const) {
     await page.getByRole("button", { name: /new to Urdu/ }).click();
     await page.getByRole("button", { name: "Next" }).click();
     await page.getByRole("button", { name: /Start lesson 1/ }).click();
+    await skipAccount(page);
     await expect(page.getByText(/Start here/)).toBeVisible();
     const report: string[] = [];
     const scan = async (label: string) => {

@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 import fs from "node:fs";
 import path from "node:path";
-import { answerStep, freshStart } from "./helpers";
+import { answerStep, freshStart, skipAccount } from "./helpers";
 
 /**
  * App Store and Play Store screenshots at the required pixel sizes. Not part of CI:
@@ -20,6 +20,7 @@ async function onboard(page: Page) {
   await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await skipAccount(page);
   await page.getByText(/Start here/).waitFor();
   await page.evaluate(() => localStorage.removeItem("lafz.e2e"));
 }

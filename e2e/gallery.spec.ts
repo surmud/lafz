@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { answerStep, freshStart, shooter } from "./helpers";
+import { answerStep, freshStart, shooter, skipAccount } from "./helpers";
 
 // Screens for the eval pass (docs/EVALS.md). One device; screenshots are reviewed by eye.
 test("eval gallery", async ({ page }, info) => {
@@ -10,6 +10,7 @@ test("eval gallery", async ({ page }, info) => {
   await page.getByRole("button", { name: /understand some Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await skipAccount(page);
   await expect(page.getByText(/Start here/)).toBeVisible();
   await page.screenshot({ path: "e2e/screenshots/eval-gallery-iphone/00-home-full.png", fullPage: true });
   await page.goto("./pack/shaadi-5-days/");

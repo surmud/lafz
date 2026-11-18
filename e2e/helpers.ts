@@ -107,3 +107,19 @@ export async function answerStep(
   await expect(page.getByRole("button", { name: "Continue" })).toBeVisible();
   return "exercise";
 }
+
+/** With accounts configured, onboarding ends on an optional "Save your progress?" step: skip it. */
+export async function skipAccount(page: Page) {
+  const skip = page.getByRole("button", { name: "Skip for now" });
+  if (await skip.waitFor({ timeout: 4000 }).then(() => true, () => false)) await skip.click();
+}
+
+/** Values from the committed public build config (.env.production). */
+export function buildConfig(name: string): string {
+  try {
+    const line = fs.readFileSync(".env.production", "utf8").split("\n").find((l) => l.startsWith(`${name}=`));
+    return line ? line.slice(name.length + 1).trim() : "";
+  } catch {
+    return "";
+  }
+}

@@ -1,11 +1,12 @@
 import { expect, test, type Page } from "@playwright/test";
-import { answerStep, freshStart, shooter } from "./helpers";
+import { answerStep, freshStart, shooter, skipAccount } from "./helpers";
 
 async function onboardBeginner(page: Page) {
   await page.getByRole("button", { name: "Let's go" }).click();
   await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await skipAccount(page);
   await expect(page.getByText(/Start here/)).toBeVisible();
 }
 
