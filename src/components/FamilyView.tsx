@@ -36,13 +36,13 @@ export function FamilyView({ relatives, phrases }: { relatives: Relative[]; phra
         key={r.id}
         type="button"
         onClick={() => setOpen(r)}
-        aria-label={`${p?.roman ?? r.id}: ${r.relation}`}
         className={`flex min-h-20 w-full flex-col items-center justify-center rounded-2xl border-2 bg-surface p-2 text-center shadow-[0_3px_0_var(--line)] transition active:translate-y-[2px] ${open?.id === r.id ? "border-primary" : "border-line"}`}
       >
         <span className="text-2xl" aria-hidden>
           {r.emoji}
         </span>
         <span className="text-sm leading-tight font-bold">{p?.roman}</span>
+        <span className="sr-only">: {r.relation}</span>
         {p ? <Nastaliq className="text-sm leading-[2]">{p.urdu}</Nastaliq> : null}
       </button>
     );

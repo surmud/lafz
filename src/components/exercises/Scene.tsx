@@ -51,7 +51,7 @@ export function SceneExercise({ ex, locked, onChange }: ExerciseProps<ResolvedSc
           const left = l.speaker === first;
           const visible = i < shown || locked;
           return (
-            <div key={i} className={`flex items-end gap-2 transition-opacity ${left ? "" : "flex-row-reverse"} ${visible ? "opacity-100" : "opacity-25"}`}>
+            <div key={i} className={`flex items-end gap-2 transition-opacity ${left ? "" : "flex-row-reverse"} ${visible ? "" : "[&_*]:text-ink-soft"}`}>
               <Avatar character={c} size="sm" talking={speaking === i} />
               <button
                 type="button"
@@ -60,7 +60,6 @@ export function SceneExercise({ ex, locked, onChange }: ExerciseProps<ResolvedSc
                   setShown((n) => Math.max(n, i + 1));
                   void playPhrase({ ...l.phrase, speaker: l.speaker });
                 }}
-                aria-label={`${c.name} says: play line ${i + 1}`}
                 className={`max-w-[78%] rounded-2xl px-3 py-2 text-left ${left ? "rounded-bl-sm bg-surface" : "rounded-br-sm bg-primary-soft"} ${speaking === i ? "ring-2 ring-primary" : ""}`}
               >
                 <span className="block text-xs font-black text-ink-soft">{c.name}</span>
@@ -72,6 +71,7 @@ export function SceneExercise({ ex, locked, onChange }: ExerciseProps<ResolvedSc
                   </span>
                 )}
                 {locked ? <span className="block text-sm text-ink-soft">{l.phrase.en}</span> : null}
+                <span className="sr-only">(play line {i + 1})</span>
               </button>
             </div>
           );

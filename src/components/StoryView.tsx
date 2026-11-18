@@ -268,7 +268,7 @@ export function StoryView({
       </main>
       <footer className="fixed inset-x-0 bottom-0 mx-auto max-w-md border-t-2 border-line bg-bg p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
         <div className="flex gap-3">
-          <Button variant="secondary" onClick={() => void playAll()} aria-label={playingAll ? "Stop playing" : "Play the whole story"}>
+          <Button variant="secondary" onClick={() => void playAll()} aria-label={playingAll ? "Pause" : "Play all"}>
             {playingAll ? "⏸" : "▶ All"}
           </Button>
           {done ? (

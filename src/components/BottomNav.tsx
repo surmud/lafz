@@ -20,7 +20,7 @@ export function BottomNav() {
             <Link
               href={it.href}
               aria-current={active(it.href) ? "page" : undefined}
-              className={`flex min-h-16 flex-col items-center justify-center gap-0.5 text-xs font-bold ${active(it.href) ? "text-primary" : "text-ink-soft"}`}
+              className={`flex min-h-16 min-w-0 flex-col items-center justify-center gap-0.5 px-0.5 text-center text-xs leading-tight font-bold [overflow-wrap:anywhere] ${active(it.href) ? "text-primary" : "text-ink-soft"}`}
             >
               <span aria-hidden className={`text-2xl transition ${active(it.href) ? "scale-110" : "grayscale-[60%]"}`}>
                 {it.icon}

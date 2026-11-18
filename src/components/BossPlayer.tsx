@@ -122,9 +122,9 @@ export function BossPlayer({
         <p className="text-sm font-black tracking-widest text-rose uppercase">Boss conversation</p>
         <h1 className="font-display text-4xl font-bold">{convo.title}</h1>
         {main ? (
-          <div className="flex items-center gap-4 rounded-3xl bg-rose-soft p-4">
+          <div className="flex flex-wrap items-center gap-4 rounded-3xl bg-rose-soft p-4">
             <Avatar character={main} size="lg" />
-            <div>
+            <div className="min-w-0 flex-1 basis-40">
               <p className="font-display text-xl font-bold">{main.name}</p>
               <p className="text-sm">{main.bio}</p>
             </div>

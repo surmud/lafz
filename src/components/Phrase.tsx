@@ -42,7 +42,7 @@ export function PhraseText({
     <span className={`flex flex-col ${alignCls} ${className}`}>
       {m !== "urdu" ? <span className={`${s.roman} font-bold leading-snug`}>{phrase.roman}</span> : null}
       {m !== "roman" ? (
-        <Nastaliq className={`${m === "both" ? sizes.sm.urdu : s.urdu} ${m === "both" ? "opacity-80" : ""} pb-1.5 leading-[2.3]`}>
+        <Nastaliq className={`${m === "both" ? sizes.sm.urdu : s.urdu} pb-1.5 leading-[2.3]`}>
           {phrase.urdu}
         </Nastaliq>
       ) : null}

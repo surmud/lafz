@@ -125,6 +125,8 @@
 [data-theme="dark"] .text-accent-deep { color: var(--accent); }
 [data-theme="dark"] .text-good-deep { color: var(--good); }
 [data-theme="dark"] .text-bad-deep { color: var(--bad); }
+/* Amber text needs to be darker than the amber used for fills to pass 4.5:1 on cream and amber-soft. */
+:root:not([data-theme="dark"]) .text-accent-deep { color: #7f5200; }
 
 html {
   background: var(--bg);
@@ -149,6 +151,18 @@ body {
     var(--primary) 28px 42px
   );
 }
+/* Decorative bits (the hero emoji) must never widen the page at large text sizes (WCAG 1.4.10 reflow). */
+html,
+body {
+  overflow-x: clip;
+}
+
+/* WCAG 2.4.7 / 2.4.13: one clear, high-contrast focus ring everywhere (keyboard only). */
+:focus-visible {
+  outline: 3px solid var(--primary-deep);
+  outline-offset: 2px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }

@@ -268,9 +268,9 @@ function Segmented({
   onChange: (v: string) => void;
 }) {
   return (
-    <div className="flex items-center justify-between gap-3">
+    <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
       <span className="font-semibold">{label}</span>
-      <div role="radiogroup" aria-label={label} className="flex rounded-full bg-surface-2 p-1">
+      <div role="radiogroup" aria-label={label} className="flex max-w-full flex-wrap rounded-3xl bg-surface-2 p-1">
         {options.map((o) => (
           <button
             key={o.v}

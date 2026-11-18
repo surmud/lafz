@@ -10,7 +10,7 @@ Everything needing a founder account ships dormant behind env/config flags.
 - [x] **I3 Optional accounts (Supabase Auth, Google).** Skippable sign-in at the end of onboarding and on Me; `user_progress` jsonb + RLS; merge on login; in-app delete account; Sign in with Apple slot behind a flag. Config `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
 - [x] **I4 Mobile release shell (Capacitor, iOS + Android).** No-basePath native build, app id, icons/splash, safe areas, Android back, mic permission strings, offline content bundled; run in simulators; store screenshots; docs/RELEASE.md.
 - [x] **I5 Legal pages and hygiene.** /privacy, /terms, /delete-account; complete credits; public-domain poets only; brand distinct from Duolingo.
-- [ ] **I6 WCAG 2.2 AA pass** on every main screen: axe, keyboard and screen-reader flows, reduced motion, 200% zoom at 375px.
+- [x] **I6 WCAG 2.2 AA pass** on every main screen: axe, keyboard and screen-reader flows, reduced motion, 200% zoom at 375px.
 - [ ] **I7 Multi-language readiness** (refactor only): LanguagePack interface, content/<lang>/, docs/ADDING_A_LANGUAGE.md.
 
 ## Phase A — Foundation
