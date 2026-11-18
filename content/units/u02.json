@@ -201,7 +201,8 @@
           "checked": "2026-11-16",
           "url": "https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%86%D8%A7#Urdu"
         }
-      ]
+      ],
+      "hook": "Nana and Nani are Mum's parents. Dad's parents are Dada and Dadi: D for Dad."
     },
     {
       "id": "u02.nani",
@@ -345,7 +346,8 @@
           "checked": "2026-11-16",
           "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D8%AF%D8%A7#Urdu"
         }
-      ]
+      ],
+      "hook": "D for Dad's side: Dada and Dadi. Mum's side are Nana and Nani."
     },
     {
       "id": "u02.dadi",
@@ -428,7 +430,8 @@
           "checked": "2026-11-16",
           "url": "https://en.wiktionary.org/wiki/%D8%AA%D8%A7%DB%8C%D8%A7#Urdu"
         }
-      ]
+      ],
+      "hook": "Dad's brothers: the older one is Taya, the younger one is Chacha. Taya Tops Chacha."
     },
     {
       "id": "u02.tai",
@@ -613,7 +616,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
         }
-      ]
+      ],
+      "hook": "mera with -a for masculine things, meri with -i for feminine ones: the same -a/-i as achha/achhi and gaya/gayi."
     },
     {
       "id": "u02.meri",

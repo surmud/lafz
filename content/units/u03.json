@@ -254,7 +254,8 @@
           "checked": "2026-11-16",
           "url": "https://en.wiktionary.org/wiki/%D9%85%D9%B9%DA%BE%D8%A7%D8%A6%DB%8C#Urdu"
         }
-      ]
+      ],
+      "hook": "From meetha, sweet. Mithai is 'sweet things'."
     },
     {
       "id": "u03.chai",
@@ -294,7 +295,8 @@
           "checked": "2026-11-16",
           "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DB%8C#Urdu"
         }
-      ]
+      ],
+      "hook": "Think of paani puri: a crisp shell you fill with spiced water."
     },
     {
       "id": "u03.cheeni",
@@ -315,7 +317,8 @@
           "checked": "2026-11-16",
           "url": "https://en.wiktionary.org/wiki/%DA%86%DB%8C%D9%86%DB%8C#Urdu"
         }
-      ]
+      ],
+      "hook": "cheeni also means 'Chinese': refined sugar once came from China."
     },
     {
       "id": "u03.mirch",

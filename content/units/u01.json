@@ -139,7 +139,8 @@
           "url": "https://en.wiktionary.org/wiki/%D8%AC%DB%8C#Urdu"
         }
       ],
-      "sense": "yes"
+      "sense": "yes",
+      "hook": "Add ji to almost anything to make it polite: ji haan, ji nahin, Khala ji."
     },
     {
       "id": "u01.aap-kaise-hain",
@@ -456,7 +457,8 @@
           "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%BE#Urdu"
         }
       ],
-      "sense": "you"
+      "sense": "you",
+      "hook": "aap, tum, tu: the longer the word, the more respect."
     },
     {
       "id": "u01.tum",

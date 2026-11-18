@@ -648,7 +648,8 @@
           "checked": "2026-11-15",
           "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%A7#Urdu"
         }
-      ]
+      ],
+      "hook": "Almost every question word starts with k: kya, kab, kahan, kaun, kyun, kaise. Hear a k at the start, expect a question."
     },
     {
       "id": "u04.kab",

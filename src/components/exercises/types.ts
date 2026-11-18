@@ -6,6 +6,8 @@ export interface ExerciseResult {
   feedback?: string;
   /** The right answer, in both scripts, shown after a miss or an "almost". */
   answer?: { roman: string; urdu?: string; en?: string };
+  /** A memory hook for the phrase, shown after a miss. */
+  hook?: string;
 }
 
 export interface ExerciseProps<T> {

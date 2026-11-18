@@ -297,7 +297,8 @@
           "checked": "2026-11-16",
           "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%DA%91%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
         }
-      ]
+      ],
+      "hook": "baayen = left, daayen = right. B comes before D, and left comes before right."
     },
     {
       "id": "u06.aahista",

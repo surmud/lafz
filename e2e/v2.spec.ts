@@ -150,3 +150,10 @@ test("weekly goal replaces the streak badge", async ({ page }) => {
   await page.goto("./");
   await expect(page.getByLabel(/Weekly goal: 1 of 3 days this week/)).toBeVisible();
 });
+
+test("memory hooks show on the teach card and after a miss", async ({ page }) => {
+  await onboard(page);
+  await page.goto("./lesson/u01-l3/");
+  await page.locator("footer").getByRole("button", { name: "Got it" }).click();
+  await expect(page.getByText(/the longer the word, the more respect/)).toBeVisible();
+});

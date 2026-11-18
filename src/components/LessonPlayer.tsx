@@ -107,7 +107,8 @@ export function LessonPlayer(props: LessonPlayerProps) {
     }
     tally.current = tallyAnswer(tally.current, skillOf(resolved), outcome !== "wrong");
     if (sound) blip(outcome === "wrong" ? "wrong" : "right");
-    setResult(r);
+    const hook = outcome === "wrong" ? targetsOf(resolved).map((id) => byId.get(id)?.hook).find(Boolean) : undefined;
+    setResult(hook ? { ...r, hook } : r);
     setState((s) => submit(s, outcome));
   };
 
@@ -248,6 +249,12 @@ function TeachView({ card, byId }: { card: TeachCard | InfoCard; byId: Map<strin
           {card.tip ?? p.note}
         </div>
       ) : null}
+      {p.hook ? (
+        <div className="rounded-2xl border-2 border-dashed border-primary/40 p-4 text-[15px] leading-relaxed">
+          <span className="font-bold">🧠 Memory hook: </span>
+          {p.hook}
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -292,6 +299,12 @@ function FeedbackSheet({
         </div>
       ) : null}
       {result.feedback && !skipped ? <p className="mt-2 text-[15px] font-semibold">{result.feedback}</p> : null}
+      {result.hook ? (
+        <p className="mt-2 text-[15px]">
+          <span className="font-bold">🧠 </span>
+          {result.hook}
+        </p>
+      ) : null}
       <Button variant={skipped ? "primary" : good ? "good" : "bad"} block className="mt-3" onClick={onNext} autoFocus>
         Continue
       </Button>
