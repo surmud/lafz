@@ -140,17 +140,17 @@ dislike about Duolingo. Fun is fine; corny is not.
 - [x] **H12 AI phrase finder.** On-device sentence embeddings: "how do I politely refuse food?" finds the
   phrase. Embeddings precomputed at build time; the query model loads on demand.
 - [x] **H13 Voice trial.** Matcha-TTS Urdu (Apache-2.0) vs MMS by Whisper round-trip; switch if better.
-- [ ] **H14 AI conversation partner (experimental).** Small on-device LLM via WebGPU, opt-in download.
+- [ ] **H14 AI conversation partner (experimental).** Small on-device LLM via WebGPU, opt-in download. Deferred: 1–3B models write unreliable Urdu, and the content rule is verified Urdu only. Needs a quality test (e.g. Qwen 2.5 3B / Gemma 3 4B scored by a human) before shipping. Meanwhile AI is used retrieval-only: the finder now answers grammar questions from vetted notes.
 - [ ] **H15 Sher of the day** on home once the poetry unit exists.
 - [x] **H16 Retrofit new formats into units 1–12** (at least one scene and one dictation per unit).
 
 - [ ] **H18 OmniVoice Urdu trial** (Apache-2.0, voice cloning): could give each character their own voice.
 - [x] **H19 Story mode (comprehensible input):** short illustrated stories per unit, tap any word for meaning, audio read-through.
 - [x] **H20 Shadowing drill:** play a line, record yourself straight after, play both back to compare.
-- [ ] **H21 Reading mode depth:** Read mode gets "read real things": signs, menus, WhatsApp messages, headlines at advanced level.
+- [x] **H21 Reading mode depth:** (stories open Nastaliq-first in Read mode; reading track R6–R10 already covers signs and messages) Read mode gets "read real things": signs, menus, WhatsApp messages, headlines at advanced level.
 - [x] **H22 Weekly goal instead of daily streak pressure** (optional setting): "3 sessions this week".
 - [x] **H17 Eval pass 3** (docs/evals/2026-11-18-3.md): fixed teach walls (interleaving), conversation start label, Insights wording.
 - [ ] **H23 Weakest short-word clips** (11 below 0.6 round-trip): try a carrier sentence with Matcha, or flag for a human ear.
 - [ ] **H25 Interleave check in content lint:** warn when a lesson has an exercise that can never become eligible before the end.
-- [ ] **H26 More stories:** one per unit (5 of 19 so far: u01, u03, u06, u10, u12), including advanced ones.
-- [ ] **H27 Story audio "play all"** with auto-advance for hands-free listening.
+- [ ] **H26 More stories:** one per unit (10 of 19 so far: u01, u03, u05, u06, u08, u10, u12, u13, u15, u17).
+- [x] **H27 Story audio "play all"** with auto-advance for hands-free listening.

@@ -787,6 +787,42 @@
    "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%A8%DA%BE%DB%8C#Urdu"
   }
  },
+ "اتر": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", adv. Here, in this place.",
+     "translit": "atra"
+    },
+    {
+     "gloss": "[S. तॄ?] part. adj. Apprized, cautioned, warned; on one's guard, &c. The word is only met with in the phrase اترجانا itar jānā, To be apprized, &c.; to suspect. (Cf. تاڙجانا tāṛ jānā.)",
+     "translit": "itar"
+    },
+    {
+     "gloss": "(v.n. of اترانا itrānā, q.v.), adj. Walking or acting affectedly; strutting; affected; playful, wanton, coquettish; giving oneself airs, pompous, ostentatious, consequential, conceited, proud, haughty, arrogant: — s.f. A",
+     "translit": "itar"
+    },
+    {
+     "gloss": "[compar. from उद्], adj. (f. -ā), & s.m. Farther; posterior; last; lofty; upper; surpassing, superior; more powerful; excellent; best; left (not right); answering; succeeding, subsequent; future; northerly: — answer, def",
+     "translit": "uttara uttar"
+    }
+   ],
+   "headword": "اتر",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%AA%D8%B1&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "northern",
+    "north",
+    "reply",
+    "answer"
+   ],
+   "headword": "اتر",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%AA%D8%B1#Urdu"
+  }
+ },
  "اترا": {
   "checked": "2026-11-16",
   "platts": {
@@ -1102,6 +1138,27 @@
    "headword": "اس",
    "translit": "is",
    "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%B3#Urdu"
+  }
+ },
+ "استعمال": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[inf. n. x of عمل 'to work, serve'], s.m. Work, operation; employment, use; practice, exercise; custom, usage, observance; fashion: — istěʻmāl rakhnā, v.n. To be in use, be current (a word, or phrase): — istěʻmal karnā",
+     "translit": "istěʻmāl"
+    }
+   ],
+   "headword": "استعمال",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D9%84&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "use, usage, utilisation, employment"
+   ],
+   "headword": "استعمال",
+   "translit": "iste'māl",
+   "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D9%84#Urdu"
   }
  },
  "اسم": {
@@ -3158,6 +3215,29 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
   }
  },
+ "بناتا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[caus. of bannā, q.v.], v.t. To make, form, fashion, shape, mould, create, prepare, get ready, manufacture, construct, compose, build, fabricate, invent, do, perform, finish, complete; to repair, mend, rectify, adjust, a",
+     "translit": "banānā"
+    }
+   ],
+   "headword": "بنانا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "to make, create, produce",
+    "to cause to be/become",
+    "to make to form/ turn into"
+   ],
+   "headword": "بنانا",
+   "translit": "bannā",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D8%A7%D9%86%D8%A7#Urdu"
+  }
+ },
  "بناتی": {
   "checked": "2026-11-17",
   "platts": {
@@ -3169,6 +3249,19 @@
    ],
    "headword": "بناتی",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D8%A7%D8%AA%D9%8A&searchhws=yes&matchtype=exact"
+  }
+ },
+ "بناتے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", adj. Woollen; made of broad-cloth.",
+     "translit": "banātī bannātī"
+    }
+   ],
+   "headword": "بناتے",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D8%A7%D8%AA%DB%92&searchhws=yes&matchtype=exact"
   }
  },
  "بنانا": {
@@ -4925,6 +5018,23 @@
    "url": "https://en.wiktionary.org/wiki/%D8%AA%DA%BE%DB%8C#Urdu"
   }
  },
+ "تھیں": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. स्था; cf. H. thāh), s.f. Ground; site; floor; surface; bottom, underneath; foundation; depth; layer, stratum; fold, plait, ply; — real meaning or intent; hidden meaning; depth of meaning, profundity, subtleness; allu",
+     "translit": "tah"
+    },
+    {
+     "gloss": ", adj. Empty, &c. = tihī, q.v.",
+     "translit": "tih"
+    }
+   ],
+   "headword": "تھ",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AA%D9%87&searchhws=yes&matchtype=exact"
+  }
+ },
  "تھے": {
   "checked": "2026-11-16",
   "platts": {
@@ -5599,6 +5709,31 @@
    "url": "https://en.wiktionary.org/wiki/%D8%AC%DB%8C#Urdu"
   }
  },
+ "جیب": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.f. The tongue ( = jībh, q.v.): — jīb-ćhilnī, s.f. A tongue-scraper.",
+     "translit": "jīb"
+    },
+    {
+     "gloss": ", s.f. The opening at the neck and bosom (of a shirt, &c.); the breast-collar (of a garment); the heart; the bosom; (the Arabs often carry things within the bosom of the shirt, &c.; and hence the word is now applied by t",
+     "translit": "jaib jeb"
+    }
+   ],
+   "headword": "جیب",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D9%8A%D8%A8&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "pocket"
+   ],
+   "headword": "جیب",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%AC%DB%8C%D8%A8#Urdu"
+  }
+ },
  "جیت": {
   "checked": "2026-11-17",
   "platts": {
@@ -5792,6 +5927,28 @@
    "headword": "حکومت",
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D8%AD%DA%A9%D9%88%D9%85%D8%AA#Urdu"
+  }
+ },
+ "حیران": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(v.n. fr. حير 'to be dazzled or confounded,' &c.), adj. In a state of confusion or perplexity perplexed, bewildered, distracted, confounded, astonished (at, -se), disturbed; harassed, plagued, worried, distressed: — ḥair",
+     "translit": "ḥairān"
+    }
+   ],
+   "headword": "حیران",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AD%D9%8A%D8%B1%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "surprised, amazed, awed, speechless, shocked",
+    "flabbergasted, perplexed, confused, confused, baffled"
+   ],
+   "headword": "حیران",
+   "translit": "sarāsīmā",
+   "url": "https://en.wiktionary.org/wiki/%D8%AD%DB%8C%D8%B1%D8%A7%D9%86#Urdu"
   }
  },
  "خالو": {
@@ -6753,6 +6910,27 @@
    "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%86#Urdu"
   }
  },
+ "دنوں": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.m. Day (of twenty-four hours); a day (of twelve hours); daytime; time; circumstances; lot, fate; — (pl.) days, period of life, age: — dinārambh (˚na+ār˚), s.m. Beginning of day, day-break, morning: — dinānt (˚na+an˚)",
+     "translit": "dina din"
+    }
+   ],
+   "headword": "دن",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%86&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "inflection of دِن"
+   ],
+   "headword": "دنوں",
+   "translit": "din",
+   "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%86%D9%88%DA%BA#Urdu"
+  }
+ },
  "دو": {
   "checked": "2026-11-16",
   "platts": {
@@ -6902,6 +7080,30 @@
    "headword": "دور",
    "translit": "dūrá",
    "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88%D8%B1#Urdu"
+  }
+ },
+ "دوسرا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Prk. दूसलिअओ = S. द्विः+सृत+कः], adj. (f. -ī), Second, another, other, next, following (day, &c.); — s.m. A second, a match, an equal, a peer; a duplicate: — dūsrā utār, s.m. (Arith.), Square root: — dūsrā ćaṛhāʼo, s.m.",
+     "translit": "dūsrā"
+    }
+   ],
+   "headword": "دوسرا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%88%D8%B3%D8%B1%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "other, another",
+    "second",
+    "copy, duplicate",
+    "alternate, replacement"
+   ],
+   "headword": "دوسرا",
+   "translit": "dūsrā",
+   "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88%D8%B3%D8%B1%D8%A7#Urdu"
   }
  },
  "دوسری": {
@@ -7089,6 +7291,19 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%87%D8%B1%DB%92&searchhws=yes&matchtype=exact"
   }
  },
+ "دھلوانے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(doub. caus. of dhonā), v.t. = dhulānā, q.v.",
+     "translit": "dhulwānā"
+    }
+   ],
+   "headword": "دھلوانا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%87%D9%84%D9%88%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  }
+ },
  "دی": {
   "checked": "2026-11-16",
   "platts": {
@@ -7157,6 +7372,19 @@
    ],
    "headword": "دیتا",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%8A%D8%AA%D8%A7&searchhws=yes&matchtype=exact"
+  }
+ },
+ "دیتی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.f. Light, radiance, splendour, brightness, brilliancy, lustre; beauty; inajesty, dignity: — dyuti-mān, adj. & s.m. (f. matī), Bright, brilliant, radiant, splendid, resplendent; dignified, majestic; — a dignified or m",
+     "translit": "dyutī"
+    }
+   ],
+   "headword": "دیتی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%8A%D8%AA%D9%8A&searchhws=yes&matchtype=exact"
   }
  },
  "دیجیے": {
@@ -7282,6 +7510,34 @@
    ],
    "headword": "دیکھو",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%8A%DA%A9%D9%87%D9%88&searchhws=yes&matchtype=exact"
+  }
+ },
+ "دیکھیے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[dekh˚ = देक्ख(इ) = S. द्रक्ष्य(ति), the future of rt. दृश् (used in the sense of the present)], v.t. To see, look, look at, behold, view, observe, perceive, inspect, mark, note, consider, look to, weigh well, examine, p",
+     "translit": "dekhnā"
+    },
+    {
+     "gloss": ", v.n. = dikhnā, and disnā, q.v.: — dīkh-paṛnā, and dīkh-jānā, v.n. = dīkhnā.",
+     "translit": "dīkhnā"
+    }
+   ],
+   "headword": "دیکھنا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%8A%DA%A9%D9%87%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "to look, see, watch",
+    "to consider, ponder",
+    "to look after, care of",
+    "to expect, see, anticipate"
+   ],
+   "headword": "دیکھنا",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%AF%DB%8C%DA%A9%DA%BE%D9%86%D8%A7#Urdu"
   }
  },
  "دیں": {
@@ -8967,6 +9223,19 @@
    "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%88%D8%AA%DB%92#Urdu"
   }
  },
+ "سوچا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.f. A piercing; making signs, gesticulation; spying out, seeing, sight.",
+     "translit": "sūćā"
+    }
+   ],
+   "headword": "سوچا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%88%DA%86%D8%A7&searchhws=yes&matchtype=exact"
+  }
+ },
  "سویا": {
   "checked": "2026-11-17",
   "platts": {
@@ -9692,6 +9961,9 @@
    "url": "https://en.wiktionary.org/wiki/%D8%B4%DB%8C%D8%B1#Urdu"
   }
  },
+ "شیف": {
+  "checked": "2026-11-17"
+ },
  "شیڈنگ": {
   "checked": "2026-11-17"
  },
@@ -10157,6 +10429,30 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B9%D9%8A%D8%AF%D9%8A&searchhws=yes&matchtype=exact"
   }
  },
+ "غائب": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(act. part. of غيب 'to be or become absent,' &c.), adj. Absent; hidden, concealed, unapparant, invisible; vanished; lost; — s.m. The hidden, the invisible, the future; the Invisible Being, the Deity; — (in Gram.) the thi",
+     "translit": "g̠āʼib"
+    }
+   ],
+   "headword": "غائب",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%BA%D8%A7%D8%A6%D8%A8&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "hidden",
+    "vanished",
+    "concealed",
+    "absent"
+   ],
+   "headword": "غائب",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%BA%D8%A7%D8%A6%D8%A8#Urdu"
+  }
+ },
  "غریب": {
   "checked": "2026-11-17",
   "platts": {
@@ -10308,6 +10604,9 @@
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D9%81%D9%84%D8%A7%D8%A6%D9%B9#Urdu"
   }
+ },
+ "فلو": {
+  "checked": "2026-11-17"
  },
  "فون": {
   "checked": "2026-11-16",
@@ -10528,6 +10827,9 @@
    "url": "https://en.wiktionary.org/wiki/%D9%84%D8%A7%DB%81%D9%88%D8%B1#Urdu"
   }
  },
+ "لبرٹی": {
+  "checked": "2026-11-17"
+ },
  "لسٹ": {
   "checked": "2026-11-16"
  },
@@ -10685,6 +10987,31 @@
    ],
    "headword": "لگ",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%AF&searchhws=yes&matchtype=exact"
+  }
+ },
+ "لگا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[perf. part. of lagnā, and = Prk. लग्गिअओ or लग्गिदओ; S. लगित+कः, rt. लग्], part. (f. -ī), Attached (to, -se, or -meṅ), connected (with), joined (to); stuck; — engaged or occupied (in, -meṅ), busy (with); — scorched, bur",
+     "translit": "lagā"
+    },
+    {
+     "gloss": "(past conj. part. of lagānā), adv. or prep. Beginning (with), from; inclusive (of), &c. ( = lagā-ke, and le-kar).",
+     "translit": "lagā"
+    },
+    {
+     "gloss": "[Prk. लग्गओ; S. लग्र+कः], s.m. Attachment, affection, union, intimacy; secret connexion, a liaison; harmonious relation, &c. ( = lāg, q.v.); compatibility, consistency; similarity, resemblance; competition, rivalry (see ",
+     "translit": "laggā"
+    },
+    {
+     "gloss": ", s.m. lugṛā, q.v.",
+     "translit": "lugā"
+    }
+   ],
+   "headword": "لگا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%AF%D8%A7&searchhws=yes&matchtype=exact"
   }
  },
  "لگاؤ": {
@@ -11030,6 +11357,9 @@
    "url": "https://en.wiktionary.org/wiki/%D9%84%DB%92#Urdu"
   }
  },
+ "مارکیٹ": {
+  "checked": "2026-11-17"
+ },
  "ماشاء": {
   "checked": "2026-11-16",
   "wiktionary": {
@@ -11321,6 +11651,27 @@
  },
  "مرچ": {
   "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. मरिचं], s.f. Pepper; black pepper; — a chilli, Capsicum frutescens: — mirćeṅ-sī lagnā or lag-jānā, 'To feel as if chillies were applied,' to smart, to tingle, to burn; — to take ill or amiss: — dakhinī mirć, White pe",
+     "translit": "mirć mirać mirić marić"
+    }
+   ],
+   "headword": "مرچ",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%B1%DA%86&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "pepper (in both senses)"
+   ],
+   "headword": "مرچ",
+   "translit": "mirc",
+   "url": "https://en.wiktionary.org/wiki/%D9%85%D8%B1%DA%86#Urdu"
+  }
+ },
+ "مرچوں": {
+  "checked": "2026-11-17",
   "platts": {
    "entries": [
     {
@@ -12853,6 +13204,19 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%DA%A9%D9%84%D9%86%D8%A7&searchhws=yes&matchtype=exact"
   }
  },
+ "نکلنا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(fr. the trans. nikālnā, q.v.), v.n. To be pulled or drawn out, to be taken out; to be expressed; to be extracted; to be extricated (from, -se); — to be deduced; — to be produced; to be invented; — to be hatched (eggs); ",
+     "translit": "nikalnā"
+    }
+   ],
+   "headword": "نکلنا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%DA%A9%D9%84%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  }
+ },
  "نکلے": {
   "checked": "2026-11-16",
   "platts": {
@@ -13053,6 +13417,41 @@
  },
  "وائس": {
   "checked": "2026-11-16"
+ },
+ "وار": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[prob. S. पातः; Prk. पाडो (?)], s.m. A knock, stroke, blow; a cut, gash, wound; — attack, assault; — blame (of or for); — heavy or sore burden (of): — wār ćalānā (-par), or wār mārnā (-ko), To strike or administer a blow",
+     "translit": "wār"
+    },
+    {
+     "gloss": ", suff. = wāl = wālā, q.v.",
+     "translit": "wār"
+    },
+    {
+     "gloss": "[S. वारः], s.m. A multitude, quantity, heap; a flock, herd, troop; — time; — a day (of the week, e.g. Som-wār, 'Monday'); — a moment; time, turn; vicissitude; occasion, opportunity; — a name of Śiva; — anything which cau",
+     "translit": "wār"
+    },
+    {
+     "gloss": "[S. अवारः], s.m. The near bank (of a river, &c.), this side; — adv. On this side: — wār-pār, or wār-ā-pār, adv. On this side and on that, on both sides; through and through, right through; across; — s.m. Bounds, limits: ",
+     "translit": "wār"
+    }
+   ],
+   "headword": "وار",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D8%A7%D8%B1&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "assault, attack",
+    "a day of the week",
+    "occasion, time"
+   ],
+   "headword": "وار",
+   "translit": "vār",
+   "url": "https://en.wiktionary.org/wiki/%D9%88%D8%A7%D8%B1#Urdu"
+  }
  },
  "وارتی": {
   "checked": "2026-11-16",
@@ -13672,6 +14071,27 @@
    "headword": "پرانا",
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%D8%A7%D9%86%D8%A7#Urdu"
+  }
+ },
+ "پراٹھے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. पर, or परा+स्थः, or स्थितः], s.m. A cake made with butter or ghī, and of several layers, like pie-crust.",
+     "translit": "parāṭhā"
+    }
+   ],
+   "headword": "پراٹھا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%B1%D8%A7%D9%B9%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "paratha"
+   ],
+   "headword": "پراٹھا",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%B1%D8%A7%D9%B9%DA%BE%D8%A7#Urdu"
   }
  },
  "پرسنل": {
@@ -14408,6 +14828,19 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%86&searchhws=yes&matchtype=exact"
   }
  },
+ "پہنچے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. प्रकोष्ठ+इका; cf. pahaṅcā], s.f. An ornament worn on the wrist, a bracelet (esp. a bracelet of gold beads strung together and fastened with a clasp).",
+     "translit": "pahuṅćī pahǒṅćī"
+    }
+   ],
+   "headword": "پہنچے",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%DB%81%D9%86%DA%86%DB%92&searchhws=yes&matchtype=exact"
+  }
+ },
  "پہنیں": {
   "checked": "2026-11-16",
   "platts": {
@@ -14444,6 +14877,27 @@
    ],
    "headword": "پی",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%8A&searchhws=yes&matchtype=exact"
+  }
+ },
+ "پیا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. प्रिय+कः], adj. & s.m. Beloved, dear; — dear one, husband; sweetheart, lover ( = pī; piʼū).",
+     "translit": "piyā"
+    },
+    {
+     "gloss": "(perf. part. of pīnā), part. adj. Drunken drunk.",
+     "translit": "piyā"
+    },
+    {
+     "gloss": ", s.m. A wheel ( = pahiyā, q.v.).",
+     "translit": "paiyā"
+    }
+   ],
+   "headword": "پیا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
   }
  },
  "پیاس": {
@@ -16496,6 +16950,30 @@
    "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%85#Urdu"
   }
  },
+ "کمال": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(inf. n. of کمل 'to be complete,' &c.), s.m. Completion, conclusion; perfection; excellence; something wonderful, a wonder; punctuality; — adj. Complete, entire; perfect, consummate, very great, the greatest, exceeding, ",
+     "translit": "kamāl"
+    }
+   ],
+   "headword": "کمال",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%85%D8%A7%D9%84&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "complete",
+    "entire",
+    "perfect",
+    "excessive"
+   ],
+   "headword": "کمال",
+   "translit": "kamāl",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%85%D8%A7%D9%84#Urdu"
+  }
+ },
  "کمزور": {
   "checked": "2026-11-17",
   "wiktionary": {
@@ -16700,6 +17178,27 @@
    "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%BE#Urdu"
   }
  },
+ "کپڑے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "= H کپڙ कपड़ kapaṛ [Prk. कप्पडो, and कप्पडओ; S. कर्पटः and कर्पट+कः], s.m. Cloth; clothing, clothes, dress, habit: — kapaṛ-pot, or kapṛoṅ-kī pot, s.f. A bundle of clothes: — kapaṛ-phūl, or kapaṛ-dhūl, s.m. Tissue; gauze; ",
+     "translit": "kapṛā"
+    }
+   ],
+   "headword": "کپڑا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%BE%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "form of کَپْڑا"
+   ],
+   "headword": "کپڑے",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%BE%DA%91%DB%92#Urdu"
+  }
+ },
  "کچھ": {
   "checked": "2026-11-16",
   "platts": {
@@ -16819,6 +17318,30 @@
    ],
    "headword": "کھانا",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "to eat",
+    "to take",
+    "food, meal",
+    "(Deccan) cooked rice"
+   ],
+   "headword": "کھانا",
+   "translit": "khānā",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%D8%A7%D9%86%D8%A7#Urdu"
+  }
+ },
+ "کھانے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", = H کهانئين खांईं khāṅʼīṅ, s.f. = khāʼī, q.v.",
+     "translit": "khāṅʼī"
+    }
+   ],
+   "headword": "کھانے",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D8%A7%D9%86%DB%92&searchhws=yes&matchtype=exact"
   },
   "wiktionary": {
    "glosses": [
@@ -17670,6 +18193,19 @@
    "headword": "گاڑی",
    "translit": "gaḍḍī",
    "url": "https://en.wiktionary.org/wiki/%DA%AF%D8%A7%DA%91%DB%8C#Urdu"
+  }
+ },
+ "گاہک": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. ग्राहकः], s.m. (f. -ikā), Taker; seizer (e.g. jān-kā gāhak, 'one who takes or aims at life'); receiver, getter; accepter; approver, appreciator (e.g. guṇ-gāhak); — purchaser, buyer, chapman, vendor, dealer.",
+     "translit": "gāhak"
+    }
+   ],
+   "headword": "گاہک",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%D8%A7%D9%87%DA%A9&searchhws=yes&matchtype=exact"
   }
  },
  "گر": {

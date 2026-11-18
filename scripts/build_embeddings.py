@@ -42,8 +42,21 @@ def docs():
     return out
 
 
+def grammar_docs():
+    """Every unit's grammar notes, so questions like "why aati not aata" find the right note."""
+    out, notes = [], {}
+    for f in sorted(glob.glob(str(ROOT / "content/units/*.json"))):
+        u = json.loads(Path(f).read_text())
+        for i, g in enumerate(u.get("grammar", [])):
+            gid = f"g:{u['id']}:{i}"
+            notes[gid] = {"unit": u["id"], "unitTitle": u["title"], "title": g["title"], "body": g["body"]}
+            out.append((gid, f"{g['title']}. {g['body']}"))
+    return out, notes
+
+
 def main():
-    items = docs()
+    gdocs, notes = grammar_docs()
+    items = docs() + gdocs
     tok = AutoTokenizer.from_pretrained(MODEL)
     model = AutoModel.from_pretrained(MODEL).eval()
     vecs = []
@@ -58,7 +71,7 @@ def main():
     out = ROOT / "public" / "ai"
     out.mkdir(parents=True, exist_ok=True)
     (out / "phrases.bin").write_bytes(mat.tobytes())
-    (out / "phrases.json").write_text(json.dumps({"model": MODEL, "dim": int(mat.shape[1]), "ids": [i for i, _ in items], "text": [t for _, t in items]}, ensure_ascii=False) + "\n")
+    (out / "phrases.json").write_text(json.dumps({"model": MODEL, "dim": int(mat.shape[1]), "ids": [i for i, _ in items], "text": [t for _, t in items], "notes": notes}, ensure_ascii=False) + "\n")
     print(f"{mat.shape[0]} phrases x {mat.shape[1]} dims, {mat.nbytes / 1024:.0f} KB")
 
     # Sanity: a few queries should land where a human would expect.
@@ -70,7 +83,7 @@ def main():
         top = np.argsort(-(mat.astype(np.float32) @ v))[:3]
         return [items[i][0] for i in top]
 
-    for text in ["politely refuse more food", "I am lost", "ask someone to speak slowly", "congratulate someone at a wedding", "my head hurts"]:
+    for text in ["why is it aati not aata", "how does the past tense work", "politely refuse more food", "I am lost", "ask someone to speak slowly", "congratulate someone at a wedding", "my head hurts"]:
         print(f"  {text!r} → {q(text)}")
 
 

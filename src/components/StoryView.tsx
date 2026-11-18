@@ -35,6 +35,9 @@ export function StoryView({ unitId, unitTitle, story, glossary }: { unitId: stri
   const [xp, setXp] = useState<XpBreakdown | null>(null);
   const t0 = useRef(0);
   const bottom = useRef<HTMLDivElement>(null);
+  // "Play all": a run id, so tapping again (or leaving) stops the loop.
+  const run = useRef(0);
+  const [playingAll, setPlayingAll] = useState(false);
 
   const say = (i: number) => {
     const l = story.lines[i];
@@ -42,15 +45,38 @@ export function StoryView({ unitId, unitTitle, story, glossary }: { unitId: stri
   };
   useEffect(() => {
     t0.current = Date.now();
-    return stopAudio;
+    const r = run;
+    return () => {
+      r.current++;
+      stopAudio();
+    };
   }, []);
-  // In Speak mode each new line plays as it appears.
+  // In Speak mode each new line plays as it appears (unless "Play all" is doing the playing).
   useEffect(() => {
     if (stage !== "story") return;
     bottom.current?.scrollIntoView({ behavior: "smooth", block: "end" });
-    if (!read) say(shown - 1);
+    if (!read && !playingAll) say(shown - 1);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [shown, stage]);
+
+  const playAll = async () => {
+    if (playingAll) {
+      run.current++;
+      stopAudio();
+      setPlayingAll(false);
+      return;
+    }
+    const me = ++run.current;
+    setPlayingAll(true);
+    for (let i = 0; i < story.lines.length; i++) {
+      if (run.current !== me) return;
+      const l = story.lines[i]!;
+      setShown((n) => Math.max(n, i + 1));
+      await playToEnd({ ...l.phrase, speaker: l.speaker });
+      await new Promise((r) => setTimeout(r, 450));
+    }
+    if (run.current === me) setPlayingAll(false);
+  };
 
   const finish = async (correct: number) => {
     blip("done");
@@ -219,15 +245,28 @@ export function StoryView({ unitId, unitTitle, story, glossary }: { unitId: stri
         <div ref={bottom} />
       </main>
       <footer className="fixed inset-x-0 bottom-0 mx-auto max-w-md border-t-2 border-line bg-bg p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
-        {done ? (
-          <Button block onClick={() => { stopAudio(); setStage("questions"); }}>
-            Questions →
+        <div className="flex gap-3">
+          <Button variant="secondary" onClick={() => void playAll()} aria-label={playingAll ? "Stop playing" : "Play the whole story"}>
+            {playingAll ? "⏸" : "▶ All"}
           </Button>
-        ) : (
-          <Button block onClick={() => setShown((n) => n + 1)}>
-            Next line ({shown}/{story.lines.length})
-          </Button>
-        )}
+          {done ? (
+            <Button
+              className="flex-1"
+              onClick={() => {
+                run.current++;
+                stopAudio();
+                setPlayingAll(false);
+                setStage("questions");
+              }}
+            >
+              Questions →
+            </Button>
+          ) : (
+            <Button className="flex-1" onClick={() => setShown((n) => n + 1)} disabled={playingAll}>
+              Next line ({shown}/{story.lines.length})
+            </Button>
+          )}
+        </div>
       </footer>
     </>
   );

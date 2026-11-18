@@ -18,7 +18,7 @@ export function PracticeView() {
     { href: "/stories/", icon: "📚", title: "Stories", sub: "Short stories to listen to or read, word by word" },
     { href: "/shadow/", icon: "🪞", title: "Shadowing", sub: "Hear it, say it straight back, compare" },
     { href: "/listen/", icon: "🎧", title: "Listening mode", sub: "Hands-free: hear it, say it, hear it again" },
-    { href: "/find/", icon: "🔎", title: "How do I say…?", sub: "Describe the situation, find the phrase" },
+    { href: "/find/", icon: "🔎", title: "How do I say…?", sub: "Describe a situation or ask a grammar question" },
     { href: "/phrasebook/", icon: "📖", title: "Phrasebook", sub: "Every phrase, with audio" },
     { href: "/grammar/", icon: "🧩", title: "Grammar guide", sub: "Every grammar note in one place" },
     { href: "/read/", icon: "📜", title: "Alphabet and reading", sub: "The reading course and letter chart" },

@@ -30,6 +30,11 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-18 (overnight, cont.): Five more stories (Seven o'clock sharp, Fever and chillies, The
+  missing phone, If Bilal weren't a doctor, The Eid moon): 10 units now have one. Stories got
+  "Play all". "How do I say…?" also answers grammar questions by retrieving the matching grammar note
+  ("why aati not aata?" → the aana note). Decision on an on-device chat LLM (H14): not shipped, because
+  small models can't be trusted to write correct Urdu; AI stays retrieval-only for now.
 - 2026-11-18 (overnight, cont.): **Stories** (H19): five short stories (new neighbour, Nani's table,
   first rickshaw, moon night, the power cut). Speak mode plays each line first; Read mode shows the
   Nastaliq first. Tap any word for its meaning; two comprehension questions; counts toward listening

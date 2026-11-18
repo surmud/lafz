@@ -84,6 +84,78 @@ STORIES = {
    {"question": "Who switched on the first torch?", "options": [{"text": "Bilal"}, {"text": "Khala", "feedback": "Khala was shouting for the generator."}, {"text": "Nani", "feedback": "Nani was busy remembering lanterns."}], "answer": 0}]},
 }
 
+STORIES.update({
+ "u05": {"title": "Seven o'clock sharp", "emoji": "⏰", "blurb": "Abbu said seven. He meant it. Ammi had other plans.",
+  "lines": [
+   ("abbu", "Kal subah saat baje nikalna hai. Saat. Sawa saat nahin.", "کل صبح سات بجے نکلنا ہے۔ سات۔ سوا سات نہیں۔", "We leave at seven tomorrow morning. Seven. Not quarter past."),
+   (N, "Agle din Abbu saadhe chhe baje gaari mein baithe the.", "اگلے دن ابو ساڑھے چھ بجے گاڑی میں بیٹھے تھے۔", "The next day Abbu was sitting in the car at half past six."),
+   (N, "Ammi saat baj kar bees minute par aayin.", "امی سات بج کر بیس منٹ پر آئیں۔", "Ammi came out at twenty past seven."),
+   ("abbu", "Bees minute der! Kya kar rahi thin?", "بیس منٹ دیر! کیا کر رہی تھیں؟", "Twenty minutes late! What were you doing?"),
+   ("ammi", "Aap ke liye parathe bana rahi thi.", "آپ کے لیے پراٹھے بنا رہی تھی۔", "Making parathas for you."),
+   (N, "Abbu chup ho gaye aur chaar parathe kha gaye.", "ابو چپ ہو گئے اور چار پراٹھے کھا گئے۔", "Abbu went quiet and ate four parathas."),
+   (N, "Hum saadhe aath baje pahunche. Sab khush the.", "ہم ساڑھے آٹھ بجے پہنچے۔ سب خوش تھے۔", "We arrived at half past eight. Everyone was happy."),
+  ],
+  "glossary": {"kal": "tomorrow (or yesterday)", "subah": "morning", "saat": "seven", "baje": "o'clock", "nikalna": "to leave, set off", "hai": "is", "sawa": "quarter past", "nahin": "not", "agle": "next", "din": "day", "saadhe": "half past", "chhe": "six", "gaari": "car", "mein": "in", "baithe": "sitting", "the": "were", "baj": "struck (the hour)", "kar": "having", "bees": "twenty", "minute": "minutes", "par": "at", "aayin": "came (respectful)", "der": "late, delay", "kya": "what", "rahi": "(was) -ing", "thin": "were (respectful, woman)", "aap": "you (respectful)", "ke": "of", "liye": "for", "parathe": "flaky flatbreads", "bana": "make", "thi": "was", "chup": "quiet", "ho": "become", "gaye": "went, became", "aur": "and", "chaar": "four", "kha": "eat", "hum": "we", "aath": "eight", "pahunche": "arrived", "sab": "everyone", "khush": "happy"},
+  "questions": [
+   {"question": "What time did Abbu want to leave?", "options": [{"text": "7:00"}, {"text": "7:15", "feedback": "Sawa saat nahin: NOT quarter past."}, {"text": "6:30", "feedback": "That's when he got in the car. Early, as always."}], "answer": 0},
+   {"question": "Why was Ammi late?", "options": [{"text": "She was making parathas for Abbu"}, {"text": "She couldn't find her keys", "feedback": "She was cooking: parathe bana rahi thi."}, {"text": "She overslept", "feedback": "She was up before him, cooking."}], "answer": 0}]},
+ "u08": {"title": "Fever and chillies", "emoji": "🌶️", "blurb": "A fever. Two diagnoses. One doctor, one Ammi.",
+  "lines": [
+   (N, "Kal mujhe bukhar tha.", "کل مجھے بخار تھا۔", "Yesterday I had a fever."),
+   ("ammi", "Zaroor nazar lagi hai. Tum shaadi mein bohat achhe lag rahe the.", "ضرور نظر لگی ہے۔ تم شادی میں بہت اچھے لگ رہے تھے۔", "It must be the evil eye. You looked too good at the wedding."),
+   ("bilal", "Khala, yeh flu hai. Dawai lo aur aaram karo.", "خالہ، یہ فلو ہے۔ دوائی لو اور آرام کرو۔", "Khala, it's flu. Take medicine and rest."),
+   ("ammi", "Dawai bhi lo. Aur main mirchein bhi waar deti hoon.", "دوائی بھی لو۔ اور میں مرچیں بھی وار دیتی ہوں۔", "Take the medicine. And I'll do the chillies as well."),
+   (N, "Maine dawai li, haldi wala doodh piya, aur so gaya.", "میں نے دوائی لی، ہلدی والا دودھ پیا، اور سو گیا۔", "I took the medicine, drank turmeric milk, and went to sleep."),
+   (N, "Subah tak bukhar utar gaya tha.", "صبح تک بخار اتر گیا تھا۔", "By morning the fever had gone."),
+   ("bilal", "Dekha? Dawai ka kamaal.", "دیکھا؟ دوائی کا کمال۔", "See? The medicine did it."),
+   ("ammi", "Nahin beta. Mirchon ka kamaal.", "نہیں بیٹا۔ مرچوں کا کمال۔", "No, dear. The chillies did it."),
+  ],
+  "glossary": {"kal": "yesterday", "mujhe": "to me", "bukhar": "fever", "tha": "was", "zaroor": "surely, must", "nazar": "the evil eye", "lagi": "struck, attached", "hai": "is, has", "tum": "you", "shaadi": "wedding", "mein": "at, in", "bohat": "very", "achhe": "good", "lag": "seem, look", "rahe": "(were) -ing", "the": "were", "khala": "aunt (mum's sister)", "yeh": "this", "flu": "flu", "dawai": "medicine", "lo": "take", "aur": "and", "aaram": "rest", "karo": "do", "bhi": "also", "main": "I", "mirchein": "chillies", "waar": "circle over (to ward off the eye)", "deti": "give", "hoon": "am", "maine": "I (did)", "li": "took", "haldi": "turmeric", "wala": "with, the one with", "doodh": "milk", "piya": "drank", "so": "sleep", "gaya": "went", "subah": "morning", "tak": "by, until", "utar": "come down", "dekha": "saw, see?", "ka": "of", "kamaal": "wonder, marvel", "nahin": "no", "beta": "dear (to a child)", "mirchon": "the chillies'"},
+  "questions": [
+   {"question": "What does Bilal say is wrong?", "options": [{"text": "It's flu"}, {"text": "It's the evil eye", "feedback": "That's Ammi's diagnosis."}, {"text": "Too much wedding food", "feedback": "Plausible, but he says flu."}], "answer": 0},
+   {"question": "Who does Ammi give the credit to?", "options": [{"text": "The chillies"}, {"text": "The medicine", "feedback": "That's Bilal's view. Ammi: mirchon ka kamaal."}, {"text": "Bilal", "feedback": "Bilal gets no credit in this house."}], "answer": 0}]},
+ "u13": {"title": "The missing phone", "emoji": "📱", "blurb": "Liberty Market. Your phone is gone. Or is it?",
+  "lines": [
+   (N, "Main Liberty Market mein tha. Achanak mera phone ghayab tha.", "میں لبرٹی مارکیٹ میں تھا۔ اچانک میرا فون غائب تھا۔", "I was in Liberty Market. Suddenly my phone was gone."),
+   (N, "Main ek dukaan mein gaya.", "میں ایک دکان میں گیا۔", "I went into a shop."),
+   ("bashir", "Ji, farmaiye?", "جی، فرمائیے؟", "Yes, how can I help?"),
+   (N, "Maaf kijiye, mera phone kho gaya hai. Kya main aap ka phone istemal kar sakta hoon?", "معاف کیجیے، میرا فون کھو گیا ہے۔ کیا میں آپ کا فون استعمال کر سکتا ہوں؟", "Excuse me, I've lost my phone. Can I use your phone?"),
+   ("bashir", "Zaroor. Lekin pehle apni jeb dekhiye.", "ضرور۔ لیکن پہلے اپنی جیب دیکھیے۔", "Of course. But first, check your pocket."),
+   (N, "Phone meri jeb mein tha.", "فون میری جیب میں تھا۔", "The phone was in my pocket."),
+   ("bashir", "Har doosra gaahak yahi karta hai. Chai piyenge?", "ہر دوسرا گاہک یہی کرتا ہے۔ چائے پئیں گے؟", "Every other customer does this. Tea?"),
+  ],
+  "glossary": {"main": "I", "mein": "in", "tha": "was", "achanak": "suddenly", "mera": "my", "phone": "phone", "ghayab": "vanished, missing", "ek": "a, one", "dukaan": "shop", "gaya": "went", "ji": "yes", "farmaiye": "please say (how can I help?)", "maaf": "forgiven", "kijiye": "please do", "kho": "lose", "hai": "has", "kya": "(question marker)", "aap": "you", "ka": "of, 's", "istemal": "use", "kar": "do", "sakta": "can", "hoon": "am", "zaroor": "certainly", "lekin": "but", "pehle": "first", "apni": "your own", "jeb": "pocket", "dekhiye": "please look", "meri": "my", "har": "every", "doosra": "second, other", "gaahak": "customer", "yahi": "this very thing", "karta": "does", "chai": "tea", "piyenge": "will you drink"},
+  "questions": [
+   {"question": "Where was the phone?", "options": [{"text": "In your pocket"}, {"text": "Stolen", "feedback": "Ghayab, but only from your attention."}, {"text": "In the shop", "feedback": "Meri jeb mein: in my pocket."}], "answer": 0},
+   {"question": "What did you ask Bashir Bhai?", "options": [{"text": "To use his phone"}, {"text": "To call the police", "feedback": "Not this time: aap ka phone istemal kar sakta hoon?"}, {"text": "For directions", "feedback": "You asked to use his phone."}], "answer": 0}]},
+ "u15": {"title": "If Bilal weren't a doctor", "emoji": "👨‍🍳", "blurb": "Bilal has a crisis of vocation. Nani has a counter-argument.",
+  "lines": [
+   ("bilal", "Kaash main doctor na hota.", "کاش میں ڈاکٹر نہ ہوتا۔", "I wish I weren't a doctor."),
+   (N, "Sab hairaan ho gaye.", "سب حیران ہو گئے۔", "Everyone was astonished."),
+   ("khala", "Kya? Agar tum doctor na hote to kya karte?", "کیا؟ اگر تم ڈاکٹر نہ ہوتے تو کیا کرتے؟", "What? If you weren't a doctor, what would you do?"),
+   ("bilal", "Main chef hota. Biryani banata.", "میں شیف ہوتا۔ بریانی بناتا۔", "I'd be a chef. I'd make biryani."),
+   ("nani", "Agar tum biryani banate to main kya karti? Biryani to main banati hoon!", "اگر تم بریانی بناتے تو میں کیا کرتی؟ بریانی تو میں بناتی ہوں!", "If you made the biryani, what would I do? I'm the one who makes biryani!"),
+   (N, "Bilal ne socha. Phir kaha: shayad doctor hi theek hai.", "بلال نے سوچا۔ پھر کہا: شاید ڈاکٹر ہی ٹھیک ہے۔", "Bilal thought about it. Then he said: maybe doctor is fine after all."),
+  ],
+  "glossary": {"kaash": "if only, I wish", "main": "I", "doctor": "doctor", "na": "not", "hota": "were, would be", "sab": "everyone", "hairaan": "astonished", "ho": "become", "gaye": "became", "kya": "what", "agar": "if", "tum": "you", "hote": "were", "to": "then", "karte": "would do", "chef": "chef", "biryani": "spiced rice dish", "banata": "would make", "banate": "made, would make", "karti": "would do (woman)", "banati": "make (woman)", "hoon": "am", "bilal": "Bilal", "ne": "(marks who did it)", "socha": "thought", "phir": "then", "kaha": "said", "shayad": "maybe", "hi": "just, after all", "theek": "fine", "hai": "is"},
+  "questions": [
+   {"question": "What would Bilal be instead?", "options": [{"text": "A chef"}, {"text": "An engineer", "feedback": "Main chef hota."}, {"text": "A cricketer", "feedback": "He didn't say that, though he'd like to."}], "answer": 0},
+   {"question": "Why does he change his mind?", "options": [{"text": "Biryani is Nani's job"}, {"text": "Chefs earn less", "feedback": "Money isn't mentioned. Nani's territory is."}, {"text": "He can't cook", "feedback": "Possibly true. But Nani's point is that biryani is hers."}], "answer": 0}]},
+ "u17": {"title": "The Eid moon", "emoji": "🐪", "blurb": "A visit to Khala, conducted entirely in idioms.",
+  "lines": [
+   (N, "Bohat dinon baad main Khala ke ghar gaya.", "بہت دنوں بعد میں خالہ کے گھر گیا۔", "After a long time, I went to Khala's house."),
+   ("khala", "Arre! Tum to eid ka chaand ho gaye ho!", "ارے! تم تو عید کا چاند ہو گئے ہو!", "Well! You've become the Eid moon!"),
+   (N, "Maine kaha: Khala, kaam ne naak mein dam kar diya hai.", "میں نے کہا: خالہ، کام نے ناک میں دم کر دیا ہے۔", "I said: Khala, work has been driving me up the wall."),
+   ("khala", "Kaam? Bilal bhi kaam karta hai, phir bhi har hafte aata hai.", "کام؟ بلال بھی کام کرتا ہے، پھر بھی ہر ہفتے آتا ہے۔", "Work? Bilal works too, and he still comes every week."),
+   (N, "Mujhe laga daal mein kuch kaala hai.", "مجھے لگا دال میں کچھ کالا ہے۔", "I felt something was fishy."),
+   ("khala", "Woh khana khane aata hai. Aur kapde dhulwane. Ek teer se do shikar.", "وہ کھانا کھانے آتا ہے۔ اور کپڑے دھلوانے۔ ایک تیر سے دو شکار۔", "He comes to eat. And to get his washing done. Two birds with one stone."),
+  ],
+  "glossary": {"bohat": "many, very", "dinon": "days", "baad": "after", "main": "I", "khala": "aunt (mum's sister)", "ke": "of", "ghar": "house", "gaya": "went", "arre": "hey, well!", "tum": "you", "to": "(emphasis)", "eid": "Eid", "ka": "of", "chaand": "moon", "ho": "become", "gaye": "have become", "maine": "I (did)", "kaha": "said", "kaam": "work", "ne": "(marks who did it)", "naak": "nose", "mein": "in", "dam": "breath", "kar": "do", "diya": "has done", "hai": "has", "bilal": "Bilal", "bhi": "too, also", "karta": "does", "phir": "even so", "har": "every", "hafte": "week", "aata": "comes", "mujhe": "to me", "laga": "seemed", "daal": "lentils", "kuch": "something", "kaala": "black", "woh": "he", "khana": "food", "khane": "to eat", "aur": "and", "kapde": "clothes", "dhulwane": "to get washed", "ek": "one", "teer": "arrow", "se": "with", "do": "two", "shikar": "prey"},
+  "questions": [
+   {"question": "What does Khala mean by “eid ka chaand”?", "options": [{"text": "She never sees you"}, {"text": "You look radiant", "feedback": "The Eid moon is seen rarely. She's telling you off."}, {"text": "It's nearly Eid", "feedback": "It's an idiom: you're as rare as the Eid moon."}], "answer": 0},
+   {"question": "Why does Bilal visit every week?", "options": [{"text": "Food and laundry"}, {"text": "He loves Khala's company", "feedback": "Khala knows better: two birds, one arrow."}, {"text": "Work brings him nearby", "feedback": "Khala's version: khana and kapde."}], "answer": 0}]},
+})
+
 for uid, st in STORIES.items():
     f = ROOT / "content" / "units" / f"{uid}.json"
     u = json.loads(f.read_text())

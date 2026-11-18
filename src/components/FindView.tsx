@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Phrase } from "@/content/schema";
 import { keywordRank, rank } from "@/engine/find";
@@ -7,21 +8,29 @@ import { AudioButton, PhraseText } from "./Phrase";
 import { Button, TopBar } from "./ui";
 
 type Lite = Pick<Phrase, "id" | "roman" | "urdu" | "en" | "speaker">;
+interface Note {
+  unit: string;
+  unitTitle: string;
+  title: string;
+  body: string;
+}
 interface Index {
   dim: number;
   ids: string[];
   text: string[];
+  notes: Record<string, Note>;
   matrix: Int8Array;
 }
+type Hit = { kind: "phrase"; p: Lite; score: number } | { kind: "note"; id: string; n: Note; score: number };
 
-const EXAMPLES = ["politely refuse more food", "I'm running late", "ask someone to slow down", "say sorry to an elder", "what to say at a funeral", "compliment the cooking"];
+const EXAMPLES = ["politely refuse more food", "I'm running late", "ask someone to slow down", "say sorry to an elder", "why aati and not aata?", "how do I say 'if'?"];
 
 /** Describe a situation in English; get the phrases that fit. Meaning-based when the model is loaded. */
 export function FindView() {
   const [phrases, setPhrases] = useState<Map<string, Lite> | null>(null);
   const index = useRef<Index | null>(null);
   const [q, setQ] = useState("");
-  const [results, setResults] = useState<{ p: Lite; score: number }[] | null>(null);
+  const [results, setResults] = useState<Hit[] | null>(null);
   const [smart, setSmart] = useState<"off" | "loading" | "on" | "failed">("off");
   const [pct, setPct] = useState(0);
   const [busy, setBusy] = useState(false);
@@ -68,7 +77,15 @@ export function FindView() {
         hits = keywordRank(idx.text, text);
       }
     } else hits = keywordRank(idx.text, text);
-    setResults(hits.map((h) => ({ p: phrases.get(idx.ids[h.index] ?? ""), score: h.score })).filter((r): r is { p: Lite; score: number } => Boolean(r.p)));
+    const out: Hit[] = [];
+    for (const h of hits) {
+      const id = idx.ids[h.index] ?? "";
+      const n = idx.notes?.[id];
+      const p = phrases.get(id);
+      if (n) out.push({ kind: "note", id, n, score: h.score });
+      else if (p) out.push({ kind: "phrase", p, score: h.score });
+    }
+    setResults(out);
     setBusy(false);
   };
 
@@ -87,7 +104,7 @@ export function FindView() {
             type="search"
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Describe the situation in English"
+            placeholder="Describe a situation, or ask a grammar question"
             aria-label="Describe the situation"
             className="min-h-12 min-w-0 flex-1 rounded-2xl border-2 border-line bg-surface px-4 text-lg outline-none focus:border-primary"
           />
@@ -130,15 +147,23 @@ export function FindView() {
           {results === null ? null : results.length === 0 ? (
             <p className="text-ink-soft">Nothing matched. Try other words{smart === "on" ? "" : ", or turn on smart search"}.</p>
           ) : (
-            results.map(({ p }) => (
-              <div key={p.id} className="flex items-center gap-3 rounded-2xl border-2 border-line bg-surface p-3">
-                <AudioButton phrase={p} size="sm" />
-                <div className="min-w-0 flex-1">
-                  <PhraseText phrase={p} size="md" />
-                  <p className="text-sm text-ink-soft">{p.en}</p>
+            results.map((r) =>
+              r.kind === "note" ? (
+                <Link key={r.id} href={`/unit/${r.n.unit}/`} className="rounded-2xl border-2 border-accent/50 bg-accent-soft/40 p-3">
+                  <p className="text-xs font-black tracking-wider text-ink-soft uppercase">🧩 Grammar · {r.n.unitTitle}</p>
+                  <p className="font-bold">{r.n.title}</p>
+                  <p className="text-[15px] leading-relaxed">{r.n.body}</p>
+                </Link>
+              ) : (
+                <div key={r.p.id} className="flex items-center gap-3 rounded-2xl border-2 border-line bg-surface p-3">
+                  <AudioButton phrase={r.p} size="sm" />
+                  <div className="min-w-0 flex-1">
+                    <PhraseText phrase={r.p} size="md" />
+                    <p className="text-sm text-ink-soft">{r.p.en}</p>
+                  </div>
                 </div>
-              </div>
-            ))
+              ),
+            )
           )}
         </div>
       </main>
