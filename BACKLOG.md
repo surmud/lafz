@@ -11,7 +11,7 @@ Everything needing a founder account ships dormant behind env/config flags.
 - [x] **I4 Mobile release shell (Capacitor, iOS + Android).** No-basePath native build, app id, icons/splash, safe areas, Android back, mic permission strings, offline content bundled; run in simulators; store screenshots; docs/RELEASE.md.
 - [x] **I5 Legal pages and hygiene.** /privacy, /terms, /delete-account; complete credits; public-domain poets only; brand distinct from Duolingo.
 - [x] **I6 WCAG 2.2 AA pass** on every main screen: axe, keyboard and screen-reader flows, reduced motion, 200% zoom at 375px.
-- [ ] **I7 Multi-language readiness** (refactor only): LanguagePack interface, content/<lang>/, docs/ADDING_A_LANGUAGE.md.
+- [x] **I7 Multi-language readiness** (refactor only): LanguagePack interface, content/<lang>/, docs/ADDING_A_LANGUAGE.md.
 
 ## Phase A — Foundation
 - [x] **A1 Scaffold.** Next.js + TS strict + Tailwind, static export with `basePath /lafz`, ESLint,

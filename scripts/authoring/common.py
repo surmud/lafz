@@ -1,11 +1,13 @@
 """Shared helpers for unit authoring scripts. Each uNN.py builds a dict and calls write_unit()."""
 import json
+import os
 import pathlib
 import re
 
 FULL = re.compile(r"^[ur]\d\d\.")
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
+UNITS = ROOT / "content" / os.environ.get("LAFZ_LANG", "ur") / "units"
 
 
 class Unit:
@@ -252,7 +254,7 @@ def write_unit(u: Unit, meta: dict, lessons: list, boss: dict | None, senses: di
     print("  note: re-run retrofit.py and stories.py after this to restore scenes, dictations and stories")
     if boss:
         unit["boss"] = boss
-    out = ROOT / "content" / "units" / f"{u.U}.json"
+    out = UNITS / f"{u.U}.json"
     if out.exists():
         old = {p["id"]: p for p in json.loads(out.read_text())["phrases"]}
         for ph in u.phrases:

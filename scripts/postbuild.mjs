@@ -5,8 +5,9 @@ import fs from "node:fs";
 import path from "node:path";
 
 const OUT = path.resolve("out");
+const UNITS = path.join("content", process.env.NEXT_PUBLIC_LANG ?? "ur", "units");
 const BASE = process.env.NEXT_PUBLIC_NATIVE === "1" ? "" : "/lafz";
-const MALE = new Set(["bilal", "abbu", "pervez", "bashir"]); // keep in step with src/content/audio-key.ts
+const MALE = new Set(["bilal", "abbu", "pervez", "bashir"]); // keep in step with src/lang/ur.ts voices
 const voice = (speaker) => (MALE.has(speaker) ? "matcha-m1" : "matcha-f1");
 
 function walk(dir) {
@@ -37,9 +38,9 @@ const version = crypto.createHash("sha256").update(files.map((f) => f + fs.statS
 const sha16 = (s) => crypto.createHash("sha256").update(s, "utf8").digest("hex").slice(0, 16);
 const ttsText = (p) => (p.tts ?? p.urdu).normalize("NFC").trim();
 fs.mkdirSync(path.join(OUT, "offline"), { recursive: true });
-const units = fs.readdirSync("content/units").filter((f) => f.endsWith(".json"));
+const units = fs.readdirSync(UNITS).filter((f) => f.endsWith(".json"));
 for (const f of units) {
-  const u = JSON.parse(fs.readFileSync(path.join("content/units", f), "utf8"));
+  const u = JSON.parse(fs.readFileSync(path.join(UNITS, f), "utf8"));
   const urls = new Set();
   const byId = new Map(u.phrases.map((p) => [p.id, p]));
   const add = (p, speaker) => {
@@ -61,7 +62,7 @@ for (const f of units) {
 // Lightweight phrase index for client features that need the whole course (dinner card).
 const lite = [];
 for (const f of units) {
-  const u = JSON.parse(fs.readFileSync(path.join("content/units", f), "utf8"));
+  const u = JSON.parse(fs.readFileSync(path.join(UNITS, f), "utf8"));
   for (const p of u.phrases) if (!p.id.includes(".b.") && !p.id.includes(".l-")) lite.push({ id: p.id, roman: p.roman, urdu: p.urdu, en: p.en, ...(p.sense ? { sense: p.sense } : {}), ...(p.speaker ? { speaker: p.speaker } : {}) });
 }
 fs.writeFileSync(path.join(OUT, "phrases.json"), JSON.stringify(lite));

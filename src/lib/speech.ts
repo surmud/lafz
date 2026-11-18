@@ -1,4 +1,5 @@
 "use client";
+import { pack } from "@/lang";
 /**
  * Speech recognition (SPEC §9). Primary: the Web Speech API with lang ur-PK. Where it is missing
  * (Firefox, iOS Safari without Siri dictation) the exercise is skipped gracefully. Speaking is
@@ -35,7 +36,7 @@ export interface Listening {
 }
 
 /** Listen once. Resolves with all transcripts (Urdu and, as a second pass, Roman via en-IN). */
-export function listen(lang = "ur-PK"): Listening {
+export function listen(lang = pack.speech.recognition): Listening {
   const C = ctor();
   if (!C) return { stop: () => undefined, result: Promise.reject(new Error("unsupported")) };
   const rec = new C();

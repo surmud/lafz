@@ -5,7 +5,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
-      "@content": path.resolve(import.meta.dirname, "content"),
+      "@content": path.resolve(import.meta.dirname, "content", "ur"),
     },
   },
   test: {

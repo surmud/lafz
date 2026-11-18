@@ -3,8 +3,10 @@
 Then run scripts/verify_lexicon.py, which looks the lemma up and sources the form to it."""
 import json, sys
 from pathlib import Path
+import os
+LANG = os.environ.get("LAFZ_LANG", "ur")  # content/<LANG>/: the language pack being built
 
-f = Path(__file__).resolve().parent.parent / "content" / "lexicon-manual.json"
+f = Path(__file__).resolve().parent.parent / "content" / LANG / "lexicon-manual.json"
 d = json.loads(f.read_text())
 for pair in sys.argv[1:]:
     form, lemma = pair.split("=")

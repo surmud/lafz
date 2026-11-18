@@ -14,6 +14,8 @@ import soundfile as sf
 
 sys.path.insert(0, str(Path(__file__).parent))
 from audio_audit import dist, norm  # noqa: E402
+import os
+LANG = os.environ.get("LAFZ_LANG", "ur")  # content/<LANG>/: the language pack being built
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / ".voice-trial"
@@ -48,7 +50,7 @@ def main():
 
     OUT.mkdir(exist_ok=True)
     phrases = []
-    for f in sorted(glob.glob(str(ROOT / "content/units/u*.json"))):
+    for f in sorted(glob.glob(str(ROOT / "content" / LANG / "units" / "u*.json"))):
         phrases += json.loads(Path(f).read_text())["phrases"]
     random.Random(7).shuffle(phrases)
     texts = list(dict.fromkeys(unicodedata.normalize("NFC", p["urdu"]).strip() for p in phrases))[:N]

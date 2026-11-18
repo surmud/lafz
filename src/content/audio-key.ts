@@ -6,10 +6,12 @@
  * The browser cannot hash synchronously, so the generator writes public/audio/manifest.json, a map of
  * key → file name, and the app looks clips up by key.
  */
+import { pack } from "@/lang";
+
 /** Lines spoken by these characters use the male voice; everything else uses the female one. */
-export const MALE_SPEAKERS: readonly string[] = ["bilal", "abbu", "pervez", "bashir"];
-export const VOICE_F = "matcha-f1";
-export const VOICE_M = "matcha-m1";
+export const MALE_SPEAKERS: readonly string[] = pack.voices.maleSpeakers;
+export const VOICE_F = pack.voices.female;
+export const VOICE_M = pack.voices.male;
 
 export type Rate = "normal" | "slow";
 export interface Speakable {

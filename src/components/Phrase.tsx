@@ -1,4 +1,5 @@
 "use client";
+import { pack } from "@/lang";
 import { useState } from "react";
 import type { Phrase } from "@/content/schema";
 import { playPhrase, type Speed } from "@/lib/audio";
@@ -7,7 +8,7 @@ import { setSettings, useSettings, type ScriptMode } from "@/lib/settings";
 /** Urdu text with the right font, direction and language for screen readers. */
 export function Nastaliq({ children, className = "" }: { children: string; className?: string }) {
   return (
-    <span lang="ur" dir="rtl" className={`urdu inline-block ${className}`}>
+    <span lang={pack.script.lang} dir={pack.script.dir} className={`urdu inline-block ${className}`}>
       {children}
     </span>
   );

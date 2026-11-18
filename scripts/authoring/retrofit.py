@@ -4,7 +4,7 @@ For each unit: one overheard scene (new two- or three-line exchange between char
 the Mix-it-up lesson, and the last multi-word listen exercise of each other lesson becomes a
 dictation. Idempotent."""
 import json
-from common import ROOT
+from common import ROOT, UNITS
 
 S = {
  "u01": ([("khala", "s-khala-salam", "Assalam-o-alaikum, Ammi! Aap kaisi hain?", "السلام علیکم، امی! آپ کیسی ہیں؟", "Hello, Mum! How are you?"),
@@ -48,7 +48,7 @@ S = {
 }
 
 for uid, (lines, setup, question, options, hide) in S.items():
-    f = ROOT / "content" / "units" / f"{uid}.json"
+    f = UNITS / f"{uid}.json"
     u = json.loads(f.read_text())
     old = {p["id"]: p for p in u["phrases"]}
     u["phrases"] = [p for p in u["phrases"] if not p["id"].startswith(f"{uid}.b.s-")]

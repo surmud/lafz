@@ -1,4 +1,5 @@
 import "server-only";
+import { pack } from "@/lang";
 import fs from "node:fs";
 import path from "node:path";
 import type { UnitMeta } from "@/engine/course";
@@ -20,7 +21,7 @@ import {
  * Build-time content access for server components. Pages pass only the slice they need to
  * client components, so each page ships just its own unit's content.
  */
-const DIR = path.join(process.cwd(), "content");
+const DIR = path.join(process.cwd(), "content", pack.code);
 
 function read(file: string): unknown {
   return JSON.parse(fs.readFileSync(path.join(DIR, file), "utf8"));

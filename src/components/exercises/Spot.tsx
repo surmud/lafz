@@ -1,4 +1,5 @@
 "use client";
+import { pack } from "@/lang";
 import { useState } from "react";
 import { checkSpot, type ResolvedSpot, type Script } from "@/engine/exercises";
 import { mark } from "@/lib/e2e";
@@ -26,7 +27,7 @@ export function SpotExercise({ ex, locked, onChange }: ExerciseProps<ResolvedSpo
       <h2 className="font-display text-2xl leading-tight font-bold">{ex.prompt}</h2>
       <p className="-mt-3 text-ink-soft">It should mean: “{ex.phrase.en}”</p>
       {rows.map((s) => (
-        <div key={s} dir={s === "urdu" ? "rtl" : "ltr"} lang={s === "urdu" ? "ur" : undefined} className="flex flex-wrap gap-2 rounded-3xl bg-surface-2/60 p-4">
+        <div key={s} dir={s === "urdu" ? pack.script.dir : "ltr"} lang={s === "urdu" ? pack.script.lang : undefined} className="flex flex-wrap gap-2 rounded-3xl bg-surface-2/60 p-4">
           {ex.tokens[s].map((t) => {
             const isPicked = picked === t.key;
             let tone = "border-line bg-surface shadow-[0_3px_0_var(--line)]";

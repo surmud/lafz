@@ -12,6 +12,8 @@ from pathlib import Path
 
 import numpy as np
 import soundfile as sf
+import os
+LANG = os.environ.get("LAFZ_LANG", "ur")  # content/<LANG>/: the language pack being built
 
 ROOT = Path(__file__).resolve().parent.parent
 MODEL = sys.argv[sys.argv.index("--model") + 1] if "--model" in sys.argv else "mlx-community/whisper-large-v3-turbo"
@@ -43,7 +45,7 @@ def main() -> int:
         return mlx_whisper.transcribe(wave, path_or_hf_repo=MODEL, language="ur", condition_on_previous_text=False)["text"]
 
     phrases = []
-    for f in sorted(glob.glob(str(ROOT / "content/units/*.json"))):
+    for f in sorted(glob.glob(str(ROOT / "content" / LANG / "units" / "*.json"))):
         phrases += json.loads(Path(f).read_text())["phrases"]
     import random
 

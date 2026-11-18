@@ -1,7 +1,9 @@
 """Replace a unit's placement questions. Usage: python scripts/add_placement.py LEVEL '<json list>'"""
 import json, sys
 from pathlib import Path
-p = Path(__file__).resolve().parent.parent / "content/placement.json"
+import os
+LANG = os.environ.get("LAFZ_LANG", "ur")  # content/<LANG>/: the language pack being built
+p = Path(__file__).resolve().parent.parent / "content" / LANG / "placement.json"
 level, items = int(sys.argv[1]), json.loads(sys.argv[2])
 q = [x for x in json.loads(p.read_text()) if x["level"] != level]
 for i, it in enumerate(items):

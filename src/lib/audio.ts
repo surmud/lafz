@@ -1,4 +1,5 @@
 "use client";
+import { pack } from "@/lang";
 import { audioKey, type Rate, type Speakable } from "@/content/audio-key";
 import type { TtsProvider } from "@/engine/hooks";
 import { getRecording } from "@/storage/db";
@@ -81,7 +82,7 @@ export async function playToEnd(p: Speakable & { id: string }, speed: Speed = "n
 
 function speakWithDevice(text: string): boolean {
   if (typeof speechSynthesis === "undefined") return false;
-  const voice = speechSynthesis.getVoices().find((v) => v.lang.toLowerCase().startsWith("ur"));
+  const voice = speechSynthesis.getVoices().find((v) => v.lang.toLowerCase().startsWith(pack.code));
   if (!voice) return false;
   const u = new SpeechSynthesisUtterance(text);
   u.voice = voice;

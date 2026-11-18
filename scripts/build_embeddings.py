@@ -16,6 +16,8 @@ from pathlib import Path
 import numpy as np
 import torch
 from transformers import AutoModel, AutoTokenizer
+import os
+LANG = os.environ.get("LAFZ_LANG", "ur")  # content/<LANG>/: the language pack being built
 
 ROOT = Path(__file__).resolve().parent.parent
 MODEL = "sentence-transformers/all-MiniLM-L6-v2"
@@ -23,7 +25,7 @@ MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 def docs():
     out = []
-    for f in sorted(glob.glob(str(ROOT / "content/units/u*.json"))):
+    for f in sorted(glob.glob(str(ROOT / "content" / LANG / "units" / "u*.json"))):
         u = json.loads(Path(f).read_text())
         where = {}
         for l in u["lessons"]:
@@ -45,7 +47,7 @@ def docs():
 def grammar_docs():
     """Every unit's grammar notes, so questions like "why aati not aata" find the right note."""
     out, notes = [], {}
-    for f in sorted(glob.glob(str(ROOT / "content/units/*.json"))):
+    for f in sorted(glob.glob(str(ROOT / "content" / LANG / "units" / "*.json"))):
         u = json.loads(Path(f).read_text())
         for i, g in enumerate(u.get("grammar", [])):
             gid = f"g:{u['id']}:{i}"

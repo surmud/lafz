@@ -1,9 +1,11 @@
 import { z } from "zod";
+import { pack } from "@/lang";
 
 /** Content schema (SPEC §6–7). Every JSON file in content/ is validated against this in CI. */
 
 const id = z.string().regex(/^[a-z0-9][a-z0-9.\-]*$/, "ids are lowercase letters, digits, dots and dashes");
-const URDU_RE = /[؀-ۿ]/;
+/** Native-script text must contain the active language pack's script. */
+const URDU_RE = pack.script.chars;
 const urduText = z.string().min(1).regex(URDU_RE, "must contain Urdu script");
 const day = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 

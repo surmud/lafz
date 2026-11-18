@@ -27,11 +27,13 @@ import urllib.request
 from pathlib import Path
 
 import certifi
+import os
+LANG = os.environ.get("LAFZ_LANG", "ur")  # content/<LANG>/: the language pack being built
 
 SSL = ssl.create_default_context(cafile=certifi.where())
 
 ROOT = Path(__file__).resolve().parent.parent
-CONTENT = ROOT / "content"
+CONTENT = ROOT / "content" / LANG
 CACHE = CONTENT / "lexicon.json"
 MANUAL = CONTENT / "lexicon-manual.json"
 UA = "LafzContentCheck/1.0 (https://github.com/surmud/lafz; educational, low volume)"

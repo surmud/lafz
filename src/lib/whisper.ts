@@ -1,4 +1,5 @@
 "use client";
+import { pack } from "@/lang";
 /**
  * On-device speech recognition fallback (G9) for browsers without the Web Speech API.
  * transformers.js and the Whisper model are fetched only when the learner opts in: ~80 MB once,
@@ -86,6 +87,6 @@ export function record(maxMs = 6000): { stop: () => void; result: Promise<Float3
 
 export async function transcribeUrdu(audio: Float32Array): Promise<string> {
   const asr = await loadWhisper();
-  const out = await asr(audio, { language: "urdu", task: "transcribe" });
+  const out = await asr(audio, { language: pack.name.toLowerCase(), task: "transcribe" });
   return (Array.isArray(out) ? out[0]?.text : out.text)?.trim() ?? "";
 }

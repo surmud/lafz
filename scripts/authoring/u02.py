@@ -1,7 +1,7 @@
-"""Authoring source for Unit 2 (The Family Tree). Run to (re)write content/units/u02.json.
+"""Authoring source for Unit 2 (The Family Tree). Run to (re)write content/ur/units/u02.json.
 Sources are filled in afterwards by scripts/verify_lexicon.py."""
 import json, pathlib
-from common import mix_lesson
+from common import mix_lesson, UNITS
 
 U = "u02"
 def P(key, roman, urdu, en, **kw):
@@ -268,7 +268,7 @@ for s, keys in senses.items():
     for ph in phrases:
         if ph["id"].split(".", 1)[1] in keys: ph["sense"] = s
 
-out = pathlib.Path(__file__).resolve().parents[2] / "content" / "units" / f"{U}.json"
+out = UNITS / f"{U}.json"
 # keep any sources already verified
 if out.exists():
     old = {p["id"]: p for p in json.loads(out.read_text())["phrases"]}

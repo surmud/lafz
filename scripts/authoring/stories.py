@@ -3,7 +3,7 @@
 Each story's lines become phrases u<NN>.b.st-<n> (kept out of drills like other non-core lines), and
 the unit gets a `story`. Idempotent."""
 import json
-from common import ROOT
+from common import ROOT, UNITS
 
 N = None  # narrator
 STORIES = {
@@ -330,7 +330,7 @@ STORIES.update({
 })
 
 for uid, st in STORIES.items():
-    f = ROOT / "content" / "units" / f"{uid}.json"
+    f = UNITS / f"{uid}.json"
     u = json.loads(f.read_text())
     old = {p["id"]: p for p in u["phrases"]}
     u["phrases"] = [p for p in u["phrases"] if not p["id"].startswith(f"{uid}.b.st-")]

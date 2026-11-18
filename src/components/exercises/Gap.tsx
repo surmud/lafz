@@ -1,4 +1,5 @@
 "use client";
+import { pack } from "@/lang";
 import { useState } from "react";
 import { checkChoice, type ResolvedGap } from "@/engine/exercises";
 import { useSettings } from "@/lib/settings";
@@ -30,7 +31,7 @@ export function GapExercise({ ex, locked, onChange }: ExerciseProps<ResolvedGap>
           </p>
         ) : null}
         {showUrdu ? (
-          <p lang="ur" dir="rtl" className="urdu text-2xl">
+          <p lang={pack.script.lang} dir={pack.script.dir} className="urdu text-2xl">
             {ex.parts.urdu[0]}
             {slot(chosen?.urdu, true)}
             {ex.parts.urdu[1]}

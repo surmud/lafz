@@ -30,6 +30,8 @@ from pathlib import Path
 
 import numpy as np
 import soundfile as sf
+import os
+LANG = os.environ.get("LAFZ_LANG", "ur")  # content/<LANG>/: the language pack being built
 
 sys.path.insert(0, str(Path(__file__).parent))
 
@@ -143,7 +145,7 @@ def wanted() -> dict[tuple[str, str], str]:
     scene lines and conversation turns use the voice of whoever says them."""
     out: dict[tuple[str, str], str] = {}
     by_id = {}
-    units = [json.loads(Path(f).read_text()) for f in sorted(glob.glob(str(ROOT / "content" / "units" / "*.json")))]
+    units = [json.loads(Path(f).read_text()) for f in sorted(glob.glob(str(ROOT / "content" / LANG / "units" / "*.json")))]
     for u in units:
         for p in u["phrases"]:
             by_id[p["id"]] = p

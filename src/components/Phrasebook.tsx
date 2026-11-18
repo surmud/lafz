@@ -1,4 +1,5 @@
 "use client";
+import { pack } from "@/lang";
 import { BASE } from "@/lib/base";
 import { useEffect, useMemo, useState } from "react";
 import type { Phrase } from "@/content/schema";
@@ -28,7 +29,7 @@ export function Phrasebook() {
     const base = onlyMine ? all.filter((p) => learned.has(p.id)) : all;
     const query = q.trim();
     if (!query) return base.slice(0, 60);
-    const urduQ = /[؀-ۿ]/.test(query);
+    const urduQ = pack.script.chars.test(query);
     const folded = foldTokens(query).join(" ");
     const en = query.toLowerCase();
     return base

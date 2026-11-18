@@ -1,7 +1,7 @@
 """Memory hooks for tricky core words (keyword and pattern mnemonics). Run after the unit scripts.
 Hooks are shown on the word's teach card. Patterns over puns: each hook should also teach something true."""
 import json
-from common import ROOT
+from common import ROOT, UNITS
 
 HOOKS = {
  "u01.aap": "aap, tum, tu: the longer the word, the more respect.",
@@ -28,7 +28,7 @@ HOOKS = {
 }
 
 for uid in sorted({k.split(".")[0] for k in HOOKS}):
-    f = ROOT / "content" / "units" / f"{uid}.json"
+    f = UNITS / f"{uid}.json"
     u = json.loads(f.read_text())
     n = 0
     for p in u["phrases"]:
@@ -37,5 +37,5 @@ for uid in sorted({k.split(".")[0] for k in HOOKS}):
             n += 1
     f.write_text(json.dumps(u, ensure_ascii=False, indent=2) + "\n")
     print(uid, n, "hooks")
-missing = set(HOOKS) - {p["id"] for f in (ROOT / "content" / "units").glob("u*.json") for p in json.loads(f.read_text())["phrases"]}
+missing = set(HOOKS) - {p["id"] for f in (UNITS).glob("u*.json") for p in json.loads(f.read_text())["phrases"]}
 assert not missing, missing

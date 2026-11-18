@@ -19,9 +19,22 @@ Live at https://surmud.github.io/lafz/ (v1 is tagged `v1.0`). CI green.
   v2 features), bundle budget 189.6 of 200 KB.
 
 ### Needs founder
-- A free Cloudflare account to switch on user-base statistics (docs/TELEMETRY.md).
-- Family voice recordings (with consent) if we want per-character cloned voices (BACKLOG H18).
-- A human listen to the weakest clips and to question intonation (G15).
+Everything below ships dormant and switches on when the value is supplied. Set web values as **GitHub →
+Settings → Secrets and variables → Actions → Variables** (they are public by nature; the CI build reads
+them), then re-run CI.
+
+| Feature | What to create | Value(s) to set |
+|---|---|---|
+| Tip jar (web) | Stripe account → one **Payment Link** (customer chooses amount, or three prices: ek chai / chai + samosa / poori dawat on one link) | `NEXT_PUBLIC_CHAI_URL` = the `https://buy.stripe.com/…` link |
+| Accounts (web) | Supabase project (free tier); Authentication → Providers → **Google** (needs a Google Cloud OAuth client: authorised redirect `https://<project>.supabase.co/auth/v1/callback`); Auth → URL configuration → add `https://surmud.github.io/lafz/auth/` as a redirect URL; SQL editor → run `supabase/migrations/20261118000000_user_progress.sql` | `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` |
+| Sign in with Apple (required on iOS once Google is offered) | Apple Developer: Services ID + key; Supabase → Providers → Apple | `NEXT_PUBLIC_APPLE_SIGNIN=1` |
+| Accounts in the apps | Native OAuth wiring (BACKLOG I4b), then | `NEXT_PUBLIC_NATIVE_AUTH=1` (native build only) |
+| Contact address on privacy/terms/delete pages | An email you're happy to publish (defaults to GitHub issues) | `NEXT_PUBLIC_CONTACT_EMAIL` |
+| User-base statistics | Free Cloudflare account + Worker (docs/TELEMETRY.md) | `NEXT_PUBLIC_TELEMETRY_URL` |
+| iOS release | Apple Developer Program ($99/yr), App Store Connect app for `app.lafz` | signing team in Xcode (docs/RELEASE.md) |
+| Android release | Google Play Console ($25), Android Studio on the build Mac (not installed: the Android project is generated but has never been built), 12 closed-test testers for 14 days | upload keystore (keep it safe) |
+| Legal | Confirm the governing law/jurisdiction you want in the terms (left out for now); confirm the 13+ age rating | — |
+| Voices | Family members willing to record ~10 s each, if you want per-character cloned voices (BACKLOG H18); a human listen to the 3 weakest clips (چچی، ہفتہ، عدالت) | — |
 
 ## v1 status (2026-11-16, end of day)
 **The full course is live at https://surmud.github.io/lafz/** and CI is green on `main`.
@@ -49,6 +62,12 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-18 (founder priorities I1–I7): removed the relatives-names step (stored names dropped on
+  load); "Buy me a chai" tip jar (web only, flag); optional Supabase accounts with Google (Apple behind a
+  flag), merge-on-login sync, in-app delete account, RLS migration; Capacitor iOS/Android shell (`app.lafz`),
+  running in the iOS simulator, store screenshots, docs/RELEASE.md; /privacy, /terms, /delete-account,
+  /credits, erase-device control, brand guardrails; WCAG 2.2 AA pass (e2e/wcag22.spec.ts); language-pack
+  refactor (`src/lang/`, content moved to `content/ur/`, docs/ADDING_A_LANGUAGE.md).
 - 2026-11-18 (overnight, cont.): Reading-track stories for R7–R9 (Nastaliq-first, every word already
   taught in the reading units, all dictionary-verified). Read mode home shows a "Stories to read"
   card. Tapping a course word in a story adds it to the review deck.

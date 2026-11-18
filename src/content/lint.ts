@@ -1,3 +1,4 @@
+import { pack } from "@/lang";
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
@@ -29,7 +30,7 @@ export interface LintResult {
 
 export function lintContent(root: string, opts: { requireAudio?: boolean } = {}): LintResult {
   const problems: string[] = [];
-  const contentDir = path.join(root, "content");
+  const contentDir = path.join(root, "content", pack.code);
   const unitDir = path.join(contentDir, "units");
   const units: Unit[] = [];
   for (const f of fs.readdirSync(unitDir).filter((x) => x.endsWith(".json")).sort()) {
