@@ -87,7 +87,7 @@ export function MeView({ units }: { units: UnitMeta[] }) {
           <span className="text-3xl" aria-hidden>
             📊
           </span>
-          <span>
+          <span className="min-w-0 [overflow-wrap:anywhere]">
             <span className="block font-bold">Insights</span>
             <span className="text-sm text-ink-soft">Your level, skills and the last two weeks</span>
           </span>
@@ -96,7 +96,7 @@ export function MeView({ units }: { units: UnitMeta[] }) {
           <span className="text-3xl" aria-hidden>
             📖
           </span>
-          <span>
+          <span className="min-w-0 [overflow-wrap:anywhere]">
             <span className="block font-bold">Phrasebook</span>
             <span className="block text-sm text-ink-soft">Every phrase in the course, with audio.</span>
           </span>

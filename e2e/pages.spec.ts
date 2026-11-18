@@ -42,7 +42,7 @@ for (const theme of ["light", "dark"] as const) {
     await expect(page.getByText(/\+20 XP/)).toBeVisible();
     await shot("boss-end");
     await page.goto("./family/");
-    await page.getByRole("button", { name: /Phuppo: Dad's sister/ }).click();
+    await page.getByRole("button", { name: /Phuppo\W+Dad's sister/ }).click();
     await expect(page.getByRole("dialog", { name: "Phuppo" })).toBeVisible();
     await shot("family-sheet");
     await page.keyboard.press("Escape");

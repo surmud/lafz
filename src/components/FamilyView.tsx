@@ -36,7 +36,7 @@ export function FamilyView({ relatives, phrases }: { relatives: Relative[]; phra
         key={r.id}
         type="button"
         onClick={() => setOpen(r)}
-        className={`flex min-h-20 w-full flex-col items-center justify-center rounded-2xl border-2 bg-surface p-2 text-center shadow-[0_3px_0_var(--line)] transition active:translate-y-[2px] ${open?.id === r.id ? "border-primary" : "border-line"}`}
+        className={`flex min-h-20 w-full min-w-0 flex-col items-center justify-center rounded-2xl border-2 bg-surface p-2 text-center [overflow-wrap:anywhere] shadow-[0_3px_0_var(--line)] transition active:translate-y-[2px] ${open?.id === r.id ? "border-primary" : "border-line"}`}
       >
         <span className="text-2xl" aria-hidden>
           {r.emoji}
