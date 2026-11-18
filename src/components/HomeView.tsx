@@ -10,6 +10,7 @@ import { setSettings, useSettings, type Mode } from "@/lib/settings";
 import { today, useStore } from "@/lib/store";
 import { flush } from "@/lib/telemetry";
 import { Avatar } from "./Avatar";
+import { ChaiCard } from "./Chai";
 import { WelcomeView } from "./WelcomeView";
 import { BottomNav } from "./BottomNav";
 import { Nastaliq } from "./Phrase";
@@ -93,6 +94,8 @@ export function HomeView({ units, characters, packs }: { units: UnitMeta[]; char
             <p className="text-ink-soft">{read ? "You can read Urdu. Go and find a shop sign." : "Nani is speechless. (She always was.)"}</p>
           </Card>
         )}
+
+        {ready ? <ChaiCard lessonsDone={Object.keys(progress.lessons).filter((id) => !/^(review|trouble)-/.test(id)).length} /> : null}
 
         <div className="grid grid-cols-2 gap-3">
           <Link href="/review/" className="rounded-3xl border-2 border-line bg-surface p-4 shadow-[0_3px_0_var(--line)]">

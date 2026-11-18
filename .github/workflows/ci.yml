@@ -29,6 +29,11 @@ jobs:
         env:
           # Empty unless the founder sets it (docs/TELEMETRY.md): no endpoint, nothing is ever sent.
           NEXT_PUBLIC_TELEMETRY_URL: ${{ vars.NEXT_PUBLIC_TELEMETRY_URL }}
+          NEXT_PUBLIC_CHAI_URL: ${{ vars.NEXT_PUBLIC_CHAI_URL }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ vars.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+          NEXT_PUBLIC_APPLE_SIGNIN: ${{ vars.NEXT_PUBLIC_APPLE_SIGNIN }}
+          NEXT_PUBLIC_CONTACT_EMAIL: ${{ vars.NEXT_PUBLIC_CONTACT_EMAIL }}
       - run: npm run budget
       - run: touch out/.nojekyll
       - name: Install Playwright browser

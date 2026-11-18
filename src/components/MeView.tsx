@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { ChaiRow } from "./Chai";
 import { useRef, useState } from "react";
 import { canDos, nextCanDo, type UnitMeta } from "@/engine/course";
 import { PAUSES_PER_WEEK } from "@/engine/streak";
@@ -77,6 +78,7 @@ export function MeView({ units }: { units: UnitMeta[] }) {
           </p>
         </Card>
 
+        <ChaiRow />
         <Link href="/insights/" className="flex items-center gap-3 rounded-3xl border-2 border-line bg-surface p-4 shadow-[0_3px_0_var(--line)]">
           <span className="text-3xl" aria-hidden>
             📊

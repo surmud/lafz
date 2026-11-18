@@ -17,10 +17,12 @@ export interface Settings {
   hard: boolean;
   /** null: the daily streak. A number: practise that many days a week instead. */
   weeklyGoal: number | null;
+  /** The one-time "buy me a chai" card was dismissed (or used). */
+  chaiDismissed: boolean;
 }
 
 const KEY = "lafz.settings";
-const defaults: Settings = { script: "both", theme: "system", sound: true, slowFirst: false, mode: "speak", hard: false, weeklyGoal: null };
+const defaults: Settings = { script: "both", theme: "system", sound: true, slowFirst: false, mode: "speak", hard: false, weeklyGoal: null, chaiDismissed: false };
 
 let cache: Settings | null = null;
 const listeners = new Set<() => void>();
