@@ -8,7 +8,9 @@ import { PAUSES_PER_WEEK } from "@/engine/streak";
 import { levelFor } from "@/engine/xp";
 import { setSettings, useSettings, type ScriptMode, type Theme } from "@/lib/settings";
 import { useStore } from "@/lib/store";
-import { BackupError, exportBackup, importBackup } from "@/storage/db";
+import { BackupError, clearAll, exportBackup, importBackup } from "@/storage/db";
+import { emptyProgress } from "@/engine/progress";
+import { accountsEnabled } from "@/lib/config";
 import { BottomNav } from "./BottomNav";
 import { DinnerCard } from "./DinnerCard";
 import { useStreak } from "./StreakBadge";
@@ -16,6 +18,7 @@ import { Button, Card, ProgressBar, TopBar } from "./ui";
 
 export function MeView({ units }: { units: UnitMeta[] }) {
   const { progress, replace } = useStore();
+  const [erasing, setErasing] = useState(false);
   const settings = useSettings();
   const streak = useStreak();
   const level = levelFor(progress.xp);
@@ -185,8 +188,8 @@ export function MeView({ units }: { units: UnitMeta[] }) {
             Your data
           </h2>
           <p className="text-sm leading-relaxed text-ink-soft">
-            Everything (progress, family recordings) lives only on this device. No account, no server, no tracking, no ads.
-            Move to a new phone with a backup file.
+            Your progress and family recordings live on this device. No tracking, no ads. Move to a new phone with a backup
+            file{accountsEnabled() ? ", or sign in above to sync" : ""}.
           </p>
           <div className="grid grid-cols-2 gap-3">
             <Button variant="secondary" onClick={doExport}>
@@ -207,6 +210,33 @@ export function MeView({ units }: { units: UnitMeta[] }) {
               if (f) void doImport(f);
             }}
           />
+          {erasing ? (
+            <div role="alertdialog" aria-labelledby="erase-title" className="rounded-2xl border-2 border-bad p-4">
+              <p id="erase-title" className="font-bold">Erase all progress and recordings on this device?</p>
+              <p className="mt-1 text-sm text-ink-soft">This can&apos;t be undone. Export a backup first if you might want it.</p>
+              <div className="mt-3 flex gap-2">
+                <Button
+                  variant="bad"
+                  onClick={() =>
+                    void clearAll().then(() => {
+                      replace(emptyProgress);
+                      setErasing(false);
+                      setMsg("Everything on this device has been erased.");
+                    })
+                  }
+                >
+                  Erase
+                </Button>
+                <Button variant="ghost" onClick={() => setErasing(false)}>
+                  Cancel
+                </Button>
+              </div>
+            </div>
+          ) : (
+            <button type="button" className="min-h-11 self-start text-sm font-bold text-bad-deep underline" onClick={() => setErasing(true)}>
+              Erase everything on this device
+            </button>
+          )}
           {msg ? (
             <p role="status" className="rounded-2xl bg-primary-soft p-3 text-sm">
               {msg}
@@ -214,29 +244,12 @@ export function MeView({ units }: { units: UnitMeta[] }) {
           ) : null}
         </section>
 
-        <section aria-labelledby="credits" className="flex flex-col gap-2 text-sm text-ink-soft">
-          <h2 id="credits" className="font-display text-xl font-bold text-ink">
-            Credits
-          </h2>
-          <p>
-            Voices: <strong>Matcha-TTS Urdu</strong> by Ahsan Talal (male and female) with the BSC Vocos vocoder, both{" "}
-            <a className="underline" href="https://www.apache.org/licenses/LICENSE-2.0">
-              Apache-2.0
-            </a>
-            . Generated offline.
-          </p>
-          <p>
-            Urdu checked against Platts&apos; <em>Dictionary of Urdu, Classical Hindi and English</em> (DSAL, University of Chicago),
-            Rekhta Dictionary and Wiktionary. Every phrase records its sources.
-          </p>
-          <p>
-            Font: Noto Nastaliq Urdu (SIL Open Font License). Code:{" "}
-            <a className="underline" href="https://github.com/surmud/lafz">
-              github.com/surmud/lafz
-            </a>
-            .
-          </p>
-        </section>
+        <nav aria-label="About" className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-ink-soft">
+          <Link className="underline" href="/credits/">Credits</Link>
+          <Link className="underline" href="/privacy/">Privacy</Link>
+          <Link className="underline" href="/terms/">Terms</Link>
+          <Link className="underline" href="/delete-account/">Delete your account</Link>
+        </nav>
       </main>
       <BottomNav />
     </>

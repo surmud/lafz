@@ -159,3 +159,16 @@ test("memory hooks show on the teach card and after a miss", async ({ page }) =>
   await page.locator("footer").getByRole("button", { name: "Got it" }).click();
   await expect(page.getByText(/the longer the word, the more respect/)).toBeVisible();
 });
+
+test("erase everything on this device returns to onboarding; legal pages are linked from Me", async ({ page }) => {
+  await onboard(page);
+  await page.goto("./me/");
+  for (const name of ["Credits", "Privacy", "Terms", "Delete your account"]) await expect(page.getByRole("link", { name, exact: true })).toBeVisible();
+  await page.getByRole("button", { name: "Erase everything on this device" }).click();
+  await page.getByRole("button", { name: "Erase", exact: true }).click();
+  await expect(page.getByText("Everything on this device has been erased.")).toBeVisible();
+  await page.goto("./");
+  await expect(page.getByRole("button", { name: "Let's go" })).toBeVisible();
+  await page.goto("./privacy/");
+  await expect(page.getByRole("heading", { name: "On your device (always)" })).toBeVisible();
+});

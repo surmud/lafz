@@ -73,7 +73,7 @@ export function AccountSection() {
               </div>
             </div>
           ) : (
-            <button type="button" className="min-h-11 self-start text-sm font-bold text-bad-ink underline" onClick={() => setConfirm(true)}>
+            <button type="button" className="min-h-11 self-start text-sm font-bold text-bad-deep underline" onClick={() => setConfirm(true)}>
               Delete account and data
             </button>
           )}
