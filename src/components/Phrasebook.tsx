@@ -1,4 +1,5 @@
 "use client";
+import { BASE } from "@/lib/base";
 import { useEffect, useMemo, useState } from "react";
 import type { Phrase } from "@/content/schema";
 import { foldTokens } from "@/engine/matcher";
@@ -15,7 +16,7 @@ export function Phrasebook() {
   const [q, setQ] = useState("");
   const [onlyMine, setOnlyMine] = useState(false);
   useEffect(() => {
-    void fetch("/lafz/phrases.json")
+    void fetch(`${BASE}/phrases.json`)
       .then((r) => r.json() as Promise<Lite[]>)
       .then(setAll)
       .catch(() => setAll([]));

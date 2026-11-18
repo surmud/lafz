@@ -1,4 +1,5 @@
 "use client";
+import { BASE } from "@/lib/base";
 import { useEffect, useRef, useState } from "react";
 import type { Phrase } from "@/content/schema";
 import { playToEnd, stopAudio } from "@/lib/audio";
@@ -43,7 +44,7 @@ export function ListenMode({ units }: { units: UnitLite[] }) {
   const run = useRef(0);
 
   useEffect(() => {
-    void fetch("/lafz/phrases.json")
+    void fetch(`${BASE}/phrases.json`)
       .then((r) => r.json() as Promise<Lite[]>)
       .then(setAll)
       .catch(() => setAll([]));

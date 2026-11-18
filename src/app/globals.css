@@ -152,3 +152,14 @@ body {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+
+/* Under the status bar / notch (installed PWA, native app): keep scrolled content from showing through. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: env(safe-area-inset-top);
+  background: var(--bg);
+  z-index: 40;
+  pointer-events: none;
+}

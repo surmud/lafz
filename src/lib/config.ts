@@ -16,8 +16,12 @@ export const config = {
   contactEmail: env(process.env.NEXT_PUBLIC_CONTACT_EMAIL),
   /** "1" in the Capacitor (iOS/Android) build. */
   native: env(process.env.NEXT_PUBLIC_NATIVE) === "1",
+  /** "1" once native OAuth (system browser + app.lafz:// deep link) is wired; see docs/RELEASE.md. */
+  nativeAuth: env(process.env.NEXT_PUBLIC_NATIVE_AUTH) === "1",
 };
 
-export const accountsEnabled = (): boolean => config.supabaseUrl !== "" && config.supabaseAnonKey !== "";
+/** Google blocks OAuth inside app web views, so native builds keep accounts off until nativeAuth is set. */
+export const accountsEnabled = (): boolean =>
+  config.supabaseUrl !== "" && config.supabaseAnonKey !== "" && (!config.native || config.nativeAuth);
 /** Tips are web-only for now: the stores require in-app purchase for tips (Apple 3.1.1, Play billing). */
 export const tipsEnabled = (): boolean => config.chaiUrl !== "" && !config.native;

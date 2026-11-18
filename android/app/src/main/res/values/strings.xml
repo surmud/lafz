@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Lafz</string>
+    <string name="title_activity_main">Lafz</string>
+    <string name="package_name">app.lafz</string>
+    <string name="custom_url_scheme">app.lafz</string>
+</resources>

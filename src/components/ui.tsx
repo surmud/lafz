@@ -84,6 +84,7 @@ export function TopBar({ back = "/", title, right }: { back?: string | null; tit
   );
 }
 
+/** The decorative stripe at the top of home and onboarding. Sits below the status bar / notch. */
 export function TruckStripe({ className = "" }: { className?: string }) {
-  return <div aria-hidden className={`truck-stripe h-1.5 w-full ${className}`} />;
+  return <div aria-hidden className={`truck-stripe mt-[env(safe-area-inset-top)] h-1.5 w-full ${className}`} />;
 }

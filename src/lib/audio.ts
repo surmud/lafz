@@ -8,7 +8,8 @@ import { getRecording } from "@/storage/db";
  * hashing voice|rate|text (the voice follows the speaker: male characters get the male voice) exactly like scripts/generate_audio.py, so no manifest is shipped.
  * If a clip is missing, fall back to the device's own Urdu voice if it has one.
  */
-export const BASE = "/lafz";
+import { BASE } from "./base";
+export { BASE };
 
 async function sha16(s: string): Promise<string> {
   const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));

@@ -1,4 +1,5 @@
 "use client";
+import { config } from "@/lib/config";
 import Link from "next/link";
 import type { Character } from "@/content/schema";
 import { unitProgress, type UnitMeta } from "@/engine/course";
@@ -106,7 +107,7 @@ export function UnitView({
           </Link>
         ) : null}
 
-        <OfflineButton unitId={meta.id} />
+        {config.native ? null : <OfflineButton unitId={meta.id} />}
         {meta.track === "speaking" ? (
           <Link href={`/unit/${meta.id}/sheet/`} className="flex min-h-12 items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-line px-4 text-sm font-bold text-ink-soft">
             🧾 Cheat sheet (printable)

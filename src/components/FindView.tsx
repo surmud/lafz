@@ -1,4 +1,5 @@
 "use client";
+import { BASE } from "@/lib/base";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Phrase } from "@/content/schema";
@@ -39,9 +40,9 @@ export function FindView() {
     void (async () => {
       try {
         const [lite, meta, bin] = await Promise.all([
-          fetch("/lafz/phrases.json").then((r) => r.json() as Promise<Lite[]>),
-          fetch("/lafz/ai/phrases.json").then((r) => r.json() as Promise<Omit<Index, "matrix">>),
-          fetch("/lafz/ai/phrases.bin").then((r) => r.arrayBuffer()),
+          fetch(`${BASE}/phrases.json`).then((r) => r.json() as Promise<Lite[]>),
+          fetch(`${BASE}/ai/phrases.json`).then((r) => r.json() as Promise<Omit<Index, "matrix">>),
+          fetch(`${BASE}/ai/phrases.bin`).then((r) => r.arrayBuffer()),
         ]);
         index.current = { ...meta, matrix: new Int8Array(bin) };
         setPhrases(new Map(lite.map((p) => [p.id, p])));

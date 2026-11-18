@@ -15,9 +15,15 @@
     "format": "prettier --write .",
     "check": "npm run lint && npm run typecheck && npm run test && npm run content:check",
     "e2e": "playwright test",
-    "budget": "node scripts/bundle-budget.mjs"
+    "budget": "node scripts/bundle-budget.mjs",
+    "build:native": "rm -rf native-www && NEXT_PUBLIC_NATIVE=1 next build && NEXT_PUBLIC_NATIVE=1 node scripts/postbuild.mjs && mv out native-www && cap sync",
+    "native:assets": "capacitor-assets generate --ios --android --assetPath native-assets --iconBackgroundColor '#0f7a73' --iconBackgroundColorDark '#0f7a73' --splashBackgroundColor '#fbf4e8' --splashBackgroundColorDark '#17110e'"
   },
   "dependencies": {
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4",
     "@fontsource-variable/fraunces": "^5.3.0",
     "@fontsource/noto-nastaliq-urdu": "^5.3.0",
     "@supabase/supabase-js": "^2.119.0",
@@ -30,6 +36,10 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.2",
+    "@capacitor/ios": "^8.6.2",
     "@playwright/test": "^1.65.1",
     "@tailwindcss/postcss": "^4.3.5",
     "@testing-library/react": "^16.3.3",

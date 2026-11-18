@@ -2,14 +2,18 @@
 /** "Download unit for offline": caches a unit's pages and every audio clip it uses. */
 const AUDIO_CACHE = "lafz-audio-v1";
 
+import { BASE } from "./base";
+import { config } from "./config";
+
+/** The native app bundles every page and clip, so it needs no service worker or downloads. */
 export function offlineSupported(): boolean {
-  return typeof window !== "undefined" && "caches" in window && "serviceWorker" in navigator;
+  return !config.native && typeof window !== "undefined" && "caches" in window && "serviceWorker" in navigator;
 }
 
 export async function registerServiceWorker() {
   if (!offlineSupported() || location.hostname === "localhost" && !localStorage.getItem("lafz.sw")) return;
   try {
-    await navigator.serviceWorker.register("/lafz/sw.js", { scope: "/lafz/" });
+    await navigator.serviceWorker.register(`${BASE}/sw.js`, { scope: `${BASE}/` });
   } catch {
     /* offline support is best-effort */
   }
@@ -21,7 +25,7 @@ interface OfflineList {
 }
 
 async function list(unitId: string): Promise<OfflineList> {
-  const res = await fetch(`/lafz/offline/${unitId}.json`);
+  const res = await fetch(`${BASE}/offline/${unitId}.json`);
   if (!res.ok) throw new Error("missing list");
   return (await res.json()) as OfflineList;
 }

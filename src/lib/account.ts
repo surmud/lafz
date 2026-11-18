@@ -2,6 +2,7 @@
 import type { SupabaseClient, User } from "@supabase/supabase-js";
 import { mergeProgress } from "@/engine/merge";
 import { migrate, type Progress } from "@/engine/progress";
+import { BASE } from "./base";
 import { accountsEnabled, config } from "./config";
 
 /**
@@ -78,5 +79,5 @@ export async function syncOnLogin(b: Backend, userId: string, local: Progress): 
 
 /** Where OAuth comes back to. */
 export function callbackUrl(): string {
-  return `${location.origin}${config.native ? "" : "/lafz"}/auth/`;
+  return `${location.origin}${BASE}/auth/`;
 }

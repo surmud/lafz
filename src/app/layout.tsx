@@ -5,13 +5,14 @@ import "@fontsource/noto-nastaliq-urdu/700.css";
 import "./globals.css";
 import { AppProviders } from "@/components/AppProviders";
 import { characters } from "@/content";
+import { BASE } from "@/lib/base";
 
 export const metadata: Metadata = {
   title: "Lafz — Learn Urdu",
   description:
     "A free Urdu course for beginners and heritage speakers. Speaking, listening and reading. Works offline.",
-  manifest: "/lafz/manifest.webmanifest",
-  icons: { icon: "/lafz/icons/icon.svg", apple: "/lafz/icons/apple-touch-icon.png" },
+  manifest: `${BASE}/manifest.webmanifest`,
+  icons: { icon: `${BASE}/icons/icon.svg`, apple: `${BASE}/icons/apple-touch-icon.png` },
 };
 
 export const viewport: Viewport = {

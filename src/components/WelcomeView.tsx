@@ -35,7 +35,7 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
   return (
     <>
       <TruckStripe />
-      <main className="flex min-h-[calc(100dvh-6px)] flex-col px-5 pt-10 pb-8">
+      <main className="flex min-h-[calc(100dvh-6px-env(safe-area-inset-top))] flex-col px-5 pt-10 pb-8">
         {step === "hello" ? (
           <div className="flex flex-1 animate-rise flex-col">
             <Nastaliq className="self-center text-7xl text-rose">لفظ</Nastaliq>

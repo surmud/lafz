@@ -5,7 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const OUT = path.resolve("out");
-const BASE = "/lafz";
+const BASE = process.env.NEXT_PUBLIC_NATIVE === "1" ? "" : "/lafz";
 const MALE = new Set(["bilal", "abbu", "pervez", "bashir"]); // keep in step with src/content/audio-key.ts
 const voice = (speaker) => (MALE.has(speaker) ? "matcha-m1" : "matcha-f1");
 

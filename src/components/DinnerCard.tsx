@@ -1,4 +1,5 @@
 "use client";
+import { BASE } from "@/lib/base";
 import { useEffect, useMemo, useState } from "react";
 import type { Phrase } from "@/content/schema";
 import { dinnerCardText, whatsappUrl } from "@/engine/share";
@@ -20,7 +21,7 @@ export function DinnerCard() {
     if (!hasDeck) return;
     let alive = true;
     // Small static index written at build time (scripts/postbuild.mjs), fetched only when needed.
-    void fetch("/lafz/phrases.json")
+    void fetch(`${BASE}/phrases.json`)
       .then((r) => r.json() as Promise<Lite[]>)
       .then((list) => alive && setPhrases(list))
       .catch(() => undefined);

@@ -8,7 +8,7 @@ Everything needing a founder account ships dormant behind env/config flags.
 - [x] **I1 Remove the relatives-names onboarding step.** Characters keep default names; stored names are dropped on load.
 - [x] **I2 "Loving Lafz? Buy me a chai" tip jar.** Stripe Payment Link from `NEXT_PUBLIC_CHAI_URL` (hidden when unset); Me page row + one dismissible card after ~5 lessons; hidden in native builds (IAP later).
 - [x] **I3 Optional accounts (Supabase Auth, Google).** Skippable sign-in at the end of onboarding and on Me; `user_progress` jsonb + RLS; merge on login; in-app delete account; Sign in with Apple slot behind a flag. Config `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
-- [ ] **I4 Mobile release shell (Capacitor, iOS + Android).** No-basePath native build, app id, icons/splash, safe areas, Android back, mic permission strings, offline content bundled; run in simulators; store screenshots; docs/RELEASE.md.
+- [x] **I4 Mobile release shell (Capacitor, iOS + Android).** No-basePath native build, app id, icons/splash, safe areas, Android back, mic permission strings, offline content bundled; run in simulators; store screenshots; docs/RELEASE.md.
 - [ ] **I5 Legal pages and hygiene.** /privacy, /terms, /delete-account; complete credits; public-domain poets only; brand distinct from Duolingo.
 - [ ] **I6 WCAG 2.2 AA pass** on every main screen: axe, keyboard and screen-reader flows, reduced motion, 200% zoom at 375px.
 - [ ] **I7 Multi-language readiness** (refactor only): LanguagePack interface, content/<lang>/, docs/ADDING_A_LANGUAGE.md.
@@ -166,3 +166,5 @@ dislike about Duolingo. Fun is fine; corny is not.
 - [x] **H27 Story audio "play all"** with auto-advance for hands-free listening.
 - [x] **H28 Reading-track stories:** short Nastaliq-only stories for R6–R10 (signs, a shop, a letter from Nani).
 - [x] **H29 Story vocabulary to review:** add a tapped word's phrase (when it's a course phrase) to the review deck.
+- [ ] **I4b Native OAuth** (before enabling accounts in the apps): @capacitor/browser + app.lafz:// deep link + exchangeCodeForSession; then NEXT_PUBLIC_NATIVE_AUTH=1 (docs/RELEASE.md).
+- [ ] **I4c In-app purchase tips** for the native apps (StoreKit / Play Billing), replacing the hidden web tip jar there.
