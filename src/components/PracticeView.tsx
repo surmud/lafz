@@ -15,6 +15,8 @@ export function PracticeView() {
   const items = [
     { href: "/review/", icon: "🔁", title: "Review", sub: review > 0 ? `${review} phrases ready` : "Phrases come back here when they're due" },
     { href: "/practice/trouble/", icon: "🧗", title: "Trouble words", sub: trouble > 0 ? `${trouble} phrases you've missed` : "The phrases you miss most collect here" },
+    { href: "/stories/", icon: "📚", title: "Stories", sub: "Short stories to listen to or read, word by word" },
+    { href: "/shadow/", icon: "🪞", title: "Shadowing", sub: "Hear it, say it straight back, compare" },
     { href: "/listen/", icon: "🎧", title: "Listening mode", sub: "Hands-free: hear it, say it, hear it again" },
     { href: "/find/", icon: "🔎", title: "How do I say…?", sub: "Describe the situation, find the phrase" },
     { href: "/phrasebook/", icon: "📖", title: "Phrasebook", sub: "Every phrase, with audio" },

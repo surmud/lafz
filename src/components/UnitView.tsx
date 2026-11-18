@@ -90,6 +90,22 @@ export function UnitView({
           ) : null}
         </ol>
 
+        {meta.story ? (
+          <Link
+            href={`/story/${meta.id}/`}
+            className={`flex items-center gap-4 rounded-3xl border-2 p-4 shadow-[0_3px_0_var(--line)] ${progress.lessons[`${meta.id}-story`] ? "border-good bg-good-soft" : "border-line bg-surface"}`}
+          >
+            <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-accent-soft text-3xl" aria-hidden>
+              {meta.story.emoji}
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block text-xs font-black tracking-widest text-ink-soft uppercase">Story</span>
+              <span className="block font-display text-xl font-bold">{meta.story.title}</span>
+              <span className="block text-sm text-ink-soft">{meta.story.blurb}</span>
+            </span>
+          </Link>
+        ) : null}
+
         <OfflineButton unitId={meta.id} />
         {meta.track === "speaking" ? (
           <Link href={`/unit/${meta.id}/sheet/`} className="flex min-h-12 items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-line px-4 text-sm font-bold text-ink-soft">

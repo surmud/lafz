@@ -330,6 +330,28 @@
    "url": "https://en.wiktionary.org/wiki/%D8%A2%D8%AF%D8%A7%D8%A8#Urdu"
   }
  },
+ "آدھا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", = H ادها अद्वा, addhā, [S. अर्ध+क], adj. (f. -ī), Half; — s.m. A half-measure; a half-chain, half-yard, &c.: — ādhā-ādhā, adv. Half and half, &c. = ādho-ādh, q.v.: — adhā-sīsī (S. ardha+ śirsā), s.f. Pain affecting hal",
+     "translit": "ādhā"
+    }
+   ],
+   "headword": "آدھا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A2%D8%AF%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "half",
+    "half"
+   ],
+   "headword": "آدھا",
+   "translit": "ādhā",
+   "url": "https://en.wiktionary.org/wiki/%D8%A2%D8%AF%DA%BE%D8%A7#Urdu"
+  }
+ },
  "آرام": {
   "checked": "2026-11-16",
   "platts": {
@@ -477,6 +499,17 @@
    "headword": "آنکھوں",
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%86%DA%A9%DA%BE%D9%88%DA%BA#Urdu"
+  }
+ },
+ "آنکھیں": {
+  "checked": "2026-11-17",
+  "wiktionary": {
+   "glosses": [
+    "form of آن٘کھ"
+   ],
+   "headword": "آنکھیں",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%86%DA%A9%DA%BE%DB%8C%DA%BA#Urdu"
   }
  },
  "آنگن": {
@@ -877,6 +910,28 @@
    "headword": "اتنا",
    "translit": "itnā",
    "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%AA%D9%86%D8%A7#Urdu"
+  }
+ },
+ "اتوار": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. आदित्य+वार], s.m. Sunday.",
+     "translit": "itwār"
+    }
+   ],
+   "headword": "اتوار",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D8%AA%D9%88%D8%A7%D8%B1&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "Sunday",
+    "the Sabbath day<ref>Fallon</ref>"
+   ],
+   "headword": "اتوار",
+   "translit": "etvār",
+   "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%AA%D9%88%D8%A7%D8%B1#Urdu"
   }
  },
  "اجازت": {
@@ -1486,6 +1541,17 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
   }
  },
+ "انارکلی": {
+  "checked": "2026-11-17",
+  "wiktionary": {
+   "glosses": [
+    "the bud of a pomegranate"
+   ],
+   "headword": "انارکلی",
+   "translit": "anārkalī",
+   "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%A7%D8%B1%DA%A9%D9%84%DB%8C#Urdu"
+  }
+ },
  "انتخابات": {
   "checked": "2026-11-17",
   "wiktionary": {
@@ -1557,6 +1623,27 @@
    "headword": "اندھیرا",
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AF%DA%BE%DB%8C%D8%B1%D8%A7#Urdu"
+  }
+ },
+ "اندھیرے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", adj. fem. of andherā, q.v.; — s.f. Darkness, obscurity; blind or blinkers for a horse; a horse covering which also covers the eyes: — andherī jhuknā, v.n. To be overcast; to lower; darkness to set in: — andherī denā, a",
+     "translit": "andherī"
+    }
+   ],
+   "headword": "اندھیرے",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%86%D8%AF%D9%87%D9%8A%D8%B1%DB%92&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "form of اَنْدھیرا"
+   ],
+   "headword": "اندھیرے",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AF%DA%BE%DB%8C%D8%B1%DB%92#Urdu"
   }
  },
  "انگریزی": {
@@ -1698,6 +1785,27 @@
    ],
    "headword": "اپنی",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%BE%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "oneself, yourself"
+   ],
+   "headword": "اپنا",
+   "translit": "apṛā",
+   "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%BE%D9%86%D8%A7#Urdu"
+  }
+ },
+ "اپنے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "= S اپنين उपनयन upanayan, s.m. Bringing near; supplying; employing; initiation; the initiation of the three first classes of Hindūs; investiture with the sacred thread (com. called janeü, q.v.) worn over the left shoulde",
+     "translit": "upanaya upanya"
+    }
+   ],
+   "headword": "اپنے",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%BE%D9%86%DB%92&searchhws=yes&matchtype=exact"
   },
   "wiktionary": {
    "glosses": [
@@ -2088,6 +2196,61 @@
    "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%AA%DB%8C%DA%BA#Urdu"
   }
  },
+ "بادل": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. वार्दल, or वारिद], s.m. Cloud; sponge: — bādal phaṭnā, Clouds to disperse, to become clear (the sky): — bādal ćhānā, To lower, be overcast (the sky).",
+     "translit": "bādal"
+    }
+   ],
+   "headword": "بادل",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%A7%D8%AF%D9%84&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "cloud",
+    "(poetic) storm"
+   ],
+   "headword": "بادل",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%AF%D9%84#Urdu"
+  }
+ },
+ "بار": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.f. = bāṛ, q.v.",
+     "translit": "bār"
+    },
+    {
+     "gloss": ", s.m. = bāl, 'hair' q.v.; — also = bāl, 'child'; and bālā, 'girl,' q.q.v.",
+     "translit": "bār"
+    },
+    {
+     "gloss": "[Zend vār; S. वार], s.f. Time, turn; occasion, opportunity; delay; (and, in Hindī) s.m. Day of the week; Saturday; — prohibition, obstacle, obstruction, &c.; (in Hindī and Urdū), gate, door, door-way, threshold, entrance",
+     "translit": "bār"
+    },
+    {
+     "gloss": "(S. भार), s.m. Load, burden; cargo; weight, heaviness; onus; pregnancy; fruit, produce; (in Persian phrases), greatness, dignity; God; — adj. Heavy, burdensome, hard to be borne: — bār-ě-ilāh or ilāhā, intj. Lord God! G",
+     "translit": "bār"
+    }
+   ],
+   "headword": "بار",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%A7%D8%B1&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "time, turn, occasion, instance, occurrence"
+   ],
+   "headword": "بار",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%B1#Urdu"
+  }
+ },
  "بارات": {
   "checked": "2026-11-16",
   "platts": {
@@ -2230,6 +2393,34 @@
    "headword": "باپ",
    "translit": "bāp",
    "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D9%BE#Urdu"
+  }
+ },
+ "باہر": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. वहिस्, वहिर्], adv. & postposn. (governing gen., -ke, or abl., -se), Outside, exterior; externally, outward; out, out of; beyond, exceeding; beyond the effect or influence (of, -se); without, abroad, away; — intj. Ou",
+     "translit": "bāhir bāhar"
+    },
+    {
+     "gloss": "(act. part. of بهر 'to overcome'), adj. Surpassing, excelling, eminent; conspicuous, manifest, open, public.",
+     "translit": "bāhir"
+    }
+   ],
+   "headword": "باہر",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%A7%D9%87%D8%B1&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "outside",
+    "exterior, outward",
+    "abroad, foreign",
+    "outside, outdoors"
+   ],
+   "headword": "باہر",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%DB%81%D8%B1#Urdu"
   }
  },
  "بتا": {
@@ -2448,6 +2639,19 @@
  "بجٹ": {
   "checked": "2026-11-17"
  },
+ "بجی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. विजय, rt जि], s.m. Victory, conquest, triumph (syn. jīt; fataḥ): — bijaʼě-dasmī, s.f. 'The victorious tenth'; the tenth of Ásin śukl paksh, the anniversary of Rām's victory over Rāvan; (generally) any tenth day of a",
+     "translit": "bijay bijaʼě bijai"
+    }
+   ],
+   "headword": "بجی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%AC%D9%8A&searchhws=yes&matchtype=exact"
+  }
+ },
  "بجے": {
   "checked": "2026-11-16",
   "platts": {
@@ -2615,6 +2819,30 @@
    "headword": "بریانی",
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%DB%8C%D8%A7%D9%86%DB%8C#Urdu"
+  }
+ },
+ "بزرگ": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Pehl. vazr; Zend vazra; S. vajra], adj. & s.m. Great, reverend, venerable, aged, noble, respected, respectable; — great man, grandee; old man, elder, respectable person; holy man, saint; sage, wise man; ancestor, forefa",
+     "translit": "buzurg"
+    }
+   ],
+   "headword": "بزرگ",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%B2%D8%B1%DA%AF&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "old in age; elderly",
+    "senior; elderly person",
+    "saint, holy person",
+    "ancestor; forefather"
+   ],
+   "headword": "بزرگ",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B2%D8%B1%DA%AF#Urdu"
   }
  },
  "بس": {
@@ -3097,6 +3325,41 @@
    ],
    "headword": "بنو",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D9%88&searchhws=yes&matchtype=exact"
+  }
+ },
+ "بنی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(see banā), s.f. Bride.",
+     "translit": "banī bannī"
+    },
+    {
+     "gloss": "(dim. of ban), s.f. Small forest, wood, grove.",
+     "translit": "banī"
+    },
+    {
+     "gloss": ", s.f. Portion of grain given to a labourer as a remuneration for his services.",
+     "translit": "bannī banī"
+    },
+    {
+     "gloss": "(obl. pl. of ibn, rt. بني 'to build'), s.m. pl. (used in comp.), Sons, children; — banī-ādam, s.m. Sons of Adam, men, mortals: — banī-isrāʼīl, s.m. Children of Israel, Israelites: — banī-jān, s.m. The children of Jān, th",
+     "translit": "banī"
+    }
+   ],
+   "headword": "بنی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "without, prepared without",
+    "basis, foundation",
+    "mason, builder"
+   ],
+   "headword": "بنا",
+   "translit": "vínā",
+   "url": "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D8%A7#Urdu"
   }
  },
  "بول": {
@@ -3974,6 +4237,23 @@
    "headword": "بیٹھنا",
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D9%B9%DA%BE%D9%86%D8%A7#Urdu"
+  }
+ },
+ "بیٹھے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. विष्टरः], s.m. Annular cushion put on the head to carry a pot of water, &c. (syn. bīṅḍā; inḍwā).",
+     "translit": "bīṭhā"
+    },
+    {
+     "gloss": "(perf. part. of baiṭhnā), part. adj. Seated, sitting; settled, settled down; fallen in (as a roof, &c.); — s.m. Paddle (for rowing a boat): — baiṭhā rahnā, v.n. To remain sitting, to sit; to give up (attempting a thing),",
+     "translit": "baiṭhā"
+    }
+   ],
+   "headword": "بیٹھا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D9%B9%D9%87%D8%A7&searchhws=yes&matchtype=exact"
   }
  },
  "بیٹی": {
@@ -5056,6 +5336,19 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D8%AA%D9%86%DB%92&searchhws=yes&matchtype=exact"
   }
  },
+ "جلائی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[julā = julāh+ī = S. ई(इन्)+कः], s.m. A weaver = julāh: — julāʼī-wāṛī, s.f. The ward or quarter of a town inhabited by weavers.",
+     "translit": "julāʼī"
+    }
+   ],
+   "headword": "جلائی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D9%84%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+  }
+ },
  "جلد": {
   "checked": "2026-11-16",
   "platts": {
@@ -5188,6 +5481,9 @@
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D8%AC%D9%86%D8%AA#Urdu"
   }
+ },
+ "جنریٹر": {
+  "checked": "2026-11-17"
  },
  "جوتے": {
   "checked": "2026-11-16",
@@ -6223,6 +6519,27 @@
    "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%B1%D9%88%D8%A7%D8%B2%DB%81#Urdu"
   }
  },
+ "دروازے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(darwāza+ī = S. इन्), s.m. Keeper of a gate (of a town), a warden.",
+     "translit": "darwāzī"
+    }
+   ],
+   "headword": "دروازے",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D8%B1%D9%88%D8%A7%D8%B2%DB%92&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "form of دَرْوَازَہ"
+   ],
+   "headword": "دروازے",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%B1%D9%88%D8%A7%D8%B2%DB%92#Urdu"
+  }
+ },
  "دریا": {
   "checked": "2026-11-17",
   "platts": {
@@ -6588,6 +6905,30 @@
   }
  },
  "دوسری": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Prk. दूसलिअओ = S. द्विः+सृत+कः], adj. (f. -ī), Second, another, other, next, following (day, &c.); — s.m. A second, a match, an equal, a peer; a duplicate: — dūsrā utār, s.m. (Arith.), Square root: — dūsrā ćaṛhāʼo, s.m.",
+     "translit": "dūsrā"
+    }
+   ],
+   "headword": "دوسرا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%88%D8%B3%D8%B1%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "other, another",
+    "second",
+    "copy, duplicate",
+    "alternate, replacement"
+   ],
+   "headword": "دوسرا",
+   "translit": "dūsrā",
+   "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88%D8%B3%D8%B1%D8%A7#Urdu"
+  }
+ },
+ "دوسرے": {
   "checked": "2026-11-17",
   "platts": {
    "entries": [
@@ -7347,6 +7688,33 @@
    "headword": "روک",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%88%DA%A9&searchhws=yes&matchtype=exact"
   }
+ },
+ "رکشا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.f. Preservation, protection, keeping, care, guardianship, custody, safety; defence, support, patronage; shadowing; — ashes; — a sort of bracelet; an amulet; — lac: — rakshādhikārī (˚sha+adh˚), s.m. One placed over fo",
+     "translit": "rakshā"
+    }
+   ],
+   "headword": "رکشا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%DA%A9%D8%B4%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "rickshaw",
+    "protection",
+    "safety",
+    "defence"
+   ],
+   "headword": "رکشا",
+   "translit": "rikisha",
+   "url": "https://en.wiktionary.org/wiki/%D8%B1%DA%A9%D8%B4%D8%A7#Urdu"
+  }
+ },
+ "رکشہ": {
+  "checked": "2026-11-17"
  },
  "رکو": {
   "checked": "2026-11-16",
@@ -8598,6 +8966,34 @@
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%88%D8%AA%DB%92#Urdu"
   }
+ },
+ "سویا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. सवयास्], adj. & s.m.f. Of the same age; coeval, contemporary; — a contemporary; a friend of the same age.",
+     "translit": "sa-vayā"
+    },
+    {
+     "gloss": "[S. सपादिकः], adj. With a quarter more, &c. ( = sawāyā, q.v.); — s.m. A quarter more; a weight of 1 ¼ ser; the multiplication table of 1 ¼ times; a kind of verse or measure (consisting of four lines, each of 16+15 = 31 i",
+     "translit": "sawaiyā sawaiʼā siwaiyā"
+    },
+    {
+     "gloss": "[so(nā) + waiyā = Prk. एअव्वअइओ = S. (इ)तव्य+क+इकः:], s.m. One who sleeps, a sleeper ( = sone-wālā).",
+     "translit": "suwaiyā"
+    },
+    {
+     "gloss": "[S. सूचिकः], adj. Pointed (as a needle), having a sharp point.",
+     "translit": "sūʼiyā"
+    }
+   ],
+   "headword": "سویا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%88%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
+  }
+ },
+ "سٹیج": {
+  "checked": "2026-11-17"
  },
  "سچ": {
   "checked": "2026-11-16",
@@ -10031,6 +10427,19 @@
    "url": "https://en.wiktionary.org/wiki/%D9%82%D9%85%DB%8C%D8%B6#Urdu"
   }
  },
+ "قورمہ": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "= H قورما qormā (for Turk. qawurma), s.m. A brown stew seasoned with condiments; a highly spiced curry without turmeric and with little or no gravy: — qorma-pulāʼo, s.m. A very rich pulāʼo made of qorma.",
+     "translit": "qorma"
+    }
+   ],
+   "headword": "قورمہ",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%82%D9%88%D8%B1%D9%85%D9%87&searchhws=yes&matchtype=exact"
+  }
+ },
  "قیمت": {
   "checked": "2026-11-16",
   "platts": {
@@ -10087,6 +10496,17 @@
    "headword": "لانا",
    "translit": "lā́ti",
    "url": "https://en.wiktionary.org/wiki/%D9%84%D8%A7%D9%86%D8%A7#Urdu"
+  }
+ },
+ "لالٹین": {
+  "checked": "2026-11-17",
+  "wiktionary": {
+   "glosses": [
+    "lantern"
+   ],
+   "headword": "لالٹین",
+   "translit": "lālṭen",
+   "url": "https://en.wiktionary.org/wiki/%D9%84%D8%A7%D9%84%D9%B9%DB%8C%D9%86#Urdu"
   }
  },
  "لاہور": {
@@ -10265,6 +10685,54 @@
    ],
    "headword": "لگ",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%AF&searchhws=yes&matchtype=exact"
+  }
+ },
+ "لگاؤ": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(caus. of lagnā, q.v.), To attach, unite, join, connect (with, -se, or to, -meṅ); to fasten; to fix; to affix; to put, place; to put to (a boat), to moor; to put or set (to work), to employ, to engage; to put to, to shut",
+     "translit": "lagānā"
+    }
+   ],
+   "headword": "لگانا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%AF%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "(transitive) to affix, attach, join",
+    "(transitive) to place; install; setup",
+    "(transitive) to apply, spread",
+    "to deploy, post, appoint"
+   ],
+   "headword": "لگانا",
+   "translit": "lagānā",
+   "url": "https://en.wiktionary.org/wiki/%D9%84%DA%AF%D8%A7%D9%86%D8%A7#Urdu"
+  }
+ },
+ "لگایا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(caus. of lagnā, q.v.), To attach, unite, join, connect (with, -se, or to, -meṅ); to fasten; to fix; to affix; to put, place; to put to (a boat), to moor; to put or set (to work), to employ, to engage; to put to, to shut",
+     "translit": "lagānā"
+    }
+   ],
+   "headword": "لگانا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%AF%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "(transitive) to affix, attach, join",
+    "(transitive) to place; install; setup",
+    "(transitive) to apply, spread",
+    "to deploy, post, appoint"
+   ],
+   "headword": "لگانا",
+   "translit": "lagānā",
+   "url": "https://en.wiktionary.org/wiki/%D9%84%DA%AF%D8%A7%D9%86%D8%A7#Urdu"
   }
  },
  "لگتا": {
@@ -10477,6 +10945,31 @@
    "headword": "لیکن",
    "translit": "magar",
    "url": "https://en.wiktionary.org/wiki/%D9%84%DB%8C%DA%A9%D9%86#Urdu"
+  }
+ },
+ "لیں": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Ap. Prk. लिन्न; S. लब्ध, rt. लभ्], part. (old H.) Taken, seized, &c. ( = liyā): — līn-ćhīn, part. Seized, captured; enslaved.",
+     "translit": "līn"
+    },
+    {
+     "gloss": "(rt. lī), part. Embraced, clung (to), adhered (to), attached (to); — dissolved, melted, absorbed, swallowed up, immersed; engrossed (in) busily occupied (with); extinguished, effaced, removed, vanished, disappeared, peri",
+     "translit": "līna līn"
+    },
+    {
+     "gloss": "(i.q. lenā, q.v.), s.m. Taking, receiving, &c.: — len-den (dialec. lain-dain), s.m. 'Taking and giving'; buying and selling; borrowing and lending; traffic, trade, barter; business, transaction, dealing; intercourse, com",
+     "translit": "len lain"
+    },
+    {
+     "gloss": "(corr. fr. the English), s.f. Line, row, file (of soldiers); boundary-line, limit (as of an encampment, or of the customs, &c.); — barracks, cantonment: — lain bāṅdhke, conj. part. Having formed a line or row; — adv. In ",
+     "translit": "lain"
+    }
+   ],
+   "headword": "لیں",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
   }
  },
  "لیے": {
@@ -11799,8 +12292,62 @@
    "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B1%D8%A7#Urdu"
   }
  },
+ "میز": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Pehl. mīj; Zend myaz; prob. akin to S. मह 'feast; sacrifice'; — cf. mez-bān and měhmān], s.f. A table: — mez-bān, or mez-mān, s.m. Landlord; master of the house, or of a feast; entertainer, host: — mez-bānī, s.f. Enter",
+     "translit": "mez"
+    }
+   ],
+   "headword": "میز",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D8%B2&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "table",
+    "(loosely) desk"
+   ],
+   "headword": "میز",
+   "translit": "mēz",
+   "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D8%B2#Urdu"
+  }
+ },
  "میوزک": {
   "checked": "2026-11-17"
+ },
+ "میٹھا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Prk. मिट्ठओ; S. मिष्टकः], adj. (f. -ī), Sweet (lit. & fig.); pleasant, agreeable; — slow, slight, gentle; tame; mild; — slow, sluggish, lazy; — s.m. A general name for sweets (as sugar, molasses, and the like); — the sw",
+     "translit": "mīṭhā"
+    },
+    {
+     "gloss": ", s.m. corr. of meṭā, q.v.",
+     "translit": "meṭhā"
+    },
+    {
+     "gloss": "[S. मेठ+कः], s.m. A ram (i.q. meṛhā, the com. form).",
+     "translit": "meṭhā"
+    }
+   ],
+   "headword": "میٹھا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%D9%B9%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "sweet, delicious",
+    "pleasant, agreeable",
+    "sweets",
+    "sweet lime"
+   ],
+   "headword": "میٹھا",
+   "translit": "mīṭhā",
+   "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%D9%B9%DA%BE%D8%A7#Urdu"
+  }
  },
  "میچ": {
   "checked": "2026-11-17",
@@ -12556,6 +13103,31 @@
    "url": "https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%84%D8%A7#Urdu"
   }
  },
+ "والی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", suff. fem. of wālā, q.v.",
+     "translit": "wālī"
+    },
+    {
+     "gloss": "(for A. والٍ wāliṉ, act. part. of ولي 'to be near,' &c.), s.m. A prince, ruler, governor; chief magistrate; — a guardian; — master, owner, proprietor: — wālī-wāris̤, Guardians; parents: patrons: — be-èwālī-wāris̤, Withou",
+     "translit": "wālī"
+    }
+   ],
+   "headword": "والی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D8%A7%D9%84%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "(highly|productive suffix) one who does"
+   ],
+   "headword": "والا",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%84%D8%A7#Urdu"
+  }
+ },
  "وانا": {
   "checked": "2026-11-16"
  },
@@ -12740,6 +13312,31 @@
    "url": "https://en.wiktionary.org/wiki/%D9%88%DB%81%D8%A7%DA%BA#Urdu"
   }
  },
+ "وی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. वयस्], s.f. Age, &c. (i.q. vayas, q.v., and cf. bai).",
+     "translit": "way waʼe wai waʼi"
+    },
+    {
+     "gloss": "[S. वयः, rt. वे], s.m. (f. -ī), A weaver.",
+     "translit": "way waʼe"
+    },
+    {
+     "gloss": ", s.f. (m. वि vi), A bird.",
+     "translit": "vī"
+    },
+    {
+     "gloss": "(rt. vī, 'to go,' &c.), s.f. Going; motion; — covering.",
+     "translit": "vī"
+    }
+   ],
+   "headword": "وی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%88%D9%8A&searchhws=yes&matchtype=exact"
+  }
+ },
  "ویسا": {
   "checked": "2026-11-17",
   "platts": {
@@ -12758,6 +13355,9 @@
  },
  "ویک": {
   "checked": "2026-11-16"
+ },
+ "ٹارچ": {
+  "checked": "2026-11-17"
  },
  "ٹریفک": {
   "checked": "2026-11-16"
@@ -12806,6 +13406,9 @@
    "translit": "ṭhīk",
    "url": "https://en.wiktionary.org/wiki/%D9%B9%DA%BE%DB%8C%DA%A9#Urdu"
   }
+ },
+ "ٹی": {
+  "checked": "2026-11-17"
  },
  "ٹیڑھا": {
   "checked": "2026-11-17",
@@ -13147,6 +13750,28 @@
  "پلیز": {
   "checked": "2026-11-16"
  },
+ "پلیٹ": {
+  "checked": "2026-11-17",
+  "wiktionary": {
+   "glosses": [
+    "plate"
+   ],
+   "headword": "پلیٹ",
+   "translit": "plaiṭ",
+   "url": "https://en.wiktionary.org/wiki/%D9%BE%D9%84%DB%8C%D9%B9#Urdu"
+  }
+ },
+ "پلیٹیں": {
+  "checked": "2026-11-17",
+  "wiktionary": {
+   "glosses": [
+    "plate"
+   ],
+   "headword": "پلیٹ",
+   "translit": "plaiṭ",
+   "url": "https://en.wiktionary.org/wiki/%D9%BE%D9%84%DB%8C%D9%B9#Urdu"
+  }
+ },
  "پندرہ": {
   "checked": "2026-11-16",
   "platts": {
@@ -13377,6 +14002,27 @@
    ],
    "headword": "پڑتا",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%DA%91%D8%AA%D8%A7&searchhws=yes&matchtype=exact"
+  }
+ },
+ "پڑوسی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. प्रतिवासी], s.m. A neighbour: — paṛausī-kā aṅs, s.m. Right of vicinage; right of preëmption.",
+     "translit": "paṛosī paṛausī"
+    }
+   ],
+   "headword": "پڑوسی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%DA%91%D9%88%D8%B3%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "neighbour"
+   ],
+   "headword": "پڑوسی",
+   "translit": "hamsāya",
+   "url": "https://en.wiktionary.org/wiki/%D9%BE%DA%91%D9%88%D8%B3%DB%8C#Urdu"
   }
  },
  "پڑھ": {
@@ -13649,6 +14295,39 @@
    "url": "https://en.wiktionary.org/wiki/%D9%BE%DB%81#Urdu"
   }
  },
+ "پہلی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. फल+इका], s.f. A cod or pod (esp. of peas); the seed-vessel or shell of any leguminous plant (as peas, mūṅg, lobiyā, uṛad, &c.); — a shield; — a loop: — phalī-kash, s.m. A hook for drawing the looped strings through t",
+     "translit": "phalī"
+    },
+    {
+     "gloss": ", adj. Bearing fruit, fruitful, &c. ( = phalwān); having an iron head or point (as an arrow, &c.); having a blade, bladed (as a knife; e.g. du-phalī, two-bladed).",
+     "translit": "phalī"
+    },
+    {
+     "gloss": ", s.f. = phalinī, q.v.",
+     "translit": "phalī"
+    },
+    {
+     "gloss": ", s.f. The leg ( = pinḍlī, q.v.).",
+     "translit": "phillī"
+    }
+   ],
+   "headword": "پہلی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%84%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "form of پَہْلا"
+   ],
+   "headword": "پہلی",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%D9%BE%DB%81%D9%84%DB%8C#Urdu"
+  }
+ },
  "پہلے": {
   "checked": "2026-11-16",
   "platts": {
@@ -13703,6 +14382,19 @@
    "url": "https://en.wiktionary.org/wiki/%D9%BE%DB%81%D9%86%D9%86%D8%A7#Urdu"
   }
  },
+ "پہنو": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(see phunaṅg), s.m. Penis puerilis ( = phunnī; syn. nūnī).",
+     "translit": "phunno"
+    }
+   ],
+   "headword": "پہنو",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%86%D9%88&searchhws=yes&matchtype=exact"
+  }
+ },
  "پہنوں": {
   "checked": "2026-11-16",
   "platts": {
@@ -13727,6 +14419,31 @@
    ],
    "headword": "پہن",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%87%D9%86&searchhws=yes&matchtype=exact"
+  }
+ },
+ "پی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. प्रियः], adj. & s.m. = piyā, q.v.",
+     "translit": "pī piya"
+    },
+    {
+     "gloss": ", s.f. Fat, &c. = pīh, q.v.",
+     "translit": "pī"
+    },
+    {
+     "gloss": "[Prk. पयो = S. पयस्], s.m. Milk, water, juice, anything to drink: — paya-da, payad, adj. & s.m. Yielding milk or water; — the female breast or nipple; a cloud: — paya- (or pay-) nidhī, s.m. (Myth.) The ocean of milk; the",
+     "translit": "paya pay pai"
+    },
+    {
+     "gloss": "[contrac. of pāʼe, or S. पाद्य], s.m. The foot; footstep; track, trace, mark, vestige; pursuit; — nerve, tendon, sinew; — adv. In the footsteps (of, -ke), in the track (of), in pursuit (of), following; after, behind ( = ",
+     "translit": "pai"
+    }
+   ],
+   "headword": "پی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%8A&searchhws=yes&matchtype=exact"
   }
  },
  "پیاس": {
@@ -14141,6 +14858,38 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%84%D8%A7&searchhws=yes&matchtype=exact"
   }
  },
+ "چلاؤ": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[ćalā˚ = Prk. चलाव(इ), or चलावे(इ) = S. चल+आपय(ति)], v.t. To cause to move or go or pass, to move, put in motion, set agoing; to stir, agitate (with a spoon, &c.); to hasten, urge, impel, propel, drive; to discharge (an ",
+     "translit": "ćalānā"
+    },
+    {
+     "gloss": "[S. चिल्ल 'a kite'+ā = āw = Prk. आवे = S. आपि (caus. augment)+nā = Prk. अणअं = S. अनीयं], v.n. To make a noise like a kite, to scream, screech, shriek, yell, bawl, roar; to cry out, make a noise, raise an outcry; to excl",
+     "translit": "ćillānā ćilānā"
+    },
+    {
+     "gloss": "(caus. of ćūnā), v.t. To cause to drip, to distil, &c. ( = ćuwānā, q.v.).",
+     "translit": "ćulānā"
+    }
+   ],
+   "headword": "چلانا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%84%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "to cause to walk; to move",
+    "to start",
+    "to run, establish",
+    "to drive"
+   ],
+   "headword": "چلانا",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%DA%86%D9%84%D8%A7%D9%86%D8%A7#Urdu"
+  }
+ },
  "چلائیے": {
   "checked": "2026-11-16",
   "platts": {
@@ -14175,6 +14924,38 @@
  },
  "چلاتا": {
   "checked": "2026-11-16",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[ćalā˚ = Prk. चलाव(इ), or चलावे(इ) = S. चल+आपय(ति)], v.t. To cause to move or go or pass, to move, put in motion, set agoing; to stir, agitate (with a spoon, &c.); to hasten, urge, impel, propel, drive; to discharge (an ",
+     "translit": "ćalānā"
+    },
+    {
+     "gloss": "[S. चिल्ल 'a kite'+ā = āw = Prk. आवे = S. आपि (caus. augment)+nā = Prk. अणअं = S. अनीयं], v.n. To make a noise like a kite, to scream, screech, shriek, yell, bawl, roar; to cry out, make a noise, raise an outcry; to excl",
+     "translit": "ćillānā ćilānā"
+    },
+    {
+     "gloss": "(caus. of ćūnā), v.t. To cause to drip, to distil, &c. ( = ćuwānā, q.v.).",
+     "translit": "ćulānā"
+    }
+   ],
+   "headword": "چلانا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%84%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "to cause to walk; to move",
+    "to start",
+    "to run, establish",
+    "to drive"
+   ],
+   "headword": "چلانا",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%DA%86%D9%84%D8%A7%D9%86%D8%A7#Urdu"
+  }
+ },
+ "چلانے": {
+  "checked": "2026-11-17",
   "platts": {
    "entries": [
     {
@@ -14409,6 +15190,29 @@
    "url": "https://en.wiktionary.org/wiki/%DA%86%D9%88%D8%B1%DB%8C#Urdu"
   }
  },
+ "چوڑیاں": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. चूड+इका], s.f. (dim. of ćūṛā). A ring or bangle of lac or glass (worn on the wrist); a ring; ring (of an eye-glass); a gather, pucker: — ćūṛī-dār, adj. & s.m. Gathered, puckered; — drawers or sleeves made too long, s",
+     "translit": "ćūṛī"
+    }
+   ],
+   "headword": "چوڑی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%88%DA%91%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "(chiefly) bangle",
+    "(of a screw, etc.) thread",
+    "sometimes a handcuff"
+   ],
+   "headword": "چوڑی",
+   "translit": "cūṛā",
+   "url": "https://en.wiktionary.org/wiki/%DA%86%D9%88%DA%91%DB%8C#Urdu"
+  }
+ },
  "چوک": {
   "checked": "2026-11-17",
   "platts": {
@@ -14582,6 +15386,36 @@
    "headword": "چھ",
    "translit": "-",
    "url": "https://en.wiktionary.org/wiki/%DA%86%DA%BE#Urdu"
+  }
+ },
+ "چھت": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. छदि or छदिः rt. छद्], s.f. A roof; a ceiling; a ceiling-cloth; — a platform: — ćhat banānā, ćhat pāṭnā, To ceil, to cover the inner roof of a building: — ćhat-gīrī, s.f. A ceiling-cloth ( = ćādar-ćhat): — ćhat lagānā",
+     "translit": "ćhat"
+    },
+    {
+     "gloss": ", s.f. contrac. of ćhātī, 'breast' (used in comp.): — ćhat-lagan, s.m. A sweetheart, a lover.",
+     "translit": "ćhat"
+    },
+    {
+     "gloss": ", s.f. = ćhiti, q.v.",
+     "translit": "ćhit"
+    }
+   ],
+   "headword": "چھت",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%86%D9%87%D8%AA&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "ceiling",
+    "roof; terrace"
+   ],
+   "headword": "چھت",
+   "translit": "'''chat''' par tīn paṅkhe h͠ai.",
+   "url": "https://en.wiktionary.org/wiki/%DA%86%DA%BE%D8%AA#Urdu"
   }
  },
  "چھتری": {
@@ -15064,6 +15898,31 @@
    "headword": "کب",
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A8#Urdu"
+  }
+ },
+ "کباب": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": ", s.m. Roasted meat, roast; collops, or slices, or small pieces of meat, roasted on a skewer or spit; — adj. Roasted: — kabāb karnā, v.t. To roast; to burn; to inflame: — kabāb lagāna, To put meat down to roast: — kabāb ",
+     "translit": "kabāb"
+    },
+    {
+     "gloss": ", s.m. contrac. of kabāba, q.v.: — kabāb-ćīnī, s.f. Cubebs; (by misapplication) jungle cloves; Cassia buds.",
+     "translit": "kabāb"
+    }
+   ],
+   "headword": "کباب",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%A8%D8%A7%D8%A8&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "kebab"
+   ],
+   "headword": "کباب",
+   "translit": "kabāb",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%A8%D8%A7%D8%A8#Urdu"
   }
  },
  "کتابیں": {
@@ -15816,6 +16675,31 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%B9&searchhws=yes&matchtype=exact"
   }
  },
+ "کپ": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. कम्पः], s.m. Tremor, trembling ( = kaṅp): — kap-kapī, s.f. Tremor, trembling, shivering, quaking; ague; perturbation: — kap-kapī ćaṛhnā (-ko), A fit of shivering or ague to come on.",
+     "translit": "kap"
+    },
+    {
+     "gloss": "[S. कूपः], s.m. A hole, pit, well; a barn, granary; a heap, pile.",
+     "translit": "kup"
+    }
+   ],
+   "headword": "کپ",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%BE&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "cup, glass"
+   ],
+   "headword": "کپ",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%D9%BE#Urdu"
+  }
+ },
  "کچھ": {
   "checked": "2026-11-16",
   "platts": {
@@ -15898,6 +16782,30 @@
    ],
    "headword": "کھائی",
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D8%A7%D8%A6%D9%8A&searchhws=yes&matchtype=exact"
+  }
+ },
+ "کھائیں": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Prk. खाअणअं; S. खादनीयं, rt. खाद्], v.t. To eat, feed on; to consume; to swallow; to drink; to inhale; to take (medicine, or the air, or a bribe, or an oath); to embezzle; (met.) to get, receive; to feel, suffer, endure",
+     "translit": "khānā"
+    }
+   ],
+   "headword": "کھانا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D8%A7%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "to eat",
+    "to take",
+    "food, meal",
+    "(Deccan) cooked rice"
+   ],
+   "headword": "کھانا",
+   "translit": "khānā",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%D8%A7%D9%86%D8%A7#Urdu"
   }
  },
  "کھانا": {
@@ -16039,6 +16947,34 @@
    "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%DA%91%DA%A9%DB%8C#Urdu"
   }
  },
+ "کھڑے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[prob. Prk. खड्ढओ; S. स्कब्ध+कः, rt. स्कम्भ्], adj. (f. -ī), Standing up, erect, upright, on-end; perpendicular; very steep or high; — standing, stationary; — at anchor, moored; aground; — in waiting, at call, remaining;",
+     "translit": "khaṛā"
+    },
+    {
+     "gloss": ", adj. prop. kharā, q.v. (khaṛī bolī = kharī bolī).",
+     "translit": "khaṛā"
+    }
+   ],
+   "headword": "کھڑا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "form of کھڑا",
+    "form of کھڑا",
+    "form of کھڑا",
+    "form of کھڑا"
+   ],
+   "headword": "کھڑے",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%DA%91%DB%92#Urdu"
+  }
+ },
  "کھیت": {
   "checked": "2026-11-17",
   "platts": {
@@ -16059,6 +16995,23 @@
    "headword": "کھیت",
    "translit": "",
    "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%DB%8C%D8%AA#Urdu"
+  }
+ },
+ "کھیر": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[Prk. खीरं; S. क्षीरं], s.f. Rice-milk, a dish made of rice and milk (rice, parboiled in water, is again boiled in milk, with the addition of sugar, and sometimes spices and kernels): — khīr-ćaṭāʼī, s.f. Giving a child k",
+     "translit": "khīr"
+    },
+    {
+     "gloss": "[Prk. खइरं, खाइरं; — S. खदिरः, and खादिरः], s.m. The tree Acacia ćatechu; — catechu-extract (prepared from the Acacia catechu; — syn. katthā).",
+     "translit": "khair khayar"
+    }
+   ],
+   "headword": "کھیر",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D9%8A%D8%B1&searchhws=yes&matchtype=exact"
   }
  },
  "کھیلتا": {
@@ -16986,6 +17939,28 @@
    "headword": "گھنٹہ",
    "translit": "ghanṭā",
    "url": "https://en.wiktionary.org/wiki/%DA%AF%DA%BE%D9%86%D9%B9%DB%81#Urdu"
+  }
+ },
+ "گھنٹی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. घण्टिका], s.f. A small bell; — a small metal pot.",
+     "translit": "ghaṇṭī"
+    }
+   ],
+   "headword": "گھنٹی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%D9%87%D9%86%D9%B9%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "small bell",
+    "doorbell"
+   ],
+   "headword": "گھنٹی",
+   "translit": "ghanṭa",
+   "url": "https://en.wiktionary.org/wiki/%DA%AF%DA%BE%D9%86%D9%B9%DB%8C#Urdu"
   }
  },
  "گھنٹے": {

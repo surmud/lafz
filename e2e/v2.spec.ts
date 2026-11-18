@@ -111,3 +111,42 @@ test("hard mode turns picking into typing", async ({ page }) => {
   }
   expect(typed).toBeGreaterThanOrEqual(4);
 });
+
+test("a story can be heard in Speak mode and read in Read mode, with tap-a-word", async ({ page }, info) => {
+  const shot = shooter(page, "v2-story", info.project.name);
+  await onboard(page);
+  await page.goto("./unit/u03/");
+  await page.getByRole("link", { name: /Nani's table/ }).click();
+  await expect(page.getByText("show text")).toBeVisible();
+  await page.getByText("show text").click();
+  await page.getByRole("button", { name: "Itwaar", exact: true }).click();
+  await expect(page.getByRole("status")).toContainText("Sunday");
+  await shot("speak-mode");
+  for (let i = 1; i < 8; i++) await page.getByRole("button", { name: /Next line/ }).click();
+  await page.getByRole("button", { name: /Questions/ }).click();
+  for (let i = 0; i < 2; i++) {
+    await page.locator("main [data-correct='1']").click();
+    await page.getByRole("button", { name: "Continue" }).click();
+  }
+  await expect(page.getByRole("heading", { name: "Story finished" })).toBeVisible();
+  await expect(page.getByText("2 of 2 questions right")).toBeVisible();
+  // Read mode: Nastaliq first, Roman on tap.
+  await page.goto("./");
+  await page.getByRole("button", { name: /Read/ }).click();
+  await page.goto("./story/u06/");
+  await expect(page.locator("[lang=ur]").first()).toBeVisible();
+  await expect(page.getByText("show text")).toHaveCount(0);
+  await page.getByRole("button", { name: /Line 1: show/ }).click();
+  await expect(page.getByText("For the first time, I went out alone in Lahore.")).toBeVisible();
+  await shot("read-mode");
+});
+
+test("weekly goal replaces the streak badge", async ({ page }) => {
+  await onboard(page);
+  await page.goto("./me/");
+  await page.getByRole("radio", { name: "3 a week" }).click();
+  await page.goto("./lesson/u01-l1/");
+  await finishLesson(page);
+  await page.goto("./");
+  await expect(page.getByLabel(/Weekly goal: 1 of 3 days this week/)).toBeVisible();
+});

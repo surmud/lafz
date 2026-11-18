@@ -145,10 +145,12 @@ dislike about Duolingo. Fun is fine; corny is not.
 - [x] **H16 Retrofit new formats into units 1–12** (at least one scene and one dictation per unit).
 
 - [ ] **H18 OmniVoice Urdu trial** (Apache-2.0, voice cloning): could give each character their own voice.
-- [ ] **H19 Story mode (comprehensible input):** short illustrated stories per unit, tap any word for meaning, audio read-through.
-- [ ] **H20 Shadowing drill:** play a line, record yourself straight after, play both back to compare.
+- [x] **H19 Story mode (comprehensible input):** short illustrated stories per unit, tap any word for meaning, audio read-through.
+- [x] **H20 Shadowing drill:** play a line, record yourself straight after, play both back to compare.
 - [ ] **H21 Reading mode depth:** Read mode gets "read real things": signs, menus, WhatsApp messages, headlines at advanced level.
-- [ ] **H22 Weekly goal instead of daily streak pressure** (optional setting): "3 sessions this week".
+- [x] **H22 Weekly goal instead of daily streak pressure** (optional setting): "3 sessions this week".
 - [x] **H17 Eval pass 3** (docs/evals/2026-11-18-3.md): fixed teach walls (interleaving), conversation start label, Insights wording.
 - [ ] **H23 Weakest short-word clips** (11 below 0.6 round-trip): try a carrier sentence with Matcha, or flag for a human ear.
 - [ ] **H25 Interleave check in content lint:** warn when a lesson has an exercise that can never become eligible before the end.
+- [ ] **H26 More stories:** one per unit (5 of 19 so far: u01, u03, u06, u10, u12), including advanced ones.
+- [ ] **H27 Story audio "play all"** with auto-advance for hands-free listening.

@@ -1,5 +1,7 @@
 "use client";
+import { weekView } from "@/engine/skills";
 import { viewStreak } from "@/engine/streak";
+import { useSettings } from "@/lib/settings";
 import { today, useStore } from "@/lib/store";
 
 export function useStreak() {
@@ -9,6 +11,24 @@ export function useStreak() {
 
 export function StreakBadge() {
   const s = useStreak();
+  const { weeklyGoal } = useSettings();
+  const { progress } = useStore();
+  if (weeklyGoal) {
+    const w = weekView(progress.days, today(), weeklyGoal);
+    return (
+      <span
+        aria-label={`Weekly goal: ${w.done} of ${w.goal} days this week`}
+        className={`inline-flex min-h-9 items-center gap-1.5 rounded-full px-3 text-sm font-black ${w.met ? "bg-good-soft text-good-deep" : "bg-surface-2 text-ink-soft"}`}
+      >
+        <span aria-hidden className="flex gap-0.5">
+          {w.days.map((d) => (
+            <span key={d.day} className={`size-2 rounded-full ${d.practised ? (w.met ? "bg-good" : "bg-accent") : d.today ? "border border-ink-soft" : "bg-line"}`} />
+          ))}
+        </span>
+        {w.done}/{w.goal}
+      </span>
+    );
+  }
   const icon = s.status === "resting" ? "😴" : s.status === "paused" ? "⏸️" : "🔥";
   const label =
     s.status === "resting" ? "Streak resting" : s.status === "paused" ? "Streak paused" : s.status === "done-today" ? "Done today" : "Day streak";
@@ -26,6 +46,8 @@ export function StreakBadge() {
 /** Warm, guilt-free welcome back. Shown only when the learner has been away. */
 export function WelcomeBack() {
   const s = useStreak();
+  const { weeklyGoal } = useSettings();
+  if (weeklyGoal) return null;
   if (s.status !== "resting" && s.status !== "paused") return null;
   const msg =
     s.status === "resting"

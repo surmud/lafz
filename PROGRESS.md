@@ -30,6 +30,13 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-18 (overnight, cont.): **Stories** (H19): five short stories (new neighbour, Nani's table,
+  first rickshaw, moon night, the power cut). Speak mode plays each line first; Read mode shows the
+  Nastaliq first. Tap any word for its meaning; two comprehension questions; counts toward listening
+  or reading in Insights. **Shadowing** (H20): hear a sentence, record yourself, compare back to back
+  (recordings never saved). **Weekly goal** (H22): Me → Practice goal: daily streak, or 3 / 5 days a
+  week with a week-dots badge instead of the streak. Eval pass 3 fixes: lessons with 5+ new phrases
+  now interleave teaching and practice.
 - 2026-11-18 (overnight, v2): Checkpoint tagged `v1.0`. Then, from the founder's brief:
   - **Speak / Read modes**: a toggle on home switches between the speaking and reading courses. The
     Read tab became **Practice** (review, trouble words, listening mode, "How do I say…?", phrasebook,

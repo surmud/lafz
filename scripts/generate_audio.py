@@ -127,6 +127,8 @@ def wanted() -> dict[tuple[str, str], str]:
                 if ex["type"] == "scene":
                     for line in ex["lines"]:
                         out.setdefault((tts_text(by_id[line["phrase"]]), gender(line["speaker"])), line["phrase"])
+        for line in (u.get("story") or {}).get("lines", []):
+            out.setdefault((tts_text(by_id[line["phrase"]]), gender(line.get("speaker"))), line["phrase"])
         for n in (u.get("boss") or {}).get("nodes", {}).values():
             if n["type"] == "npc":
                 out.setdefault((tts_text(by_id[n["say"]]), gender(n["speaker"])), n["say"])

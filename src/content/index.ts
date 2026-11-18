@@ -79,6 +79,7 @@ export function courseMeta(): UnitMeta[] {
     boss: u.boss
       ? { id: u.boss.id, title: u.boss.title, blurb: u.boss.blurb, character: u.boss.character, canDo: u.boss.canDo }
       : undefined,
+    story: u.story ? { title: u.story.title, emoji: u.story.emoji, blurb: u.story.blurb } : undefined,
   }));
 }
 

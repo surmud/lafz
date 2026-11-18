@@ -2,7 +2,7 @@ import type { UnitMeta } from "./course";
 import { unitProgress } from "./course";
 import type { Skill } from "./exercises";
 import type { Progress } from "./progress";
-import { addDays } from "./streak";
+import { addDays, weekStart } from "./streak";
 
 /**
  * The skill model: every checked answer is tallied by the skill it trains, and by day. Pure data on
@@ -215,4 +215,24 @@ export function snapshot(units: readonly UnitMeta[], p: Progress): Snapshot {
     answers,
     furthest: { speaking: furthest("speaking"), reading: furthest("reading") },
   };
+}
+
+export interface WeekView {
+  /** Practice days so far this ISO week (Monday to Sunday). */
+  done: number;
+  goal: number;
+  met: boolean;
+  /** Monday … Sunday of this week: practised, today, or in the future. */
+  days: { day: string; practised: boolean; today: boolean; future: boolean }[];
+}
+
+/** Weekly goal (an alternative to the daily streak): N practice days in the current week. */
+export function weekView(days: Readonly<Record<string, DayStat>>, today: string, goal: number): WeekView {
+  const start = weekStart(today);
+  const week = Array.from({ length: 7 }, (_, i) => {
+    const day = addDays(start, i);
+    return { day, practised: (days[day]?.sessions ?? 0) > 0, today: day === today, future: day > today };
+  });
+  const done = week.filter((d) => d.practised).length;
+  return { done, goal, met: done >= goal, days: week };
 }

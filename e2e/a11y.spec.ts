@@ -23,7 +23,7 @@ for (const theme of ["light", "dark"] as const) {
         }
     };
     await scan("home");
-    for (const p of ["unit/u02/", "family/", "me/", "read/", "boss/u01/", "practice/", "insights/", "find/", "grammar/", "listen/"]) {
+    for (const p of ["unit/u02/", "family/", "me/", "read/", "boss/u01/", "practice/", "insights/", "find/", "grammar/", "listen/", "stories/", "story/u01/", "shadow/"]) {
       await page.goto(`./${p}`);
       await page.waitForLoadState("networkidle");
       await scan(p);

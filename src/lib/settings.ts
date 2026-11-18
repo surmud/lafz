@@ -15,10 +15,12 @@ export interface Settings {
   mode: Mode;
   /** Hard mode: type the answer instead of choosing it wherever that works. */
   hard: boolean;
+  /** null: the daily streak. A number: practise that many days a week instead. */
+  weeklyGoal: number | null;
 }
 
 const KEY = "lafz.settings";
-const defaults: Settings = { script: "both", theme: "system", sound: true, slowFirst: false, mode: "speak", hard: false };
+const defaults: Settings = { script: "both", theme: "system", sound: true, slowFirst: false, mode: "speak", hard: false, weeklyGoal: null };
 
 let cache: Settings | null = null;
 const listeners = new Set<() => void>();

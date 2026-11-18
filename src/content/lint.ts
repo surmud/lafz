@@ -89,6 +89,12 @@ export function lintContent(root: string, opts: { requireAudio?: boolean } = {})
     if (u.boss) {
       for (const p of lintConversation(u.boss, ids)) problems.push(`${u.boss.id}: ${p}`);
     }
+    if (u.story) {
+      for (const line of u.story.lines) if (!ids.has(line.phrase)) problems.push(`${u.id} story: unknown phrase "${line.phrase}"`);
+      u.story.questions.forEach((q, i) => {
+        if (q.answer >= q.options.length) problems.push(`${u.id} story question ${i}: answer out of range`);
+      });
+    }
   }
 
   const optional = <T,>(file: string, schema: z.ZodType<T>): T[] => {
@@ -106,6 +112,9 @@ export function lintContent(root: string, opts: { requireAudio?: boolean } = {})
   const charIds = new Set(characters.map((c) => c.id));
   for (const u of units) {
     if (u.boss && !charIds.has(u.boss.character)) problems.push(`${u.boss.id}: unknown character "${u.boss.character}"`);
+    for (const line of u.story?.lines ?? []) {
+      if (line.speaker && !charIds.has(line.speaker)) problems.push(`${u.id} story: unknown speaker "${line.speaker}"`);
+    }
     for (const l of u.lessons) {
       for (const ex of l.exercises) {
         if (ex.type !== "scene") continue;
@@ -144,8 +153,12 @@ export function lintContent(root: string, opts: { requireAudio?: boolean } = {})
       }
     };
     for (const p of phrases.values()) need(p, p.speaker);
-    // Scene lines are voiced by whoever says them, which may differ from the phrase's own speaker.
+    // Scene and story lines are voiced by whoever says them, which may differ from the phrase's own speaker.
     for (const u of units) {
+      for (const line of u.story?.lines ?? []) {
+        const p = phrases.get(line.phrase);
+        if (p) need(p, line.speaker);
+      }
       for (const l of u.lessons) {
         for (const ex of l.exercises) {
           if (ex.type !== "scene") continue;

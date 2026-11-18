@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import type { UnitMeta } from "./course";
 import { completeBoss, completeLesson, emptyProgress, migrate, type Progress } from "./progress";
-import { addTally, DAYS_KEPT, estimateLevel, extremes, MIN_ANSWERS, recentDays, recordDay, skillScores, snapshot, tallyAnswer } from "./skills";
+import { addTally, DAYS_KEPT, weekView, estimateLevel, extremes, MIN_ANSWERS, recentDays, recordDay, skillScores, snapshot, tallyAnswer } from "./skills";
 import { addDays } from "./streak";
 
 const unit = (n: number, stage: "core" | "advanced" = "core", track: "speaking" | "reading" = "speaking"): UnitMeta => ({
@@ -104,4 +104,16 @@ test("snapshot has counts and rates only", () => {
   expect(s.furthest).toEqual({ speaking: "s2-l1", reading: "r1-l1" });
   expect(JSON.stringify(s)).not.toContain("Secret");
   expect(snapshot(units, emptyProgress)).toMatchObject({ placedAt: null, furthest: { speaking: null, reading: null } });
+});
+
+test("weekly goal counts practice days Monday to Sunday", () => {
+  // 2026-11-18 is a Wednesday.
+  const days = { "2026-11-15": { answers: 1, right: 1, seconds: 1, sessions: 1 }, "2026-11-16": { answers: 1, right: 1, seconds: 1, sessions: 1 }, "2026-11-18": { answers: 1, right: 1, seconds: 1, sessions: 2 } };
+  const w = weekView(days, "2026-11-18", 3);
+  expect(w.days[0]?.day).toBe("2026-11-16");
+  expect(w.done).toBe(2);
+  expect(w.met).toBe(false);
+  expect(w.days.map((d) => (d.practised ? "x" : d.future ? "." : "-")).join("")).toBe("x-x....");
+  expect(w.days[2]?.today).toBe(true);
+  expect(weekView(days, "2026-11-18", 2).met).toBe(true);
 });

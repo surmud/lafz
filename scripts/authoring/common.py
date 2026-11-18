@@ -249,6 +249,7 @@ def write_unit(u: Unit, meta: dict, lessons: list, boss: dict | None, senses: di
             if ph["id"].split(".", 1)[1] in keys:
                 ph["sense"] = s
     unit = {**meta, "id": u.U, "phrases": u.phrases, "lessons": lessons}
+    print("  note: re-run retrofit.py and stories.py after this to restore scenes, dictations and stories")
     if boss:
         unit["boss"] = boss
     out = ROOT / "content" / "units" / f"{u.U}.json"
@@ -261,7 +262,7 @@ def write_unit(u: Unit, meta: dict, lessons: list, boss: dict | None, senses: di
                 ph["confidence"] = o["confidence"]
     for ph in u.phrases:
         ph.setdefault("sources", [{"ref": "usage", "checked": "2026-11-16"}])
-    order = ["id", "track", "stage", "order", "title", "titleUrdu", "emoji", "tagline", "canDo", "grammar", "phrases", "lessons", "boss"]
+    order = ["id", "track", "stage", "order", "title", "titleUrdu", "emoji", "tagline", "canDo", "grammar", "phrases", "lessons", "boss", "story"]
     unit = {k: unit[k] for k in order if k in unit}
     out.write_text(json.dumps(unit, ensure_ascii=False, indent=2) + "\n")
     print(f"wrote {out.name}: {len(u.phrases)} phrases, {len(lessons)} lessons")

@@ -20,6 +20,7 @@ export interface UnitMeta {
   canDo: string;
   lessons: LessonMeta[];
   boss?: { id: string; title: string; blurb: string; character: string; canDo: string };
+  story?: { title: string; emoji: string; blurb: string };
   phraseCount: number;
 }
 

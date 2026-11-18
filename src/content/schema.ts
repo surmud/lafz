@@ -290,6 +290,30 @@ export const ConversationSchema = z.strictObject({
   nodes: z.record(id, z.discriminatedUnion("type", [ConvoNpc, ConvoNarration, ConvoYou, ConvoEnd])),
 });
 
+/**
+ * A short story (comprehensible input): listened to in Speak mode, read in Nastaliq in Read mode.
+ * Every word can be tapped for its meaning (glossary plus the course's single-word phrases).
+ */
+export const StorySchema = z.strictObject({
+  title: z.string(),
+  emoji: z.string(),
+  blurb: z.string(),
+  /** Lines in order. No speaker means the narrator. */
+  lines: z.array(z.strictObject({ phrase: id, speaker: id.optional() })).min(4).max(14),
+  /** Roman word (lower case, as it appears) → English meaning, for tap-a-word. */
+  glossary: z.record(z.string(), z.string()),
+  questions: z
+    .array(
+      z.strictObject({
+        question: z.string(),
+        options: z.array(z.strictObject({ text: z.string(), feedback: z.string().optional() })).min(2).max(4),
+        answer: z.number().int().min(0),
+      }),
+    )
+    .min(1)
+    .max(3),
+});
+
 export const UnitSchema = z.strictObject({
   id,
   track: z.enum(["speaking", "reading"]),
@@ -305,6 +329,7 @@ export const UnitSchema = z.strictObject({
   phrases: z.array(PhraseSchema),
   lessons: z.array(LessonSchema).min(1),
   boss: ConversationSchema.optional(),
+  story: StorySchema.optional(),
 });
 
 export const CharacterSchema = z.strictObject({
@@ -358,6 +383,7 @@ export type Lesson = z.infer<typeof LessonSchema>;
 export type Conversation = z.infer<typeof ConversationSchema>;
 export type ConvoNode = Conversation["nodes"][string];
 export type Unit = z.infer<typeof UnitSchema>;
+export type Story = z.infer<typeof StorySchema>;
 export type Character = z.infer<typeof CharacterSchema>;
 export type Pack = z.infer<typeof PackSchema>;
 export type PlacementQuestion = z.infer<typeof PlacementQuestionSchema>;

@@ -160,6 +160,19 @@ export function MeView({ units }: { units: UnitMeta[] }) {
             ]}
             onChange={(v) => setSettings({ sound: v === "on" })}
           />
+          <Segmented
+            label="Practice goal"
+            value={settings.weeklyGoal === null ? "streak" : String(settings.weeklyGoal)}
+            options={[
+              { v: "streak", l: "Daily" },
+              { v: "3", l: "3 a week" },
+              { v: "5", l: "5 a week" },
+            ]}
+            onChange={(v) => setSettings({ weeklyGoal: v === "streak" ? null : Number(v) })}
+          />
+          <p className="-mt-1 text-sm text-ink-soft">
+            Prefer not to count days in a row? A weekly goal only asks for a few days each week, any days you like.
+          </p>
         </section>
 
         <section aria-labelledby="data" className="flex flex-col gap-3">

@@ -27,7 +27,7 @@ const files = walk(OUT)
 
 // Lesson, boss, pack-session and voice pages are cached on use or by "Download this unit"; everything
 // else (home, unit maps, tabs, static assets) is precached so the app opens offline.
-const onDemand = /^(lesson|boss|voice)\/|^pack\/[^/]+\/[^/]+\/|^unit\/[^/]+\/sheet\//;
+const onDemand = /^(lesson|boss|voice|story)\/|^pack\/[^/]+\/[^/]+\/|^unit\/[^/]+\/sheet\//;
 const shellFiles = files.filter((f) => !onDemand.test(f));
 const shell = shellFiles.map((f) => `${BASE}/${f.replace(/index\.html$/, "")}`);
 const size = shellFiles.reduce((n, f) => n + fs.statSync(path.join(OUT, f)).size, 0);
@@ -46,11 +46,13 @@ for (const f of units) {
     for (const rate of ["normal", "slow"]) urls.add(`${BASE}/audio/${sha16(`${voice(speaker)}|${rate}|${ttsText(p)}`)}.mp3`);
   };
   for (const p of u.phrases) add(p, p.speaker);
+  for (const line of u.story?.lines ?? []) if (byId.has(line.phrase)) add(byId.get(line.phrase), line.speaker);
   for (const l of u.lessons) for (const ex of l.exercises) if (ex.type === "scene") for (const line of ex.lines) if (byId.has(line.phrase)) add(byId.get(line.phrase), line.speaker);
   const pages = [
     ...u.lessons.map((l) => `${BASE}/lesson/${l.id}/`),
     `${BASE}/unit/${u.id}/`,
     ...(u.boss ? [`${BASE}/boss/${u.id}/`] : []),
+    ...(u.story ? [`${BASE}/story/${u.id}/`] : []),
     ...(u.track === "speaking" ? [`${BASE}/unit/${u.id}/sheet/`] : []),
   ];
   fs.writeFileSync(path.join(OUT, "offline", `${u.id}.json`), JSON.stringify({ unit: u.id, audio: [...urls], pages }));

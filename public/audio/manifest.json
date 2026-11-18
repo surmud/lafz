@@ -24,10 +24,20 @@
 "seconds": 0.61,
 "sim": 0.75
 },
+"matcha-f1|normal|آئیے، اندر آئیے! چائے پئیں گے؟": {
+"file": "3b7f97bb76b446c5.mp3",
+"seconds": 2.82,
+"sim": 0.79
+},
 "matcha-f1|normal|آج": {
 "file": "a68160d0002755ed.mp3",
 "seconds": 0.47,
 "sim": 1.0
+},
+"matcha-f1|normal|آج صبح دروازے پر گھنٹی بجی۔": {
+"file": "7ec2cc227bec8877.mp3",
+"seconds": 2.82,
+"sim": 0.91
 },
 "matcha-f1|normal|آج ہمارے گھر مشاعرہ ہے۔ تم بھی کچھ سناؤ!": {
 "file": "7b33fcd440feaa02.mp3",
@@ -43,6 +53,11 @@
 "file": "e932fefb5eff6227.mp3",
 "seconds": 0.88,
 "sim": 1.0
+},
+"matcha-f1|normal|آخر میں بجلی آ گئی، لیکن سب نے کہا: ٹارچ والی شادی بہتر تھی۔": {
+"file": "cf5e080cd3b1f2f6.mp3",
+"seconds": 5.18,
+"sim": 0.98
 },
 "matcha-f1|normal|آخر میں سب نے بریانی کھائی اور سب خوش تھے": {
 "file": "2ad4cbdcfae221d7.mp3",
@@ -88,6 +103,11 @@
 "file": "bc4bf1d5b69f45fc.mp3",
 "seconds": 0.5,
 "sim": 1.0
+},
+"matcha-f1|normal|آٹھ سو؟ بہت زیادہ ہے! چار سو۔": {
+"file": "06ba2e23752b6964.mp3",
+"seconds": 2.96,
+"sim": 0.45
 },
 "matcha-f1|normal|آپ": {
 "file": "7f4aa2efdd5c147b.mp3",
@@ -349,6 +369,11 @@
 "seconds": 2.66,
 "sim": 0.95
 },
+"matcha-f1|normal|اتوار کو ہم نانی کے گھر گئے۔": {
+"file": "ecbfb72e53bb2ba7.mp3",
+"seconds": 2.33,
+"sim": 0.95
+},
 "matcha-f1|normal|ارشاد!": {
 "file": "4c10de494edca9a4.mp3",
 "seconds": 0.73,
@@ -394,6 +419,11 @@
 "seconds": 0.89,
 "sim": 1.0
 },
+"matcha-f1|normal|اس کے بعد سب نے ٹارچ جلائی۔ بہت خوبصورت لگ رہا تھا۔": {
+"file": "0d663a280cf0f8b1.mp3",
+"seconds": 4.42,
+"sim": 0.95
+},
 "matcha-f1|normal|اصل میں": {
 "file": "53a6181a7c185c2d.mp3",
 "seconds": 0.76,
@@ -433,6 +463,11 @@
 "file": "72b9585f6400ab2f.mp3",
 "seconds": 1.66,
 "sim": 1.0
+},
+"matcha-f1|normal|السلام علیکم! آپ کون ہیں؟": {
+"file": "bdd3243615fc3c59.mp3",
+"seconds": 2.47,
+"sim": 0.9
 },
 "matcha-f1|normal|السلام علیکم، امی! آپ کیسی ہیں؟": {
 "file": "a34b7b3c6aa13352.mp3",
@@ -558,6 +593,11 @@
 "file": "6cc5ca5dd014c7c5.mp3",
 "seconds": 2.22,
 "sim": 0.8
+},
+"matcha-f1|normal|انارکلی بازار۔ کتنے پیسے؟": {
+"file": "497e74cd56d3e1e8.mp3",
+"seconds": 2.52,
+"sim": 0.95
 },
 "matcha-f1|normal|انتخابات": {
 "file": "58b559b19d0bd563.mp3",
@@ -694,6 +734,11 @@
 "seconds": 1.5,
 "sim": 0.82
 },
+"matcha-f1|normal|اچھا۔ پھر میٹھا کھاؤ۔ کھیر بنی ہے۔": {
+"file": "1ec2ebd1a18ba054.mp3",
+"seconds": 3.57,
+"sim": 0.89
+},
 "matcha-f1|normal|اچھا… سستا؟ پھر میرے لیے بھی لے آنا": {
 "file": "5411db747cb4fefe.mp3",
 "seconds": 2.98,
@@ -809,6 +854,11 @@
 "seconds": 1.14,
 "sim": 1.0
 },
+"matcha-f1|normal|بازار میں امی نے بتایا: کرایہ تین سو ہوتا ہے۔": {
+"file": "8a346ecb98cf41d1.mp3",
+"seconds": 3.77,
+"sim": 0.94
+},
 "matcha-f1|normal|بازار چلیں گے؟": {
 "file": "fee26830f9fd54c2.mp3",
 "seconds": 1.19,
@@ -878,6 +928,11 @@
 "file": "bb1f46804ac6c901.mp3",
 "seconds": 2.59,
 "sim": 0.82
+},
+"matcha-f1|normal|بس؟ اور لو!": {
+"file": "352ed884905aad03.mp3",
+"seconds": 1.47,
+"sim": 0.88
 },
 "matcha-f1|normal|بسم اللہ": {
 "file": "72a4dc889f9ed8ad.mp3",
@@ -1344,6 +1399,11 @@
 "seconds": 0.87,
 "sim": 0.75
 },
+"matcha-f1|normal|جنریٹر کہاں ہے؟ کوئی جنریٹر چلاؤ!": {
+"file": "1d27055483bd1dbd.mp3",
+"seconds": 2.84,
+"sim": 1.0
+},
 "matcha-f1|normal|جہاں": {
 "file": "eb0f238806014d63.mp3",
 "seconds": 0.71,
@@ -1589,6 +1649,11 @@
 "seconds": 2.01,
 "sim": 1.0
 },
+"matcha-f1|normal|خدا حافظ! پھر آئیے گا۔": {
+"file": "6ba3b88339d46af6.mp3",
+"seconds": 2.08,
+"sim": 0.94
+},
 "matcha-f1|normal|خراب": {
 "file": "26026a42d4362fef.mp3",
 "seconds": 0.68,
@@ -1678,6 +1743,11 @@
 "file": "a45a874743cc14ab.mp3",
 "seconds": 0.59,
 "sim": 1.0
+},
+"matcha-f1|normal|دروازے پر ایک بزرگ کھڑے تھے۔": {
+"file": "c6a1547af277287f.mp3",
+"seconds": 2.61,
+"sim": 0.96
 },
 "matcha-f1|normal|دس": {
 "file": "2080e6b7ba41decc.mp3",
@@ -1809,6 +1879,11 @@
 "seconds": 0.81,
 "sim": 0.8
 },
+"matcha-f1|normal|دولہا سٹیج پر آیا ہی تھا کہ اچانک بجلی چلی گئی۔": {
+"file": "988e49b5d1f226fe.mp3",
+"seconds": 4.42,
+"sim": 0.95
+},
 "matcha-f1|normal|دولہا گھوڑے سے گر گیا": {
 "file": "20d25180a2c694d1.mp3",
 "seconds": 1.82,
@@ -1869,6 +1944,11 @@
 "seconds": 0.64,
 "sim": 1.0
 },
+"matcha-f1|normal|رات بھر کوئی نہیں سویا۔": {
+"file": "39757065d0a9e868.mp3",
+"seconds": 1.71,
+"sim": 0.95
+},
 "matcha-f1|normal|راستہ": {
 "file": "a0b144935210e4b5.mp3",
 "seconds": 0.88,
@@ -1878,6 +1958,11 @@
 "file": "05781c28843f98c9.mp3",
 "seconds": 1.38,
 "sim": 0.8
+},
+"matcha-f1|normal|رمضان کا آخری دن تھا۔": {
+"file": "dbbf29144cb750d3.mp3",
+"seconds": 1.87,
+"sim": 0.94
 },
 "matcha-f1|normal|روزہ": {
 "file": "abc0238a72ef5d45.mp3",
@@ -1893,6 +1978,11 @@
 "file": "18fff55ce7599ef5.mp3",
 "seconds": 0.63,
 "sim": 1.0
+},
+"matcha-f1|normal|رکشا بہت تیز چلا۔ میں نے آنکھیں بند کر لیں۔": {
+"file": "cf0615986bea22b8.mp3",
+"seconds": 3.61,
+"sim": 0.91
 },
 "matcha-f1|normal|رکو!": {
 "file": "c8a9d0c15914da81.mp3",
@@ -1969,6 +2059,16 @@
 "seconds": 0.57,
 "sim": 1.0
 },
+"matcha-f1|normal|سب اندھیرے میں چلانے لگے۔": {
+"file": "e3d26b01b450dc8d.mp3",
+"seconds": 1.87,
+"sim": 0.95
+},
+"matcha-f1|normal|سب نے ایک دوسرے کو گلے لگایا۔": {
+"file": "7adbf8360121437c.mp3",
+"seconds": 2.19,
+"sim": 0.96
+},
 "matcha-f1|normal|سب ٹھیک ہے": {
 "file": "87f4b01d57d725bb.mp3",
 "seconds": 0.97,
@@ -1978,6 +2078,11 @@
 "file": "a612b74a17f7b858.mp3",
 "seconds": 1.03,
 "sim": 0.89
+},
+"matcha-f1|normal|سب چھت پر چاند دیکھ رہے تھے۔": {
+"file": "87e4eac16ab900d3.mp3",
+"seconds": 2.22,
+"sim": 0.95
 },
 "matcha-f1|normal|سب کو سلام": {
 "file": "42267d906909246d.mp3",
@@ -2859,6 +2964,11 @@
 "seconds": 2.38,
 "sim": 1.0
 },
+"matcha-f1|normal|میز پر بریانی، قورمہ، کباب اور تین قسم کی روٹی تھی۔": {
+"file": "1e48e749f863d373.mp3",
+"seconds": 4.77,
+"sim": 0.98
+},
 "matcha-f1|normal|میم": {
 "file": "717110cb294260d8.mp3",
 "seconds": 0.54,
@@ -3029,6 +3139,11 @@
 "seconds": 1.4,
 "sim": 1.0
 },
+"matcha-f1|normal|میں لاہور میں پہلی بار اکیلا باہر گیا۔": {
+"file": "02c61804a8ca0d69.mp3",
+"seconds": 2.63,
+"sim": 0.97
+},
 "matcha-f1|normal|میں لندن میں رہتا ہوں": {
 "file": "22981aa77a2014b3.mp3",
 "seconds": 1.59,
@@ -3068,6 +3183,11 @@
 "file": "bbbc6a5a2760ae4f.mp3",
 "seconds": 1.52,
 "sim": 1.0
+},
+"matcha-f1|normal|میں نے دو پلیٹ کھائیں۔": {
+"file": "84f67808c2eb7643.mp3",
+"seconds": 1.45,
+"sim": 0.94
 },
 "matcha-f1|normal|میں نے روٹی کھائی": {
 "file": "2632dcfc50f02298.mp3",
@@ -3254,6 +3374,11 @@
 "seconds": 3.16,
 "sim": 0.96
 },
+"matcha-f1|normal|نانی، بس! پیٹ بھر گیا۔": {
+"file": "82f1d575f70becd5.mp3",
+"seconds": 2.26,
+"sim": 0.88
+},
 "matcha-f1|normal|نانی، مجھے صرف ایک شعر آتا ہے": {
 "file": "36d1a35f4e707b48.mp3",
 "seconds": 3.05,
@@ -3429,6 +3554,11 @@
 "seconds": 0.79,
 "sim": 0.6
 },
+"matcha-f1|normal|وہ تین گھنٹے بیٹھے رہے، اور چار کپ چائے پی گئے۔": {
+"file": "1fdc473e418565a0.mp3",
+"seconds": 3.53,
+"sim": 0.95
+},
 "matcha-f1|normal|وہ سو گیا": {
 "file": "da8155ee8a0e3256.mp3",
 "seconds": 1.1,
@@ -3594,6 +3724,11 @@
 "seconds": 3.38,
 "sim": 0.93
 },
+"matcha-f1|normal|پتا ہے پچھلے ہفتے شادی میں کیا ہوا؟": {
+"file": "600e80765750da0c.mp3",
+"seconds": 2.7,
+"sim": 0.93
+},
 "matcha-f1|normal|پتا ہے کیا ہوا؟": {
 "file": "57df119abe5a7270.mp3",
 "seconds": 1.12,
@@ -3643,6 +3778,11 @@
 "file": "8bb736e5f4a861ee.mp3",
 "seconds": 0.43,
 "sim": 0.67
+},
+"matcha-f1|normal|پھر بلال نے اپنے فون کی ٹارچ جلائی۔": {
+"file": "bb4363ce8e15476a.mp3",
+"seconds": 3.01,
+"sim": 0.96
 },
 "matcha-f1|normal|پھر تشریف لائیے گا۔ اپنی امی کو میرا سلام کہیے گا": {
 "file": "91ec05a5b509cea3.mp3",
@@ -3798,6 +3938,11 @@
 "file": "2f16b37d381921ed.mp3",
 "seconds": 3.93,
 "sim": 0.97
+},
+"matcha-f1|normal|چلو، مہندی لگاؤ اور چوڑیاں پہنو۔": {
+"file": "fa1e66a15d56a7d5.mp3",
+"seconds": 3.26,
+"sim": 0.93
 },
 "matcha-f1|normal|چلو، پہلے مرچیں وارتی ہوں۔ پھر ہلدی والا دودھ": {
 "file": "b0d7af4b4320c065.mp3",
@@ -4069,6 +4214,11 @@
 "seconds": 0.75,
 "sim": 1.0
 },
+"matcha-f1|normal|کھاؤ، بیٹا! تم بہت پتلے ہو گئے ہو۔": {
+"file": "19c149b5d990a717.mp3",
+"seconds": 2.77,
+"sim": 0.92
+},
 "matcha-f1|normal|کھانا": {
 "file": "4997e2fae80ad0e8.mp3",
 "seconds": 0.75,
@@ -4104,10 +4254,20 @@
 "seconds": 0.64,
 "sim": 1.0
 },
+"matcha-f1|normal|کھیر کے لیے پیٹ میں ہمیشہ جگہ ہوتی ہے۔": {
+"file": "46d785b89a8b9589.mp3",
+"seconds": 2.94,
+"sim": 0.97
+},
 "matcha-f1|normal|کہاں؟": {
 "file": "b95615336e8546aa.mp3",
 "seconds": 0.59,
 "sim": 0.8
+},
+"matcha-f1|normal|کہاں؟ مجھے تو صرف بادل نظر آ رہے ہیں۔": {
+"file": "dfe1d8ae282f86c4.mp3",
+"seconds": 2.87,
+"sim": 0.93
 },
 "matcha-f1|normal|کیا آپ کو انگریزی آتی ہے؟": {
 "file": "19ca09b397d78eda.mp3",
@@ -4354,6 +4514,11 @@
 "seconds": 3.17,
 "sim": 1.0
 },
+"matcha-f1|normal|ہمارے زمانے میں تو لالٹین ہوتی تھی۔": {
+"file": "b905a187686e0cad.mp3",
+"seconds": 2.56,
+"sim": 0.93
+},
 "matcha-f1|normal|ہمم۔ دال میں کچھ کالا ہے": {
 "file": "5d88c7bd87c26ca8.mp3",
 "seconds": 2.36,
@@ -4539,9 +4704,19 @@
 "seconds": 0.83,
 "sim": 1.0
 },
+"matcha-f1|slow|آئیے، اندر آئیے! چائے پئیں گے؟": {
+"file": "c6f40943265754db.mp3",
+"seconds": 3.96,
+"sim": 1.0
+},
 "matcha-f1|slow|آج": {
 "file": "43c4598641f80e60.mp3",
 "seconds": 0.61,
+"sim": 1.0
+},
+"matcha-f1|slow|آج صبح دروازے پر گھنٹی بجی۔": {
+"file": "02691ef75d0211e2.mp3",
+"seconds": 4.0,
 "sim": 1.0
 },
 "matcha-f1|slow|آج ہمارے گھر مشاعرہ ہے۔ تم بھی کچھ سناؤ!": {
@@ -4557,6 +4732,11 @@
 "matcha-f1|slow|آخر میں": {
 "file": "55a4308f75e29134.mp3",
 "seconds": 1.19,
+"sim": 1.0
+},
+"matcha-f1|slow|آخر میں بجلی آ گئی، لیکن سب نے کہا: ٹارچ والی شادی بہتر تھی۔": {
+"file": "420ca622c9b1bad1.mp3",
+"seconds": 7.43,
 "sim": 1.0
 },
 "matcha-f1|slow|آخر میں سب نے بریانی کھائی اور سب خوش تھے": {
@@ -4602,6 +4782,11 @@
 "matcha-f1|slow|آٹھ": {
 "file": "3005555fa5bc9141.mp3",
 "seconds": 0.65,
+"sim": 1.0
+},
+"matcha-f1|slow|آٹھ سو؟ بہت زیادہ ہے! چار سو۔": {
+"file": "20c0a80ca2ba580c.mp3",
+"seconds": 4.19,
 "sim": 1.0
 },
 "matcha-f1|slow|آپ": {
@@ -4864,6 +5049,11 @@
 "seconds": 3.77,
 "sim": 1.0
 },
+"matcha-f1|slow|اتوار کو ہم نانی کے گھر گئے۔": {
+"file": "36190494987e657a.mp3",
+"seconds": 3.28,
+"sim": 1.0
+},
 "matcha-f1|slow|ارشاد!": {
 "file": "c1fb36461d211031.mp3",
 "seconds": 0.99,
@@ -4909,6 +5099,11 @@
 "seconds": 1.17,
 "sim": 1.0
 },
+"matcha-f1|slow|اس کے بعد سب نے ٹارچ جلائی۔ بہت خوبصورت لگ رہا تھا۔": {
+"file": "8b39abfab2463f12.mp3",
+"seconds": 6.3,
+"sim": 1.0
+},
 "matcha-f1|slow|اصل میں": {
 "file": "953be7e51650f8b4.mp3",
 "seconds": 1.04,
@@ -4947,6 +5142,11 @@
 "matcha-f1|slow|السلام علیکم بیٹا!": {
 "file": "11748973eb2e5f5a.mp3",
 "seconds": 2.26,
+"sim": 1.0
+},
+"matcha-f1|slow|السلام علیکم! آپ کون ہیں؟": {
+"file": "a01983041cde844c.mp3",
+"seconds": 3.45,
 "sim": 1.0
 },
 "matcha-f1|slow|السلام علیکم، امی! آپ کیسی ہیں؟": {
@@ -5072,6 +5272,11 @@
 "matcha-f1|slow|انا للہ وانا الیہ راجعون": {
 "file": "5bd9e72e968fbaf4.mp3",
 "seconds": 3.15,
+"sim": 1.0
+},
+"matcha-f1|slow|انارکلی بازار۔ کتنے پیسے؟": {
+"file": "ccd0165281317502.mp3",
+"seconds": 3.6,
 "sim": 1.0
 },
 "matcha-f1|slow|انتخابات": {
@@ -5209,6 +5414,11 @@
 "seconds": 2.05,
 "sim": 1.0
 },
+"matcha-f1|slow|اچھا۔ پھر میٹھا کھاؤ۔ کھیر بنی ہے۔": {
+"file": "f765c7d23fe0a9ac.mp3",
+"seconds": 4.68,
+"sim": 1.0
+},
 "matcha-f1|slow|اچھا… سستا؟ پھر میرے لیے بھی لے آنا": {
 "file": "162f49545bbc8325.mp3",
 "seconds": 4.21,
@@ -5324,6 +5534,11 @@
 "seconds": 1.57,
 "sim": 1.0
 },
+"matcha-f1|slow|بازار میں امی نے بتایا: کرایہ تین سو ہوتا ہے۔": {
+"file": "ed33293d3ae17132.mp3",
+"seconds": 5.4,
+"sim": 1.0
+},
 "matcha-f1|slow|بازار چلیں گے؟": {
 "file": "d88a6bc4ab0a5cb0.mp3",
 "seconds": 1.64,
@@ -5392,6 +5607,11 @@
 "matcha-f1|slow|بس، یہاں رکیے۔ شکریہ!": {
 "file": "78219ea67cfd3352.mp3",
 "seconds": 3.61,
+"sim": 1.0
+},
+"matcha-f1|slow|بس؟ اور لو!": {
+"file": "10c122c8723c9319.mp3",
+"seconds": 2.03,
 "sim": 1.0
 },
 "matcha-f1|slow|بسم اللہ": {
@@ -5859,6 +6079,11 @@
 "seconds": 1.12,
 "sim": 1.0
 },
+"matcha-f1|slow|جنریٹر کہاں ہے؟ کوئی جنریٹر چلاؤ!": {
+"file": "430f75319daf2077.mp3",
+"seconds": 4.03,
+"sim": 1.0
+},
 "matcha-f1|slow|جہاں": {
 "file": "e2de0901ce25b917.mp3",
 "seconds": 0.94,
@@ -6104,6 +6329,11 @@
 "seconds": 2.8,
 "sim": 1.0
 },
+"matcha-f1|slow|خدا حافظ! پھر آئیے گا۔": {
+"file": "29fc47632264b760.mp3",
+"seconds": 2.98,
+"sim": 1.0
+},
 "matcha-f1|slow|خراب": {
 "file": "692b8fb2f1f222cc.mp3",
 "seconds": 0.85,
@@ -6192,6 +6422,11 @@
 "matcha-f1|slow|درد": {
 "file": "5cb4d45bdb518054.mp3",
 "seconds": 0.78,
+"sim": 1.0
+},
+"matcha-f1|slow|دروازے پر ایک بزرگ کھڑے تھے۔": {
+"file": "d81db891d61d0ca0.mp3",
+"seconds": 3.68,
 "sim": 1.0
 },
 "matcha-f1|slow|دس": {
@@ -6324,6 +6559,11 @@
 "seconds": 1.02,
 "sim": 1.0
 },
+"matcha-f1|slow|دولہا سٹیج پر آیا ہی تھا کہ اچانک بجلی چلی گئی۔": {
+"file": "beb3bb273a04c7a0.mp3",
+"seconds": 6.28,
+"sim": 1.0
+},
 "matcha-f1|slow|دولہا گھوڑے سے گر گیا": {
 "file": "4b7ffbb144395d5e.mp3",
 "seconds": 2.54,
@@ -6384,6 +6624,11 @@
 "seconds": 0.85,
 "sim": 1.0
 },
+"matcha-f1|slow|رات بھر کوئی نہیں سویا۔": {
+"file": "66fac87a6c7a5f73.mp3",
+"seconds": 2.36,
+"sim": 1.0
+},
 "matcha-f1|slow|راستہ": {
 "file": "9c0bca8f39b02f98.mp3",
 "seconds": 1.22,
@@ -6392,6 +6637,11 @@
 "matcha-f1|slow|رمضان مبارک!": {
 "file": "e2d2e94483b3c635.mp3",
 "seconds": 1.89,
+"sim": 1.0
+},
+"matcha-f1|slow|رمضان کا آخری دن تھا۔": {
+"file": "f759e49ddefe2ff2.mp3",
+"seconds": 2.61,
 "sim": 1.0
 },
 "matcha-f1|slow|روزہ": {
@@ -6407,6 +6657,11 @@
 "matcha-f1|slow|روپے": {
 "file": "5ee528e60a259f3a.mp3",
 "seconds": 0.87,
+"sim": 1.0
+},
+"matcha-f1|slow|رکشا بہت تیز چلا۔ میں نے آنکھیں بند کر لیں۔": {
+"file": "c7ccd21f6e85dd69.mp3",
+"seconds": 5.13,
 "sim": 1.0
 },
 "matcha-f1|slow|رکو!": {
@@ -6484,6 +6739,16 @@
 "seconds": 0.73,
 "sim": 1.0
 },
+"matcha-f1|slow|سب اندھیرے میں چلانے لگے۔": {
+"file": "4e0d99bcf04d99e3.mp3",
+"seconds": 2.63,
+"sim": 1.0
+},
+"matcha-f1|slow|سب نے ایک دوسرے کو گلے لگایا۔": {
+"file": "7caadc8e34c43ce1.mp3",
+"seconds": 3.05,
+"sim": 1.0
+},
 "matcha-f1|slow|سب ٹھیک ہے": {
 "file": "6cf7d879bae05d94.mp3",
 "seconds": 1.36,
@@ -6492,6 +6757,11 @@
 "matcha-f1|slow|سب ٹھیک ہے؟": {
 "file": "85bb7e76071c95a5.mp3",
 "seconds": 1.36,
+"sim": 1.0
+},
+"matcha-f1|slow|سب چھت پر چاند دیکھ رہے تھے۔": {
+"file": "f0a7ae06c5759c7a.mp3",
+"seconds": 3.15,
 "sim": 1.0
 },
 "matcha-f1|slow|سب کو سلام": {
@@ -7374,6 +7644,11 @@
 "seconds": 3.37,
 "sim": 1.0
 },
+"matcha-f1|slow|میز پر بریانی، قورمہ، کباب اور تین قسم کی روٹی تھی۔": {
+"file": "abfb2d5152643d21.mp3",
+"seconds": 6.83,
+"sim": 1.0
+},
 "matcha-f1|slow|میم": {
 "file": "d73c486549961212.mp3",
 "seconds": 0.73,
@@ -7544,6 +7819,11 @@
 "seconds": 1.94,
 "sim": 1.0
 },
+"matcha-f1|slow|میں لاہور میں پہلی بار اکیلا باہر گیا۔": {
+"file": "f3bb0eecc350e6d9.mp3",
+"seconds": 3.73,
+"sim": 1.0
+},
 "matcha-f1|slow|میں لندن میں رہتا ہوں": {
 "file": "536c4e0de79ae37e.mp3",
 "seconds": 2.23,
@@ -7582,6 +7862,11 @@
 "matcha-f1|slow|میں نے بھی یہی کہا تھا!": {
 "file": "cc6317e8f642e5a6.mp3",
 "seconds": 2.1,
+"sim": 1.0
+},
+"matcha-f1|slow|میں نے دو پلیٹ کھائیں۔": {
+"file": "6fe8d85a5eb9ab69.mp3",
+"seconds": 2.01,
 "sim": 1.0
 },
 "matcha-f1|slow|میں نے روٹی کھائی": {
@@ -7769,6 +8054,11 @@
 "seconds": 4.47,
 "sim": 1.0
 },
+"matcha-f1|slow|نانی، بس! پیٹ بھر گیا۔": {
+"file": "5eb3ef2323e5f0eb.mp3",
+"seconds": 3.17,
+"sim": 1.0
+},
 "matcha-f1|slow|نانی، مجھے صرف ایک شعر آتا ہے": {
 "file": "3afe2aeed6f0854c.mp3",
 "seconds": 4.33,
@@ -7944,6 +8234,11 @@
 "seconds": 1.07,
 "sim": 1.0
 },
+"matcha-f1|slow|وہ تین گھنٹے بیٹھے رہے، اور چار کپ چائے پی گئے۔": {
+"file": "7ac3da0294cc916c.mp3",
+"seconds": 5.05,
+"sim": 1.0
+},
 "matcha-f1|slow|وہ سو گیا": {
 "file": "ab2c3e898d8be3d9.mp3",
 "seconds": 1.5,
@@ -8109,6 +8404,11 @@
 "seconds": 4.58,
 "sim": 1.0
 },
+"matcha-f1|slow|پتا ہے پچھلے ہفتے شادی میں کیا ہوا؟": {
+"file": "1b5aca3f4e472bdd.mp3",
+"seconds": 3.82,
+"sim": 1.0
+},
 "matcha-f1|slow|پتا ہے کیا ہوا؟": {
 "file": "c42f05d42cad83cb.mp3",
 "seconds": 1.52,
@@ -8157,6 +8457,11 @@
 "matcha-f1|slow|پھر": {
 "file": "210e6e5125b23dc9.mp3",
 "seconds": 0.52,
+"sim": 1.0
+},
+"matcha-f1|slow|پھر بلال نے اپنے فون کی ٹارچ جلائی۔": {
+"file": "36ec921417a2c1c5.mp3",
+"seconds": 4.24,
 "sim": 1.0
 },
 "matcha-f1|slow|پھر تشریف لائیے گا۔ اپنی امی کو میرا سلام کہیے گا": {
@@ -8312,6 +8617,11 @@
 "matcha-f1|slow|چلو، اب کھانا کھاؤ۔ ورنہ ٹھنڈا ہو جائے گا": {
 "file": "9a224fe3a8929148.mp3",
 "seconds": 5.61,
+"sim": 1.0
+},
+"matcha-f1|slow|چلو، مہندی لگاؤ اور چوڑیاں پہنو۔": {
+"file": "4646e924100352d4.mp3",
+"seconds": 4.63,
 "sim": 1.0
 },
 "matcha-f1|slow|چلو، پہلے مرچیں وارتی ہوں۔ پھر ہلدی والا دودھ": {
@@ -8584,6 +8894,11 @@
 "seconds": 1.01,
 "sim": 1.0
 },
+"matcha-f1|slow|کھاؤ، بیٹا! تم بہت پتلے ہو گئے ہو۔": {
+"file": "074dff068dfd6dbf.mp3",
+"seconds": 3.91,
+"sim": 1.0
+},
 "matcha-f1|slow|کھانا": {
 "file": "33f302258724ca61.mp3",
 "seconds": 1.0,
@@ -8619,9 +8934,19 @@
 "seconds": 0.86,
 "sim": 1.0
 },
+"matcha-f1|slow|کھیر کے لیے پیٹ میں ہمیشہ جگہ ہوتی ہے۔": {
+"file": "85dd69d8a429d06b.mp3",
+"seconds": 4.17,
+"sim": 1.0
+},
 "matcha-f1|slow|کہاں؟": {
 "file": "165d15c63a37d516.mp3",
 "seconds": 0.68,
+"sim": 1.0
+},
+"matcha-f1|slow|کہاں؟ مجھے تو صرف بادل نظر آ رہے ہیں۔": {
+"file": "c451ff32cb4d67c5.mp3",
+"seconds": 4.07,
 "sim": 1.0
 },
 "matcha-f1|slow|کیا آپ کو انگریزی آتی ہے؟": {
@@ -8869,6 +9194,11 @@
 "seconds": 4.45,
 "sim": 1.0
 },
+"matcha-f1|slow|ہمارے زمانے میں تو لالٹین ہوتی تھی۔": {
+"file": "0170cdbfeea52e4f.mp3",
+"seconds": 3.59,
+"sim": 1.0
+},
 "matcha-f1|slow|ہمم۔ دال میں کچھ کالا ہے": {
 "file": "c70bb0c5f1eaaec2.mp3",
 "seconds": 3.17,
@@ -9034,6 +9364,11 @@
 "seconds": 1.82,
 "sim": 0.95
 },
+"matcha-m1|normal|آٹھ سو۔": {
+"file": "6dca2df804851aac.mp3",
+"seconds": 0.78,
+"sim": 0.83
+},
 "matcha-m1|normal|ابھی تک پڑھائی؟ میں تو پچیس سال میں ڈاکٹر بن گیا تھا": {
 "file": "47fdd57ac985dac3.mp3",
 "seconds": 3.59,
@@ -9159,6 +9494,11 @@
 "seconds": 1.4,
 "sim": 0.9
 },
+"matcha-m1|normal|جی، شکریہ۔ لیکن صرف آدھا کپ۔": {
+"file": "17b43da1e15b6235.mp3",
+"seconds": 2.29,
+"sim": 0.83
+},
 "matcha-m1|normal|حالانکہ… اچھا، یہ بات تو صحیح ہے": {
 "file": "65ecf3871f01f79a.mp3",
 "seconds": 3.01,
@@ -9264,10 +9604,25 @@
 "seconds": 2.96,
 "sim": 0.96
 },
+"matcha-m1|normal|وعلیکم السلام۔ میں آپ کا نیا پڑوسی ہوں۔": {
+"file": "5e7f506fdd6bcfd9.mp3",
+"seconds": 2.82,
+"sim": 0.91
+},
+"matcha-m1|normal|وہ رہا چاند!": {
+"file": "504ac19bf13bfdad.mp3",
+"seconds": 0.94,
+"sim": 1.0
+},
 "matcha-m1|normal|وہ… وہ الگ بات ہے۔ میں خبریں پڑھتا ہوں": {
 "file": "4f34410b3a909bdd.mp3",
 "seconds": 3.42,
 "sim": 0.9
+},
+"matcha-m1|normal|ٹی وی پر اعلان ہو گیا۔ کل عید ہے!": {
+"file": "29ed0a0d24aaa3cf.mp3",
+"seconds": 2.59,
+"sim": 0.96
 },
 "matcha-m1|normal|پانچ سو": {
 "file": "ff62e7f7a3a2d6bc.mp3",
@@ -9294,6 +9649,11 @@
 "seconds": 3.17,
 "sim": 0.96
 },
+"matcha-m1|normal|چلو، پانچ سو۔ آخری دام۔": {
+"file": "35507f4205a6725b.mp3",
+"seconds": 2.61,
+"sim": 0.84
+},
 "matcha-m1|normal|کاش میں نے چھتری لے لی ہوتی": {
 "file": "bbc6e67e5cd1c3a1.mp3",
 "seconds": 2.24,
@@ -9313,6 +9673,11 @@
 "file": "a8373daeb356ce7f.mp3",
 "seconds": 3.59,
 "sim": 0.91
+},
+"matcha-m1|normal|کہاں جانا ہے، بھائی؟": {
+"file": "52294cf96f0de11a.mp3",
+"seconds": 1.22,
+"sim": 0.88
 },
 "matcha-m1|normal|گرمی؟ ہم تمہاری عمر میں پنکھے کے بغیر سوتے تھے!": {
 "file": "7ba7c3cd0531a545.mp3",
@@ -9367,6 +9732,11 @@
 "matcha-m1|slow|آئیے جناب، تشریف لائیے!": {
 "file": "855b485384bdb703.mp3",
 "seconds": 2.56,
+"sim": 1.0
+},
+"matcha-m1|slow|آٹھ سو۔": {
+"file": "9baa2f41e67b4ff8.mp3",
+"seconds": 1.03,
 "sim": 1.0
 },
 "matcha-m1|slow|ابھی تک پڑھائی؟ میں تو پچیس سال میں ڈاکٹر بن گیا تھا": {
@@ -9494,6 +9864,11 @@
 "seconds": 1.91,
 "sim": 1.0
 },
+"matcha-m1|slow|جی، شکریہ۔ لیکن صرف آدھا کپ۔": {
+"file": "08d23e1d1b5b26b0.mp3",
+"seconds": 3.17,
+"sim": 1.0
+},
 "matcha-m1|slow|حالانکہ… اچھا، یہ بات تو صحیح ہے": {
 "file": "38ac2bd650db62b3.mp3",
 "seconds": 4.24,
@@ -9599,9 +9974,24 @@
 "seconds": 4.19,
 "sim": 1.0
 },
+"matcha-m1|slow|وعلیکم السلام۔ میں آپ کا نیا پڑوسی ہوں۔": {
+"file": "fb15e9cdec636e6b.mp3",
+"seconds": 4.0,
+"sim": 1.0
+},
+"matcha-m1|slow|وہ رہا چاند!": {
+"file": "0eba1eadaf7593ac.mp3",
+"seconds": 1.24,
+"sim": 1.0
+},
 "matcha-m1|slow|وہ… وہ الگ بات ہے۔ میں خبریں پڑھتا ہوں": {
 "file": "91559c52252faf2f.mp3",
 "seconds": 4.84,
+"sim": 1.0
+},
+"matcha-m1|slow|ٹی وی پر اعلان ہو گیا۔ کل عید ہے!": {
+"file": "0ad5ce6c8225bd73.mp3",
+"seconds": 3.63,
 "sim": 1.0
 },
 "matcha-m1|slow|پانچ سو": {
@@ -9629,6 +10019,11 @@
 "seconds": 4.52,
 "sim": 1.0
 },
+"matcha-m1|slow|چلو، پانچ سو۔ آخری دام۔": {
+"file": "d17b64b56eefafdb.mp3",
+"seconds": 3.47,
+"sim": 1.0
+},
 "matcha-m1|slow|کاش میں نے چھتری لے لی ہوتی": {
 "file": "dc9c622d032b928e.mp3",
 "seconds": 3.19,
@@ -9647,6 +10042,11 @@
 "matcha-m1|slow|کھانا؟ واہ۔ نانی کو بتاؤں گا، خوش ہوں گی": {
 "file": "7fb24fdc9ae93df6.mp3",
 "seconds": 5.12,
+"sim": 1.0
+},
+"matcha-m1|slow|کہاں جانا ہے، بھائی؟": {
+"file": "3c7c09b79a1f376c.mp3",
+"seconds": 1.66,
 "sim": 1.0
 },
 "matcha-m1|slow|گرمی؟ ہم تمہاری عمر میں پنکھے کے بغیر سوتے تھے!": {
