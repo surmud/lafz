@@ -327,6 +327,240 @@
           "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DB%8C#Urdu"
         }
       ]
+    },
+    {
+      "id": "r07.b.st-1",
+      "roman": "Salaam, Khala!",
+      "urdu": "سلام، خالہ!",
+      "en": "Hello, Khala!",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%84%D8%A7%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D8%A7%D9%84%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خالہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%DB%81#Urdu"
+        }
+      ],
+      "speaker": "ammi"
+    },
+    {
+      "id": "r07.b.st-2",
+      "roman": "Salaam! Chai?",
+      "urdu": "سلام! چائے؟",
+      "en": "Hello! Tea?",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%84%D8%A7%D9%85&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سلام",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A7%D9%85#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "چائے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%86%D8%A7%D8%A6%DB%92#Urdu"
+        }
+      ],
+      "speaker": "khala"
+    },
+    {
+      "id": "r07.b.st-3",
+      "roman": "Ji, shukriya.",
+      "urdu": "جی، شکریہ۔",
+      "en": "Yes, thank you.",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "جی",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AC%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "جی",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%AC%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "شکریہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%DA%A9%D8%B1%D9%8A%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "شکریہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D8%B1%DB%8C%DB%81#Urdu"
+        }
+      ],
+      "speaker": "ammi"
+    },
+    {
+      "id": "r07.b.st-4",
+      "roman": "Roti? Daal? Biryani?",
+      "urdu": "روٹی؟ دال؟ بریانی؟",
+      "en": "Roti? Daal? Biryani?",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "روٹی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%88%D9%B9%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "روٹی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D9%B9%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "دال",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D8%A7%D9%84&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دال",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D9%84#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بریانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%B1%D9%8A%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بریانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%DB%8C%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ],
+      "speaker": "khala"
+    },
+    {
+      "id": "r07.b.st-5",
+      "roman": "Nahin, shukriya. Paani.",
+      "urdu": "نہیں، شکریہ۔ پانی۔",
+      "en": "No, thank you. Water.",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "شکریہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B4%DA%A9%D8%B1%D9%8A%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "شکریہ",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%B4%DA%A9%D8%B1%DB%8C%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ],
+      "speaker": "ammi"
+    },
+    {
+      "id": "r07.b.st-6",
+      "roman": "Paani? Nahin nahin! Biryani!",
+      "urdu": "پانی؟ نہیں نہیں! بریانی!",
+      "en": "Water? No, no! Biryani!",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نہ",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نہیں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%81%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بریانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D8%B1%D9%8A%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بریانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%B1%DB%8C%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ],
+      "speaker": "khala"
     }
   ],
   "lessons": [
@@ -828,5 +1062,67 @@
         }
       ]
     }
-  ]
+  ],
+  "story": {
+    "title": "Khala's hospitality",
+    "emoji": "🫖",
+    "blurb": "Read it in Urdu script. Every word is one you've met.",
+    "lines": [
+      {
+        "phrase": "r07.b.st-1",
+        "speaker": "ammi"
+      },
+      {
+        "phrase": "r07.b.st-2",
+        "speaker": "khala"
+      },
+      {
+        "phrase": "r07.b.st-3",
+        "speaker": "ammi"
+      },
+      {
+        "phrase": "r07.b.st-4",
+        "speaker": "khala"
+      },
+      {
+        "phrase": "r07.b.st-5",
+        "speaker": "ammi"
+      },
+      {
+        "phrase": "r07.b.st-6",
+        "speaker": "khala"
+      }
+    ],
+    "glossary": {
+      "salaam": "hello",
+      "khala": "aunt (mum's sister)",
+      "chai": "tea",
+      "ji": "yes (polite)",
+      "shukriya": "thank you",
+      "roti": "flatbread",
+      "daal": "lentils",
+      "biryani": "spiced rice",
+      "nahin": "no",
+      "paani": "water"
+    },
+    "questions": [
+      {
+        "question": "What does Ammi ask for?",
+        "options": [
+          {
+            "text": "Water"
+          },
+          {
+            "text": "Biryani",
+            "feedback": "That's what Khala gives her anyway."
+          },
+          {
+            "text": "Roti",
+            "feedback": "Read the fifth line again: پانی."
+          }
+        ],
+        "answer": 0
+      }
+    ]
+  }
 }

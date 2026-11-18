@@ -11406,6 +11406,19 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%A9%D9%87&searchhws=yes&matchtype=exact"
   }
  },
+ "لکھا": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[perf. part. of likhnā, and = Prk. लिखिअओ = लिखिदओ = S. लिखित+कः, rt. लिख्], part. adj. (f. -ī), &s.m. Written, &c.; what has been (or is) written; a writing, written document; decree (of fate); fate, destiny, predestina",
+     "translit": "likhā likkhā"
+    }
+   ],
+   "headword": "لکھا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%A9%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+  }
+ },
  "لگ": {
   "checked": "2026-11-16",
   "platts": {
@@ -15210,6 +15223,19 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%DA%A9%D9%88%DA%91%D8%A7&searchhws=yes&matchtype=exact"
   }
  },
+ "پکوڑے": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. पक्व+वट+कः], s.m. A kind of dish made of pease-meal, pastry filled with peasemeal.",
+     "translit": "pakoṛā"
+    }
+   ],
+   "headword": "پکوڑا",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%DA%A9%D9%88%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+  }
+ },
  "پکڑا": {
   "checked": "2026-11-17",
   "platts": {
@@ -18181,6 +18207,31 @@
    "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D9%84%D8%A7&searchhws=yes&matchtype=exact"
   }
  },
+ "کھلی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "[S. खल+इका], s.f. Oil-cake (the cake that remains after the oil has been pressed out of certain seeds, especially sesamum and sarsoṅ); scented oil-cake (used as a hair-wash).",
+     "translit": "khalī khalī khallī"
+    },
+    {
+     "gloss": "( = khaṛī, q.v.), s.f. (dialec.) Chalk, &c.: — khallī ćhūnā, 'To touch the chalk'; to take (one's) first lesson.",
+     "translit": "khalī khallī"
+    },
+    {
+     "gloss": ", s.f. = khīlī, q.v. (and cf. gilaurī).",
+     "translit": "khillī"
+    },
+    {
+     "gloss": "[Prk. खेड्डिआ or खेल्लिआ = S. क्रीड+इका], s.f. Fun, jest, joke, humour, sally of wit: — khillī uṛanā, To make fun, to jest, to poke fun (at); to make a fool (of): — khillī-bāz, adj. & s.m. Playsome, humorous, funny, jocu",
+     "translit": "khillī"
+    }
+   ],
+   "headword": "کھلی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D9%84%D9%8A&searchhws=yes&matchtype=exact"
+  }
+ },
  "کھو": {
   "checked": "2026-11-17",
   "platts": {
@@ -18224,6 +18275,38 @@
    "headword": "کھڑکی",
    "translit": "kaṛkay",
    "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%DA%91%DA%A9%DB%8C#Urdu"
+  }
+ },
+ "کھڑی": {
+  "checked": "2026-11-17",
+  "platts": {
+   "entries": [
+    {
+     "gloss": "(fem. of khaṛā, q.v.), s.f. Swimming upright in water, treading water: — khaṛī lagānā, To tread water.",
+     "translit": "khaṛī"
+    },
+    {
+     "gloss": ", s.f. = khalī, q.v.",
+     "translit": "kharī"
+    },
+    {
+     "gloss": "= H کهڙيا खड़िया khaṛiyā [Prk. खडिआ; S. खडिका, or खटिका], s.f. Chalk; white elay, pipe-clay; a species of steatites (with which children learn to write, and which is used in giving a polish to stucco); — a chalk-mark: — k",
+     "translit": "khaṛī"
+    }
+   ],
+   "headword": "کھڑی",
+   "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%DA%91%D9%8A&searchhws=yes&matchtype=exact"
+  },
+  "wiktionary": {
+   "glosses": [
+    "form of کھڑا",
+    "form of کھڑا",
+    "form of کھڑا",
+    "form of کھڑا"
+   ],
+   "headword": "کھڑی",
+   "translit": "",
+   "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%DA%91%DB%8C#Urdu"
   }
  },
  "کھڑے": {

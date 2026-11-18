@@ -4,7 +4,7 @@ import { useSettings } from "@/lib/settings";
 import { useStore } from "@/lib/store";
 import { Pill, TopBar } from "./ui";
 
-export function StoriesList({ stories }: { stories: { unitId: string; order: number; unitTitle: string; title: string; emoji: string; blurb: string }[] }) {
+export function StoriesList({ stories }: { stories: { unitId: string; order: number; unitTitle: string; reading: boolean; title: string; emoji: string; blurb: string }[] }) {
   const { progress } = useStore();
   const { mode } = useSettings();
   return (
@@ -24,7 +24,7 @@ export function StoriesList({ stories }: { stories: { unitId: string; order: num
             </span>
             <span className="min-w-0 flex-1">
               <span className="flex items-center gap-2 text-xs font-black tracking-wider text-ink-soft uppercase">
-                Unit {s.order} · {s.unitTitle}
+                {s.reading ? `Reading ${s.order}` : `Unit ${s.order}`} · {s.unitTitle}
                 {progress.lessons[`${s.unitId}-story`] ? <Pill tone="good">✓ Read</Pill> : null}
               </span>
               <span className="block font-display text-lg font-bold">{s.title}</span>

@@ -30,6 +30,9 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-18 (overnight, cont.): Reading-track stories for R7–R9 (Nastaliq-first, every word already
+  taught in the reading units, all dictionary-verified). Read mode home shows a "Stories to read"
+  card. Tapping a course word in a story adds it to the review deck.
 - 2026-11-18 (overnight, cont.): **Every speaking unit now has a story** (19 stories). Memory hooks
   (pattern mnemonics: "almost every question word starts with k", "D for Dad's side") show on teach
   cards and in the feedback after a miss. OmniVoice (per-character voices) evaluated and deferred:

@@ -287,6 +287,48 @@ STORIES.update({
    {"question": "How did the family react?", "options": [{"text": "Polite silence, and no encore"}, {"text": "They demanded an encore", "feedback": "Kisi ne mukarrar nahin kaha."}, {"text": "They left the room", "feedback": "They stayed. Silently."}], "answer": 0}]},
 })
 
+# Reading-track stories (H28): only words the reading units have taught, so they can be read in Nastaliq.
+STORIES.update({
+ "r07": {"title": "Khala's hospitality", "emoji": "🫖", "blurb": "Read it in Urdu script. Every word is one you've met.",
+  "lines": [
+   ("ammi", "Salaam, Khala!", "سلام، خالہ!", "Hello, Khala!"),
+   ("khala", "Salaam! Chai?", "سلام! چائے؟", "Hello! Tea?"),
+   ("ammi", "Ji, shukriya.", "جی، شکریہ۔", "Yes, thank you."),
+   ("khala", "Roti? Daal? Biryani?", "روٹی؟ دال؟ بریانی؟", "Roti? Daal? Biryani?"),
+   ("ammi", "Nahin, shukriya. Paani.", "نہیں، شکریہ۔ پانی۔", "No, thank you. Water."),
+   ("khala", "Paani? Nahin nahin! Biryani!", "پانی؟ نہیں نہیں! بریانی!", "Water? No, no! Biryani!"),
+  ],
+  "glossary": {"salaam": "hello", "khala": "aunt (mum's sister)", "chai": "tea", "ji": "yes (polite)", "shukriya": "thank you", "roti": "flatbread", "daal": "lentils", "biryani": "spiced rice", "nahin": "no", "paani": "water"},
+  "questions": [{"question": "What does Ammi ask for?", "options": [{"text": "Water"}, {"text": "Biryani", "feedback": "That's what Khala gives her anyway."}, {"text": "Roti", "feedback": "Read the fifth line again: پانی."}], "answer": 0}]},
+ "r08": {"title": "Closed, open", "emoji": "🪧", "blurb": "Read the signs to find a samosa.",
+  "lines": [
+   (None, "Dukaan band hai.", "دکان بند ہے۔", "The shop is closed."),
+   (None, "Masjid ke paas ek dukaan khuli hai.", "مسجد کے پاس ایک دکان کھلی ہے۔", "Near the mosque, a shop is open."),
+   ("bashir", "Khush aamdeed! Samose, pakore, thanda paani!", "خوش آمدید! سموسے، پکوڑے، ٹھنڈا پانی!", "Welcome! Samosas, pakoras, cold water!"),
+   (None, "Samosa: bees rupay.", "سموسہ: بیس روپے۔", "Samosa: twenty rupees."),
+   (None, "Darwaze par likha hai: yahan gaari khari karna mana hai.", "دروازے پر لکھا ہے: یہاں گاڑی کھڑی کرنا منع ہے۔", "It says on the door: no parking here."),
+   (None, "Maine do samose liye aur thanda paani piya.", "میں نے دو سموسے لیے اور ٹھنڈا پانی پیا۔", "I bought two samosas and drank cold water."),
+  ],
+  "glossary": {"dukaan": "shop", "band": "closed", "hai": "is", "masjid": "mosque", "ke": "of", "paas": "near", "ek": "a, one", "khuli": "open", "khush": "happy", "aamdeed": "arrival (khush aamdeed: welcome)", "samose": "samosas", "pakore": "pakoras", "thanda": "cold", "paani": "water", "samosa": "samosa", "bees": "twenty", "rupay": "rupees", "darwaze": "door", "par": "on", "likha": "written", "yahan": "here", "gaari": "car", "khari": "parked, standing", "karna": "to do", "mana": "forbidden", "maine": "I (did)", "do": "two", "liye": "took, bought", "aur": "and", "piya": "drank"},
+  "questions": [
+   {"question": "Which shop was open?", "options": [{"text": "The one near the mosque"}, {"text": "The first one", "feedback": "دکان بند ہے: the first one was closed."}], "answer": 0},
+   {"question": "What does the sign on the door say?", "options": [{"text": "No parking here"}, {"text": "Welcome", "feedback": "خوش آمدید is what the shopkeeper said. The sign says منع ہے: forbidden."}, {"text": "Closed", "feedback": "This shop was open."}], "answer": 0}]},
+ "r09": {"title": "The family group", "emoji": "💬", "blurb": "Twenty unread messages. Read them in Urdu script.",
+  "lines": [
+   ("ammi", "Khana kha liya?", "کھانا کھا لیا؟", "Have you eaten?"),
+   (None, "Ji Ammi.", "جی امی۔", "Yes, Ammi."),
+   ("khala", "Kab aa rahe ho? Jaldi aao!", "کب آ رہے ہو؟ جلدی آؤ!", "When are you coming? Come soon!"),
+   ("nani", "Rishta aaya hai! Kisi ko mat batana.", "رشتہ آیا ہے! کسی کو مت بتانا۔", "A proposal has come! Don't tell anyone."),
+   ("abbu", "Sab theek? Call karo.", "سب ٹھیک؟ کال کرو۔", "All well? Call me."),
+   ("nani", "Dua karo.", "دعا کرو۔", "Pray for it."),
+   (None, "Sab ne likha: Ameen!", "سب نے لکھا: آمین!", "Everyone wrote: Ameen!"),
+  ],
+  "glossary": {"khana": "food", "kha": "eat", "liya": "(done)", "ji": "yes", "ammi": "Mum", "kab": "when", "aa": "come", "rahe": "(are) -ing", "ho": "are", "jaldi": "soon, quickly", "aao": "come!", "rishta": "marriage proposal", "aaya": "came", "hai": "has", "kisi": "anyone", "ko": "to", "mat": "don't", "batana": "tell", "sab": "everyone, all", "theek": "fine", "call": "call", "karo": "do", "dua": "prayer", "ne": "(marks who did it)", "likha": "wrote", "ameen": "amen"},
+  "questions": [
+   {"question": "What does Nani say not to do?", "options": [{"text": "Tell anyone about the proposal"}, {"text": "Call", "feedback": "That's Abbu: کال کرو."}, {"text": "Come soon", "feedback": "That's Khala asking you to come."}], "answer": 0},
+   {"question": "Who has asked you to call?", "options": [{"text": "Abbu"}, {"text": "Ammi", "feedback": "Ammi asked whether you'd eaten."}], "answer": 0}]},
+})
+
 for uid, st in STORIES.items():
     f = ROOT / "content" / "units" / f"{uid}.json"
     u = json.loads(f.read_text())

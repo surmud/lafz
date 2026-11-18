@@ -1544,6 +1544,11 @@
 "seconds": 2.29,
 "sim": 0.95
 },
+"matcha-f1|normal|جی امی۔": {
+"file": "ed70457de4acc6b3.mp3",
+"seconds": 0.8,
+"sim": 0.67
+},
 "matcha-f1|normal|جی خالہ! آواز آ رہی ہے؟": {
 "file": "33a7971c4c35691e.mp3",
 "seconds": 2.22,
@@ -1613,6 +1618,11 @@
 "file": "1b38a410f2a54d56.mp3",
 "seconds": 1.15,
 "sim": 0.88
+},
+"matcha-f1|normal|جی، شکریہ۔": {
+"file": "9a7da5f151897997.mp3",
+"seconds": 1.12,
+"sim": 0.78
 },
 "matcha-f1|normal|جی، ضرور": {
 "file": "9adbd661145942a7.mp3",
@@ -1874,6 +1884,11 @@
 "seconds": 2.61,
 "sim": 0.96
 },
+"matcha-f1|normal|دروازے پر لکھا ہے: یہاں گاڑی کھڑی کرنا منع ہے۔": {
+"file": "511a3e31d99a6d21.mp3",
+"seconds": 3.91,
+"sim": 0.97
+},
 "matcha-f1|normal|دس": {
 "file": "2080e6b7ba41decc.mp3",
 "seconds": 0.61,
@@ -1903,6 +1918,11 @@
 "file": "76ce89fb33546627.mp3",
 "seconds": 0.96,
 "sim": 1.0
+},
+"matcha-f1|normal|دعا کرو۔": {
+"file": "a04a81ecfd503390.mp3",
+"seconds": 0.89,
+"sim": 0.86
 },
 "matcha-f1|normal|دل باغ باغ ہو گیا": {
 "file": "26f38a3caa43c18b.mp3",
@@ -2039,6 +2059,11 @@
 "seconds": 0.88,
 "sim": 1.0
 },
+"matcha-f1|normal|دکان بند ہے۔": {
+"file": "c30a11e0309b6b33.mp3",
+"seconds": 1.08,
+"sim": 0.9
+},
 "matcha-f1|normal|دکان کے سامنے": {
 "file": "3aad6937b7a9590d.mp3",
 "seconds": 1.32,
@@ -2089,6 +2114,11 @@
 "seconds": 0.88,
 "sim": 0.8
 },
+"matcha-f1|normal|رشتہ آیا ہے! کسی کو مت بتانا۔": {
+"file": "108aea9842f00506.mp3",
+"seconds": 2.47,
+"sim": 0.91
+},
 "matcha-f1|normal|رمضان مبارک!": {
 "file": "05781c28843f98c9.mp3",
 "seconds": 1.38,
@@ -2108,6 +2138,11 @@
 "file": "b2264f2140f9cb6e.mp3",
 "seconds": 0.72,
 "sim": 1.0
+},
+"matcha-f1|normal|روٹی؟ دال؟ بریانی؟": {
+"file": "b39d26405a2abded.mp3",
+"seconds": 2.36,
+"sim": 0.81
 },
 "matcha-f1|normal|روپے": {
 "file": "18fff55ce7599ef5.mp3",
@@ -2209,6 +2244,11 @@
 "seconds": 2.19,
 "sim": 0.96
 },
+"matcha-f1|normal|سب نے لکھا: آمین!": {
+"file": "b2b3c8e8b9f8c8e7.mp3",
+"seconds": 1.76,
+"sim": 1.0
+},
 "matcha-f1|normal|سب ٹھیک ہے": {
 "file": "87f4b01d57d725bb.mp3",
 "seconds": 0.97,
@@ -2294,6 +2334,16 @@
 "seconds": 0.76,
 "sim": 1.0
 },
+"matcha-f1|normal|سلام! چائے؟": {
+"file": "3daf7fab61b68bf7.mp3",
+"seconds": 1.15,
+"sim": 0.89
+},
+"matcha-f1|normal|سلام، خالہ!": {
+"file": "5573546242ccc428.mp3",
+"seconds": 1.24,
+"sim": 0.89
+},
 "matcha-f1|normal|سلامی": {
 "file": "08d9f092beddb55a.mp3",
 "seconds": 0.85,
@@ -2308,6 +2358,11 @@
 "file": "223c138d9cd945e6.mp3",
 "seconds": 0.9,
 "sim": 0.83
+},
+"matcha-f1|normal|سموسہ: بیس روپے۔": {
+"file": "798a276161998f82.mp3",
+"seconds": 1.82,
+"sim": 0.69
 },
 "matcha-f1|normal|سو": {
 "file": "9ca79d1f7817c502.mp3",
@@ -2939,6 +2994,11 @@
 "seconds": 1.15,
 "sim": 0.82
 },
+"matcha-f1|normal|مسجد کے پاس ایک دکان کھلی ہے۔": {
+"file": "31ad344f94fbaebf.mp3",
+"seconds": 2.7,
+"sim": 0.91
+},
 "matcha-f1|normal|مسجد کے پیچھے": {
 "file": "907d94ebef21363f.mp3",
 "seconds": 1.37,
@@ -3444,6 +3504,11 @@
 "seconds": 3.73,
 "sim": 0.95
 },
+"matcha-f1|normal|میں نے دو سموسے لیے اور ٹھنڈا پانی پیا۔": {
+"file": "88dded1f52bb1bbc.mp3",
+"seconds": 3.03,
+"sim": 0.94
+},
 "matcha-f1|normal|میں نے دو پلیٹ کھائیں۔": {
 "file": "84f67808c2eb7643.mp3",
 "seconds": 1.45,
@@ -3744,6 +3809,11 @@
 "seconds": 1.89,
 "sim": 0.93
 },
+"matcha-f1|normal|نہیں، شکریہ۔ پانی۔": {
+"file": "8b83f75518b5dc44.mp3",
+"seconds": 1.54,
+"sim": 0.81
+},
 "matcha-f1|normal|نہیں، نہیں نانی! میں بڑا ہو گیا ہوں": {
 "file": "98dbf1d3e79a656e.mp3",
 "seconds": 2.96,
@@ -3987,6 +4057,11 @@
 "matcha-f1|normal|پانی ملے گا؟": {
 "file": "b33394d839db902d.mp3",
 "seconds": 0.94,
+"sim": 0.9
+},
+"matcha-f1|normal|پانی؟ نہیں نہیں! بریانی!": {
+"file": "d40e63cf8dfae33d.mp3",
+"seconds": 2.4,
 "sim": 0.9
 },
 "matcha-f1|normal|پاکستان نے میچ جیت لیا": {
@@ -4424,6 +4499,11 @@
 "seconds": 0.94,
 "sim": 1.0
 },
+"matcha-f1|normal|کب آ رہے ہو؟ جلدی آؤ!": {
+"file": "6551d1d51c6e3400.mp3",
+"seconds": 1.98,
+"sim": 0.93
+},
 "matcha-f1|normal|کب سیٹل ہو رہے ہو؟": {
 "file": "bdb02fc7cd0e4c45.mp3",
 "seconds": 1.26,
@@ -4577,6 +4657,11 @@
 "matcha-f1|normal|کھانا کب ملے گا؟": {
 "file": "15e607312dd6d1ae.mp3",
 "seconds": 1.22,
+"sim": 0.92
+},
+"matcha-f1|normal|کھانا کھا لیا؟": {
+"file": "ab363e449bc6dffc.mp3",
+"seconds": 1.1,
 "sim": 0.92
 },
 "matcha-f1|normal|کھانا کیسا ہے؟": {
@@ -6584,6 +6669,11 @@
 "seconds": 3.17,
 "sim": 1.0
 },
+"matcha-f1|slow|جی امی۔": {
+"file": "f30ae30491e897d1.mp3",
+"seconds": 1.08,
+"sim": 1.0
+},
 "matcha-f1|slow|جی خالہ! آواز آ رہی ہے؟": {
 "file": "4723a22c8549057d.mp3",
 "seconds": 3.1,
@@ -6652,6 +6742,11 @@
 "matcha-f1|slow|جی، شکریہ": {
 "file": "83cf1523a95e3dc7.mp3",
 "seconds": 1.59,
+"sim": 1.0
+},
+"matcha-f1|slow|جی، شکریہ۔": {
+"file": "94e925c0b9a3782a.mp3",
+"seconds": 1.47,
 "sim": 1.0
 },
 "matcha-f1|slow|جی، ضرور": {
@@ -6914,6 +7009,11 @@
 "seconds": 3.68,
 "sim": 1.0
 },
+"matcha-f1|slow|دروازے پر لکھا ہے: یہاں گاڑی کھڑی کرنا منع ہے۔": {
+"file": "efd04639c2d1ce61.mp3",
+"seconds": 5.57,
+"sim": 1.0
+},
 "matcha-f1|slow|دس": {
 "file": "49b4a71a9439da92.mp3",
 "seconds": 0.78,
@@ -6942,6 +7042,11 @@
 "matcha-f1|slow|دعا کرو": {
 "file": "6529d09fbf25180d.mp3",
 "seconds": 1.24,
+"sim": 1.0
+},
+"matcha-f1|slow|دعا کرو۔": {
+"file": "d7f957a666254c70.mp3",
+"seconds": 1.22,
 "sim": 1.0
 },
 "matcha-f1|slow|دل باغ باغ ہو گیا": {
@@ -7079,6 +7184,11 @@
 "seconds": 1.18,
 "sim": 1.0
 },
+"matcha-f1|slow|دکان بند ہے۔": {
+"file": "6820594ec4bb360a.mp3",
+"seconds": 1.4,
+"sim": 1.0
+},
 "matcha-f1|slow|دکان کے سامنے": {
 "file": "b694133f322a48c1.mp3",
 "seconds": 1.82,
@@ -7129,6 +7239,11 @@
 "seconds": 1.22,
 "sim": 1.0
 },
+"matcha-f1|slow|رشتہ آیا ہے! کسی کو مت بتانا۔": {
+"file": "8a1fc7580b907672.mp3",
+"seconds": 3.47,
+"sim": 1.0
+},
 "matcha-f1|slow|رمضان مبارک!": {
 "file": "e2d2e94483b3c635.mp3",
 "seconds": 1.89,
@@ -7147,6 +7262,11 @@
 "matcha-f1|slow|روٹی": {
 "file": "f2b0cd1216a57c96.mp3",
 "seconds": 0.95,
+"sim": 1.0
+},
+"matcha-f1|slow|روٹی؟ دال؟ بریانی؟": {
+"file": "86152a2db9b39fde.mp3",
+"seconds": 3.17,
 "sim": 1.0
 },
 "matcha-f1|slow|روپے": {
@@ -7249,6 +7369,11 @@
 "seconds": 3.05,
 "sim": 1.0
 },
+"matcha-f1|slow|سب نے لکھا: آمین!": {
+"file": "a52b4e6eca3c813d.mp3",
+"seconds": 2.45,
+"sim": 1.0
+},
 "matcha-f1|slow|سب ٹھیک ہے": {
 "file": "6cf7d879bae05d94.mp3",
 "seconds": 1.36,
@@ -7334,6 +7459,16 @@
 "seconds": 1.06,
 "sim": 1.0
 },
+"matcha-f1|slow|سلام! چائے؟": {
+"file": "74d82c902b69a0be.mp3",
+"seconds": 1.57,
+"sim": 1.0
+},
+"matcha-f1|slow|سلام، خالہ!": {
+"file": "deb6bd9b665de32a.mp3",
+"seconds": 1.57,
+"sim": 1.0
+},
 "matcha-f1|slow|سلامی": {
 "file": "f8434f3fa5b27d02.mp3",
 "seconds": 1.14,
@@ -7347,6 +7482,11 @@
 "matcha-f1|slow|سموسہ": {
 "file": "bdf7a156fd5e2031.mp3",
 "seconds": 1.24,
+"sim": 1.0
+},
+"matcha-f1|slow|سموسہ: بیس روپے۔": {
+"file": "79e5da5a49a6fb6c.mp3",
+"seconds": 2.54,
 "sim": 1.0
 },
 "matcha-f1|slow|سو": {
@@ -7979,6 +8119,11 @@
 "seconds": 1.59,
 "sim": 1.0
 },
+"matcha-f1|slow|مسجد کے پاس ایک دکان کھلی ہے۔": {
+"file": "adbb73718cbcac1f.mp3",
+"seconds": 3.8,
+"sim": 1.0
+},
 "matcha-f1|slow|مسجد کے پیچھے": {
 "file": "bdec909180a6c574.mp3",
 "seconds": 1.87,
@@ -8484,6 +8629,11 @@
 "seconds": 5.28,
 "sim": 1.0
 },
+"matcha-f1|slow|میں نے دو سموسے لیے اور ٹھنڈا پانی پیا۔": {
+"file": "8b163384e11dd562.mp3",
+"seconds": 4.29,
+"sim": 1.0
+},
 "matcha-f1|slow|میں نے دو پلیٹ کھائیں۔": {
 "file": "6fe8d85a5eb9ab69.mp3",
 "seconds": 2.01,
@@ -8784,6 +8934,11 @@
 "seconds": 2.63,
 "sim": 1.0
 },
+"matcha-f1|slow|نہیں، شکریہ۔ پانی۔": {
+"file": "11d1a4a960772636.mp3",
+"seconds": 2.15,
+"sim": 1.0
+},
 "matcha-f1|slow|نہیں، نہیں نانی! میں بڑا ہو گیا ہوں": {
 "file": "e335774a847b3274.mp3",
 "seconds": 4.21,
@@ -9027,6 +9182,11 @@
 "matcha-f1|slow|پانی ملے گا؟": {
 "file": "07357c4733e991d3.mp3",
 "seconds": 1.24,
+"sim": 1.0
+},
+"matcha-f1|slow|پانی؟ نہیں نہیں! بریانی!": {
+"file": "9bb6c90aad558c24.mp3",
+"seconds": 3.4,
 "sim": 1.0
 },
 "matcha-f1|slow|پاکستان نے میچ جیت لیا": {
@@ -9464,6 +9624,11 @@
 "seconds": 1.24,
 "sim": 1.0
 },
+"matcha-f1|slow|کب آ رہے ہو؟ جلدی آؤ!": {
+"file": "2a5fae51d58641f7.mp3",
+"seconds": 2.77,
+"sim": 1.0
+},
 "matcha-f1|slow|کب سیٹل ہو رہے ہو؟": {
 "file": "8185061e40578c9f.mp3",
 "seconds": 1.73,
@@ -9617,6 +9782,11 @@
 "matcha-f1|slow|کھانا کب ملے گا؟": {
 "file": "9c6890545a5a4fd7.mp3",
 "seconds": 1.66,
+"sim": 1.0
+},
+"matcha-f1|slow|کھانا کھا لیا؟": {
+"file": "dabb801b7924de67.mp3",
+"seconds": 1.36,
 "sim": 1.0
 },
 "matcha-f1|slow|کھانا کیسا ہے؟": {
@@ -10279,6 +10449,11 @@
 "seconds": 2.01,
 "sim": 1.0
 },
+"matcha-m1|normal|خوش آمدید! سموسے، پکوڑے، ٹھنڈا پانی!": {
+"file": "c211f8add8cb3442.mp3",
+"seconds": 3.63,
+"sim": 0.9
+},
 "matcha-m1|normal|دیکھا؟ دوائی کا کمال۔": {
 "file": "90784b4671aa3e02.mp3",
 "seconds": 2.05,
@@ -10298,6 +10473,11 @@
 "file": "c0d1bf1b7d7598c3.mp3",
 "seconds": 5.35,
 "sim": 0.94
+},
+"matcha-m1|normal|سب ٹھیک؟ کال کرو۔": {
+"file": "fd18e183262c524e.mp3",
+"seconds": 1.54,
+"sim": 0.86
 },
 "matcha-m1|normal|سنو سنو! پٹرول کی قیمت میں پھر اضافہ": {
 "file": "7819e5746da385f9.mp3",
@@ -10754,6 +10934,11 @@
 "seconds": 2.87,
 "sim": 1.0
 },
+"matcha-m1|slow|خوش آمدید! سموسے، پکوڑے، ٹھنڈا پانی!": {
+"file": "284245da1e706eaf.mp3",
+"seconds": 5.14,
+"sim": 1.0
+},
 "matcha-m1|slow|دیکھا؟ دوائی کا کمال۔": {
 "file": "ddb3f440ea1ca3b6.mp3",
 "seconds": 2.87,
@@ -10772,6 +10957,11 @@
 "matcha-m1|slow|زمانہ بدلا ہے، بجلی کا بل نہیں! بلال کو دیکھو، وہ اے سی نہیں چلاتا": {
 "file": "6c5b6d106b1dbe1b.mp3",
 "seconds": 7.65,
+"sim": 1.0
+},
+"matcha-m1|slow|سب ٹھیک؟ کال کرو۔": {
+"file": "7ce50f3c03a0b5b8.mp3",
+"seconds": 2.08,
 "sim": 1.0
 },
 "matcha-m1|slow|سنو سنو! پٹرول کی قیمت میں پھر اضافہ": {

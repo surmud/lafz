@@ -339,6 +339,457 @@
           "url": "https://en.wiktionary.org/wiki/%D8%B1%DA%A9%D9%86%D8%A7#Urdu"
         }
       ]
+    },
+    {
+      "id": "r08.b.st-1",
+      "roman": "Dukaan band hai.",
+      "urdu": "دکان بند ہے۔",
+      "en": "The shop is closed.",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دکان",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%DA%A9%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دکان",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%DA%A9%D8%A7%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بند",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%86%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بند",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%D9%86%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.b.st-2",
+      "roman": "Masjid ke paas ek dukaan khuli hai.",
+      "urdu": "مسجد کے پاس ایک دکان کھلی ہے۔",
+      "en": "Near the mosque, a shop is open.",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "مسجد",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D8%B3%D8%AC%D8%AF&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "مسجد",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%AC%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پاس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پاس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D8%B3#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "ایک",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%8A%DA%A9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ایک",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%DB%8C%DA%A9#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "دکان",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%DA%A9%D8%A7%D9%86&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دکان",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%DA%A9%D8%A7%D9%86#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کھلی",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%D9%84%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.b.st-3",
+      "roman": "Khush aamdeed! Samose, pakore, thanda paani!",
+      "urdu": "خوش آمدید! سموسے، پکوڑے، ٹھنڈا پانی!",
+      "en": "Welcome! Samosas, pakoras, cold water!",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "خوش",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AE%D9%88%D8%B4&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خوش",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%B4#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "خوش آمدید",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%B4%20%D8%A2%D9%85%D8%AF%DB%8C%D8%AF#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "سموسہ",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%85%D9%88%D8%B3%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سموسہ",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%85%D9%88%D8%B3%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پکوڑا",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%DA%A9%D9%88%DA%91%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ٹھنڈا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%B9%DA%BE%D9%86%DA%88%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DB%8C#Urdu"
+        }
+      ],
+      "speaker": "bashir"
+    },
+    {
+      "id": "r08.b.st-4",
+      "roman": "Samosa: bees rupay.",
+      "urdu": "سموسہ: بیس روپے۔",
+      "en": "Samosa: twenty rupees.",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "سموسہ",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%85%D9%88%D8%B3%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سموسہ",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%85%D9%88%D8%B3%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "بیس",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A8%D9%8A%D8%B3&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "بیس",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%A8%DB%8C%D8%B3#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "روپے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B1%D9%88%D9%BE%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "روپے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%88%D9%BE%DB%92#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.b.st-5",
+      "roman": "Darwaze par likha hai: yahan gaari khari karna mana hai.",
+      "urdu": "دروازے پر لکھا ہے: یہاں گاڑی کھڑی کرنا منع ہے۔",
+      "en": "It says on the door: no parking here.",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "دروازے",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D8%B1%D9%88%D8%A7%D8%B2%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دروازے",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D8%B1%D9%88%D8%A7%D8%B2%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پر",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پر",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%B1#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "لکھا",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%DA%A9%D9%87%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "platts",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%87%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ہے",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%DB%81%DB%92#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "یہاں",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%DB%8C%DB%81%D8%A7%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "گاڑی",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%AF%D8%A7%DA%91%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "گاڑی",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%DA%AF%D8%A7%DA%91%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کھڑی",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D9%87%DA%91%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کھڑی",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%DA%BE%DA%91%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "کرنا",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%DA%A9%D8%B1%D9%86%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "کرنا",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%DA%A9%D8%B1%D9%86%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "منع",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%86%D8%B9&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "منع",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%D9%86%D8%B9#Urdu"
+        }
+      ]
+    },
+    {
+      "id": "r08.b.st-6",
+      "roman": "Maine do samose liye aur thanda paani piya.",
+      "urdu": "میں نے دو سموسے لیے اور ٹھنڈا پانی پیا۔",
+      "en": "I bought two samosas and drank cold water.",
+      "confidence": "high",
+      "sources": [
+        {
+          "ref": "platts",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%85%D9%8A%DA%BA&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "میں",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D9%85%DB%8C%DA%BA#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "نے",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%86%DB%92&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "نے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%86%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%AF%D9%88&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "دو",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D8%AF%D9%88#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "سموسہ",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%B3%D9%85%D9%88%D8%B3%D9%87&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "سموسہ",
+          "checked": "2026-11-17",
+          "url": "https://en.wiktionary.org/wiki/%D8%B3%D9%85%D9%88%D8%B3%DB%81#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "لیا",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%84%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "لیے",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%84%DB%8C%DB%92#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "اور",
+          "checked": "2026-11-15",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D8%A7%D9%88%D8%B1&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "اور",
+          "checked": "2026-11-15",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D9%88%D8%B1#Urdu"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "ٹھنڈا",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%B9%DA%BE%D9%86%DA%88%D8%A7#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D8%A7%D9%86%D9%8A&searchhws=yes&matchtype=exact"
+        },
+        {
+          "ref": "wiktionary",
+          "item": "پانی",
+          "checked": "2026-11-16",
+          "url": "https://en.wiktionary.org/wiki/%D9%BE%D8%A7%D9%86%DB%8C#Urdu"
+        },
+        {
+          "ref": "platts",
+          "item": "پیا",
+          "checked": "2026-11-17",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=%D9%BE%D9%8A%D8%A7&searchhws=yes&matchtype=exact"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -840,5 +1291,95 @@
         }
       ]
     }
-  ]
+  ],
+  "story": {
+    "title": "Closed, open",
+    "emoji": "🪧",
+    "blurb": "Read the signs to find a samosa.",
+    "lines": [
+      {
+        "phrase": "r08.b.st-1"
+      },
+      {
+        "phrase": "r08.b.st-2"
+      },
+      {
+        "phrase": "r08.b.st-3",
+        "speaker": "bashir"
+      },
+      {
+        "phrase": "r08.b.st-4"
+      },
+      {
+        "phrase": "r08.b.st-5"
+      },
+      {
+        "phrase": "r08.b.st-6"
+      }
+    ],
+    "glossary": {
+      "dukaan": "shop",
+      "band": "closed",
+      "hai": "is",
+      "masjid": "mosque",
+      "ke": "of",
+      "paas": "near",
+      "ek": "a, one",
+      "khuli": "open",
+      "khush": "happy",
+      "aamdeed": "arrival (khush aamdeed: welcome)",
+      "samose": "samosas",
+      "pakore": "pakoras",
+      "thanda": "cold",
+      "paani": "water",
+      "samosa": "samosa",
+      "bees": "twenty",
+      "rupay": "rupees",
+      "darwaze": "door",
+      "par": "on",
+      "likha": "written",
+      "yahan": "here",
+      "gaari": "car",
+      "khari": "parked, standing",
+      "karna": "to do",
+      "mana": "forbidden",
+      "maine": "I (did)",
+      "do": "two",
+      "liye": "took, bought",
+      "aur": "and",
+      "piya": "drank"
+    },
+    "questions": [
+      {
+        "question": "Which shop was open?",
+        "options": [
+          {
+            "text": "The one near the mosque"
+          },
+          {
+            "text": "The first one",
+            "feedback": "دکان بند ہے: the first one was closed."
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does the sign on the door say?",
+        "options": [
+          {
+            "text": "No parking here"
+          },
+          {
+            "text": "Welcome",
+            "feedback": "خوش آمدید is what the shopkeeper said. The sign says منع ہے: forbidden."
+          },
+          {
+            "text": "Closed",
+            "feedback": "This shop was open."
+          }
+        ],
+        "answer": 0
+      }
+    ]
+  }
 }

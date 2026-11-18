@@ -36,7 +36,8 @@ export function StoryView({
   wordIds: Record<string, string>;
 }) {
   const { mode } = useSettings();
-  const read = mode === "read";
+  // Reading-track stories are always script-first, whatever the mode.
+  const read = mode === "read" || unitId.startsWith("r");
   const cast = useCast();
   const { update, progress } = useStore();
   const [shown, setShown] = useState(1);
