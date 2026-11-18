@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { registerServiceWorker } from "@/lib/offline";
 import { CastProvider, type CastMember } from "@/lib/cast";
 import { StoreProvider } from "@/lib/store";
+import { AccountProvider } from "@/lib/useAccount";
 
 export function AppProviders({ children, cast }: { children: React.ReactNode; cast: readonly CastMember[] }) {
   useEffect(() => {
@@ -10,9 +11,11 @@ export function AppProviders({ children, cast }: { children: React.ReactNode; ca
   }, []);
   return (
     <StoreProvider>
-      <CastProvider cast={cast}>
-        <div className="mx-auto min-h-dvh w-full max-w-md">{children}</div>
-      </CastProvider>
+      <AccountProvider>
+        <CastProvider cast={cast}>
+          <div className="mx-auto min-h-dvh w-full max-w-md">{children}</div>
+        </CastProvider>
+      </AccountProvider>
     </StoreProvider>
   );
 }

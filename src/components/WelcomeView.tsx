@@ -3,11 +3,13 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import type { Character } from "@/content/schema";
 import { useStore } from "@/lib/store";
+import { accountsEnabled } from "@/lib/config";
+import { SignInButtons } from "./AccountSection";
 import { Avatar } from "./Avatar";
 import { Nastaliq } from "./Phrase";
 import { Button, TruckStripe } from "./ui";
 
-type Step = "hello" | "who" | "ready";
+type Step = "hello" | "who" | "ready" | "account";
 
 export function WelcomeView({ characters }: { characters: Character[] }) {
   const { update } = useStore();
@@ -15,11 +17,17 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
   const [step, setStep] = useState<Step>("hello");
   const [kind, setKind] = useState<"heritage" | "beginner" | null>(null);
 
+  const [dest, setDest] = useState<"placement" | "home">("home");
+  // With accounts configured, one optional step comes last: save progress, or skip.
+  const choose = (to: "placement" | "home") => {
+    if (accountsEnabled()) {
+      setDest(to);
+      setStep("account");
+    } else void finish(to);
+  };
+  const save = () => update((p) => ({ ...p, profile: { ...p.profile, kind, onboarded: true } }));
   const finish = async (to: "placement" | "home") => {
-    await update((p) => ({
-      ...p,
-      profile: { ...p.profile, kind, onboarded: true },
-    }));
+    await save();
     if (to === "placement") router.push("/placement/");
     else router.replace("/");
   };
@@ -74,6 +82,18 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
               Next
             </Button>
           </div>
+        ) : step === "account" ? (
+          <div className="flex flex-1 animate-rise flex-col gap-4">
+            <h1 className="font-display text-3xl font-bold">Save your progress?</h1>
+            <p className="text-ink-soft">
+              Optional. Sign in to back up your progress and use it on another device. Lafz works fully without an
+              account; everything stays on this phone.
+            </p>
+            <SignInButtons returnTo={dest === "placement" ? "/placement/" : "/"} before={save} />
+            <Button block className="mt-auto" onClick={() => void finish(dest)}>
+              Skip for now
+            </Button>
+          </div>
         ) : (
           <div className="flex flex-1 animate-rise flex-col gap-4">
             <h1 className="font-display text-3xl font-bold">{kind === "heritage" ? "Find your level" : "Ready when you are"}</h1>
@@ -85,19 +105,19 @@ export function WelcomeView({ characters }: { characters: Character[] }) {
             <div className="mt-auto flex flex-col gap-3">
               {kind === "heritage" ? (
                 <>
-                  <Button block onClick={() => finish("placement")}>
+                  <Button block onClick={() => choose("placement")}>
                     Take the placement test
                   </Button>
-                  <Button block variant="secondary" onClick={() => finish("home")}>
+                  <Button block variant="secondary" onClick={() => choose("home")}>
                     Start lesson 1 instead
                   </Button>
                 </>
               ) : (
                 <>
-                  <Button block onClick={() => finish("home")}>
+                  <Button block onClick={() => choose("home")}>
                     Start lesson 1
                   </Button>
-                  <Button block variant="ghost" onClick={() => finish("placement")}>
+                  <Button block variant="ghost" onClick={() => choose("placement")}>
                     Take the placement test instead
                   </Button>
                 </>

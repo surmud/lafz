@@ -31,3 +31,22 @@ test("chai: Me row, and one dismissible card after five lessons", async ({ page 
   await page.getByRole("button", { name: /Speak/ }).waitFor();
   await expect(page.getByRole("complementary", { name: "Support Lafz" })).toHaveCount(0);
 });
+
+test("accounts: optional sign-in step at the end of onboarding, skip works, Me shows sign-in", async ({ page }, info) => {
+  test.skip(!process.env.SUPA, "build without NEXT_PUBLIC_SUPABASE_URL");
+  test.skip(info.project.name !== "iphone");
+  const shot = shooter(page, "flags", info.project.name);
+  await freshStart(page);
+  await page.getByRole("button", { name: "Let's go" }).click();
+  await page.getByRole("button", { name: /new to Urdu/ }).click();
+  await page.getByRole("button", { name: "Next" }).click();
+  await page.getByRole("button", { name: /Start lesson 1/ }).click();
+  await expect(page.getByRole("heading", { name: "Save your progress?" })).toBeVisible();
+  await expect(page.getByRole("button", { name: /Sign in with Google/ })).toBeVisible();
+  await shot("account-step");
+  await page.getByRole("button", { name: "Skip for now" }).click();
+  await page.getByText(/Start here/).waitFor();
+  await page.goto("./me/");
+  await expect(page.getByRole("heading", { name: "Account" })).toBeVisible();
+  await expect(page.getByRole("button", { name: /Sign in with Google/ })).toBeVisible();
+});

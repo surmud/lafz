@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { AccountSection } from "./AccountSection";
 import { ChaiRow } from "./Chai";
 import { useRef, useState } from "react";
 import { canDos, nextCanDo, type UnitMeta } from "@/engine/course";
@@ -176,6 +177,8 @@ export function MeView({ units }: { units: UnitMeta[] }) {
             Daily keeps a streak. 3 or 5 days is a weekly goal instead: any days you like, no counting days in a row.
           </p>
         </section>
+
+        <AccountSection />
 
         <section aria-labelledby="data" className="flex flex-col gap-3">
           <h2 id="data" className="font-display text-xl font-bold">

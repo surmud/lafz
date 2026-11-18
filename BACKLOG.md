@@ -7,7 +7,7 @@ acceptance criteria (AC). Phases are a guide, not a cage.
 Everything needing a founder account ships dormant behind env/config flags.
 - [x] **I1 Remove the relatives-names onboarding step.** Characters keep default names; stored names are dropped on load.
 - [x] **I2 "Loving Lafz? Buy me a chai" tip jar.** Stripe Payment Link from `NEXT_PUBLIC_CHAI_URL` (hidden when unset); Me page row + one dismissible card after ~5 lessons; hidden in native builds (IAP later).
-- [ ] **I3 Optional accounts (Supabase Auth, Google).** Skippable sign-in at the end of onboarding and on Me; `user_progress` jsonb + RLS; merge on login; in-app delete account; Sign in with Apple slot behind a flag. Config `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+- [x] **I3 Optional accounts (Supabase Auth, Google).** Skippable sign-in at the end of onboarding and on Me; `user_progress` jsonb + RLS; merge on login; in-app delete account; Sign in with Apple slot behind a flag. Config `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
 - [ ] **I4 Mobile release shell (Capacitor, iOS + Android).** No-basePath native build, app id, icons/splash, safe areas, Android back, mic permission strings, offline content bundled; run in simulators; store screenshots; docs/RELEASE.md.
 - [ ] **I5 Legal pages and hygiene.** /privacy, /terms, /delete-account; complete credits; public-domain poets only; brand distinct from Duolingo.
 - [ ] **I6 WCAG 2.2 AA pass** on every main screen: axe, keyboard and screen-reader flows, reduced motion, 200% zoom at 375px.
