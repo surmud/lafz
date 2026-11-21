@@ -39,41 +39,48 @@ Verified 2026-11-18: the iOS app builds and runs in the iPhone 17 Pro simulator 
 safe areas correct and content loading offline. Note: this simulator runtime draws every colour emoji as
 a "?" box, in Safari and other sites too. That's a simulator issue, not the app; check emoji on a real device.
 
-## iOS: TestFlight → App Store
-1. **Apple Developer Program**: enrolled. Note the Team ID (developer.apple.com, top right).
-   Pre-checked: a Release build for a generic iOS device succeeds unsigned (`xcodebuild -configuration Release
-   -sdk iphoneos CODE_SIGNING_ALLOWED=NO`), version 1.0 (build 1), iPhone only, iOS 15+,
-   `ITSAppUsesNonExemptEncryption = NO` (no export-compliance questions), microphone usage string set.
-   Capacitor 8 ships the privacy manifest for its own native code; the app adds no native code of its own
-   that uses required-reason APIs, so no app-level `PrivacyInfo.xcprivacy` is needed yet.
-2. Xcode → App target → Signing & Capabilities: choose the team, bundle id `app.lafz`, automatic signing.
-3. App Store Connect → My Apps → **+** → New App: iOS, name "Lafz", primary language English (UK or US),
-   bundle id `app.lafz`, SKU `lafz-ios`.
-4. Bump `CFBundleShortVersionString`/`CFBundleVersion` (Xcode General tab), then Product → Archive →
-   Distribute App → App Store Connect → Upload.
-5. **TestFlight**: add internal testers (up to 100, no review); external testers need a short beta review.
-6. **App Store listing**: subtitle ("Speak, understand and read Urdu"), description, keywords (urdu,
-   learn urdu, pakistani, hindustani, roman urdu, nastaliq), support URL (the GitHub repo or a contact
-   page), **privacy policy URL `https://surmud.github.io/lafz/privacy/`**, screenshots from
-   `store/screenshots/ios-6.9in-1320x2868` (6.5" is optional now).
-7. **Age rating: 13+.** Questionnaire answers: no violence, no sexual content, no profanity beyond
-   mild ("crude humour: none/infrequent mild"), no gambling, no drugs, no horror, no medical treatment
-   info, no user-generated content, no unrestricted web access, no messaging between users. Apple would
-   likely compute 4+ or 9+ from these answers; set the **age rating override to 13+** as the founder chose.
-8. **App Privacy ("nutrition labels")**, as shipped:
-   - Signed out, statistics off (the default): **Data Not Collected**.
-   - If accounts are switched on: *Contact Info → Email address* (from Google/Apple sign-in) and
-     *User Content → Other user content* (learning progress), both **linked to the user**, used for
-     **App Functionality** only, **not** used for tracking.
-   - If anonymous statistics are switched on: *Usage Data → Product interaction* and *Identifiers →
-     Device ID* (a random install id), **not linked** to the user, used for **Analytics**, not tracking.
-   - Audio recordings: not collected (they never leave the device).
-9. **Review notes**: "No login required; the app is fully usable signed out. Account creation is
-   optional and can be deleted in-app at Me → Account → Delete account and data. Microphone is used only
-   for speaking practice; recordings stay on device."
-10. Submit for review. Typical first review: 1–3 days.
+## iOS 1.0: TestFlight → App Store
+**Scope of 1.0:** accounts OFF and tip jar OFF in the app (they stay on for the website). So: privacy label
+**Data Not Collected**, and no Sign in with Apple needed (4.8 only applies when third-party sign-in is
+offered). Native OAuth + Sign in with Apple come in 1.1 (BACKLOG I4b). Verified on every build by
+`npm run e2e:native`: no sign-in, no tips, no statistics, no dead links, everything offline from the bundle.
 
-## Android: internal → closed → production
+Already done and checked: bundle id `app.lafz`, version 1.0, iPhone only, iOS 15+, icons and splash,
+`ITSAppUsesNonExemptEncryption = NO`, microphone usage string, Release device build compiles, App Store
+screenshots (`store/screenshots/ios-6.9in-1320x2868/`), listing copy (`store/listing.md`), support page
+(https://surmud.github.io/lafz/support/), privacy policy (https://surmud.github.io/lafz/privacy/).
+
+1. **App Store Connect record** (founder): https://appstoreconnect.apple.com/apps → **+** → New App →
+   iOS; name **Lafz** (fallback "Lafz: Learn Urdu"); primary language English (U.K.) or (U.S.);
+   bundle ID **app.lafz** (if it isn't in the list, register it first at
+   https://developer.apple.com/account/resources/identifiers/add/bundleId: Explicit, `app.lafz`, no
+   capabilities needed for 1.0); SKU `lafz-ios`; User Access: Full Access.
+2. **Archive and upload** (this Mac; Xcode is signed in to team "Surmud Jamil", `JM6S2923X5`):
+   ```bash
+   APPLE_TEAM_ID=JM6S2923X5 npm run ios:archive   # dry run: build + sign + archive, no upload
+   APPLE_TEAM_ID=JM6S2923X5 npm run ios:upload    # build + archive + upload to App Store Connect
+   ```
+   `scripts/ios-upload.sh` runs `npm run build:native`, then
+   `xcodebuild … -allowProvisioningUpdates archive` with automatic signing, then
+   `xcodebuild -exportArchive -exportOptionsPlist ios/ExportOptions.plist` (method `app-store-connect`,
+   destination `upload`). The build number defaults to a timestamp, so every upload is unique.
+   If upload auth fails, upload the archive from Xcode → Window → Organizer → Distribute App instead.
+3. **TestFlight**: the build appears after 10–30 minutes of processing. Add yourself and family as
+   internal testers (no review needed) and install via the TestFlight app. Check on a real iPhone:
+   audio (ring/silent switch!), microphone prompt, emoji rendering, a full lesson, a story, offline (flight mode).
+4. **Listing**: paste everything from `store/listing.md` (name, subtitle, promotional text, description,
+   keywords, URLs, categories Education + Reference, copyright "2026 Surmud Jamil"), upload the six 6.9"
+   screenshots in order, App Privacy → **Data Not Collected**, age rating answers from the listing (computes
+   4+; the founder may override to 13+), review notes from the listing.
+5. **Submit for review**: Version 1.0 → select the TestFlight build → Add for Review → Submit. Typical
+   first review: 1–3 days. Release manually or automatically after approval.
+
+### 1.1 (later)
+Native sign-in (system browser + `app.lafz://auth/callback` deep link), Sign in with Apple, the
+"Sign in with Apple" capability in Xcode, an in-app account deletion check, and an updated privacy label
+(email + progress, linked to the user, app functionality). In-app purchase tips if wanted.
+
+## Android (deferred): internal → closed → production
 1. **Google Play Console** account ($25 one-off). New **personal** accounts must run a **closed test with
    at least 12 testers for 14 consecutive days** before applying for production access. An
    organisation account (D-U-N-S number) skips this.

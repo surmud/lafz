@@ -248,7 +248,10 @@ export function MeView({ units }: { units: UnitMeta[] }) {
           <Link className="underline" href="/credits/">Credits</Link>
           <Link className="underline" href="/privacy/">Privacy</Link>
           <Link className="underline" href="/terms/">Terms</Link>
-          <Link className="underline" href="/delete-account/">Delete your account</Link>
+          <Link className="underline" href="/support/">Help</Link>
+          {accountsEnabled() ? (
+            <Link className="underline" href="/delete-account/">Delete your account</Link>
+          ) : null}
         </nav>
       </main>
       <BottomNav />

@@ -27,37 +27,41 @@ Google sign-in switched on for the web build (verified up to Google's page: Supa
 with `…supabase.co/auth/v1/callback`); contact address `surmudjamil11+lafz@gmail.com` on /privacy,
 /terms and /delete-account; Apple Developer Program enrolled; Google OAuth client in Supabase.
 
-**Still to do, in this order:**
-1. **Create the progress table** (sign-in works without it, but sync can't save until it exists). Open
-   https://supabase.com/dashboard/project/tcavluxpbwchtevumvlo/sql/new, paste the whole of
-   `supabase/migrations/20261118000000_user_progress.sql`, click **Run**. (I can't run it: that needs the
-   service_role key or the database password, which must never be shared.)
-2. **Try one real sign-in** on https://surmud.github.io/lafz/: Me → Account → Sign in with Google. You
-   should land back on Me, signed in, with "Progress is backed up". Then try Delete account and data.
-3. **Sign in with Apple** (required for the iOS app once Google sign-in is offered there, guideline 4.8):
-   1. https://developer.apple.com/account/resources/identifiers/list → App IDs → `app.lafz` (create it if
-      it isn't there: Explicit, bundle id `app.lafz`) → tick **Sign in with Apple** → Save.
-   2. Identifiers → **+** → **Services IDs** → identifier `app.lafz.signin`, description "Lafz sign-in" →
-      tick Sign in with Apple → **Configure**: Primary App ID `app.lafz`; Domains
-      `tcavluxpbwchtevumvlo.supabase.co`; Return URL `https://tcavluxpbwchtevumvlo.supabase.co/auth/v1/callback` → Save.
-   3. https://developer.apple.com/account/resources/authkeys/list → **+** → tick Sign in with Apple →
-      Configure (Primary App ID `app.lafz`) → Register → **download the .p8 once**; note the **Key ID**
-      and your **Team ID** (top right of the developer site).
-   4. https://supabase.com/dashboard/project/tcavluxpbwchtevumvlo/auth/providers → **Apple** → enable;
-      Client IDs: `app.lafz.signin,app.lafz`; Secret Key: generate it from the .p8, Team ID, Key ID and
-      Services ID with Supabase's generator (linked from that page; guide:
-      https://supabase.com/docs/guides/auth/social-login/auth-apple). It expires after 6 months: set a reminder.
-   5. Tell me, and I'll set `NEXT_PUBLIC_APPLE_SIGNIN=1` in `.env.production`.
-4. **iOS app signing**: open `ios/App/App.xcodeproj` in Xcode → App target → Signing & Capabilities →
-   Team = your developer team (automatic signing). Then create the app in App Store Connect
-   (docs/RELEASE.md, "iOS") and Product → Archive → upload to TestFlight.
-5. **Accounts inside the iOS app** (later, BACKLOG I4b): when native sign-in is built, add
-   `app.lafz://auth/callback` to Supabase → Authentication → URL Configuration → Redirect URLs.
-6. **Not urgent:** user-base statistics (free Cloudflare Worker, docs/TELEMETRY.md, then
-   `NEXT_PUBLIC_TELEMETRY_URL` in `.env.production`); governing law for the terms; a human listen to the 3
-   weakest clips (چچی، ہفتہ، عدالت); family voice recordings for cloned character voices (H18).
-7. **Deferred: Google Play** (Play Console $25, Android Studio on this Mac, 12 testers × 14 days). The
-   Android project exists but has never been built.
+**iOS 1.0 (ship first; accounts and tips OFF in the app, privacy label "Data Not Collected"):**
+1. **Create the App Store Connect app record**: bundle id `app.lafz` (register it at
+   https://developer.apple.com/account/resources/identifiers/add/bundleId if it isn't listed), name "Lafz"
+   (fallback "Lafz: Learn Urdu"), SKU `lafz-ios`. Then tell me, and I'll run
+   `APPLE_TEAM_ID=JM6S2923X5 npm run ios:upload` (team found in Xcode's signed-in account; confirm it's
+   the right one).
+2. **TestFlight on your iPhone**: install the build, try a lesson, a story, the mic, and flight mode.
+3. **Paste the listing** from `store/listing.md`, upload `store/screenshots/ios-6.9in-1320x2868/` in
+   order, App Privacy = Data Not Collected, age rating (4+ computed; override to 13+ if you still want it),
+   review notes. Submit for review. Full checklist: docs/RELEASE.md "iOS 1.0".
+
+**Website (accounts are live there):**
+4. **Create the progress table**: open https://supabase.com/dashboard/project/tcavluxpbwchtevumvlo/sql/new,
+   paste all of `supabase/migrations/20261118000000_user_progress.sql`, click Run. (Needs your dashboard
+   login; I can't do it without the service_role key, which must never be shared.)
+5. **Try one real Google sign-in** on https://surmud.github.io/lafz/ → Me → Account, then try Delete
+   account and data.
+
+**iOS 1.1 (after 1.0 ships):**
+6. **Sign in with Apple** (only needed once the app offers Google sign-in):
+   1. https://developer.apple.com/account/resources/identifiers/list → App ID `app.lafz` → tick **Sign in with Apple** → Save.
+   2. Identifiers → **+** → **Services IDs** → `app.lafz.signin` → tick Sign in with Apple → Configure:
+      Primary App ID `app.lafz`; Domains `tcavluxpbwchtevumvlo.supabase.co`; Return URL
+      `https://tcavluxpbwchtevumvlo.supabase.co/auth/v1/callback`.
+   3. https://developer.apple.com/account/resources/authkeys/list → **+** → Sign in with Apple → download
+      the .p8 once; note Key ID and Team ID.
+   4. https://supabase.com/dashboard/project/tcavluxpbwchtevumvlo/auth/providers → Apple → enable; Client IDs
+      `app.lafz.signin,app.lafz`; Secret Key from the .p8 (guide:
+      https://supabase.com/docs/guides/auth/social-login/auth-apple). It expires every 6 months.
+7. **Native sign-in redirect**: when I build native sign-in (BACKLOG I4b), add `app.lafz://auth/callback`
+   to Supabase → Authentication → URL Configuration → Redirect URLs.
+
+**Not urgent:** user-base statistics (Cloudflare Worker, docs/TELEMETRY.md); governing law for the terms;
+a human listen to the 3 weakest clips (چچی، ہفتہ، عدالت); family recordings for character voices (H18).
+**Deferred:** Google Play (Play Console, Android Studio on this Mac, 12 testers × 14 days).
 
 ## v1 status (2026-11-16, end of day)
 **The full course is live at https://surmud.github.io/lafz/** and CI is green on `main`.
@@ -85,6 +89,12 @@ What's built:
 - **Original SVG portraits** for the whole cast (Khala, Nani, Bilal, Mrs. Butt, Ammi, Abbu, Pervez, Bashir).
 
 ## Log
+- 2026-11-21: iOS 1.0 prep (accounts and tips off in the app). Native build: statistics off too, no
+  delete-account link where accounts don't exist, app-specific privacy wording ("the app collects no
+  data"). New /support FAQ (App Store support URL). `npm run e2e:native` checks the App Store build served
+  from its bundle with the network blocked. Screenshots re-taken from the native build. `store/listing.md`
+  (limits checked by scripts/store_listing.py). `npm run ios:archive` / `ios:upload` with
+  ios/ExportOptions.plist, waiting on the App Store Connect record.
 - 2026-11-18: Founder config committed in `.env.production` (CI builds from it): tip jar on for the web,
   Supabase Google sign-in on for the web, contact alias on the legal pages. E2E checks the sign-in step,
   skip, and that Supabase hands off to Google with the right callback (without opening Google's page).

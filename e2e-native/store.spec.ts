@@ -1,11 +1,12 @@
 import { expect, test, type Page } from "@playwright/test";
 import fs from "node:fs";
 import path from "node:path";
-import { answerStep, freshStart, skipAccount } from "./helpers";
+import { answerStep, freshStart } from "../e2e/helpers";
 
 /**
- * App Store and Play Store screenshots at the required pixel sizes. Not part of CI:
- *   npm run build && STORE=1 npx playwright test e2e/store.spec.ts --project=iphone
+ * App Store (and later Play) screenshots at the required pixel sizes, taken from the NATIVE build, so
+ * they show exactly what the app shows (no sign-in, no tip jar). Not part of CI:
+ *   npm run build:native && STORE=1 npm run e2e:native -- store.spec.ts
  * Output: store/screenshots/<size>/NN-name.png
  */
 const SIZES = [
@@ -20,14 +21,13 @@ async function onboard(page: Page) {
   await page.getByRole("button", { name: /new to Urdu/ }).click();
   await page.getByRole("button", { name: "Next" }).click();
   await page.getByRole("button", { name: /Start lesson 1/ }).click();
-  await skipAccount(page);
   await page.getByText(/Start here/).waitFor();
   await page.evaluate(() => localStorage.removeItem("lafz.e2e"));
 }
 
 for (const size of SIZES) {
   test(`store screenshots ${size.dir}`, async ({ browser }, info) => {
-    test.skip(!process.env.STORE || info.project.name !== "iphone");
+    test.skip(!process.env.STORE);
     const ctx = await browser.newContext({ viewport: { width: size.width, height: size.height }, deviceScaleFactor: size.scale, isMobile: true, hasTouch: true, reducedMotion: "reduce", baseURL: info.project.use.baseURL });
     const page = await ctx.newPage();
     const dir = path.join("store", "screenshots", size.dir);
@@ -60,8 +60,9 @@ for (const size of SIZES) {
     await page.goto("./");
     await page.getByRole("button", { name: /Read/ }).click();
     await shot("read-mode");
-    await page.goto("./insights/");
-    await shot("insights");
+    await page.goto("./lesson/u18-l2/");
+    for (let i = 0; i < 6 && !(await page.getByText("dil-e-nadaan tujhe hua kya hai").first().isVisible()); i++) await page.locator("footer").getByRole("button", { name: "Got it" }).click();
+    await shot("poetry-ghalib");
     await ctx.close();
   });
 }

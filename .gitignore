@@ -18,3 +18,4 @@ next-env.d.ts
 e2e/screenshots/
 .voice-trial/
 native-www/
+test-results-native/

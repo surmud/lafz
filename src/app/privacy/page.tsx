@@ -1,15 +1,24 @@
 import Link from "next/link";
 import { Contact, H2, LegalPage } from "@/components/LegalPage";
+import { config } from "@/lib/config";
 
 export const metadata = { title: "Privacy · Lafz" };
 
 export default function Privacy() {
   return (
-    <LegalPage title="Privacy" updated="18 November 2026">
-      <p>
-        Short version: Lafz keeps your learning on your own device. There are no ads and no tracking, and nothing is sold. A
-        few optional features send data, and only when you turn them on.
-      </p>
+    <LegalPage title="Privacy" updated="21 November 2026">
+      {config.native ? (
+        <p>
+          Short version: <strong>the Lafz app collects no data.</strong> Your learning stays on your phone. There are no
+          ads, no tracking, no accounts and no analytics in the app, and nothing is sold.
+        </p>
+      ) : (
+        <p>
+          Short version: Lafz keeps your learning on your own device. There are no ads and no tracking, and nothing is
+          sold. A few optional features on the website send data, and only when you turn them on.{" "}
+          <strong>The iPhone app collects no data at all</strong>: it has no sign-in, no tips and no statistics.
+        </p>
+      )}
 
       <H2>On your device (always)</H2>
       <p>
@@ -18,6 +27,15 @@ export default function Privacy() {
         under <strong>Me → Your data → Erase everything on this device</strong>.
       </p>
 
+      {config.native ? (
+        <>
+          <H2>Accounts, tips and statistics</H2>
+          <p>
+            The iPhone app has no sign-in, no tips and no statistics. (The website at surmud.github.io/lafz offers optional
+            sign-in to sync progress; it&apos;s covered below for completeness and does not apply to the app.)
+          </p>
+        </>
+      ) : null}
       <H2>If you sign in (optional)</H2>
       <p>
         You can sign in with Google (or Apple, in the iPhone app) to back up your progress and use it on another device. If
@@ -44,7 +62,11 @@ export default function Privacy() {
 
       <H2>Other services Lafz talks to</H2>
       <ul className="list-disc pl-5">
-        <li>The website is hosted on GitHub Pages, which keeps standard server logs (such as IP addresses).</li>
+        <li>
+          {config.native
+            ? "The app bundles all its lessons and audio, so normal use needs no network at all."
+            : "The website is hosted on GitHub Pages, which keeps standard server logs (such as IP addresses)."}
+        </li>
         <li>
           Optional on-device AI (smart search, and speech recognition where your browser lacks it) downloads open models from
           jsDelivr and Hugging Face the first time you use it. Those services see a normal download request. Your words and

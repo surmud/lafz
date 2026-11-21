@@ -1,11 +1,13 @@
 // Tiny static server that serves ./out under /lafz, mimicking GitHub Pages.
+// SERVE_ROOT=native-www SERVE_BASE= serves the native (Capacitor) bundle at / instead.
 import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
 import zlib from "node:zlib";
 
 const port = Number(process.argv[2] ?? 4173);
-const root = path.resolve("out");
+const root = path.resolve(process.env.SERVE_ROOT ?? "out");
+const base = process.env.SERVE_BASE ?? "/lafz";
 const types = {
   ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css",
   ".json": "application/json", ".mp3": "audio/mpeg", ".svg": "image/svg+xml", ".png": "image/png",
@@ -17,11 +19,11 @@ http
   .createServer((req, res) => {
     const url = new URL(req.url ?? "/", "http://x");
     let p = decodeURIComponent(url.pathname);
-    if (!p.startsWith("/lafz")) {
-      res.writeHead(302, { Location: "/lafz/" });
+    if (base && !p.startsWith(base)) {
+      res.writeHead(302, { Location: `${base}/` });
       return res.end();
     }
-    p = p.slice("/lafz".length) || "/";
+    p = p.slice(base.length) || "/";
     let file = path.join(root, p);
     if (!file.startsWith(root)) {
       res.writeHead(403);
@@ -56,4 +58,4 @@ http
     res.writeHead(200, { "Content-Type": type, "Content-Length": data.length, "Accept-Ranges": "bytes", "Cache-Control": "max-age=600" });
     res.end(data);
   })
-  .listen(port, () => console.log(`serving out/ at http://localhost:${port}/lafz/`));
+  .listen(port, () => console.log(`serving ${root} at http://localhost:${port}${base}/`));

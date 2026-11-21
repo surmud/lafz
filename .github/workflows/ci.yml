@@ -32,6 +32,9 @@ jobs:
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
       - run: npm run e2e
+      # The App Store build: no sign-in, tips or statistics; works offline from its bundle.
+      - run: npm run build:native-www
+      - run: npm run e2e:native
       - name: Upload persona screenshots
         if: always()
         uses: actions/upload-artifact@v4

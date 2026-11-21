@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { accountsEnabled } from "@/lib/config";
 import { TopBar } from "./ui";
 
 /** Plain prose pages: privacy, terms, account deletion, credits. */
@@ -13,7 +14,10 @@ export function LegalPage({ title, updated, children }: { title: string; updated
         <nav aria-label="More" className="mt-6 flex flex-wrap gap-x-4 gap-y-2 border-t-2 border-line pt-4 text-sm">
           <Link className="underline" href="/privacy/">Privacy</Link>
           <Link className="underline" href="/terms/">Terms</Link>
-          <Link className="underline" href="/delete-account/">Delete your account</Link>
+          {accountsEnabled() ? (
+            <Link className="underline" href="/delete-account/">Delete your account</Link>
+          ) : null}
+          <Link className="underline" href="/support/">Help</Link>
           <Link className="underline" href="/credits/">Credits</Link>
         </nav>
       </main>

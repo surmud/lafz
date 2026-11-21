@@ -7,7 +7,7 @@ import { answerStep, freshStart, skipAccount } from "./helpers";
 const SCREENS = [
   "", "unit/u01/", "unit/u14/", "unit/r01/", "lesson/u01-l1/", "lesson/u13-l1/", "lesson/r01-l1/", "boss/u01/", "story/u03/", "story/r08/",
   "stories/", "review/", "practice/", "practice/trouble/", "listen/", "shadow/", "find/", "grammar/", "phrasebook/", "insights/",
-  "family/", "voice/u02/", "me/", "read/", "placement/", "pack/eid-next-week/", "unit/u03/sheet/", "privacy/", "terms/", "delete-account/", "credits/",
+  "family/", "voice/u02/", "me/", "read/", "placement/", "pack/eid-next-week/", "unit/u03/sheet/", "privacy/", "terms/", "delete-account/", "credits/", "support/",
 ];
 
 async function onboard(page: Page) {

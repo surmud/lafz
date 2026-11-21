@@ -8,7 +8,8 @@ import type { Snapshot } from "@/engine/skills";
  * What is sent is the Snapshot the learner can read on that page (counts and rates, no names, no
  * text, no recordings), a random install id, and a short list of event names with timestamps.
  */
-export const ENDPOINT: string = process.env.NEXT_PUBLIC_TELEMETRY_URL ?? "";
+/** The App Store build collects nothing ("Data Not Collected"), so statistics are web-only. */
+export const ENDPOINT: string = process.env.NEXT_PUBLIC_NATIVE === "1" ? "" : (process.env.NEXT_PUBLIC_TELEMETRY_URL ?? "");
 const KEY = "lafz.telemetry";
 const MAX_EVENTS = 100;
 

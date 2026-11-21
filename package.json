@@ -16,8 +16,12 @@
     "check": "npm run lint && npm run typecheck && npm run test && npm run content:check",
     "e2e": "playwright test",
     "budget": "node scripts/bundle-budget.mjs",
-    "build:native": "rm -rf native-www && NEXT_PUBLIC_NATIVE=1 next build && NEXT_PUBLIC_NATIVE=1 node scripts/postbuild.mjs && mv out native-www && cap sync",
-    "native:assets": "capacitor-assets generate --ios --android --assetPath native-assets --iconBackgroundColor '#0f7a73' --iconBackgroundColorDark '#0f7a73' --splashBackgroundColor '#fbf4e8' --splashBackgroundColorDark '#17110e'"
+    "build:native": "npm run build:native-www && cap sync",
+    "native:assets": "capacitor-assets generate --ios --android --assetPath native-assets --iconBackgroundColor '#0f7a73' --iconBackgroundColorDark '#0f7a73' --splashBackgroundColor '#fbf4e8' --splashBackgroundColorDark '#17110e'",
+    "e2e:native": "playwright test -c playwright.native.config.ts",
+    "ios:archive": "bash scripts/ios-upload.sh archive",
+    "ios:upload": "bash scripts/ios-upload.sh upload",
+    "build:native-www": "rm -rf native-www && mv out out-web-tmp 2>/dev/null; NEXT_PUBLIC_NATIVE=1 next build && NEXT_PUBLIC_NATIVE=1 node scripts/postbuild.mjs && mv out native-www; mv out-web-tmp out 2>/dev/null; true"
   },
   "dependencies": {
     "@capacitor/app": "^8.1.2",
